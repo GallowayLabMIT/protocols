@@ -11,7 +11,7 @@ Time estimate:
  5. **If staining nuclear proteins**, change solution and incubate cells in 0.5% PBS/Tween for **1 hour** to **overnight** at 4 degrees C.
 
 ## Notes
- 1. Never remove all of the media from the cells--they will dry and absorb antibody in a non-specific way, thereby skewing your results.
+ 1. Never remove all of the media from the cells-they will dry and absorb antibody in a non-specific way, thereby skewing your results.
  2. Do not breathe in the PFA; it is toxic!
  3. If mounting, try to avoid bubbles in the final step. Leave some solution still on your slides so the cells do not dry and carefully dispense 2-3 drops of the solution, very carefully putting the coverslip on your slide.
  4. Unless otherwise noted, everything is performed at room temperature.
