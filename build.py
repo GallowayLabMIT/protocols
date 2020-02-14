@@ -48,6 +48,13 @@ def update_toc(directory):
                     sidebar_ul.insert(0, new_tag)
                 else:
                     sidebar_ul.append(new_tag)
+            
+            # Add a link to the generated PDF
+            pdf_link = soup.new_tag('a',
+                href=os.path.splitext(filename)[0] + '.pdf')
+            pdf_link.string = 'PDF version'
+            soup.find('div', {'class':'main'}).append(pdf_link)
+
             with open(os.path.join(directory, filename), 'wb') as f:
                 f.write(soup.prettify('utf-8'))
         
@@ -84,10 +91,11 @@ if __name__ == '__main__':
         # Create the output path for this folder
         output_path = os.path.join('output',
                 os.path.relpath(root, 'docs'))
-        # Convert each md file
+        # Convert each md file, into HTML and PDF files
         for file in files:
             (filename, extension) = os.path.splitext(file)
             output_filename = os.path.join(output_path, filename + '.html')
+            pdf_filename = os.path.join(output_path, filename + '.pdf')
             if extension == '.md':
                 subprocess.run(['pandoc',
                     os.path.join(root, file),
@@ -95,5 +103,9 @@ if __name__ == '__main__':
                     '--self-contained', '--resource-path=pandoc-toc-sidebar',
                     '-B', 'docs/nav', '--toc', '-o',
                     output_filename])
+                subprocess.run(['pandoc',
+                    os.path.join(root, file),
+                    '-V', 'geometry:margin=1in', '-o',
+                    pdf_filename])
         # Fixup the ToCs
         update_toc(output_path)
