@@ -1,10 +1,5 @@
 % Galloway Lab Protocols
-# Galloway lab protocols
 
-## Protocols
+The _(temporary)_ test home of the Galloway Lab protocols.
 
----
-
-### Tissue Culture
-[Adherent cell staining](protocols/tc/adherent_staining.html)
-
+You can use the top navbar to navigate, or start off with some [protocols](protocols/index.html).
