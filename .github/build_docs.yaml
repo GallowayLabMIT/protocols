@@ -1,0 +1,17 @@
+name: CI
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Install dependencies
+      run: sudo apt install texlive-common pandoc --no-install-recommends
+    - name: Install Python dependencies
+      run: pip install beautifulsoup4
+    - name: Build documentation
+      run: python ./build.py
