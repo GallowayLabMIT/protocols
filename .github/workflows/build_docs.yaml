@@ -12,8 +12,8 @@ jobs:
     - name: Install dependencies
       run: |
           sudo apt-get update
-          sudo apt-get install texlive-full pandoc --no-install-recommends
+          sudo apt-get install texlive-base pandoc --no-install-recommends
     - name: Install Python dependencies
-      run: pip install beautifulsoup4
+      run: pip3 install beautifulsoup4
     - name: Build documentation
-      run: python ./build.py
+      run: python3 ./build.py
