@@ -19,5 +19,6 @@ jobs:
       run: python3 ./build.py
     - name: Upload files
       run: |
+          eval $(ssh-agent -s)
           ssh-add <(echo "{{ secrets.ssh_private_key }}")
           scp output/* {{ secrets.server_destination }}:
