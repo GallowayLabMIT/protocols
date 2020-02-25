@@ -17,3 +17,7 @@ jobs:
       run: pip3 install beautifulsoup4
     - name: Build documentation
       run: python3 ./build.py
+    - name: Upload files
+      run: |
+          ssh-add <(echo "{{ secrets.ssh_private_key }}")
+          scp output/* {{ secrets.server_destination }}:
