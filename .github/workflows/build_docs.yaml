@@ -23,7 +23,7 @@ jobs:
           echo "$HOST_KEY" > ~/.ssh/known_hosts
           eval $(ssh-agent -s)
           ssh-add <(echo "$PRIVATE_KEY")
-          scp output/* ${{ secrets.server_destination }}:
+          scp -r output ${{ secrets.server_destination }}:
       env:
           PRIVATE_KEY: ${{ secrets.ssh_private_key }}
           HOST_KEY: ${{ secrets.ssh_host_key }}
