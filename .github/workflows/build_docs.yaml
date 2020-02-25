@@ -22,6 +22,6 @@ jobs:
           eval $(ssh-agent -s)
 
           ssh-add <(echo "$PRIVATE_KEY")
-          scp output/* {{ secrets.server_destination }}:
+          scp output/* ${{ secrets.server_destination }}:
       env:
           PRIVATE_KEY: ${{ secrets.ssh_private_key }}
