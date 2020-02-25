@@ -2,6 +2,9 @@ import shutil
 import os
 import subprocess
 from bs4 import BeautifulSoup
+import argparse
+
+parser = argparse.ArgumentParser(description="Generates HTML and PDFs from Markdown files")
 
 def update_toc(directory):
     """
@@ -74,7 +77,6 @@ if __name__ == '__main__':
     subprocess.run(['pandoc', 'docs/index.md',
         '--template=pandoc-toc-sidebar/toc-sidebarL.html',
         '-B', 'docs/nav',
-        '--self-contained', '--resource-path=pandoc-toc-sidebar',
         '-o', 'output/index.html'])
     # Recursively walk, converting md files as we go
     for root, dirs, files in os.walk('docs'):
@@ -100,7 +102,6 @@ if __name__ == '__main__':
                 subprocess.run(['pandoc',
                     os.path.join(root, file),
                     '--template=pandoc-toc-sidebar/toc-sidebarL.html',
-                    '--self-contained', '--resource-path=pandoc-toc-sidebar',
                     '-B', 'docs/nav', '--toc', '-o',
                     output_filename])
                 subprocess.run(['pandoc',
