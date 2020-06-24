@@ -4,8 +4,10 @@ import subprocess
 import argparse
 
 parser = argparse.ArgumentParser(description="Generates HTML and PDFs from Markdown files")
+parser.add_argument('--skip-latex', action='store_true')
 
 if __name__ == '__main__':
+    args = parser.parse_args()
     # Remove the output folder if it exists and recreate it
     if os.path.isdir('output'):
         shutil.rmtree('output')
@@ -14,5 +16,6 @@ if __name__ == '__main__':
     os.mkdir('./output/html')
     # Run sphinx
     subprocess.run(['sphinx-build', '-b', 'html', 'docs', 'output/html'])
-    subprocess.run(['sphinx-build', '-M', 'latexpdf', 'docs', 'output/latex'])
-    shutil.copyfile('output/latex/latex/gallowaylabdocumentation.pdf', 'output/html/galloway_documentation.pdf')
+    if not args.skip_latex:
+        subprocess.run(['sphinx-build', '-M', 'latexpdf', 'docs', 'output/latex'])
+        shutil.copyfile('output/latex/latex/gallowaylabdocumentation.pdf', 'output/html/galloway_documentation.pdf')

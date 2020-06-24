@@ -12,3 +12,8 @@ python build.py
 ```
 
 This builds both the HTML and the PDF versions.
+
+To skip PDF building (for example, if you do not have a local LaTeX install), run
+```
+python build.py --skip-latex
+```
