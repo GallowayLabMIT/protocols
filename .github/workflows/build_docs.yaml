@@ -16,7 +16,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
-        ython-version: 3.7
+        python-version: 3.7
     - name: Install Python dependencies
       run: pip install -U sphinx; pip install sphinx-rtd-theme
     - name: Build documentation
