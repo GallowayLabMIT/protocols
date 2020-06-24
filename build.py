@@ -15,7 +15,8 @@ if __name__ == '__main__':
     os.mkdir('./output/latex')
     os.mkdir('./output/html')
     # Run sphinx
-    subprocess.run(['sphinx-build', '-b', 'html', 'docs', 'output/html'])
+    python -m sphinx.cmd.build
+    subprocess.run(['python3', '-m', 'sphinx.cmd.build', '-b', 'html', 'docs', 'output/html'])
     if not args.skip_latex:
-        subprocess.run(['sphinx-build', '-M', 'latexpdf', 'docs', 'output/latex'])
+        subprocess.run(['python3', '-m', 'sphinx.cmd.build', '-M', 'latexpdf', 'docs', 'output/latex'])
         shutil.copyfile('output/latex/latex/gallowaylabdocumentation.pdf', 'output/html/galloway_documentation.pdf')

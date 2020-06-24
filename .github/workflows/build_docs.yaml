@@ -13,9 +13,8 @@ jobs:
       run: |
           sudo apt-get update
           sudo apt-get install texlive-base texlive-latex-base lmodern texlive-fonts-recommended pandoc --no-install-recommends
-          sudo apt-get install python3-sphinx
     - name: Install Python dependencies
-      run: pip3 install sphinx-rtd-theme
+      run: pip3 install -U sphinx; sphinx-rtd-theme
     - name: Build documentation
       run: python3 ./build.py
     - name: Upload files
