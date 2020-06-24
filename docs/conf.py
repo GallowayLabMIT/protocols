@@ -12,7 +12,12 @@
 #
 import os
 import sys
+import time
 sys.path.insert(0, os.path.abspath('./_ext'))
+
+if hasattr(time, 'tzset'):
+    os.environ['TZ'] = 'US/Eastern'
+    time.tzset()
 
 
 # -- Project information -----------------------------------------------------
@@ -30,6 +35,7 @@ author = 'Galloway Lab'
 extensions = [
     'sphinx_rtd_theme',
     'time_estimate',
+    'sphinx_last_updated_by_git',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
