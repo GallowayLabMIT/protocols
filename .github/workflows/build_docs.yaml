@@ -14,7 +14,7 @@ jobs:
           sudo apt-get update
           sudo apt-get install texlive-base texlive-latex-base lmodern texlive-fonts-recommended pandoc --no-install-recommends
     - name: Install Python dependencies
-      run: pip3 install beautifulsoup4
+      run: pip3 install sphinx sphinx-rtd-theme
     - name: Build documentation
       run: python3 ./build.py
     - name: Upload files
@@ -23,7 +23,7 @@ jobs:
           echo "$HOST_KEY" > ~/.ssh/known_hosts
           eval $(ssh-agent -s)
           ssh-add <(echo "$PRIVATE_KEY")
-          scp -r output ${{ secrets.server_destination }}:
+          scp -r output/html ${{ secrets.server_destination }}:
       env:
           PRIVATE_KEY: ${{ secrets.ssh_private_key }}
           HOST_KEY: ${{ secrets.ssh_host_key }}
