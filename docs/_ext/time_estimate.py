@@ -8,19 +8,30 @@ from sphinx.util.docutils import SphinxDirective
 class time_estimate(nodes.Admonition, nodes.Element):
     pass
 
-class TimeEstimateDirective(BaseAdmonition):
-    node_class = time_estimate
 
+class TimeEstimateDirective(SphinxDirective):
+    # this enables content in the directive
+    has_content = True
+
+    def run(self):
+        estimate_node = time_estimate('\n'.join(self.content))
+        print(self.content)
+        print(self.content.data[0])
+        estimate_node += nodes.title('Estimated time', 'Estimated time: {}'.format(self.content.data[0]))
+        del self.content.data[0]
+        self.state.nested_parse(self.content, self.content_offset, estimate_node)
+        return [estimate_node]
 
 def visit_time_estimate(self, node, name=''):
+    self.visit_admonition(node)
     if not isinstance(node[0], nodes.title):
-        node.insert(0, nodes.title('time_estimate', _('Estimated time')))
+        node.insert(0, nodes.title('time', _('Estimated time')))
 
 def depart_time_estimate(self, node=None):
     self.depart_admonition(node)
 
 def setup(app):
-    app.add_directive('time_estimate', TimeEstimateDirective)
+    app.add_directive('time', TimeEstimateDirective)
 
     app.add_node(time_estimate,
         html=(visit_time_estimate, depart_time_estimate),

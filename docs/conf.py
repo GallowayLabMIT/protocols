@@ -10,14 +10,14 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
-# import os
-# import sys
-# sys.path.insert(0, os.path.abspath('.'))
+import os
+import sys
+sys.path.insert(0, os.path.abspath('./_ext'))
 
 
 # -- Project information -----------------------------------------------------
 
-project = 'Galloway Lab Documentation'
+project = 'Galloway Lab\nDocumentation'
 copyright = '2020, Galloway Lab'
 author = 'Galloway Lab'
 
@@ -28,6 +28,8 @@ author = 'Galloway Lab'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+    'sphinx_rtd_theme',
+    'time_estimate',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -50,3 +52,31 @@ html_theme = 'sphinx_rtd_theme'
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+
+html_css_files = [
+    'css/custom.css'
+]
+
+# sphinx-rtd options
+html_theme_options = {
+    'collapse_navigation': False,
+    'prev_next_buttons_location': None,
+    'style_nav_header_background': '#2c6854'
+}
+
+latex_elements = {
+# The paper size ('letterpaper' or 'a4paper').
+    'papersize': 'letterpaper',
+
+# The font size ('10pt', '11pt' or '12pt').
+    'pointsize': '11pt',
+
+# Additional stuff for the LaTeX preamble.
+    'preamble': r'''
+        \usepackage{charter}
+        \usepackage[defaultsans]{lato}
+        \usepackage{inconsolata}
+        
+        \newenvironment{sphinxtime}[1]{\begin{sphinxlightbox}}{\end{sphinxlightbox}}
+    ''',
+}
