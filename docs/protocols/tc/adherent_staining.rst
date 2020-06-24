@@ -2,13 +2,6 @@
 Adherent Cell Staining
 ======================
 
-.. time:: 1 hr
-
-.. warning::
-	Watch out!
-
-Time estimate: 
-
 Protocol
 =========
 1. Remove media and add cold 4% paraformaldehyde (PFA) *(in fume hood)*

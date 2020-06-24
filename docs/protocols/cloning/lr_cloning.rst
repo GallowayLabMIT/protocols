@@ -2,8 +2,7 @@
 LR cloning
 ===========
 
-
-Time estimate: 1 hour
+.. time:: 1 hr
 
 Protocol
 ========
