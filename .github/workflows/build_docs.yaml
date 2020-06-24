@@ -13,10 +13,14 @@ jobs:
       run: |
           sudo apt-get update
           sudo apt-get install texlive-base texlive-latex-base lmodern texlive-fonts-recommended pandoc --no-install-recommends
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        ython-version: 3.7
     - name: Install Python dependencies
-      run: pip3 install -U sphinx; pip3 install sphinx-rtd-theme
+      run: pip install -U sphinx; pip install sphinx-rtd-theme
     - name: Build documentation
-      run: python3 ./build.py
+      run: python ./build.py
     - name: Upload files
       run: |
           mkdir ~/.ssh
