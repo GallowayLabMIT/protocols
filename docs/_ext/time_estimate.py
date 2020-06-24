@@ -2,6 +2,7 @@ from docutils import nodes
 from docutils.parsers.rst import Directive
 from docutils.parsers.rst.directives.admonitions import BaseAdmonition
 
+import sphinx.locale
 from sphinx.locale import _
 from sphinx.util.docutils import SphinxDirective
 
@@ -15,17 +16,22 @@ class TimeEstimateDirective(SphinxDirective):
 
     def run(self):
         estimate_node = time_estimate('\n'.join(self.content))
-        print(self.content)
-        print(self.content.data[0])
-        estimate_node += nodes.title('Estimated time', 'Estimated time: {}'.format(self.content.data[0]))
-        del self.content.data[0]
+        #print(self.content)
+        #print(self.content.data[0])
+        #estimate_node += nodes.title('Estimated time', 'Estimated time: {}'.format(self.content.data[0]))
+        #del self.content.data[0]
         self.state.nested_parse(self.content, self.content_offset, estimate_node)
         return [estimate_node]
 
 def visit_time_estimate(self, node, name=''):
-    self.visit_admonition(node)
-    if not isinstance(node[0], nodes.title):
-        node.insert(0, nodes.title('time', _('Estimated time')))
+    sphinx.locale.admonitionlabels['admonition-time'] = 'Estimated time'
+    try:
+        self.visit_admonition(node, 'admonition-time')
+    except TypeError:
+        self.visit_admonition(node)
+        self.body.append('{Estimated time:}')
+    #if not isinstance(node[0], nodes.title):
+    #    node.insert(0, nodes.title('time', _('Estimated time')))
 
 def depart_time_estimate(self, node=None):
     self.depart_admonition(node)

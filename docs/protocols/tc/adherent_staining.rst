@@ -3,8 +3,6 @@ Adherent Cell Staining
 ======================
 
 .. time:: 1 hr
-	Blah blah blah
-	foo foo foo
 
 .. warning::
 	Watch out!

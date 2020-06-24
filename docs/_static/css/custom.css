@@ -11,3 +11,15 @@
 #icon-home {
 	font-family: 'Electrolize';
 }
+
+.rst-content .admonition-time {
+	background-color: #d2f8ea;
+}
+
+.rst-content .admonition-time .admonition-title {
+	background-color: #2c6854;
+}
+
+.rst-content .admonition-time .admonition-title:before {
+	content: '\f017';
+}
