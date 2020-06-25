@@ -4,7 +4,7 @@ Galloway Lab Protocols
 ==========================
 This is the home of all of the Galloway Lab protocols!
 
-Click `here <galloway_documentation.pdf>`_ to access the PDF version.
+Click `here <galloway_lab_protocols.pdf>`_ to access the PDF version.
 
 .. toctree::
    :maxdepth: 2

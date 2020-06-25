@@ -18,4 +18,4 @@ if __name__ == '__main__':
     subprocess.run(['python', '-m', 'sphinx.cmd.build', '-b', 'html', 'docs', 'output/html'])
     if not args.skip_latex:
         subprocess.run(['python', '-m', 'sphinx.cmd.build', '-M', 'latexpdf', 'docs', 'output/latex'])
-        shutil.copyfile('output/latex/latex/gallowaylabdocumentation.pdf', 'output/html/galloway_documentation.pdf')
+        shutil.copyfile('output/latex/latex/gallowaylabprotocols.pdf', 'output/html/galloway_lab_protocols.pdf')
