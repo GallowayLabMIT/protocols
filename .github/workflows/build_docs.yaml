@@ -21,16 +21,6 @@ jobs:
       run: pip install -U sphinx; pip install sphinx-rtd-theme sphinx-last-updated-by-git
     - name: Build documentation
       run: python ./build.py
-    - name: Upload files
-      run: |
-          mkdir ~/.ssh
-          echo "$HOST_KEY" > ~/.ssh/known_hosts
-          eval $(ssh-agent -s)
-          ssh-add <(echo "$PRIVATE_KEY")
-          scp -r output/html ${{ secrets.server_destination }}:
-      env:
-          PRIVATE_KEY: ${{ secrets.ssh_private_key }}
-          HOST_KEY: ${{ secrets.ssh_host_key }}
     - name: Deploy to gh-pages
       uses: peaceiris/actions-gh-pages@v3
       with:
