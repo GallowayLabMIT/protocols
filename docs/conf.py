@@ -22,7 +22,7 @@ if hasattr(time, 'tzset'):
 
 # -- Project information -----------------------------------------------------
 
-project = 'Galloway Lab\nDocumentation'
+project = 'Galloway Lab Protocols'
 copyright = '2020, Galloway Lab. Shared under the Creative Commons 4.0 Attribution International license'
 author = 'Galloway Lab'
 
