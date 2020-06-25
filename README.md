@@ -1,4 +1,4 @@
-# Galloway Lab protocols and media recipes.
+# Galloway Lab protocols
 
 ## Installation and building
 This documentation is build with Sphinx. To build locally, install Python 3,
@@ -26,10 +26,10 @@ This documentation is also automatically build and published to [](gallowaylabmi
 Protocol files are written in the [reStructuredText format](https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html), a relatively lightweight markup language. See the linked primer for details on how to make tables, link images, or link to other protocols. All protocols are located in the `docs` folder.
 
 This project has one custom directive: an estimated time directive. To use it, simply write:
-``
+```
 .. time:: 35 billion years
 
-``
+```
 The empty line after the directive is important! Remember that reStructuredText directives need that empty line to distinguish them from other text.
 
 ### Adding a new protocol

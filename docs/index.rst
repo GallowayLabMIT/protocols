@@ -1,8 +1,8 @@
 .. Galloway Lab Documentation documentation master file.
 
-Galloway Lab Documentation
+Galloway Lab Protocols
 ==========================
-This is the  *(test)* home of all of the Galloway Lab documentation!
+This is the home of all of the Galloway Lab protocols!
 
 Click `here <galloway_documentation.pdf>`_ to access the PDF version.
 
@@ -11,11 +11,3 @@ Click `here <galloway_documentation.pdf>`_ to access the PDF version.
    :glob:
    
    */index
-
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`search`
