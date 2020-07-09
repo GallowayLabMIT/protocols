@@ -1,6 +1,6 @@
 # Galloway Lab protocols
 
-## Installation and building
+## Locally building the protocols.
 This documentation is build with Sphinx. To build locally, install Python 3,
 then do:
 ```
@@ -64,7 +64,7 @@ Subsection name
    
    *
 ```
-This will auto-include all other `*.rst` files present in the same directory. If you are doing further nesting, you may want to include the glob `*/index` to include all subdirectories as well. An example of this is in [docs\protocols\index.rst](docs\protocols\index.rst).
+This will auto-include all other `*.rst` files present in the same directory. If you are doing further nesting, you may want to include the glob `*/index` to include all subdirectories as well. An example of this is in [docs/protocols/index.rst](docs/protocols/index.rst).
 
 
 
