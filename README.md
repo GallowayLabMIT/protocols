@@ -18,7 +18,17 @@ run:
 python build.py --skip-latex
 ```
 
-Build output is in the folder `output`. The HTML version can be loaded by clicking on `output\html\index.html`
+Build output is in the folder `output`. The HTML version can be loaded by clicking on `output\html\index.html`.
+
+If you run into strange Sphinx errors upon building, the output directory may have been corrupted. In this case, close any
+programs (e.g. Windows Explorer, Adobe Acrobat) accessing the built documentation and run:
+```
+python build.py --force-rebuild
+```
+
+This command will first remove the `output` directory before continuing.
+
+## Automatic protocol builds
 
 This documentation is also automatically build and published to [https://gallowaylabmit.github.io/protocols](https://gallowaylabmit.github.io/protocols) on every push.
 
