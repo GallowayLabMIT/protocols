@@ -20,7 +20,7 @@ python build.py --skip-latex
 
 Build output is in the folder `output`. The HTML version can be loaded by clicking on `output\html\index.html`
 
-This documentation is also automatically build and published to [](gallowaylabmit.github.io/protocols) on every push.
+This documentation is also automatically build and published to [https://gallowaylabmit.github.io/protocols](https://gallowaylabmit.github.io/protocols) on every push.
 
 ## Contributing
 Protocol files are written in the [reStructuredText format](https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html), a relatively lightweight markup language. See the linked primer for details on how to make tables, link images, or link to other protocols. All protocols are located in the `docs` folder.
