@@ -24,6 +24,21 @@ Protocol
    flasks should be filled to at most 30% the listed volume. 
 3. Before leaving for the day, incoluate **20 mL** LB/antibiotic cultures with **400 uL** of the 5 mL culture.
 4. The following morning, use the NanoDrop to calculate the OD of the overnight cultures. Inoculate large
-   flasks to an OD of ???? (this should be around a 1:50 dilution).
-5. Grow cultures until an OD of 0.6. Sample every half hour to an hour.
+   flasks to an OD600 of 0.075 (e.g. three doublings to get to 0.6).
+
+.. note::
+    Remember to take a sample of LB/TB media to properly blank the NanoDrop!
+    
+    Induction to OD600 0.075 means that each 20 mL culture can induce around 1L of TB media, as
+    the overnight OD600 should be around 5-10.
+    If you are inducing more than 1L, you may need to make multiple 20 mL cultures.
+    
+    Calculate OD's with the simple dilution formula:
+    
+    .. math::
+        
+        \text{mL starter culture} = \frac{\text{mL bulk culture} \cdot 0.075}{\text{OD of starter culture}}
+        
+
+5. Grow cultures until an OD600 of 0.6. Sample every half hour to an hour.
 6. Induce with 0.5 mM sterile-filtered IPTG.
