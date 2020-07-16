@@ -75,7 +75,7 @@ a Python version at least as new as Python 3.5.
 
 If you do not already have a working Python version >= 3.5, use the `standard Python installer <https://www.python.org/>`_.
 
-Then, install Sphinx and the required Sphinx extensions used here using ``pip``.
+Then, install Sphinx and the required Sphinx extensions used here using ``pip`` (enter this into a terminal):
 
 ::
 
@@ -135,8 +135,8 @@ These build functions build the website in the folder ``output/html``. If you wa
 view your locally built website, open the file ``output/html/index.html``.
 
 In the case of strange build errors that seem to be because the output directory has been
-corrupted, you can close any program referencing that folder (e.g. Adobe Acrobat, viewing
-the PDF version) and run:
+corrupted, you can close any program that might be using the output (a common one might
+be Adobe Acrobat, with the generated PDF open) and run:
 
 ::
 
@@ -161,7 +161,7 @@ click the **Add file** dropdown on the right:
   :width: 90%
   :align: center
 
-To edit a through Github, navigate to the file you want to edit, then click the pencil in the upper right
+To edit through Github, navigate to the file you want to edit, then click the pencil in the upper right
 of the file view:
 
 .. image:: img/online_editing.png
@@ -203,7 +203,8 @@ All of the relevant documentation files to edit are stored in the ``docs`` folde
 
 Each subdirectory is included as its own sub-level in the table of contents. This
 hierarchy is derived from the ``index.rst`` that is in each folder. Generally, each
-of these files have the following content:
+of these ``index.rst`` files have the following content; if you create a new
+subdirectory you should generally add this as the ``index.rst`` file:
 
 ::
 
@@ -218,12 +219,9 @@ of these files have the following content:
     */index
     *
 
-Here, ``glob`` means that the * is expanded as a wildcard. The first wildcard search,
-``*/index`` means "include all subdirectories beneath this directory. The
+Here, ``glob`` means that the ``*`` is expanded as a wildcard. The first wildcard search,
+``*/index`` means "include all subdirectories beneath this directory". The
 second wildcard search ``*`` means "include all other ``.rst`` files in this directory.
-
-If you add a new subdirectory,
-you should typically add this as the ``index.rst`` file. 
 
 The current subdirectory layout looks like:
 
@@ -267,7 +265,9 @@ generated that page. That includes this page, so check out this page's source to
   Without wading too deeply into the 
   `holy war <https://softwareengineering.stackexchange.com/questions/57/tabs-versus-spaces-what-is-the-proper-indentation-character-for-everything-in-e>`_,
   tabs vs spaces **does not mean the difference between pressing the space bar vs hitting tab for indentation**, it refers
-  to what character actually gets inserted into the document. Long story short, if your text editor inserts literal tab characters,
+  to what character actually gets inserted into the document when you press the tab button.
+  
+  Long story short, if your text editor inserts literal tab characters,
   there is possible inconsistency between tools and editors; some may display a single tab character as the width of two spaces, some as
   the width of four spaces, and so on. This causes problems. If you set your editor to insert spaces, you still hit tab, but the editor
   inserts some fixed number of spaces, typically four.
@@ -422,7 +422,19 @@ Other options commonly used here are ``hint``, ``important``, ``note``, ``tip``,
 Code
 ~~~~
 
-To insert a codeblock, start an empty line with `::`, followed by an indented block that will be rendered as code.
+To insert a codeblock, start an empty line with ``::``, followed by an indented block that will be rendered as code.
+
+.. admonition:: Example
+
+  The above code example of the time estimation admonition was written as:
+
+  ::
+
+    ::
+
+      .. time::
+
+        2 hours
 
 
 Tables
@@ -487,7 +499,7 @@ If you want to specifically link to other protocols/recipes files, you use the s
 
   :doc:`This <contributor_guide>` is a link to this very document!
 
-as you can see, this is very similar to the external hyperlink, except it has the special `:doc:` before it, which tells Sphinx
+as you can see, this is very similar to the external hyperlink, except it has the special ``:doc:`` before it, which tells Sphinx
 that the document is included in this repository.
 
 If you want to reference a specific subsection of a document, you can set a label and set a reference to it. This is best explained by the
