@@ -4,7 +4,7 @@
 This documentation is build with Sphinx. To build locally, install Python 3,
 then do:
 ```
-pip install sphinx sphinx-rtd-theme
+pip install -U sphinx sphinx-rtd-theme sphinx-last-updated-by-git
 ```
 
 Then, the HTML and PDF documentation can be build with:
