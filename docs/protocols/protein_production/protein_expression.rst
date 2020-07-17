@@ -40,5 +40,9 @@ Protocol
         \text{mL starter culture} = \frac{\text{mL bulk culture} \cdot 0.075}{\text{OD of starter culture}}
         
 
-5. Grow cultures until an OD600 of 0.6. Sample every half hour to an hour.
-6. Induce with 0.5 mM sterile-filtered IPTG.
+5. Grow cultures until an OD600 of 0.6. Sample every half hour to an hour. It should take around 90
+   minutes to 2 hours to reach and OD of 0.6.
+6. Lower the temperature to 30C and induce with 0.5 mM sterile-filtered IPTG.
+7. Let the culture grow for 5-6 hours.
+8. Harvest cells via centrifugation at 4000xg for 30 minutes. At this point, the cell pellet is immediately ready for
+   further protein purification steps. The cell pellet can also be stored at -20C or -80C.

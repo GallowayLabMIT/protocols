@@ -1,6 +1,6 @@
-=============================
-Protein production protocols
-=============================
+===================
+Protein production
+===================
 
 .. toctree::
    :maxdepth: 2
