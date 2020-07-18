@@ -17,6 +17,7 @@ Required solutions
   ===================== ================   ==================
   Component             Concentration        g/L final volume
   ===================== ================   ==================
+  DI water              90%
   HEPES, NaOH to pH 7.2 20mM                    4.766 g
   NaCl                  800 mM                  46.762 g
   Imidazole             20 mM                   1.362 g
@@ -30,6 +31,7 @@ Required solutions
   ===================== ================   ==================
   Component             Concentration        g/L final volume
   ===================== ================   ==================
+  DI water              90%
   HEPES, NaOH to pH 7.2 20mM                    4.766 g
   NaCl                  800 mM                  46.762 g
   Imidazole             300 mM                  20.42 g
@@ -37,6 +39,10 @@ Required solutions
   DTT                   2 mM                    0.3085 g
   Glycerol              10%                     
   ===================== ================   ==================
+
+.. note::
+  Only perform an intial pH, after adding the HEPES to the DI water. It isn't necessary to
+  re-pH after adding the rest of the components.
  
 Protocol
 --------

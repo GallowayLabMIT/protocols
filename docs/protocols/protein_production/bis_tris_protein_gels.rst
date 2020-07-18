@@ -29,7 +29,7 @@ Required stock solutions
   ======================== =================== ==========================
   Component                 Concentration      g/L to final concentration
   ======================== =================== ==========================
-  Ammonium persulfate       10%                 200
+  Ammonium persulfate       10%                 100
   ======================== =================== ==========================
   
 
@@ -69,18 +69,27 @@ Casting protocol
    =======================    ===========  =====================
 
 
+Gel casting setup
+-----------------
+In-lab, we have the ability to cast two gels simultaneous; this is recommended even if you only
+need one, so that you have a backup in case of pouring mishaps.
+
+1. Locate two 0.75mm spacer plates and two short glass plates.
+2. Use ethanol and a Kimwipe to clean both glass surfaces.
+3. Assemble them in the green alignment device.
+4. Lock the two gels into the transparent gel pouring device.
+
 Resolving gel
 ~~~~~~~~~~~~~
 
 1.  Measure 3.75 mL of **1x resolving buffer** per gel to pour.
 2.  Add 25 uL of **10% APS** per gel, mix well.
-3.  Prepare gel casting setup.
-4.  For each gel, add 10 uL **TEMED**, mixing quickly. Pour the gel to the resolving gel height.
+3.  For each gel, add 10 uL **TEMED**, mixing quickly. Pour the gel to the resolving gel height.
     Lightly tap and tilt the gel to remove any bubbles.
-5.  Once done pouring, carefully fill the remaining height with water, making sure the gel-water
+4.  Once done pouring, carefully fill the remaining height with water, making sure the gel-water
     interface stays undisturbed.
-6.  Wait for the polymerization reaction to finish (noticable by a change in refractive index.
-7.  Drain the water by tilting the gel past 90 degrees, and wicking away with a Kimwipe.
+5.  Wait for the polymerization reaction to finish (noticable by a change in refractive index.
+6.  Drain the water by tilting the gel past 90 degrees, and wicking away with a Kimwipe.
 
 Stacking gel
 ~~~~~~~~~~~~

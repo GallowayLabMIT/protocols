@@ -27,7 +27,15 @@ Solutions required
   =================   ===================  ==========================
 
 
-* **200 mM Tris-HCl stock**: 200 mM is 31.52 g/L. Adjust pH to 6.8.
+* **200 mM Tris-HCl stock**:
+
+  =========== =================== ==========================
+  Component     Concentration     g/L to final concentration
+  =========== =================== ==========================
+  Tris-HCl      200 mM                 31.52 g
+  NaOH          Add to pH 6.8
+  =========== =================== ==========================
+
 * **10% SDS stock**: At low temperatures, the SDS may fall out of solution, but will redissolve
   when mixed with the other ingredients. Mix well before transferring.
 * **0.1% bromophenol blue**: 1 mg / mL
