@@ -6,7 +6,7 @@ PlatE transfection
 	FINISH CONVERTING
 
 Day One:
-1.	Seed Plat-E cells onto 6 well plates after gelatin coating. Place in 37oC incubator.
+1.	Seed Plat-E cells onto 6 well plates after gelatin coating. Place in 37°C incubator.
 
 Day Two:
 1.  	Make a mastermix of PEI and Knockout DMEM as follows (MM for 1 well/each virus):
