@@ -9,10 +9,10 @@ Protocol
 1.	Seed confluent 293T cells approximately 1-2 days prior to transfection.  Cells must be ~90% confluent for efficient transfection.
 2.	Make a mastermix of PEI and Knockout DMEM as follows:
 
-	a.	For *one 10cm plate*, add 53.34uls PEI (1mg/ml; 4:1 ratio) TO 1.33mls Knockout DMEM in a 50ml conical, mix, let sit for 5 minutes. 
+	a.	For *one 10cm plate*, add 53.34uls PEI (1mg/ml; 4:1 ratio) TO 1.33mls Knockout DMEM in a 50ml conical, mix, let sit for 5 minutes.
 
 .. important::
-	*Ensure* that you add PEI to the DMEM, *not the other way around!*
+	*Ensure* that you add PEI to KO DMEM, *not the other way around!*
 
 3.	Add DNA to this MM as follows, then mix and wait 15 minutes:
 
