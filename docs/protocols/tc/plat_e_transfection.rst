@@ -3,6 +3,7 @@ Plat-E Retroviral Transduction of MEFs
 ======================================
 
 Plat-Es are a retrovirus packaging line that produce retroviruses that can only infect mouse cells. Plat-E cells contain gag, pol and env genes, allowing retroviral packaging with a single plasmid transfection.
+Supposedly, Plat-E viruses can't be frozen.
 
 Plat-E Transfection
 -------------------
@@ -134,7 +135,7 @@ Day Eight (3 dpi):
 1.	Media change plates to N3 media
 
     a. N3 media = N3 base + BDNF/CNTF/GDNF (1,000X, 10 µg/mL) + FGF10 (10,000X, 100 µg/mL) + *2% FBS (optional)*
-    
+
 2.  **Spike in 1,000X RepSox to N3 media for RR conditions**
 
 
