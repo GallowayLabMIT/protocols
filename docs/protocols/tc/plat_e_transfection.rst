@@ -10,7 +10,7 @@ Plat-E Transfection
 
 Day One (seed Plat-Es):
 
-1.  Seed Plat-E cells at 600k cells/well onto 6 well plates after 0.1% gelatin coating. Place in 37°C incubator.
+1.  Seed Plat-E cells at 1 million cells/well onto 6 well plates after 0.1% gelatin coating (10 min).
 
 .. tip::
 	If starting from frozen, **start growing Plat-E cells 1 week prior** - they will be slow growing at first (don't change culture medium during the first 3 days). Split Plat-Es 4X-6X every 2-3 days when culture reaches 70-90% confluency.
@@ -58,7 +58,10 @@ Day Two (transfect Plat-Es):
 Day Three (Plat-E media change + seed MEFs):
 
 1.	Change with 1.25 mLs fresh media (DMEM + 10% FBS) after 24 hours.
-2.	Seed MEFs at ~5-10K cells per well of 96-well plate. For larger sizes, scale accordingly (e.g. 96-well size is about 1/8 of 12-well, seed ~60K for 12-well).
+2.	Seed MEFs
+
+    i.  Coat wells in 0.1% gelatin for approx. ~10 min.
+    ii. Seed at ~5-10K cells per well of 96-well plate. For larger sizes, scale accordingly (e.g. 96-well size is about 1/8 of 12-well, seed ~60K for 12-well).
 
 
 Day Four (Plat-E media change + infect 1):

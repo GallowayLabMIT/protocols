@@ -19,8 +19,7 @@ Important Tissue Culture Practices
 - In order to minimize contamination and cross contamination, ethanol should be run through the aspirator tip after use.
 - Always check the media and cells before using the BS cabinet - turbid media usually means that the culture is contaminated.
 - If your culture is contaminated:
--------------------------------------
-Discard it immediately in a biohazard waste bin and close and change the bin. Change your gloves immediately. Decontaminate any surfaces the contaminated culture came into contact with using bleach or ethanol. 
-Clean any surfaces in the incubator where the contaminated culture was stored (Do not directly spray ethanol in the incubator, instead wet a kimwipe with ethanol and clean the surface). 
-Check the media bottle you used for the contaminated culture- if suspicious, discard the media. Change gloves again and continue working with the rest of your cultures.
 
+    i.  Discard it immediately in a biohazard waste bin and close and change the bin. Change your gloves immediately. Decontaminate any surfaces the contaminated culture came into contact with using bleach or ethanol.
+    ii. Clean any surfaces in the incubator where the contaminated culture was stored (Do not directly spray ethanol in the incubator, instead wet a Kimwipe with ethanol and clean the surface). 
+    iii. Check the media bottle you used for the contaminated culture - if suspicious, discard the media. Change gloves again and continue working with the rest of your cultures.

@@ -1,15 +1,23 @@
 ==========================
-Adherent Cell Culture 
+Adherent Cell Culture
 ==========================
 
-General culture volumes
+General culture volumes `Link text <https://www.thermofisher.com/us/en/home/references/gibco-cell-culture-basics/cell-culture-protocols/cell-culture-useful-numbers.html>`_
 ------------------------
-- 6-well plate: 2-3mL/well
-- 12-well plate: 1mL/well
-- 24-well plate: 0.5 mL/well
-- 6-cm dish: 3 mL total
-- 10-cm dish: 10 ml total
-- 15-cm dish: 15ml total
+
+============================   =================================================
+**Culture dish/plate/flask**    **Approx. volume media**
+============================   =================================================
+10-cm                           10 mL
+15-cm                           15 mL
+6-well                          2 mL (1-3 mL)
+12-well                         1 mL (1-2 mL)
+24-well                         500 µL (500-1,000 µL)
+96-well                         100 µL (100-200 µL)
+T-75                            10 mL (8-15 mL)
+T-182                           25 mL (>25 mL)
+============================   =================================================
+
 
 General culture handling procedure
 -----------------------------------
@@ -27,24 +35,46 @@ every 2 or 3 days and change media if the cells are not ready to be split or exp
 
 Passaging cells
 ----------------
-- Aspirate away old media.
-- Wash plate with PBS by gently adding PBS to the side of the dish/ plate, not directly on the cells.
-- Aspirate away PBS.
-- Add trypsin to detach cells from the plate (depending on what the cells will be used for, some types of cells do not require trypsin to detach (i.e. HEK)):
-Trypsin should be convering the entire surface area:
+Passage number is an “indicator” of cells age. Every time the cells are detached from one dish and passaged into another dish , the passage number increases by 1.
 
-  - 150uL/well for 24-well
-  - 300uL/well for 12-well
-  - 500uL/well for 6-well
-  - 800uL for 6-cm dish
-  - 1mL for 10-cm dish
-  - 3mL for 15-cm dishand quickly aspirate away
+1.  Aspirate away old media.
+2.  Wash with PBS (*optional*)
 
-- Incubate in 37C incubator for 3-4 min, keep checking cells to avoid over-digestion. Different types of cells will require different incubation periods. The stronger the trypsin (higher %) the faster cells will detach.
-- Neutralize with media that contains FBS.
-- Mix well by pipetting and make sure that all cells are detached.
-- At this point, if needed, take a known volume of cells and count cells using AOPI, Trypan Blue or any other desired method.
-- Seed new dish/ flask with desired number or dilution of cells (make sure cells in the original dish are well resuspended before you take an aliquot to seed the new dish).
-- Cultures should be labeled with cell line name, date, passage number and initials of the owner.
+    i.  Gently add PBS to the side of the dish/plate, not directly on the cells
+    ii. Aspirate away PBS
 
-Passage number: the passage number is an “indicator” of cells age. Every time the cells are detached from one dish and passaged into another dish , the passage number increases by 1.
+.. note::
+    Some types of cells do not require trypsin to detach (e.g. HEK293Ts, Plat-Es). In that case, just pipette up and down until cells detach. This looks like a thin film disappearing from the bottom of the dish/plate/flask.
+
+
+3.  Add 0.05% trypsin (dilute in PBS, DO NOT DILUTE WITH ANYTHING WITH FBS!!!) to detach cells from the plate
+
+    - Trypsin should cover the entire surface area, general volumes are as follows:
+
+    ============================   =================================================
+    **Culture dish/plate/flask**    **Approx. volume 0.05% Trypsin**
+    ============================   =================================================
+    10-cm                           1 mL
+    15-cm                           3 mL
+    6-well                          500 µL/well
+    12-well                         300 µL/well
+    24-well                         150 µL/well
+    96-well                         why are you trying to trypsinize a 96-well o_o
+    T-75                            5 mL
+    T-182                           15 mL
+    ============================   =================================================
+
+    i.  Incubate in 37°C incubator for 3-4 min, keep checking cells to avoid over-digestion.
+
+        - Detached cells look rounded and refractile under the microscope.
+        - Different types of cells will require different incubation periods.
+        - The stronger the trypsin (higher %) the faster cells will detach.
+
+    ii. Neutralize with >2 volumes of media that contains FBS (e.g. neutralize a 1 mL 0.05% trypsin with >2 mL FBS-containing media).
+    iii. Mix well by pipetting and make sure that all cells are detached.
+
+4.  If needed, take a known volume of cells and count cells using hemocytometer.
+5.  Seed new dish/flask with desired number or dilution of cells (make sure cells in the original dish are well resuspended before you take an aliquot to seed the new dish).
+6.  Cultures should be labeled with cell line name, date, passage number and initials of the owner.
+
+    - Certain cell lines also need passage # of antibiotic selection, e.g. "Plat-E, Blast/Puro @ P12"
