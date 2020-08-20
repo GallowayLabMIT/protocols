@@ -75,7 +75,7 @@ Running procedure
 
 3. Briefly heat the protein sample to above 80C for one minute, to ensure full protein
    denaturation.
-4. Place a :ref:`prepared bis-Tris protein gel <bis_tris_protein_gels>`_ in the gel-runner,
+4. Place a :doc:`prepared bis-Tris protein gel <bis_tris_protein_gels>` in the gel-runner,
    and fill both chambers with the prepared 1% MES-SDS running buffer.
 5. Carefully load samples, including a protein standard.
 6. Run the gels at constant current, about 30 mA per mini-gel. The dye band runs around 3-5 kDa, so

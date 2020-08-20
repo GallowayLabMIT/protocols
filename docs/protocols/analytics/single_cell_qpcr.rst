@@ -116,6 +116,7 @@ RNAse-free water                         2.75 uL        264 uL
 ====================================   ==============  =================
 
 .. admonition:: TODO
+
 	Check if the above mixture is diluted with water as written here
 
 i.	….2.5 uL/ rxn….96 rxn+ over= 480 uL

@@ -339,7 +339,7 @@ If you are nesting lists, you must surround nesting levels with blank lines.
 
     * Axe throwing
     * Pizza party
-    * ?????
+    * Other?
   
   * Lab meme sources
 
