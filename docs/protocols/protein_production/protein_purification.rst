@@ -8,41 +8,62 @@ Required solutions
 * **10% PEI**: pH to 7.2
 
 .. note::
-    Do not use these running and elution buffers with normal Ni-NTA His-tag resin!
+    Do not use the cOmplete running and elution buffers with normal Ni-NTA His-tag resin!
     They contain chelating agents that will remove the nickel ions! cOmplete His-tag
     resin is resistant to small concentrations of chelating agents.
 
-* **cOmplete running buffer**:
+* **cOmplete running buffer (native)**:
 
   ===================== ================   ==================
   Component             Concentration        g/L final volume
   ===================== ================   ==================
   DI water              90%
-  HEPES, NaOH to pH 7.2 20mM                    4.766 g
+  HEPES                 20mM                    4.766 g
   NaCl                  800 mM                  46.762 g
   Imidazole             20 mM                   1.362 g
   EDTA                  1 mM                    0.292 g
   DTT                   2 mM                    0.3085 g
   Glycerol              10%                     
-  ===================== ================   ==================
-
-* **cOmplete elution buffer**: 
-
-  ===================== ================   ==================
-  Component             Concentration        g/L final volume
-  ===================== ================   ==================
-  DI water              90%
-  HEPES, NaOH to pH 7.2 20mM                    4.766 g
-  NaCl                  800 mM                  46.762 g
-  Imidazole             300 mM                  20.42 g
-  EDTA                  1 mM                    0.292 g
-  DTT                   2 mM                    0.3085 g
-  Glycerol              10%                     
+  NaOH                  to pH 7.2
   ===================== ================   ==================
 
 .. note::
-  Only perform an intial pH, after adding the HEPES to the DI water. It isn't necessary to
-  re-pH after adding the rest of the components.
+  Perform the pH after all components have been added.
+
+* **cOmplete elution buffer (native)**: 
+
+  ===================== ================   ================== ================================================================
+  Component             Concentration        g/L final volume  Purpose
+  ===================== ================   ================== ================================================================
+  DI water              90%
+  HEPES                 20mM                    4.766 g       Main buffer component
+  NaCl                  800 mM                  46.762 g      High salt maintains protein solubility
+  Imidazole             300 mM                  20.42 g       Prevents non-specific binding to column.
+  EDTA                  1 mM                    0.292 g       Chelating agent, deactivates proteases and other enzymes.
+  DTT                   2 mM                    0.3085 g      Reducing agent, prevents nonspecific cystine crosslinking.
+  Glycerol              10%                                   Prevents hydrophobic protein-protein interactions.
+  NaOH                  to pH 7.2
+  ===================== ================   ================== ================================================================
+
+.. note::
+  Perform the pH after all components have been added.
+
+* **NI-NTA running buffer (native)**:
+
+  ===================== ================   ================== ===================================================================
+  Component             Concentration        g/L final volume Purpose
+  ===================== ================   ================== ===================================================================
+  DI water              90%
+  NaH2PO4               50mM                    6.90 g        Main buffer component.
+  NaCl                  800 mM                  46.762 g      High salt maintains protein solubility.
+  Imidazole             15 mM                   1.022 g       Prevents non-specific binding to column.
+  beta-mercaptoethanol  5 mM                                  Weaker reducing agent, prevents nonspecific cystine crosslinking.
+  Glycerol              10%                                   Prevents hydrophobic protein-protein interactions.
+  NaOH                  to pH 8.0
+  ===================== ================   ================== ===================================================================
+
+.. note::
+  Perform the pH after all components have been added.
  
 Protocol
 --------
