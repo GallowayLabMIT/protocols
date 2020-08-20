@@ -99,6 +99,7 @@ Day Four (Plat-E media change + infect 1):
     You can either 1.) filter each virus then mix together (minimizes filtering) or 2.) mix altogether then filter (standardizes mixing). Because filtering is the most annoying step, it is advised to minimized filtering.
 
 2.	Examples of mixing AFTER filtering
+
     i.  Example - 6F alone (96-well = 100 µl total/96-well):
 
         *For 1 rxn, 96-well*: 68.25 µL 6F (= 11.375 µL PER FACTOR*6) + 31.75 µL DMEM + 0.1 µL polybrene (1,000X) = 100 µL total/96-well

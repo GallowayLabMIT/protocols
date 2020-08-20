@@ -2,8 +2,7 @@
 Adherent Cell Culture
 ==========================
 
-General culture volumes `Link text <https://www.thermofisher.com/us/en/home/references/gibco-cell-culture-basics/cell-culture-protocols/cell-culture-useful-numbers.html>`_
-------------------------
+`General culture volumes <https://www.thermofisher.com/us/en/home/references/gibco-cell-culture-basics/cell-culture-protocols/cell-culture-useful-numbers.html>`_
 
 ============================   =================================================
 **Culture dish/plate/flask**    **Approx. volume media**
