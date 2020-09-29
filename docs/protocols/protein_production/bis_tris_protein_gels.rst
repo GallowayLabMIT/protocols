@@ -45,34 +45,35 @@ Casting protocol
     a waste container.
 
 1. Prepare 1X resolving and stacking buffers. These buffers can be stored
-   in the refrigerator for several weeks:
+   in the refrigerator for several weeks. Recipes given here for enough for 2 0.75mm gels.
 
-   **Resolving buffer:** 3.75 mL per gel:
-
-   =======================    ===========  =====================
-   Component                   Volume       Final concentration
-   =======================    ===========  =====================
-   3x bis-Tris gel buffer       1.25 mL         1x
-   40% Acrylamide stock         0.75 mL         8%
-   DI water                     1.75 mL
-   =======================    ===========  =====================
-
-   **Stacking buffer:**  2.5 mL per gel:
+   **Resolving buffer:** ~3 mL per gel (6.5 mL total):
 
    =======================    ===========  =====================
    Component                   Volume       Final concentration
    =======================    ===========  =====================
+   3x bis-Tris gel buffer       2.2 mL         1x
+   40% Acrylamide stock         1.3 mL         8%
+   DI water                     3 mL
+   =======================    ===========  =====================
+
+   **Stacking buffer:**  ~1.2 mL per gel (2.5 mL total):
+
+   =======================    ===========  =============================
+   Component                   Volume       Final concentration
+   =======================    ===========  =============================
    3x bis-Tris gel buffer       0.83 mL         1x
    40% Acrylamide stock         0.32 mL        5%
    DI water                     1.36 mL
-   Bromophenol blue                        Enough to give color
-   =======================    ===========  =====================
+   Bromophenol blue                         50 uL (enough to give color)
+   =======================    ===========  =============================
 
 
 Gel casting setup
 -----------------
 In-lab, we have the ability to cast two gels simultaneous; this is recommended even if you only
-need one, so that you have a backup in case of pouring mishaps.
+need one, so that you have a backup in case of pouring mishaps. Our gel runner also requires two
+poured gels to properly seal.
 
 1. Locate two 0.75mm spacer plates and two short glass plates.
 2. Use ethanol and a Kimwipe to clean both glass surfaces.
@@ -82,21 +83,21 @@ need one, so that you have a backup in case of pouring mishaps.
 Resolving gel
 ~~~~~~~~~~~~~
 
-1.  Measure 3.75 mL of **1x resolving buffer** per gel to pour.
-2.  Add 25 uL of **10% APS** per gel, mix well.
-3.  For each gel, add 10 uL **TEMED**, mixing quickly. Pour the gel to the resolving gel height.
+1.  Measure 6.5 mL of **1x resolving buffer** per gel to pour.
+2.  Add 50 uL of **10% APS** per gel, mix well.
+3.  Add 20 uL **TEMED**, mixing quickly. Pour both gels to the resolving gel height (3 mL per gel).
     Lightly tap and tilt the gel to remove any bubbles.
-4.  Once done pouring, carefully fill the remaining height with water, making sure the gel-water
+4.  Once done pouring, quickly but carefully fill the remaining height with water, making sure the gel-water
     interface stays undisturbed.
-5.  Wait for the polymerization reaction to finish (noticable by a change in refractive index.
+5.  Wait for the polymerization reaction to finish (noticeable by a change in refractive index).
 6.  Drain the water by tilting the gel past 90 degrees, and wicking away with a Kimwipe.
 
 Stacking gel
 ~~~~~~~~~~~~
 
-1.  Measure 2.5 mL of **1x stacking buffer** per gel to pour.
-2.  Add 20 uL of **10% APS** per gel, mix well.
-3.  For each gel, add 10 uL **TEMED**, mixing quickly. Fill the top of the gels until
+1.  Measure 2.5 mL of **1x stacking buffer** to pour.
+2.  Add 20 uL of **10% APS**, mix well.
+3.  Add 10 uL **TEMED**, mixing quickly. Fill the top of the gels until
     just before overflowing. Insert the comb into the top, letting it rest on the spacers.
 4.  Wait for the stacking gel to polymerize.
 5. Rinse with water to remove unpolymerized acrylamide.
