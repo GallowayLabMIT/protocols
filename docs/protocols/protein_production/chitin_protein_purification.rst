@@ -63,7 +63,7 @@ Protocol
    Centrifuge at maximum speed for 30 minutes to remove bound DNA.
 5. Incubate the supernatant with 10 mL chitin resin / 500 mL original culture. Tube rotate for 1 hour at 4C.
 6. Wash with 10-20 CVs of lysis buffer.
-7. Add cleavage buffer. Incubate a 4C for 48 hours.
+7. Add cleavage buffer. Incubate at 4C for 48 hours.
 8. Elute into separate 1 mL fractions.
 9. Dialysize elution buffer into 2x dialysis buffer, followed by concentration.
 
