@@ -24,7 +24,7 @@ Required solutions
   Component             Concentration        amount/L final volume
   ===================== ================   ========================
   Chitin lysis buffer      Base                 898 mL
-  EDTA                     + 99 mM              28.9 g
+  DTT                     100 mM                15.423 g
   ===================== ================   ========================
 
 * **Chitin stripping buffer**:

@@ -73,17 +73,17 @@ We need the following prepared buffers:
     EDTA                50 mM           1.461 g
     ================== ============== ====================
 
-* **2x TD buffer**:
+* **2x TD buffer** (from `this nature paper <https://www.nature.com/articles/nprot.2013.118>`_):
 
-    ====================  ===================
-    Component               Amount/L final
-    ====================  ===================
-    KCl                     0.76 g
-    Na2HPO4 heptahydrate    0.2 g
-    NaCl                    16.0 g
-    Tris-HCl                6.0 g
-    HCl                     to pH 7.4
-    ====================  ===================
+    ==============================  =============================== ==============
+    Component                       Concentration                   Amount/L final
+    ==============================  =============================== ==============
+    Tris                            20 mM                            3.264 g
+    MgCl2                           10 m                             0.95 g
+    DI H2O                          main solvent
+    Acetic acid                     to pH 7.6, before DMF addition
+    Dimethylformamide(DMF)          20% (v/v)
+    ==============================  =============================== ==============
 
 1. After cell fixation, permeabilize cells with lysis buffer for 10 minutes at room temperature.
 2. Wash with PBS twice.
