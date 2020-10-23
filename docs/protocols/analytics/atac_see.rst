@@ -31,11 +31,11 @@ Transposase buffer preparation
     B+rev primers       0.125
     Glycerol            0.4
     Dialysis buffer     0.12
-    50 mM Tn5           0.1
+    50 uM Tn5           0.1
     DI H2O              0.13
     ================= ===============
 
-   If Tn5 is already stored in a 50% glycerol/50% 2x dialysis stock solution at 20 mM, use the following recipe:
+   If Tn5 is already stored in a 50% glycerol/50% 2x dialysis stock solution at 20 uM, use the following recipe:
 
     ================== ===============
     Component          Volume fraction
@@ -43,7 +43,7 @@ Transposase buffer preparation
     A+rev primers       0.125
     B+rev primers       0.125
     Glycerol            0.25
-    20 mM Tn5+Glycerol  0.25
+    20 uM Tn5+Glycerol  0.25
     DI H2O              0.25
     ================== ===============
 
