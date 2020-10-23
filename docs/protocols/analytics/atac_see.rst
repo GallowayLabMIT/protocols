@@ -27,8 +27,8 @@ Transposase buffer preparation
     ================= ===============
     Component         Volume fraction
     ================= ===============
-    A+rev primers       0.25
-    B+rev primers       0.25
+    A+rev primers       0.125
+    B+rev primers       0.125
     Glycerol            0.4
     Dialysis buffer     0.12
     50 mM Tn5           0.1
@@ -40,10 +40,11 @@ Transposase buffer preparation
     ================== ===============
     Component          Volume fraction
     ================== ===============
-    A+rev primers       0.25
-    B+rev primers       0.25
+    A+rev primers       0.125
+    B+rev primers       0.125
     Glycerol            0.25
     20 mM Tn5+Glycerol  0.25
+    DI H2O              0.25
     ================== ===============
 
 ATAC-see
@@ -99,3 +100,4 @@ We need the following prepared buffers:
 
 4. Add 50 uL of transpose mixture to cells to be transposed. Place the cells in a humid 37C box for 30 minutes.
 5. For plated cells, wash with wash buffer three times, for 15 minutes each at 55C. For suspended cells, wash twice.
+6. Add PBS media to cells and image/flow the resulting cells.
