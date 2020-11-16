@@ -7,7 +7,7 @@ Startup
 -----------------
 
 ..  note:: Purpose: To make sure the lines are filled.
-::
+
 
 
 Run enhanced start up if > 3 days since the last run. Enhanced startup is just running "Startup" protocol twice. Then run performance test. 
@@ -28,7 +28,7 @@ If an instrument button is grayed out, try hitting refresh.
 Cleaning
 -----------------
 .. note :: Deep cleaning recommended once a week or every two weeks. Run with Hellmanex Solution.
-::
+
 
 Hellmanex can be used for deep cleaning. It is alkaline and viscous. 
 To make Hellmanex Solution, dilute Hellmanex 1 mL into 2 mL DI water. 
@@ -41,7 +41,7 @@ Performance Check
 
 .. important ::Before running a performance check, make sure to check the filters. If a red stripe filter is in the instrument (not the side holder), it needs to be replaced with the correct filter or the peformance check will not pass. 
 Verify lot # of performance beads. Lot # change every ~4 years and require a new set of download files for proper calibration. Originally set September 11, 2020.
-::
+
 
 
 1. Add 3 full drops of performance beads and dilute with 2 mL of focusing fluid (or PBS). 
@@ -60,7 +60,7 @@ Delta PMT         Status
 Maintainence
 -----------------
 .. important :: Maintainence required every 3-6 months
-::
+
 
 1. Check syringe (side of main attune instrument behind plastic panel) for build up of salt. May need to be replaced every 6 months. If salt accumulates, this can block sliding of syringe and preventing loading of sample. Part can be ordered and easily replaced by the lab, no need for technician. Syringe should be finger tight. Do not over tighten. 
 2. Sip- The input straw can be bent. If bent, get part from Maintainence Kit, unscrew and replace. 
