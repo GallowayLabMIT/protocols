@@ -30,7 +30,7 @@ immediatly before media addition, to a **final volume of 10 ng/mL**:
 
 .. admonition:: TODO
 
-	Check N2/B27 interptation, and the RepSox stock concentration.
+	Check N2/B27 interpretation, and the RepSox stock concentration.
 
 MEF media
 ---------
@@ -45,6 +45,56 @@ Total volume: **500 mL**
   Pen/Strep *(optional)*   1%    5 mL          
   DMEM                           add to 500mL  
 ========================= ===== ===============
+
+Breast cancer 1 media
+---------------------
+Use for culturing the **LM2**, **BT-20**, and **MDA-MB-468** cell lines.
+
+===============  =============== ================
+Component         Concentration   Volume / 50 mL
+===============  =============== ================
+DMEM + 10% FBS    Base            Use MEF media
+Anti-Anti         1%              500 uL
+===============  =============== ================
+
+
+Breast cancer 2 media
+---------------------
+Use for culturing the **HS 578T** and **BT-549** cell lines.
+
+===============  =============== ========================
+Component         Concentration   Volume / 50 mL
+===============  =============== ========================
+DMEM + 10% FBS    Base            Use MEF media
+PSG               1%              500 uL
+Insulin           10 ug/mL        125 uL of 4 mg/mL stock
+===============  =============== ========================
+
+Breast cancer 3 media
+---------------------
+Use for culturing the **MDA-MD-231** cell line.
+
+===============  =============== ========================
+Component         Concentration   Volume / 50 mL
+===============  =============== ========================
+DMEM + 10% FBS    Base            Use MEF media
+PSG               1%              500 uL
+===============  =============== ========================
+
+Breast cancer 4 media
+---------------------
+Use for culturing the **SUM159** cell line.
+
+===============  =============== ========================
+Component         Concentration   Volume / 50 mL
+===============  =============== ========================
+F12               Base            47 mL
+FBS               5%              2.5 mL
+Anti-anti         1%              500 uL
+Insulin           5 ug/mL         62.5 uL of 4 mg/mL stock
+Hydrocortisone    1 ug/mL
+EGF               20 ng/mL        1 uL of 1 mg/mL stock
+===============  =============== ========================
 
 Glia media
 ----------
