@@ -71,6 +71,10 @@ html_theme_options = {
     'style_nav_header_background': '#2c6854'
 }
 
+# Show references so printed versions make sense
+latex_show_pagerefs = True
+latex_show_urls = 'footnote'
+
 latex_elements = {
 # The paper size ('letterpaper' or 'a4paper').
     'papersize': 'letterpaper',
@@ -78,11 +82,25 @@ latex_elements = {
 # The font size ('10pt', '11pt' or '12pt').
     'pointsize': '11pt',
 
+    'sphinxsetup': 'warningBorderColor={rgb}{1,0.45,0}, dangerBorderColor={rgb}{.95,.12,.12}',
+    'passoptionstopackages': r'\PassOptionsToPackage{table}{xcolor}',
+
 # Additional stuff for the LaTeX preamble.
     'preamble': r'''
         \usepackage{charter}
+        \usepackage{etoolbox}
+
+        \usepackage{cellspace}
+        \setlength\cellspacetoplimit{4pt}
+        \setlength\cellspacebottomlimit{4pt}
+
+        \definecolor{lighter-gray}{gray}{0.96}
+        \definecolor{light-gray}{gray}{0.85}
+        \AtBeginEnvironment{tabulary}{\rowcolors{3}{lighter-gray}{}}
+        \protected\def\sphinxstyletheadfamily {\cellcolor{light-gray}\sffamily}
         
         \newenvironment{sphinxtime}[1]{\begin{sphinxlightbox}}{\end{sphinxlightbox}}
+        \newcommand\subsectionbreak{\ifnum\value{subsection}>1\clearpage\fi}
     ''',
 }
 
