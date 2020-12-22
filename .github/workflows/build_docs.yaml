@@ -22,7 +22,7 @@ jobs:
     - name: Install Python dependencies
       run: pip install -U sphinx; pip install sphinx-rtd-theme sphinx-last-updated-by-git
     - name: Build documentation
-      run: python ./build.py
+      run: python ./build.py --latex --parallel
     - name: Deploy to gh-pages
       uses: peaceiris/actions-gh-pages@v3
       with:

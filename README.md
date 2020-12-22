@@ -9,13 +9,13 @@ pip install -U sphinx sphinx-rtd-theme sphinx-last-updated-by-git
 
 Then, the HTML and PDF documentation can be build with:
 ```
-python build.py
+python build.py --latex
 ```
 
 To skip PDF building (for example, if you don't have a local LaTeX install),
 run:
 ```
-python build.py --skip-latex
+python build.py
 ```
 
 Build output is in the folder `output`. The HTML version can be loaded by clicking on `output\html\index.html`.
