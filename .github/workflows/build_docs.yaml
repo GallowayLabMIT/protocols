@@ -21,11 +21,5 @@ jobs:
         python-version: 3.7
     - name: Install Python dependencies
       run: pip install -U sphinx; pip install sphinx-rtd-theme sphinx-last-updated-by-git
-    - name: Build documentation
-      run: python ./build.py --latex --parallel
-    - name: Deploy to gh-pages
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./output/html
-        force_orphan: true
+    - name: Build documentation and deploy
+      run: ./.github/workflows/build_helper.sh

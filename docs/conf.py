@@ -12,6 +12,7 @@
 #
 import os
 import sys
+import subprocess
 import time
 sys.path.insert(0, os.path.abspath('./_ext'))
 
@@ -125,11 +126,24 @@ html_context['languages'] = [ ('en', '/' +REPO_NAME+ '/en/' +current_version+ '/
 html_context['versions'] = list()
 
 #versions = [branch.name for branch in repo.branches]
-versions = ['latest']
+
+
+versions = []
+version_run = subprocess.run(['git', 'for-each-ref', '--format=%(refname:lstrip=-1)', 'refs/remotes/origin', 'refs/tags'],
+                                capture_output=True)
+versions_to_skip = {'gh-pages'}
+if version_run.returncode is 0:
+    for branch in version_run.stdout.decode('utf-8').split('\n'):
+        if branch not in versions_to_skip:
+            versions.append(branch)
+else:
+    versions.append('latest')
+
 for version in versions:
    html_context['versions'].append( (version, '/' +REPO_NAME+ '/'  +current_language+ '/' +version+ '/') )
 
 # Populate PDF Downloads
 
 html_context['downloads'] = list()
-html_context['downloads'].append( ('pdf', '/' +REPO_NAME+ '/' +current_language+ '/' +current_version+ '/' +project+ '-docs_' +current_language+ '_' +current_version+ '.pdf') )
+html_context['downloads'].append( ('pdf', '/' +REPO_NAME+ '/' +current_language+ 
+                                   '/' +current_version+ '/' + 'galloway_lab_protocols.pdf'))
