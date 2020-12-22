@@ -78,6 +78,7 @@ cat > index.html <<EOF
    <head>
       <title>helloWorld Docs</title>
       <meta http-equiv = "refresh" content="0; url='/${REPO_NAME}/en/latest/'" />
+      <link rel="canonical" href='/${REPO_NAME}/en/latest/'" />
    </head>
    <body>
       <p>Please wait while you're redirected to our <a href="/${REPO_NAME}/en/latest/">documentation</a>.</p>
