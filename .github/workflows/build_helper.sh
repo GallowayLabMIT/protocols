@@ -37,7 +37,7 @@ for current_version in ${versions}; do
    ##########
    # BUILDS #
    ##########
-   python ./build.py --latex --parallel --force_rebuild
+   python ./build.py --latex --parallel --force-rebuild
 
    # HTML #
 

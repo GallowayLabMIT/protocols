@@ -23,3 +23,5 @@ jobs:
       run: pip install -U sphinx; pip install sphinx-rtd-theme sphinx-last-updated-by-git
     - name: Build documentation and deploy
       run: ./.github/workflows/build_helper.sh
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
