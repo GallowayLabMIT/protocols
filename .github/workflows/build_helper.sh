@@ -46,6 +46,7 @@ for current_version in ${versions}; do
    #cp "docs/_build/epub/target.epub" "${docroot}/${current_language}/${current_version}/helloWorld-docs_${current_language}_${current_version}.epub"
 
    # copy the static assets produced by the above build into our docroot
+   mkdir -p "${docroot}/${current_language}/${current_version}"
    rsync -av "output/html/" "${docroot}/${current_language}/${current_version}/"
 done
  
