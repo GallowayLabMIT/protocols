@@ -84,3 +84,52 @@ latex_elements = {
         \newenvironment{sphinxtime}[1]{\begin{sphinxlightbox}}{\end{sphinxlightbox}}
     ''',
 }
+
+# Setup lower-left menu. Modified from:
+# https://tech.michaelaltfield.net/2020/07/23/sphinx-rtd-github-pages-2/
+
+try:
+   html_context
+except NameError:
+   html_context = dict()
+html_context['display_lower_left'] = True
+
+if 'REPO_NAME' in os.environ:
+	REPO_NAME = os.environ['REPO_NAME']
+else:
+	REPO_NAME = ''
+
+current_language = 'en'
+
+# tell the theme which language to we're currently building
+html_context['current_language'] = current_language
+
+# SET CURRENT_VERSION
+if 'current_version' in os.environ:
+   # get the current_version env var set by buildDocs.sh
+   current_version = os.environ['current_version']
+else:
+   # the user is probably doing `make html`
+   # set this build's current version by looking at the branch
+   current_version = 'latest'
+
+# tell the theme which version we're currently on ('current_version' affects
+# the lower-left rtd menu and 'version' affects the logo-area version)
+html_context['current_version'] = current_version
+html_context['version'] = current_version
+
+# Set language links
+html_context['languages'] = [ ('en', '/' +REPO_NAME+ '/en/' +current_version+ '/') ]
+
+# Set links to other branches
+html_context['versions'] = list()
+
+#versions = [branch.name for branch in repo.branches]
+versions = ['latest']
+for version in versions:
+   html_context['versions'].append( (version, '/' +REPO_NAME+ '/'  +current_language+ '/' +version+ '/') )
+
+# Populate PDF Downloads
+
+html_context['downloads'] = list()
+html_context['downloads'].append( ('pdf', '/' +REPO_NAME+ '/' +current_language+ '/' +current_version+ '/' +project+ '-docs_' +current_language+ '_' +current_version+ '.pdf') )
