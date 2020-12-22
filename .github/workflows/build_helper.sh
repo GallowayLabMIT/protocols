@@ -30,7 +30,7 @@ for current_version in ${versions}; do
       continue
    fi
  
-   current_language = 'en'
+   current_language='en'
    # make the current language available to conf.py
    export current_language
 
