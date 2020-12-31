@@ -14,7 +14,7 @@ EHS system and add all necessary trainings to your profile.
 1. Go to https://atlas.mit.edu and go to the learning center, through the tab
    on the left:
 
-   .. image:: img/atlas_learning_center.png
+   .. image:: /img/iap/atlas_learning_center.png
     :alt: Learning center
 
 2. In the upper right, select "My profile", then "Update PI/activities"
@@ -22,14 +22,14 @@ EHS system and add all necessary trainings to your profile.
 4. Select the following training types. If you are an undergrad, do not
    select the BL2+ training group.
 
-.. image:: img/atlas_biosafety_training.png
+.. image:: /img/iap/atlas_biosafety_training.png
     :alt: Select the BL1/BL2 and BL2+ training categories, plus then
             performing research with human cells.
 
-.. image:: img/atlas_chemical_training.png
+.. image:: /img/iap/atlas_chemical_training.png
     :alt: Select the 'use potentially hazardous chemicals".
 
-.. image:: img/atlas_cryo_training.png
+.. image:: /img/iap/atlas_cryo_training.png
     :alt: Select the "working with cryogenic liquids" training.
 
 5. After submitting, you will see many required trainings. Some have a
@@ -104,7 +104,7 @@ After being given access:
 2. Bookmark the web version here: https://mitprod.sharepoint.com/sites/GallowayLab/Shared%20Documents
 3. On the web version, select the **Sync** button in the top tab:
 
-    .. image:: img/onedrive_sync.png
+    .. image:: /img/iap/onedrive_sync.png
         :alt: The sync button is the fourth button across.
 
 4. This will trigger the OneDrive software you installed. It will ask you for a local folder
@@ -169,11 +169,12 @@ Other
   If making cartoon/stylized figures, the colors in-pallette might be enough! If not, the pallette can provide
   a good starting place.
 
-  You can download pre-created pallettes for both `Illustrator <files/cat20_colors.ase>`__ and `Inkscape <files/cat20_colors.gpl>`__
+  You can download pre-created pallettes for both `Illustrator </_static/iap_files/cat20_colors.ase>`__
+  and `Inkscape </_static/iap_files/cat20_colors.gpl>`__
   for the well-known Category20/20b color set, which is color-blind friendly (and becoming the default in more and more
   software packages):
 
-  .. image:: img/illustrator_swatches.png
+  .. image:: /img/iap/illustrator_swatches.png
     :align: center
   
   To use these pallette files, see the `Illustrator documentation <https://helpx.adobe.com/illustrator/using/using-creating-swatches.html#share_swatches_between_applications>`__
