@@ -75,11 +75,11 @@ a Python version at least as new as Python 3.5.
 
 If you do not already have a working Python version >= 3.5, use the `standard Python installer <https://www.python.org/>`_.
 
-Then, install Sphinx and the required Sphinx extensions used here using ``pip`` (enter this into a terminal):
+Then, install Sphinx and the required Sphinx extensions used here using ``pip`` (enter the following **without** the leading ``$``):
 
-::
+.. code-block:: console
 
-    pip install -U sphinx sphinx-rtd-theme sphinx-last-updated-by-git
+    $ pip install -U sphinx sphinx-rtd-theme sphinx-last-updated-by-git
 
 git
 ~~~

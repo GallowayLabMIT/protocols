@@ -41,3 +41,22 @@
       overflow: visible !important;
    }
 }
+
+.rst-content div[class^="highlight-console"]{
+    border: solid 1px #360084;
+    border-left-color: rgb(54, 0, 132);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-left: solid 5px #360084;
+    margin: 15px 5px 10px 0;
+    border-radius: 4px 0 0 4px;
+}
+
+.rst-content div[class^="highlight-console"]::before {
+    content: "Terminal";
+	color: #360084;
+	background-color: #f2eff6;
+	display: block;
+	/*font-weight: bold;*/
+	padding: 5px 10px;
+}
