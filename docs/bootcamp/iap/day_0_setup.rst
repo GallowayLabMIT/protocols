@@ -206,7 +206,7 @@ Coding and collaboration
   After installation, you should set your global identity on that computer (e.g. what name/email gets stored alongside the work you do).
 
   Open a terminal (Terminal on MacOS, Powershell on Windows) and type the following lines (without the beginning ``$``, which identifies here that we are typing this into a terminal),
-  substituting your name and 
+  substituting your name and email (giving an email you associated with your Github account).
 
   .. code-block:: console
 
