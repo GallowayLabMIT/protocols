@@ -160,7 +160,7 @@ Other
   `Creative Cloud application <https://www.adobe.com/creativecloud/desktop-app.html>`__, login with your MIT credentials,
   after selecting "Work/School account". You may have to wait 24 hours for activation after your first login. You should
   install the **Acrobat** (for viewing PDFs) and **Illustrator** (for drawing vector art).
-* **Inkscape** *Optional* **:** Inkscape is a free and open-source vector drawing program that can be downloaded
+* **Inkscape:** *(Optional)* Inkscape is a free and open-source vector drawing program that can be downloaded
   `here <https://inkscape.org/release/inkscape-1.0.1/>`__. Inkscape and Illustrator have many similar, but not completely overlapping features.
   If you have not learned to use either, pick one to start with to learn first (likely Illustrator), However, it's likely eventually
   worth learning both if you don't want to eventually pay for Creative Cloud. Inkscape's (Cairo) PDF import also tends to be superior,
@@ -183,9 +183,140 @@ Other
 
 Coding and collaboration
 ------------------------
-* Text editor
-* Git
-* Python (talk about anaconda)
-* R
-* slack
-* Github Desktop
+* **Slack** is how we communicate! After `downloading it <https://slack.com/downloads>`__, sign into
+  https://gallowaylab.slack.com. In addition to the default channels, you may want to join ``#sequencing`` to get
+  your sequencing orders delivered right to you via Slack and join ``#memes`` for obvious reasons.
+
+* **Git:** For any code/code-like thing (LaTeX, other plain-text files) you write, Git is the standard way to share
+  and collaborate with others in addition to tracking your entire version history.
+  
+  You must install the base command-line tools from `here <https://git-scm.com/downloads>`__, make sure that you select
+  your operating system and not the "Download source code" button!
+
+  .. tip::
+    When installing Git, you may want to change Git's default editor to something other than Vim, such as VS Code.
+
+    When asked about adjusting the PATH environment, choose the **Git from the command line and also from 3rd-party software**
+    option; this makes sure all the other software also has Git access. All other defaults are fine, but can be changed
+    if you want.
+
+
+
+  After installation, you should set your global identity on that computer (e.g. what name/email gets stored alongside the work you do).
+
+  Open a terminal (Terminal on MacOS, Powershell on Windows) and type the following lines (without the beginning ``$``, which identifies here that we are typing this into a terminal),
+  substituting your name and 
+
+  .. code-block:: console
+
+    $ git config --global user.name "Full Name"
+    $ git config --global user.email email_address@example.com
+
+* **Github Desktop:** This program is a good basic GUI Git tool, in case the command line interface/built in editor interfaces
+  aren't for you. Download it `here <https://desktop.github.com/>`__.
+  
+* **Python:** Python is an excellent "Jack of all trades" language; we use it extensively. If you are on MacOS, you may have
+  Python3 pre-installed; you can check by typing ``python3`` at a terminal. If you do not have Python preinstalled, you should
+  download it from `here <https://www.python.org/downloads/>`__. Click the latest version download from the top, then scroll down
+  and select the 64-bit installer for your OS.
+
+  When installing, select **Add Python to PATH**; this ensures that when you type ``python`` at a terminal, you get this version you
+  just installed. Other software can also access this "default" installation.
+
+  .. admonition:: On snakes and Anaconda
+
+    If you have Anaconda installed and don't have an explicit reason to need it (e.g. conda-only packages),
+    it is recommended to uninstall Anaconda and install Python directly this way.
+    
+    With modern Python, the benefits that Anaconda initially brought to the field (virtual environments
+    and pre-compiled packages) are now integrated into the normal Python ecosystem, making Anaconda
+    unnecessary. We also don't want multiple Python versions competing.
+  
+  After installing, to make sure it worked, open a new terminal and type the following, checking that the output looks
+  similar to the following.
+
+  .. code-block:: console
+      
+      $ python
+      Python 3.9.1 (tags/v3.9.1) [MSC v.1916 64 bit (AMD64)] on win32
+      Type "help", "copyright", "credits" or "license" for more information.
+  
+  Exit the Python prompt by typing ``exit()``
+
+  After exiting Python, you can install the normal "semi-base" packages needed for most data analysis:
+
+  .. code-block:: console
+
+    $ pip install numpy scipy pandas matplotlib jupyter jupyterlab
+
+
+* **R:** Many bioinformatic tools are written in R, so we also use R. From `here <http://lib.stat.cmu.edu/R/CRAN/>`_, download
+  the main package (MacOS) or both the ``base`` entry and the ``Rtools`` entry (Windows).
+* **VSCode:** *(Optional)* Having a good *plain-text editor* (e.g., not Word) is important for coding, and is ultimately up to personal taste.
+  If you have your own favorite, feel free to not install VS Code. If you are used to language-specific IDE's like MATLAB, IDLE,
+  or RStudio, VS Code allows you to do editing, debugging, previewing, source control, etc in a mostly language-agnostic manner;
+  once you customize it to how you want, you can use it for all of your coding.
+
+  The recommended editor is VS Code, downloadable `here <https://code.visualstudio.com/>`__.
+
+  After installing, you should click the extensions button:
+
+  .. image:: img/vs_code_extensions.png
+    :align: center
+
+  and search and install the following extensions (type in the name, click the install button).
+
+  .. |vsc_python| image:: img/vs_code_python.png
+    :width: 200px
+
+  .. |vsc_pylance| image:: img/vs_code_pylance.png
+    :width: 200px
+
+  .. |vsc_rst| image:: img/vs_code_rst.png
+    :width: 200px
+
+  .. |vsc_jupyter| image:: img/vs_code_jupyter.png
+    :width: 200px
+  
+  .. |vsc_spellcheck| image:: img/vs_code_spellcheck.png
+    :width: 200px
+  
+  .. |vsc_r| image:: img/vs_code_r.png
+    :width: 200px
+
+  .. |vsc_rlsp| image:: img/vs_code_r_lsp.png
+    :width: 200px
+
+  .. list-table:: Recommended VS Code extensions
+    :header-rows: 1
+    :width: 100%
+
+    *  - Addon name
+       - Image
+       - Description
+    *  - Python
+       - |vsc_python|
+       - Enables Python debugging, running, and IntelliSense (in-line help while typing).
+    *  - Pylance
+       - |vsc_pylance|
+       - Faster 'language server' for Python, which means the IntelliSense is faster and more accurate.
+    *  - R
+       - |vsc_r|
+       - Base language support for R.
+    *  - R LSP Client
+       - |vsc_rlsp|
+       - The VS Code side of the R language server. Before installing this, run ``install.packages("languageserver")``
+         inside an R prompt.
+    *  - reStructuredText
+       - |vsc_rst|
+       - Enables reStructuredText support, the language used to write this documentation, among others.
+    *  - Jupyter
+       - |vsc_jupyter|
+       - Inline Jupyter notebook support. No more need to launch Jupyter in a web browser, just do it inside VS Code!
+    *  - Code Spell Checker
+       - |vsc_spellcheck|
+       - Inline spell checker that is intelligent enough to not flag specific language-specific words, but still can
+         spell check comments and variable names.
+
+* **RStudio:** *(Optional)* If you don't feel like using VS Code for your R work, the excellent, well-polished
+  standard IDE is RStudio Desktop, downloadable `here <https://rstudio.com/products/rstudio/download/#download>`__.
