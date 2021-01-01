@@ -16,6 +16,7 @@ EHS system and add all necessary trainings to your profile.
 
    .. image:: img/atlas_learning_center.png
     :alt: Learning center
+    :align: center
 
 2. In the upper right, select "My profile", then "Update PI/activities"
 3. Add Kate E. Galloway as your PI.
@@ -159,7 +160,7 @@ Other
 * **Creative Cloud:**  MIT recently opened Adobe's Creative Cloud to all students. After installing the
   `Creative Cloud application <https://www.adobe.com/creativecloud/desktop-app.html>`__, login with your MIT credentials,
   after selecting "Work/School account". You may have to wait 24 hours for activation after your first login. You should
-  install the **Acrobat** (for viewing PDFs) and **Illustrator** (for drawing vector art).
+  install **Acrobat** (for viewing PDFs) and **Illustrator** (for drawing vector art).
 * **Inkscape:** *(Optional)* Inkscape is a free and open-source vector drawing program that can be downloaded
   `here <https://inkscape.org/release/inkscape-1.0.1/>`__. Inkscape and Illustrator have many similar, but not completely overlapping features.
   If you have not learned to use either, pick one to start with to learn first (likely Illustrator), However, it's likely eventually
