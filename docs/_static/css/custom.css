@@ -60,3 +60,8 @@
 	/*font-weight: bold;*/
 	padding: 5px 10px;
 }
+
+/* Allow overriding of default line height, so box drawing works*/
+.highlight-default.box-spacing-override .highlight pre {
+    line-height: 1.07;
+}
