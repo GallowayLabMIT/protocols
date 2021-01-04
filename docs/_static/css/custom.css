@@ -42,7 +42,7 @@
    }
 }
 
-.rst-content div[class^="highlight-console"]{
+.rst-content div[class*="highlight-console"]{
     border: solid 1px #360084;
     border-left-color: rgb(54, 0, 132);
     border-left-style: solid;
@@ -52,10 +52,47 @@
     border-radius: 4px 0 0 4px;
 }
 
-.rst-content div[class^="highlight-console"]::before {
+.rst-content div[class*="highlight-console"]::before {
     content: "Terminal";
 	color: #360084;
 	background-color: #f2eff6;
+	display: block;
+	/*font-weight: bold;*/
+	padding: 5px 10px;
+}
+
+/* Bash overrides */
+.rst-content div[class*="highlight-console"] div[class^="highlight"] {
+    padding: 0;
+    border: none;
+    margin: 0;
+}
+
+.rst-content div[class*="bash-console"] {
+    border: solid 1px #001884;
+    border-left-color: #001884;
+    border-left: solid 5px #001884;
+}
+.rst-content div[class*="bash-console"]::before {
+    content: "Bash";
+	color: #001884;
+	background-color: #dadce7;
+}
+
+.rst-content div[class*="powershell-console"]{
+    border: solid 1px #007884;
+    border-left-color: #007884;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-left: solid 5px #007884;
+    margin: 15px 5px 10px 0;
+    border-radius: 4px 0 0 4px;
+}
+
+.rst-content div[class*="powershell-console"]::before {
+    content: "Powershell";
+	color: #007884;
+	background-color: #e5ebec;
 	display: block;
 	/*font-weight: bold;*/
 	padding: 5px 10px;
