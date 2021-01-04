@@ -294,3 +294,18 @@ We're almost ready to jump into Git; the last thing to note from this example is
 parents of snapshots means that we no longer (necessarily) have a linear history; instead,
 the history forms a tree (a graph without cycles). Trees have nice properties, like always being
 able to determine all of your ancestors.
+
+
+Git by example
+--------------
+
+Heavily inspired by the `Software Carpentry Git lesson <https://swcarpentry.github.io/git-novice>`__,
+we will start you off learning Git by editing the very repository we are working on!
+
+.. note::
+
+    There is a 
+
+.. code-block:: console
+
+    $ pip install sphinx sphinx-rtd-theme sphinx-last-updated-by-git
