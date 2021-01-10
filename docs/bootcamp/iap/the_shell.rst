@@ -139,7 +139,7 @@ are identical in this case, because ``-m`` is shorthand for ``--message``.
         </details>
 
 Interface basics
------------------
+================
 While the shell is minimalistic, there are three features that make our
 life easier:
 
@@ -168,7 +168,7 @@ life easier:
    lines you have typed) by pressing the up and down arrows.
 
 Starting off at home
---------------------
+====================
 When you first open a terminal, your shell will likely start off in your **home directory**, also known in shorthand
 as ``~``. Each user has its own home directory. All of the user directories that you are used to accessing through
 Windows Explorer or Finder, such as ``Desktop``, ``Downloads``, or ``Documents`` are subdirectories of your home directory.
@@ -279,7 +279,7 @@ If we want to know what is inside the current directory, we can use ``ls``:
 
 
 Moving away from home
----------------------
+=====================
 To move what directory we are in, we can use ``cd``:
 
 .. admonition:: Command: ``cd``
@@ -301,7 +301,7 @@ To move what directory we are in, we can use ``cd``:
 
 
 Relative and absolute paths
----------------------------
+===========================
 The earlier examples have hinted at the existence of two types of paths/ways
 to reference files. 
 
@@ -379,7 +379,7 @@ the paths ``/users/username`` and ``/users/username/Desktop/..`` both point to t
         </details>
 
 File operations
----------------
+===============
 
 Now that we can navigate around, we can learn file operations. The first is conceptually
 the simplest, as it creates a new directory:
@@ -528,7 +528,7 @@ Our final command is what we use to delete files:
         $ rm -r test_dir
     
 Editing and viewing files
--------------------------
+=========================
 The last part of this covers basic file editing. You'll often be editing using some other GUI
 tool, but it's helpful to know how to use a basic command-line editor, especially when
 viewing files on computing clusters.
@@ -602,7 +602,7 @@ auto-fills the current name. Edit the name if you want to save under a different
 
 
 Finding things in documents
----------------------------
+===========================
 ``grep`` is the tool you should use when searching through files. It lets you
 do basic searches and also regular-expression searches on one or multiple files.
 
@@ -695,7 +695,7 @@ do basic searches and also regular-expression searches on one or multiple files.
 
 
 Exercise
---------
+========
 
 Time for an exercise to test all of this out! Partner up with someone if desired.
 
@@ -808,4 +808,100 @@ What directory did you unzip into?
 
 
 Extras
-------
+======
+
+If you'd like to customize your shell prompt so it is more useful, you can use something
+called `Oh my Posh 3 <https://ohmyposh.dev/>`__.
+
+For example, my terminal looks like this when logged into a remote server:
+
+.. image:: img/poshgit_shell.png
+    :align: center
+
+First, it shows a lock symbol  because I'm connected over a secure connection, followed
+by my username and the server name. In blue, the current working directory is shown. Finally,
+it shows git status directly on the prompt line (here, we are on branch ``master`` with no changes).
+
+Before installing this, make sure you have a powerline-enabled font (like Fira Code).
+Then, follow the installation instructions `here <https://ohmyposh.dev/docs/installation>`__. If you
+are on Windows, this is simple, just type:
+
+.. code-block:: console
+    :class: powershell-console
+
+    > Install-Module oh-my-posh -Scope CurrentUser -AllowPrerelease
+
+Then, create a JSON file with your desired prompt; you can do this with ``nano ~/.omp_prompt.json``.
+
+After this, there is typically a `final setup step <https://ohmyposh.dev/docs/installation/#4-replace-your-existing-prompt>`__
+that modifies your profile file and points
+it at your prompt file. On Powershell, this is ``Set-PoshPrompt ~/.omp_prompt.json``, added
+via ``nano $profile``. On Linux and MacOS, this is typically adding
+
+``eval "$(oh-my-posh --init --shell zsh --config ~/.poshthemes/jandedobbeleer.omp.json)"``
+to either your .zshrc (``nano ~/.zshrc``) or .bashrc (``nano ~/.bashrc``), depending on
+which shell you use.
+
+If you'd like to copy my prompt, mine is:
+
+::
+
+    {
+    "final_space": false,
+    "blocks": [
+        {
+        "type": "prompt",
+        "alignment": "left",
+        "segments": [
+            {
+            "type": "session",
+            "style": "plain",
+            "foreground": "#ffffff",
+            "properties": {
+                "postfix": ":",
+                "user_color": "#ffd93d",
+                "ssh_icon": "\uE0A2 "
+            }
+            },
+            {
+            "type": "path",
+            "style": "plain",
+            "foreground": "#44B4CC",
+            "properties": {
+                "style": "agnoster_full"
+            }
+            },
+            {
+            "type": "git",
+            "style": "powerline",
+            "powerline_symbol": "\uE0B0",
+            "foreground": "#193549",
+            "background": "#a1c60b",
+            "properties": {
+                "local_working_icon": " W",
+                "local_staged_icon": " S"
+            }
+            },
+            {
+            "type": "python",
+            "style": "powerline",
+            "background": "#00897b",
+            "foreground": "#193549",
+            "powerline_symbol": "\uE0B0",
+            "properties": {
+                "display_version": false,
+                "display_virtual_env": true,
+                "display_mode": "context"
+            }
+            },
+            {
+            "type": "text",
+            "style": "plain",
+            "properties": {
+                "text": "$"
+            }
+            }
+        ]
+        }
+    ]
+    }
