@@ -19,7 +19,8 @@ This date format is both unambiguous and also sorts well (e.g. a lexicographic/a
 sort sorts in the correct time order).
 
 Finally, avoid using spaces in file and directory names! It's not a problem for most
-code, but it's just a good best practice.
+code, but it's just a good best practice that makes typing these paths in easier
+in a terminal.
 
 
 Paper RSS feeds
