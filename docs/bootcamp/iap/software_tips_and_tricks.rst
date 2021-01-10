@@ -6,9 +6,11 @@ Software Tips and Tricks
 One date format to rule them all/naming
 ---------------------------------------
 
-.. image:: https://imgs.xkcd.com/comics/iso_8601.png
+.. figure:: https://imgs.xkcd.com/comics/iso_8601.png
     :align: center
     :target: https://imgs.xkcd.com/comics/iso_8601.png
+    
+    Courtesy of `xkcd <https://xkcd.com/1179/>`__
 
 In file naming schemes, we typically use the ``YYYY-MM-DD`` format. The separators
 don't typically matter, you could use dashes or underscores or periods.
