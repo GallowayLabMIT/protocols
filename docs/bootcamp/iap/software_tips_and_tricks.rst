@@ -145,6 +145,11 @@ or in the Tampermonkey Utilities tab, you can use the **install from URL** optio
 .. image:: img/tampermonkey_install_from_url.png
     :align: center
 
+Licenses
+--------
+
+Regex help
+----------
 
 Fonts
 -----

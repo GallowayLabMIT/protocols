@@ -702,7 +702,7 @@ Time for an exercise to test all of this out! Partner up with someone if desired
 After downloading this `zip file <../../_static/iap_files/shell_exercise.zip>`__,
 unzip it **without looking inside the ``content`` directory!** Then,
 open up a terminal and get started! For some of the file manipulation tasks, there is a helper Python script
-that can check if you have correctly completed parts of the exercise.
+that can check if you have correctly completed parts of the exercise. Run it with ``python check.py``.
 
 .. admonition:: Exercise
 
