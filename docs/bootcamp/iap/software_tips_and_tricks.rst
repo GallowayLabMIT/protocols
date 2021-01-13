@@ -116,6 +116,13 @@ There are several built-in features of Zotero that make paper reading more effic
 
 
 
+Ordering and Quartzy
+--------------------
+
+MIT's ordering system is accessible at https://mit.coupahost.com. After logging in, there is a large list of suppliers
+on the right that are available for "punchout", e.g. you can just add to cart and checkout inside Coupa.
+
+
 Better Quartzy
 ---------------
 While Quartzy is great for inventory purposes, and the interface for the plasmid
@@ -151,6 +158,7 @@ or in the Tampermonkey Utilities tab, you can use the **install from URL** optio
 Regex help
 ----------
 If you ever need help debugging or designing a regular expression, try using https://regex101.com/
+
 
 Fonts
 -----
