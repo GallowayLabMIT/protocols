@@ -21,8 +21,9 @@ if __name__ == '__main__':
     if not os.path.isdir('output/html'):
         os.mkdir('./output/html')
     # Run sphinx in parallel
-    html_args = ['python', '-m', 'sphinx.cmd.build', '-b', 'html', 'docs', 'output/html']
-    latex_args = ['python', '-m', 'sphinx.cmd.build','-M', 'latexpdf', 'docs', 'output/latex']
+    python_exe = sys.executable
+    html_args = [python_exe, '-m', 'sphinx.cmd.build', '-b', 'html', 'docs', 'output/html']
+    latex_args = [python_exe, '-m', 'sphinx.cmd.build','-M', 'latexpdf', 'docs', 'output/latex']
 
     if args.parallel:
         builds = []
