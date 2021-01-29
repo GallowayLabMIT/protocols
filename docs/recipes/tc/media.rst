@@ -8,29 +8,25 @@ Used for neuronal differentiation during direct conversion.
 
 * Total volume: **500 mL**
 
-================= =========== ===============
- Component         %           Volume         
-================= =========== ===============
- Glutamax (1%)     1%          5 mL          
- N2 (100x stock)   100x stock  5 mL          
- B27 (50x stock)   50x stock   10 mL         
- Pen/Strep (1%)    1%          5 mL          
- *FBS (optional)*  2%          10 mL         
- DMEM F12                      add to 500 mL 
-================= =========== ===============
+=============================== =========== ===============
+ Component                       %           Volume         
+=============================== =========== ===============
+ Glutamax (1%)                   1%          5 mL          
+ N2 (100x stock)                 100x stock  5 mL          
+ B27 (50x stock)                 50x stock   10 mL         
+ Pen/Strep (1%) *(optional)*     1%          5 mL          
+ FBS *(optional)*                2%          10 mL         
+ DMEM F12                                    add to 500 mL 
+=============================== =========== ===============
 
 Add the following small molecules to small volumes
-immediatly before media addition, to a **final volume of 10 ng/mL**:
+immediatly before media addition, to a **final concentration of 10 ng/mL**:
 
 * GDNF, from 1,000x stock (10,000 ng/ml)
 * BDNF, from 1,000x stock (10,000 ng/ml)
 * CNTF, from 1,000x stock (10,000 ng/ml)
 * FGF10, from 10,000x stock (100,000 ng/ml)
-* RepSox, **if in human cells**, from 1000x stock.
-
-.. admonition:: TODO
-
-	Check N2/B27 interpretation, and the RepSox stock concentration.
+* RepSox, **if RR**, from 1000x stock (7.5mM)
 
 MEF media
 ---------
