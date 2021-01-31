@@ -28,6 +28,12 @@ immediatly before media addition, to a **final concentration of 10 ng/mL**:
 * FGF10, from 10,000x stock (100,000 ng/ml)
 * RepSox, **if RR**, from 1000x stock (7.5mM)
 
+.. note::
+ 1. 200mM glutamine is the same as Glutamax
+ 2. We do not usually use FBS or Pen/Strep
+ 3. Wrap in foil after making
+
+
 MEF media
 ---------
 Used for culturing MEFs and other fibroblasts.
