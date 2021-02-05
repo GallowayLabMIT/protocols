@@ -124,18 +124,19 @@ Total volume: **500 mL**
  DMEM-F12                  99%   495 mL
 ========================= ===== ===============
 
-Collection media
+Sorting/Collection media
 ----------------
-Used for collecting cells during sorting.
+Used for cell sorting. Use DMEM-F12 for flow sorting and DMEM-F12 + 10% FBS for collection to help make cells happier.
+It is possible to use whatever though because you will have to spin-down and resuspend in the correct media (i.e. N3) anyways.
 
 Total volume: **500 mL**
 
-========================= ===== ===============
-  Component                %     Volume        
-========================= ===== ===============
- FBS                       10%   50 mL
- DMEM-F12                  89%   445 mL
-========================= ===== ===============
+================================= ===== ===============
+  Component                        %     Volume        
+================================= ===== ===============
+ FBS *(for collection only)*       10%   50 mL
+ DMEM-F12                          90%   450 mL
+================================= ===== ===============
 
 Dissociation media
 ------------------
