@@ -29,8 +29,27 @@ immediatly before media addition, to a **final volume of 10 ng/mL**:
 * RepSox, **if in human cells**, from 1000x stock.
 
 .. admonition:: TODO
+To make 1000X stocks of neurotrophics, make a BSA solution (ONLY use (Millipore Sigma, A2058)). 
 
-	Check N2/B27 interpretation, and the RepSox stock concentration.
+Make filtered 0.1%BSA/PBS. 
+For Neurotrophic factors, from the reagents in the glass tubes
+
+1.	To make 1000X stocks of neurotrophics, make a BSA solution (ONLY use (Millipore Sigma, A2058)). 
+
+2. Make a 100ug/ml master stock for long term -80 storage using filtered 0.1%BSA/PBS. 
+
+3.	You may (depends on what your working concentration is) further dilute them to 10ug/ml as a -20 stock using the same solution. 
+
+4.	For the FGF, it is recommended that you use the same filtered 0.1%BSA/PBS to make a 100ug/ml -80 stock. 
+
+5.	You may (depends on what your working concentration is) further dilute them to 10 or 20 ug/ml as a -20 stock using the same solution. For FGF, it is possible to just use sterile PBS.
+
+
+
+
+RepSox
+-----------------
+25 mg from
 
 MEF media
 ---------
