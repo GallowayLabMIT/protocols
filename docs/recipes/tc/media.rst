@@ -48,17 +48,17 @@ For Neurotrophic factors, from the reagents in the glass tubes
 RepSox
 -----------------
 
-================= ===========
+===================== ===========
 Property                            
-================= =========== 
- Selleck Chem #     S7223
- Mw                 287.32                 
- 1000x stock        7.5 mM          
- Working            7.5 uM         
-================= =========== 
+===================== =========== 
+ Selleck Chem #         S7223
+ Mw                    287.32                 
+ 1000x stock           7.5 mM          
+ Final concentration   7.5 uM         
+===================== =========== 
 
-1. To make working 1000x stock (7.5 mM), resuspended  25 mg RepSox in 11.6 mL DMSO. 
-2. Aliquot 50 uL in 600 uL tubes and store at -20oC in a labelled box. 
+1. To make working 1000x stock (7.5 mM), resuspend 25 mg RepSox in 11.6 mL DMSO. 
+2. Aliquot 50 uL in 600 uL tubes and store at -20oC in a labeled box. 
  
 
 MEF media
