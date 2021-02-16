@@ -8,16 +8,16 @@ Used for neuronal differentiation during direct conversion.
 
 * Total volume: **500 mL**
 
-================= ============= ===============
- Component         %           Volume         
-================= ============= ===============
- Glutamax (1%)     1%          5 mL          
- N2 (100x stock)   100x stock  5 mL          
- B27 (50x stock)   50x stock   10 mL         
- Pen/Strep (1%)    1%          5 mL          
- *FBS (optional)*  2%          10 mL         
- DMEM F12                      add to 500 mL 
-================= ============= ===============
+================== ============= ===============
+ Component          %             Volume         
+================== ============= ===============
+ Glutamax (1%)      1%            5 mL          
+ N2 (100x stock)    100x stock    5 mL          
+ B27 (50x stock)    50x stock     10 mL         
+ Pen/Strep (1%)     1%            5 mL          
+ *FBS (optional)*   2%            10 mL         
+ DMEM F12                         add to 500 mL 
+================== ============= ===============
 
 Add the following small molecules to small volumes
 immediatly before media addition, to a **final volume of 10 ng/mL**:
