@@ -45,15 +45,21 @@ For Neurotrophic factors, from the reagents in the glass tubes
 5.	You may (depends on what your working concentration is) further dilute them to 10 or 20 ug/ml as a -20 stock using the same solution. For FGF, it is possible to just use sterile PBS.
 
 
-
-
 RepSox
 -----------------
-Final concentation in N3 = 7.5 uM
-Mw=287.32 
 
-To make working 1000x stock (7.5 mM), 
-25 mg RepSox (Selleck Chemicals; cat#: S7223) resuspended in 11.6 mL DMSO. 
+================= ===========
+Property                            
+================= =========== 
+ Selleck Chem #     S7223
+ Mw                 287.32                 
+ 1000x stock        7.5 mM          
+ Working            7.5 uM         
+================= =========== 
+
+1. To make working 1000x stock (7.5 mM), resuspended  25 mg RepSox in 11.6 mL DMSO. 
+2. Aliquot 50 uL in 600 uL tubes and store at -20oC in a labelled box. 
+ 
 
 MEF media
 ---------
