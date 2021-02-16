@@ -9,7 +9,7 @@ Used for neuronal differentiation during direct conversion.
 * Total volume: **500 mL**
 
 ================== ============= ===============
- Component          %             Volume         
+Component           %             Volume         
 ================== ============= ===============
  Glutamax (1%)      1%            5 mL          
  N2 (100x stock)    100x stock    5 mL          
