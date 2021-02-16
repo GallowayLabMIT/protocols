@@ -49,7 +49,11 @@ For Neurotrophic factors, from the reagents in the glass tubes
 
 RepSox
 -----------------
-25 mg from
+Final concentation in N3 = 7.5 uM
+Mw=287.32 
+
+To make working 1000x stock (7.5 mM), 
+25 mg RepSox (Selleck Chemicals; cat#: S7223) resuspended in 11.6 mL DMSO. 
 
 MEF media
 ---------
