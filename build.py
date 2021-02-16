@@ -3,6 +3,7 @@ import os
 import subprocess
 import argparse
 import sys
+from pathlib import Path
 
 parser = argparse.ArgumentParser(description="Generates HTML and PDFs from Markdown files")
 parser.add_argument('--latex', action='store_true')
@@ -22,8 +23,12 @@ if __name__ == '__main__':
         os.mkdir('./output/html')
     # Run sphinx in parallel
     python_exe = sys.executable
-    html_args = [python_exe, '-m', 'sphinx.cmd.build', '-b', 'html', 'docs', 'output/html']
-    latex_args = [python_exe, '-m', 'sphinx.cmd.build','-M', 'latexpdf', 'docs', 'output/latex']
+    # Calculate docs path:
+    docs_path = Path(__file__).resolve().parent / 'docs'
+    html_path = Path(__file__).resolve().parent / 'output' / 'html'
+    latex_path = Path(__file__).resolve().parent / 'output' / 'latex'
+    html_args = [python_exe, '-m', 'sphinx.cmd.build', '-b', 'html', str(docs_path), str(html_path)]
+    latex_args = [python_exe, '-m', 'sphinx.cmd.build','-M', 'latexpdf', str(docs_path), str(latex_path)]
 
     if args.parallel:
         builds = []
