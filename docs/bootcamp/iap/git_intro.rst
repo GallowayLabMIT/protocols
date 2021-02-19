@@ -492,6 +492,7 @@ If the remote repository is stored on Github, you can also use Github Desktop to
        among other information, with several folders that store the history.
 
     .. code-block:: console
+
         $ ls .git
         branches  config  description  HEAD  hooks  info  objects  refs
     
@@ -525,6 +526,7 @@ is generally more concise than the output of many of the graphical tools. In thi
 if we run the status command we will get:
 
 .. code-block:: console
+
     $ git status
     On branch latest
     Your branch is up to date with 'origin/latest'.
@@ -535,6 +537,7 @@ if we run the status command we will get:
 What does this mean? Let's take a look at an example history graph:
 
 
+# TODO: example history
 .. figure:: img/git_history.png
     :width: 80%
 
@@ -764,28 +767,362 @@ Inside VS Code, you can access this functionality with the drop down menu inside
 Now how do we start making changes? Remember that when we make changes in the (working) directory, we have to explicitly tell Git which changes
 we would like to snapshot. We inform Git of which changes we want(e.g. we *stage* the changes) using the ``git add`` command.
 
+.. note::
+
+    Git reports changes in files in two ways. If a file has already been included in a previous snapshot, then changes to that file are marked
+    as changes. If a file has *not* been included in a previous snapshot, then it appears as an **untracked file**. Even though these are two
+    different types of changes, we use the same command, ``git add`` to add both of them.
+
+Assume that we are tracking the file ``test.txt`` (e.g. we have ``git add``'ed it in the past, but not ``new.txt``. Then
+the status command will look like:
+
+.. code-block:: console
+
+    $ git status
+    On branch latest
+    Your branch is up to date with 'origin/latest'.
+
+    Changes not staged for commit:
+    (use "git add <file>..." to update what will be committed)
+    (use "git restore <file>..." to discard changes in working directory)
+            modified:   test.txt
+
+    Untracked files:
+    (use "git add <file>..." to include in what will be committed)
+            new.txt
+    $ git add test.txt new.txt
+    $ git status
+    On branch latest
+    Your branch is up to date with 'origin/latest'.
+
+    Changes to be committed:
+    (use "git restore --staged <file>..." to unstage)
+            modified:   test.txt
+            new file:   new.txt
+
+We can do the same thing in the GUI tools. In Github Desktop, changes are staged automatically:
+
+.. image:: img/ghd_staging.png
+    :align: center
+
+VS Code has a clearer interface. In the source control tab, the new changes appear under the "Changes"
+column. By hovering over files, you can use the plus icon to add/stage the changes.
+
+.. image:: img/vscode_staging.png
+    :align: center
+
+How do we remove our changes from being staged?  In Github desktop, you can uncheck changes to unstage them.
+In VS Code, hovering over a staged change will give a minus button that unstages:
+
+.. image:: img/vscode_unstaging.png
+    :align: center
+
+If we want to do this from the terminal, we can follow the suggestion given by ``git status``:
+
+.. code-block:: console
+
+    $ git restore --staged test.txt
+
+Note that unstaging doesn't actually remove the changes, they are still in your working tree! It just removes it
+from the set of changes you want to snapshot.
 
 
-We'll start by creating a new branch
-Create new branch per pair
-Practice editing files, staging changes, and unstaging changes. Demo the command line,
-Github Desktop, and VS Code.
+.. admonition:: Exercise
+
+    1. Edit this file (``docs/bootcamp/iap/git_intro.rst``), adding your name below:
+
+       ::
+       
+            REPLACE WITH YOUR NAME
+    
+    2. Add a new protocols file. It could be something random, or something the lab needs.
+    3. Using the terminal, **stage** these changes, e.g. adding them to the list of changes to snapshot.
+    4. Using a graphical tool, unstage and then re-stage these changes.
 
 
-Committing your work
---------------------
+Snapshotting your work
+-----------------------
+Now that we've staged changes to be snapshotted, we need to actually perform the snapshot. We do this with the
+``git commit`` command, or through one of the tools. Let's start with the terminal!
+
+To make a new commit, you can just type ``git commit``:
+
+.. code-block:: console
+
+    $ git commit
+    <editor opens. After you save and close the editor>
+    [latest 2cdfda4] Edited an in-progress version of git_intro, up to commiting
+    2 files changed, 491 insertions(+), 9 deletions(-)
+
+When you run ``commit`` in this way, it will open up a text editor (which should be Nano, following the prereqs) and ask you
+to type in a message. After you are done, you can save and exit from the editor, and the commit completes. You will
+see a short summary, including the branch name, the short version of the commit name (the random string), the first line
+of your commit message, and a summary of how many files and line-based changes were made.
+
+If you have a short commit message already in mind, you can skip the editor step by directly adding a message after the ``-m`` or ``--message``
+flag:
+
+.. code-block:: console
+
+    $ git commit -m "Here's a short commit message!"
+    [latest 73ca1a9] Here's a short commit message!
+    1 file changed, 100 insertions(+)
+
+In the various GUI tools, there is often a box to type in your commit message. For example, in VS Code, you can type in a message in the message
+box, adding newlines as required with enter, submitting the commit by pushing control-enter:
+
+In Github Desktop, if you made a change to a single file, it will auto-suggest a default commit message. **Don't use this default message!** The suggested
+commit message is not descriptive:
+
+.. image::img/ghd_default_commit_message.png
+    :align: center
+
+Think of your commit messages as comments to either future you or other collaborators for your overall changes. We wouldn't write code comments like:
+
+.. code-block:: python
+
+    pi = 3.1415 # Sets the pi variable equal to the 5-digit truncated value of pi
+
+so don't write commit comments like "Updated such and such file"; instead try to add the **why** you made this commit.
+
+
+.. admonition:: Exercise
+
+    1. Commit your changes, adding a relevant commit message using your interface of choice. What is the name of your newly created commit?
+    2. After commiting all of your changes, try committing again. What happens?
+    3. Make some more changes in a file, such as this one. Add and commit these changes with another interface.
+
+    .. raw:: html
+
+        <details>
+        <summary>Show/hide answer</summary>
+
+    1. This could be done with:
+    
+    .. code-block:: console
+        
+        $ git commit -m "Your commit message here"
+    
+    The output of this command will include the commit name!
+
+    2. When committing with no new changes, you will get a (nice) error message:
+    
+    .. code-block:: console
+
+        $ git commit -m "Nothing here?"
+        On branch latest
+
+        nothing to commit, working tree clean
+
+    3. Answers will vary.
+
+    .. raw:: html
+
+        </details>
 
 Ignoring files
 --------------
+What happens to files we **don't** want to track version history on? Why would we not want to track history?
+
+A good example of files that you don't want to track is temporary files. On MacOS, browsing to a folder
+using Finder creates hidden ``.DS_Store`` files, which store information like the x-y position of files
+within the Finder window. Programming languages also generate temporary files that do not need to be
+tracked by Git. For example, Python will sometimes compile ``.pyc`` or ``__pycache__`` files that speed
+un script execution. These files, however, do not need to be tracked as they are derived from the "real"
+source code. Similarly, we do **not** want to track the website or PDF output of this repository in source control,
+given that we build these outputs from the source code anyway.
+
+Git will not track these until you add them, but they will always annoyingly sit in the ``git status`` output
+unless you tell Git to ignore these files. We do this by adding files we want to ignore to a special hidden file, 
+``.gitignore``. Each line in this file is matched against a file. If it appears on the ignore list, Git pretends
+that it doesn't exist, making for nice clean history!
+
+For example, the current ``.gitignore`` for this repository is as follows:
+
+::
+
+    .DS_Store
+
+    # vscode ignores
+    .vscode
+
+    # Specific build gitignore
+    output/
+
+    # Python gitignore
+    # Byte-compiled / optimized / DLL files
+    __pycache__/
+    *.py[cod]
+    *$py.class
+
+    # C extensions
+    *.so
+
+    # Distribution / packaging
+    .Python
+    build/
+
+Because we use Sphinx/Python to build the website, we have several Python-specific temporary files to ignore, as
+well as the output folder.
+
+When creating a new repository on Github, you are given the option to start off with a language-specific ``.gitignore``. These
+are generally a pretty good starting place; you can always add more ignore patterns as you go along!
 
 Recovering history: reverting commits and file-level checkouts
 ---------------------------------------------------------------
+Git is a wonderful tool for storing history, so you may be wondering how we go back to certain states.
 
-Working remote: fetching, pushing, and pulling work from others
----------------------------------------------------------------
+In a typical Git workflow, we do not typically reset the entire branch state back to some previous commit. It
+is possible to do this, but it is a **destructive operation** that removes history from the tree (e.g. removes some
+commit nodes), so Git only lets you do it after you override several warnings.
 
-Working with others: the inevitable merge conflict
----------------------------------------------------
+Instead, Git provides utilities to **revert entire commits** and restore specific files from previous versions. In either case,
+we simply add to the history (e.g. add more commits) that simply reverse previous changes.
+
+To reverse the changes introduced by a commit, you can give a commit name after ``git revert``. As an example, consider
+the following terminal example introducing, and then reverting a commit:
+
+.. code-block:: console
+
+    $ git add test.txt
+    $ git commit -m "Just testing"
+    [tutorial_cj 57e1f4e] Just testing
+    $ git revert 57e1f4e
+    [tutorial_cj a0afdee] Revert "Just testing"
+     1 file changed, 1 addition(+)
+    $ git log
+    commit a0afdeee60ac8acb9be8066abb2a95fde70a2df8 (HEAD -> tutorial_cj)
+    Author: Christopher Johnstone <meson800@gmail.com>
+    Date:   Thu Feb 18 22:24:27 2021 -0500
+
+        Revert "Just testing"
+
+        This reverts commit 57e1f4ea06f25a7c05c6d03fcc297efa458bc8e4.
+
+    commit 57e1f4ea06f25a7c05c6d03fcc297efa458bc8e4
+    Author: Christopher Johnstone <meson800@gmail.com>
+    Date:   Thu Feb 18 22:24:21 2021 -0500
+
+        Just testing
+
+
+Visually, what has happened is that we have gone from this tree:
+
+## TODO: tree image
+
+to this one:
+
+# TODO: second tree image
+
+
+If you'd like to use a GUI tool to revert changes, you can do so! Going to the History tab in Github Desktop
+and right-clicking on a commit gives you the ability to revert it:
+
+.. image:: img/ghd_revert.png
+    :align: center
+
+How do we revert single file changes? We can use the same **checkout** command that we used to switch between branches, but this time
+limit it to specific files. If we specify a commit name to checkout from and a list of files, Git will fetch the state
+of those files from the previous commit. In the previous example, if we wanted to 
+
+.. code-block:: console
+
+    $ git checkout 57e1f4 test.txt
+    Updated 1 path from 57e1f4e
+
+Most GUI tools do not let you do specific-file checkouts; you have to use the terminal for this.
+
+.. admonition:: Exercise
+
+    1.  Create some change to a file in this repository; just really mash the keyboard, add this change, and commit it (New commit #1)
+    2.  Make a second change to **another location** in the same file, add, and commit it. (New commit #2).
+    3.  Using ``git log`` or any other tool, find name of New commit #1, and revert it.
+    4.  Use a selective ``git checkout`` to checkout the version of the file prior to New commit #1 (e.g. before you edited it for this exercise).
+    5.  Commit this change.
+    6.  You've now made four commits. What does your ``git log`` look like?
+
+
+    .. raw:: html
+
+        <details>
+        <summary>Show/hide answer</summary>
+
+    1. Say you edit the ``test.txt`` file. Then:
+        
+    .. code-block:: console
+
+        $ git add test.txt
+        $ git commit -m  "Some keyboard mashing"
+        [latest e033746] Keyboard mashing
+        1 file changed, 1 insertion(+)
+    
+    2. After making a second change:
+
+    .. code-block:: console
+
+        $ git add test.txt
+        $ git commit -m "A second change"
+        [latest 2b2e177] A second change
+        1 file changed, 1 insertion(+)
+    
+    3. We could look at our history, but we also  see the commit name (``e033746``) after our first commit. We revert this with:
+
+    .. code-block:: console
+
+        $ git revert e033746
+        [latest ecd301c] Revert "Keyboard mashing"
+        1 file changed, 1 deletion(-)
+    
+    4. Looking in our ``git log`` output, we see that the commit prior to "Keyboard mashing" is commit ``65c5e3f``. We checkout ``test.txt`` from there and commit:
+    
+    .. code-block:: console
+
+        $ git checkout 65c5e3f test.txt
+        Updated 1 path from 171189d
+        $ git commit -m "Restored file back to its original version"
+        [latest 2da20a3] Restored file back to its original version
+        1 file changed, 1 deletion(-)
+    
+    5. The ``git log`` looks like:
+
+    .. code-block:: console
+
+        $ git log
+        commit 2da20a30521b41bbdf973e560c7549e1be3a0a4b (HEAD -> latest)
+        Author: Christopher Johnstone <meson800@gmail.com>
+        Date:   Thu Feb 18 22:55:45 2021 -0500
+
+            Restored file back to its original version
+
+        commit ecd301c798d162fc547661f897de277789b09d4f
+        Author: Christopher Johnstone <meson800@gmail.com>
+        Date:   Thu Feb 18 22:52:53 2021 -0500
+
+            Revert "Keyboard mashing"
+
+            This reverts commit e03374683b76f9f2a3d70bafdb6ff257af90b0e4.
+
+        commit 2b2e1778e4ce0df4c31a351b54c9e11e52c15678
+        Author: Christopher Johnstone <meson800@gmail.com>
+        Date:   Thu Feb 18 22:51:00 2021 -0500
+
+            A second change
+
+        commit e03374683b76f9f2a3d70bafdb6ff257af90b0e4
+        Author: Christopher Johnstone <meson800@gmail.com>
+        Date:   Thu Feb 18 22:49:12 2021 -0500
+
+            Keyboard mashing
+       
+       The ``.git`` folder contains several text files encoding the current branch
+       among other information, with several folders that store the history.
+
+    .. raw:: html
+
+        </details>
+
+Working with others: remotes and inevitable merge conflicts
+-----------------------------------------------------------
 
 Working with Github tools
 -------------------------
