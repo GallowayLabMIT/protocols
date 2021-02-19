@@ -8,7 +8,6 @@ Used for neuronal differentiation during direct conversion.
 
 * Total volume: **500 mL**
 
-<<<<<<< HEAD
 =============================== =========== ===============
  Component                       %           Volume         
 =============================== =========== ===============
@@ -37,7 +36,7 @@ immediatly before media addition, to a **final concentration of 10 ng/mL**:
 =======
 To make 1000X stocks of neurotrophics, make a BSA solution (ONLY use (Millipore Sigma, A2058)). 
 
-Make filtered 0.1%BSA/PBS. 
+Make filtered 0.1% BSA/PBS. 
 For Neurotrophic factors, from the reagents in the glass tubes
 
 1.	To make 1000X stocks of neurotrophics, make a BSA solution (ONLY use (Millipore Sigma, A2058)). 
@@ -46,7 +45,7 @@ For Neurotrophic factors, from the reagents in the glass tubes
 
 3.	You may (depends on what your working concentration is) further dilute them to 10ug/ml as a -20 stock using the same solution. 
 
-4.	For the FGF, it is recommended that you use the same filtered 0.1%BSA/PBS to make a 100ug/ml -80 stock. 
+4.	For the FGF, it is recommended that you use the same filtered 0.1% BSA/PBS to make a 100ug/ml -80 stock. 
 
 5.	You may (depends on what your working concentration is) further dilute them to 10 or 20 ug/ml as a -20 stock using the same solution. For FGF, it is possible to just use sterile PBS.
 
