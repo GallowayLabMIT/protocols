@@ -406,8 +406,8 @@ In Git, the files that make up the staging area and history are stored within th
 By default, this folder is hidden, though you can show it if you want. The rest of the
 files in the repository folder form the **working tree**.
 
-# IMAGE OF TREE FORMAT.
-
+.. image:: img/git_summary.png
+    :align: center
 
 Downloading or starting a repository
 ------------------------------------
@@ -537,8 +537,8 @@ if we run the status command we will get:
 What does this mean? Let's take a look at an example history graph:
 
 
-# TODO: example history
 .. figure:: img/git_history.png
+    :align: center
     :width: 80%
 
     An example history is shown. Each commit has a random name (in gray) that
@@ -1036,11 +1036,13 @@ the following terminal example introducing, and then reverting a commit:
 
 Visually, what has happened is that we have gone from this tree:
 
-## TODO: tree image
+.. image:: img/git_pre_revert.png
+    :align: center
 
 to this one:
 
-# TODO: second tree image
+.. image:: img/git_post_revert.png
+    :align: center
 
 
 If you'd like to use a GUI tool to revert changes, you can do so! Going to the History tab in Github Desktop
@@ -1164,7 +1166,7 @@ If you initalize a new repository, it starts off with no remotes; it doesn't kno
 we **cloned** the protocols repo, so we do have a remote; the location on Github! By default, the first remote
 is called ``origin``, as it is the origin which you cloned from.
 
-You can see details about your remotes using ``git remote``. Here, we'll add a ``-v`` flag to give more **v**erbose output:
+You can see details about your remotes using ``git remote``. Here, we'll add a ``-v`` flag to give more **verbose** output:
 
 .. code-block:: console
     
@@ -1211,11 +1213,13 @@ What happens if two people have both added their own local commits to a branch? 
 To explain this message, let's look at how the history changed. Initially, the branch on Github was where it was initalized
 at the beginning, with each person having local commits:
 
-# TODO: insert branch history
+.. image:: img/git_pre_push.png
+    :align: center
 
 The first person's push (A) set the remote branch ``origin/tutorial_xx_yy`` equal to **their** version of ``tutorial_xx_yy``:
 
-# TODO: insert
+.. image:: img/git_post_push.png
+    :align: center
 
 Then, when the second person (B)  went to  push, Git rejected the push because setting ``origin/tutorial_xx_yy`` to the location
 of ``B/tutorial_xx_yy`` would erase A's changes! Git only allows so-called "fast-forward" pushes, where the branch pointer
@@ -1224,7 +1228,8 @@ moves down the tree without backtracking.
 We solve this by having person B **pull** the changes. Starting a ``git pull`` will attempt to create a **merge commit** that
 has two parents: the old ``B/tutorial_xx_yy`` and ``origin/tutorial_xx_yy``:
 
-# TODO: add image
+.. image:: img/git_merge_attempt.png
+    :align: center
 
 Git  is very smart about merging changes; it is capable of automatically merging relatively complicated scenarios,
 such as one person moving a function within a file and another person editing within the same function. If this was
@@ -1234,14 +1239,82 @@ would conflict with the other edits. Luckily, Git tracks this in a sane way.
 However, sometimes Git cannot automatically merge changes. This most often happens when two commits edit the exact
 same lines within a file. When this is a case, you will get a scary-looking message when you pull:
 
+
+.. code-block:: console
+
+    $ git pull
+    Auto-merging docs/bootcamp/iap/git_intro.rst
+    CONFLICT (content): Merge conflict in docs/bootcamp/iap/git_intro.rst
+    Automatic merge failed; fix conflicts and then commit the result.
+
 This long error message is just Git informing you that it could not automatically merge. 
 
+If we run ``git status``, we will get more information on what to do:
+
+.. code-block:: console
+
+    $ git status
+    $ git status
+    On branch tutorial_xx_yy
+    You have unmerged paths.
+    (fix conflicts and run "git commit")
+    (use "git merge --abort" to abort the merge)
+
+    Unmerged paths:
+    (use "git add <file>..." to mark resolution)
+            both modified:   docs/bootcamp/iap/git_intro.rst
+
+    no changes added to commit (use "git add" and/or "git commit -a")
+
+It tells us that we have to **1)** fix the merge conflicts, **2)**, use ``git add`` to tell Git that we fixed
+the conflicts, and **3)**, run ``git commit`` to finish the  merge.
+
+How  do we know where the conflicts are? In each file listed as conflicted, Git added **conflict markers**,
+which are ``<<<<<<<``, ``=======``, and ``>>>>>>>``. For example, a likely conflict you will get is in the name editing portion.
+This means that the file now looks like:
+
+::
+
+        1. Edit this file (``docs/bootcamp/iap/git_intro.rst``), adding your name below:
+
+        ::
+        
+    <<<<<< HEAD
+                Christopher Johnstone, again?
+    ======
+                Christopher Johnstone
+    >>>>>> test1
+        
+        2. Add a new protocols file. It could be something random, or something the lab needs.
+        3. Using the terminal, **stage** these changes, e.g. adding them to the list of changes to snapshot.
+        4. Using a graphical tool, unstage and then re-stage these changes.
 
 
-Finally, after we resolve the merge conflict and we have a successful merge commit, the other partner can push their branch;
+Between the markers, you can see the two different versions of the file that conflicted. It is up to you,
+the human, to decide what to do.
+
+If you are using VS Code, these markers trigger special syntax highlighting:
+
+.. image:: img/vs_code_conflict_resolution.png
+    :align: center
+
+If it is indeed the case that you simply want to take one change, deleting the other, you can use the options at the top to do so.
+**However, this is often not what you want to do**. After doing whatever you think the correct merge is,
+you should delete the marker lines.
+
+After we have resolved the conflict, we can finish the commit:
+
+.. code-block:: console
+    
+    $ git add docs/bootcamp/iap/git_intro.rst
+    $ git commit
+
+
+Finally, after we have a successful merge commit, the other partner can push their branch;
 it is now a fast-forward and is accepted:
 
-# TODO: add image
+.. image:: img/git_post_merge.png
+    :align: center
 
 .. admonition:: Exercise
 
@@ -1256,6 +1329,11 @@ it is now a fast-forward and is accepted:
         Total 22 (delta 13), reused 1 (delta 0), pack-reused 0
         remote: Resolving deltas: 100% (13/13), completed with 5 local objects.
         * [update]      tutorial_xx_yy -> tutorial_xx_yy
+
+.. admonition:: Exercise
+
+    1.  The other partner should run ``git pull``, resolve any merge conflicts, then push.
+    2. After the other partner has pushed, the first partner should pull in the freshly-merged changes. You're done!
 
 Conclusion
 ----------

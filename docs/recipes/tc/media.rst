@@ -28,7 +28,6 @@ immediatly before media addition, to a **final volume of 10 ng/mL**:
 * FGF10, from 10,000x stock (100,000 ng/ml)
 * RepSox, **if in human cells**, from 1000x stock.
 
-.. admonition:: TODO
 To make 1000X stocks of neurotrophics, make a BSA solution (ONLY use (Millipore Sigma, A2058)). 
 
 Make filtered 0.1%BSA/PBS. 
