@@ -1,6 +1,6 @@
 
 Attune operation
-==============
+=================
 
 
 Startup
@@ -39,8 +39,10 @@ Recommended for deep clean + shutdown. Requires a lot of subsequent flushing.
 Performance Check
 -----------------
 
-.. important ::Before running a performance check, make sure to check the filters. If a red stripe filter is in the instrument (not the side holder), it needs to be replaced with the correct filter or the peformance check will not pass. 
-Verify lot # of performance beads. Lot # change every ~4 years and require a new set of download files for proper calibration. Originally set September 11, 2020.
+.. important ::
+    
+    Before running a performance check, make sure to check the filters. If a red stripe filter is in the instrument (not the side holder), it needs to be replaced with the correct filter or the peformance check will not pass. 
+    Verify lot # of performance beads. Lot # change every ~4 years and require a new set of download files for proper calibration. Originally set September 11, 2020.
 
 
 

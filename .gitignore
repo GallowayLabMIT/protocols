@@ -1,4 +1,8 @@
 .DS_Store
+
+# vscode ignores
+.vscode
+
 # Specific build gitignore
 output/
 
