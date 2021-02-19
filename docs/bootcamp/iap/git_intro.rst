@@ -861,7 +861,7 @@ from the set of changes you want to snapshot.
 
        ::
        
-            REPLACE WITH YOUR NAME
+            Christopher Johnstone
     
     2. Add a new protocols file. It could be something random, or something the lab needs.
     3. Using the terminal, **stage** these changes, e.g. adding them to the list of changes to snapshot.

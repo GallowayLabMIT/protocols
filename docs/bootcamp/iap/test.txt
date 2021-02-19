@@ -1,0 +1,8 @@
+
+
+    Find a “fork” in the history graph, where two different commit branches came together,
+    other than the example given. Which commit did the merge occur at?
+
+    What was the second commit in the protocols repository?
+
+    Find the embedded emails of two contributors to the protocols repo.
