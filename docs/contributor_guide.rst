@@ -123,13 +123,12 @@ Normally, this means opening a terminal window, navigating to the repository, an
 
   python build.py
 
-This will attempt to build both the website and the PDF. If you do not have a local LaTeX install
-(e.g. you either do not uses LaTeX, or you exclusively use online services like Overleaf), then
-local PDF building will fail. If this is the case, you can skip PDF builds by calling
+This will attempt to build both the website only. If you have a local LaTeX install,
+then you can build the PDF locally with:
 
 ::
 
-  python build.py --skip-latex
+  python build.py --latex
 
 These build functions build the website in the folder ``output/html``. If you want to
 view your locally built website, open the file ``output/html/index.html``.
