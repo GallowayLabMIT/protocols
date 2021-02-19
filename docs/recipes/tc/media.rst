@@ -8,6 +8,7 @@ Used for neuronal differentiation during direct conversion.
 
 * Total volume: **500 mL**
 
+<<<<<<< HEAD
 =============================== =========== ===============
  Component                       %           Volume         
 =============================== =========== ===============
@@ -16,7 +17,7 @@ Used for neuronal differentiation during direct conversion.
  B27 (50x stock)                 50x stock   10 mL         
  Pen/Strep (1%) *(optional)*     1%          5 mL          
  FBS *(optional)*                2%          10 mL         
- DMEM F12                                    add to 500 mL 
+ DMEM F12                                    500 mL 
 =============================== =========== ===============
 
 Add the following small molecules to small volumes
@@ -33,6 +34,38 @@ immediatly before media addition, to a **final concentration of 10 ng/mL**:
  2. We do not usually use FBS or Pen/Strep
  3. Wrap in foil after making
 
+=======
+To make 1000X stocks of neurotrophics, make a BSA solution (ONLY use (Millipore Sigma, A2058)). 
+
+Make filtered 0.1%BSA/PBS. 
+For Neurotrophic factors, from the reagents in the glass tubes
+
+1.	To make 1000X stocks of neurotrophics, make a BSA solution (ONLY use (Millipore Sigma, A2058)). 
+
+2. Make a 100ug/ml master stock for long term -80C storage using filtered 0.1%BSA/PBS. 
+
+3.	You may (depends on what your working concentration is) further dilute them to 10ug/ml as a -20 stock using the same solution. 
+
+4.	For the FGF, it is recommended that you use the same filtered 0.1%BSA/PBS to make a 100ug/ml -80 stock. 
+
+5.	You may (depends on what your working concentration is) further dilute them to 10 or 20 ug/ml as a -20 stock using the same solution. For FGF, it is possible to just use sterile PBS.
+
+
+RepSox
+-----------------
+
+===================== ============
+Property                            
+===================== ============ 
+ Selleck Chem #          S7223
+ MW                     287.32                 
+ 1000x stock            7.5 mM          
+ Final concentration    7.5 uM         
+===================== ============ 
+
+1. To make working 1000x stock (7.5 mM), resuspend 25 mg RepSox in 11.6 mL DMSO. 
+2. Aliquot 50 uL in 600 uL tubes and store at -20C in a labeled box. 
+ 
 
 MEF media
 ---------
