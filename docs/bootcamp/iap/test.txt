@@ -1,0 +1,18 @@
+1.  Create some change to a file in this repository; just really mash the keyboard,
+    add this change, and commit it (New commit #1)
+2.  Make a second change to **another location** in the same file,
+    add, and commit it. (New commit #2).
+3.  Using ``git log`` or any other tool, find name of New commit #1, and revert it.
+4.  Use a selective ``git checkout`` to checkout the version of the file prior to
+    New commit #1 (e.g. before you edited it for this exercise).
+5.  Commit this change.
+6.  You've now made four commits. What does your ``git log`` look like?
+
+
+Selective git checkout syntax:
+git checkout <snapshot/commit to take from> <files to check out>
+
+git checkout <branch/commit name>
+
+Revert syntax:
+git revert <commit name>
