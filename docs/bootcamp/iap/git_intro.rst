@@ -757,11 +757,39 @@ Inside VS Code, you can access this functionality with the drop down menu inside
 
 .. admonition:: Exercise
 
-    To do some of the later merging steps, it helps to find a partner for this step! If not, it's ok if you only create a single branch.
+    To do some of the later merging steps, it helps to find a partner for this step! If you don't have a partner,  you can clone the repository into
+    a separate folder to simulate multiple peoplele.
 
-    1. Either through a terminal or with a GUI tool, create a new branch, calling it ``tutorial_xx_yy`` for ``xx``  and ``yy`` your initials.
-       Decide on a specific name between the two of you!
-    2. With the other tool (e.g. a GUI tool if you used the terminal for step 1), switch repeatedly between ``latest`` and the new
+    1. Have one of the partners create a new branch, deciding on a specific name  between the two (suggestion: ``tutorial_xx_yy`` for initials ``xx`` and ``yy``).
+    2. For future setup, have the partner that created the branch run:
+    
+    .. code-block:: console
+    
+        $ git push --set-upstream origin tutorial_xx_yy
+        Enumerating objects: 28, done.
+        Counting objects: 100% (28/28), done.
+        Delta compression using up to 8 threads
+        Compressing objects: 100% (19/19), done.
+        Writing objects: 100% (22/22), 2.03 KiB | 346.00 KiB/s, done.
+        Total 22 (delta 13), reused 1 (delta 0), pack-reused 0
+        remote: Resolving deltas: 100% (13/13), completed with 5 local objects.
+        remote:
+        remote: Create a pull request for 'tutorial_xx_yy' on GitHub by visiting:
+        remote:      https://github.com/GallowayLabMIT/protocols/pull/new/tutorial_xx_yy
+        remote:
+        To https://github.com/GallowayLabMIT/protocols.git
+        * [new branch]      tutorial_xx_yy -> tutorial_xx_yy
+        Branch 'tutorial_xx_yy' set up to track remote branch 'tutorial_xx_yy' from 'origin'.
+
+    3. Again, for future setup, have the other partner pull this update and checkout the same branch:
+    
+    .. code-block:: console
+
+        $ git pull
+        $ git checkout tutorial_xx_yy
+
+
+    3. With both a terminal and another GUI tool, repeatedly checkout/switch between ``latest`` and the new
        branch you created.
 
 Now how do we start making changes? Remember that when we make changes in the (working) directory, we have to explicitly tell Git which changes
@@ -1123,8 +1151,113 @@ Most GUI tools do not let you do specific-file checkouts; you have to use the te
 
 Working with others: remotes and inevitable merge conflicts
 -----------------------------------------------------------
+At this point, how do we share our wonderful work with others? This normally involves
+transferring our history with some central server.
 
-Working with Github tools
--------------------------
-Open a pull request.
-Discuss with your partner.
+Because Git has immutable history and we tend to only add new commits to the history tree,
+integrating our changes with others is easy; the hard part is **merging** multiple people's changes together.
+
+Taking a quick "big-picture" break, in Git, you can connect to other versions of your repo through something
+called **remotes**. Any repository you want to interact with that is not your local version is called a **remote**.
+
+If you initalize a new repository, it starts off with no remotes; it doesn't know about anything else! In this case,
+we **cloned** the protocols repo, so we do have a remote; the location on Github! By default, the first remote
+is called ``origin``, as it is the origin which you cloned from.
+
+You can see details about your remotes using ``git remote``. Here, we'll add a ``-v`` flag to give more **v**erbose output:
+
+.. code-block:: console
+    
+    $ git remote -v
+    origin  https://github.com/GallowayLabMIT/protocols.git (fetch)
+    origin  https://github.com/GallowayLabMIT/protocols.git (push)
+
+We see that Git has two (identical) URLs, one for pushing changes (e.g. local to remote) and one URL for receiving changes (remote to local).
+In certain weird circumstances you might want these to be different URLs, but generally it's ok that they are the same thing.
+
+To share your work with others, you **push** your branch *to the remote*. To get work from others, you **pull** the remote branch to yourself.
+
+What happens if two people have both added their own local commits to a branch? Let's find out!
+.. admonition:: Exercise
+
+    One partner should push the shared branch first:
+
+    .. code-block:: console
+
+        $ git push
+        Enumerating objects: 28, done.
+        Counting objects: 100% (28/28), done.
+        Delta compression using up to 8 threads
+        Compressing objects: 100% (19/19), done.
+        Writing objects: 100% (22/22), 2.03 KiB | 346.00 KiB/s, done.
+        Total 22 (delta 13), reused 1 (delta 0), pack-reused 0
+        remote: Resolving deltas: 100% (13/13), completed with 5 local objects.
+        * [update]      tutorial_xx_yy -> tutorial_xx_yy
+    
+    What happens when the other person now tries to push?
+
+    .. code-block:: console
+
+        $ git push
+        To https://github.com/GallowayLabMIT/protocols.git
+        ! [rejected]        tutorial_xx_yy -> tutorial_xx_yy (fetch first)
+        error: failed to push some refs to 'https://github.com/GallowayLabMIT/protocols.git'
+        hint: Updates were rejected because the remote contains work that you do
+        hint: not have locally. This is usually caused by another repository pushing
+        hint: to the same ref. You may want to first integrate the remote changes
+        hint: (e.g., 'git pull ...') before pushing again.
+        hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+To explain this message, let's look at how the history changed. Initially, the branch on Github was where it was initalized
+at the beginning, with each person having local commits:
+
+# TODO: insert branch history
+
+The first person's push (A) set the remote branch ``origin/tutorial_xx_yy`` equal to **their** version of ``tutorial_xx_yy``:
+
+# TODO: insert
+
+Then, when the second person (B)  went to  push, Git rejected the push because setting ``origin/tutorial_xx_yy`` to the location
+of ``B/tutorial_xx_yy`` would erase A's changes! Git only allows so-called "fast-forward" pushes, where the branch pointer
+moves down the tree without backtracking.
+
+We solve this by having person B **pull** the changes. Starting a ``git pull`` will attempt to create a **merge commit** that
+has two parents: the old ``B/tutorial_xx_yy`` and ``origin/tutorial_xx_yy``:
+
+# TODO: add image
+
+Git  is very smart about merging changes; it is capable of automatically merging relatively complicated scenarios,
+such as one person moving a function within a file and another person editing within the same function. If this was
+implemented like "Track Changes" in Word, everything would explode; the move would be marked as a deletion/insertion, which
+would conflict with the other edits. Luckily, Git tracks this in a sane way.
+
+However, sometimes Git cannot automatically merge changes. This most often happens when two commits edit the exact
+same lines within a file. When this is a case, you will get a scary-looking message when you pull:
+
+This long error message is just Git informing you that it could not automatically merge. 
+
+
+
+Finally, after we resolve the merge conflict and we have a successful merge commit, the other partner can push their branch;
+it is now a fast-forward and is accepted:
+
+# TODO: add image
+
+.. admonition:: Exercise
+
+    .. code-block:: console
+
+        $ git push
+        Enumerating objects: 28, done.
+        Counting objects: 100% (28/28), done.
+        Delta compression using up to 8 threads
+        Compressing objects: 100% (19/19), done.
+        Writing objects: 100% (22/22), 2.03 KiB | 346.00 KiB/s, done.
+        Total 22 (delta 13), reused 1 (delta 0), pack-reused 0
+        remote: Resolving deltas: 100% (13/13), completed with 5 local objects.
+        * [update]      tutorial_xx_yy -> tutorial_xx_yy
+
+Conclusion
+----------
+Git is much more powerful, but these form the basics. Go and celebrate; you can now collaborate with  others
+with code, while keeping the entire history safe :)
