@@ -63,3 +63,12 @@ Quantifying nuclear-localized foci
   :align: center
 
 Reference: http://microscopy.duke.edu/HOWTO/countfoci.html
+
+
+Merging images in ImageJ
+------------------------------------
+
+1. Create a *Merged* folder inside the folder where your images are.
+2. Open the files for the various channels (e.g., DAPI, red, green) you want to merge, then do *Image* -> *Color* -> *Merge*.
+3. Make image any adjustments (e.g., brightness, contrast).
+4. Save the new merged image as a ``.jpeg``.
