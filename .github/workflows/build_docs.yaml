@@ -20,7 +20,7 @@ jobs:
       with:
         python-version: 3.7
     - name: Install Python dependencies
-      run: pip install -U sphinx; pip install sphinx-rtd-theme sphinx-last-updated-by-git
+      run: pip install -r requirements.txt
     - name: Build documentation and deploy
       run: ./.github/workflows/build_helper.sh
       env:

@@ -1,13 +1,47 @@
 # Galloway Lab protocols
 
 ## Locally building the protocols.
-This documentation is build with Sphinx. To build locally, install Python 3,
-then do:
+
+### Installation
+This documentation is build with Sphinx. To build locally, you will need to install Python 3.
+
+It is recommended that you use a **virtual environment** for repeatability purposes. First, create a virtual environment
+(called `env` by default, but can be named other things):
+
+```
+python -m venv env
+```
+
+Activate the virtual environment on Linux/MacOS/[any POSIX system](https://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html#dot):
+```
+. env/bin/activate
+```
+
+if using `bash` or `zsh` or other modern shells, you can use the `source` alias for `.`:
+
+```
+source env/bin/activate
+```
+
+or with Powershell on Windows:
+```
+env\Scripts\activate
+```
+
+From here, you can install the frozen package versions inside the virtual enviroment:
+```
+pip install -r requirements.txt
+```
+You're ready to go!
+
+If you are interested, the packages for manual installation are:
 ```
 pip install -U sphinx sphinx-rtd-theme sphinx-last-updated-by-git
 ```
 
-Then, the HTML and PDF documentation can be build with:
+### Building
+
+The HTML and PDF documentation can be build with:
 ```
 python build.py --latex
 ```
