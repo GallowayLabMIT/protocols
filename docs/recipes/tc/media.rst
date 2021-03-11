@@ -33,7 +33,6 @@ immediatly before media addition, to a **final concentration of 10 ng/mL**:
  2. We do not usually use FBS or Pen/Strep
  3. Wrap in foil after making
 
-=======
 To make 1000X stocks of neurotrophics, make a BSA solution (ONLY use (Millipore Sigma, A2058)). 
 
 Make filtered 0.1% BSA/PBS. 
@@ -157,7 +156,7 @@ Total volume: **500 mL**
 ========================= ===== ===============
 
 Sorting/Collection media
-----------------
+-------------------------
 Used for cell sorting. Use DMEM-F12 for flow sorting and DMEM-F12 + 10% FBS for collection to help make cells happier.
 It is possible to use whatever though because you will have to spin-down and resuspend in the correct media (i.e. N3) anyways.
 
