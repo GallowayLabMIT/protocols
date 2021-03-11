@@ -9,7 +9,7 @@ Uses
 * Condense / Concentrate into lower volume
 
 Determine Bead Volume to use by size range you wish to recover: 
----------------------------------
+---------------------------------------------------------------
 
 * To recover ALL nucleic acids regardless of size use bead volume of 1.8x sample volume. 
 
@@ -67,7 +67,7 @@ Basic Bead Clean Protocol:
 .. _two_step:
 
 2-step "Big" bead clean to remove large fragments >~350bp. 
----------------------
+-----------------------------------------------------------
 
 **1st clean:**
 
