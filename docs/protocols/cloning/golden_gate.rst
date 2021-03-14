@@ -17,10 +17,10 @@ Protocol
 ================================= =================================================
  75 ng/plasmid
  2:1 mol ratio for fragments
- 10X T4 DNA ligase buffer           1 µL
- T4 DNA ligase (400 U/µL)		   1.25 µL (500 U)
- Type II RE 						   0.5 µL (increase to 1 µL if >10 inserts)
- H2O								   to 10 µL
+ 10X T4 DNA ligase buffer          1 µL
+ T4 DNA ligase (400 U/µL)          1.25 µL (500 U)
+ Type II RE                        0.5 µL (increase to 1 µL if >10 inserts)
+ H2O                               to 10 µL
 ================================= =================================================
 
 .. note::
@@ -37,7 +37,7 @@ Protocol
  For 2-10 inserts                  (37°C, 5 min -> 16°C, 5 min) x 30 -> 60°C, 5 min
 ================================= ==========================================================================
 
-4. :doc:`Transform competent cells <transformation>` with 2 µL of the Golden Gate mixture.ß
+4. :doc:`Transform competent cells <transformation>` with 2 µL of the Golden Gate mixture.
 5. Store unused Golden Gate assembly products at -20°C
 
 
