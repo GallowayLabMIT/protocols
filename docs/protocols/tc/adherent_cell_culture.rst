@@ -83,8 +83,9 @@ Plating MEFs from Frozen Stock
 --------------------------------------------------------
 
 Materials 
-* Frozen vial of MEFs
-* Media (DMEM)
+
+    * Frozen vial of MEFs
+    * Media (DMEM)
 
 1. Add 10-20 mL of media and spin down. 
 2. Remove media to remove DMSO. 
