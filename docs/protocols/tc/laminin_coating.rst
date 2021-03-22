@@ -1,0 +1,7 @@
+Protocol for Laminin Coating 
+=========================================================
+
+Stocks and supplies
+=========================================================
+
+* 100x Laminin (1 mg/mL; stored -20 deg C)
