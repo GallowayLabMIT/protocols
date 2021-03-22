@@ -84,14 +84,14 @@ Plating MEFs from Frozen Stock
 
 Materials 
 
-    * Frozen vial of MEFs
-    * Media (DMEM)
+    - Frozen vial of MEFs
+    - Media (DMEM)
 
 1. Add 10-20 mL of media and spin down. 
 2. Remove media to remove DMSO. 
 3. Resuspend in 5 mL of media. 
 4. Use 20 µL to count with the hemocytometer.
 
-    i. Number of cells in one corner * 10,000 = # of cells / mL 
+    - Number of cells in one corner * 10,000 = # of cells / mL 
 
 5. Plate 5-10K cells per 96-well well or 100-160K cells per 6-well well.
