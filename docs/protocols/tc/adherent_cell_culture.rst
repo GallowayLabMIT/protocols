@@ -77,3 +77,20 @@ Passage number is an “indicator” of cells age. Every time the cells are deta
 6.  Cultures should be labeled with cell line name, date, passage number and initials of the owner.
 
     - Certain cell lines also need passage # of antibiotic selection, e.g. "Plat-E, Blast/Puro @ P12"
+
+
+Plating MEFs from Frozen Stock
+--------------------------------------------------------
+
+Materials 
+* Frozen vial of MEFs
+* Media (DMEM)
+
+1. Add 10-20 mL of media and spin down. 
+2. Remove media to remove DMSO. 
+3. Resuspend in 5 mL of media. 
+4. Use 20 µL to count with the hemocytometer.
+
+    i. Number of cells in one corner * 10,000 = # of cells / mL 
+
+5. Plate 5-10K cells per 96-well well or 100-160K cells per 6-well well.
