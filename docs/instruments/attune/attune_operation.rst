@@ -3,70 +3,92 @@ Attune operation
 =================
 
 
-Startup
------------------
+.. note::
 
-..  note:: Purpose: To make sure the lines are filled.
+    "10% bleach" refers to a final concentration of 0.525% sodium hypochlorite (5250ppm chlorine).
 
+    This was originally a 10x dilution of 5.25% sodium hypochlorite bleach, but in lab we typically
+    stock higher concentration bleach.
 
+    ====================    ===============     =====================   ====================
+    Concentration           Dilution            Vol bleach (100mL)       Vol water (100mL)
+    ====================    ===============     =====================   ====================
+    5.25%                       1:9                 10 mL                   90 mL
+    6%                          1:10.4              8.8 mL                  91.2 mL
+    8.25%                       1:14.7              6.4 mL                  93.6 mL
+    ====================    ===============     =====================   ====================
 
-Run enhanced start up if > 3 days since the last run. Enhanced startup is just running "Startup" protocol twice. Then run performance test. 
-If an instrument button is grayed out, try hitting refresh.  
+Procedure descriptions
+----------------------
 
-1. Remove all plates from the Cytkick. 
-2. Check autosample bottle connections
-3. Focusing fluid has single "click" lock. 
-4. Important: Waste bottle (black) requires a double "click" for lock 
-5. Note: Connectors have disconnect "buttons" to release the connection. 
-6. Important: Bottle sensors need to be plugged in for performance. Do NOT remove by pulling on line, remove by pulling on solid head of sensor connector. And do NOT force. 
-7. Check the fluids inside the Attune. 
-8. To fill the Focus Fluid, slide the bottle out and add fluid. Or remove entirely. Bottle must be dry to avoid trigger leak sensor. 
-9. Run Debubble. Add 3 mL of Debubble Solution to tube and run twice. 
-10. Performance test run daily but make sure to use original filter settings (not FP special filters)
- 
-
-Cleaning
------------------
-.. note :: Deep cleaning recommended once a week or every two weeks. Run with Hellmanex Solution.
+Through the **instrument tab**, several different user-runnable procedures are listed. From left to
+right in the instrument tab, these are:
 
 
-Hellmanex can be used for deep cleaning. It is alkaline and viscous. 
-To make Hellmanex Solution, dilute Hellmanex 1 mL into 2 mL DI water. 
-Hellmanex Solution can be used in place of bleach for deep clean. 
-Recommended for deep clean + shutdown. Requires a lot of subsequent flushing. 
+- **Rinse**: Rinses the sample loop and connecting sample lines with focusing fluid.
+- **Sanitize SIP/Sanitize Autosampler SIP**: Washes and sanitizes the Sample Injection Port (SIP) on the Attune
+  or on the autosampler. Use this especially after running sticky samples, including the performance beads.
+- **Deep clean**: Cyclicly runs Wash solution and 10% bleach through the flow cell and sample lines. This is
+  the wash steps done in the shutdown step, without the final flush with shutdown fluid.
+- **Startup**: Flushes the shutdown solution from all fluidic lines, replacing it with focusing fluid.
+- **Shutdown**: Uses bleach to backflush the flow cell and all sample lines, rinses all lines with water,
+  then runs Wash solution and 10% bleach cyclicly through all lines. *Quick* does 5 cycles/10 minutes, *standard* does
+  15 cycles/40 minutes, *thorough* does 25 cycles/60 minutes.
+- **Debubble**: Clears bubbles in the fluidics lines.
+- **Unclog**: Backflushes the sample probe and flow cell.
+- **Decontaimate system**: Runs bleach through all backend and frontend fluidic lines. The focusing fluid filters
+  must be replaced after decontamination.
 
 
-Performance Check
------------------
+Weekly system cleaning
+------------------------
 
-.. important ::
-    
-    Before running a performance check, make sure to check the filters. If a red stripe filter is in the instrument (not the side holder), it needs to be replaced with the correct filter or the peformance check will not pass. 
-    Verify lot # of performance beads. Lot # change every ~4 years and require a new set of download files for proper calibration. Originally set September 11, 2020.
+The proprietary "flow cell cleaning solution" is actually a Hellmanex solution. Hellmanex is an alkaline, viscuous
+detergent for cleaning glass. It can be corrosive to metals; make sure to clean up spills!
+
+Dilute 1 mL of Hellmanex with 2 mL of DI water. Run this solution instead of 10% bleach with the deep clean
+procedure. Diluted Hellmanex can also be used with the debubble protocol instead of debubble solution to
+more robustly clean the flow cell (however, don't expect it to debubble! We just use the debubble procedure because
+it washes and backflows the flow cell).
+
+After using Hellmanex, perform a normal deep clean to ensure that it is flushed out of the system.
+
+Every ~3-6 month system decontamination
+---------------------------------------
+
+See page 21 in the `Attune maintenance guide <../../_static/files/attune_maintenance_guide.pdf>`__ for full details.
+
+1. Remove liquid from all fluid containers. These can be poured out into clean glassware or plastic for reuse (as long as they
+   are not visibly contaminated).
+2. Rinse all fluid containers with deionized water, reconnecting them to the system while empty.
+3. Click decontaminate system to start decontamination phase 1 (backend fluidics bleach flush)
+
+   a. Fill both the internal and external focusing fluid bottles with **500 mL of 10% bleach** each. Leave all
+      other bottles empty!
+
+4. Click next to start phase 2 (user fluidics bleach flush)
+
+   a. Load a clean 96-well plate into the autosampler. Load a clean empty tube onto the tube lifter.
+
+5. Click next to start phase 3 (water rinse)
+
+   a. Empty all fluidics bottles, rinsing with DI.
+   b. Fill both the internal and external focusing fluid bottles with **500 mL of DI** each.
+   c. Reconnect all lines.
+   d. Load a clean empty tube onto the tube lifter.
+
+6. Click next to start phase 4 (filter replacement, return to system fluidics)
+
+   a. Replace the focusing fluid filters, as detailed in :doc:`user_replacements`.
+   b. Remove, empty, and rinse all fluidics bottles with DI.
+   c. Refill all bottles with proper solutions.
+   d. Reconnect all lines, then remove the tube from the tube lifter and the plate from the autosampler.
+
+7. Run 3 startup procedures, 2 debubble procedures, and 2 rinse procedures while observing for leaks
+   from the newly replaced filters.
 
 
-
-1. Add 3 full drops of performance beads and dilute with 2 mL of focusing fluid (or PBS). 
-2. After performance test, wash out bead with "Sip sanitize" and then wash solution. 
-
-
-================= ===========================
-Delta PMT         Status
-================= ===========================
-> 10                   Run Cleaning
-> 20                   Indicates an issue
-> 50                   Performance will fail
-================= ===========================
-
-
-Maintainence
------------------
-.. important :: Maintainence required every 3-6 months
-
-
-1. Check syringe (side of main attune instrument behind plastic panel) for build up of salt. May need to be replaced every 6 months. If salt accumulates, this can block sliding of syringe and preventing loading of sample. Part can be ordered and easily replaced by the lab, no need for technician. Syringe should be finger tight. Do not over tighten. 
-2. Sip- The input straw can be bent. If bent, get part from Maintainence Kit, unscrew and replace. 
-3. Focus Filters (2) should be changed ever 3-6 months. When switching out, wash with 10 mL Focus Fluid in a syringe to flush filter. 
-4. Run Sanitize every 3-6 months. 
-
-
+Full Attune guides
+------------------
+You can download the `Attune software manual <../../_static/files/attune_software_guide.pdf>`__ or the
+`Attune maintenance manual <../../_static/files/attune_maintenance_guide.pdf>`__.

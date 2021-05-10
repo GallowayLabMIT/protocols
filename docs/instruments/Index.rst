@@ -7,4 +7,3 @@ Instrument Use and Core Facility Access
     :glob:
     
     */index
-    *
