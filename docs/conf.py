@@ -165,3 +165,7 @@ for version in versions:
 html_context['downloads'] = list()
 html_context['downloads'].append( ('pdf', '/' +REPO_NAME+ '/' +current_language+ 
                                    '/' +current_version+ '/' + 'galloway_lab_protocols.pdf'))
+
+def setup(app):
+    from sphinx.util.texescape import tex_replacements
+    tex_replacements.append(('μ', r'\(\mu\)'))
