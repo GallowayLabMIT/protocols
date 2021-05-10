@@ -133,6 +133,12 @@ then you can build the PDF locally with:
 These build functions build the website in the folder ``output/html``. If you want to
 view your locally built website, open the file ``output/html/index.html``.
 
+
+If using VS Code with the reStructuredText plugin installed, you can use the instant previewer to view
+the HTML version as it recompiles on the fly. On Windows, the default keybinding for 
+preview on Windows is ``Control-Shift-R``, on MacOS it is ``Command-Shift-R``. In general, to see
+available VS Code commands, you can use the Command pallette, accessible through ``Control-Shift-P`` or ``Command-Shift-P``.
+
 In the case of strange build errors that seem to be because the output directory has been
 corrupted, you can close any program that might be using the output (a common one might
 be Adobe Acrobat, with the generated PDF open) and run:
