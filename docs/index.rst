@@ -10,6 +10,8 @@ Click `here <galloway_lab_protocols.pdf>`_ to access the PDF version.
    :maxdepth: 2
    :glob:
    
+   general/index
+   instruments/index
    protocols/index
    recipes/index
 
