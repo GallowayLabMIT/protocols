@@ -10,12 +10,18 @@
 
 
 1.  Wash, dissociate, and triturate cells in plate (swap out tips every time for the trituration)
+    
     - You don't need to swap tips if you hover above the plate while adding in wash and dissociation buffer but you **must swap tips for trituration** (i.e. everytime you put the tip into the well)
-2.  Take out plate **note - the plate is no longer sterile at this point**
+
+2.  Take out plate (**The plate is no longer sterile at this point**)
+  
 3.  Spin at 400 rcf for 5 min using the plate bucket rotor
+    
     - The cells will pellet at the outermost edge so be aware of that when you're aspirating
     - Balance with another 96-well plate filled with roughly equivalent amount of water (there's a balance plate near the centrifuge) but balancing doesn't have to be exact at this low speed
+  
 4.  In the chemical safety hood, aspirate supernatant
 5.  Resuspend in ~200-300 µL PBS, pippette up and down to mix, then directly transfer into a 96-well U-bottom plate for loading into the CytKick autosampler
+    
     - Swap tips in between each transfer to avoid contamination between wells!
     - A U-bottom plate is not necessary but make sure to decrease the Attune uptake volume settings so you don't create bubbles (i.e. you will lose more volume with flat-bottom wells)
