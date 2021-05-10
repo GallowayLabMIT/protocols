@@ -35,7 +35,7 @@ immediatly before media addition, to a **final concentration of 10 ng/mL**:
 
 
 1,000X Neurotrophic factor stocks
---------------------------------
+---------------------------------
 
 .. important::
     Dissolve neurotrophics into 0.1% BSA/PBS only, using **BSA, Millipore Sigma, A2058**
