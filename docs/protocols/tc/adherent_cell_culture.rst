@@ -58,7 +58,7 @@ Passage number is an “indicator” of cells age. Every time the cells are deta
     6-well                          500 µL/well
     12-well                         300 µL/well
     24-well                         150 µL/well
-    96-well                         why are you trying to trypsinize a 96-well o_o
+    96-well                         50 µL/well
     T-75                            5 mL
     T-182                           15 mL
     ============================   =================================================
