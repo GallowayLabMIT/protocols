@@ -176,13 +176,13 @@ Used for dissociating iMNs or primary motor neurons (embMN) harvested from spina
 
 Total volume: **6 mL**
 
-========================= ===================
+========================= =========================
   Component                  Volume        
-========================= ===================
- Papain                    1 vial (125 U)
- DNAse                     1 vial (1,030 U)
+========================= =========================
+ Papain                    1 vial (≥ 100 U/vial)
+ DNAse                     1 vial (≥ 1,000 U/vial)
  DMEM/F12                  6 mL
-========================= ===================
+========================= =========================
 	
 
 Freezing media
