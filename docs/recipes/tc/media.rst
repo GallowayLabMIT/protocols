@@ -153,12 +153,12 @@ Total volume: **500 mL**
 ========================= ===== ===============
   Component                %     Volume        
 ========================= ===== ===============
- DMEM-F12                  99%   495 mL
+ DMEM/F12                  99%   495 mL
 ========================= ===== ===============
 
 Sorting/Collection media
 -------------------------
-Used for cell sorting. Use DMEM-F12 for flow sorting and DMEM-F12 + 10% FBS for collection to help make cells happier.
+Used for cell sorting. Use DMEM/F12 for flow sorting and DMEM/F12 + 10% FBS for collection to help make cells happier.
 It is possible to use whatever though because you will have to spin-down and resuspend in the correct media (i.e. N3) anyways.
 
 Total volume: **500 mL**
@@ -167,26 +167,22 @@ Total volume: **500 mL**
   Component                        %     Volume        
 ================================= ===== ===============
  FBS *(for collection only)*       10%   50 mL
- DMEM-F12                          90%   450 mL
+ DMEM/F12                          90%   450 mL
 ================================= ===== ===============
 
-Dissociation media
-------------------
-Used for dissociating primary motor neurons harvested from spinal cords for plating/sorting.
+Motor neuron dissociation media
+----------------------------------
+Used for dissociating iMNs or primary motor neurons (embMN) harvested from spinal cords for plating/sorting.
 
 Total volume: **6 mL**
 
-========================= ===============
+========================= ===================
   Component                  Volume        
-========================= ===============
- Papain                    1 vial
- DNAse                     1 vial
- DMEM-F12                  6 mL
-========================= ===============
-
-.. admonition:: TODO
-
-	Fill in details of vial size, verify amount of DMEM
+========================= ===================
+ Papain                    1 vial (125 U)
+ DNAse                     1 vial (1,030 U)
+ DMEM/F12                  6 mL
+========================= ===================
 	
 
 Freezing media
