@@ -58,7 +58,7 @@ Stock solutions
 Add EU to cells
 ----------------
 
-1.  In BSC hood, add 0.5 µl of 100 mM EU (100X) to 500 µL of complete growth medium (DMEM/FBS or N3 with no neurotrophics works) per 12-well. For a full 12-well plate, 6 uL into 6 mL. 
+1.  In BSC hood, add 0.5 µl of 100 mM EU (100X) to 500 µL of complete growth medium (DMEM/FBS or N3 with no neurotrophics works) per 12-well. For a full 12-well plate, 60 uL into 6 mL. 
 2.  Incubate cells for 1 hour at 37°C.
 
 
