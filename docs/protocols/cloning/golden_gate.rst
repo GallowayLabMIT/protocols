@@ -41,6 +41,9 @@ Protocol
 5. Store unused Golden Gate assembly products at -20°C
 
 
+.. image:: cloning_images/GG_pPV_ref.png
+
+
 Citations
 ---------
 [1] https://www.neb.com/protocols/2018/06/05/golden-gate-24-fragment-assembly-protocol
