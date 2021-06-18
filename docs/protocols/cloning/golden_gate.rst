@@ -41,7 +41,7 @@ Protocol
 5. Store unused Golden Gate assembly products at -20°C
 
 
-.. image:: cloning_images/GG_pPV_ref.png
+.. image:: cloning_images/GG_pPV_ref.svg
 
 
 Citations
