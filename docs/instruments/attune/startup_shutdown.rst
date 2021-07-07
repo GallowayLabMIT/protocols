@@ -34,11 +34,11 @@ Quick shutdown checklist
 4. Fill a clean tube with **3 mL of 10% bleach** and load it into the tube lifter.
 5. Run the following depending on how quickly the next user will be using it:
    
-   a. *DEFAULT* If next user will be using it > 2 hr, run Shutdown - standard (40 min)
+   a. (**DEFAULT**) If next user will be using it > 2 hr, run Shutdown - standard (40 min)
    b. If next user will be using it < 2 hr, run Deep Clean - quick (10 min)
    c. If last user of the day, run SIP sanitize with Hellmanex, then run Shutdown - thorough (60 min)
 
-6. Log out of the software but do *not* close the software or log out of the INSTR-ADMIN Windows user or shutdown will fail.
+6. Log out of the software but do **not** close the software or log out of the INSTR-ADMIN Windows user or shutdown will fail.
 
 
 Initial inspection and startup
@@ -154,7 +154,7 @@ Shutdown
 5. Run the following depending on how quickly the next user will be using it:
    
     a. If next user will be using it < 2 hr, run Deep Clean - quick (10 min)
-    b. *DEFAULT* If next user will be using it > 2 hr, run Shutdown - standard (40 min)
+    b. (**DEFAULT**) If next user will be using it > 2 hr, run Shutdown - standard (40 min)
     c. If last user of the day, run SIP sanitize with Hellmanex, then run Shutdown - thorough (60 min)
 
 6. Once the shutdown is started, you can log out of the software (but do *not* close the
