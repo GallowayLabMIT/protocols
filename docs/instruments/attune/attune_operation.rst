@@ -43,15 +43,20 @@ right in the instrument tab, these are:
 Weekly system cleaning
 ------------------------
 
-The proprietary "flow cell cleaning solution" is actually a Hellmanex solution. Hellmanex is an alkaline, viscuous
-detergent for cleaning glass. It can be corrosive to metals; make sure to clean up spills!
+The proprietary "flow cell cleaning solution" is actually a `Hellmanex solution <https://www.fishersci.com/shop/products/fisherbrand-hellmanex-iii-liquid-cleaning-concentrate/14385864>`__.
+Hellmanex is an alkaline, viscuous detergent for cleaning glass. It can be corrosive to metals; make sure to clean up spills!
 
-Dilute 1 mL of Hellmanex with 2 mL of DI water. Run this solution instead of 10% bleach with the deep clean
-procedure. Diluted Hellmanex can also be used with the debubble protocol instead of debubble solution to
-more robustly clean the flow cell (however, don't expect it to debubble! We just use the debubble procedure because
-it washes and backflows the flow cell).
+1. 1 mL of Hellmanex with 2 mL of DI water.
+2. Run Deep Clean - Standard (40 min) with 1:2 diluted Hellmanex (instead of standard 10% bleach) 
+3. Run Deep Clean - Quick (10 min) with 10% bleach to ensure that any Hellmanex is flushed out of the system.
 
-After using Hellmanex, perform a normal deep clean to ensure that it is flushed out of the system.
+
+.. note ::
+
+    10% bleach or diluted Hellmanex can also be used with the debubble protocol instead of debubble solution to
+    clean the flow cell (however, don't expect it to debubble! We just use the debubble procedure because
+    it washes and backflows the flow cell). If you use Hellmanex, however, run a debubble with 10% bleach after to flush it out.
+
 
 Every ~3-6 month system decontamination
 ---------------------------------------
@@ -86,6 +91,11 @@ See page 21 in the `Attune maintenance guide <../../_static/files/attune_mainten
 
 7. Run 3 startup procedures, 2 debubble procedures, and 2 rinse procedures while observing for leaks
    from the newly replaced filters.
+
+
+.. important ::
+
+    Do this whenever the 1X focusing fluid bottles need to be refilled so we aren't refilling with contaminated solutions.
 
 
 Full Attune guides
