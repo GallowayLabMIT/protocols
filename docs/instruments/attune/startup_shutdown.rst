@@ -6,19 +6,21 @@ Attune startup and shutdown
 Quick startup checklist
 ------------------------------
 
-1. Make sure fluid bottles are full except for waste bottles. If necessary, empty waste bottle and refill with 10% bleach (100 mL for Attune, 200 mL for Cytkick)
+1. Make sure fluid bottles are full except for waste bottles. If necessary, empty waste bottle and refill with 10% bleach 
+   (100 mL for Attune, 200 mL for Cytkick)
 2. Fluid lines are all plugged in correctly (especially Cytkick autosampler waste!! should hear double click)
 3. Log in and run start up procedure
    
-   a. If the Attune has not been run for > 3 days, run another startup procedure to further flush the lines (don't shutdown, just immediately hit startup again).
+   a. If the Attune has not been run for > 3 days, run another startup procedure to further flush the lines (don't shutdown, 
+   just immediately hit startup again).
    b. If the Attune has not been run for > 1 week, run Debubble with the debubble solution.
 
 4. Run performance test
    
    a. Make sure optical filter config is correct (no red-stripes, order is correct)
    b. Verify bead lot number
-   c. Put 3 drops of performance beads in 2 mL of focusing fluids (should be ~100 ev/s)
-   d. If Delta PMT is high (>10-20), check Attune maintenance guide pg. 41
+   c. Put 3 drops of performance beads in 2 mL of focusing fluids (should be ~100 ev/s at first)
+   d. If Delta PMT is high (>10-20), check `Attune maintenance guide <../../_static/files/attune_maintenance_guide.pdf>`__ pg. 41
 
 5. Run SIP sanitize to wash beads out
 
@@ -32,9 +34,9 @@ Quick shutdown checklist
 4. Fill a clean tube with **3 mL of 10% bleach** and load it into the tube lifter.
 5. Run the following depending on how quickly the next user will be using it:
    
-   a. *DEFAULT* If next user will be using it > 1 hr, run Shutdown - standard (40 min)
-   b. If next user will be using it < 1 hr, run Deep Clean - quick (10 min)
-   c. If last user of the day, run Shutdown - thorough (60 min)
+   a. *DEFAULT* If next user will be using it > 2 hr, run Shutdown - standard (40 min)
+   b. If next user will be using it < 2 hr, run Deep Clean - quick (10 min)
+   c. If last user of the day, run SIP sanitize with Hellmanex, then run Shutdown - thorough (60 min)
 
 6. Log out of the software but do *not* close the software or log out of the INSTR-ADMIN Windows user or shutdown will fail.
 
@@ -146,9 +148,21 @@ Shutdown
 
 1. Place a clean 96 well plate into the autosampler. If reusing a shutdown plate, make sure there are no salt
    crusts in wells; if so, they can be removed with a toothpick and water.
-2. Fill a clean tube with **3 mL of 10% bleach** and load it into the tube lifter.
-3. Empty the waste containers, refilling the shutdown and wash solution bottles if needed.
-4. Run a **thorough shutdown** if this is the last run of the day. If it is going to be > 1 hour before
-   the next user, run a **standard shutdown**.
-5. Once the shutdown is started, you can log out of the software (but do *not* close the
+2. Empty the waste containers and refill with 10% bleach (100 mL for Attune, 200 mL for Cytkick).
+3. Refill the shutdown and wash solution bottles if needed.
+4. Fill a clean tube with **3 mL of 10% bleach** and load it into the tube lifter.
+5. Run the following depending on how quickly the next user will be using it:
+   
+    a. If next user will be using it < 2 hr, run Deep Clean - quick (10 min)
+    b. *DEFAULT* If next user will be using it > 2 hr, run Shutdown - standard (40 min)
+    c. If last user of the day, run SIP sanitize with Hellmanex, then run Shutdown - thorough (60 min)
+
+6. Once the shutdown is started, you can log out of the software (but do *not* close the
    software or log out of the INSTR-ADMIN Windows user!).
+
+
+.. note ::
+
+    Hellmanex III is the generic version of the very expensive Attune cleaning solution. The
+    `Fisher Scientific <https://www.fishersci.com/shop/products/fisherbrand-hellmanex-iii-liquid-cleaning-concentrate/14385864>`__
+    version is diluted at a 1:2 ratio.
