@@ -11,16 +11,16 @@ Quick startup checklist
 2. Fluid lines are all plugged in correctly (especially Cytkick autosampler waste!! should hear double click)
 3. Log in and run start up procedure
    
-   a. If the Attune has not been run for > 3 days, run another startup procedure to further flush the lines (don't shutdown, 
-   just immediately hit startup again).
-   b. If the Attune has not been run for > 1 week, run Debubble with the debubble solution.
+    a. If the Attune has not been run for > 3 days, run another startup procedure to further flush the lines (don't shutdown, 
+       just immediately hit startup again).
+    b. If the Attune has not been run for > 1 week, run Debubble with the debubble solution.
 
 4. Run performance test
    
-   a. Make sure optical filter config is correct (no red-stripes, order is correct)
-   b. Verify bead lot number
-   c. Put 3 drops of performance beads in 2 mL of focusing fluids (should be ~100 ev/s at first)
-   d. If Delta PMT is high (>10-20), check `Attune maintenance guide <../../_static/files/attune_maintenance_guide.pdf>`__ pg. 41
+    a. Make sure optical filter config is correct (no red-stripes, order is correct)
+    b. Verify bead lot number
+    c. Put 3 drops of performance beads in 2 mL of focusing fluids (should be ~100 ev/s at first)
+    d. If Delta PMT is high (>10-20), check `Attune maintenance guide <../../_static/files/attune_maintenance_guide.pdf>`__ pg. 41
 
 5. Run SIP sanitize to wash beads out
 
@@ -126,7 +126,7 @@ Performance test
 ================= ===========================
 Delta PMT         Status
 ================= ===========================
-> 10                   Run Cleaning
+> 10                   Run Deep Clean
 > 20                   Indicates an issue
 > 50                   Performance will fail
 ================= ===========================

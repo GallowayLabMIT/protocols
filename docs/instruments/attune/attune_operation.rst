@@ -47,7 +47,7 @@ Weekly system cleaning
 The proprietary "flow cell cleaning solution" is actually a `Hellmanex solution <https://www.fishersci.com/shop/products/fisherbrand-hellmanex-iii-liquid-cleaning-concentrate/14385864>`__.
 Hellmanex is an alkaline, viscuous detergent for cleaning glass. It can be corrosive to metals; make sure to clean up spills!
 
-1. 1 mL of Hellmanex with 2 mL of DI water.
+1. Dilute 1 mL of Hellmanex with 2 mL of DI water (3 mL total).
 2. Run Deep Clean - Standard (40 min) with 1:2 diluted Hellmanex (instead of standard 10% bleach) 
 3. Run Deep Clean - Quick (10 min) with 10% bleach to ensure that any Hellmanex is flushed out of the system.
 
