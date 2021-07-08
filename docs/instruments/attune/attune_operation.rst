@@ -6,17 +6,18 @@ Attune operation
 .. note::
 
     "10% bleach" refers to a final concentration of 0.525% sodium hypochlorite (5250ppm chlorine).
+    Use ELGA water to dilute instead of DI water to dilute the bleach. 
 
     This was originally a 10x dilution of 5.25% sodium hypochlorite bleach, but in lab we typically
     stock higher concentration bleach.
 
-    ====================    ===============     =====================   ====================
-    Concentration           Dilution            Vol bleach (100mL)       Vol water (100mL)
-    ====================    ===============     =====================   ====================
+    ====================    ===============     =====================   ========================
+    Concentration           Dilution            Vol bleach (100mL)       Vol ELGA water (100mL)
+    ====================    ===============     =====================   ========================
     5.25%                       1:9                 10 mL                   90 mL
     6%                          1:10.4              8.8 mL                  91.2 mL
     8.25%                       1:14.7              6.4 mL                  93.6 mL
-    ====================    ===============     =====================   ====================
+    ====================    ===============     =====================   =========================
 
 Procedure descriptions
 ----------------------
