@@ -41,7 +41,18 @@ Protocol
 5. Store unused Golden Gate assembly products at -20°C
 
 
-.. image:: cloning_images/GG_pPV_ref.svg
+
+Reference for pPV connector sequences
+==========================================
+
+.. image:: cloning_images/GG_pPV_ref.png
+
+
+
+Reference for entire Golden Gate workflow
+==========================================
+
+.. image:: cloning_images/GG_whole_workflow.png
 
 
 Citations
