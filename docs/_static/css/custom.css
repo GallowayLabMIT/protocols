@@ -24,6 +24,31 @@
 	content: '\f017';
 }
 
+.rst-content .deprecated span:before {
+    content: "";
+    font-family: "FontAwesome";
+    display: inline-block;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    text-decoration: inherit;
+    margin-right: 4px;
+}
+.rst-content .deprecated span {
+    background-color: #f29f97;
+    color: #fff;
+    font-style: normal;
+    font-weight: 700;
+    display: block;
+    padding: 2px 6px;
+    margin: -1px -6px;
+    
+}
+.rst-content .deprecated p {
+    background-color: #fdf3f2;
+    padding: 3px 6px;
+}
+
 .wy-nav-top {
     background-color: #2c6854;
 }
