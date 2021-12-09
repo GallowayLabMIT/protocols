@@ -94,12 +94,37 @@ See page 21 in the `Attune maintenance guide <../../_static/files/attune_mainten
    from the newly replaced filters.
 
 
+
+Focusing fluid refill
+--------------------------
+
+.. note ::
+
+    Keep empty focusing fluid bottles so we can refill.
+    
 .. important ::
 
-    Do this whenever the 1X focusing fluid bottles need to be refilled so we aren't refilling with contaminated solutions.
+    Once you get to the last 1X focusing fluid bottle, follow this procedure so we aren't refilling with contaminated solutions.
+
+- Empty focusing fluid bottles should be kept and placed on top shelf over the attune. No other bottles should be kept (e.g. throw away shutdown bottles when empty).
+- Rinse sides of bottles with 10% bleach squeeze bottles
+- Let sit for 15 min
+- Rinse out
+- Rinse with alconox
+- Rinse out with tap *until no more soap*. MAKE SURE NO SOAP RESIDES AND GETS INTO ATTUNE.
+- Rinse with DI
+- Let dry overnight
+
+
+.. important ::
+    
+    Wash large 1X focusing fluid reservoir spigot with aloconox and DI water before using to prevent refilling with contaminated focusing fluid.
+
+- Refill with 1X fcocusing fluid using the *clean* spigot
 
 
 Full Attune guides
 ------------------
+
 You can download the `Attune software manual <../../_static/files/attune_software_guide.pdf>`__ or the
 `Attune maintenance manual <../../_static/files/attune_maintenance_guide.pdf>`__.
