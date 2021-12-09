@@ -24,6 +24,31 @@
 	content: '\f017';
 }
 
+.rst-content .deprecated span.versionmodified.deprecated:before {
+    content: "";
+    font-family: "FontAwesome";
+    display: inline-block;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    text-decoration: inherit;
+    margin-right: 4px;
+}
+.rst-content .deprecated span.versionmodified.deprecated {
+    background-color: #f29f97;
+    color: #fff;
+    font-style: normal;
+    font-weight: 700;
+    display: block;
+    padding: 2px 6px;
+    margin: -6px -12px 7px -12px;
+    
+}
+.rst-content .deprecated p {
+    background-color: #fdf3f2;
+    padding: 6px 12px;
+}
+
 .wy-nav-top {
     background-color: #2c6854;
 }

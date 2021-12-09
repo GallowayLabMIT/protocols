@@ -1,7 +1,10 @@
 ===========================
 Transient 293T Transfection
 ===========================
-
+.. deprecated:: 2021.11.24
+	Please use the updated :doc:`virus_production` protocol going forward; the efficiency of the new protocol
+	exceeds this protocol's efficiency by more than an order of magnitude! Plat-E retrovirus production
+	should still use :doc:`plat_e_transfection`.
 
 Protocol
 --------
