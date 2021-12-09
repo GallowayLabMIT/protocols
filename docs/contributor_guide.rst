@@ -402,7 +402,7 @@ renders as
 Other directives (code blocks, tables, images, etc) can be fully nested inside these blocks.
 
 
-Other options commonly used here are ``hint``, ``important``, ``note``, ``tip``, and ``warning``, which render as
+Other options commonly used here are ``hint``, ``important``, ``note``, ``tip``, ``deprecated``, and ``warning``, which render as
 
 .. hint::
 
@@ -419,6 +419,10 @@ Other options commonly used here are ``hint``, ``important``, ``note``, ``tip``,
 .. tip::
 
   Test
+
+.. deprecated:: 2021.11.24
+
+   Test
 
 .. warning::
 
