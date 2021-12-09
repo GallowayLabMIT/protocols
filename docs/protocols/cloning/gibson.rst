@@ -9,7 +9,7 @@ Protocol
 1. Design the assembly. Online tools such as `NEB Builder <http://nebuilder.neb.com/>`_ and built-in tools such as those in SnapGene are helpful for designing this.
 
 .. note::
-	If desigining Gibson primers manually, having an overlap region of at at least 30bp is recommended. Each fragment must also be over 200bp.
+	If desigining Gibson primers manually, having an overlap region of at at least 30bp is recommended. Each fragment should also be over 200bp.
 
 2. Generate fragments by either PCR followed by DpnI digest, or restriction-digest of a target template.
 
@@ -19,6 +19,10 @@ Protocol
 3. Setup a reaction with 150 ng of the vector fragment, followed by a 2x molar ratio of each of the inserts. Add 2x by-volume Gibson master mix/HIFI assembly mix solution.
 4. Incubate at 50°C for 15 minutes (2-3 fragments) or for 60 minutes (4-6 fragments).
 5. :doc:`Transform competent cells <transformation>` with 2 uL of the Gibson mixture.
+
+. note::
+	If you're skipping recovery, adding water up to 300 µL total volume helps spread the transformed bacteria.
+
 6. Store unused Gibson products at -20°C
 
 Example
