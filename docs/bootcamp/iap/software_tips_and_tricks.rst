@@ -167,3 +167,38 @@ you are using.
 
 .. image:: img/fira_code.png
     :align: center
+
+
+
+Activate SnapGene remotely
+----------------------------
+MIT uses a network license that can only be activated from an MIT IP address.
+To activate remotely, you can tunnel traffic through the Athena cluster via the following:
+
+1. Run ``ssh -D8080 KERBEROS@athena.dialup.mit.edu``
+
+    .. image:: img/remote_snapgene_ssh.png
+        :align: center
+
+2. Login with your MIT password and do a Duo push in bash/powershell/etc. **Leave this window open.**
+
+    .. image:: img/remote_snapgene_duo.png
+        :align: center
+
+3. Set your system proxy settings to use a SOCKS v5 proxy to localhost , port 8080
+
+    .. image:: img/remote_snapgene_localhost.png
+        :align: center
+
+4. Check that the system proxy works by typing "what is my ip address" into google
+
+    .. image:: remote_snapgene_ssh.png
+        :align: center
+
+5. You should get an IP starting with 18
+
+    .. image:: img/remote_snapgene_ip.png
+        :align: center
+
+
+
