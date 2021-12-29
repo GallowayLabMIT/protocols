@@ -190,12 +190,7 @@ To activate remotely, you can tunnel traffic through the Athena cluster via the 
     .. image:: img/remote_snapgene_localhost.png
         :align: center
 
-4. Check that the system proxy works by typing "what is my ip address" into google
-
-    .. image:: remote_snapgene_ssh.png
-        :align: center
-
-5. You should get an IP starting with 18
+4. Check that the system proxy works by typing "what is my ip address" into Google. You should get an IP starting with 18
 
     .. image:: img/remote_snapgene_ip.png
         :align: center
