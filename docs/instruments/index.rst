@@ -7,3 +7,5 @@ Instrument Use and Core Facility Access
     :glob:
     
     */index
+    core_facilities/*
+    keyence/*
