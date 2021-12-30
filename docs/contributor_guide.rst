@@ -67,20 +67,6 @@ of helpful extensions.
         :width: 90%
         :align: center
 
-
-Python/Sphinx
-~~~~~~~~~~~~~
-`Sphinx <https://www.sphinx-doc.org/en/master/>`_ is used to create the rendered website and PDF. Sphinx relies on
-a Python version at least as new as Python 3.5.
-
-If you do not already have a working Python version >= 3.5, use the `standard Python installer <https://www.python.org/>`_.
-
-Then, install Sphinx and the required Sphinx extensions used here using ``pip`` (enter the following **without** the leading ``$``):
-
-.. code-block:: console
-
-    $ pip install -U sphinx sphinx-rtd-theme sphinx-last-updated-by-git
-
 git
 ~~~
 We use ``git`` to manage version history, simultaneous editing, and other features. There are `several <https://git-scm.com/book/en/v2>`_
@@ -102,15 +88,144 @@ In the case of this repository, the HTTPS clone URL is https://github.com/Gallow
 If you access Github using ``ssh`` keys, the SSH clone URL is
 `git@github.com:GallowayLabMIT/protocols.git <git@github.com:GallowayLabMIT/protocols.git>`_.
 
-The published version of the website uses the default ``master`` branch, so push to this branch to update the website.
+The published version of the website uses the default ``latest`` branch, so push to this branch to update the website.
+
+.. _python_setup:
+
+Python/Sphinx setup
+~~~~~~~~~~~~~~~~~~~
+`Sphinx <https://www.sphinx-doc.org/en/master/>`_ is used to create the rendered website and PDF. Sphinx relies on
+a Python version at least as new as Python 3.5.
+
+If you do not already have a working Python version >= 3.5, use the `standard Python installer <https://www.python.org/>`_.
+Anaconda can also be used, but generally the standard Python installer is preferred.
+
+For standardization purposes, the Python packages required to build the website is specified in a ``requirements.txt`` file.
+This means that we can use a **virtual environment** to reproducibly build the website.
+
+To start, we need to make a virtual environment. We can do this using the ``venv`` Python module. The last argument is the name
+of the virtual environment: here we give it the customary name ``env`` but you can choose anything. From the root of the repository
+(e.g. the folder containing ``README.md``) create the environment. This only needs to be performed once! If weird package
+errors happen later, we can always just delete the ``env`` folder and recreate it.
+
+.. code-block:: console
+
+  $ python -m venv env  # On Windows, most Linuxes
+  $ python3 -m venv env # On modern MacOS
+
+We now need to **activate** the environment. The syntax is slightly different between Powershell (on Windows) and bash/zsh (Linux, MacOS).
+This typically has to be done every time you open a new terminal or when you switch between projects with different virtual environments.
+
+.. code-block:: console
+  :class: bash-console
+
+  $ source env/bin/activate # On MacOS, Linux
+
+.. code-block:: console
+  :class: powershell-console
+
+  > .\env\Scripts\activate # On Windows
+
+
+Now that the environment has been activated, any Python changes we do (installing packages, etc) will only affect this environment.
+We install all of the necessary build requirements by doing:
+
+.. code-block:: console
+
+  $ pip install -r requirements.txt
+
+
+From now on, you just need to follow the virtual environment activation step.
+
+
+Standard workflow
+-----------------
 A normal workflow to update a protocol would be:
 
-1. Make changes to the desired files, such as adding pictures, writing new text, and so on.
-2. Locally build the protocols website, checking for any errors (e.g. incorrect reStructuredText)
-3. When there are no build errors, add the files and create a commit describing your changes.
-4. Do a ``git pull`` to merge any new changes, followed by a ``git push`` to update the website.
+1. Do a ``git pull`` to receive any updated changes from others.
+2. Make changes to the desired files, such as adding pictures, writing new text, and so on.
+3. Locally build the protocols website, checking for any errors (e.g. incorrect reStructuredText).
+   Before running the local build, you will likely have to create/activate your virtual environment
+   as listed in the :ref:`Python setup <python_setup>` section.
+4. When there are no build errors, add the files and create a commit describing your changes.
+5. Do a ``git push`` to update the website.
 
+.. admonition:: Common problems
 
+  - **The website isn't updating!**
+    
+    When you push your changes to Github, you start a remote build that
+    does a full build of the project. This can take about two minutes.
+
+    If the website still hasn't updated after two minutes, there is likely a
+    (fatal) build error. Check to make sure that there are no errors printed when
+    you locally build the website! You can also check the remote build log through
+    `Github actions <https://github.com/GallowayLabMIT/protocols/actions>`_.
+
+    If there are no errors or warnings while building locally but the remote build
+    still fails, something strange is happening.
+
+  - **I got a push rejected error!**
+    
+    If you run ``git push`` and get an error like:
+
+    .. code-block:: console
+
+      $ git push
+      Pushing to https://github.com/GallowayLabMIT/protocols.git
+        ! [rejected]        latest -> latest (non-fast-forward)
+      error: failed to push some refs to 'https://github.com/GallowayLabMIT/protocols.git'
+      hint: Updates were rejected because the tip of your current branch is behind
+      hint: its remote counterpart. Merge the remote changes (e.g. 'git pull')
+      hint: before pushing again.
+      hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+    
+    this means that someone else pushed changes to the same branch while you were making
+    edits. This is not a problem, git is just warning you that you first need to merge their changes first.
+    As suggested by the hint, the solution is often to do ``git pull`` again, which will
+    download the remote changes and attempt to auto-merge them. If there are no errors shown
+    when you run ``git pull``, the merge happened automatically and you can re-push.
+  
+  - **I got a merge conflict!**
+    
+    If another person has edited the **same part** of a protocol file at the
+    same time you edited, you
+    may get a merge conflict when you try to pull in the remote changes.
+    This looks like this:
+
+    .. code-block:: console
+
+      $ git pull
+      From https://github.com/GallowayLabMIT/protocols.git
+      * branch            latest -> latest
+      Auto-merging contributor_guide.rst
+      CONFLICT (content): Merge conflict in contributor_guide.rst
+      Automatic merge failed; fix conflicts and then commit the result.
+    
+    This error means that ``git`` isn't sure how to merge two sets of
+    changes together. Instead, it needs the user to choose. For every
+    conflicting file, search for the *conflict markers* marked with ``<<<<<<<`` and ``>>>>>>>``
+    symbols, and decide how to combine the two versions. This probably involves
+    talking with the other person who edited the protocol! An example merge conflict is:
+    
+    .. code-block::
+
+      Text before the merge conflict.
+
+      <<<<<<<HEAD
+      The conflict region! Up here is
+      your version of the files.
+      =======
+      Below the equal signs is whatever the remote version
+      of this part of the file is.
+      >>>>>>>a21ca24 (the git commit identifier)
+
+      Text after the merge conflict
+    
+    It's up to you to decide how to combine the two versions of the file. When you are done editing
+    (making sure to remove the conflict markers!), you need to ``git add`` the file
+    to mark that you resolved the merge conflict, then ``git commit`` when you
+    are done handling merge conflicts. You are then ready to ``git push``!
 
 .. _contrib_local_build:
 
@@ -190,7 +305,7 @@ This will open an editor window:
   :align: center
 
 After you are done editing, add a commit message describing your change, and (normally), commit
-directly to the ``master`` branch. If there is need for further discussion of an added protcol,
+directly to the ``latest`` branch. If there is need for further discussion of an added protcol,
 creating a secondary branch + pull request could be helpful.
 
 .. image:: img/online_commit_changes.png

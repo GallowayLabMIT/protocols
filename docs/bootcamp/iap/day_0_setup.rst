@@ -120,8 +120,7 @@ Experimental software
   if asked for a registration code, get it
   `here <http://downloads.mit.edu/released/snapgene/group-name_registration-code.txt>`__
   (certificates required for both links).
-* **FlowJo:** When initially analyzing flow cytometery data, you can install a FlowJo demo from ``instruments\software``.
-  The demo is limited time, so don't install it until you have data to analyze! 
+* **FlowJo:** We have a single license on lab computers for analyzing flow cytometry data; we can show you how it works in-lab.
 * **FIJI:** For simple image analysis, Fiji (ImageJ) gives a nice GUI interface. Download it from https://fiji.sc
 * **CellProfiler:** CellProfiler is an excellent tool for doing image cytometry (analyzing cell-by-cell in image data).
   In contrast to the GUI-only tools built into the Keyence software, CellProfiler enables repeatable, pipelinable analyses.
@@ -157,7 +156,7 @@ Other
   these plugins through Firefox, you will need to explicitly right click->download target; left-clicking on download
   links will attempt to install the Zotero plugin as a Firefox plugin, which will fail.
   
-* **Creative Cloud:**  MIT recently opened Adobe's Creative Cloud to all students. After installing the
+* **Creative Cloud:**  MIT has a site-license for students and staff. After installing the
   `Creative Cloud application <https://www.adobe.com/creativecloud/desktop-app.html>`__, login with your MIT credentials,
   after selecting "Work/School account". You may have to wait 24 hours for activation after your first login. You should
   install **Acrobat** (for viewing PDFs) and **Illustrator** (for drawing vector art).
@@ -287,6 +286,12 @@ Coding and collaboration
 
   .. |vsc_rlsp| image:: img/vs_code_r_lsp.png
     :width: 200px
+  
+  .. |vsc_rst_syntax| image:: img/vsc_rst_syntax.png
+    :width: 200px
+
+  .. |vsc_snakemake| image:: img/vsc_snakemake.png
+    :width: 200px
 
   .. list-table:: Recommended VS Code extensions
     :header-rows: 1
@@ -301,6 +306,9 @@ Coding and collaboration
     *  - Pylance
        - |vsc_pylance|
        - Faster 'language server' for Python, which means the IntelliSense is faster and more accurate.
+    *  - Snakemake Language
+       - |vsc_snakemake|
+       - Snakemake syntax highlighting for editing computational pipelines.
     *  - R
        - |vsc_r|
        - Base language support for R.
@@ -311,6 +319,9 @@ Coding and collaboration
     *  - reStructuredText
        - |vsc_rst|
        - Enables reStructuredText support, the language used to write this documentation, among others.
+    *  - reStructuredText Syntax highlighting
+       - |vsc_rst_syntax|
+       - Enables syntax highlighting for reStructuredText.
     *  - Jupyter
        - |vsc_jupyter|
        - Inline Jupyter notebook support. No more need to launch Jupyter in a web browser, just do it inside VS Code!
