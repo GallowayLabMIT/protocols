@@ -62,42 +62,65 @@ Hellmanex is an alkaline, viscuous detergent for cleaning glass. It can be corro
 Every ~3-6 month system decontamination
 ---------------------------------------
 
-See page 21 in the `Attune maintenance guide <../../_static/files/attune_maintenance_guide.pdf>`__ for full details.
+.. time:: 2.5 hours
 
-1. Remove liquid from all fluid containers. These can be poured out into clean glassware or plastic for reuse (as long as they
-   are not visibly contaminated).
-2. Rinse all fluid containers with deionized water, reconnecting them to the system while empty.
-3. Click decontaminate system to start decontamination phase 1 (backend fluidics bleach flush)
 
-   a. Fill both the internal and external focusing fluid bottles with **500 mL of 10% bleach** each. Leave all
-      other bottles empty!
+   This is not a "fire and forget" protocol; you will have to be actively doing things for nearly two hours!
 
-4. Click next to start phase 2 (user fluidics bleach flush)
+.. note ::
+   The `Attune maintenance manual <../../_static/files/attune_maintenance_guide.pdf>`__ (page 21) is no longer up-to-date
+   with what the Attune decon protocol is!
 
-   a. Load a clean 96-well plate into the autosampler. Load a clean empty tube onto the tube lifter.
+   When in doubt, always follow the on-screen prompts. There is only one divergence from the on-screen prompts that makes
+   replacing the focusing fluid filters easier.
 
-5. Click next to start phase 3 (water rinse)
+.. note ::
 
-   a. Empty all fluidics bottles, rinsing with DI.
-   b. Fill both the internal and external focusing fluid bottles with **500 mL of DI** each.
-   c. Reconnect all lines.
-   d. Load a clean empty tube onto the tube lifter.
+   Over the course of the decontamination, all of the fluid is poured out. You may save some of the fluids if they are
+   not decontaminated, but it is good to fully remove all liquids somewhat regularly to prevent reservoir contamination.
 
-6. Click next to start phase 4 (filter replacement, return to system fluidics)
+   It is helpful to run the bottles closer to empty before performing the decontamination to waste less fluid.
 
-   a. Replace the focusing fluid filters, as detailed in :doc:`user_replacements`.
-   b. Remove, empty, and rinse all fluidics bottles with DI.
-   c. Refill all bottles with proper solutions.
-   d. Reconnect all lines, then remove the tube from the tube lifter and the plate from the autosampler.
 
-7. Run 3 startup procedures, 2 debubble procedures, and 2 rinse procedures while observing for leaks
+1. Sanitize
+
+   a. Rinse out the focusing fluid bottles (internal and autosampler) and the shutdown bottle with deionized water.
+      Fill the focusing fluid bottles with 500 mL of fresh 10% bleach and fill the shutdown bottle with 100 mL of fresh 10% bleach.
+   b. Make sure the wash bottle is filled with at least 100 mL of wash solution.
+   c. Ensure all fluid connections are connected securely.
+   d. Hit **Next** in the software.
+   e. Load a clean, empty tube onto the tube lifter and load a clean 96 well plate into the autosampler.
+   f. Hit **Next** in the software to start phase 1.
+
+2. Rinse
+
+   a. Remove all liquids from all fluid bottles. Rinse all with deionized water.
+   b. Rinse the wash bottle with 10% bleach. Rinse thoroughly with deionized water.
+   c. Fill the wash and shutdown bottles and internal and autosampler focusing fluid bottles with 100 mL and 500 mL deionized water, respectively.
+   d. Hit **Next** in the software.
+   e. Ensure all fluid connections are connected securely.
+   f. Load a clean, empty tube onto the tube lifter.
+   g. Hit **Next** in the software to start phase 2.
+
+3. Refill
+
+   a. Lower the tube lifter, and remove the plate from the autosampler.
+   b. Hit **Next** in the software.
+   c. Remove all liquids from all fluid bottles. Rinse all with deionized water.
+   d. Replace the normal liquids in the fluid bottles.
+   e. Hit **Next** in the software.
+   f. Replace the focusing fluid filters, as detailed in :doc:`user_replacements`.
+
+   .. note::
+      
+      Replacing the focusing fluid filters before reconnecting the bottles, as suggested here, makes your life much easier.
+
+   g. Clean the Attune with ethanol (wipe up any spills inside the cabinet, clean the metal parts, etc).
+   h. Replace all bottles and reconnect all fluid connections.
+   i. Hit **Next** in the software to start phase 3.
+
+4. Run 3 startup procedures, 2 debubble procedures, and 2 rinse procedures while observing for leaks
    from the newly replaced filters.
-
-
-.. important ::
-
-    Do this whenever the 1X focusing fluid bottles need to be refilled so we aren't refilling with contaminated solutions.
-
 
 Full Attune guides
 ------------------
