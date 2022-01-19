@@ -24,7 +24,7 @@ if hasattr(time, 'tzset'):
 # -- Project information -----------------------------------------------------
 
 project = 'Galloway Lab Protocols'
-copyright = '2020, Galloway Lab. Shared under the Creative Commons 4.0 Attribution International license'
+copyright = '2021, Galloway Lab. Shared under the Creative Commons 4.0 Attribution International license'
 author = 'Galloway Lab'
 
 
@@ -150,7 +150,7 @@ versions = []
 version_run = subprocess.run(['git', 'for-each-ref', '--format=%(refname:lstrip=-1)', 'refs/remotes/origin', 'refs/tags'],
                                 capture_output=True)
 versions_to_skip = {'gh-pages'}
-if version_run.returncode is 0:
+if version_run.returncode == 0:
     for branch in version_run.stdout.decode('utf-8').split('\n'):
         if branch not in versions_to_skip:
             versions.append(branch)

@@ -20,7 +20,7 @@
     - The cells will pellet at the outermost edge so be aware of that when you're aspirating
     - Balance with another 96-well plate filled with roughly equivalent amount of water (there's a balance plate near the centrifuge) but balancing doesn't have to be exact at this low speed
   
-4.  In the chemical safety hood, aspirate supernatant
+4.  Aspirate supernatant
 5.  Resuspend in ~200-300 µL PBS, pippette up and down to mix, then directly transfer into a 96-well U-bottom plate for loading into the CytKick autosampler
     
     - Swap tips in between each transfer to avoid contamination between wells!

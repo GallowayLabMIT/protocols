@@ -194,3 +194,6 @@ Component                  Volume (1 mL)   Final Concentration
 FBS (or DMEM/10% FBS)      900 µL          90%
 DMSO                       100 µL          10%
 ========================  =============== ========================
+
+
+- It is easy to keep a 4C stock of 80% FBS/20% DMSO then use 500 µL 80/20 FBS/DMSO + 500 µL DMEM/FBS cell solution

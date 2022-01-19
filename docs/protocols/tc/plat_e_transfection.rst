@@ -126,14 +126,6 @@ Day Six (1 dpi):
 1.	Change media on transduced MEFs according to transduction MM table (e.g. 100 µL for 96-well)
 
 
-Day Seven (2 dpi):
-
-1.	Add glia cells to the transduced plates of fibroblasts.
-
-    a.	1 vial of glia = 3 flasks, able to use approximately one flask per FULL PLATE of 96 wells.
-    b.	500 µL will be added to the 24-well plates.
-
-
 Day Eight (3 dpi):
 
 1.	Media change plates to N3 media

@@ -94,15 +94,33 @@ Every ~3-6 month system decontamination
 
 2. Rinse
 
-   a. Remove all liquids from all fluid bottles. Rinse all with deionized water.
-   b. Rinse the wash bottle with 10% bleach. Rinse thoroughly with deionized water.
-   c. Fill the wash and shutdown bottles and internal and autosampler focusing fluid bottles with 100 mL and 500 mL deionized water, respectively.
-   d. Hit **Next** in the software.
-   e. Ensure all fluid connections are connected securely.
-   f. Load a clean, empty tube onto the tube lifter.
-   g. Hit **Next** in the software to start phase 2.
 
-3. Refill
+Focusing fluid refill
+--------------------------
+
+.. note ::
+
+    Keep empty focusing fluid bottles so we can refill.
+    
+.. important ::
+
+    Once you get to the last 1X focusing fluid bottle, follow this procedure so we aren't refilling with contaminated solutions.
+
+- Empty focusing fluid bottles should be kept and placed on top shelf over the attune. No other bottles should be kept (e.g. throw away shutdown bottles when empty).
+- Rinse sides of bottles with 10% bleach squeeze bottles
+- Let sit for 15 min
+- Rinse out
+- Rinse with alconox
+- Rinse out with tap *until no more soap*. MAKE SURE NO SOAP RESIDES AND GETS INTO ATTUNE.
+- Rinse with DI
+- Let dry overnight
+
+
+.. important ::
+    
+    Wash large 1X focusing fluid reservoir spigot with aloconox and DI water before using to prevent refilling with contaminated focusing fluid.
+
+- Refill with 1X fcocusing fluid using the *clean* spigot
 
    a. Lower the tube lifter, and remove the plate from the autosampler.
    b. Hit **Next** in the software.
@@ -124,5 +142,6 @@ Every ~3-6 month system decontamination
 
 Full Attune guides
 ------------------
+
 You can download the `Attune software manual <../../_static/files/attune_software_guide.pdf>`__ or the
 `Attune maintenance manual <../../_static/files/attune_maintenance_guide.pdf>`__.
