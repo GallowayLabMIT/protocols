@@ -5,6 +5,10 @@ Plat-E Retroviral Transduction of MEFs
 Plat-Es are a retrovirus packaging line that produce retroviruses that can only infect mouse cells. Plat-E cells contain gag, pol and env genes, allowing retroviral packaging with a single plasmid transfection.
 Supposedly, Plat-E viruses can't be frozen.
 
+.. tip::
+	Do a **10 µg/mL blast and 1 µg/mL puro selection every ~3 passages**. This is to ensure cells are expresssing the retroviral structure proteins.
+
+
 Plat-E Transfection
 -------------------
 
@@ -48,7 +52,7 @@ Day Two (transfect Plat-Es):
     mIsl-1 (6.2 µg/µL)               0.29 µL          1.02 µL             **189.29 µL/well**
     Lhx3 (5.4 µg/µL)                 0.33 µL          1.17 µL             **189.33 µL/well**
     p53DD (3.93 µg/µL)               0.46 µL          1.60 µL             **189.46 µL/well**
-    hRasG12V (0.9 µg/µL)             2.00 µL          7.00 µL             **191.00 µL/well**
+    HRasG12V (0.9 µg/µL)             2.00 µL          7.00 µL             **191.00 µL/well**
     NIL (7.35 µg/µL)                 0.24 µL          0.86 µL             **189.24 µL/well**
     =============================   ==============   =================   ====================
 
@@ -61,7 +65,17 @@ Day Three (Plat-E media change + seed MEFs):
 2.	Seed MEFs
 
     i.  Coat wells in 0.1% gelatin for approx. ~10 min.
-    ii. Seed at ~5-10K cells per well of 96-well plate. For larger sizes, scale accordingly (e.g. 96-well size is about 1/8 of 12-well, seed ~60K for 12-well).
+    ii. Seed at ~5-10K cells per well of 96-well plate. For larger sizes, scale accordingly according to surface area
+    
+        =================   ==========================   ===============================================================
+        **Culture plate**    **Scale factor**              **# of 6-wells of Plat-E you'll need for a full plate**
+        =================   ==========================   ===============================================================
+        6-wells              30                            2
+        12-wells             11                            1.5
+        24-wells             6                             1.5
+        48-wells             3                             1.5
+        96-wells             1                             1
+        =================   ==========================   ===============================================================
 
 
 Day Four (Plat-E media change + infect 1):
@@ -77,7 +91,7 @@ Day Four (Plat-E media change + infect 1):
 1.	Transduce MEFs with retroviruses made from the Plat-E cells
 
     .. note::
-        Each virus will make ~1.25 mL/well from each 6-well of Plat-E (enough for 1 96-well plate). 11.375 µL of each virus will be added to each well of a 96-well plate ALONG WITH POLYBRENE (1,000X at 5 mg/mL)
+        Each virus will make ~1 mL/well from each 6-well of Plat-E (enough for 1 96-well plate). 11.375 µL of each virus will be added to each well of a 96-well plate ALONG WITH POLYBRENE (1,000X at 5 mg/mL)
 
     a.  Filter each virus through a filter
 
@@ -113,7 +127,7 @@ Day Four (Plat-E media change + infect 1):
         *For 3.5 rxn, 96-well*: 238.9 µL 6F + 39.8 µL p53DD + 39.8 µL hRasG12V + 31.5 µL DMEM + 0.35 µL polybrene (1,000X) = 350 µL total for 3.5 96-wells
 
 3.	Add virus mixes to each well dropwise, rocking back and forth to mix.
-4.  Add 1.25 mL fresh media (DMEM + 10% FBS) to Plat-E plates for a second time.
+1.  Add 1.25 mL fresh media (DMEM + 10% FBS) to Plat-E plates for a second time.
 
 
 Day Five (infect 2):
@@ -137,4 +151,4 @@ Day Eight (3 dpi):
 
 Day 10, 12, 14, etc:
 
-1.	Change N3 media until cells are fixed with PFA for staining and imaging.
+1.	Change N3 media every 2 days (can do 3 days if after ~8 days and weekend but 2 is ideal) until done.
