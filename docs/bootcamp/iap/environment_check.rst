@@ -19,7 +19,9 @@ Initial environment check
 If you run into errors, ask someone who has their environment fully setup!
 
 1. Clone the **environment-check** repository at https://github.com/GallowayLabMIT/environment-check.
-   You can put this repository wherever you like.
+   You can put this repository wherever you like. This is intentionally a private repository, which means
+   that you will have to be in the GallowayLabMIT Github organization and have your local Github credentials
+   working.
 
 .. note::
    A common pattern is to put all of your
