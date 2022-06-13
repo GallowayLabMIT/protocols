@@ -51,3 +51,4 @@ Commit and push those changes and you are done!
 Completion date
 ---------------
 - Christopher Johnstone (2022-06-01)
+- Katie Galloway (2022-06-13)
