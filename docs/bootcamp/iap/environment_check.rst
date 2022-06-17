@@ -88,3 +88,4 @@ Completion date
 - Emma Peterman (2022-06-13)
 - Kasey Love (2022-06-17)
 - Nathan Wang (2022-06-17)
+- Christian Otero (2022-06-17)
