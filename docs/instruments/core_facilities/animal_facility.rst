@@ -1,7 +1,7 @@
 ======================
-Keck Imaging Facility
+Animal Facility
 ======================
 
 .. note ::
-    
+
     TO DO

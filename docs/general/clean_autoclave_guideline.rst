@@ -10,7 +10,7 @@ Cleaning and autoclaving guidelines
 Autoclaving
 -------------------
 
-Glassware and plastics are autoclaved as needed. Usually, this amounts to twice a week. Clean glassware on the drying rack will be autoclaved as well as any empty tip or tube boxes. 
+Glassware and plastics are autoclaved as needed. Usually, this amounts to twice a week. Clean glassware on the drying rack will be autoclaved as well as any empty tip or tube boxes.
 
 - For dry cycles: Gravity >> 20 min / 20 min (~45 min)
 - For wet cycles: Liquid >> 30 min / 0 min (~1 hr)
@@ -19,18 +19,18 @@ Glassware and plastics are autoclaved as needed. Usually, this amounts to twice 
 Washing glassware
 ---------------------
 
-  - We currently use Alconox as our soap. Alconox is stored as a powder underneath the sink. Dilute this powder in water in the squirt bottle labeled "Alconox". There is no precise measurement for this.	
+We currently use Alconox as our soap. Alconox is stored as a powder underneath the sink. Dilute this powder in water in the squirt bottle labeled "Alconox". There is no precise measurement for this.
 
   .. note::
-    If you empty a glass bottle or flask (media, PBS, gelatin, ELGA water, etc.), *you are responsible for washing it.*. If you cannot wash the bottle immediately, keep the bottle on your personal lab bench.
+    If you empty a glass bottle or flask (media, PBS, gelatin, ELGA water, etc.), *you are responsible for washing it.* If you cannot wash the bottle immediately, keep the bottle on your personal lab bench.
 
 
-
-   1. If you had cells in it (e.g. midipreps) use 10% bleach for 15 min, first before soap and water
-   2. Rinse thoroughly with tap water until no soap bubbles are left
-   3. Quick rinse with DI
-   4. Put glass to dry on drying rack
-   5. Move glassware when dry to the shelving with the other dry, clean glassware
+1. If the glassware had cells in it (e.g. midipreps) first add bleach to a concentration of 10% and let sit for at least 15 min.
+2. Add Alconox and water, and shake/swirl vigorously to clean. Use the brushes by the sink for tough spots.
+3. Rinse thoroughly with tap water until no soap bubbles are left.
+4. Perform a quick rinse with DI water.
+5. Put glass to dry on drying rack.
+6. Move glassware when dry to the shelving with the other dry, clean glassware. To prevent dust accumulation, store beakers upside down and add foil to flask mouths.
 
 
 Tip boxes
@@ -38,6 +38,7 @@ Tip boxes
 
 - When a box of tips is emptied, recycle the empty plastic insert and autoclave tape and place the empty box in the area next to the ELGA water dispenser.
 - Filter tip boxes do not need to be reused and the whole thing can be recycled when empty.
+- Recycle any broken tip boxes.
 
 Tube containers
 ----------------
@@ -51,23 +52,23 @@ Washing glass beads for cloning
  .. note::
     The dirty bead box should always be filled with 10% bleach
 
-- Dump out beads+bleach into mesh strainer
-- Rinse with tap water
-- Soap with alconox water and then rinse
-- Let beads dry in strainer overnight
-- Use funnel to put beads into glass jar for autoclaving
+1. Dump out beads+bleach into mesh strainer
+2. Rinse with tap water
+3. Soap with alconox water and then rinse
+4. Let beads fully dry in strainer overnight
+5. Use funnel to put beads into glass bottle for autoclaving
 
 
 Glass pipettes
 ------------------------------------
 
-- Make sure no glass shards remain (shake out over sharps container)
-- Carefully fill metal containers with glass pipettes with the thin end pointing down into the longer end (i.e. larger handle side points outwards when you open it)
-- Seal with autoclave tape
+1. Make sure no glass shards remain (shake out over sharps container)
+2. Carefully fill metal containers with glass pipettes with the thin end pointing down into the longer end (i.e. larger handle side points outwards when you open it)
+3. Seal with autoclave tape
 
 
 Toothpicks
 ------------------------------------
 
-- Fill container with toothpicks
-- Cover with foil and mark with autoclave tape
+1. Fill container with toothpicks
+2. Cover with foil and mark with autoclave tape
