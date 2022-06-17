@@ -30,6 +30,8 @@ Initial environment check
 If you run into errors, ask someone who has their environment fully setup! All of the following steps should
 be done *inside* a local copy of the ``environment-check`` repository.
 
+blah blah blah
+
 1. Clone the **environment-check** repository at https://github.com/GallowayLabMIT/environment-check.
    You can put this repository wherever you like. This is intentionally a private repository, which means
    that you will have to be in the GallowayLabMIT Github organization and have your local Github credentials
@@ -50,6 +52,15 @@ be done *inside* a local copy of the ``environment-check`` repository.
    added new packages, update the requirements file by using ``pip freeze > requirements.txt`` so someone else could
    use the same package versions.
 6. Create a ``datadir.txt`` file that contains the path to your locally-synced OneDrive. [KEG: Just make a text file and copy the path to your OneDrive (aka SharePoint) folder for the Galloway lab so you can link directly to your data using "rushd".]
+   For example, the datadir.txt file might look like this (on MacOS):
+
+
+   .. code-block:: text
+
+      /Users/username/Library/CloudStorage/OneDrive-SharedLibraries-MassachusettsInstituteofTechnology/GallowayLab - Documents
+
+   You don't need any quotes or other characters around the path.
+
 7. Commit your changed files and push your new branch to Github. [KEG: Stage changes by clicking on the '+' in the 'Changes' tab. Then types some message on what you will commit into the space for 'Source Control'. By clicking ont the check mark, you will commit changes.]
 8. Run ``python check.py`` or ``python3 check.py`` (MacOS) to see if you get all green checks! [KEG: This only works if you are in the 'environment-check' folder]
 
