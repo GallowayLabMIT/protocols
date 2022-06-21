@@ -2,7 +2,7 @@
 Gibson assembly
 ========================
 
-Gibson assembly allows us to create a construct out of overlapping fragments.
+Gibson assembly allows us to create a construct out of overlapping fragments. During a Gibson reaction, an exonuclease chews back the 5' ends of both the backbone and the inserts. The complimentary ends can then anneal, with nucleotides added by a DNA polymerase to fill in gaps in the annealed fragments. Finally, a ligase enzyme removes nicks to generate one contiguous plasmid. Since this method makes use of an exonuclease, it is important for fragments to have at least 30 bp of overlap.
 
 Protocol
 =========
