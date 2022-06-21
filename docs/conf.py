@@ -24,7 +24,7 @@ if hasattr(time, 'tzset'):
 # -- Project information -----------------------------------------------------
 
 project = 'Galloway Lab Protocols'
-copyright = '2021, Galloway Lab. Shared under the Creative Commons 4.0 Attribution International license'
+copyright = '2022, Galloway Lab. Shared under the Creative Commons 4.0 Attribution International license'
 author = 'Galloway Lab'
 
 
@@ -98,7 +98,7 @@ latex_elements = {
         \definecolor{light-gray}{gray}{0.85}
         \AtBeginEnvironment{tabulary}{\rowcolors{3}{lighter-gray}{}}
         \protected\def\sphinxstyletheadfamily {\cellcolor{light-gray}\sffamily}
-        
+
         \newenvironment{sphinxtime}[1]{\begin{sphinxlightbox}}{\end{sphinxlightbox}}
         \newcommand\subsectionbreak{\ifnum\value{subsection}>1\clearpage\fi}
     ''',
@@ -163,7 +163,7 @@ for version in versions:
 # Populate PDF Downloads
 
 html_context['downloads'] = list()
-html_context['downloads'].append( ('pdf', '/' +REPO_NAME+ '/' +current_language+ 
+html_context['downloads'].append( ('pdf', '/' +REPO_NAME+ '/' +current_language+
                                    '/' +current_version+ '/' + 'galloway_lab_protocols.pdf'))
 
 def setup(app):
