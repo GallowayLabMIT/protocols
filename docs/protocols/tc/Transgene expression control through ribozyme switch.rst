@@ -4,7 +4,8 @@ Transgene expression control through ribozyme switch (96-well plate version)
 
 
 Material
-============================
+---------
+
 
 - Cells.
 - Plates.
@@ -12,7 +13,10 @@ Material
 - PEI
 - Small-molecule such as theophylline, guanine (please check the concentration that you will need)
   
+<<<<<<< HEAD
+=======
 
+>>>>>>> 50aa00d07aeecb020a8f7222d77ab91bc81ba918
 Procedure
 =========
 
