@@ -30,6 +30,8 @@ Initial environment check
 If you run into errors, ask someone who has their environment fully setup! All of the following steps should
 be done *inside* a local copy of the ``environment-check`` repository.
 
+blah blah blah
+
 1. Clone the **environment-check** repository at https://github.com/GallowayLabMIT/environment-check.
    You can put this repository wherever you like. This is intentionally a private repository, which means
    that you will have to be in the GallowayLabMIT Github organization and have your local Github credentials
@@ -50,6 +52,32 @@ be done *inside* a local copy of the ``environment-check`` repository.
    added new packages, update the requirements file by using ``pip freeze > requirements.txt`` so someone else could
    use the same package versions.
 6. Create a ``datadir.txt`` file that contains the path to your locally-synced OneDrive. [KEG: Just make a text file and copy the path to your OneDrive (aka SharePoint) folder for the Galloway lab so you can link directly to your data using "rushd".]
+   For example, the datadir.txt file might look like this (on MacOS):
+
+
+   .. code-block:: text
+
+      /Users/username/Library/CloudStorage/OneDrive-SharedLibraries-MassachusettsInstituteofTechnology/GallowayLab - Documents
+
+   You don't need any quotes or other characters around the path.
+
+.. note::
+
+   The environment-check script expects that you point the data directory at the *root* of the OneDrive,
+   e.g. the folder with subdirectories like ``projects``, ``instruments``, etc.
+
+   In your own code, you can point the datadir wherever you want, but the root is a typical choice because it
+   lets you access both the raw data in ``instruments``, project folders, and more. You can also always
+   create a "local folder" variable in Python, e.g:
+
+   .. code-block:: python
+
+      flow_datadir = rd.datadir/'instruments'/'attune'/'chris'
+      # later in your code
+      # the following argument resolves to
+      # OneDrive/instruments/attune/chris/2022.06.21
+      some_flow_function(flow_datadir/'2022.06.21')
+
 7. Commit your changed files and push your new branch to Github. [KEG: Stage changes by clicking on the '+' in the 'Changes' tab. Then types some message on what you will commit into the space for 'Source Control'. By clicking ont the check mark, you will commit changes.]
 8. Run ``python check.py`` or ``python3 check.py`` (MacOS) to see if you get all green checks! [KEG: This only works if you are in the 'environment-check' folder]
 
@@ -76,3 +104,11 @@ Completion date
 - Katie Galloway (2022-06-13)
 - Emma Peterman (2022-06-13)
 - Kasey Love (2022-06-17)
+- Nathan Wang (2022-06-17)
+- Christian Otero (2022-06-17)
+- Brittany Lende (2022-06-17)
+- Conrad Oakes (2022-06-20)
+- Kei Takahashi (2022-06-20)
+- Adam Beitz   (2022-06-21)
+- Patrick Han (2022-06-21)
+- Sneha Kabaria (2022-06-21)

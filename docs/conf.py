@@ -24,7 +24,7 @@ if hasattr(time, 'tzset'):
 # -- Project information -----------------------------------------------------
 
 project = 'Galloway Lab Protocols'
-copyright = '2021, Galloway Lab. Shared under the Creative Commons 4.0 Attribution International license'
+copyright = '2022, Galloway Lab. Shared under the Creative Commons 4.0 Attribution International license'
 author = 'Galloway Lab'
 
 
@@ -37,6 +37,7 @@ extensions = [
     'sphinx_rtd_theme',
     'time_estimate',
     'sphinx_last_updated_by_git',
+    'matplotlib.sphinxext.plot_directive',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -46,6 +47,16 @@ templates_path = ['_templates']
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
 exclude_patterns = []
+
+# --matplotlib Sphinx options--
+plot_include_source = True
+plot_pre_code = """
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+sns.set_theme(style="ticks")
+"""
 
 
 # -- Options for HTML output -------------------------------------------------
@@ -98,7 +109,7 @@ latex_elements = {
         \definecolor{light-gray}{gray}{0.85}
         \AtBeginEnvironment{tabulary}{\rowcolors{3}{lighter-gray}{}}
         \protected\def\sphinxstyletheadfamily {\cellcolor{light-gray}\sffamily}
-        
+
         \newenvironment{sphinxtime}[1]{\begin{sphinxlightbox}}{\end{sphinxlightbox}}
         \newcommand\subsectionbreak{\ifnum\value{subsection}>1\clearpage\fi}
     ''',
@@ -163,7 +174,7 @@ for version in versions:
 # Populate PDF Downloads
 
 html_context['downloads'] = list()
-html_context['downloads'].append( ('pdf', '/' +REPO_NAME+ '/' +current_language+ 
+html_context['downloads'].append( ('pdf', '/' +REPO_NAME+ '/' +current_language+
                                    '/' +current_version+ '/' + 'galloway_lab_protocols.pdf'))
 
 def setup(app):

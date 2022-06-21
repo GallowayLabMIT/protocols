@@ -9,18 +9,21 @@ Click `here <galloway_lab_protocols.pdf>`_ to access the PDF version.
 .. toctree::
    :maxdepth: 2
    :glob:
-   
+
    general/index
    instruments/index
    protocols/index
    recipes/index
 
-   tech/index
+   plot_gallery/index
 
    bootcamp/index
 
+   tech/index
+
    contributor_guide
-   
+
+
 
 
 Contributing

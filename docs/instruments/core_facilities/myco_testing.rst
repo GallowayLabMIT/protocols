@@ -2,7 +2,7 @@
 Myco Testing
 ============
 
-Myco testing is run by the High Throughput Sciences Facility in the Koch Institute most Tuesdays at 11am. If testing will not be run for a given week, an announcement will be posted on the iLab page where requests are submitted. Samples and requests through iLab need to be submitted before 10am on Tuesday. 
+Myco testing is run by the Preclinical Modeling Core Facility in the Koch Institute most Tuesdays at 11am. If testing will not be run for a given week, an announcement will be posted on the iLab page where requests are submitted. Samples and requests through iLab need to be submitted before 10am on Tuesday. 
 
 Getting Access
 --------------
@@ -12,21 +12,28 @@ Getting Access
 Submitting Testing Request in iLab
 ----------------------------------
 
-1. Requests for myco testing can be submitted through the iLab website. The request form can be found under Core Facilities >> KI Genomics Core / MIT BioMicro Center >> Request Services >> HTS Requests >> Mycoplasma Testing Request >> Request Service.
-2. Complete the table with matrix vial barcode numbers and sample names. Adding that passage number is optional. If submitting a non-conditioned media sample, indicated "media only" in the passage number box.
+1. Requests for myco testing can be submitted through the iLab website. The request form can be found under Core Facilities >> ES Cell and Transgenics Facility >> Request Services >> Preclinical Modeling Requests >> Mycoplasma Testing Request >> Request Service.
+2. Complete the table with matrix vial barcode numbers and cell line names. Adding the passage number is optional. If submitting a non-conditioned media sample, indicated "media only" in the passage number box.
 3. Enter the quantity of samples to be submitted. This should match the number of completed rows in the table. The cost is $12 per sample.
-4. Under payment information, select the lab's fund number. This should be the only option available on the drop-down list.
+4. Under payment information, select the desired payment number.
 5. Submit the request to the core and drop off samples before 10am on Tuesday.
 
 Submitting Samples for Testing
 ------------------------------
-1. Matrix vials can be found in the styrofoam box outside of 76-043 in the basement of the Koch.
-2. Collect 500 uL of media from cells and store in matrix vials. The media should be incubated on cells for at least 3-4 days (or 5-7 days if possible, no antibiotics is ideal) prior to testing, and cells should be >80% confluent prior to sampling.
+1. Matrix vials can be found in the styrofoam box outside of 76-195.
+2. Collect 500 uL of media from cells and store in matrix vials. The media should be incubated on cells for at least 3-4 days (or 5-7 days if possible, no antibiotics is ideal) prior to testing, and cells should be >80% confluent prior to sampling. Usually this means the media has turned orange or even yellow. That is not a problem.
+   
+   .. note:: 
+    Recommendation from the KI Core:
+
+    Ensure that your cells have been growing in the same media (no “feeding” or refreshing the media) for at least 72 hours, though for mycoplasma testing, longer is always better. We recommend seeding the cells to one well of a 6-well plate or one 6cm dish at very low density (5-10%  coverage) on Thursday or Friday and let them sit, untouched until Monday afternoon or Tuesday morning.
+
 3. If you are submitting media-only samples (eg. no cells, just media, FBS, etc), indicate that clearly on the request form. There are parallel processes for handling those types of samples.
-4. Samples must be dropped off in the 96-well box in the white styrofoam box outside of 76-043 by Tuesday morning at 10am. Samples can be stored at 4°C overnight or -20°C if longer. DO NOT leave samples overnight at room temperature in the HTS drop-off box.
+4. Samples must be dropped off in the 96-well box in the white styrofoam box outside of 76-195 by Tuesday morning at 10am. Samples can be stored at 4°C overnight or -20°C if longer. DO NOT leave samples overnight at room temperature in the drop-off box.
 
 Results
 -------
 
 * Results will be emailed to you by the end of the day on Tuesday.
 * The results from the MycoAlert PLUS Assay include a Read A and a Read B. The ratio of these reads determines the results. B/A < 1.0 is considered negative, between 1.0-1.2 should be quarantined, monitored and re-tested, >1.2 is considered positive.
+* The KI Core Facilities use the Lonza MycoAlertTM PLUS Assay, a selective biochemical test that exploits the activity of mycoplasmal enzymes which are found in all six of the main mycoplasma cell culture contaminants and the vast majority of 180 mycoplasma species, but are not present in eukaryotic cells.

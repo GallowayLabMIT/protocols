@@ -97,6 +97,18 @@ Materials
 5. Plate 5-10K cells per 96-well well or 100-160K cells per 6-well well.
 
 
+Gelatin Coating 
+---------------------------------------------------------
+
+Materials
+    - 0.1% autoclaved Gelatin solution
+
+Protocol
+
+1. Add laminin to PBS. 
+2. Add 2 mL laminin-PBS to each 6 well plate. 
+3. Allow wells to set for 2-4 hours before removing excess. 
+
 Laminin Coating 
 ---------------------------------------------------------
 
