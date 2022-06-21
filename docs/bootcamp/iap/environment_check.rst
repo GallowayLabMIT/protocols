@@ -90,3 +90,4 @@ Completion date
 - Nathan Wang (2022-06-17)
 - Christian Otero (2022-06-17)
 - Brittany Lende (2022-06-17)
+- Conrad Oakes (2022-06-20)
