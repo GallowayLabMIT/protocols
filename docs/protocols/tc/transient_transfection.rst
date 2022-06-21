@@ -1,15 +1,17 @@
 =======================================
 Transient HEK293T Transfection
 =======================================
-.. deprecated:: 2021.11.24
+.. note:: 
 	If performing transient transfection for virus production: please use the updated :doc:`virus_production` protocol going forward for lentivirus product via HEK293Ts; the efficiency of the new protocol
 	exceeds this protocol's efficiency by more than an order of magnitude! Plat-E retrovirus production
-	should still use :doc:`plat_e_transfection`.
+	should still use :doc:`/protocols/tc/platE_transfection`.
+
+	If performing transient transfection for an experiment, continue to the protocol below.
 
 Protocol
 --------
 
-For all calculations you can refer to the most updated transfection template, example `here <../../_static/files/2021.08.31_TransfectionTemplate.xlsx>`_.
+For all calculations you can refer to the most updated transfection template in shared projects folder of the Galloway Lab sharepoint, example `here <../../_static/files/2021.08.31_TransfectionTemplate.xlsx>`_.
 
 1.	Seed confluent 293T cells approximately 1-2 days prior to transfection.  Cells must be ~80-90% confluent for highest transfection effiency. If plating 1 day before, recommended cell counts are:
 
