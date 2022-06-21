@@ -93,3 +93,4 @@ Completion date
 - Conrad Oakes (2022-06-20)
 - Kei Takahashi (2022-06-20)
 - Adam Beitz   (2022-06-21)
+- Patrick Han (2022-06-21)
