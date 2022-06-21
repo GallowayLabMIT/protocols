@@ -1,5 +1,5 @@
 =================================================================
-Cryopreservation and plating from frozen stock of mammalian cells
+Mammalian cells cryopreservation and plating from frozen stock
 =================================================================
 
 
@@ -24,7 +24,7 @@ DMSO or sterile glycerol    20%           cryopreservative
     - Optional: count cells with a hemacytometer to know how many cells are frozen per cryovial.  
 
 3. Add cell suspension and freezing media to cryovial in a 1:1 ratio (typically, 0.5mL resuspended cells, 0.5 mL freezing media)
-4. Label cryovial with name, date, passage number (same as the trysined cells), and approximate number of cells (either from hemocytometer or fraction of confluent flask (i.e. 1/6th T185))
+4. Label cryovial with name, date, passage number (same as the trypsinized cells), and approximate number of cells (either from hemocytometer or fraction of confluent flask (i.e. 1/6th T185))
 5. Freeze cryovial at -80C inside a styrofoam container. This will allow slow freezing as to not incur cell damage.
 6. After approximately 24 hours transfer cryovial to liquid nitrogen.
 
