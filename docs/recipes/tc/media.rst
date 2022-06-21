@@ -97,6 +97,26 @@ Hydrocortisone    1 ug/mL
 EGF               20 ng/mL        1 uL of 1 mg/mL stock
 ===============  =============== ========================
 
+Epithelial cell 1 media
+-----------------------
+Use for culturing the **NCI-H1299** human lung cancer cell line.
+
+===============  =============== 
+Component         Concentration   
+===============  ===============
+RPMI + 10% FBS    Base            
+===============  =============== 
+
+Epithelial cell 2 media
+-----------------------
+Use for culturing the **SAOS-2** human osteosarcoma cell line.
+
+=================   =============== 
+Component           Concentration   
+=================   =============== 
+McCoy's + 15% FBS   Base            
+=================   =============== 
+
 Glia media
 ----------
 Used for culturing glia cells

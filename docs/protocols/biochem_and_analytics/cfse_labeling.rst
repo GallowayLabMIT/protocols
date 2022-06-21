@@ -22,8 +22,8 @@ _________________________________
                             (excitation/emission)
 =======================     ======================  =========================  ==========================================================================================================================================
 CFSE                        BL1 (495/519)           10 mM (1000x)              Add 9 or 90 µL of DMSO directly to vial of CFSE. For the Cell Trace Kits, add 9 µL. For the 500 µg vials, add 90 µL of DMSO.
-Cell Trace Violet (CTV)     VL1 (405/450)            5 mM (1000x)              Add 20 µL of DMSO directly to vial of CTV Cell Proliferation Kit vial.
-Cell Trace Far Red          RL1 (630/661)            1 mM (1000x)              Add 20 µL of DMSO directly to vial of Cell Trace Far Cell Proliferation Kit vial.
+Cell Trace Violet (CTV)     VL1 (405/450)            5 mM (1000x)              Add 20 µL of DMSO directly to vial of CTV Cell Proliferation Kit.
+Cell Trace Far Red          RL1 (630/661)            1 mM (1000x)              Add 20 µL of DMSO directly to vial of Cell Trace Far Red Cell Proliferation Kit.
 =======================     ======================  =========================  ==========================================================================================================================================
 
 Other materials needed:
@@ -55,7 +55,7 @@ Wash cells and add CellTrace
 Remove CellTrace and wash
 ---------------------------
 
-6. After incubation, aspirate the PBs solution and wash once with FBS containing media. 
+6. After incubation, aspirate the PBS solution and wash once with FBS containing media. 
 7. Return cells to incubator and treat cells according to your experiment. For reprogramming, cells are harvested at 4 dpi and assayed via flow cytometry. 
 
 
