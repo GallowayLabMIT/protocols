@@ -9,7 +9,7 @@ Required stock solutions
 ------------------------
 
 * **40% Acrylamide stock solution**: Solution of monomers for gel polymerization.
-  
+
   We find it cheaper to buy premixed 40% stock solution, with a acrylamide:bis-acrylamide
   ratio of 29:1 (3.3%). Stocks with a 37.5:1 ratio also work, and are typically used
   for resolving larger proteins.
@@ -31,7 +31,7 @@ Required stock solutions
   ======================== =================== ==========================
   Ammonium persulfate       10%                 100
   ======================== =================== ==========================
-  
+
 
 Casting protocol
 ----------------
@@ -65,7 +65,7 @@ Casting protocol
    3x bis-Tris gel buffer       0.83 mL         1x
    40% Acrylamide stock         0.32 mL        5%
    DI water                     1.36 mL
-   Bromophenol blue                         50 uL (enough to give color)
+   Bromophenol blue             50 uL          (enough to give color)
    =======================    ===========  =============================
 
 

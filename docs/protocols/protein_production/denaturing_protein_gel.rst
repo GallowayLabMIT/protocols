@@ -4,8 +4,8 @@ Denaturing protein gel run and staining
 
 Solutions required
 -------------------
-* **20x MES-SDS running buffer stock solution**: Suitable for separating proteins with a molecular weight less than 75 kDa. 
-  
+* **20x MES-SDS running buffer stock solution**: Suitable for separating proteins with a molecular weight less than 75 kDa.
+
   It is also generally cheaper to order this as a pre-mixed 20x stock solution. If you need to make it yourself, the recipe is:
 
   =========   ===================  ==========================
@@ -38,8 +38,22 @@ Solutions required
 
 * **10% SDS stock**: At low temperatures, the SDS may fall out of solution, but will redissolve
   when mixed with the other ingredients. Mix well before transferring.
-* **0.1% bromophenol blue**: 1 mg / mL
-* **2x sample buffer**: Used to denature and solubilize protein samples. Can be stored 
+* **0.1% bromophenol blue**
+
+  ================  ====================================
+  Component         amount/50 mL to final concentration
+  ================  ====================================
+  bromophenol blue  50 mg
+  DI water          50 mL
+  ================  ====================================
+
+.. note::
+
+  The bromophenol blue solution will not be blue. It is more brown
+  at this concentration. It will be blue when you add it into
+  other things.
+
+* **2x sample buffer**: Used to denature and solubilize protein samples. Can be stored
 
   ===========================  ======================  ================
   Component                     Final concentration     Volume / 10 mL
@@ -54,13 +68,23 @@ Solutions required
   Then, add water. Add the glacial acetic acid last to prevent aggregation.
 
   ================  ===================
-  Component         Final concentration     
+  Component         Final concentration
   ================  ===================
   Coomassie R-250    0.2% (2g/L)
   Methanol           10%
   Acetic acid        10%
   Water              80%
   ================  ===================
+
+* **Coomassie destain solution**
+
+  ================  ===================
+  Component         Final concentration
+  ================  ===================
+  Acetic acid        10%
+  Water              90%
+  ================  ===================
+
 
 Running procedure
 -----------------
@@ -82,5 +106,19 @@ Running procedure
    it is typically ok to run the dye band to the bottom of the gel unless very small proteins are
    of interest.
 
-Staining
---------
+
+Staining (Coomassie)
+--------------------
+
+1. Fill a small dish (the top of a pipette tip box works great!) with DI water.
+2. Carefully separate the gel plates from each other, without ripping the delicate gel.
+   Invert the gel over the dish of water, and gently move the gel into the dish.
+3. Place the gel dish on a rocker for 5 minutes to remove any unbound proteins.
+4. Drain the water, and replace it with a roughly half-inch layer of Coomassie stain.
+5. Either gently shake, while covered, for several hours, or microwave until the solution
+   just reaches boiling (for accelerated diffusion). If microwaving, cover with Kimwipes
+   to prevent spattering!
+6. Drain the Coomassie stain off, replace with DI water, and rock for 5 minutes.
+7. Drain the DI water, and replace with destaining solution.
+8. Cover the gel with Kimwipes, and either shake, while covered, for several hours or microwave as before.
+9. When the destain solution seems substantially blue or purple, replace it with fresh destain solution.
