@@ -53,6 +53,8 @@ Stock solutions
 .. note::
     The 200 mg/mL ascorbic acid (10X) should be made fresh day of. It takes a while to dissolve so start it early and vortex often.
 
+.. warning:: Azides are toxic! Always use azides in the fume hood and do not breathe it in!
+    Azide waste should be collected in the satellite accumulation area in the fume hood.
 
 
 Add EU to cells
