@@ -15,6 +15,7 @@ Scale and virus type selection
   96-well plates. Look up relevant values from the scale table.
 - Decide on a virus type; this determines your packaging and envelope plasmids. Look up the
   packaging and envelope plasmids in the virus type table.
+- For lentiviruses, use `this excel template <2022.01.07_lentivirus-production-calculations-template.xlsx>`__.
 
 **Scale:**
 

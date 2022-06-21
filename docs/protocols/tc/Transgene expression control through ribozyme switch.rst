@@ -1,6 +1,7 @@
-====================================================
+============================================================================
 Transgene expression control through ribozyme switch (96-well plate version)
-====================================================
+============================================================================
+
 
 Material
 ---------
@@ -12,6 +13,10 @@ Material
 - PEI
 - Small-molecule such as theophylline, guanine (please check the concentration that you will need)
   
+<<<<<<< HEAD
+=======
+
+>>>>>>> 50aa00d07aeecb020a8f7222d77ab91bc81ba918
 Procedure
 =========
 
@@ -30,6 +35,7 @@ Day 2. Tranfection
 
 - If you are using ON-switch, whose ribozyme activity is inactivated by small-molecule, you don't need to treat the cells with the small-molecules at 4-6hpt, you can do this next day.
 - If you are using OFF-switch, whose ribozyme activity is activated by small-molecule, you MUST do the small-molecule treatment at 4-6hpt so that transcribed mRNA bind with the molecule before being translated to protein.
+
 Day 3 or Day 4
 ---------------
 - After 24 hours post small-molecule treatment, you should be ready for microscopic analysis or flow cytometry analysis.

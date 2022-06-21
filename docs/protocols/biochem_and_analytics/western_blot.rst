@@ -181,7 +181,7 @@ Casting protocol
    **Resolving buffer:** ~3 mL per gel (6.5 mL total). Final acrylamide concentration depends on desired protein size:
 
    ============  ==============  ===========================  ===============  =============================
-   Protein Size  Gel Percentage  Volume 40% Acrylamide Stock  Volume DI Water  Volume 3x bis-Tris gel buffer
+   Protein Size  Gel %           Vol 40% Acrylamide Stock     Vol DI Water     Vol 3x bis-Tris gel buffer   
    ============  ==============  ===========================  ===============  =============================
      4-40 kDa     20%               3.25 mL                       1.05 mL        2.2 mL
      12-45 kDa    15%               2.44 mL                       1.86 mL        2.2 mL
@@ -244,8 +244,10 @@ Stacking gel
 6. If removing the combs prior to storage, slowly remove the comb, ensuring that wells are not broken.
 
 .. tip::
+   At first only add 1 mL of the stacking gel, then insert the comb.
+   
    Insert the comb starting from one end and moving slowly to the other.
-   Once the comb is fully inserted, lift the first end and add additional stacking gel to remove bubbles.
+   Once the comb is fully inserted, lift the first end and then add additional stacking gel to remove bubbles.
 
    After removing the comb, gently rinse the wells with isopropyl alcohol to remove residual, un-polymerized gel.
 ..
@@ -302,7 +304,7 @@ Solutions required
   ======================= =================== ================================
 
 * **0.1% bromophenol blue**: 1 mg / mL
-* **2x Loading Buffer (Laemmli Buffer)**: Used to denature and solubilize protein samples. Can be stored.
+* **2x Loading Buffer (Laemmli Buffer)**: Used to denature and solubilize protein samples. Can be stored at 4°C.
   
   ===========================  ======================  ================
   Component                     Final concentration     Volume
@@ -318,6 +320,8 @@ Solutions required
 
     2-mercaptoethanol smells awful; always add it inside a fume hood.
 
+    2-mercaptoethanol is hazardous waste and should be disposed of in the proper waste container.
+
 Running procedure
 -----------------
 1. Add **2x Laemmli Buffer** to an equal volume of lysate in PCR tubes.
@@ -328,12 +332,20 @@ Running procedure
 4. Place a prepared bis-Tris protein gel in the gel-runner. Fill both chambers with the prepared 1% MES-SDS running buffer.
    Fill the inner chamber to the top of the stacking gel, and the outside chamber to the top of the resolving gel.
    You will need about 1 liter of the 1% MES-SDS running buffer.
-5. Carefully load equal amounts of protein samples, including a protein standard, into the wells of the gel. Each well can be loaded with a maximum of 25 uL.
+5. Carefully load equal amounts of protein samples, including 5 uL of a protein ladder, into the wells of the gel. Each well can be loaded with a maximum of 25 uL.
    20-30 ug of total protein from cell lysate is generally used unless further optimization is needed for the desired protein(s).
+
+   .. tip:: Choose an asymmetric loading pattern so if the gel is flipped over, you will still know the order of your samples.
+
 6. Run the gels at constant current, about 30 mA (~43V) per mini-gel for approximately 125 minutes. The dye band runs around 3-5 kDa, so
    it is typically ok to run the dye band to the bottom of the gel unless very small proteins are
    of interest.
-
+7. Pour water into a plastic tray (tip box lid), about half a centimeter deep.
+8. Very carefully separate the gel plates without breaking the gel. The gel will stick to one side or the other. 
+9. With a razor blade, cut off the stacking portion of the gel.
+10. Invert the plate/gel over the water and "convince" the gel to fall into the dish. It can help to put the gel and plate into the water and let the solution help the gel release.
+    Using a green gel scraper can also help with this process.
+11. Place the gel on a rocker for 2-5 minutes to remove excess free proteins.
 
 
 
@@ -364,18 +376,13 @@ Solutions required
 Procedure
 ---------
 
-1. Pour water into a plastic tray (tip box lid), about half a centimeter deep.
-2. Very carefully separate the gel plates without breaking the gel. The gel will stick to one side or the other. 
-3. Invert the plate/gel over the water and "convince" the gel to fall into the dish. It can help to put the gel and plate into the water and let the solution help the gel release.
-   Using a green gel scraper can also help with this process.
-4. Place the gel on a rocker for 2-5 minutes to remove excess free proteins.
-5. Drain the water without dropping your gel in the sink, and cover with ~0.5 cm of Coomassie staining dye.
-6. Place the gel in stain in the microwave and microwave on high until the solution just begins to boil (this step greatly accelerates the procedure and allows you to see you bands in a minute or so).
+1. Drain the water from the dish without dropping your gel in the sink, and cover with ~0.5 cm of Coomassie staining dye.
+2. Place the gel in stain in the microwave and microwave on high until the solution just begins to boil (this step greatly accelerates the procedure and allows you to see you bands in a minute or so).
    This only takes 20-30 seconds in the microwave.
-7. Remove from the microwave and place on a rocker for a few minutes. Once you see the gel filled with Coomassie, it's done.
-8. Drain the Coomassie and cover the gel with water, rock for about 5 minutes, drain.
-9. Cover with **10%** acetic acid, place a couple folded Kim-wipes over the gel, and microwave again until the solution begins to boil (20-30 seconds).
-10. Remove from microwave and rock to remove Coomassie not bound to protein.
+3. Remove from the microwave and place on a rocker for a few minutes. Once you see the gel filled with Coomassie, it's done.
+4. Drain the Coomassie and cover the gel with water, rock for about 5 minutes, drain.
+5. Cover with **10%** acetic acid, place a couple folded Kim-wipes over the gel, and microwave again until the solution begins to boil (20-30 seconds).
+6.  Remove from microwave and rock to remove Coomassie not bound to protein.
     If there is excess stain, replace the 10% acetic acid and Kim-wipes and continue to rock until the gel is clear with dark purple protein bands.
 
 
@@ -383,9 +390,143 @@ Procedure
 Transferring the protein from the gel to the membrane
 =====================================================
 
-.. note:: To Do
+.. tip::
+  Proteins in the gel can be transferred to a membrane using the iBlot2. It is recommended to watch
+  `this iBlot2 tutorial video <https://www.youtube.com/watch?v=g7DT5xGheCE>`_ to learn how to use this device.
+  The `iBlot2 manual <https://tools.thermofisher.com/content/sfs/manuals/iblot2_device_man.pdf>`_
+  is another helpful resource for learning to use the iBlot2 and contains more detailed instructions.
+
+
+1. Open the lid of the iBlot2 device using the latch. Ensure the blotting surface is clean.
+2. Unseal the iBlot™ 2 Transfer Stack.
+3. Separate the Top Stack and set it to one side of the bench with the transfer gel layer facing up.
+     Keep the Bottom Stack in the transparent plastic tray. Top and bottom stacks are divided by a separator. Ensure the membrane is not stuck to the
+     separator and is with the bottom stack.
+4. Place the Bottom Stack with the plastic tray directly on the blotting surface.
+5. Ensure there are no bubbles between the membrane and the transfer stack. Remove any trapped air bubbles using a roller such as a plastic conical.
+6. Carefully separate the glass plates surrounding the gel so the gel is left on one of glass plates. Using a razor blade,
+   cut off the stacking region of the gel. Then carefully remove the gel from the glass into a dish filled with 1 cm of DI water.
+7. Place the pre-run gels on the transfer membrane of the Bottom stack. Note: two gels can fit onto a single membrane.
+8. Use a roller to remove any air bubbles between the gel and the membrane.
+9. Soak the iBlot Filter Paper from the transfer stack in a clean container of deionized water.
+10. Place the presoaked iBlot Filter Paper on the pre-run gel. Use a roller to remove any air bubbles between the filter paper and gel.
+11. Remove and discard the white plastic separator from the Top stack.
+12. Take the Top Stack from the bench and place it on top of the presoaked filter paper with the copper electrode facing up
+    (and transfer gel layer facing down). Remove any air-bubbles using a roller.
+13. Place the iBlot™ 2 Absorbent Pad on top of the iBlot™ 2 Transfer Stack such that the electrical contacts are aligned with the corresponding
+    electrical contacts on the blotting surface of the iBlot™ 2 Gel Transfer Device.
+14. Use the Blotting Roller to flatten any protrusions in the transfer stack.
+15. After assembling the iBlot™ 2 Gel Transfer Stack, perform blotting within 10-15 minutes of assembling the stacks with the gel.
+16. Gently close the iBlot™ 2 Gel Transfer Device lid by pressing down with two hands on the sides of the lid. Make sure the latch is secure.
+    Do not forcibly push the lid when closing, because it can cause the transfer stack or metal contacts to shift out of position
+17. Ensure that the correct Method is selected.
+    
+
+  ======  ================  ================  ==============
+  Method  Voltage           Default Run Time  Run Time Limit
+  ======  ================  ================  ==============
+  P0      | 20 V for 1 min  7 min             13 min
+          | 23 V for 4 min
+          | 25 V for 2 min
+  P1      25 V              6 min             10 min
+  P2      23 V              6 min             11 min
+  P3      20 V              7 min             13 min
+  P4      15 V              7 min             16 min
+  P5      10 V              7 min             25 min
+  ======  ================  ================  ==============
+
+  .. note::
+    See page 17 of the `iBlot2 manual <https://tools.thermofisher.com/content/sfs/manuals/iblot2_device_man.pdf>`_
+    for more detailed information about running parameters.
+
+    Transfer protocol P0 with default run time has worked previously when blotting for Beta-actin, WT-p53, and RAS.
+
+    For proteins from 30 to 150 kDa method P0 for a 7 minute run time is recommended. For proteins >150 kDa methods P0 or P3 with
+    a run time of 8-10 min is recommended.
+
+
+18.	Touch the Start icon on the screen to begin the transfer.
+19.	At the end of the transfer, the current automatically shuts off and the iBlot™ 2 Gel Transfer Device signals the end of transfer with repeated beeping sounds, and a message on the digital display.
+20.	Touch the Done icon to stop the beeping.
+21.	To obtain good transfer and detection results, open the device and disassemble the stack within 30 minutes of ending the blotting procedure.
+22.	Open the lid of the iBlot™ 2 Gel Transfer Device.
+23.	Discard the iBlot™ 2 Absorbent Pad and Top Stack.
+24.	Carefully remove and discard the gel and filter paper. Remove the transfer membrane from the stack.
+25.	If needed, cut the membrane with a razor blade or scissors to separate the regions corresponding to each gel.
+
 
 Antibody Staining
 =================
 
-.. note:: To Do
+Solutions required
+------------------
+* **10X Tris-Buffered Saline (TBS)**:
+  Add ~450 mL of DI water to dissolve the Tris and NaCl. Adjust to a pH of 7.6. Then add the remaining DI water to reach a final volume of 500 mL.
+  
+  =========   ===================  =============
+  Component   Final concentration  Amount Needed
+  =========   ===================  =============
+  Tris-base      200 mM             12 g
+  NaCl           1500 mM            44 g
+  DI Water                          To 500 mL
+  =========   ===================  =============
+
+* **10% Tween20**:
+  
+  =========   ===================  =============
+  Component   Final concentration  Amount Needed
+  =========   ===================  =============
+  Tween20       10%                1 mL
+  DI Water                         9 mL
+  =========   ===================  =============
+
+  .. note:: Larger volumes of Tween20 are easier to measure because it is very viscous.
+
+* **1x Tris-Buffered Saline / Tween (TBST)**:
+  
+  ===========   =======================  =============
+  Component     Final concentration      Amount Needed
+  ===========   =======================  =============
+  10X TBS       1X                       5 mL
+  10% Tween20   0.1%                     0.5 mL
+  DI Water                               To 50 mL
+  ===========   =======================  =============
+
+* **Blocking Buffer**:
+  
+  ===========   =======================  =============
+  Component     Final concentration      Amount Needed
+  ===========   =======================  =============
+  Milk Powder   5%                       2.5 g
+  10% Tween20   0.1%                     0.5 mL
+  10x TBS       1X                       5 mL
+  DI Water                               To 50 mL
+  ===========   =======================  =============
+
+* **10% Blocking Buffer**: For diluting primary and secondary antibodies.
+  
+  ===============   =======================  =============
+  Component         Final concentration      Amount Needed
+  ===============   =======================  =============
+  Blocking Buffer   10%                      5 mL
+  1x TBST                                    45 mL
+  ===============   =======================  =============
+
+
+Staining Procedure
+------------------
+
+1. Wash the membrane with DI water for 5 minutes using agitation.
+2. Block the membrane with blocking solution for 30-60 minutes at room temperature with agitation. Alternatively, block overnight at 2-8°C.
+3. Incubate the membrane with primary antibody diluted (at manufacturer’s recommended dilution) in 10% blocking solution overnight at 2-8°C with agitation.
+4. Wash the membrane 3 times for 10 minutes each in TBST using agitation to remove any unbound primary antibody.
+5. Incubate blot with secondary antibody HRP-conjugate at a 1:10,000 dilution (or at the manufacturer’s recommended dilution) for 30 minutes to 1 hour at room temperature using agitation.
+6. Wash the membrane 6 times for 5 minutes each in TBST to remove any unbound secondary antibody conjugate. It is crucial to thoroughly wash the membrane after incubation with the HRP enzyme conjugate.
+7. Prepare the `SuperSignal West Femto Substrate <https://www.thermofisher.com/order/catalog/product/34094>`_ working solution by mixing equal parts of the Substrate and Stable Peroxide components
+   (e.g. 5 mL substrate with 5 mL stable peroxide). Use a sufficient volume to ensure the blot is completely wetted with the substrate and does not become dry.
+   .. Note:: The working solution is stable for up to 6-8 hours at room temperature.
+8. Incubate the membrane with the substrate working solution for 5 minutes.
+9.  Remove the blot from the working solution and place it in a labeled, clear plastic bag, and remove excess liquid with an absorbent tissue.
+10. Image the blot using chemiluminescence. The membrane does not need to be removed from the clear plastic bag for imaging. The Niles Lab in BE has a ChemiDoc Imaging System that they let us use, and images can be transferred using a USB flash drive.
+11. Blot quantification can be done using the `Gel Analyzer tool <https://alfresco.uclouvain.be/alfresco/service/guest/streamDownload/workspace/SpacesStore/62eef827-f095-4bfd-b607-e0688df2317c/ImageJ%20-%20western%20blot%20quantification.pdf?a=true&guest=true>`_ in ImageJ.
+
