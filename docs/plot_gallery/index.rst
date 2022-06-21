@@ -2,6 +2,12 @@
 Plot Gallery
 ============
 
+.. toctree::
+   :maxdepth: 2
+   :glob:
+
+   *
+
 Notes on reproducing examples
 -----------------------------
 
@@ -20,12 +26,3 @@ If you are reproducing the code on your own, make sure that these lines have bee
 
 
 All example data needed is available as a zip file: `plot_gallery_data.zip <../_static/files/plot_gallery_data.zip>`__.
-
-Gallery entries
----------------
-
-.. toctree::
-   :maxdepth: 2
-   :glob:
-
-   *
