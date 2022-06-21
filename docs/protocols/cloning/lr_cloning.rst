@@ -1,20 +1,20 @@
-===========
+==================
 LR cloning
-===========
+==================
 
-.. time:: 1 hr
+.. time:: 1 hour to overnight
 
 Protocol
 ========
 .. note::
 	In most instances, a 5 uL reaction is sufficent.
 
-1. Add 50-150 ng of entry plasmid and 150 ng of destination plasmid. Dilute with water to 4 uL or 8 uL.
+1. Add 50-150 ng of entry plasmid and 150 ng of destination plasmid. Dilute with 1X TE buffer to 4 uL or 8 uL depending on whether you choose to perform a 5 uL or 10 uL reaction respectively.
 2. Thaw LR Clonase II enzyme mix on ice for two minutes. Vortex the enzyme mix briefly (2 seconds each time).
-3. Add 1 uL clonase mix for a 5 uL reaction, or 2 uL clonase for a 10 uL reaction.
-4. Incubate at 25 degrees C for 1 hour.
+3. Add 1 uL/2 uL clonase mix for a 5 uL/10 uL reaction.
+4. Incubate reaction at room temperature for 1 hour to overnight.
 5. **Optional, if transforming immediately:** Add 0.5/1.0 uL Proteinase K to each sample to terminate the reaction. Incubate at 37 degrees C for 10 minutes.
-6. Transform competent cells.
+6. `Transform competent cells <transformation>`_ with the reaction product.
 
 Expected results
 ================

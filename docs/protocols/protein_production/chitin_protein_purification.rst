@@ -2,6 +2,11 @@
 Chitin-binding protein purification
 ====================================
 
+.. warning::
+
+  This protocol was attempted for Tn5 purification. This was unsuccessful,
+  though possibly not because of this protocol.
+
 Required solutions
 -------------------
 * **Chitin Lysis buffer**:
@@ -52,7 +57,21 @@ Required solutions
   KOH                    to pH 7.2
   ===================== ================   ========================
 
-* **10% PEI**: pH to 7.2
+* **10% PEI**:
+
+  ======================= ================   ============================
+  Component                Concentration       amount/10 mL final volume
+  ======================= ================   ============================
+  Branched PEI (50% w/v)           10%           2  mL
+  DI water                 -                    8 mL
+  HCl                       -                   to pH 7.2
+  ======================= ================   ============================
+
+
+.. note::
+  Use *branched* PEI. Any branched PEI should technically work,
+  though the product mentioned in the literature is `Sigma P3143 <https://www.sigmaaldrich.com/US/en/product/sial/p3143>`__.
+
 
 Protocol
 --------
