@@ -23,6 +23,7 @@ and setup code that runs before any given code examples:
    sns.set_theme(style="ticks")
    from statannot import add_stat_annotation
    import scipy
+   from pathlib import Path
 
 If you are reproducing the code on your own, make sure that these lines have been run!
 
