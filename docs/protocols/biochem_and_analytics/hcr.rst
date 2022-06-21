@@ -2,6 +2,8 @@
 HCR RNA-FISH
 ************
 
+Prepare necessary buffers as described in :doc:`/recipes/fish/fish_buffers`
+
 ===================
 Well Plate Protocol
 ===================
@@ -29,16 +31,19 @@ Solution Detection Stage
 6. Remove excess probes by washing 4x 15 min with 500 uL of probe wash buffer at 37 degrees Celsius
 7. Wash samples 3x 5 min with 500 uL of 5X SSCT at room temperature
 
-Solution Amplification Stage
-============================
+Hairpin Preparation Stage
+=========================
 1. Prepare 30 pmol of hairpin h1 and h2 by snap cooling 10 uL of 3 uM stock at 95 degrees Celsius for 90 seconds
 2. Cool hairpins in the dark at room temperature for 30 minutes
-3. Pre-amplify samples in 500 uL of amplification buffer for 30 min at room temperature
-4. Prepare hairpin solution by adding h1 and h2 hairpins to 500 uL amplification buffer
-5. Remove pre-amplification solution and add the hairpin solution
-6. Incubate samples overnight (12-16 h) in the dark at room temperature
-7. Remove excess hairpins by washing with 500 uL of 5X SSCT at room temperature for:
+3. Prepare hairpin solution by adding h1 and h2 hairpins to 500 uL amplification buffer
+
+Solution Amplification Stage
+============================
+1. Pre-amplify samples in 500 uL of amplification buffer for 30 min at room temperature
+2. Remove pre-amplification solution and 500 uL of the hairpin solution
+3. Incubate samples overnight (12-16 h) in the dark at room temperature
+4. Remove excess hairpins by washing with 500 uL of 5X SSCT at room temperature for:
    a. 2x 5 min
    b. 2x 30 min
    c. 1x 5 min
-8. Store at 4 degrees C in the dark until imaging
+5. Store at 4 degrees C in the dark until imaging
