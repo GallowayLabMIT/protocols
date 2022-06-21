@@ -123,5 +123,5 @@ Label and wash
 
 
 .. note::
-    All spins are performed at ~500 rcf. Our centrifuge follows RCF = 1e-4*[rpm]^2 + 4e-2*[rpm] - 6e1, where **2200 rpm = 512 rcf**.
+    All spins are performed at ~500 rcf for 5 min. Our centrifuge follows RCF = 1e-4*[rpm]^2 + 4e-2*[rpm] - 6e1, where **2200 rpm = 512 rcf**.
     It is recommended to perform all spins at 4°C once the cells have been fixed to prevent pellet loss.
