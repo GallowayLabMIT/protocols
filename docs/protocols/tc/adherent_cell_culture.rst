@@ -76,12 +76,15 @@ Passage number is an “indicator” of cells age. Every time the cells are deta
 
     ii. Neutralize with >2 volumes of media that contains FBS (e.g. neutralize a 1 mL 0.05% trypsin with >2 mL FBS-containing media).
     iii. Mix well by pipetting and make sure that all cells are detached.
-    iV. Transfer to a 15 mL of 50 mL conical. 
+    iV. Transfer to a 15 mL or 50 mL conical. 
 
-4. Centrifuge at 400G for 4 minutes. Cells will pellet at the bottom of the conical.
+4. Centrifuge at 400G for 4 minutes. Cells should pellet at the bottom of the conical.
 5. Aspirate all media/trypsin, carefully avoiding aspirating the cell pellet. 
 6. Resuspend pellet in 1-10 mL of media (volume is your choice.)
-7.  If needed, take a known volume of cells and count cells using hemocytometer.
+7.  If needed, take a known volume of cells (ex. 10uL) and count cells using hemocytometer.
+
+    - Number of cells in one corner * 10,000 = # of cells / mL
+
 8.  Seed new dish/flask with desired number or dilution of cells (make sure cells in the original dish are well resuspended before you take an aliquot to seed the new dish).
 9.  Cultures should be labeled with cell line name, date, passage number and initials of the owner.
 
@@ -111,7 +114,7 @@ Plat-Es         6-well                800K
 .. note:: 
    Plat-Es (only for virus production) and MEFs require plates gelatine-coated plates.
 
-1. Excess cells can be added to a new T75 or T185 (effectively passaging the cells)
+5. Excess cells can be added to a new T75 or T185 (effectively passaging the cells)
 
 Laminin Coating 
 ---------------------------------------------------------
@@ -131,6 +134,7 @@ Gelatin Coating
 
 Materials
     - 0.1% Gelatin
+
 Protocol
 
 1. Add enough gelatin to coat the bottom of the flask or well (approx 1/2 of media needed for the well)
