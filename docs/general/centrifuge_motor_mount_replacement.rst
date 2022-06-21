@@ -8,10 +8,10 @@ Required materials
 ======================= =====================
 Part                     McMaster part number
 ======================= =====================
-Rubber vibration mounts  1324982347293487234
-Nuts
-Washers
-Lock washers
+Rubber vibration mounts  9376K21
+Nuts                     95462A029
+Washers                  90107A029
+Lock washers             95584A207
 ======================= =====================
 
 Procedure

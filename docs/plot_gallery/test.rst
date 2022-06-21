@@ -1,10 +1,14 @@
+=============================
 Testing matplotlib directives
------------------------------
+=============================
+
+Subheading
+----------
+
 
 .. plot::
 
-    x = np.random.randn(1000)
-    df = pd.DataFrame({'x':x})
-    sns.histplot(data=df, x='x')
+    df = pd.read_csv('data/test_data.csv')
+    sns.scatterplot(data=df, x='x', y='y')
     sns.despine()
     plt.show()
