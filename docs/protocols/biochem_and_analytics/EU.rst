@@ -53,6 +53,8 @@ Stock solutions
 .. note::
     The 200 mg/mL ascorbic acid (10X) should be made fresh day of. It takes a while to dissolve so start it early and vortex often.
 
+.. warning:: Azides are toxic! Always use azides in the fume hood and do not breathe it in!
+    Azide waste should be collected in the satellite accumulation area in the fume hood.
 
 
 Add EU to cells
@@ -121,5 +123,5 @@ Label and wash
 
 
 .. note::
-    All spins are performed at ~500 rcf. Our centrifuge follows RCF = 1e-4*[rpm]^2 + 4e-2*[rpm] - 6e1, where **2200 rpm = 512 rcf**.
+    All spins are performed at ~500 rcf for 5 min. Our centrifuge follows RCF = 1e-4*[rpm]^2 + 4e-2*[rpm] - 6e1, where **2200 rpm = 512 rcf**.
     It is recommended to perform all spins at 4°C once the cells have been fixed to prevent pellet loss.

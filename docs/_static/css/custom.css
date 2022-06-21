@@ -42,7 +42,7 @@
     display: block;
     padding: 2px 6px;
     margin: -6px -12px 7px -12px;
-    
+
 }
 .rst-content .deprecated p {
     background-color: #fdf3f2;
@@ -66,6 +66,26 @@
       overflow: visible !important;
    }
 }
+
+.rst-content div[class*="highlight-python"]{
+    border: solid 1px #3e7bac;
+    border-left-color: rgb(54, 0, 132);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-left: solid 5px #3e7bac;
+    margin: 15px 5px 10px 0;
+    border-radius: 4px 0 0 4px;
+}
+
+.rst-content div[class*="highlight-python"]::before {
+    content: "Python";
+	color: #3e7bac;
+	background-color: #dfe7ee;
+	display: block;
+	/*font-weight: bold;*/
+	padding: 5px 10px;
+}
+
 
 .rst-content div[class*="highlight-console"]{
     border: solid 1px #360084;
