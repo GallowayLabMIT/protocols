@@ -62,6 +62,7 @@ Reverse oligo (100 uM)    1 uL
 T4 PNK                    1 uL
 Water                     15 uL
 ========================= ===========================
+
 3. Run the reaction on a thermocycler: 37°C for 1 hr, heat at 95°C for 3 min, then cool to room temperature over ~30-60 min. (There should be a temperature step function on the thermocycler, e.g. cool by 0.1°C every second.)
 4. Nanodrop annealed fragments and use in ligation reaction.
 
