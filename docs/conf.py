@@ -37,6 +37,7 @@ extensions = [
     'sphinx_rtd_theme',
     'time_estimate',
     'sphinx_last_updated_by_git',
+    'matplotlib.sphinxext.plot_directive',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -46,6 +47,16 @@ templates_path = ['_templates']
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
 exclude_patterns = []
+
+# --matplotlib Sphinx options--
+plot_include_source = True
+plot_pre_code = """
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+sns.set_theme(style="ticks")
+"""
 
 
 # -- Options for HTML output -------------------------------------------------
