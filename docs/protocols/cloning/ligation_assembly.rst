@@ -48,8 +48,8 @@ Multiple oligos with compatible sticky ends can be assembled to create longer fr
 Example
 -------
 
-You want to replace microRNA target sites that are between two restriction enzyme sites on your plasmid, AvrII and HindIII, that are on the 5' and 3' ends respectively of the region of interest. To swap out the sites, you choose to do a ligation reaction with oligos.
+You want to replace microRNA target sites that are between two restriction enzyme sites, AvrII and HindIII, that are on the 5' and 3' ends respectively of the region of interest on your plasmid. To swap out the sites, you choose to do a ligation reaction with oligos.
 
-To be compatible with the vector, you design your new target site oligos with a 5' AvrII sticky end om the top strand and a 5' HindIII sticky end on the bottom strand. You anneal and phosphorylate these oligos and then perform a digest of the template with AvrII and HindIII, ending up with a concentration of 75 ng/uL.
+To be compatible with the vector, you design your new target site oligos with a 5' AvrII sticky end on the top strand and a 5' HindIII sticky end on the bottom strand. You anneal and phosphorylate these oligos and then perform a digest of the template with AvrII and HindIII, ending up with a concentration of 75 ng/uL.
 
 A quick calculation shows that 2 uL of digest contains the 150 ng of DNA template required for the reaction. You then perform a ligation reaction by mixing the digest product with the oligos as detailed above and incubating at room temperature overnight. 

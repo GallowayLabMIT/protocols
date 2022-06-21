@@ -22,50 +22,17 @@ Used for neuronal differentiation during direct conversion.
 Add the following small molecules to small volumes
 immediatly before media addition, to a **final concentration of 10 ng/mL**:
 
-* BDNF, from 1,000x stock (10,000 ng/ml)
-* CNTF, from 1,000x stock (10,000 ng/ml)
-* GDNF, from 1,000x stock (10,000 ng/ml)
-* FGF10, from 10,000x stock (100,000 ng/ml)
+* BDNF, from 1,000x stock (10,000 ng/mL)
+* CNTF, from 1,000x stock (10,000 ng/mL)
+* GDNF, from 1,000x stock (10,000 ng/mL)
+* FGF,  from **10,000x** stock (100,000 ng/mL)
 * RepSox, **if RR**, from 1000x stock (7.5mM)
 
 .. note::
  1. 200mM glutamine is the same as Glutamax
  2. We do not usually use FBS or Pen/Strep
  3. Wrap N3 in foil after making
-
-
-1,000X Neurotrophic factor stocks
----------------------------------
-
-.. important::
-    Dissolve neurotrophics into 0.1% BSA/PBS only, using **BSA, Millipore Sigma, A2058**
-
-For Neurotrophic factors, from the reagents in the glass tubes:
-
-1.  Make a 0.1% BSA/PBS **(ONLY use Millipore Sigma, A2058)** solution and syringe filter through a 0.2 µm filter. 
-2.  Dissolve neurotrophics into 100 µg/ml (10kx) master stock using filtered 0.1% BSA/PBS for long term -80°C storage. 
-
-    -  For the FGF, it is possible to do sterible PBS but it is recommended that you use the same filtered 0.1% BSA/PBS 
-
-3.	You may further dilute BDNF, CNTF, GDNF to 10 µg/ml (1,000x) using filtered 0.1% BSA/PBS as -20°C stock aliquots using the same solution. 
-
-
-RepSox
------------------
-
-===================== ============
-Property                            
-===================== ============ 
- Selleck Chem #          S7223
- MW                     287.32                 
- 1000x stock            7.5 mM          
- Final concentration    7.5 uM         
-===================== ============ 
-
-1. To make working 1000x stock (7.5 mM), resuspend 25 mg RepSox in 11.6 mL DMSO. 
-2. Aliquot 50 uL in 600 uL tubes and store at -20C in a labeled box. 
  
-
 MEF media
 ---------
 Used for culturing MEFs and other fibroblasts.
@@ -129,6 +96,26 @@ Insulin           5 ug/mL         62.5 uL of 4 mg/mL stock
 Hydrocortisone    1 ug/mL
 EGF               20 ng/mL        1 uL of 1 mg/mL stock
 ===============  =============== ========================
+
+Epithelial cell 1 media
+-----------------------
+Use for culturing the **NCI-H1299** human lung cancer cell line.
+
+===============  =============== 
+Component         Concentration   
+===============  ===============
+RPMI + 10% FBS    Base            
+===============  =============== 
+
+Epithelial cell 2 media
+-----------------------
+Use for culturing the **SAOS-2** human osteosarcoma cell line.
+
+=================   =============== 
+Component           Concentration   
+=================   =============== 
+McCoy's + 15% FBS   Base            
+=================   =============== 
 
 Glia media
 ----------
