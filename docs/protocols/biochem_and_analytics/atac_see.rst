@@ -2,6 +2,11 @@
 ATAC-see
 =================
 
+.. warning::
+    ATAC-see is a very inefficient procedure, and gives
+    effectively useless results compared to background,
+    even in flow cytometry.
+
 Transposase buffer preparation
 ---------------------------------
 
