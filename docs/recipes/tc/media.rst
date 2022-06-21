@@ -22,10 +22,10 @@ Used for neuronal differentiation during direct conversion.
 Add the following small molecules to small volumes
 immediatly before media addition, to a **final concentration of 10 ng/mL**:
 
-* BDNF, from 1,000x stock (10,000 ng/ml)
-* CNTF, from 1,000x stock (10,000 ng/ml)
-* GDNF, from 1,000x stock (10,000 ng/ml)
-* FGF,  from **10,000x** stock (100,000 ng/ml)
+* BDNF, from 1,000x stock (10,000 ng/mL)
+* CNTF, from 1,000x stock (10,000 ng/mL)
+* GDNF, from 1,000x stock (10,000 ng/mL)
+* FGF,  from **10,000x** stock (100,000 ng/mL)
 * RepSox, **if RR**, from 1000x stock (7.5mM)
 
 .. note::
