@@ -2,7 +2,11 @@
 Plot Gallery
 ============
 
-All plots in the plot gallery have an implicit:
+Notes on reproducing examples
+-----------------------------
+
+All plots in the plot gallery have a set of implicit imports
+and setup code that runs before any given code examples:
 
 .. code-block:: python
 
@@ -12,7 +16,13 @@ All plots in the plot gallery have an implicit:
    import seaborn as sns
    sns.set_theme(style="ticks")
 
-run before any given code.
+If you are reproducing the code on your own, make sure that these lines have been run!
+
+
+All example data needed is available as a zip file: `plot_gallery_data.zip <../_static/files/plot_gallery_data.zip>`__.
+
+Gallery entries
+---------------
 
 .. toctree::
    :maxdepth: 2
