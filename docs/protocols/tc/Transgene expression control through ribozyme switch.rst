@@ -31,9 +31,14 @@ Day 2. Tranfection
 
 - If you are using ON-switch, whose ribozyme activity is inactivated by small-molecule, you don't need to treat the cells with the small-molecules at 4-6hpt, you can do this next day.
 - If you are using OFF-switch, whose ribozyme activity is activated by small-molecule, you MUST do the small-molecule treatment at 4-6hpt so that transcribed mRNA bind with the molecule before being translated to protein.
-Day 3. or Day 4
+Day 3 or Day 4
 ---------------
-- After 24 hours post small-molecule treatment, you should be ready for microscopic analysis of flow cytometry.
+- After 24 hours post small-molecule treatment, you should be ready for microscopic analysis or flow cytometry analysis.
 - Twenty-four hours incubation with the small-molecule should be generally enoguth to measure the output (Transgene expression), but you can further incubate the cell for 48 hours or 72 hours: If you are measureing the output at 48 hours post small-molecule treatment, you have nothinng to do at day 3 and you are going to check the result at 48 hour post media change.
+
+Small tips
+---------------
+- In you use 293T cells for the experiment, you might want to be careful when you change the media as 293T cells are super easy to be detached from the plate especially you do the experiment with 96 well plate.
+
 
 
