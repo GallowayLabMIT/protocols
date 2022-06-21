@@ -2,6 +2,11 @@
 His-tag protein purification
 =============================
 
+.. warning::
+
+  This protocol was attempted for Tn5 purification. This was unsuccessful,
+  though possibly not because of this protocol.
+
 Required solutions
 -------------------
 * **Lysis buffer**:
@@ -23,14 +28,14 @@ Required solutions
   Imidazole             20 mM                   1.362 g
   EDTA                  1 mM                    0.292 g
   DTT                   2 mM                    0.3085 g
-  Glycerol              10%                     
+  Glycerol              10%
   NaOH                  to pH 7.2
   ===================== ================   ==================
 
 .. note::
   Perform the pH after all components have been added.
 
-* **cOmplete elution buffer (native)**: 
+* **cOmplete elution buffer (native)**:
 
   ===================== ================   ================== ================================================================
   Component             Concentration        g/L final volume  Purpose
@@ -64,22 +69,22 @@ Required solutions
 
 .. note::
   Perform the pH after all components have been added.
- 
+
 Protocol
 --------
- 
+
 Protocol
 --------
 1. Resuspend the cell pellet in lysis buffer, on ice. For every gram of cell pellet, use 10 mL lysis buffer.
 2. Sonicate the resuspended cells, using 5 cycles of 30-second, medium-amplitude 50% duty-cycle sonication.
 3. Spin to clarify the lysate using maximum centrifuge speed (14600 xg) for 30 minutes.
 4. If the protein of interest has DNA-binding activity, add 1.2 mL/10mL **10% PEI** dropwise while stirring.
-   Cetnrifuge at maximum speed for 30 minutes to remove bound DNA.
+   Centrifuge at maximum speed for 30 minutes to remove bound DNA.
 5. Fill a column with roughly 1.0 mL resin per gram of cell lysate.
 
 .. note::
     When using affinity columns, the volumes required will be listed as Column Volumes (CVs).
-    The amount of resin is the CV. For a gram prepration, this would mean the CV is 1 mL.
+    The amount of resin is the CV. For a gram preparation, this would mean the CV is 1 mL.
 
 5. Equilibrate the column with 3 CVs of running buffer.
 6. Flow the clarified cell lysate across the column, collecting the flow-through.
