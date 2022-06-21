@@ -45,3 +45,26 @@ Oligo annealing
 
 .. important:: 
     Make sure you design your fragments to have sticky ends appropriate for your ligation!
+
+Combined oligo phosphorylation and annealing
+--------------------------------------------
+To save time, the phosphorylation and annealing steps can be combined as follows:
+
+1. Order desalted oligos and reconstitute as usual (e.g., order from Genewiz)
+2. Combine the following in a PCR tube:
+
+========================= ===========================
+Reagent                   Amount
+========================= ===========================
+Forward oligo (100 uM)    1 uL
+Reverse oligo (100 uM)    1 uL
+10X T4 DNA ligase buffer  2 uL
+T4 PNK                    1 uL
+Water                     15 uL
+========================= ===========================
+
+3. Run the reaction on a thermocycler: 37°C for 1 hr, heat at 95°C for 3 min, then cool to room temperature over ~30-60 min. (There should be a temperature step function on the thermocycler, e.g. cool by 0.1°C every second.)
+4. Nanodrop annealed fragments and use in ligation reaction.
+
+.. note:: 
+    When combined protocol is used, a 10X dilution of annealed oligos may be more effective in ligation reaction.
