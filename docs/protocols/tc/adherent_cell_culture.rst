@@ -93,7 +93,7 @@ Passage number is an “indicator” of cells age. Every time the cells are deta
 Plating cells 
 --------------------------------------------------------
 
-1. Follow steps 1-6 above for passaging cells. 
+1. Follow steps 1-10 above for passaging cells. 
 2. Count cells by adding 10uL of resuspended cells to a hemacytometer.
 
     - Number of cells in one corner * 10,000 = # of cells / mL 
