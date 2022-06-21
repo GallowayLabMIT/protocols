@@ -61,6 +61,23 @@ blah blah blah
 
    You don't need any quotes or other characters around the path.
 
+.. note::
+
+   The environment-check script expects that you point the data directory at the *root* of the OneDrive,
+   e.g. the folder with subdirectories like ``projects``, ``instruments``, etc.
+
+   In your own code, you can point the datadir wherever you want, but the root is a typical choice because it
+   lets you access both the raw data in ``instruments``, project folders, and more. You can also always
+   create a "local folder" variable in Python, e.g:
+
+   .. code-block:: python
+
+      flow_datadir = rd.datadir/'instruments'/'attune'/'chris'
+      # later in your code
+      # the following argument resolves to
+      # OneDrive/instruments/attune/chris/2022.06.21
+      some_flow_function(flow_datadir/'2022.06.21')
+
 7. Commit your changed files and push your new branch to Github. [KEG: Stage changes by clicking on the '+' in the 'Changes' tab. Then types some message on what you will commit into the space for 'Source Control'. By clicking ont the check mark, you will commit changes.]
 8. Run ``python check.py`` or ``python3 check.py`` (MacOS) to see if you get all green checks! [KEG: This only works if you are in the 'environment-check' folder]
 
@@ -91,4 +108,7 @@ Completion date
 - Christian Otero (2022-06-17)
 - Brittany Lende (2022-06-17)
 - Conrad Oakes (2022-06-20)
-- Kei Takahashi (2022-06-21)
+- Kei Takahashi (2022-06-20)
+- Adam Beitz   (2022-06-21)
+- Patrick Han (2022-06-21)
+- Sneha Kabaria (2022-06-21)
