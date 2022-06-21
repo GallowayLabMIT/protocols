@@ -25,10 +25,10 @@ Transformation (Chemically Competent Bacteria)
 	Transformation efficiencies will be approximately 10-fold lower for ligation of inserts to vectors than for an intact control plasmid.
 
 4.	Incubate the competent cell/DNA mixture on ice for 10 mins.
-5.	Heat shock each transformation tube by placing the bottom 1/2 to 2/3 of the tube into a 42°C water bath for 30-60 secs (45 secs is usually ideal, but this varies depending on the competent cells you are using).
+5.	(Optional) Heat shock each transformation tube by placing the bottom 1/2 to 2/3 of the tube into a 42°C water bath for 30-60 secs (45 secs is usually ideal, but this varies depending on the competent cells you are using).
 
 .. note::
-	If NEB stable cells are used for the transformation, a heat shock step is not required but may increase transformation efficiency.
+	With the competent cells used in our lab, a heat shock step is not required but may increase transformation efficiency. For lower efficiency cloning strategies, such as ligation reactions, this can increase the resulting number of bacterial colonies.
 
 6.	Put the tubes back on ice for 2 min.
 7.	Add 250-1,000 ul LB or SOC media (without antibiotic) to the bacteria and grow in 37°C shaking incubator for 1 hour.
