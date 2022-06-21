@@ -41,8 +41,8 @@ Flow Cytometry
     
 .. _Cell staining:
 
-Cell staining
----------------------------------
+Cell staining (Live/Dead & surface markers)
+-------------------------------------------
 .. note::
     Cells are usually stained in U- or V-bottom 96-well plates but they can be stained in any containier e.g. test tubs, eppendorf tubes, polystyrene round-bottom tubes, cluster tubes, etc.
 
