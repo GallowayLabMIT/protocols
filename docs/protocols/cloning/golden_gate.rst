@@ -89,7 +89,7 @@ This protocol is specifically for Golden Gate assembly using the lab's positioni
 4. If a fragment contains an internal RE cut site, perform an extra ligation step to improve efficiency.
 
   1. Clean and concentrate the assembly reaction using the DNA Cleanup Kit. Elute in 8.5 µL H20.
-  2. Add 1 µL 10X T4 DNA ligase buffer and 0.5 µL T4 DNA ligase (400 U/µL), according to the :doc:`ligation protocol <lig_assembly>`.
+  2. Add 1 µL 10X T4 DNA ligase buffer and 0.5 µL T4 DNA ligase (400 U/µL), according to the :doc:`ligation protocol <ligation_assembly>`.
   3. Let the reaction run at room temperature (or 16°C) at least 1 hr, preferably overnight.
 
 5. :doc:`Transform competent cells <transformation>` with at least 2 µL of the Golden Gate mixture.
