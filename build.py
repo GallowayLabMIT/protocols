@@ -4,6 +4,7 @@ import subprocess
 import argparse
 import sys
 from pathlib import Path
+import zipfile
 
 parser = argparse.ArgumentParser(description="Generates HTML and PDFs from Markdown files")
 parser.add_argument('--latex', action='store_true')
@@ -43,5 +44,11 @@ if __name__ == '__main__':
         subprocess.run(html_args)
         if args.latex:
             subprocess.run(latex_args)
+
+    # Zip up plot gallery data files
+    with zipfile.ZipFile('output/html/_static/files/plot_gallery_data.zip', 'w') as plot_data_zip:
+        for file in Path('docs/plot_gallery/data/').glob('*'):
+            plot_data_zip.write(file, arcname='data/'+file.name)
+
     if args.latex:
         shutil.copyfile('output/latex/latex/gallowaylabprotocols.pdf', 'output/html/galloway_lab_protocols.pdf')

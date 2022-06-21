@@ -2,7 +2,7 @@
 SNAP circuit (Transient expression at 96-well plate version)
 ============================================================
 
-=========
+
 Material
 =========
 
@@ -14,7 +14,7 @@ Material
 - output construct: plasmid expressing reporter gene-ribozyme switch cassette (e.g, pHAGE-UBC-mGreenLantern-p2g6)
 - input construct: plasmid expressing SNAPtag conjugated with target protein (e.g, pHAGE-SNAP-tagBFP)
   
-=========
+
 Procedure
 =========
 
