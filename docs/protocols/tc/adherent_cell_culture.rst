@@ -2,20 +2,6 @@
 Adherent Cell Culture
 ==========================
 
-`General culture volumes <https://www.thermofisher.com/us/en/home/references/gibco-cell-culture-basics/cell-culture-protocols/cell-culture-useful-numbers.html>`_
-
-============================   =================================================
-**Culture dish/plate/flask**    **Approx. volume media**
-============================   =================================================
-10-cm                           10 mL
-15-cm                           15 mL
-6-well                          2 mL (1-3 mL)
-12-well                         1 mL (1-2 mL)
-24-well                         500 µL (500-1,000 µL)
-96-well                         100 µL (100-200 µL)
-T-75                            10 mL (8-15 mL)
-T-182                           25 mL (20-25 mL)
-============================   =================================================
 
 
 General culture handling procedure
@@ -31,6 +17,24 @@ Changing media
 ---------------
 Unless you have very specific experimental conditions, it is good practice to check on your cultures
 every 2 or 3 days and change media if the cells are not ready to be split or expanded.
+
+Recommended media volumes are listed below. 
+
+============================   =================================================
+**Culture dish/plate/flask**    **Approx. volume media**
+============================   =================================================
+10-cm                           10 mL
+15-cm                           15 mL
+6-well                          2 mL (1-3 mL)
+12-well                         1 mL (1-2 mL)
+24-well                         500 µL (500-1,000 µL)
+96-well                         100 µL (100-200 µL)
+T-75                            10 mL (8-15 mL)
+T-182                           25 mL (20-25 mL)
+============================   =================================================
+
+`General culture volumes <https://www.thermofisher.com/us/en/home/references/gibco-cell-culture-basics/cell-culture-protocols/cell-culture-useful-numbers.html>`_
+
 
 Passaging cells
 ----------------
@@ -94,14 +98,14 @@ Plating cells
 
 3. Plate cells according to your experimental guidelines. Generally, for 80-90% confluent cells the next day:
 
-========== ================= ===============
-Cell Type    Well Size              # Cells
-========== ================= ===============
-MEFs        96-well               5-10K
-MEFs        6-well              100-160K
-HEK293Ts        96-well         25K-35K
-Plat-Es    6-well                800K
-========== ================= ===============
+=============== ================= ===============
+**Cell Type**    **Well Size**     **# Cells**
+=============== ================= ===============
+MEFs            96-well               5-10K
+MEFs            6-well              100-160K
+HEK293Ts        96-well             25K-35K
+Plat-Es         6-well                800K
+=============== ================= ===============
 
 .. note:: 
    Plat-Es (only for virus production) and MEFs require plates gelatine-coated plates.
