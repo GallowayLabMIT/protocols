@@ -92,3 +92,4 @@ Completion date
 - Brittany Lende (2022-06-17)
 - Conrad Oakes (2022-06-20)
 - Kei Takahashi (2022-06-20)
+- Adam Beitz   (2022-06-21)
