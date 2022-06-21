@@ -3,7 +3,7 @@ SingleShot RNA isolation and Reverse Transcription
 ======================================================= 
 
 This protocol for RNA isolation uses the `Bio-Rad SingleShot Cell Lysis Kit
-<https://www.bio-rad.com/webroot/web/pdf/lsr/literature/10000112808.pdf>`_ and the 
+<https://www.bio-rad.com/webroot/web/pdf/lsr/literature/10000112808.pdf>`_ and  
 `Maxima H Minus Reverse Transcriptase <https://www.thermofisher.com/document-connect/document-connect.html?url=https://assets.thermofisher.com/TFS-Assets%2FLSG%2Fmanuals%2FMAN0012047_TS_Maxima_H_Minus_Reverse_Transcriptase_2000U_UG.pdf>`_. 
 
 
