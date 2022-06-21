@@ -7,23 +7,16 @@ Cleaning and autoclaving guidelines
 	Under no circumstance should dirty glassware be left in the sink or in the autoclave station. All items around that area should be assumed to be clean for autoclaving.
 
 
-Autoclaving
--------------------
-
-Glassware and plastics are autoclaved as needed. Usually, this amounts to twice a week. Clean glassware on the drying rack will be autoclaved as well as any empty tip or tube boxes.
-
-- For dry cycles: Gravity >> 20 min / 20 min (~45 min)
-- For wet cycles: Liquid >> 30 min / 0 min (~1 hr)
-
-
-Washing glassware
----------------------
+Washing glassware and tools
+---------------------------
 
 We currently use Alconox as our soap. Alconox is stored as a powder underneath the sink. Dilute this powder in water in the squirt bottle labeled "Alconox". There is no precise measurement for this.
 
-  .. note::
-    If you empty a glass bottle or flask (media, PBS, gelatin, ELGA water, etc.), *you are responsible for washing it.* If you cannot wash the bottle immediately, keep the bottle on your personal lab bench.
+Glass bottles and flasks
+________________________
 
+.. note::
+  If you empty a glass bottle or flask (media, PBS, gelatin, ELGA water, etc.), *you are responsible for washing it.* If you cannot wash the bottle immediately, keep the bottle on your personal lab bench.
 
 1. If the glassware had cells in it (e.g. midipreps) first add bleach to a concentration of 10% and let sit for at least 15 min.
 2. Add Alconox and water, and shake/swirl vigorously to clean. Use the brushes by the sink for tough spots.
@@ -32,43 +25,88 @@ We currently use Alconox as our soap. Alconox is stored as a powder underneath t
 5. Put glass to dry on drying rack.
 6. Move glassware when dry to the shelving with the other dry, clean glassware. To prevent dust accumulation, store beakers upside down and add foil to flask mouths.
 
+Glass beads
+________________________
+
+.. note::
+  The dirty bead box should always be filled with 10% bleach
+
+1. If bleach levels are low, add more bleach to dirty bead box and allow to sit for at least 15 minutes. Dump out beads and bleach into mesh strainer found in cabinet to the left of the sink.
+2. Soap with Alconox and then rinse with tap water.
+3. Perform a quick rinse with DI water.
+4. Let beads fully dry in strainer overnight.
+5. Use funnel to put beads into glass bottle for autoclaving.
+
+Dissection Tools
+________________________
+
+.. note:: 
+  Dissection tools should be washed as soon as dissection is finished. Dirty tools should not be left at autoclave station.
+
+1. After dissection, spray with ethanol and remove any visible residue.
+2. Wash with Alconox and then rinse with tap water.
+3. Perform a quick rinse with DI water.
+4. Let dry and wrap in tin foil.
+5. Place back into metal container and move to area next to ELGA water dispenser to be autoclaved.
+
+Autoclaving prep
+-------------------
+
+Glassware and plastics are autoclaved as needed. Usually, this amounts to twice a week. Clean glassware on the drying rack will be autoclaved as well as any empty tip or tube boxes.
+
+Prep materials as described below, place in autoclave-safe bin and run corresponding cycle:
+
+- For dry cycles (glassware, plastics, etc.): Gravity >> 20 min / 20 min (~45 min)
+- For wet cycles (liquids such as PBS, LB, etc.): Liquid >> 30 min / 0 min (~1 hr)
+
+
+
 
 Tip boxes
------------
+________________________
 
-- When a box of tips is emptied, recycle the empty plastic insert and autoclave tape and place the empty box in the area next to the ELGA water dispenser.
-- Filter tip boxes do not need to be reused and the whole thing can be recycled when empty.
-- Recycle any broken tip boxes.
+1. When a box of tips is emptied, recycle the empty plastic insert and autoclave tape, and place the empty box in the area next to the ELGA water dispenser.
+
+  .. note:: 
+    Filter tip boxes do not need to be reused and the whole thing can be recycled when empty.
+
+2. Recycle any broken tip boxes.
+3. Add inserts with new tips to empty boxes and add strip of autoclave tape where the lid meets the side of the box.
 
 Tube containers
-----------------
-
-- When a container of 1.7 or 0.6 mL tubes is emptied, throw away the autoclave tape and place the empty container in the area next to the ELGA water dispenser.
-
-
-Washing glass beads for cloning
-------------------------------------
-
- .. note::
-    The dirty bead box should always be filled with 10% bleach
-
-1. Dump out beads+bleach into mesh strainer
-2. Rinse with tap water
-3. Soap with alconox water and then rinse
-4. Let beads fully dry in strainer overnight
-5. Use funnel to put beads into glass bottle for autoclaving
+________________________
+1. When a container of 1.7 or 0.6 mL tubes is emptied, throw away the autoclave tape and place the empty container in the area next to the ELGA water dispenser.
+2. Fill with new tubes.
+3. Screw on top of container loosely to avoid warping while in the autoclave.
+4. Add strip of autoclave tape where the lid meets the side of the container.
 
 
-Glass pipettes
-------------------------------------
 
-1. Make sure no glass shards remain (shake out over sharps container)
+Glass pipette containers
+________________________
+
+1. Make sure no glass shards remain in metal container (shake out over sharps container), throw away the autoclave tape, and place the empty container in the area next to the ELGA water dispenser.
 2. Carefully fill metal containers with glass pipettes with the thin end pointing down into the longer end (i.e. larger handle side points outwards when you open it)
-3. Seal with autoclave tape
+3. Add strip of autoclave tape where the lid meets the side of the container.
 
 
 Toothpicks
-------------------------------------
+________________________
 
-1. Fill container with toothpicks
-2. Cover with foil and mark with autoclave tape
+1. When a container of toothpicks is emptied, throw away tin foil and autoclave tape and place the empty container in the area next to the ELGA water dispenser.
+2. Fill container with toothpicks.
+3. Cover with foil and mark with autoclave tape.
+
+Flasks
+________________________
+1. Add strip of autoclave tape to top of clean flasks covered with tin foil.
+
+Dissection tools
+________________________
+1. Make sure tools are individually wrapped in tin foil inside metal container.
+2. Wrap outside of metal container with tin foil and mark with autoclave tape.
+
+Glass bottles (containing liquid or glass beads)
+_________________________________________________
+1. Loosely screw on bottle cap.
+2. Cover cap with tin foil and mark with autoclave tape.
