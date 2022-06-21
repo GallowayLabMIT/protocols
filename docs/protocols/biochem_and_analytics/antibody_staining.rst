@@ -1,10 +1,11 @@
+
 ============================================
 Immunofluorescent Staining
 ============================================
 
-==================
+
 Solutions Required
-==================
+-----------------------------------------------
 
 ===================================   =================================================================================  
 **Stock solutions**                    **How to make**                                                         
@@ -20,9 +21,8 @@ Blocking Solution                      40 mL 0.5% Tween/PBS + 10 mL 25% FBS in P
   5% FBS, 0.1% Tween in PBS
 
 
-======================
 Adherent Cell Staining
-======================
+-----------------------------------------------
 
 Expected time: 3 days
 
@@ -69,9 +69,9 @@ Expected time: 3 days
  6. Be very gentle with neuronal cultures, they are not very adherent
 
 
-========================
+
 Cell Staining for Flow
-========================
+-----------------------------------------------
 
 Expected time: 1-2 days (only 2 if overnight primary antibody)
 
