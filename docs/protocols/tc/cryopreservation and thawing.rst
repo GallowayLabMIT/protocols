@@ -50,4 +50,4 @@ Materials
     - Right before use, aspirate gelatin liquid. 
 
 6. Plate onto a T75 with 10 mL of growth media. Label flask with your initials, the date, cell type, and passage number (+1 the passage number label on the cryovial)
-7. Incubate at 37C. These cells with take 1-2 days for recovery.
+7. Incubate at 37C. These cells will take 1-2 days to recover.
