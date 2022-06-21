@@ -22,16 +22,25 @@ For Neurotrophic factors, from the reagents in the glass tubes:
 
 1.  Make a 0.1% BSA/PBS **(ONLY use Millipore Sigma, A2058)** solution and syringe filter through a 0.2 µm filter
 2.  Add 500 µL filtered 0.1% BSA/PBS to a 50 µg bottle of neurotrophics to get a 100 µg/ml (10kx) master stock
-3.  **For FGF only**, make 10 µL of 10kx master stock aliquots for long term -80°C storage
-    -  You'll end up with ~50 of 10kx aliquots
 
-4.  For BDNF, CNTF, GDNF only, make 90 µL of 10kx master stock aliquots using for long term -80°C storage
-    -  You'll end up with ~5.5 of 10kx aliquots
+**For FGF only**
+
+3.  Make 10 µL of 10kx master stock aliquots for long term -80°C storage
+    
+    - You'll end up with ~50 of 10kx aliquots
+
+**For BDNF, CNTF, GDNF only**
+
+4. Make 90 µL of 10kx master stock aliquots using for long term -80°C storage
+
+    - You'll end up with ~5.5 of 10kx aliquots
 
 5.	For BDNF, CNTF, GDNF only, *directly* add 810 µL filtered 0.1% BSA/PBS to the 90 µL 10kx master stock to make 10 µg/ml (1,000x) stock aliquots
-    -  For the last half 10kx master stock aliquot, you'll have to manually measure it day of to know how much BSA/PBS to add. e.g. 35.8 µL will need 322.2 µL.
+   
+    - For the last half 10kx master stock aliquot, you'll have to manually measure it day of to know how much BSA/PBS to add. e.g. 35.8 µL will need 322.2 µL.
 
 6.  Make 50 µL aliquots for medium term -20°C storage
+    
     -  You'll end up with ~18 of 1,000x aliquots (2 rows of a cardboard box)
     -  Leave the last aliquot for short term use in 4°C 
     -  You can use the full 50 µL -20°C aliquots to directly make 50 mL N3 aliquots for reprogramming experiments
