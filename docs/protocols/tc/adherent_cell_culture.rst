@@ -104,6 +104,7 @@ Plating cells
 MEFs            96-well               5-10K
 MEFs            6-well              100-160K
 HEK293Ts        96-well             25K-35K
+HEK293Ts        10-cm               7500K
 Plat-Es         6-well                800K
 =============== ================= ===============
 
