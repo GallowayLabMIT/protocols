@@ -67,26 +67,25 @@ Passage number is an “indicator” of cells age. Every time the cells are deta
     T-182                           15 mL
     ============================   =================================================
 
-    i.  Incubate in room temperature or 37°C incubator for 3-4 min, keep checking cells to avoid over-digestion.
+4.  Incubate in room temperature or 37°C incubator for 3-4 min, keep checking cells to avoid over-digestion.
 
         - Detached cells look rounded and refractile under the microscope, and by eye the media might look cloudy as it fills with cells.
         - Different types of cells will require different incubation periods.
         - The stronger the trypsin (higher %) the faster cells will detach.
         - To aid in detachment, pipetting trypsin along the sides to "wash" the cells or tapping the side of the flask can help with physically dettaching the cells from the plate.
 
-    ii. Neutralize with >2 volumes of media that contains FBS (e.g. neutralize a 1 mL 0.05% trypsin with >2 mL FBS-containing media).
-    iii. Mix well by pipetting and make sure that all cells are detached.
-    iV. Transfer to a 15 mL or 50 mL conical. 
-
-4. Centrifuge at 400G for 4 minutes. Cells should pellet at the bottom of the conical.
-5. Aspirate all media/trypsin, carefully avoiding aspirating the cell pellet. 
-6. Resuspend pellet in 1-10 mL of media (volume is your choice.)
-7.  If needed, take a known volume of cells (ex. 10uL) and count cells using hemocytometer.
+5. Neutralize with >2 volumes of media that contains FBS (e.g. neutralize a 1 mL 0.05% trypsin with >2 mL FBS-containing media).
+6.  Mix well by pipetting and make sure that all cells are detached.
+7.  Transfer to a 15 mL or 50 mL conical. 
+8.   Centrifuge at 400G for 4 minutes. Cells should pellet at the bottom of the conical.
+9. Aspirate all media/trypsin, carefully avoiding aspirating the cell pellet. 
+10. Resuspend pellet in 1-10 mL of media (volume is your choice.)
+11. If needed, take a known volume of cells (ex. 10uL) and count cells using hemocytometer.
 
     - Number of cells in one corner * 10,000 = # of cells / mL
 
-8.  Seed new dish/flask with desired number or dilution of cells (make sure cells in the original dish are well resuspended before you take an aliquot to seed the new dish).
-9.  Cultures should be labeled with cell line name, date, passage number and initials of the owner.
+12. Seed new dish/flask with desired number or dilution of cells (make sure cells in the original dish are well resuspended before you take an aliquot to seed the new dish).
+13. Cultures should be labeled with cell line name, date, passage number and initials of the owner.
 
     - Certain cell lines also need passage # of antibiotic selection, e.g. "Plat-E, Blast/Puro @ P12"
 
