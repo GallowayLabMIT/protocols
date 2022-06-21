@@ -2,9 +2,9 @@
 Homemade EU click
 ==========================
 
-1 rxn = 1 single 12-well (500 µL EU or 175 µL click mix).
+1 rxn = 1 single 24-well (250 µL EU or 175 µL click mix).
 
-Note that ascorbic acid should be made fresh and EU will likely be the limiting reagent.
+Note that ascorbic acid should be made fresh and **EU will likely be the limiting reagent.**
 
 .. important::
     The NaN3 is important to include in any single color controls! We observe that presence of EU doesn't change CFSE only control signal but any azide addition (with or without EU) significantly changes FSC/SSC and CFSE signal.
@@ -22,9 +22,9 @@ Stock solutions
     ===================================   ==========================   =========================================================================  ==========================
     **Stock solutions**                   **Stock concentration**      **How to make**                                                            **Final concentration**  
     ===================================   ==========================   =========================================================================  ==========================
-    EU (100X)                              100 mM                       5 mg EU + 186 µL **DMSO** (37 rxns)                                        1 mM
+    EU (100X)                              100 mM                       5 mg EU + 186 µL **DMSO** (74 rxns)                                        1 mM
     CuSO4.5H2O (100X)                      200 mM                       250 mg CuSO4.5H2O + 5 mL H2O (2,800 rxns)                                  2 mM
-    Ascorbic acid (10X) **MAKE FRESH**     200 mg/ml                    50 mg Ascorbic acid + 250 µL H2O (12 rxns + 2 extra)                       20 mg/mL
+    Ascorbic acid (10X) **MAKE FRESH**     200 mg/ml                    120 mg Ascorbic acid + 600 µL H2O (35 rxns)                                20 mg/mL
     ===================================   ==========================   =========================================================================  ==========================
 
     - Main azide solutions
@@ -58,7 +58,7 @@ Stock solutions
 Add EU to cells
 ----------------
 
-1.  In BSC hood, add 0.5 µl of 100 mM EU (100X) to 500 µL of complete growth medium (DMEM/FBS or N3 with no neurotrophics works) per 12-well. For a full 12-well plate, 60 uL into 6 mL. 
+1.  In BSC hood, add 2.5 µl of 100 mM EU (100X) to 250 µL of complete growth medium (DMEM/FBS or N3 with no neurotrophics) per 24-well. For a full 24-well plate, 60 uL into 6 mL. 
 2.  Incubate cells for 1 hour at 37°C.
 
 
@@ -98,28 +98,28 @@ Prepare click/label mix
 
 9.  Make label mix just before use by combining (in this order: precipitate is formed after addition of CuSO4 to PBS, this is dissolved after addition of ascorbate):
     
-    - The following mix is enough for a full 12-well plate (2500 µL ~ 14 rxns)
+    - The following mix is enough for a full 24-well plate: 4,500 µL ~ 25 rxns (OR  1,000 µL for NaN3 ctrls)
 
     ============================   =================================================
     **Solution**                   **Volume**
     ============================   =================================================
-    PBS                             2,220 µL
-    CuSO4 (100X, 200 mM)               25 µL
-    Azide (500X, 4 mM)                  5 µL
-    Ascorbate (10X, 200 mg/mL)        250 µL
+    PBS                             4,000 µL (or 888 µL)
+    CuSO4 (100X, 200 mM)               45 µL (or 10 µL)
+    Azide (500X, 4 mM)                  9 µL (or 2 µL)
+    Ascorbate (10X, 200 mg/mL)        450 µL (or 100 µL)
     ============================   =================================================
 
 
 Label and wash
 --------------------------------------------------------
 
-10. Add 10-20 mL of media and spin down at 4°C. 
-11. Add 175 µL click/label mix per tube and incubate cells 30 min at RT with label mix on rotator, protected from light. 
-12. Wash by adding 900 µL PBS and spin down at 4°C.
-13. (*Optional*) Incubate cells 5 minutes with 175 µL of 0.1 µg/mL DAPI/PBS if you want to detect nuclei in flow
-14. Wash by adding 900 µL PBS and spin down at 4°C.
-15. Analyze by flow. 
+10. Add 175 µL click/label mix per tube and incubate cells 30 min at RT with label mix on rotator, protected from light, at room temp. 
+11. Wash by adding 900 µL PBS and spin down at 4°C.
+12. (*Optional*) Incubate cells 5 minutes with 175 µL of 0.1 µg/mL DAPI/PBS if you want to detect nuclei in flow
+13. Wash by adding 900 µL PBS and spin down at 4°C.
+14. Analyze by flow. 
 
 
 .. note::
-    All spins are performed at ~400-500 rcf. It is recommended to perform all spins at 4°C once the cells have been fixed to prevent pellet loss.
+    All spins are performed at ~500 rcf. Our centrifuge follows RCF = 1e-4*[rpm]^2 + 4e-2*[rpm] - 6e1, where **2200 rpm = 512 rcf**.
+    It is recommended to perform all spins at 4°C once the cells have been fixed to prevent pellet loss.
