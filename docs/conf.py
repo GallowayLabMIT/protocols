@@ -51,10 +51,15 @@ exclude_patterns = []
 # --matplotlib Sphinx options--
 plot_include_source = True
 plot_pre_code = """
+import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
+import scipy
 import seaborn as sns
+import statannot
+
+from pathlib import Path
+
 sns.set_theme(style="ticks")
 """
 
