@@ -7,6 +7,9 @@ Violin + mean plot
 --------------------
 
 .. plot::
+    :context: reset
+
+    import re
 
     # List of data folder names
     dir_list = ['2022.06.03_HG_mGL-WPRE_test_1',
@@ -19,10 +22,10 @@ Violin + mean plot
     for (j, dir_name) in enumerate(dir_list):
 
         path = r'data/data_mGL_WPRE/{}/export_singlets/'.format(dir_name)
-        files = Path(path).glob('*.csv') 
+        files = Path(path).glob('*.csv')
 
         for i, file in enumerate(files):
-            
+
             # Extract metadata from csv title
             match = re.search(
                 'export_(?P<sampleName>.+)-(?P<sampleNum>\d{2})_(?P<subsetName>.+)_(?P<cond>.+).csv', file.name)
@@ -60,6 +63,9 @@ Violin + mean plot
     # Randomly sample only 10,000 samples from each condition to make representative flow diagram
     numSamples = 10**4
     small_data = data.groupby(['cond']).sample(n=numSamples, random_state=1)
+
+.. plot::
+    :context: close-figs
 
     # Plot mGL-H
     x = 'mGL-H'
