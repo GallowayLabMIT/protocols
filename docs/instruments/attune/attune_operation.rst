@@ -6,7 +6,7 @@ Attune operation
 .. note::
 
     "10% bleach" refers to a final concentration of 0.525% sodium hypochlorite (5250ppm chlorine).
-    Use ELGA water to dilute instead of DI water to dilute the bleach. 
+    Use ELGA water instead of DI water to dilute the bleach.
 
     This was originally a 10x dilution of 5.25% sodium hypochlorite bleach, but in lab we typically
     stock higher concentration bleach.
@@ -48,7 +48,7 @@ The proprietary "flow cell cleaning solution" is actually a `Hellmanex solution 
 Hellmanex is an alkaline, viscuous detergent for cleaning glass. It can be corrosive to metals; make sure to clean up spills!
 
 1. Dilute 1 mL of Hellmanex with 2 mL of DI water (3 mL total).
-2. Run Deep Clean - Standard (40 min) with 1:2 diluted Hellmanex (instead of standard 10% bleach) 
+2. Run Deep Clean - Standard (40 min) with 1:2 diluted Hellmanex (instead of standard 10% bleach)
 3. Run Deep Clean - Quick (10 min) with 10% bleach to ensure that any Hellmanex is flushed out of the system.
 
 
@@ -67,6 +67,9 @@ Every ~3-6 month system decontamination
 
    This is not a "fire and forget" protocol; you will have to be actively doing things for nearly two hours!
 
+.. warning::
+   The focusing fluid filters must be replaced after decontamination, so ensure we have replacements before beginning!
+
 .. note ::
    The `Attune maintenance manual <../../_static/files/attune_maintenance_guide.pdf>`__ (page 21) is no longer up-to-date
    with what the Attune decon protocol is!
@@ -77,7 +80,7 @@ Every ~3-6 month system decontamination
 .. note ::
 
    Over the course of the decontamination, all of the fluid is poured out. You may save some of the fluids if they are
-   not decontaminated, but it is good to fully remove all liquids somewhat regularly to prevent reservoir contamination.
+   not contaminated, but it is good to fully remove all liquids somewhat regularly to prevent reservoir contamination.
 
    It is helpful to run the bottles closer to empty before performing the decontamination to waste less fluid.
 
@@ -93,35 +96,6 @@ Every ~3-6 month system decontamination
    f. Hit **Next** in the software to start phase 1.
 
 2. Rinse
-
-
-Focusing fluid refill
---------------------------
-
-.. note ::
-
-    Keep empty focusing fluid bottles so we can refill.
-    
-.. important ::
-
-    Once you get to the last 1X focusing fluid bottle, follow this procedure so we aren't refilling with contaminated solutions.
-
-- Empty focusing fluid bottles should be kept and placed on top shelf over the attune. No other bottles should be kept (e.g. throw away shutdown bottles when empty).
-- Rinse sides of bottles with 10% bleach squeeze bottles
-- Let sit for 15 min
-- Rinse out
-- Rinse with alconox
-- Rinse out with tap *until no more soap*. MAKE SURE NO SOAP RESIDES AND GETS INTO ATTUNE.
-- Rinse with DI
-- Let dry overnight
-
-
-.. important ::
-    
-    Wash large 1X focusing fluid reservoir spigot with aloconox and DI water before using to prevent refilling with contaminated focusing fluid.
-
-- Refill with 1X fcocusing fluid using the *clean* spigot
-
    a. Lower the tube lifter, and remove the plate from the autosampler.
    b. Hit **Next** in the software.
    c. Remove all liquids from all fluid bottles. Rinse all with deionized water.
@@ -130,15 +104,40 @@ Focusing fluid refill
    f. Replace the focusing fluid filters, as detailed in :doc:`user_replacements`.
 
    .. note::
-      
+
       Replacing the focusing fluid filters before reconnecting the bottles, as suggested here, makes your life much easier.
 
    g. Clean the Attune with ethanol (wipe up any spills inside the cabinet, clean the metal parts, etc).
    h. Replace all bottles and reconnect all fluid connections.
    i. Hit **Next** in the software to start phase 3.
 
-4. Run 3 startup procedures, 2 debubble procedures, and 2 rinse procedures while observing for leaks
+3. Run 3 startup procedures, 2 debubble procedures, and 2 rinse procedures while observing for leaks
    from the newly replaced filters.
+
+
+Focusing fluid refill
+--------------------------
+
+Empty focusing fluid bottles should be kept and placed on top shelf over the attune.
+No other bottles should be kept (e.g., throw away shutdown bottles when empty).
+
+.. important ::
+
+    Once you get to the last 1X focusing fluid bottle, follow this procedure so we aren't refilling with contaminated solutions.
+
+
+1. Rinse sides of bottles with 10% bleach squeeze bottles. Let sit for 15 min.
+2. Rinse out bleach.
+3. Rinse bottles with Alconox.
+4. Rinse out the Alconox with tap *until no more soap*. MAKE SURE NO SOAP REMAINS AND GETS INTO ATTUNE.
+5. Rinse bottles with DI water. Let dry overnight.
+
+.. important ::
+
+    Wash large 1X focusing fluid reservoir spigot with Alconox and DI water before using to prevent refilling with contaminated focusing fluid.
+
+6. Refill bottles with 1X fcocusing fluid from the large reservoir using the *clean* spigot.
+
 
 Full Attune guides
 ------------------
