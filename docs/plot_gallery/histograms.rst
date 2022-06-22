@@ -6,6 +6,7 @@ Function to make subplots for several variables
 ------------------------------------------------
 
 .. plot::
+
     # ----- PLOTTING FUNCTION -------
 
     def plot_hists(df,              # DataFrame with data
@@ -19,7 +20,7 @@ Function to make subplots for several variables
 
         # Specify additional parameters
         lin = set(['FSC-A','FSC-H','FSC-W','SSC-A','SSC-H','SSC-W']) # list of variables to plot on linear scale (size-related params)
-        condition_palette = pd.read_pickle('./data/histogram/exp42_palette.pkl')
+        condition_palette = pd.read_pickle('data/histogram/exp42_palette.pkl') # custom color palette (dict mapping Condition values to colors)
         sns.set_context('talk',rc={'font.family': 'sans-serif', 'font.sans-serif':['Helvetica Neue']})
 
         sz = len(x) # number of subplots
@@ -51,16 +52,18 @@ Function to make subplots for several variables
 
         # Add a super-title to the plot, if specified
         fig.suptitle(plot_title)
+        fig.tight_layout()
 
         # [NOT APPLICABLE HERE] Save the figure as an image to the path specified by output_path (not defined here)
         #   uses rushd outfile function to save metadata associated with the figure
         # fig.savefig(rd.outfile(output_path/('hist-'+name+'.svg')),bbox_inches='tight')
 
+        return fig
     # ----- END PLOTTING FUNCTION -------
 
     # ----- Load data -----
-    labeler = pd.read_pickle('./data/histogram/exp42_labeler.pkl')
-    data = pd.read_pickle('./data/histogram/exp42_data.pkl')
+    labeler = pd.read_pickle('data/histogram/exp42_labeler.pkl') # dict mapping short Condition name to long ConditionLabel
+    data = pd.read_csv('data/histogram/exp42_data-small.csv') # stored DataFrame of data with metadata
 
     # ----- Call the plotting function in a loop to generate plots with subsets of samples -----
 
