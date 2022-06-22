@@ -31,6 +31,7 @@ Follow the step for the cell line type to generate
         - Co-transfect the Crispr/guide plasmid alongside your plasmid containing locus-specific recognition sites at a 1:1 mass ratio.
     - TALEN
         - Co-transfect the TALEN-R and TALEN-L plasmids alongside your plasmid containing locus-specific recognition sites at a 1:1:1 mass ratio.
+
 Day 1 - 4
 ~~~~~~~~~
 Media change into selection media. Continue dilution until decent cell death occurs, or the cells are too dense.

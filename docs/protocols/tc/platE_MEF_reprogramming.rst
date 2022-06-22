@@ -3,9 +3,9 @@ Plat-E Retroviral Transduction of MEFs
 ======================================
 
 Plat-Es are a retrovirus packaging line that produce retroviruses that can only infect mouse cells. Plat-E cells contain gag, pol and env genes, allowing retroviral packaging with a single plasmid transfection.
-Supposedly, Plat-E viruses can't be frozen.
+Supposedly, Plat-E viruses can't be frozen but we have seen frozen Plat-E virus work fine.
 
-.. tip::
+.. note::
 	Do a **10 µg/mL blast and 1 µg/mL puro selection every ~3 passages**. This is to ensure cells are expresssing the retroviral structure proteins.
 
 
@@ -14,10 +14,13 @@ Plat-E Transfection
 
 Day One (seed Plat-Es):
 
-1.  Seed Plat-E cells at 1 million cells/well onto 6 well plates after 0.1% gelatin coating (10 min).
+1.  Seed 2 mL of 400k cells/mL onto 6-well plates (800k Plat-E's/6-well total) after 0.1% gelatin coating (10 min).
 
 .. tip::
 	If starting from frozen, **start growing Plat-E cells 1 week prior** - they will be slow growing at first (don't change culture medium during the first 3 days). Split Plat-Es 4X-6X every 2-3 days when culture reaches 70-90% confluency.
+
+.. tip::
+	**Start growing MEFs today (2 days before seeding)**. If they don't do well by the next day, this gives you 1 more day to defrost more.
 
 
 Day Two (transfect Plat-Es):
@@ -27,16 +30,16 @@ Day Two (transfect Plat-Es):
     a.	For *just 1 well of a 6-well plate*:
 
         i.  In a 1.5 mL tube, FIRST add 180 µL KO DMEM.
-        ii. SECOND, add 9.00 µL PEI (1 mg/ml) for a 5:1 ratio (of µg PEI:µg DNA ratio).
+        ii. SECOND, add 7.2 µL PEI (1 mg/mL) for a 4:1 ratio (of µg PEI:µg DNA ratio).
         iii. Gently flick to mix. Let sit for 5 minutes.
 
-    b.	For *3.5 rxns or wells of a 6-well plate*, same as above but use 630 µL KO DMEM + 31.5 µL PEI (1 mg/ml) for a 5:1 ratio
+    b.	For *3.5 rxns or wells of a 6-well plate*, same as above but use 630 µL KO DMEM + 25.2 µL PEI (1 mg/ml) for a 4:1 ratio
 
 .. important::
 	Ensure that you **add PEI to KO DMEM, NOT the other way around!!** Also make sure to use KO DMEM as KO DMEM facilitates lipid-mediated transfections (e.g. PEI) which might be disrupted by regular DMEM.
 
 .. note::
-    PEI optimal concentration varies by batch and must be tested before transfection. Current batch is 5:1 as of 2020.02.19 (typical range 4:1 to 6:1).
+    PEI optimal concentration varies by batch and must be tested before transfection. Current batch is 4:1 as of 2022.03.17 (typical range 4:1 to 6:1).
 
 2.	Add DNA to this MM as follows, then mix and wait 15 minutes:
 
@@ -47,9 +50,9 @@ Day Two (transfect Plat-Es):
     =============================   ==============   =================   ====================
     Brn2 (4.49 µg/µL)                0.40 µL          1.40 µL             **189.40 µL/well**
     Ascl1 (2.78 µg/µL)               0.65 µL          2.27 µL             **189.65 µL/well**
-    Mytl-1 (2.1 µg/µL)               0.86 µL          3.00 µL             **189.86 µL/well**
+    Myt1l (2.1 µg/µL)                0.86 µL          3.00 µL             **189.86 µL/well**
     Ngn2 (4.4 µg/µL)                 0.41 µL          1.43 µL             **189.41 µL/well**
-    mIsl-1 (6.2 µg/µL)               0.29 µL          1.02 µL             **189.29 µL/well**
+    Isl1 (6.2 µg/µL)                 0.29 µL          1.02 µL             **189.29 µL/well**
     Lhx3 (5.4 µg/µL)                 0.33 µL          1.17 µL             **189.33 µL/well**
     p53DD (3.93 µg/µL)               0.46 µL          1.60 µL             **189.46 µL/well**
     HRasG12V (0.9 µg/µL)             2.00 µL          7.00 µL             **191.00 µL/well**
@@ -61,11 +64,11 @@ Day Two (transfect Plat-Es):
 
 Day Three (Plat-E media change + seed MEFs):
 
-1.	Change with 1.25 mLs fresh media (DMEM + 10% FBS) after 24 hours.
+1.	Change with 1.25 mLs fresh media (DMEM/HEPES + 10% FBS) after 24 hours.
 2.	Seed MEFs
 
     i.  Coat wells in 0.1% gelatin for approx. ~10 min.
-    ii. Seed at ~5-10K cells per well of 96-well plate. For larger sizes, scale accordingly according to surface area
+    ii. Seed at 10k cells/96-well. For larger sizes, scale accordingly according to surface area
     
         =================   ==========================   ===============================================================
         **Culture plate**    **Scale factor**              **# of 6-wells of Plat-E you'll need for a full plate**
@@ -80,7 +83,8 @@ Day Three (Plat-E media change + seed MEFs):
 
 Day Four (Plat-E media change + infect 1):
 
-1.	Harvest media after another 24 hours and PROCEED TO TRANSDUCTION!
+1. Harvest media after another 24 hours and add 1.25 mL fresh media (DMEM/HEPES + 10% FBS) to Plat-E plates for a second time.
+2. PROCEED TO TRANSDUCTION!
 
 
 Transduction of Mouse Embryonic Fibroblasts (MEFs)
@@ -91,9 +95,9 @@ Day Four (Plat-E media change + infect 1):
 1.	Transduce MEFs with retroviruses made from the Plat-E cells
 
     .. note::
-        Each virus will make ~1 mL/well from each 6-well of Plat-E (enough for 1 96-well plate). 11.375 µL of each virus will be added to each well of a 96-well plate ALONG WITH POLYBRENE (1,000X at 5 mg/mL)
+        Each virus will make ~1 mL/well from each 6-well of Plat-E (enough for 1 96-well plate). 11 µL of each virus will be added to each well of a 96-well plate ALONG WITH POLYBRENE (1,000X at 5 mg/mL)
 
-    a.  Filter each virus through a filter
+    a.  Filter each virus through a 0.45 µm filter
 
         i.  For 6F, all 6 TFs (BAMNIL) will be filtered through the same syringe together to simplify adding them each individually to MM combos.
 
@@ -110,24 +114,23 @@ Day Four (Plat-E media change + infect 1):
         =================   =================================================
 
 .. note::
-    You can either 1.) filter each virus then mix together (minimizes filtering) or 2.) mix altogether then filter (standardizes mixing). Because filtering is the most annoying step, it is advised to minimized filtering.
+    You can either 1. filter each virus then mix together (minimizes filtering) or 2. mix altogether then filter (standardizes mixing). Because filtering is the most annoying step, it is advised to minimized filtering.
 
 2.	Examples of mixing AFTER filtering
 
     i.  Example - 6F alone (96-well = 100 µl total/96-well):
 
-        *For 1 rxn, 96-well*: 68.25 µL 6F (= 11.375 µL PER FACTOR*6) + 31.75 µL DMEM + 0.1 µL polybrene (1,000X) = 100 µL total/96-well
+        *For 1 rxn, 96-well*: 66 µL 6F (= 11 µL PER FACTOR*6) + 34 µL DMEM + 0.1 µL polybrene (1,000X) = 100 µL total/96-well
 
-        *For 3.5 rxn, 96-well*: 238.9 µL 6F + 111.1 µL DMEM + 0.35 µL polybrene (1,000X) = 350 µL total for 3.5 96-wells
+        *For 3.5 rxn, 96-well*: 231 µL 6F + 119 µL DMEM + 0.35 µL polybrene (1,000X) = 350 µL total for 3.5 96-wells
 
     ii.  Example - 6F + DD + RR (96-well = 100 µL total/96-well):
 
-        *For 1 rxn, 96-well*: 68.25 µL 6F + 11.375 µL p53DD + 11.375 µL hRasG12V + 9 µL DMEM + 0.1 µL polybrene (1,000X) = 100 µL total/96-well
+        *For 1 rxn, 96-well*: 66 µL 6F + 11 µL p53DD + 11 µL hRasG12V + 12 µL DMEM + 0.1 µL polybrene (1,000X) = 100 µL total/96-well
 
-        *For 3.5 rxn, 96-well*: 238.9 µL 6F + 39.8 µL p53DD + 39.8 µL hRasG12V + 31.5 µL DMEM + 0.35 µL polybrene (1,000X) = 350 µL total for 3.5 96-wells
+        *For 3.5 rxn, 96-well*: 231 µL 6F + 38.5 µL p53DD + 38.5 µL hRasG12V + 42 µL DMEM + 0.35 µL polybrene (1,000X) = 350 µL total for 3.5 96-wells
 
 3.	Add virus mixes to each well dropwise, rocking back and forth to mix.
-1.  Add 1.25 mL fresh media (DMEM + 10% FBS) to Plat-E plates for a second time.
 
 
 Day Five (infect 2):
@@ -138,17 +141,21 @@ Day Five (infect 2):
 Day Six (1 dpi):
 
 1.	Change media on transduced MEFs according to transduction MM table (e.g. 100 µL for 96-well)
+2.  If doing CFSE, do it now: :doc:`/protocols/biochem_and_analytics/cfse_labeling`
 
 
 Day Eight (3 dpi):
 
 1.	Media change plates to N3 media
 
-    a. N3 media = N3 base + BDNF/CNTF/GDNF (1,000X, 10 µg/mL) + FGF10 (10,000X, 100 µg/mL) + *2% FBS (optional)*
+    a. N3 media = N3 base + BDNF/CNTF/GDNF (1,000X, 10 µg/mL) + FGF (10,000X, 100 µg/mL) + *2% FBS (optional)*
 
 2.  **Spike in 1,000X RepSox to N3 media for RR conditions**
 
 
 Day 10, 12, 14, etc:
 
-1.	Change N3 media every 2 days (can do 3 days if after ~8 days and weekend but 2 is ideal) until done.
+1.	Change N3 media every 2 days (can do 3 days if after ~8 days and weekend but 2 is ideal) until done (usually 14 dpi).
+
+.. note:: 
+    After 8 dpi, it is recommended to dissociate with DNase/papain instead of trypsin

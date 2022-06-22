@@ -2,20 +2,6 @@
 Adherent Cell Culture
 ==========================
 
-`General culture volumes <https://www.thermofisher.com/us/en/home/references/gibco-cell-culture-basics/cell-culture-protocols/cell-culture-useful-numbers.html>`_
-
-============================   =================================================
-**Culture dish/plate/flask**    **Approx. volume media**
-============================   =================================================
-10-cm                           10 mL
-15-cm                           15 mL
-6-well                          2 mL (1-3 mL)
-12-well                         1 mL (1-2 mL)
-24-well                         500 µL (500-1,000 µL)
-96-well                         100 µL (100-200 µL)
-T-75                            10 mL (8-15 mL)
-T-182                           25 mL (20-25 mL)
-============================   =================================================
 
 
 General culture handling procedure
@@ -31,6 +17,24 @@ Changing media
 ---------------
 Unless you have very specific experimental conditions, it is good practice to check on your cultures
 every 2 or 3 days and change media if the cells are not ready to be split or expanded.
+
+Recommended media volumes are listed below. 
+
+============================   =================================================
+**Culture dish/plate/flask**    **Approx. volume media**
+============================   =================================================
+10-cm                           10 mL
+15-cm                           15 mL
+6-well                          2 mL (1-3 mL)
+12-well                         1 mL (1-2 mL)
+24-well                         500 µL (500-1,000 µL)
+96-well                         100 µL (100-200 µL)
+T-75                            10 mL (8-15 mL)
+T-182                           25 mL (20-25 mL)
+============================   =================================================
+
+`General culture volumes <https://www.thermofisher.com/us/en/home/references/gibco-cell-culture-basics/cell-culture-protocols/cell-culture-useful-numbers.html>`_
+
 
 Passaging cells
 ----------------
@@ -63,23 +67,25 @@ Passage number is an “indicator” of cells age. Every time the cells are deta
     T-182                           15 mL
     ============================   =================================================
 
-    i.  Incubate in room temperature or 37°C incubator for 3-4 min, keep checking cells to avoid over-digestion.
+4.  Incubate in room temperature or 37°C incubator for 3-4 min, keep checking cells to avoid over-digestion.
 
         - Detached cells look rounded and refractile under the microscope, and by eye the media might look cloudy as it fills with cells.
         - Different types of cells will require different incubation periods.
         - The stronger the trypsin (higher %) the faster cells will detach.
         - To aid in detachment, pipetting trypsin along the sides to "wash" the cells or tapping the side of the flask can help with physically dettaching the cells from the plate.
 
-    ii. Neutralize with >2 volumes of media that contains FBS (e.g. neutralize a 1 mL 0.05% trypsin with >2 mL FBS-containing media).
-    iii. Mix well by pipetting and make sure that all cells are detached.
-    iV. Transfer to a 15 mL of 50 mL conical. 
+5. Neutralize with >2 volumes of media that contains FBS (e.g. neutralize a 1 mL 0.05% trypsin with >2 mL FBS-containing media).
+6.  Mix well by pipetting and make sure that all cells are detached.
+7.  Transfer to a 15 mL or 50 mL conical. 
+8.   Centrifuge at 400G for 4 minutes. Cells should pellet at the bottom of the conical.
+9. Aspirate all media/trypsin, carefully avoiding aspirating the cell pellet. 
+10. Resuspend pellet in 1-10 mL of media (volume is your choice.)
+11. If needed, take a known volume of cells (ex. 10uL) and count cells using hemocytometer.
 
-4. Centrifuge at 400G for 4 minutes. Cells will pellet at the bottom of the conical.
-5. Aspirate all media/trypsin, carefully avoiding aspirating the cell pellet. 
-6. Resuspend pellet in 1-10 mL of media (volume is your choice.)
-7.  If needed, take a known volume of cells and count cells using hemocytometer.
-8.  Seed new dish/flask with desired number or dilution of cells (make sure cells in the original dish are well resuspended before you take an aliquot to seed the new dish).
-9.  Cultures should be labeled with cell line name, date, passage number and initials of the owner.
+    - Number of cells in one corner * 10,000 = # of cells / mL
+
+12. Seed new dish/flask with desired number or dilution of cells (make sure cells in the original dish are well resuspended before you take an aliquot to seed the new dish).
+13. Cultures should be labeled with cell line name, date, passage number and initials of the owner.
 
     - Certain cell lines also need passage # of antibiotic selection, e.g. "Plat-E, Blast/Puro @ P12"
 
@@ -87,26 +93,27 @@ Passage number is an “indicator” of cells age. Every time the cells are deta
 Plating cells 
 --------------------------------------------------------
 
-1. Follow steps 1-6 above for passaging cells. 
+1. Follow steps 1-10 above for passaging cells. 
 2. Count cells by adding 10uL of resuspended cells to a hemacytometer.
 
     - Number of cells in one corner * 10,000 = # of cells / mL 
 
 3. Plate cells according to your experimental guidelines. Generally, for 80-90% confluent cells the next day:
 
-========== ================= ===============
-Cell Type    Well Size              # Cells
-========== ================= ===============
-MEFs        96-well               5-10K
-MEFs        6-well              100-160K
-HEK293Ts        96-well         25K-35K
-Plat-Es    6-well                800K
-========== ================= ===============
+=============== ================= ===============
+**Cell Type**    **Well Size**     **# Cells**
+=============== ================= ===============
+MEFs            96-well               5-10K
+MEFs            6-well              100-160K
+HEK293Ts        96-well             25K-35K
+HEK293Ts        10-cm               7500K
+Plat-Es         6-well                800K
+=============== ================= ===============
 
 .. note:: 
    Plat-Es (only for virus production) and MEFs require plates gelatine-coated plates.
 
-1. Excess cells can be added to a new T75 or T185 (effectively passaging the cells)
+5. Excess cells can be added to a new T75 or T185 (effectively passaging the cells)
 
 Laminin Coating 
 ---------------------------------------------------------
@@ -126,6 +133,7 @@ Gelatin Coating
 
 Materials
     - 0.1% Gelatin
+
 Protocol
 
 1. Add enough gelatin to coat the bottom of the flask or well (approx 1/2 of media needed for the well)

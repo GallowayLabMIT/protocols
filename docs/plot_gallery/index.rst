@@ -2,6 +2,12 @@
 Plot Gallery
 ============
 
+.. toctree::
+   :maxdepth: 2
+   :glob:
+
+   *
+
 Notes on reproducing examples
 -----------------------------
 
@@ -15,17 +21,11 @@ and setup code that runs before any given code examples:
    import matplotlib.pyplot as plt
    import seaborn as sns
    sns.set_theme(style="ticks")
+   from statannot import add_stat_annotation
+   import scipy
+   from pathlib import Path
 
 If you are reproducing the code on your own, make sure that these lines have been run!
 
 
 All example data needed is available as a zip file: `plot_gallery_data.zip <../_static/files/plot_gallery_data.zip>`__.
-
-Gallery entries
----------------
-
-.. toctree::
-   :maxdepth: 2
-   :glob:
-
-   *

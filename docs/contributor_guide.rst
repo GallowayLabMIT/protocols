@@ -55,7 +55,7 @@ If you are looking for a recommendation, VS Code is an excellent, relatively lig
 of helpful extensions.
 
 .. tip::
-    Using a modern text editor is very helpful when working with markup languages such as 
+    Using a modern text editor is very helpful when working with markup languages such as
     reStructuredText, Markdown, and LaTeX, as they often have support for live document preview,
     intelligent spell-check (ignoring programming terms as mis-spelled), and git support (no need
     to use the git command line or GUI app).
@@ -153,7 +153,7 @@ A normal workflow to update a protocol would be:
 .. admonition:: Common problems
 
   - **The website isn't updating!**
-    
+
     When you push your changes to Github, you start a remote build that
     does a full build of the project. This can take about two minutes.
 
@@ -166,7 +166,7 @@ A normal workflow to update a protocol would be:
     still fails, something strange is happening.
 
   - **I got a push rejected error!**
-    
+
     If you run ``git push`` and get an error like:
 
     .. code-block:: console
@@ -179,15 +179,15 @@ A normal workflow to update a protocol would be:
       hint: its remote counterpart. Merge the remote changes (e.g. 'git pull')
       hint: before pushing again.
       hint: See the 'Note about fast-forwards' in 'git push --help' for details.
-    
+
     this means that someone else pushed changes to the same branch while you were making
     edits. This is not a problem, git is just warning you that you first need to merge their changes first.
     As suggested by the hint, the solution is often to do ``git pull`` again, which will
     download the remote changes and attempt to auto-merge them. If there are no errors shown
     when you run ``git pull``, the merge happened automatically and you can re-push.
-  
+
   - **I got a merge conflict!**
-    
+
     If another person has edited the **same part** of a protocol file at the
     same time you edited, you
     may get a merge conflict when you try to pull in the remote changes.
@@ -201,13 +201,13 @@ A normal workflow to update a protocol would be:
       Auto-merging contributor_guide.rst
       CONFLICT (content): Merge conflict in contributor_guide.rst
       Automatic merge failed; fix conflicts and then commit the result.
-    
+
     This error means that ``git`` isn't sure how to merge two sets of
     changes together. Instead, it needs the user to choose. For every
     conflicting file, search for the *conflict markers* marked with ``<<<<<<<`` and ``>>>>>>>``
     symbols, and decide how to combine the two versions. This probably involves
     talking with the other person who edited the protocol! An example merge conflict is:
-    
+
     .. code-block::
 
       Text before the merge conflict.
@@ -221,7 +221,7 @@ A normal workflow to update a protocol would be:
       >>>>>>>a21ca24 (the git commit identifier)
 
       Text after the merge conflict
-    
+
     It's up to you to decide how to combine the two versions of the file. When you are done editing
     (making sure to remove the conflict markers!), you need to ``git add`` the file
     to mark that you resolved the merge conflict, then ``git commit`` when you
@@ -249,10 +249,27 @@ These build functions build the website in the folder ``output/html``. If you wa
 view your locally built website, open the file ``output/html/index.html``.
 
 
+Local previewing
+~~~~~~~~~~~~~~~~
 If using VS Code with the reStructuredText plugin installed, you can use the instant previewer to view
-the HTML version as it recompiles on the fly. On Windows, the default keybinding for 
-preview on Windows is ``Control-Shift-R``, on MacOS it is ``Command-Shift-R``. In general, to see
-available VS Code commands, you can use the Command pallette, accessible through ``Control-Shift-P`` or ``Command-Shift-P``.
+the HTML version as it recompiles on the fly. To show the preview, open the Command palette,
+accessible through  ``Control-Shift-P`` or ``Command-Shift-P``, and run ``reStructuredText: Open Preview to the Side``.
+
+If local previewing fails, you need to check a few things:
+
+1. Make sure that the reStructuredText language server is installed in your
+   virtual environment. Run ``pip install -U esbonio``.
+2. Make sure that VSCode is using your virtual environment. To check, open the command
+   palette and go to ``Python: Select Interpreter`` and make sure that the virtual
+   environment Python is selected.
+3. Make sure the reStructuredText plugin is using Sphinx, not docutils. On the left side of the
+   statusbar, you should see ``Sphinx: protocols/docs/conf.py``. If you see ``Use docutils``, click
+   the label and switch to using Sphinx.
+4. If you run into ``esbonio`` startup errors, check for the existence of a ``.vscode/settings.json``
+   file. If any lines are marked with errors (yellow underline), delete them.
+
+In case of build errors
+~~~~~~~~~~~~~~~~~~~~~~~
 
 In the case of strange build errors that seem to be because the output directory has been
 corrupted, you can close any program that might be using the output (a common one might
@@ -264,6 +281,7 @@ be Adobe Acrobat, with the generated PDF open) and run:
 
 Adding this flag deletes the ``output`` folder and recreates it. You can also do this manually
 to recreate "rebuild" behavior.
+
 
 .. _contrib_online_edit:
 
@@ -293,7 +311,7 @@ of the file view:
   it does not preview how Sphinx will render the final website. For example, we can see in the
   above image that the Github preview does not show the custom ``time`` directive, and it
   does not show the proper link destination for the cross-referenced recipe.
-  
+
   In general,
   the Github preview will give you a good idea of what tables/lists/other text will appear,
   but it will not properly render all Sphinx-enabled markup.
@@ -335,7 +353,7 @@ subdirectory you should generally add this as the ``index.rst`` file:
   .. toctree::
     :maxdepth: 2
     :glob:
-    
+
     */index
     *
 
@@ -382,11 +400,11 @@ generated that page. That includes this page, so check out this page's source to
   your text editor to insert spaces instead of tabs when you hit the tab button (this is also true
   if you are programming in whitespace-dependent languages like Python).
 
-  Without wading too deeply into the 
+  Without wading too deeply into the
   `holy war <https://softwareengineering.stackexchange.com/questions/57/tabs-versus-spaces-what-is-the-proper-indentation-character-for-everything-in-e>`_,
   tabs vs spaces **does not mean the difference between pressing the space bar vs hitting tab for indentation**, it refers
   to what character actually gets inserted into the document when you press the tab button.
-  
+
   Long story short, if your text editor inserts literal tab characters,
   there is possible inconsistency between tools and editors; some may display a single tab character as the width of two spaces, some as
   the width of four spaces, and so on. This causes problems. If you set your editor to insert spaces, you still hit tab, but the editor
@@ -407,7 +425,7 @@ Simple markup
 You can add headers by surrounding the header with equal signs, hyphens, tildes, and other special characters.
 
 .. admonition:: Example
-  
+
   ::
 
     Section header
@@ -423,9 +441,9 @@ Use single asterisks to italicize text. Use double asterisks to bold text. Wrapp
   ::
 
     *italics* and **bold** and ``monospaced``.
-  
+
   renders as
-  
+
   *italics* and **bold** and ``monospaced``.
 
 
@@ -442,17 +460,17 @@ If you are nesting lists, you must surround nesting levels with blank lines.
       * Axe throwing
       * Pizza party
       * ?????
-    
+
     * Lab meme sources
 
       * p53
       * Cloning, so much cloning
-    
+
     1. Testing
     2. a
     3. numbered
     4. list
-  
+
   renders as
 
   * Lab activities
@@ -460,12 +478,12 @@ If you are nesting lists, you must surround nesting levels with blank lines.
     * Axe throwing
     * Pizza party
     * Other?
-  
+
   * Lab meme sources
 
     * p53
     * Cloning, so much cloning
-  
+
   1. Testing
   2. a
   3. numbered
@@ -488,7 +506,7 @@ on both sides by blank lines, like nested lists. This means that explicit blocks
 will not render correctly, it must be written:
 
 ::
-  
+
   Do the foo, then the bar
 
   .. note::
@@ -511,7 +529,7 @@ This project includes the special time estimation admonition, which demonstrates
 renders as
 
 .. time::
-  
+
   2 hours
 
 Other directives (code blocks, tables, images, etc) can be fully nested inside these blocks.
@@ -581,8 +599,8 @@ In the simple table layout, you simply surround the desired table text with equa
     Glycerol			4 mL
     Deionized water		900 mL
     ================= ===========================
-  
-  renders as 
+
+  renders as
 
   ================= ===========================
   Ingredient         Amount per 1L final volume
@@ -606,9 +624,9 @@ If you want to add link text, use the following syntax:
   ::
 
     https://example.org or `Link text <https://example.org>`_
-  
+
   renders as:
-  
+
   https://example.org or `Link text <https://example.org>`_
 
 If you want to specifically link to other protocols/recipes files, you use the special `doc` syntax:
@@ -618,7 +636,7 @@ If you want to specifically link to other protocols/recipes files, you use the s
   ::
 
     :doc:`This <contributor_guide>` is a link to this very document!
-  
+
   renders as:
 
   :doc:`This <contributor_guide>` is a link to this very document!
@@ -645,7 +663,7 @@ and make the image fill the available horizontal space, so a common image call w
 
 
 
-Math 
+Math
 ~~~~
 
 You can write arbitrary LaTeX-formatted math by using the math directive. The math must be
@@ -656,11 +674,11 @@ separated from the directive by a blank line, followed by an indented math block
   ::
 
     .. math::
-        
+
         E = mc^2
-  
-  renders as 
+
+  renders as
 
   .. math::
-      
+
       E = mc^2
