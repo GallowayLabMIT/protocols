@@ -10,20 +10,20 @@ Well Plate Protocol
 
 Well Plate Detection Stage
 ==========================
-1. Steps 1-5 of :doc:`adherent_staining` 
+1. Steps 1-5 of :doc:`antibody_staining`
 2. Wash samples 2x with 200 uL of 2X SSC
 3. Add 200 uL of probe hybridization buffer for 30 min at 37 degrees C
 4. Prepare probe solution by adding 1.2 uL of 1 uM stock to 300 uL of probe hybridization buffer at 37 degrees C
 5. Remove pre-hybridization solution and add probe solution
 6. Incubate samples overnight (12-16 h) at 37 degrees Celsius
-   
+
 =================
 Solution Protocol
 =================
 
 Solution Detection Stage
 ========================
-1. Steps 1-5 of :doc:`adherent_staining` 
+1. Steps 1-5 of :doc:`antibody_staining`
 2. Add 500 uL of probe hybridization buffer for 30 min at 37 degrees C
 3. Prepare probe solution by adding 2 uL of 1 uM stock to 500 uL of probe hybridization buffer at 37 degrees C
 4. Remove pre-hybridization solution and add probe solution

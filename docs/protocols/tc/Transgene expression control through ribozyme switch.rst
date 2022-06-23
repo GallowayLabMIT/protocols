@@ -12,11 +12,8 @@ Material
 - DMEM supplemented with 10% FBS
 - PEI
 - Small-molecule such as theophylline, guanine (please check the concentration that you will need)
-  
-<<<<<<< HEAD
-=======
 
->>>>>>> 50aa00d07aeecb020a8f7222d77ab91bc81ba918
+
 Procedure
 =========
 
@@ -30,7 +27,7 @@ Day 2. Tranfection
 1. Transfect 100μg of a plasmid expressing transgene-ribozyme switch cassette/well with PEI by following general transfection protocol.
    (if your small-molecule or the solvent has cytotoxicity, using 1:3 ratio of DNA:PEI would be recommended: 0.3μl of PEI for 100μg of DNA)
 2. Incubate the cell at 37℃ 5% CO2 for 4-6 hours.
-3. Remove the media from the wells carefully to not lose the cells, and add 100μl of fresh media that contains the corresponding small-molecule such as guanine and theophylline. 
+3. Remove the media from the wells carefully to not lose the cells, and add 100μl of fresh media that contains the corresponding small-molecule such as guanine and theophylline.
 4. Incubate the cells overnight.
 
 - If you are using ON-switch, whose ribozyme activity is inactivated by small-molecule, you don't need to treat the cells with the small-molecules at 4-6hpt, you can do this next day.

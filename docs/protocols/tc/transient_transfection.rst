@@ -1,7 +1,7 @@
 =======================================
 Transient HEK293T Transfection
 =======================================
-.. note:: 
+.. note::
 	If performing transient transfection for virus production: please use the updated :doc:`virus_production` protocol going forward for lentivirus product via HEK293Ts; the efficiency of the new protocol
 	exceeds this protocol's efficiency by more than an order of magnitude! Plat-E retrovirus production
 	should still use :doc:`/protocols/tc/platE_transfection`.
@@ -25,8 +25,8 @@ Plat-Es         6-well                800K
 
 2.	Make a mastermix of PEI and Knockout DMEM as follows:
 
-  		- Parameters needed (To scale to DNA/well in other size plates, divide by number of wells: 10cm-plate = 6-well plate = 24-well plate = 96-well plate): 
-  	
+  		- Parameters needed (To scale to DNA/well in other size plates, divide by number of wells: 10cm-plate = 6-well plate = 24-well plate = 96-well plate):
+
 			================================ ===============
 			**Parameter**    					**Value**
 			================================ ===============
@@ -35,9 +35,9 @@ Plat-Es         6-well                800K
 				**Knockout DMEM/well**			1.33 mL / 10-cm plate
 				**DNA concentration**			ng/uL (for each plasmid from nanodrop)
 			================================ ===============
-  			
+
   		- Calculations
-  
+
   			========================================= ===============
 			**Parameter**    					    		**Example for 96-well plate**
 			========================================= ===============
@@ -50,21 +50,21 @@ Plat-Es         6-well                800K
 
 .. important::
 	*Ensure* that you add PEI to KO DMEM, *not the other way around!*
-	Mix master mix well, then let sit for minimum 10 minutes. 
+	Mix master mix well, then let sit for minimum 10 minutes.
 
 3.	Add DNA to the PEI+KO DMEM MM as calculated per each  conditions, then mix and wait 15 minutes. These are the "condition mixes."
 
 	a. For *one 10cm retrovirus plate*, use 6.67ug viral plasmid + 6ug pIK-MLVgp + 0.667ug pHDMG.
 	b. For *one 10cm lentivirus plate*, use 6.67ug viral plasmid + 6ug pPAX2 + 0.667ug VSVG.
-	c. For one condition of a 96-well transfection (use 110% volumes from calculations): 
-	
+	c. For one condition of a 96-well transfection (use 110% volumes from calculations):
+
 			========================================= ===============
 			**Parameter**    					    	**Example**
 			========================================= ===============
 			  **110% Total volume DNA/well/plasmid**	112.5 DNA(ng)/well/plasmid / 213 DNA concentration (ng/uL) * 1.1 = 0.56 uL
 			  **Number plasmids / well**					2 plasmids
 			  **Wells**										3 wells
-			  **Condition Mix**							(0.56 uL DNA/well/plasmid + 15.2 KO DMEM/well/plasmid) * (2 plasmids * 3 wells)  
+			  **Condition Mix**							(0.56 uL DNA/well/plasmid + 15.2 KO DMEM/well/plasmid) * (2 plasmids * 3 wells)
 			========================================= ===============
 
 .. tip::
@@ -74,11 +74,11 @@ Plat-Es         6-well                800K
 4.	Add amount of DNA+KO DMEM+PEI condition mix to desired well on **TOP** of growth media (DMEM + 10% FBS, see :doc:`media amounts </protocols/tc/adherent_cell_culture>`). (use the 100% NOT the 110% volumes.) For larger well (anything above 24-well), add the condition mix *dropwise* and evenly around the plate, rocking the plate back and forth, side to side to mix.
 5.	*After 18-24 hours*, change with :doc:`fresh media </protocols/tc/adherent_cell_culture>` (i.e. DMEM + 10% FBS for HEK293Ts).
 
-If making virus continue to further steps: 
+If making virus continue to further steps:
 
 		6.	Harvest media after another 24 hours and replace with another 6.5mls fresh media. Store media from each virus/vector in 50ml conical at 4°C (combine media from both plates into same tube!).
 		7.	Harvest again after another 24 hours.  May add the media from the two plates into the 50ml conical already being stored at 4C.  After this second harvest, UV plates for about 30 minutes, then discard into biohazard.
-		8.	Keep virus in 4°C until :doc:`ready to concentrate <virus_concentration>`!
+		8.	Keep virus in 4°C until ready to concentrate!
 
 		.. note::
 			Retroviruses are stable at 4°C for 2-3 days, with lentiviruses being stable for 4-5 days.
