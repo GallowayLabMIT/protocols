@@ -102,6 +102,7 @@ Single-cell qPCR on Fluidigm Biomark
 ------------------------------------
 .. time:: 2 hours for steps 1 through 8
 
+
 1.	Defrost samples on ice.
 2.	Dilute 5x by adding 52 ul of H20 to 13 ul of sample to make 65 ul of single-cell amplified cDNA (13 ul is standard volume size following above procedure). 
 3.	Make Sso Fast Evagreen super mix (Bio-rad) with 20X DNA binding dye (Fluidigm, green cap):
@@ -115,13 +116,6 @@ RNAse-free water                         2.75 uL        264 uL
 *Total*                                 *5.5 uL*        *528 uL*
 ====================================   ==============  =================
 
-.. admonition:: TODO
-
-	Check if the above mixture is diluted with water as written here
-
-i.	….2.5 uL/ rxn….96 rxn+ over= 480 uL
-ii.	20X DNA binding dye sample loading reagent…0.25 uL/rxn...96 rxn+ over= 48 uL 
-iii.	Total…………………………………….……5.5uL/rxn………….96 rxn+ over =528 uL
 
 4.	Mix samples in 96-well qPCR plate.  Place samples in well corresponding to number to order correctly (e.g.  Sample 1= A1, Sample 2= A2… Sample 13= B1, Sample 14= B2…Sample25= C1 etc). 
 
@@ -129,34 +123,32 @@ i.	Sso Fast/DNA binding Dye mix………….……5.5uL/well
 ii.	Single-cell STA cDNA samples………………….4.5 ul/well
 
 5.	Cover with qPCR sticky lid.  Vortex lightly to mix. Spin down in plate spinner and place on ice.
-6.	Prepare assays with 2X loading reagent (Fluidigm), F+R primers, and water. Place samples in well corresponding to number to order correctly (e.g.  Assay 1 (Gene A)= A1, Assay 2 (Gene B)= A2… etc). 
-7.	?
+6.	Prepare assays with 2X loading reagent (Fluidigm), F+R primers, and water. 
 
-i.	2X Assay Loading reagent ………….2.5 uL/ rxn……….4 rxn= 10 uL
-ii.	20 uM F+R  for each assay.……………0.25 uL/rxn…………4 rxn= 5 uL
-iii.	RNAse-free water…..2.25 uL/rxn………….4 rxn=5 uL 
 
+====================================   ==============  =================
+Component                               Volume/ 1rxn    Volume / 4 rxn
+====================================   ==============  =================
+2X Assay Loading reagent                  2.5 uL         10 uL
+20 uM F+R  for each assay                0.25 uL          5 uL
+RNAse-free water                         2.25 uL          5 uL
+*Total*                                 *5.0 uL*        *20 uL*
+====================================   ==============  =================
+
+7.  Add 5 uL of each mix to each inlet.  Place samples in well corresponding to number to order correctly (e.g.  Assay 1 (Gene A)= A1, Assay 2 (Gene B)= A2… etc). 
 8.	Cover assay lids with qPCR sticky lid.  Vortex lightly to mix. Spin down in plate spinner and place on ice.
 9.	PRIME Chip: Add fluid to accumulators by depressing springs and O-rings and injecting control line fluid. Tilting the plate will ensure the fluid goes into the accumulators. Run “Prime” script on Fluidigm Mixer (HX for 96.96 and MX for 48.48.) 
 
- 
-Consult Chip Pipetting Map (PN 68000130, REV B) to optimize efficiency of set-up for pipetting with multi-channel pipette.  More detail on Page 5 and 6. 
- (ref: http://openwetware.org/images/5/52/Fluidigm_96.96_RT-_PCR_Quick_Reference_.pdf)
+.. note:: Special thin tips are to be used on this device compatible with loading 384-well plates. Using the 96-well plate spacing for tips more compatible with 96 well plates assays and sample preparation and requires using the Chip pipetting map to quickly and correctly load the assays and sample inlets.  It is recommended to aspirate 5.2 uL and dispense 5 uL to avoid introducing air bubbles. By preparing extra assay and sample mix in the 96 well plate, air bubbles should be avoided using this pipetting method. 
+
 
 10.	Use electronic multi-channel pipette to add 5 uL to each well. 
-11.	Note:  Special thin tips are to be used on this device compatible with loading 384-well plates. Using the 96-well plate spacing for tips more compatible with 96 well plates assays and sample preparation and requires using the Chip pipetting map to quickly and correctly load the assays and sample inlets.  It is recommended to aspirate 5.2 uL and dispense 5 uL to avoid introducing air bubbles. By preparing extra assay and sample mix in the 96 well plate, air bubbles should be avoided using this pipetting method. 
 
-12.	Following addition of all samples and assays, follow the detailed protocol for loading the Chip on the IFC mixer and then running the Chip on the Biomark HD.  (See below).  Note:  The Camera requires time to turn on (~20 min) make sure to turn on early.  Also, loading the Chip takes ~ 1 hr 20 min and running the chip takes ~1 hr and 30 min. 
+11.	Following addition of all samples and assays, follow the detailed protocol for loading the Chip on the IFC mixer and then running the Chip on the Biomark HD.  (See below).  Note:  The Camera requires time to turn on (~20 min) make sure to turn on early.  Also, loading the Chip takes ~ 1 hr 20 min and running the chip takes ~1 hr and 30 min. 
 
-IV.	Pipetting Map for 48.48 
+Pipetting Map for 48.48
+Pipetting Map for 96.96 
 
+.. note:: Consult Chip Pipetting Map (PN 68000130, REV B) to optimize efficiency of set-up for pipetting with multi-channel pipette.  More detail on Page 5 and 6. 
+ (ref: http://openwetware.org/images/5/52/Fluidigm_96.96_RT-_PCR_Quick_Reference_.pdf)
 
-
-
-
-
-
-
-
-V.	Pipetting Map for 96.96
- 
