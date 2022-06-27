@@ -1,5 +1,5 @@
 ============================================================
-VSV production 
+VSV production
 ============================================================
 
 Material
@@ -28,31 +28,32 @@ Day 1. Seed cells
 Day 2. Tranfection
 ------------------
 1. Transfect the plasmids mixture to the cell on Plate_A through general transfection protocol:
-==========     ===========   
-Plasmid        Amount of DNA    
-==========     ===========    
-pVSV eGFP dG        5μg            
+============= ==============
+Plasmid        Amount of DNA
+============= ==============
+pVSV eGFP dG        5μg
 pCAG-VSVN         1.5μg
 pCAG-VSVP         2.5μg
 pCAG-VSVL         0.5μg
 pCAG-T7pol          5μg
 pCAG-VSVG           4μg
-==========      =========== 
-2. Incubate the cells @ 37℃ for 5-6 hours.
+============= ==============
+2. Incubate the cells at 37℃ for 5-6 hours.
 3. Remove the media and add fresh complete media (2ml/well of a 6 well).
 4. Incubate @ 37℃ for about 48hours.
 5. After transfection, seed HEK293T cells to another 6 well palte or 10cm^2 dish for the following amplyfication process (Plate_B).
 
-Day 3. VSVG tranfection for viral amplification
------------------------------------------------
-- There is nothing that you need to do on the first transfected HEK293T cells on Plate_A 
-1. If you amplify the viral particle that you collect at Day 4 with a 6 well plate scale, transfect 2μg of pCAG-VSVG to the HEK293T cells seeded on Day 3. If you use 10cm^2 dish for this, transfect 10μg of pCAG-VSVG to the HEK293T cells. 
-2. Incubate @37℃
-   
-Day 4. Collect the viral particle and amplify it with HEK293T 
+Day 3. VSVG transfection for viral amplification
+------------------------------------------------
+
+- There is nothing that you need to do on the first transfected HEK293T cells on Plate_A
+- If you amplify the viral particle that you collect at Day 4 with a 6 well plate scale, transfect 2μg of pCAG-VSVG to the HEK293T cells seeded on Day 3. If you use 10cm^2 dish for this, transfect 10μg of pCAG-VSVG to the HEK293T cells. Incubate at 37°C
+
+
+Day 4. Collect the viral particle and amplify it with HEK293T
 -------------------------------------------------------------
 1. Remove the media from the cells on Plate_B (HEK293T cells transfected with pCAG-VSVG at Day 3., and add the supernatant of HEK293T cells on Plate_A.
-2. Incubate @37℃　for about 48-72 hours to amplify the viral vector in the cells on Plate_B.
+2. Incubate at 37°C for about 48-72 hours to amplify the viral vector in the cells on Plate_B.
 
 Day 6-7.
 ---------------
