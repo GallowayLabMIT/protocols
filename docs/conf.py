@@ -185,3 +185,5 @@ html_context['downloads'].append( ('pdf', '/' +REPO_NAME+ '/' +current_language+
 def setup(app):
     from sphinx.util.texescape import tex_replacements
     tex_replacements.append(('μ', r'\(\mu\)'))
+    tex_replacements.append(('°', r'\(^\circ\)'))
+    tex_replacements.append(('℃', r'\(^\circ\)C'))

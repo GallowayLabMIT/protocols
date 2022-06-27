@@ -19,6 +19,6 @@ Row         DMEM        Added
 ======    ==========   ========================
 
 3.  Add 30 uL of diluted virus + 70 uL DMEM with 10% FBS to each well
-4.  Record how many uL of the original virus stock was used in each well (can be calculated with `this excel file <../../_static/files/MOItemnplate.xlsx>`__)
+4.  Record how many uL of the original virus stock was used in each well (can be calculated with `this excel file <../../_static/files/MOItemplate.xlsx>`__)
 5.  Count and record the cells in 1 well of the plate at the time of infection
 6.  24 hours later, move on to :doc:`/instruments/attune/attune_operation`

@@ -2,9 +2,12 @@
 Electroporation of plasmids into MEFs
 =====================================
 
+
+
+.. note:: This protocol is specific for electroporation to test settings for the Amaxa II electroporator and plasmid concentrations for MEFs. This is a good starting place for any electroporation protocol including for iPSCs. Settings will differ by cell type. 
+
 Overexpression
 ---------------
-
 In order to determine which conditions allow the best transfection efficiency and highest viability for the Amaxa cell electroporator, cells first need to be tested for compatibility with a specific buffer and voltage setting. This is achieved by setting up a matrix experiment with controls as follows: 
 
 * MEFs + DNA with no electroporation 

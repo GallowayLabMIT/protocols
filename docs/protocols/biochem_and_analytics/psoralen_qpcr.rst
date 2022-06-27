@@ -2,6 +2,8 @@
 Psoralen-qPCR supercoiling assay
 ================================
 
+.. note:: This protocol was used for the experiments described in Babos and Galloway, Cell Stem Cell, 2019 for measuring DNA supercoiling using psoralen intercalation as a metric of negative supercoiling. Psoralen preferentially incorporates into underwound DNA (negatively supercoiled DNA).
+
 Experiment setup
 -----------------
 1. Prepare half of a 6-well **plate** per replicate.

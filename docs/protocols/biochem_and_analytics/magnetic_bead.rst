@@ -1,7 +1,9 @@
-=================
-Magnetic Bead
-=================
-(Adapted by USC Epigenome Center)
+=============================================
+Magnetic bead clean-up for genomics libraries
+=============================================
+(Adapted from USC Epigenome Center)
+
+.. note:: This protocol describes two methods to clean up libraries following various adapter ligations. Most recently, I (Katie) used this workflow to clean up samples from 10X 3'RNAseq before sequencing. 
 
 .. warning::
   INCOMPLETE! Part of 10X Genomics workflow; the rest of the protocol needs to be added. This section separates DNA by size in preparation for sequencing.
