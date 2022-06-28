@@ -7,6 +7,7 @@ Gating plot
 --------------------
 
 .. plot::
+    :context: reset
 
     # Read in data
     data = pd.read_csv('data/data_mGL_WPRE/data_mGL_WPRE.csv')
@@ -50,12 +51,9 @@ Box plot with well means
 ------------------------
 
 .. plot::
-
-    # Read in data
-    data = pd.read_csv('data/data_mGL_WPRE/data_mGL_WPRE.csv')
+    :context: close-figs
 
     # Categorize if mGL+
-    mGL_H_thresh = 2*10**2
     mGL_cat = list()
     for mGL_val in data['mGL-H']:
         if mGL_val > mGL_H_thresh:
@@ -89,20 +87,23 @@ Box plot with well means
     
     # Plot
     fig, ax = plt.subplots(1, 1, figsize=(3, 3))
-    sns.boxplot(ax=ax, data=data_mGL, 
-                x=x, y=y, order=order, 
-                boxprops={'facecolor': 'None'}, showfliers=False) # Gets rid of boxplot colors and outliers
-    sns.stripplot(ax=ax, data=well_mGL_gmean_df, 
-                x=x, y=y+' (gmean)', order=order,
-                dodge=True, palette=colormap, size=5)
+    sns.boxplot(
+        ax=ax, data=data_mGL, 
+        x=x, y=y, order=order, 
+        boxprops={'facecolor': 'None'}, showfliers=False) # Gets rid of boxplot colors and outliers
+    sns.stripplot(
+        ax=ax, data=well_mGL_gmean_df, 
+        x=x, y=y+' (gmean)', order=order,
+        dodge=True, palette=colormap, size=5)
                 
     # Add in stats
-    test_results = add_stat_annotation(ax=ax, data=well_mGL_gmean_df,
-                                    x=x, y=y+' (gmean)', order=order,
-                                    box_pairs=box_pairs,
-                                    test='t-test_ind', text_format='star',
-                                    loc='inside', verbose=2,
-                                    line_offset_to_box=0.7)
+    test_results = add_stat_annotation(
+        ax=ax, data=well_mGL_gmean_df,
+        x=x, y=y+' (gmean)', order=order,
+        box_pairs=box_pairs,
+        test='t-test_ind', text_format='star',
+        loc='inside', verbose=2,
+        line_offset_to_box=0.7)
 
     # Adjust labels
     plt.ticklabel_format(axis='y',style='sci',scilimits=(0,0))
@@ -115,71 +116,40 @@ Violin plot with well means
 -----------------------------
 
 .. plot::
+    :context: close-figs
 
-    # Read in data
-    data = pd.read_csv('data/data_mGL_WPRE/data_mGL_WPRE.csv')
-
-    # Categorize if mGL+
-    mGL_H_thresh = 2*10**2
-    mGL_cat = list()
-    for mGL_val in data['mGL-H']:
-        if mGL_val > mGL_H_thresh:
-            mGL_cat.append('mGL+')
-        else:
-            mGL_cat.append('mGL-')
-    data['mGL_cat'] = mGL_cat
-
-    # Get total counts and percent of mGL+ and mGL-
-    well_group = ['cond', 'replicate', 'sampleNum'] # specifies we're splitting by cond >> bio rep >> tech rep >> etc...
-    count_df = data.groupby([*well_group, 'mGL_cat'])['mGL-H'   # Doesn't have to be mGL-H, any column would work
-        ].count().unstack(fill_value=0).stack().rename('count') # unstack()/stack() puts 0 if no mGL-H+ rather than dropping row
-    percent_df = (count_df*100/count_df.groupby(well_group).transform('sum')
-        ).reset_index(name='percent')
-
-    # Extract just the mGL+ cells
-    data_mGL = data[data['mGL_cat'] == 'mGL+']
-    percent_df_mGL = percent_df.loc[(percent_df['mGL_cat'] == 'mGL+')]
-
-    # Calculate geom mean of mGL+ cells
-    well_mGL_gmean_df = data_mGL.groupby(well_group)[
-        'mGL-H'].apply(scipy.stats.gmean).reset_index(name='mGL-H (gmean)')
-
-    # Plotting parameters
-    x = 'cond'
-    y = 'mGL-H'
-    order = ['mGL', 'mGL-WPRE']
-    box_pairs = [('mGL', 'mGL-WPRE')]
-    colormap = {'mGL': 'lightgrey',
-                'mGL-WPRE': 'limegreen'}
-
-    # log10 transform data
+    # For violin plots, you must first log10 transform data
     data_mGL['log({})'.format(y)] = np.log10(data_mGL[y])
     well_mGL_gmean_df['log({})'.format(y+' (gmean)')] = np.log10(well_mGL_gmean_df[y+' (gmean)'])
 
     # Plot
     fig, ax = plt.subplots(1, 1, figsize=(3, 3))
     # Plot all points as violin
-    sns.violinplot(ax=ax, data=data_mGL,
-                   x=x, y='log({})'.format(y), order=order,
-                   palette=colormap, inner="quartile")
+    sns.violinplot(
+        ax=ax, data=data_mGL,
+        x=x, y='log({})'.format(y), order=order,
+        palette=colormap, inner="quartile")
     # Plot log10 transformed -> well geometric means of mGL-A as points
-    sns.stripplot(ax=ax, data=well_mGL_gmean_df, 
-                  x=x, y='log({})'.format(y+' (gmean)'), order=order,
-                  dodge=True, color='white', size=5)
+    sns.stripplot(
+        ax=ax, data=well_mGL_gmean_df, 
+        x=x, y='log({})'.format(y+' (gmean)'), order=order,
+        dodge=True, color='white', size=5)
 
     # Make log axis label:
     ax.yaxis.set_major_formatter(
         mticker.StrMethodFormatter("$10^{{{x:.0f}}}$"))
-    ax.yaxis.set_ticks([np.log10(x) for p in range(1, 7)
-                        for x in np.linspace(10**p, 10**(p+1), 10)], minor=True);
+    ax.yaxis.set_ticks(
+        [np.log10(x) for p in range(1, 7) for x in np.linspace(10**p, 10**(p+1), 10)],
+        minor=True);
 
     # Add in stats
-    test_results = add_stat_annotation(ax=ax, data=well_mGL_gmean_df,
-                                   x=x, y='log({})'.format(y+' (gmean)'), order=order,
-                                   box_pairs=box_pairs,
-                                   test='t-test_ind', text_format='star',
-                                   loc='inside', verbose=2,
-                                   line_offset_to_box=0.35)
+    test_results = add_stat_annotation(
+        ax=ax, data=well_mGL_gmean_df,
+        x=x, y='log({})'.format(y+' (gmean)'), order=order,
+        box_pairs=box_pairs,
+        test='t-test_ind', text_format='star',
+        loc='inside', verbose=2,
+        line_offset_to_box=0.35)
 
     # Adjust labels
     plt.ylabel(y)
