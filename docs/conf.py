@@ -56,7 +56,7 @@ import numpy as np
 import pandas as pd
 import scipy
 import seaborn as sns
-import statannot
+from statannotations.Annotator import Annotator
 
 from pathlib import Path
 

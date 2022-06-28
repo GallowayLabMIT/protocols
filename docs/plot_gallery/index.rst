@@ -21,7 +21,7 @@ and setup code that runs before any given code examples:
    import pandas as pd
    import scipy
    import seaborn as sns
-   import statannot
+   from statannotations.Annotator import Annotator
 
    from pathlib import Path
    from matplotlib import ticker as mticker
