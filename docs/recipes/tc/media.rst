@@ -9,14 +9,14 @@ Used for neuronal differentiation during direct conversion.
 * Total volume: **500 mL**
 
 =============================== =========== ===============
- Component                       %           Volume         
+ Component                       %           Volume
 =============================== =========== ===============
- Glutamax (1%)                   1%          5 mL          
- N2 (100x stock)                 100x stock  5 mL          
- B27 (50x stock)                 50x stock   10 mL         
- Pen/Strep (1%) *(optional)*     1%          5 mL          
- FBS *(optional)*                2%          10 mL         
- DMEM F12                                    500 mL 
+ Glutamax (1%)                   1%          5 mL
+ N2 (100x stock)                 100x stock  5 mL
+ B27 (50x stock)                 50x stock   10 mL
+ Pen/Strep (1%) *(optional)*     1%          5 mL
+ FBS *(optional)*                2%          10 mL
+ DMEM F12                                    500 mL
 =============================== =========== ===============
 
 Add the following small molecules to small volumes
@@ -32,7 +32,7 @@ immediatly before media addition, to a **final concentration of 10 ng/mL**:
  1. 200mM glutamine is the same as Glutamax
  2. We do not usually use FBS or Pen/Strep
  3. Wrap N3 in foil after making
- 
+
 MEF media
 ---------
 Used for culturing MEFs and other fibroblasts.
@@ -40,11 +40,11 @@ Used for culturing MEFs and other fibroblasts.
 Total volume: **500 mL**
 
 ========================= ===== ===============
-  Component                %     Volume        
+  Component                %     Volume
 ========================= ===== ===============
-  FBS                      10%   50 mL         
-  Pen/Strep *(optional)*   1%    5 mL          
-  DMEM                           add to 500mL  
+  FBS                      10%   50 mL
+  Pen/Strep *(optional)*   1%    5 mL
+  DMEM                           add to 500mL
 ========================= ===== ===============
 
 Breast cancer 1 media
@@ -101,21 +101,21 @@ Epithelial cell 1 media
 -----------------------
 Use for culturing the **NCI-H1299** human lung cancer cell line.
 
-===============  =============== 
-Component         Concentration   
 ===============  ===============
-RPMI + 10% FBS    Base            
-===============  =============== 
+Component         Concentration
+===============  ===============
+RPMI + 10% FBS    Base
+===============  ===============
 
 Epithelial cell 2 media
 -----------------------
 Use for culturing the **SAOS-2** human osteosarcoma cell line.
 
-=================   =============== 
-Component           Concentration   
-=================   =============== 
-McCoy's + 15% FBS   Base            
-=================   =============== 
+=================   ===============
+Component           Concentration
+=================   ===============
+McCoy's + 15% FBS   Base
+=================   ===============
 
 Glia media
 ----------
@@ -124,7 +124,7 @@ Used for culturing glia cells
 Total volume: **500 mL**
 
 ========================= ===== ===============
-  Component                %     Volume        
+  Component                %     Volume
 ========================= ===== ===============
  Horse serum               10%   50 mL
  Glucose                   20%   100 mL
@@ -138,7 +138,7 @@ Used for preparing cells for sorting
 Total volume: **500 mL**
 
 ========================= ===== ===============
-  Component                %     Volume        
+  Component                %     Volume
 ========================= ===== ===============
  DMEM/F12                  99%   495 mL
 ========================= ===== ===============
@@ -151,7 +151,7 @@ It is possible to use whatever though because you will have to spin-down and res
 Total volume: **500 mL**
 
 ================================= ===== ===============
-  Component                        %     Volume        
+  Component                        %     Volume
 ================================= ===== ===============
  FBS *(for collection only)*       10%   50 mL
  DMEM/F12                          90%   450 mL
@@ -164,13 +164,13 @@ Used for dissociating iMNs or primary motor neurons (embMN) harvested from spina
 Total volume: **6 mL**
 
 ========================= =========================
-  Component                  Volume        
+  Component                  Volume
 ========================= =========================
  Papain                    1 vial (>= 100 U/vial)
  DNAse                     1 vial (>= 1,000 U/vial)
  DMEM/F12                  6 mL
 ========================= =========================
-	
+
 
 Freezing media
 --------------
@@ -184,3 +184,28 @@ DMSO                       100 µL          10%
 
 
 - It is easy to keep a 4C stock of 80% FBS/20% DMSO then use 500 µL 80/20 FBS/DMSO + 500 µL DMEM/FBS cell solution
+
+
+HEPES-buffered DMEM
+-------------------
+
+For use during lentivirus or retrovirus production in HEK293T cells.
+
+**1M HEPES stock solution** (filter sterilize after pH-ing)
+
+==============================  =============================== ==============
+Component                       Concentration                   Amount/50 mL
+==============================  =============================== ==============
+HEPES-potassium salt            1M                              13.82 g
+DI H2O                          main solvent                    50 mL
+Hydrochloric acid               to pH 7.0
+==============================  =============================== ==============
+
+**HEPES-buffered DMEM**
+
+==============================  =============================== ==============
+Component                       Concentration                   Amount/50 mL
+==============================  =============================== ==============
+DMEM + 10% FBS                  main Component                  48.75 mL
+Sterile 1M HEPES                25 mM                           1.25 mL
+==============================  =============================== ==============

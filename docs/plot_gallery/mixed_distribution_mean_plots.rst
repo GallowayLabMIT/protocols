@@ -10,7 +10,7 @@ Gating plot
 
     # Read in data
     data = pd.read_csv('data/data_mGL_WPRE/data_mGL_WPRE.csv')
-
+    
     # Plot mGL-H
     x = 'mGL-H'
     hue = 'cond'

@@ -51,10 +51,15 @@ exclude_patterns = []
 # --matplotlib Sphinx options--
 plot_include_source = True
 plot_pre_code = """
+import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
+import scipy
 import seaborn as sns
+import statannot
+
+from pathlib import Path
+
 sns.set_theme(style="ticks")
 from statannot import add_stat_annotation
 import scipy
@@ -184,3 +189,5 @@ html_context['downloads'].append( ('pdf', '/' +REPO_NAME+ '/' +current_language+
 def setup(app):
     from sphinx.util.texescape import tex_replacements
     tex_replacements.append(('μ', r'\(\mu\)'))
+    tex_replacements.append(('°', r'\(^\circ\)'))
+    tex_replacements.append(('℃', r'\(^\circ\)C'))

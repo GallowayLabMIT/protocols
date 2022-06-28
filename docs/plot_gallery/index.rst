@@ -16,15 +16,17 @@ and setup code that runs before any given code examples:
 
 .. code-block:: python
 
+   import matplotlib.pyplot as plt
    import numpy as np
    import pandas as pd
-   import matplotlib.pyplot as plt
-   import seaborn as sns
-   sns.set_theme(style="ticks")
-   from statannot import add_stat_annotation
    import scipy
+   import seaborn as sns
+   import statannot
+
    from pathlib import Path
    from matplotlib import ticker as mticker
+
+   sns.set_theme(style="ticks")
 
 If you are reproducing the code on your own, make sure that these lines have been run!
 

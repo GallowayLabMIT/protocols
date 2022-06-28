@@ -14,7 +14,7 @@ jobs:
     - name: Install dependencies
       run: |
           sudo apt-get update
-          sudo apt-get install texlive-latex-recommended texlive-fonts-recommended texlive-latex-extra latexmk --no-install-recommends
+          sudo apt-get install texlive-latex-recommended texlive-fonts-recommended texlive-latex-extra latexmk tex-gyre --no-install-recommends
     - name: Set up Python
       uses: actions/setup-python@v2
       with:

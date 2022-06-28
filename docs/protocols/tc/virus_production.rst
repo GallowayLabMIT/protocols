@@ -1,9 +1,11 @@
-=======================
-Virus production
-=======================
+======================================
+Virus production in HEK293T
+======================================
+
+This protocol describes how to produce lentivirus and retrovirus in HEK293T cells, including a final concentration step.
 
 .. time::
-    4-5 days. Note that on the **transfection day**, you must change
+    4-6 days. Note that on the **transfection day**, you must change
     the media 6-8 hours after the transfection.
 
 Scale and virus type selection
@@ -22,8 +24,8 @@ Scale and virus type selection
 ========    ===========    ======================    ===================    ============================
 Scale       Area (cm^2)    Seeding amount (cells)    Total DNA mass (ug)    Collection media volume (mL)
 ========    ===========    ======================    ===================    ============================
-10cm        56.7            7.5 x 10^6               24                     6.5 
-6-well      9.6             1.0 x 10^6               4.1                    1
+10cm        56.7            7.5 x 10^6               24                     6.5
+6-well      9.6             1.0 x 10^6               4.1                    1.25
 ========    ===========    ======================    ===================    ============================
 
 If using a different virus production scale, the total DNA mass should be scaled by surface area.
@@ -38,8 +40,8 @@ Lentivirus      psPAX2 (pKG362)         pMD2.G (pKG096)
 Retrovirus      pIK-MLVgp (pKG015)      pHDMG (pKG022)
 ===========     ===================     ================
 
-Production
-----------
+Virus Production
+----------------
 The following is given for a 10cm-dish production scale. For other scales, substitute
 the correct seeding amounts/total DNA mass/other values from the scale table.
 
@@ -55,7 +57,7 @@ Day 1
 2. Prepare a mastermix of PEI and knockout DMEM. It is helpful to prepare a 110% master mix
    (include 10% extra mix) to account for pipetting losses. Ensure that you
    **add the PEI to the KO-DMEM** and not in the other order.
-   
+
    a. Use the total number of micrograms of DNA (24 for a 10cm dish) times the
       experimentally-determined PEI ratio to get the number of microliters of
       1mg/mL PEI you need to add. In other words, the PEI ratio is a PEI:DNA mass ratio.
@@ -109,13 +111,17 @@ Day 1
     Sterile 1M HEPES                25 mM                           1.25 mL
     ==============================  =============================== ==============
 
+.. warning::
+   Viral particles may be present after the first media change.
+   Be sure to use proper PPE (i.e., lab coats, disposable sleeves) and wipe down the hood with Pre-Empt after use, from here on!
+
 Day 2, 3, ... (n - 1)
 **********************
 
-1. 24 hours after the last media change, collect the media, 
-   replacing it with the same volume of fresh HEPES-buffered DMEM. 
+1. 24 hours after the last media change, collect the media,
+   replacing it with the same volume of fresh HEPES-buffered DMEM.
    The collected media from separate days can be stored in the same
-   50mL conical tube. Keep the collected media at 4°C
+   50mL conical tube. Keep the collected media at 4°C.
 
 .. note::
     Two collections give high enough virus titer to infect the vast majority (70%+) of
@@ -125,15 +131,39 @@ Day (n)
 *******
 
 1. On the last day of collection, either:
-   
-   a. Proceed to the :doc:`virus_concentration` protocol if you want to store your virus long-term.
+
+   a. Proceed to the :ref:`virus_concentration` protocol if you want to store your virus long-term.
    b. Filter the collected virus using a 0.45um filter, and keep the unconcentrated virus at 4°C for
       up to a few days. The virus media can be used instead of normal DMEM in order to directly infect
       cells.
 
-      For example, 100 uL of unconcentrated virus media can be added to each well of a 96-well to perform
-      an infection.
+         For example, 100 µL of unconcentrated virus media (plus 0.1µL polybrene) can be added to each well of a 96-well plate to perform an infection.
 
 .. note::
-   Virus infection is more efficient if it is done at the same time as seeding. If possible, after
-   counting, you can resuspend pelleted cells in virus-containing media when plating.
+   Unconcentrated virus appears to lead to more cell death than concentrated virus does. Therefore, concentrating the virus is advised.
+
+
+.. _virus_concentration:
+
+Virus Concentration
+-------------------
+
+.. time::
+	1 hour in-TC time, 1 day overnight time
+
+1. Filter collected virus through a 0.45µm syringe filter into a 50ml conical.  This eliminates any 293T cells that may have been carried over or collected in the media.
+2. Add 1/3 volume of Lenti-X concentrator (e.g., for 30ml virus, add 10ml Lenti-X). Mix by inverting several times.
+3. Store at 4°C for 24 hours (or overnight).
+
+.. note::
+   If you plan to infect plated cells the next day after concentrating the virus, seed cells on gelatin-coated plates the same day as virus filtration and concentrator addition.
+   Typically, this is 10k cells/well of a 96-well plate.
+
+4. The next day, centrifuge at 1500 x g at 4°C for 45 minutes (use the lower centrifuge). Be sure to use the caps/lids on the centrifuge buckets.
+5. Aspirate the supernatant. There will be a little liquid left; this is okay.
+6. Resuspend the pellet gently in the remaining liquid and transfer the entire volume to an Eppendorf tube.
+7. Add media to the Eppendorf tube to reach the desired final volume (e.g., 100 or 200 µL).
+8. Use or store the concentrated virus.
+   a. To use: Infect according to the :doc:`Transduction of concentrated virus <virus_infection>` protocol.
+   b. To store: Store all or any extra virus remaining after infection in a cryovial at -80°C.
+

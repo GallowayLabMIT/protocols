@@ -1,6 +1,6 @@
-========================
+====================
 Golden Gate assembly
-========================
+====================
 
 Golden Gate assembly allows us to create a construct using Type IIs restriction enzymes (REs).
 These enzymes can generate custom connector sequences, enable scarless assembly, and enhance reaction efficiency through multiple rounds of digestion and ligation.
@@ -73,14 +73,14 @@ This protocol is specifically for Golden Gate assembly using the lab's positioni
 
 3. Use the guidelines below to choose an appropriate assembly protocol. In general, longer assemblies (more cycles) are preferred, especially if reactions are run overnight.
 
-============================================== ====================================================== =========================
-  Insert                                        Assembly protocol                                      Estimated reaction time
-============================================== ====================================================== =========================
- <5 plasmid fragments (fast)                    (37°C, 1 min -> 16°C, 1 min) x **30** -> 60°C, 5 min    ~1.5 hrs
- 5+ plasmid fragments (fast)                    (37°C, 1 min -> 16°C, 1 min) x **60** -> 60°C, 5 min    ~3 hrs
- 5+ plasmid fragments (long), 1 PCR fragment    (37°C, 1 min -> 16°C, 1 min) x **99** -> 60°C, 5 min    ~5 hrs
- |difficult-assembly|                           (37°C, 5 min -> 16°C, 5 min) x **99** -> 60°C, 5 min    ~18 hrs
-============================================== ====================================================== =========================
+============================================== ============================================================== =========================
+  Insert                                        Assembly protocol                                              Estimated reaction time
+============================================== ============================================================== =========================
+ <5 plasmid fragments (fast)                    (37°C, 1 min -> 16°C, 1 min) x **30** -> 60°C, 5 min            ~1.5 hrs
+ 5+ plasmid fragments (fast)                    (37°C, 1 min -> 16°C, 1 min) x **60** -> 60°C, 5 min            ~3 hrs
+ 5+ plasmid fragments (long), 1 PCR fragment    (37°C, 1 min -> 16°C, 1 min) x **99** -> 60°C, 5 min            ~5 hrs
+ |difficult-assembly|                           (37°C, 5 min -> 16°C, **5** min) x **99** -> 60°C, **5** min    ~18 hrs
+============================================== ============================================================== =========================
 
   Reactions can be held at 4°C or 16°C overnight.
 
@@ -101,14 +101,16 @@ This protocol is specifically for Golden Gate assembly using the lab's positioni
 Reference for pPV connector sequences
 ==========================================
 
-.. image:: cloning_images/GG_pPV_ref.png
+.. image:: cloning_images/2022.06.21_GG_Cloning_overall_scheme-01.png
+
+.. image:: cloning_images/2022.06.21_GG-cloning-scheme.png
 
 
 
 Reference for entire Golden Gate workflow
 ==========================================
 
-.. image:: cloning_images/GG_whole_workflow.png
+.. image:: cloning_images/2022.06.21_GG_Cloning_overall_scheme-02.png
 
 .. _citation:
 
