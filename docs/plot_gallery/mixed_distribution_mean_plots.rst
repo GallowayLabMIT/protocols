@@ -70,7 +70,7 @@ Box plot with well means
         ).reset_index(name='percent')
 
     # Extract just the mGL+ cells
-    data_mGL = data[data['mGL_cat'] == 'mGL+']
+    data_mGL = data.loc[data['mGL_cat'] == 'mGL+']
     percent_df_mGL = percent_df.loc[(percent_df['mGL_cat'] == 'mGL+')]
 
     # Calculate geom mean of mGL+ cells
@@ -81,7 +81,7 @@ Box plot with well means
     x = 'cond'
     y = 'mGL-H'
     order = ['mGL', 'mGL-WPRE']
-    box_pairs = [('mGL', 'mGL-WPRE')]
+    pairs = [('mGL', 'mGL-WPRE')]
     colormap = {'mGL': 'lightgrey',
                 'mGL-WPRE': 'limegreen'}
     
@@ -97,13 +97,9 @@ Box plot with well means
         dodge=True, palette=colormap, size=5)
                 
     # Add in stats
-    test_results = add_stat_annotation(
-        ax=ax, data=well_mGL_gmean_df,
-        x=x, y=y+' (gmean)', order=order,
-        box_pairs=box_pairs,
-        test='t-test_ind', text_format='star',
-        loc='inside', verbose=2,
-        line_offset_to_box=0.7)
+    annot = Annotator(ax=ax, data=well_mGL_gmean_df, x=x, y=y+' (gmean)', pairs=pairs, order=order)
+    annot.configure(test='t-test_ind', text_format='star', loc='inside', verbose=2)
+    annot.apply_and_annotate()
 
     # Adjust labels
     plt.ticklabel_format(axis='y',style='sci',scilimits=(0,0))
@@ -143,13 +139,9 @@ Violin plot with well means
         minor=True);
 
     # Add in stats
-    test_results = add_stat_annotation(
-        ax=ax, data=well_mGL_gmean_df,
-        x=x, y='log({})'.format(y+' (gmean)'), order=order,
-        box_pairs=box_pairs,
-        test='t-test_ind', text_format='star',
-        loc='inside', verbose=2,
-        line_offset_to_box=0.35)
+    annot = Annotator(ax=ax, data=well_mGL_gmean_df, x=x, y=y+' (gmean)', pairs=pairs, order=order)
+    annot.configure(test='t-test_ind', text_format='star', loc='inside', verbose=2)
+    annot.apply_test().annotate(line_offset_to_group=0.3) # Offset helps account for height of violin
 
     # Adjust labels
     plt.ylabel(y)

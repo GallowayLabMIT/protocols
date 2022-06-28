@@ -57,14 +57,9 @@ import pandas as pd
 import scipy
 import seaborn as sns
 from statannotations.Annotator import Annotator
-
-from pathlib import Path
+from matplotlib import ticker as mticker
 
 sns.set_theme(style="ticks")
-from statannot import add_stat_annotation
-import scipy
-from pathlib import Path
-from matplotlib import ticker as mticker
 """
 
 

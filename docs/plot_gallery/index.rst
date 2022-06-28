@@ -22,8 +22,6 @@ and setup code that runs before any given code examples:
    import scipy
    import seaborn as sns
    from statannotations.Annotator import Annotator
-
-   from pathlib import Path
    from matplotlib import ticker as mticker
 
    sns.set_theme(style="ticks")
