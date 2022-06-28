@@ -106,12 +106,11 @@ Box plot with well means
 
     # Adjust labels
     plt.ticklabel_format(axis='y',style='sci',scilimits=(0,0))
-    .. plt.ylabel('mGL-H')
+    plt.ylabel(y)
     plt.title('4 dpi, HG')
     fig.tight_layout()  # Helps improve white spacing
     plt.show()
-
-
+    
 Violin plot with well means
 -----------------------------
 
@@ -176,14 +175,14 @@ Violin plot with well means
 
     # Add in stats
     test_results = add_stat_annotation(ax=ax, data=well_mGL_gmean_df,
-                                    x=x, y=y+' (gmean)', order=order,
-                                    box_pairs=box_pairs,
-                                    test='t-test_ind', text_format='star',
-                                    loc='inside', verbose=2,
-                                    line_offset_to_box=0.7)
+                                   x=x, y='log({})'.format(y+' (gmean)'), order=order,
+                                   box_pairs=box_pairs,
+                                   test='t-test_ind', text_format='star',
+                                   loc='inside', verbose=2,
+                                   line_offset_to_box=0.35)
 
     # Adjust labels
-    .. plt.ylabel('mGL-H')
+    plt.ylabel(y)
     plt.title('4 dpi, HG')
     fig.tight_layout()  # Helps improve white spacing
     plt.show()
