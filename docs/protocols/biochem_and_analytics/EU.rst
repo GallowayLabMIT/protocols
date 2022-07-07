@@ -94,6 +94,9 @@ Permeabilize
     Other protocols use 0.5% Triton X-100, but comparing Tween-20 and Triton X-100 we observed that the pellets permeabilized with Triton disappeared after the click step. 
 
 
+.. important:: 
+    Any immunostaining should be done at this point, before the click reaction. Staining after the click reaction results in high levels of non-specific
+    staining and no detectable specific signals.
 
 Prepare click/label mix
 --------------------------------------------------
