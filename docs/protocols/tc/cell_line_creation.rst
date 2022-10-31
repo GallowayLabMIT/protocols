@@ -47,10 +47,12 @@ Day 1
 ~~~~~~
 Media change into selection media. Tested concentrations for PiggyBac are:
 
+=========   ====================
 Cell type   Puro
 =========   ====================
 293T        0.5 ng/mL (20,000x)
 U2-OS       0.25 ng/mL (40,000x)
+=========   ====================
 
 Day 2-4
 ~~~~~~~
@@ -74,10 +76,12 @@ a very large fold dilution, it is more accurate to do this as a stepwise dilutio
 
 For the 24-well plates, dilute to the following amount:
 
+=========       ============================
 Cell type       Seeding amount (per 24 well)
 =========       ============================
 293T            5k cells
 U2-OS           2k cells
+=========       ============================
 
 This reseeding should proceed for about a week, until cells finish outgrowing.
 
