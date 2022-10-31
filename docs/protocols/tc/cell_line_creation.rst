@@ -5,7 +5,7 @@ Cell Line Creation
 
 .. time:: 1 month
 
-    While the intial transfection does not take very long, the selection
+    While the initial transfection does not take very long, the selection
     process takes a long time!
 
 .. note::
@@ -23,10 +23,12 @@ Seed your cells such that they will be around 30-40% confluent on the next day. 
 extended selection outgrowth period required, which means we should start with lower confluence.
 Recommended rough seeding counts are:
 
+=========       ============================
 Cell type       Seeding amount (per 96 well)
 =========       ============================
 293T            12.5k cells
 U2-OS           7.5k cells
+=========       ============================
 
 Day 0
 ~~~~~~
