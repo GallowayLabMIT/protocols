@@ -157,7 +157,7 @@ If you ever need help debugging or designing a regular expression, try using htt
 Fonts
 -----
 Helvetica Neue is a good sans-serif font that is based on everyone's favorite font, Helvetica. 
-Download it `here <../../_static/iap_files/HelveticaNeue.zip>`__.
+Download it `here <../../_static/iap_files/HelveticaNeue.zip>`__. Windows needs a slightly different version of the fonts, available `here <../../_static/iap_files/WinNeue.zip>`__
 
 For a good monospaced/code/terminal font, `Fira Code <https://github.com/tonsky/FiraCode/releases>`__ is excellent.
 Besides looking nice, Fira Code has something called **font ligatures**. These are originally defined for special
