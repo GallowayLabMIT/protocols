@@ -6,5 +6,7 @@ Writing Guide
    :maxdepth: 2
    :glob:
    
+   Writing_guide
+
    */index
 

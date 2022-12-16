@@ -16,6 +16,7 @@ Click `here <galloway_lab_protocols.pdf>`_ to access the PDF version.
    recipes/index
 
    plot_gallery/index
+   writing_guide/index
 
    bootcamp/index
 
