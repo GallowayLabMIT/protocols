@@ -35,9 +35,10 @@ author = 'Galloway Lab'
 # ones.
 extensions = [
     'sphinx_rtd_theme',
-    'time_estimate',
     'sphinx_last_updated_by_git',
     'matplotlib.sphinxext.plot_directive',
+    'time_estimate',
+    'stale_warning',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -47,6 +48,12 @@ templates_path = ['_templates']
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
 exclude_patterns = []
+
+# Exclude index documents from the stale checker
+stale_warning_exclude = [
+    'index',
+    '**/index',
+]
 
 # --matplotlib Sphinx options--
 plot_include_source = True
