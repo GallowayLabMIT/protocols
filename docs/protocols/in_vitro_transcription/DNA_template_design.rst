@@ -1,2 +1,2 @@
-Contributor guide
+Design of DNA IVT template
 =================
