@@ -3,6 +3,7 @@ HCR DNA-FISH
 ************
 
 Prepare necessary buffers as described in :doc:`/recipes/fish/fish_buffers`
+Expected time: 2 days
 
 Fixation
 ========
@@ -30,7 +31,7 @@ Hybridization
 8. Incubate cells at 37 degrees C in 500 uL of HYB for 30 mins
 9.  Remove HYB and add 100 uL of probe+HYB mixture
 10.  Incubate at 78 degrees C for 5 mins
-11.  Incubate overnight at 37 degrees C in a humid environment
+11.  Incubate **overnight** at 37 degrees C in a humid environment
 
 Probe Preperation
 =================
