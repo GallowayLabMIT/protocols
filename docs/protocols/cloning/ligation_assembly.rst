@@ -2,7 +2,7 @@
 Ligation assembly
 ========================
 
-.. time:: Overnight for best efficiency
+.. time:: At least 1 hour, or overnight for best efficiency
 
 
 `Ligation <https://en.wikipedia.org/wiki/Ligation_(molecular_biology)>`_ assembly is used to assemble DNA fragments by creating phosphodiester bonds between different fragments to generate a larger linear fragment or plasmid. Ligation reactions can be performed with restriction digest products and/or oligos that contain compatible sticky ends.
@@ -37,7 +37,7 @@ Water                     		 10 - X
 
 Multiple oligos with compatible sticky ends can be assembled to create longer fragments for insertion. In this case, add 1 uL of each set of oligos while maintaining the total volume of 10 uL.
 
-4. Incubate at room temperature overnight for best efficiency.
+4. Incubate at 16 C for one hour or at room temperature overnight for best efficiency.
 5. :doc:`Transform competent cells <transformation>` with 5 uL of the ligation product.
 
 .. note::

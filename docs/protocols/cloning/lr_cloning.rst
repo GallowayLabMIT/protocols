@@ -2,12 +2,12 @@
 LR cloning
 ==================
 
-.. time:: 1 hour to overnight
+.. time:: 1 hour to overnight for best efficiency
 
 Protocol
 ========
 .. note::
-	In most instances, a 5 uL reaction is sufficent.
+	In most instances, a 5 uL reaction is sufficent for effective colonies.
 
 1. Add 50-150 ng of entry plasmid and 150 ng of destination plasmid. Dilute with 1X TE buffer to 4 uL or 8 uL depending on whether you choose to perform a 5 uL or 10 uL reaction respectively.
 2. Thaw LR Clonase II enzyme mix on ice for two minutes. Vortex the enzyme mix briefly (2 seconds each time).
