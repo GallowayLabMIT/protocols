@@ -7,7 +7,3 @@
    :glob:
    
    *
-
-.. admonition:: TODO
-
-   Add "How to" Training info
