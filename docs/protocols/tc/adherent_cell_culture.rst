@@ -198,3 +198,13 @@ Protocol
 1. Add enough gelatin to coat the bottom of the flask or well (approximately half of the media volume needed for the well).
 2. Let sit for 10 min at room temperature.
 3. Aspirate excess gelatin. Use for plating cells within 1-2 hrs maximum, otherwise gelatin may dry out.
+
+Culturing T-Rex 293 Cells 
+-------------------------------------
+
+T-REx™ Cell Lines stably express the tetracycline repressor protein. They save significant time and effort when using the T-REx™ System. The T-REx™ Cell Lines are functionally tested by transient transfection with the positive control vector pcDNA™4⁄TO⁄lacZ. T-REx™ Cell Lines exhibit extremely low basal expression levels in the repressed state and high expression upon induction with tetracycline (or doxycycline).
+For documentation of general (not Flp-in version) see 'here <https://www.thermofisher.com/order/catalog/product/R71007#:~:text=T%2DREx%E2%84%A2%20Cell%20Lines,4%E2%81%84TO%E2%81%84lacZ>'_. 
+For documentation of the Flp-in system see 'here <https://www.thermofisher.com/document-connect/document-connect.html?url=https://assets.thermofisher.com/TFS-Assets%2FLSG%2Fmanuals%2Fflpinsystem_man.pdf>'_. 
+
+Culture the cells in 100ug/mL zeocin (1:1000 dilution master stock) and 5ug/mL blasticidin (1:2000 dilution master stock). 
+
