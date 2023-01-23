@@ -157,7 +157,7 @@ Virus Concentration
 
 .. note::
    If you plan to infect plated cells the next day after concentrating the virus, seed cells on gelatin-coated plates the same day as virus filtration and concentrator addition.
-   Typically, this is 10k cells/well of a 96-well plate.
+   Typically, this is 10K cells/well of a 96-well plate.
 
 4. The next day, centrifuge at 1500 x g at 4°C for 45 minutes (use the lower centrifuge). Be sure to use the caps/lids on the centrifuge buckets.
 5. Aspirate the supernatant. There will be a little liquid left; this is okay.

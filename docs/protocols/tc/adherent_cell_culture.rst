@@ -206,5 +206,5 @@ T-REx™ Cell Lines stably express the tetracycline repressor protein. They save
 For documentation of general (not Flp-in version) see 'here <https://www.thermofisher.com/order/catalog/product/R71007#:~:text=T%2DREx%E2%84%A2%20Cell%20Lines,4%E2%81%84TO%E2%81%84lacZ>'_. 
 For documentation of the Flp-in system see 'here <https://www.thermofisher.com/document-connect/document-connect.html?url=https://assets.thermofisher.com/TFS-Assets%2FLSG%2Fmanuals%2Fflpinsystem_man.pdf>'_. 
 
-Culture the cells in 100ug/mL zeocin (1:1000 dilution master stock) and 5ug/mL blasticidin (1:2000 dilution master stock). 
+Culture the cells in 100ug/mL zeocin (1:1000 dilution master stock) and 5ug/mL blasticidin (1:2000 dilution master stock). Gelatin coating is not needed. 
 
