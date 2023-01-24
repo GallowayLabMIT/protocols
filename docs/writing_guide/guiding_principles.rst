@@ -1,6 +1,6 @@
 
 Guiding principles
--------------------------------
+===================
 
 
 
@@ -18,28 +18,37 @@ Guiding principles
 
 
 Tips
--------------------------------
+=====
+
 
 Outline
 -------------------------------
 Always, always, always outline your work first. If the logical flow sucks, the words do not matter. The structure must be solid. Do not waste your time getting a flimsy structure dressed up with fancy words, syntax, etc. Get the structure correct and then polish a strong framing.
 
-Editing and revising
--------------------------------
-When you start, the main goal should be to just make coherent thoughts. Through the process of revising, you can later reshape those coherent thoughts into beautiful writing which is more akin to "music." 
- 
-.. image:: docs\writing_guide\WritingMusic.png
-  :width: 100%
-  :align: center
 
-Reference: https://twitter.com/zeina7abli/status/1367473246170476546
 
 Active Voice
 -------------------------------
 Write in active voice as much as possible! Your writing will be more comprehensible and often more compact. 
 You can delete every instance of "has been shown to" to switch to active voice. 
-For example:
-This writing tip has been shown to work. 
-This writing tip works.
+
+**For example:**
+
+* **Passive**: This writing tip has been shown to work. 
+
+* **Active**: This writing tip works.
+
+.. image:: YodaDoes.png
+  :width: 80%
+  :align: center 
+
+Editing and revising
+-------------------------------
+When you start, the main goal should be to just make coherent thoughts. Through the process of revising, you can later reshape those coherent thoughts into beautiful writing which is more akin to "music." 
  
+.. image:: WritingMusic.png
+  :width: 100%
+  :align: center
+
+
 
