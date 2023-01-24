@@ -24,19 +24,35 @@ Materials:
 Protocol:
 ---------
 
-.. important:: All reagents and lysates must be kept cold.
+.. important:: All reagents and lysates must be kept cold. In addition, **keep plates on ice** during lysis step.
 
 
 1. Cool microcentrifuge to 4°C for 20-30 minutes.
-2. Dilute 10X Cell Lysis Buffer to a 1X solution using Elga water.
+2. Dilute 10X Cell Lysis Buffer to a 1X solution using Elga water
+
+   - Can use 10X or RIPA in -20°C "Western Reagents" box
+
 3. Chill 1X buffer on ice and add PMSF just prior to use.
 4. Wash plate with ice-cold PBS to remove residual media.
-5. Add 400 uL of 1X lysis buffer to the 10cm dish of cells.
-6. Incubate on ice for 5 minutes.
+5. Add 400 uL of 1X lysis buffer to the 10cm dish of cells
+
+    ===================================   ==========================   ==================================
+    **Solution**                          **Vol for 1x10cm**           **Vol for 3x10cm**                       
+    ===================================   ==========================   ==================================
+    ELGA water                             358 µL                         1,170 µL
+    10X cell lysis buffer                   40 µL                           130 µL
+    200 mM PMSF                              2 µL                             6.5 µL       
+    ===================================   ==========================   ==================================
+
+6. Tilt to coat, then incubate on ice for 5 minutes.
 7. Scrape cells with a cell scraper and transfer lysed solution to a centrifuge tube.
-8. Use 21 gauge needles to shear the cells 5-6 times.
-9. Spin extract 10-12 minutes at 14,000 x g in the 4°C microcentrifuge.
-10. Remove supernatant for use.
+8. Use 21 gauge needles to shear the cells 5-6 times (change out needle so 1 needle/sample).
+9. Spin extract 10-12 minutes at 14,000 x g (~11,500 rpm) in the 4°C microcentrifuge.
+10. Remove supernatant for use and aliquot.
+
+   - You should have ~500-600 µL/sample
+   - ~50-60 µL/aliquot is good because you can load 25 µL/well (12.5 µL lysate + 12.5 µL 2X Laemmli)
+      so 50 µL will give enough for 4 wells (i.e. 4 antibodies)
 
 
 .. note::
