@@ -1,5 +1,5 @@
 ========================
-Bacterial media recipes
+Other Solutions
 ========================
 
 .. _pbs:
