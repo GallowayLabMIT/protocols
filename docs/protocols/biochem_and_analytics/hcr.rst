@@ -3,6 +3,7 @@ HCR RNA-FISH
 ************
 
 Prepare necessary buffers as described in :doc:`/recipes/fish/fish_buffers`
+Expected time: 3 days if solution, 1 day if well plate
 
 ===================
 Well Plate Protocol
@@ -15,7 +16,7 @@ Well Plate Detection Stage
 3. Add 200 uL of probe hybridization buffer for 30 min at 37 degrees C
 4. Prepare probe solution by adding 1.2 uL of 1 uM stock to 300 uL of probe hybridization buffer at 37 degrees C
 5. Remove pre-hybridization solution and add probe solution
-6. Incubate samples overnight (12-16 h) at 37 degrees Celsius
+6. Incubate samples **overnight (12-16 h**) at 37 degrees Celsius
 
 =================
 Solution Protocol
@@ -27,7 +28,7 @@ Solution Detection Stage
 2. Add 500 uL of probe hybridization buffer for 30 min at 37 degrees C
 3. Prepare probe solution by adding 2 uL of 1 uM stock to 500 uL of probe hybridization buffer at 37 degrees C
 4. Remove pre-hybridization solution and add probe solution
-5. Incubate samples overnight (12-16 h) at 37 degrees Celsius
+5. Incubate samples **overnight (12-16 h**) at 37 degrees Celsius
 6. Remove excess probes by washing 4x 15 min with 500 uL of probe wash buffer at 37 degrees Celsius
 7. Wash samples 3x 5 min with 500 uL of 5X SSCT at room temperature
 
@@ -41,7 +42,7 @@ Solution Amplification Stage
 ============================
 1. Pre-amplify samples in 500 uL of amplification buffer for 30 min at room temperature
 2. Remove pre-amplification solution and 500 uL of the hairpin solution
-3. Incubate samples overnight (12-16 h) in the dark at room temperature
+3. Incubate samples **overnight (12-16 h)** in the dark at room temperature
 4. Remove excess hairpins by washing with 500 uL of 5X SSCT at room temperature for:
    a. 2x 5 min
    b. 2x 30 min

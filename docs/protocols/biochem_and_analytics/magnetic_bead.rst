@@ -3,10 +3,14 @@ Magnetic bead clean-up for genomics libraries
 =============================================
 (Adapted from USC Epigenome Center)
 
-.. note:: This protocol describes two methods to clean up libraries following various adapter ligations. Most recently, I (Katie) used this workflow to clean up samples from 10X 3'RNAseq before sequencing. 
+.. note::
+    This protocol describes two methods to clean up libraries following various adapter ligations. Most recently, I (Katie) used this workflow to clean up samples from 10X 3'RNAseq before sequencing. 
+    01/23/23 - NW did not update b/c the HIVE bead clean up is different
 
 .. warning::
   INCOMPLETE! Part of 10X Genomics workflow; the rest of the protocol needs to be added. This section separates DNA by size in preparation for sequencing.
+
+
 
 Uses
 ---------------------------------
@@ -50,7 +54,7 @@ Basic Bead Clean Protocol:
 
 4. Incubate 5 m @ RT.
 
-5. Place tube on magnet to condense beads into pellet (1 – 15 minutes, depending on magnet strength)
+5. Place tube on magnet to condense beads into pellet (1 - 15 minutes, depending on magnet strength)
 
 .. important::
   **Keep beads pelleted throughout washes!**

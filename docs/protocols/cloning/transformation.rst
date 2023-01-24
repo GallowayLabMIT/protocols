@@ -19,7 +19,7 @@ Transformation (Chemically Competent Bacteria)
 
 1.	Take chemically competent cells out of -80°C and thaw on ice (approximately 10 mins).
 2.	Remove agar plates (containing the appropriate antibiotic) from storage at 4°C and let warm up to room temperature and then (optional) incubate in 37°C incubator. 
-3.	Mix 1 - 5 ul of DNA (usually 10 pg - 100 ng) into 20-50 uL of competent cells in a microcentrifuge or falcon tube. GENTLY mix by flicking the bottom of the tube with your finger a few times.
+3.	Mix 1 - 5 ul of DNA (usually 10 pg - 100 ng) into 20-50 uL of competent cells in a microcentrifuge tube. GENTLY mix by flicking the bottom of the tube with your finger a few times.
 
 .. note::
 	Transformation efficiencies will be approximately 10-fold lower for ligation of inserts to vectors than for an intact control plasmid.
@@ -44,7 +44,7 @@ Transformation (Chemically Competent Bacteria)
 9.	Incubate plates at 37°C overnight. 
 
 .. note::
-	Use 30 °C if you are working with unstable vectors (e.g. repeats and/or viral vectors)
+	Use 30 °C if you are working with unstable vectors (e.g. repeats and/or viral vectors).
 
 .. tip::
 	For most cloning strategies, 2 uL of the reaction mixture is sufficient to add. Ligation reactions are less efficient and may require up to 5 uL. Usually, using 30 uL of competent cells and 300 uL of SOC media (or Elga water if plating on Ampicillin) yields a sufficient number of bacterial colonies.

@@ -5,7 +5,7 @@ FISH buffer recipes
 Probe Hybridization Buffer
 ==========================
 
-1. Combine the following components fresh just before use
+1. Combine the following components fresh before use
 
 ====================    =============================
 Ingredient                  Amount 

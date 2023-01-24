@@ -68,3 +68,6 @@ Water                     15 uL
 
 .. note:: 
     When combined protocol is used, a 10X dilution of annealed oligos may be more effective in ligation reaction.
+
+.. note::
+    Measuring the concentration of annealed oligos is not always necessary. 1 uL of the final annealed + phosphorlyated product (~0.5 uM) can be used in ligation asssemblies.

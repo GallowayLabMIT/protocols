@@ -1,6 +1,7 @@
-=======================
+=====================================
 CFSE Labeling
-=======================
+=====================================
+
 CFSE and other CellTrace dyes are used to measure relative 
 proliferation rates of cells. These dyes are amine-reactive and cell permeable
 and thus react with proteins within the cell. As cells divide, the dye is split
@@ -12,6 +13,16 @@ proliferation rates of reprogramming populations. Cells are stained the day afte
 transduction of reprogramming factors (1 day post-infection, 1 dpi). However, 
 this protocol may be applied to any cell population where relative proliferation
 rates are of interest. 
+
+It is possible to stain cells in suspension or on the plate. In suspension
+uses less dye and may lead to more even staining. The drawback is that with
+some of the dyes (e.g. CFSE) you start to lose resolution at 4 dpi in NILDDRR
+conditions.
+
+
+.. note::
+    CFSE (500 µg) is the cheapest by far but NW has observed it may dilute out faster than CTV and CTFR.
+    Specifically, NILDDRR at 4 dpi will be closer to the negative control in CFSE than with other dyes.
 
 CellTrace dyes available in lab
 _________________________________
@@ -32,24 +43,29 @@ ________________________
 - DMEM + 10% FBS
 - Adherent cells to stain
 
-    - For MEFs and reprogramming experiments, it's recommended to work in 24-well plates or larger to have enough cells for Flow quantification. 
+.. note::
+    For MEFs and reprogramming experiments, it's recommended to work in **24-well plates or larger** to have enough cells for flow quantification (>10,000 cells). 
+    A typical 96-well of MEFs NIL at 4 dpi will have ~1-10k cells and NIL + DDRR at 4 dpi will have ~10-100k cells. Be careful to remember if you're doing 6F you will need even more.
+    
 
 Dilute Cell Trace Dye to working concentration 
 -----------------------------------------------
 
 1. If available, use an already resuspended vial of desired CellTrace dye. If unavailable, or not enough available, resuspend dye in DMSO according to the above table.
-    
-    - One entire tissue culture plate will require 6 mL of working concentration CellTrace Dye, so you will need 6 µL of stock dye per plate being stained.
-2. Dilute stock solution of dye into PBS to make a working solution. Stocks are 1000x concentration. 
+
+    - One entire 24-well plate will require 6 mL of working concentration CellTrace Dye, so you will need 6 µL of stock dye per plate being stained.
+
+2. Dilute stock solution of dye into PBS to make a working solution. Stocks are at 1000x concentration. 
 
 
 Wash cells and add CellTrace
 ------------------------------
 
 3. Working in a BSC hood, aspirate the media and wash with PBS.
-4. Aspirate PBS and replace with working solution of CellTrace.For control cells that do not get stained with CellTrace, incubate in PBS + 1:1000 DMSO or just PBS. 
+4. Aspirate PBS and replace with working solution of CellTrace. For control cells that do not get stained with CellTrace, incubate in PBS + 1:1000 DMSO or just PBS. 
 
     - For the CellTrace staining a "half" well volume may be used (e.g. 1 mL per well of 6-well plate, 0.5 mL in a 12-well, etc.)
+
 5. Incubate the cells in CellTrace in the incubator (37°C) for 30 minutes. 
 
 Remove CellTrace and wash

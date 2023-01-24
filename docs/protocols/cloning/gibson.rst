@@ -9,9 +9,9 @@ Protocol
 1. Design the assembly. Online tools such as `NEB Builder <http://nebuilder.neb.com/>`_ and built-in tools such as those in SnapGene are helpful for designing this.
 
 .. note::
-	If desigining Gibson primers manually, having an overlap region of at at least 30bp is recommended. Each fragment should also be over 200bp.
+	If designing Gibson primers manually, having an overlap region of at at least 30bp is recommended. Each fragment should also be over 200bp.
 
-2. Generate fragments by either PCR followed by DpnI digest, or restriction-digest of a target template. Measure concentration of fragments via Nanodrop.
+2. Generate fragments by either PCR followed by DpnI digest, or by restriction digest of a target template. Measure concentration of fragments via Nanodrop.
 
 .. note::
 	Skipping the DpnI digest step will often still work, but will tend to increase the number of background colonies because the source plasmid is still around. If the cloning strategy selects using a different antibiotic resistance cassette, it may be possible to skip this digest step.
