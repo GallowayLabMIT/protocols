@@ -11,8 +11,8 @@ Cryopreservation
 =========================== ============= =====================================================================================================================
 Materials                      Percent         Purpose
 =========================== ============= =====================================================================================================================
-FBS                          80%                            FBS binds toxic materials released if some cells are lysed during the freezing or thawing process.
-DMSO or sterile glycerol    20%           cryopreservative
+FBS                          90%                            FBS binds toxic materials released if some cells are lysed during the freezing or thawing process.
+DMSO or sterile glycerol    10%           cryopreservative
 =========================== ============= =====================================================================================================================
 
     - Glycerol should be used if the cell type to be cryopreserved may be adversely or unwantedly affected by exposure to strong bi-polar compounds such as DMSO.
