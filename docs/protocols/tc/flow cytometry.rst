@@ -64,7 +64,30 @@ Cell staining (Live/Dead & surface markers)
 
 4. Wash plate 3 times by centrifugation at 400 rcf for 5 min. If stained with unconjugated antibodies, repeat steps 1-3 but with staining solution containing secondary antibodies.
 
-5. For immediate analysis:
+If staining for intracellular/nuclear protein targets, proceed with the following. If not, skip to step 14.
+
+5.	Remove supernatant and incubate cells in 3.7-4% paraformaldehyde (PFA) (in fume hood) for 15 min
+   -  EU calls for 3.7% PFA
+  
+6.	Add 1 mL PBS and spin cold at 4°C to pellet cells 
+
+7. Aspirate solution and incubate cells in 0.5% Tween/PBS for 15 min to permeabilize
+
+8.	Add 1 mL PBS and spin cold at 4°C to pellet cells
+
+9.	Aspirate solution and incubate cells in 200 µL primary antibody (diluted in blocking solution) for 1 hr in the rotator at 4°C
+.. note:: Some antibodies (e.g. Ki67) work better overnight in the rotator at 4°C
+
+10.	Add 1 mL PBS and spin cold at 4°C to pellet cells
+
+11.	Aspirate solution and incubate cells in 200 µL secondary antibody (diluted in blocking solution) for 30 min in the rotator at 4°C in the dark
+
+12.	Add 1 mL PBS and spin cold at 4°C to pellet cells
+
+13.	If doing a DNA stain, add Hoechst or DAPI diluted in PBS for 10 minutes at room temp, then wash with PBS
+.. note:: All spins are performed at ~500 rcf for 5 min. Our centrifuge follows RCF = 1e-4*[rpm]^2 + 4e-2*[rpm] - 6e1, where 2200 rpm = 512 rcf. It is recommended to perform all spins at 4°C once the cells have been fixed to prevent pellet loss.
+
+14. For immediate analysis:
 
    a. Resuspend in ~200 µL FACS buffer (or PBS), pipet up and down to mix well (must be single-cell suspension---no clumps!)
 
@@ -73,7 +96,7 @@ Cell staining (Live/Dead & surface markers)
 
    b. Load plate into the Attune CytKick autosampler and run.
 
-6. To preserve cells for several days:
+15. To preserve cells for several days:
 
    a. Resuspend in 1-4% paraformaldehyde and incubate for 10-15 min at room temp.
    b. Centrifuge your samples at 400 rcf for 5 min and resuspend in 200 µL of PBS.
