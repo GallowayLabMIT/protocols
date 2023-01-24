@@ -65,7 +65,7 @@ Finishing up work in the BSC
 3. In order to minimize contamination and cross contamination, run ethanol or bleach through the aspirator tip after use.
 
 .. note::
-    If you run concentrated (>10%) bleach through the aspirator, run 70% ethanol (or sterile water) through afterwards. Bleach residue can degrade the aspirator, especially the multichannel ones.
+    If you run concentrated (>10%) bleach through the aspirator, run sterile water through afterwards. Bleach residue can degrade the aspirator, especially the multichannel ones.
 
 4. Spray the surface inside the BSC with Pre-Empt, wait one minute for decontamination, then wipe down the surface with 70% ethanol. Pre-empt can be sticky so “rinsing” with ethanol can help remove residue that accumulates over time.
 
@@ -94,4 +94,3 @@ Media that appears cloudy/turbid or the clear presence of fungal growth (e.g. fu
 4. Clean any surfaces in the incubator where the contaminated culture was stored. (Do not directly spray into the incubator; instead wet a Kimwipe with 70% ethanol and clean the surface.)
 5. Check the media bottle you used for the contaminated culture---if suspicious, bleach and discard the media.
 6. Change gloves again and continue working with the rest of your cultures.
-
