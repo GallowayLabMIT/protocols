@@ -71,7 +71,7 @@ Fetal Bovine Serum (FBS) Aliquots
 - Take responsibility for aliquoting new stocks, when older stocks are almost used up. Make sure to use sterile technique in preparing aliquots.
 
 .. note::
-    This is now a lab job. As of 6/21/22, notify Sneha if more aliquots need to be made.
+    This is now a lab job. As of 1/23/23, notify Patrick if more aliquots need to be made.
 
 
 Pen-strep aliquots
