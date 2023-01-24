@@ -1,7 +1,8 @@
-====================
-Additional resources
-====================
 
+Additional resources
+----------------------
+
+Resouces for writing inspiration and greater detail!
 
 
 Big picture resources
@@ -21,7 +22,7 @@ Getting into the finer details
 -------------------------------
 Details matter! If you want to become more precise and persuasive you need to learn how to use language to build clear and compelling narratives. 
 
-* `The science of science writing (how to structure sentences) <https://www.americanscientist.org/blog/the-long-view/the-science-of-scientific-writing>`_
+* `The science of science writing: how to structure sentences <https://www.americanscientist.org/blog/the-long-view/the-science-of-scientific-writing>`_
 * `Words to avoid from Arjun Raj  <https://docs.google.com/document/d/1r6nDcF43esu3xBjmk3ERAmaEHKEB75_HflSkk3zZhBk/edit>`_
 * `Figure scripting from Raj lab <http://rajlaboratory.blogspot.com/2017/08/figure-scripting-and-how-we-organize.html>`_
 
