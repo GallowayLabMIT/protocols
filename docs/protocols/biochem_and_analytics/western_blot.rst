@@ -26,6 +26,7 @@ Protocol:
 
 .. important:: All reagents and lysates must be kept cold. In addition, **keep plates on ice** during lysis step.
 
+.. note:: We usually use the 10X cell lysis buffer
 
 1. Cool microcentrifuge to 4°C for 20-30 minutes.
 2. Dilute 10X Cell Lysis Buffer to a 1X solution using Elga water
@@ -57,8 +58,8 @@ Protocol:
 
 .. note::
    * Use prepared lysates as quickly as possible, and store for as short a time as possible. 
-   * Store lysates at -80℃ for as long as possible. For lysates that will need to be kept around long term,
-     transfer freshly prepared tubes to an available -80℃ freezer to prevent degradation.
+   * Store lysates at -80°C for as long as possible. For lysates that will need to be kept around long term,
+     transfer freshly prepared tubes to an available -80°C freezer to prevent degradation.
    * Lysates have a shorter shelf life when stored at -20℃; long-term storage at this temperature is not recommended.
      CST recommends that lysates are stored at -20℃ for no longer than 3 months.
    * Minimize your freeze/thaw cycles as much as possible. Instead, aliquot into smaller volumes.
@@ -161,6 +162,7 @@ Required stock solutions
   ratio of 29:1 (3.3%). Stocks with a 37.5:1 ratio also work, and are typically used
   for resolving larger proteins.
 
+
 * **3x bis-Tris gel buffer**: Ion buffer used in gel casting.
 
   =========== =================== ==========================
@@ -171,7 +173,7 @@ Required stock solutions
   =========== =================== ==========================
 
 * **10% APS**: One of the polymerization initiators. Only a small quantity
-  needs to be prepared; each gel only requires 25 uL. Make fresh each time by dissolving in water.
+  needs to be prepared; each gel only requires 35 uL. Make fresh each time by dissolving in water.
 
   ======================== =================== ===========================================
   Component                 Concentration      g/L to final concentration
@@ -208,14 +210,14 @@ Casting protocol
 
    **Stacking buffer:**  ~1.2 mL per gel (2.5 mL total):
 
-   =======================    ===========  =============================
+   =======================    ===========  ===========================================================
    Component                   Volume       Final concentration
-   =======================    ===========  =============================
-   3x bis-Tris gel buffer       0.83 mL         1x
-   40% Acrylamide stock         0.32 mL        5%
+   =======================    ===========  ===========================================================
+   3x bis-Tris gel buffer       0.83 mL      1x
+   40% Acrylamide stock         0.32 mL      5%
    DI water                     1.36 mL
-   Bromophenol blue                         50 uL (enough to give color)
-   =======================    ===========  =============================
+   Bromophenol blue                         50 uL (enough to give color which helps when loading)
+   =======================    ===========  ===========================================================
 
 
 Gel casting setup
@@ -232,44 +234,40 @@ poured gels to properly seal.
 Resolving gel
 ~~~~~~~~~~~~~
 
-1.  Measure 6.5 mL of **1x resolving buffer** per gel to pour.
-2.  Add 50 uL of **10% APS** per gel, mix well.
-3.  Add 20 uL **TEMED**, mixing quickly. Pour both gels to the resolving gel height (3 mL per gel).
-    Lightly tap and tilt the gel to remove any bubbles.
-4.  Once done pouring, quickly but carefully fill the remaining height with isopropyl alcohol, making sure the gel-water
-    interface stays undisturbed. This is to ensure the resolving-stacking interface is straight and level.
-5.  Wait for the polymerization reaction to finish (noticeable by a change in refractive index).
-6.  Drain the water by tilting the gel past 90 degrees, and wicking away with a Kimwipe.
-
 .. tip::
-   The resolving gel can polymerize within a just minute or two, especially at higher percentages of acrylamide.
-   Therefore, pour the gel quickly using a P1000 pipette.
 
-   It is best to pour the gel from the edges of the gel mold to avoid bubbles.
+    The resolving gel can polymerize within a just minute or two, especially at higher percentages of acrylamide.
+    Therefore, pour the gel quickly using a P1000 pipette.
+
+    It is best to pour the gel from the edges of the gel mold to avoid bubbles.
+
+    Get ~10 mL isopropyl alcohol (IPA) ready before pouring the resolving gel to help keep the gel interface straight and level.
 ..
+
+1.   Prepare fresh 10% APS. 1 gel requires ~35 uL so if making 2 gels, prepare ~100 µL (10 mg).
+2.   Measure 6.5 mL of **1X resolving buffer** per gel to pour.
+3.   Add 50 uL of **10% APS** per gel, mix well.
+4.   Add 20 uL **TEMED**, mixing quickly (don't pipette mix, just flip it x3 manually to mix).
+5.   Pour both gels to the resolving gel height (3 mL per gel, 1,000 µL at a time).
+6.   Ideally there shouldn't be bubbles, but if so, lightly tap and tilt the gel to remove
+7.   Once done pouring, quickly but carefully fill the remaining height with IPA, making sure the gel-water
+     interface stays undisturbed. This is to ensure the resolving-stacking interface is straight and level.
+8.   Wait for the polymerization reaction to finish (noticeable by a change in refractive index).
+9.   Drain the IPA by tilting the gel past 90 degrees, and wicking away with a Kimwipe.
+
 
 Stacking gel
 ~~~~~~~~~~~~
 
-1.  Measure 2.5 mL of **1x stacking buffer** to pour.
+1.  Measure 2.5 mL of **1X stacking buffer** to pour.
 2.  Add 20 uL of **10% APS**, mix well.
-3.  Add 10 uL **TEMED**, mixing quickly. Fill the top of the gels until
-    just before overflowing. Insert the comb into the top, letting it rest on the spacers.
-4. Wait for the stacking gel to polymerize.
-5. Rinse with water to remove unpolymerized acrylamide.
-6. If removing the combs prior to storage, slowly remove the comb, ensuring that wells are not broken.
-
-.. tip::
-   At first only add 1 mL of the stacking gel, then insert the comb.
-   
-   Insert the comb starting from one end and moving slowly to the other.
-   Once the comb is fully inserted, lift the first end and then add additional stacking gel to remove bubbles.
-
-   After removing the comb, gently rinse the wells with isopropyl alcohol to remove residual, un-polymerized gel.
-..
-
-
-
+3.  Add 10 uL **TEMED**, mixing quickly (don't pipette mix, just flip it x3 manually to mix).
+4.  Add 1,000 µL of stacking gel into each gel.
+5.  Insert the comb into the top very carefully, one edge at a time to avoid bubbles. The stacking gel will overflow.
+6.  If any bubbles, pop comb slightly up near problem area and use remaining buffer to fill before closing again.
+4.  Wait for the stacking gel to polymerize.
+5.  Rinse with water or IPA (evaporates faster) to remove unpolymerized acrylamide.
+6.  If removing the combs prior to storage, slowly remove the comb, ensuring that wells are not broken.
 
 
 Loading and Running the Gel
@@ -294,6 +292,12 @@ Solutions required
 
 * **200x running buffer reductant**: Ensures that the gel remains under reducing conditions when run. Add directly to
   1x running buffer before filling the gel tank. Dissolve sodium bisulfite in DI water.
+
+  .. note::
+   Dilute sodium bisulfite solution loses effectiveness in ~2 days so spike in fresh each time.
+
+   This helps because although β-mercaptoethanol in the Laemmli buffer is a strong reductant that prevents crosslinking via reduction
+   of disulfide bonds, over time it can degrade.
 
   =================   ===================  ==========================
   Component           Final concentration  g/L to final concentration
@@ -340,29 +344,37 @@ Solutions required
 
 Running procedure
 -----------------
-1. Add **2x Laemmli Buffer** to an equal volume of lysate in PCR tubes.
+1. Add **2x Laemmli Buffer** to an equal volume of lysate in PCR tubes. 50-60 µL is good for ~4 lane (need 12.5 µL lysate/lane)
    This is recommended unless the online antibody datasheet indicates that non-reducing and non-denaturing conditions should be used.
-2. Use a PCR machine to reduce and denature the lysate samples at 95℃ for 5 minutes.
+2. Use a PCR machine to reduce and denature the lysate samples at 95℃ for 5 minutes (use 4℃ hold at end to keep cold).
 3. Dilute enough **20x MES-SDS running buffer** to fill the gel tank,
    adding fresh **200x running buffer reductant** if a gel has not been recently run.
 4. Place a prepared bis-Tris protein gel in the gel-runner. Fill both chambers with the prepared 1% MES-SDS running buffer.
    Fill the inner chamber to the top of the stacking gel, and the outside chamber to the top of the resolving gel.
    You will need about 1 liter of the 1% MES-SDS running buffer.
-5. Carefully load equal amounts of protein samples, including 5 uL of a protein ladder, into the wells of the gel. Each well can be loaded with a maximum of 25 uL.
+5. Carefully load equal amounts of protein samples, including 5 µL of a protein ladder, into the wells of the gel. Each well can be loaded with a maximum of 25 uL.
    20-30 ug of total protein from cell lysate is generally used unless further optimization is needed for the desired protein(s).
 
+        - The protein ladder is in the -20℃ fridge in the restriction enzyme ice box
+
    .. tip:: Choose an asymmetric loading pattern so if the gel is flipped over, you will still know the order of your samples.
+
+   .. warning:: The glass gel holders have directionality! If your gel isn't reaching 30 mA check that the open side is facing inwards.
 
 6. Run the gels at constant current, about 30 mA (~43V) per mini-gel for approximately 125 minutes. The dye band runs around 3-5 kDa, so
    it is typically ok to run the dye band to the bottom of the gel unless very small proteins are
    of interest.
-7. Pour water into a plastic tray (tip box lid), about half a centimeter deep.
+
+        - Rinse gel holder and runner with water to help reduce smell
+
+7. Pour DI water into a plastic tray (tip box lid), about half a centimeter deep.
 8. Very carefully separate the gel plates without breaking the gel. The gel will stick to one side or the other. 
-9. With a razor blade, cut off the stacking portion of the gel.
+9. With a razor blade, cut off the stacking portion of the gel while still on glass.
 10. Invert the plate/gel over the water and "convince" the gel to fall into the dish. It can help to put the gel and plate into the water and let the solution help the gel release.
     Using a green gel scraper can also help with this process.
 11. Place the gel on a rocker for 2-5 minutes to remove excess free proteins.
 
+.. note:: BAL tried freezing Laemmli buffer-denatured lysate at -20℃ and it worked for Western 
 
 
 Coomassie Staining
@@ -479,6 +491,8 @@ Solutions required
 * **10X Tris-Buffered Saline (TBS)**:
   Add ~450 mL of DI water to dissolve the Tris and NaCl. Adjust to a pH of 7.6. Then add the remaining DI water to reach a final volume of 500 mL.
   
+    .. note:: Took ~8-9 mL 12N HCl to get to pH ~ 7.6
+  
   =========   ===================  =============
   Component   Final concentration  Amount Needed
   =========   ===================  =============
@@ -500,49 +514,59 @@ Solutions required
 
 * **1x Tris-Buffered Saline / Tween (TBST)**:
   
-  ===========   =======================  =============
-  Component     Final concentration      Amount Needed
-  ===========   =======================  =============
-  10X TBS       1X                       5 mL
-  10% Tween20   0.1%                     0.5 mL
-  DI Water                               To 50 mL
-  ===========   =======================  =============
+  ===========   =======================  =====================  =============================
+  Component     Final concentration      Amount Needed (50 mL)   Amount Needed (1 L) 
+  ===========   =======================  =====================  =============================
+  10X TBS       1X                       5 mL                     100 mL
+  10% Tween20   0.1%                     0.5 mL                   10 mL  (or 1 mL Tween-20)
+  DI Water                               To 50 mL                 890 mL (or 900 mL)
+  ===========   =======================  =====================  =============================
 
 * **Blocking Buffer**:
   
-  ===========   =======================  =============
-  Component     Final concentration      Amount Needed
-  ===========   =======================  =============
-  Milk Powder   5%                       2.5 g
+  ===========   =======================  ===================
+  Component     Final concentration      Amount Needed        
+  ===========   =======================  =================== 
+  Milk Powder   5%                       2.5 g                
   10% Tween20   0.1%                     0.5 mL
   10x TBS       1X                       5 mL
   DI Water                               To 50 mL
-  ===========   =======================  =============
+  ===========   =======================  =================== 
 
 * **10% Blocking Buffer**: For diluting primary and secondary antibodies.
   
-  ===============   =======================  =============
-  Component         Final concentration      Amount Needed
-  ===============   =======================  =============
-  Blocking Buffer   10%                      5 mL
-  1x TBST                                    45 mL
-  ===============   =======================  =============
+  =============================     =======================  ===================
+  Component                           Final concentration      Amount Needed
+  =============================     =======================  ===================
+  Blocking Buffer                      10%                      5 mL
+  1x TBST (TBS/0.1% Tween-20)                                   45 mL
+  =============================     =======================  ===================
 
 
 Staining Procedure
 ------------------
 
+   .. note:: A 10 cm dish works well for the wash steps.
+
 1. Wash the membrane with DI water for 5 minutes using agitation.
-2. Block the membrane with blocking solution for 30-60 minutes at room temperature with agitation. Alternatively, block overnight at 2-8°C.
-3. Incubate the membrane with primary antibody diluted (at manufacturer’s recommended dilution) in 10% blocking solution overnight at 2-8°C with agitation.
+2. Block the membrane with blocking solution for 30-60 minutes at room temperature with agitation. Alternatively, block overnight at 2-8°C. (NW does 60 min at RT).
+3. Incubate the membrane with 4 mL/10 cm of primary antibody diluted (at manufacturer’s recommended dilution) in 10% blocking solution overnight at 2-8°C with agitation.
 4. Wash the membrane 3 times for 10 minutes each in TBST using agitation to remove any unbound primary antibody.
-5. Incubate blot with secondary antibody HRP-conjugate at a 1:10,000 dilution (or at the manufacturer’s recommended dilution) for 30 minutes to 1 hour at room temperature using agitation.
+5. Incubate blot with 4 mL/10 cm of secondary antibody HRP-conjugate at a 1:10,000 dilution (or at the manufacturer’s recommended dilution) for 30 minutes to 1 hour at room temperature using agitation. (NW does 1 hr at RT)
+
+    - Can even go down to 1:50,000 for 2nd ab HRP-conjugate
+
 6. Wash the membrane 6 times for 5 minutes each in TBST to remove any unbound secondary antibody conjugate. It is crucial to thoroughly wash the membrane after incubation with the HRP enzyme conjugate.
 7. Prepare the `SuperSignal West Femto Substrate <https://www.thermofisher.com/order/catalog/product/34094>`_ working solution by mixing equal parts of the Substrate and Stable Peroxide components
-   (e.g. 5 mL substrate with 5 mL stable peroxide). Use a sufficient volume to ensure the blot is completely wetted with the substrate and does not become dry.
-   .. Note:: The working solution is stable for up to 6-8 hours at room temperature.
+   (e.g. 5 mL substrate with 5 mL stable peroxide). Use a sufficient volume (~3 mL/10 cm) to ensure the blot is completely wetted with the substrate and does not become dry.
+
+   .. note:: The working solution is stable for up to 6-8 hours at room temperature.
+
 8. Incubate the membrane with the substrate working solution for 5 minutes.
 9.  Remove the blot from the working solution and place it in a labeled, clear plastic bag, and remove excess liquid with an absorbent tissue.
 10. Image the blot using chemiluminescence. The membrane does not need to be removed from the clear plastic bag for imaging. The Niles Lab in BE has a ChemiDoc Imaging System that they let us use, and images can be transferred using a USB flash drive.
 11. Blot quantification can be done using the `Gel Analyzer tool <https://alfresco.uclouvain.be/alfresco/service/guest/streamDownload/workspace/SpacesStore/62eef827-f095-4bfd-b607-e0688df2317c/ImageJ%20-%20western%20blot%20quantification.pdf?a=true&guest=true>`_ in ImageJ.
 
+   .. note:: Use colorimetric for a black/white photo that you can merge with the chemiluminescence photo
+
+    .. note:: NW uses optimal auto-rapid as default
