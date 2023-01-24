@@ -1,5 +1,7 @@
+
 Additional resources
 ----------------------
+
 Resouces for writing inspiration and greater detail!
 
 
