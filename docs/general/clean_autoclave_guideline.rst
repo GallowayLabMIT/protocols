@@ -4,9 +4,7 @@ Cleaning and autoclaving guidelines
 
 
 .. important::
-	All glassware will now be dishwashed. Place glassware to be washed to the left of the Elga water dispenser.
-  All bacteria-related glassware should be bleached for 20 minutes and rinsed with water before being placed in the dishwashing locations.
-  All the glassware on the wooden shelves should already be dishwashed and ready to be used.
+	All glassware will now be dishwashed. Place glassware to be washed to the left of the Elga water dispenser. All bacteria-related glassware should be bleached for 20 minutes and rinsed with water before being placed in the dishwashing locations. All the glassware on the wooden shelves should already be dishwashed and ready to be used.
 
 Washing glassware and tools
 ---------------------------
