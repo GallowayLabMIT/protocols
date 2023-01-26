@@ -4,8 +4,9 @@ Cleaning and autoclaving guidelines
 
 
 .. important::
-	Under no circumstance should dirty glassware be left in the sink or in the autoclave station. All items around that area should be assumed to be clean for autoclaving.
-
+	All glassware will now be dishwashed. Place glassware to be washed to the left of the Elga water dispenser.
+  All bacteria-related glassware should be bleached for 20 minutes and rinsed with water before being placed in the dishwashing locations.
+  All the glassware on the wooden shelves should already be dishwashed and ready to be used.
 
 Washing glassware and tools
 ---------------------------
