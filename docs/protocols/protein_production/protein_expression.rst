@@ -18,6 +18,8 @@ Protocol
     - **BL21-RIL** : A strain with extra copies of certain tRNAs, in order to correct for the
       rarity of some codons in *E. coli*. This can be helpful in upping protein titers,
       especially when expressing some mammalian proteins.
+    - **Rosetta2  (DE3)** : A strain with integrated T7 polymerase, plus extra tRNAs and
+      other modifications that make it ideal for protein expression. 
 
 1. In the morning, start a **5 mL** culture of your strain, in LB/antibiotic media.
 2. Prepare :ref:`TB media <tb_media>` in Erlenmeyer flasks. For proper aeration,

@@ -131,3 +131,4 @@ Staining (Coomassie)
 7. Drain the DI water, and replace with destaining solution.
 8. Cover the gel with Kimwipes, and either shake, while covered, for several hours or microwave as before.
 9. When the destain solution seems substantially blue or purple, replace it with fresh destain solution.
+
