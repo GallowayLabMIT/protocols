@@ -107,5 +107,5 @@ For the spinning steps follow the below protocol.
 
 .. important:: Ensure to cover the centrifuge buckets with the plate spinner tray caps. 
 
-2. Centrifuge the plate at 400rcf for 90 min at 32C. 
+2. Centrifuge the plate at 2500rpm for 90 min at 32C. 
 3. Subsequently transferred to 37oC incubator.
