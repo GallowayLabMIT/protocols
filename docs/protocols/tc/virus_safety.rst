@@ -14,6 +14,9 @@ for two reasons:
 Other virus types are also potentially hazardous if they express oncogenes, even if they are non-integrating like AAVs.
 The following still applies in those cases!
 
+Control methods
+===============
+
 Elimination/Mitigation
 ----------------------
 The easiest way to not be exposed to a human-infectable virus is to not make viruses! There are other integration techniques,
@@ -48,8 +51,8 @@ first, your lab coat, then your first pair of gloves, then sleeves, then the sec
 You can reuse your sleeves through a whole virus production, but **only** if you check for any droplets. Swap
 sleeves if you got virus on your gloves, as the sleeves may be contaminated.
 
-Administrative controls
------------------------
+Virus protocols
+===============
 We have specific virus procedures in place, which change the way that we work in TC to protect us.
 You should treat virus-infected cells or media using virus protocols until **both** two days and three media changes
 have passed.
@@ -57,7 +60,7 @@ have passed.
 Specific protocols are:
 
 Virus BSC setup
-~~~~~~~~~~~~~~~
+---------------
 
 .. important::
 
@@ -75,7 +78,7 @@ Virus BSC setup
 4. Make sure you have enough media in the hood. You may want to aliquot out of your 500mL container.
 
 Virus BSC cleanup
-~~~~~~~~~~~~~~~~~
+-----------------
 1. For any liquid waste you have not aspirated (e.g. 10cm dishes you are done with), use a seriological
    pipette to add bleach to any waste plates/containers/tubes.
 2. Spread the waste out slightly so all waste will get UV'd.
@@ -91,7 +94,7 @@ Virus BSC cleanup
 8. The hood is usable after the second UV cycle!
 
 Exposure plan
--------------
+=============
 Our PPE and processes mean that it should not be possible to get virus-containing droplets on your skin
 without needlesticking yourself, and it should not be possible to needlestick yourself if you do not use glass
 or sharps when working with virus.
@@ -126,10 +129,10 @@ If you believe that you are exposed, you should:
 
 
 Lessons learned from incidents
-------------------------------
+==============================
 
 Spilled virus incident
-~~~~~~~~~~~~~~~~~~~~~~
+----------------------
 
 While a former member of the lab was filtering a human-infectable lentivirus encoding for a fluorescent protein, 
 too much pressure was applied on the syringe. Their hold on the syringe slipped, and knocked over the tube containing
