@@ -20,11 +20,11 @@ Indole-3-acetamide (Auxin precursor, IAM)
 -----------------------------------------
 1. Dissolve 12 mg of O6BG in 1ml of DMSO.
 2. Sterilize with 0.22 uM filter.
-4. Separate into 50 uL aliquots and store at -20°C.
+3. Separate into 50 uL aliquots and store at -20°C.
 
 25mM Guanine 
 -----------------------------------------
 1. Dissolve 7.5 mg of guanine in 2 ml of 0.2N NaOH/Water.
    (Guanine can not be dissolved with DMSO/Water)
-2. 3. Sterilize with 0.22 uM filter.
-4. Separate into 50 uL aliquots and store at -20°C.
+2. Sterilize with 0.22 uM filter.
+3. Separate into 50 uL aliquots and store at -20°C.
