@@ -10,6 +10,11 @@ Compound nouns that function as adjectives should be hyphenated.
 For example:
 Cell-state promoter is hyphenated because it's an adjective... but when using cell state as a noun (as in "wow, look at that cell state!") it is not hyphenated
 
+Numbers in text
+----------------
+Numerals should be used for numbers 10 and above, but numbers nine and below should be spelled out. 
+
+
 How to write gene and protein names?
 ------------------------------------
 TL;DR: Genes are italicized. Human genes are all caps, Mice are first cap only, Mammalian proteins are always all caps.
