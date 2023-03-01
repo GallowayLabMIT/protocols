@@ -47,6 +47,9 @@ Passage number is an “indicator” of cell age. Every time the cells are detac
     ii. Aspirate away PBS
 
 .. note::
+    Washing with PBS may make it easier to detach cells during trypsin step 
+
+.. note::
     Some types of cells do not require trypsin to detach (e.g. HEK293Ts, Plat-Es). In that case, just pipette up and down until cells detach. This looks like a thin film disappearing from the bottom of the dish/plate/flask.
 
 
@@ -84,8 +87,8 @@ Passage number is an “indicator” of cell age. Every time the cells are detac
 7. Centrifuge at 400g for 4 minutes. Cells should pellet at the bottom of the conical.
 8. Aspirate all media/trypsin, carefully avoiding aspirating the cell pellet.
 9. Resuspend pellet in 1-10 mL of media (volume is your choice).
-10. If needed, :ref:`count the cells <counting>` to determine the proper dilution for passaging.
-11. Seed new dish/flask with desired number or dilution of cells: mix the appropriate volume of resuspended cells with fresh media and add to a new flask/dish.
+10.  If needed, :ref:`count the cells <counting>` to determine the proper dilution for passaging.
+11.  Seed new dish/flask with desired number or dilution of cells: mix the appropriate volume of resuspended cells with fresh media and add to a new flask/dish.
 
     .. tip::
         Make sure the cells are resuspended well before aliquoting to seed the new dish. Cells tend to settle quickly!
@@ -199,12 +202,14 @@ Protocol
 2. Let sit for 10 min at room temperature.
 3. Aspirate excess gelatin. Use for plating cells within 1-2 hrs maximum, otherwise gelatin may dry out.
 
+.. _culturing_T-Rex_Cells:
+
 Culturing T-Rex 293 Cells 
 -------------------------------------
 
 T-REx™ Cell Lines stably express the tetracycline repressor protein. They save significant time and effort when using the T-REx™ System. The T-REx™ Cell Lines are functionally tested by transient transfection with the positive control vector pcDNA™4⁄TO⁄lacZ. T-REx™ Cell Lines exhibit extremely low basal expression levels in the repressed state and high expression upon induction with tetracycline (or doxycycline).
-For documentation of general (not Flp-in version) see 'here <https://www.thermofisher.com/order/catalog/product/R71007#:~:text=T%2DREx%E2%84%A2%20Cell%20Lines,4%E2%81%84TO%E2%81%84lacZ>'_. 
-For documentation of the Flp-in system see 'here <https://www.thermofisher.com/document-connect/document-connect.html?url=https://assets.thermofisher.com/TFS-Assets%2FLSG%2Fmanuals%2Fflpinsystem_man.pdf>'_. 
+For documentation of general (not Flp-in version) see `here <https://www.thermofisher.com/order/catalog/product/R71007#:~:text=T%2DREx%E2%84%A2%20Cell%20Lines,4%E2%81%84TO%E2%81%84lacZ>`_. 
+For documentation of the Flp-in system see `here <https://www.thermofisher.com/document-connect/document-connect.html?url=https://assets.thermofisher.com/TFS-Assets%2FLSG%2Fmanuals%2Fflpinsystem_man.pdf>`_. 
 
 Culture the cells in 100ug/mL zeocin (1:1000 dilution master stock) and 5ug/mL blasticidin (1:2000 dilution master stock). Gelatin coating is not needed. 
 
