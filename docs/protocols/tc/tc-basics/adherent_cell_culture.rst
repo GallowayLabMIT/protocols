@@ -107,7 +107,7 @@ Passage number is an “indicator” of cell age. Every time the cells are detac
     ========= ================
 
     - For instance, cells from a T75 flask resuspended in 1 mL of media can be passaged 1:4 by adding 250 µL cells and 10 mL media to a new T75 flask.
-    - Passaging will generate several new flasks/dishes of cells; if only one flask/dish is desired, the extra cells can be :doc:`cryopreserved <cryopreservation and thawing>`.
+    - Passaging will generate several new flasks/dishes of cells; if only one flask/dish is desired, the extra cells can be :doc:`cryopreserved <cryopreservation_and_thawing>`.
 
 
 12. Cultures should be labeled with cell line name, date, passage number and initials of the owner.
@@ -173,7 +173,7 @@ Seeding/Plating cells
    For example, to seed a full 96-well plate of MEFs at 10k (1e4) cells/well: mix 1e6 cells (1e4 cells/well * 100 wells) with fresh media to a total volume of 10 mL (100 µL/well * 100 wells).
 
 4. Pipet cells into new flask/dish or wells of the new plate. This should account for the entire flask/dish/well volume (e.g. 10 mL into a T75 flask, 100 µL into each well of a 96-well plate).
-5. Any excess cells can be :ref:`passaged <passaging>` to a new flask or :doc:`cryopreserved <cryopreservation and thawing>`.
+5. Any excess cells can be :ref:`passaged <passaging>` to a new flask or :doc:`cryopreserved <cryopreservation_and_thawing>`.
 
 Laminin Coating
 ---------------------------------------------------------

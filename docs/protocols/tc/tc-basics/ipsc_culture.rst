@@ -6,7 +6,7 @@ Reagents
 
 **Media**
 
-Human iPSCs can be cultured in a range of media; in this lab, we mainly use `mTeSR-Plus <https://www.stemcell.com/products/mtesr-plus.html#section-protocols-and-documentation>_`.
+Human iPSCs can be cultured in a range of media; in this lab, we mainly use `mTeSR-Plus <https://www.stemcell.com/products/mtesr-plus.html#section-protocols-and-documentation>`_.
 The medium has two components: the basal medium and the 5X supplement. The supplement is stored at -20°C in 10mL aliquots in 50mL concials; the basal medium is stored at 4°C.
 To make the  complete medium, add 40mL basal medium to the 10mL supplement aliquot; alternatively, add the entire 100mL supplement to the entire 400mL basal medium.
 The complete medium is stored at 4°C; long-term stability at this temperature has not been tested, so aliquotting is preferred.
@@ -17,8 +17,8 @@ Some protocols recommend warming media to room temperature before use, but this 
 
 There are two main dissociation reagents we use:
 
-1. `**ReLeSR** <https://www.stemcell.com/products/relesr.html>`_: Non-enzymatic dissociation of cells in clumps; better for regular passaging so as not to disturb the cells too much
-2. `**Accutase** <https://www.sigmaaldrich.com/US/en/product/sigma/a6964>`_: Enzymatic dissociation to single cells; necessary for counting and seeding
+1. `ReLeSR <https://www.stemcell.com/products/relesr.html>`_: non-enzymatic dissociation of cells in clumps; better for regular passaging so as not to disturb the cells too much
+2. `Accutase <https://www.sigmaaldrich.com/US/en/product/sigma/a6964>`_: enzymatic dissociation to single cells; necessary for counting and seeding
 
 **Other Reagents**
 
@@ -30,20 +30,21 @@ There are two main dissociation reagents we use:
 GelTrex coating plates
 ----------------------
 
-.. important:: Plates require at least 1 hour to coat, so start early or make extras as much as a week ahead of time!
+.. important:: Plates require at least 1 hour to coat, so start early or make extras up to a week ahead of time!
 
 1. Thaw GelTrex on ice (use the designated TC styrofoam for ice).
 
-    - Thaw one tube (50X, 120 µL aliquot) per 6-well plate to coat. It is recommended to only do ~2 at a time to avoid unintentional gelling.
-    - Flick the tube to mix as it thaws and to speed up the process.
-    - While the GelTrex is thawing, prepare other materials in the BSC: 6-well plate(s), 15mL conical, DMEM/F12
 
-2. Prepare at 15 mL conical with 6 mL DMEM/F12. Immediately once the GelTrex has thawed, pipet it into the prepared 15 mL conical. Pipet 1 mL of the DMEM/F12 mix back into the GelTrex tube to wash out any residual solution.
-3. With a serological, pipet up and down once, then dispense 1 mL per well into the 6-well plate. Rock the plate to coat the entire surface.
+   - Thaw one tube (50X, 120 µL aliquot) per 6-well plate to coat. It is recommended to only do ~2 at a time to avoid unintentional gelling.
+   - Flick the tube to mix as it thaws and to speed up the process.
+   - While the GelTrex is thawing, prepare other materials in the BSC: 6-well plate(s), 15mL conical, DMEM/F12
+
+2. Prepare at 15 mL conical with 6 mL DMEM/F12. Immediately once the GelTrex has thawed, pipet it into the prepared 15 mL conical. Pipet 1 mL of the DMEM/F12 mix back into the GelTrex tube to wash out any residual solution and return the liquid to the conical.
+3. With a serological pipette, pipet up and down once, then dispense 1 mL per well into the 6-well plate. Rock the plate to coat the entire surface.
 4. Let the plate sit to coat:
 
-    - If using same-day: leave the plate at 37°C for at least 1 hour
-    - If preparing ahead: parafilm the plate, then leave it at room temperature overnight. Plates can be stored at room temperature for at least a week.
+   - *If using same-day*: leave the plate at 37°C for at least 1 hour
+   - *If preparing ahead*: parafilm the plate, then leave it at room temperature overnight. Plates can be stored at room temperature for at least a week.
 
 5. Immediately before seeding cells, aspirate the liquid from the coated well(s). Leave the liquid on any unused wells; these can be aspirated and used at a later date.
 
@@ -82,12 +83,10 @@ General Culturing Tips
 Passaging with ReLeSR
 ---------------------
 
-.. time::
-    ~15 min
-    Don't forget to coat plates at least 1 hr ahead of time!
+.. time:: ~15 min — don't forget to coat plates at least 1 hr ahead of time!
 
 To passage for general cell culture maintenance, use ReLeSR to dissociate cells in clumps. This is less disruptive and may improve the long-term integrity of the iPSCs.
-For seeding or other applications requiring counting, dissociate with Accutase to achieve a single-cell suspension (see :ref:`accutase` below).
+For seeding or other applications that require counting, dissociate with Accutase to achieve a single-cell suspension (see :ref:`accutase-dissociation` below).
 
 1. Aspirate the old media. Gently wash with 1 mL PBS and aspirate.
 2. Add 1 mL ReLeSR and incubate at 37°C for 1 min.
@@ -96,12 +95,12 @@ For seeding or other applications requiring counting, dissociate with Accutase t
 5. Optional: while the plate is incubating, prepare fresh media with ROCK inhibitor (i.e., mTeSR complete medium + 1000X ROCK inhibitor). It is up to you to decide how/when to mix in the ROCK inhibitor, but it is convenient to prepare the media in a new conical.
 6. When the plate is done incubating, add 1-3 mL media to each well and tap the plate to dislodge the cells.
 
-    - It is convenient to add 0.5 mL of media for each new well you're passaging to, e.g., 3 mL media for one well to passage 1:6.
+   - It is convenient to add 0.5 mL of media for each new well you're passaging into, e.g., 3 mL media for passaging one well 1:6.
 
 7. Gently pipet up the liquid with a serological and dispense into the prepared wells.
 
-    - Use a serological pipette rather than a P1000 to maintain cell clumps.
-    - Pipet up and down 1-2 times in the well to resuspend as many cells as possible, since the cells tend to stick to the well. However, don't pipet too much—this will break up the clumps!
+   - Use a serological pipette rather than a P1000 to maintain cell clumps.
+   - Pipet up and down 1-2 times in the well to resuspend as many cells as possible, since the cells tend to stick to the well. However, don't pipet too much—this will break up the clumps!
 
 8. Add additional media to each well to bring the total volume to the desired amount (e.g., 2 mL). Pipetting up and down here is not necessary; rocking back and forth achieves sufficient mixing.
 
@@ -114,7 +113,7 @@ For seeding or other applications requiring counting, dissociate with Accutase t
     Addition of ROCK inhibitor leads to cytoskeletal remodeling, so cells will have a spiky morphology the day after passaging.
     The morphology should return to normal a day or so after the ROCK inhibitor is removed.
 
-.. _accutase:
+.. _accutase-dissociation:
 
 Dissociating with Accutase
 --------------------------

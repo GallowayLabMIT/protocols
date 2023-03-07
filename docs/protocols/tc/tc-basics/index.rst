@@ -1,5 +1,5 @@
 =====================
-TC Protocols: Basics
+TC Basics
 =====================
 
 .. toctree::
