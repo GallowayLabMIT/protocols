@@ -1,6 +1,7 @@
 =======================================
 Transient HEK293T Transfection
 =======================================
+
 .. note::
 	If performing transient transfection for virus production: please use the updated :doc:`virus_production` protocol for lentivirus production via HEK293Ts, and the :doc:`/protocols/tc/platE_transfection` protocol for Plat-E retrovirus production.
 
@@ -59,7 +60,7 @@ Example condition mix calculation (make 110% for extra):
 Protocol
 --------
 
-1.	Seed healthy 293T cells 1 day prior to transfection.  Cells must be ~80% confluent at time of transfection for highest efficency. Recommended cell counts are:
+1.	Seed healthy 293T cells 1 day prior to transfection.  Cells must be ~80% confluent at time of transfection for highest efficiency. Recommended cell counts are:
 
 =============== ================= ===============
 **Cell Type**    **Well Size**     **# Cells/Well**
