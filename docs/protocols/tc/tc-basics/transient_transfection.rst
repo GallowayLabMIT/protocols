@@ -79,5 +79,5 @@ Plat-E         	6-well              800K
 3.	For each condition, combine the DNA and the PEI+KO DMEM MM according to the calculations, then mix and wait 10-15 minutes. These are the "condition mixes."
 
 4.	Gently add the calculated amount of condition mix to each desired well on **TOP** of the existing growth media using the 100% NOT the 110% volumes. For larger well (anything above 24-well), add the condition mix *dropwise* and evenly around the plate, rocking the plate back and forth, side to side to mix.
-5.	*After 18-24 hours* (1 day post transfection, dpt), aspirate and replace with :doc:`fresh media </protocols/tc/adherent_cell_culture>` (e.g., DMEM + 10% FBS for HEK293T). Typically, any small-molecule inducers are added at this step (e.g., doxycycline).
+5.	*After 18-24 hours* (1 day post transfection, dpt), aspirate and replace with :doc:`fresh media <adherent_cell_culture>` (e.g., DMEM + 10% FBS for HEK293T). Typically, any small-molecule inducers are added at this step (e.g., doxycycline).
 6.  It is standard to image and flow cells at 2 dpt (1 day after fresh media change). If small-molecule inducers were added at 1 dpt, it is common to flow at 3 dpt to allow the expression levels to reach steady state.

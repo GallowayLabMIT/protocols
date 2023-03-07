@@ -6,4 +6,4 @@ TC protocols
    :maxdepth: 2
    :glob:
 
-   *
+   */index

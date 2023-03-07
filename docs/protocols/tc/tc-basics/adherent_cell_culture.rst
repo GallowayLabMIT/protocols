@@ -1,9 +1,10 @@
-==========================
+======================
 Adherent Cell Culture
-==========================
+======================
 
 General culture handling procedure
 -----------------------------------
+
 - Lift lid and tilt plate with one hand while aspirating/pipetting with the other.
 - The lid should cover the plate as much as possible, providing just enough opening to perform the task
 - The lid opening should face away from the hood opening (i.e., away from you and toward the back wall).
@@ -13,6 +14,7 @@ General culture handling procedure
 
 Changing media
 ---------------
+
 Unless you have very specific experimental conditions, it is good practice to check on your cultures
 every 2 or 3 days and change media if the cells are not ready to be split or expanded.
 
@@ -47,7 +49,7 @@ Passage number is an “indicator” of cell age. Every time the cells are detac
     ii. Aspirate away PBS
 
 .. note::
-    Washing with PBS may make it easier to detach cells during trypsin step 
+    Washing with PBS may make it easier to detach cells during trypsin step
 
 .. note::
     Some types of cells do not require trypsin to detach (e.g. HEK293Ts, Plat-Es). In that case, just pipette up and down until cells detach. This looks like a thin film disappearing from the bottom of the dish/plate/flask.
@@ -105,7 +107,7 @@ Passage number is an “indicator” of cell age. Every time the cells are detac
     ========= ================
 
     - For instance, cells from a T75 flask resuspended in 1 mL of media can be passaged 1:4 by adding 250 µL cells and 10 mL media to a new T75 flask.
-    - Passaging will generate several new flasks/dishes of cells; if only one flask/dish is desired, the extra cells can be :doc:`cryopreserved </protocols/tc/cryopreservation and thawing>`.
+    - Passaging will generate several new flasks/dishes of cells; if only one flask/dish is desired, the extra cells can be :doc:`cryopreserved <cryopreservation and thawing>`.
 
 
 12. Cultures should be labeled with cell line name, date, passage number and initials of the owner.
@@ -171,7 +173,7 @@ Seeding/Plating cells
    For example, to seed a full 96-well plate of MEFs at 10k (1e4) cells/well: mix 1e6 cells (1e4 cells/well * 100 wells) with fresh media to a total volume of 10 mL (100 µL/well * 100 wells).
 
 4. Pipet cells into new flask/dish or wells of the new plate. This should account for the entire flask/dish/well volume (e.g. 10 mL into a T75 flask, 100 µL into each well of a 96-well plate).
-5. Any excess cells can be :ref:`passaged <passaging>` to a new flask or :doc:`cryopreserved </protocols/tc/cryopreservation and thawing>`.
+5. Any excess cells can be :ref:`passaged <passaging>` to a new flask or :doc:`cryopreserved <cryopreservation and thawing>`.
 
 Laminin Coating
 ---------------------------------------------------------
@@ -204,12 +206,12 @@ Protocol
 
 .. _culturing_T-Rex_Cells:
 
-Culturing T-Rex 293 Cells 
+Culturing T-Rex 293 Cells
 -------------------------------------
 
 T-REx™ Cell Lines stably express the tetracycline repressor protein. They save significant time and effort when using the T-REx™ System. The T-REx™ Cell Lines are functionally tested by transient transfection with the positive control vector pcDNA™4⁄TO⁄lacZ. T-REx™ Cell Lines exhibit extremely low basal expression levels in the repressed state and high expression upon induction with tetracycline (or doxycycline).
-For documentation of general (not Flp-in version) see `here <https://www.thermofisher.com/order/catalog/product/R71007#:~:text=T%2DREx%E2%84%A2%20Cell%20Lines,4%E2%81%84TO%E2%81%84lacZ>`_. 
-For documentation of the Flp-in system see `here <https://www.thermofisher.com/document-connect/document-connect.html?url=https://assets.thermofisher.com/TFS-Assets%2FLSG%2Fmanuals%2Fflpinsystem_man.pdf>`_. 
+For documentation of general (not Flp-in version) see `here <https://www.thermofisher.com/order/catalog/product/R71007#:~:text=T%2DREx%E2%84%A2%20Cell%20Lines,4%E2%81%84TO%E2%81%84lacZ>`.
+For documentation of the Flp-in system see `here <https://www.thermofisher.com/document-connect/document-connect.html?url=https://assets.thermofisher.com/TFS-Assets%2FLSG%2Fmanuals%2Fflpinsystem_man.pdf>`.
 
-Culture the cells in 100ug/mL zeocin (1:1000 dilution master stock) and 5ug/mL blasticidin (1:2000 dilution master stock). Gelatin coating is not needed. 
+Culture the cells in 100ug/mL zeocin (1:1000 dilution master stock) and 5ug/mL blasticidin (1:2000 dilution master stock). Gelatin coating is not needed.
 

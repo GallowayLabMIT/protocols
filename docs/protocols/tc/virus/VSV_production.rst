@@ -28,7 +28,7 @@ Day 1. Seed cells
 
 Day 2. Transfection
 -------------------
-1. Transfect the following plasmid mixture to the cells on **Plate_A** through the :doc:`general transfection protocol </protocols/tc/transient_transfection>`:
+1. Transfect the following plasmid mixture to the cells on **Plate_A** through the :doc:`general transfection protocol <transient_transfection>`:
 
 ============= ==============
 Plasmid        Amount of DNA
@@ -69,6 +69,6 @@ Day 6-14.
 ---------------
 1. Monitor the cells for the development of virus-induced CPE or GFP expression if you are making GFP-expressing VSV. When 40-100% of the cells show signs, the supernatant can be harvested.
 2. Harvest the supernatant and remove cells and cell debris by centrifugation for 10 min at 450xg or by filtering the supernatant with 0.45μm filter.
-   
+
 .. note::
-  Amplification period depends on the RNA structure of the genome. Usually, reporter gene expression should be able to be seen by day 7-8. 
+  Amplification period depends on the RNA structure of the genome. Usually, reporter gene expression should be able to be seen by day 7-8.
