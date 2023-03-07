@@ -7,3 +7,9 @@ TC protocols
    :glob:
 
    */index
+
+.. toctree::
+   :maxdepth: 1
+   :glob:
+
+   *

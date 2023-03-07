@@ -28,7 +28,7 @@ Day 1. Seed cells
 
 Day 2. Transfection
 -------------------
-1. Transfect the following plasmid mixture to the cells on **Plate_A** through the :doc:`general transfection protocol <transient_transfection>`:
+1. Transfect the following plasmid mixture to the cells on **Plate_A** through the :doc:`general transfection protocol </protocols/tc/tc-basics/transient_transfection>`:
 
 ============= ==============
 Plasmid        Amount of DNA

@@ -15,13 +15,13 @@ As an initial rule-of-thumb, ~1-2% of the total virus produced in one 10cm dish 
 
 .. note::
    If it is important to know the titer of the concentrated virus, an initial infection (transduction) can be performed to calculate this value before conducting experiments.
-   See the :doc:`MOI Calculation </protocols/tc/moi>` protocol for more details.
+   See the :doc:`MOI Calculation </protocols/tc/virus/moi>` protocol for more details.
 
 .. note::
     Viral titer is reported to decrease during freezing and thawing. Therefore, it is recommended to double the amount of virus used for every freeze-thaw cycle. NOTE: VALIDATION IN PROGRESS.
 
-.. note:: 
-    Generally, higher total virus per well increases infection efficiency. 
+.. note::
+    Generally, higher total virus per well increases infection efficiency.
 
 **Protocol**
 
@@ -101,11 +101,11 @@ Spinfection
 
 After following the transduction protocols above for either plated cell or cells in suspension, additional spinning could increase infection efficiency. The combined protocol is dubbed "spinfection."
 
-For the spinning steps follow the below protocol. 
+For the spinning steps follow the below protocol.
 
-1. Move plate into TC centrifuge. 
+1. Move plate into TC centrifuge.
 
-.. important:: Ensure to cover the centrifuge buckets with the plate spinner tray caps. 
+.. important:: Ensure to cover the centrifuge buckets with the plate spinner tray caps.
 
-2. Centrifuge the plate at 2500rpm for 90 min at 32C. 
+2. Centrifuge the plate at 2500rpm for 90 min at 32C.
 3. Subsequently transferred to 37oC incubator.

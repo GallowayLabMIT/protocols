@@ -1,5 +1,5 @@
 ======================================
-Plat-E Retroviral Production 
+Plat-E Retroviral Production
 ======================================
 
 Plat-Es are a retrovirus packaging line that produce retroviruses that can only infect mouse cells. Plat-E cells contain gag, pol and env genes, allowing retroviral packaging with a single plasmid transfection.
@@ -59,7 +59,7 @@ Day Three (Plat-E media change + seed mouse cells):
 
     i.  Coat wells in 0.1% gelatin for approx. ~10 min.
     ii. Seed at 10k cells/96-well. For larger sizes, scale accordingly according to surface area
-    
+
         =================   ==========================   ===============================================================
         **Culture plate**    **Scale factor**              **# of 6-wells of Plat-E you'll need for a full plate**
         =================   ==========================   ===============================================================

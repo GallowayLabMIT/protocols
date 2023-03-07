@@ -3,7 +3,7 @@ Transient HEK293T Transfection
 =======================================
 
 .. note::
-	If performing transient transfection for virus production: please use the updated :doc:`virus_production` protocol for lentivirus production via HEK293Ts, and the :doc:`/protocols/tc/platE_transfection` protocol for Plat-E retrovirus production.
+	If performing transient transfection for virus production: please use the updated :doc:`/protocols/tc/virus/virus_production` protocol for lentivirus production via HEK293Ts, and the :doc:`/protocols/tc/platE_transfection` protocol for Plat-E retrovirus production.
 
 	If performing transient transfection for an experiment, continue to the protocol below.
 
