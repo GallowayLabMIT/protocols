@@ -56,7 +56,7 @@ Day Two (transfect Plat-Es):
 
 Day Three (Plat-E media change + seed mouse cells):
 
-1.	Change with 1.25 mLs fresh media (`DMEM/HEPES + 10% FBS <HEPES>`) after 24 hours. Note: NBW transfects ~4pm and media changess ~10am next day to minimize PEI cytotoxicity.
+1.	Change with 1.25 mLs fresh media (:ref:`DMEM/HEPES + 10% FBS <HEPES>`) after 24 hours. Note: NBW transfects ~4pm and media changess ~10am next day to minimize PEI cytotoxicity.
 2.	Seed mouse cells
 
     i.  Coat wells in 0.1% gelatin for approx. ~10 min.
@@ -74,7 +74,7 @@ Day Three (Plat-E media change + seed mouse cells):
 
 Day Four (Plat-E media change + infect 1):
 
-1.	Harvest media after another 24 hours and add 1.25 mL fresh media (`DMEM/HEPES + 10% FBS <HEPES>`) to Plat-E plates for a second time.
+1.	Harvest media after another 24 hours and add 1.25 mL fresh media (:ref:`DMEM/HEPES + 10% FBS <HEPES>`) to Plat-E plates for a second time.
 2.	Transduce mouse cells with retroviruses made from the Plat-E cells
 
     .. note::

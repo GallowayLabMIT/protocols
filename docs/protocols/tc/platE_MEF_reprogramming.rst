@@ -66,7 +66,7 @@ Day Two (transfect Plat-Es):
 
 Day Three (Plat-E media change + seed MEFs):
 
-1.	Change with 1.25 mLs fresh media (`DMEM/HEPES + 10% FBS <HEPES>`) after 24 hours. Note: NBW transfects ~4pm and media changess ~10am next day to minimize PEI cytotoxicity.
+1.	Change with 1.25 mLs fresh media (:ref:`DMEM/HEPES + 10% FBS <HEPES>`) after 24 hours. Note: NBW transfects ~4pm and media changess ~10am next day to minimize PEI cytotoxicity.
 2.	Seed MEFs
 
     i.  Coat wells in 0.1% gelatin for approx. ~10 min.
@@ -85,7 +85,7 @@ Day Three (Plat-E media change + seed MEFs):
 
 Day Four (Plat-E media change + infect 1):
 
-1. Harvest media after another 24 hours and add 1.25 mL fresh media (`DMEM/HEPES + 10% FBS <HEPES>`) to Plat-E plates for a second time.
+1. Harvest media after another 24 hours and add 1.25 mL fresh media (:ref:`DMEM/HEPES + 10% FBS <HEPES>`) to Plat-E plates for a second time.
 2. PROCEED TO TRANSDUCTION!
 
 
@@ -160,4 +160,4 @@ Day 10, 12, 14, etc:
 1.	Change N3 media every 2 days (can do 3 days if after ~8 days and weekend but 2 is ideal) until done (usually 14 dpi).
 
 .. note:: 
-    After 8 dpi, it is recommended to dissociate with  (`DNAse/Papain <MNdissociate>`) instead of trypsin
+    After 8 dpi, it is recommended to dissociate with (:ref:`DNAse/Papain <MNdissociate>`) instead of trypsin
