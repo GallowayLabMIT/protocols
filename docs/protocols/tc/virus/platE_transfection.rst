@@ -14,7 +14,9 @@ Plat-E Transfection
 
 Day One (seed Plat-Es):
 
-1.  Seed 2 mL of 400k cells/mL onto 6-well plates (800k Plat-E's/6-well total) after 0.1% gelatin coating (10 min).
+1. :ref:`Gelatin coat <gelatin>` a 6-well plate (1x6-well makes enough virus for 1x96-well plate)
+2. Seed 2 mL of 425k cells/mL onto 6-well plates (850k Plat-E's/6-well total) onto the gelatin coated plates.
+3. Rock the plate back and forth, side to side to mix, then place back in incubator. *Rocking side to side prevents cells from clustering at the well edge.*
 
 .. tip::
 	If starting from frozen, **start growing Plat-E cells 1 week prior** - they will be slow growing at first (don't change culture medium during the first 3 days). Split Plat-Es 4X-6X every 2-3 days when culture reaches 70-90% confluency.
@@ -49,12 +51,12 @@ Day Two (transfect Plat-Es):
     pMXs-mGL (500 µg/µL)                 3.6 µL          12.6 µL          **190.8 µL/well**
     =============================   ==============   =================   ====================
 
-3.	Add each KO DMEM + PEI + DNA mix to a single 6-well (1 WELL PER VIRUS) **DROPWISE** and evenly around the plate, rocking the plate back and forth, side to side to mix. Place back in incubator. *Rocking side to side prevents cells from clustering at the well edge.*
+3.	Add each KO DMEM + PEI + DNA mix to a single 6-well (1 WELL PER VIRUS) **DROPWISE** and evenly around the plate, rocking the plate back and forth, side to side to mix. Place back in incubator.
 
 
 Day Three (Plat-E media change + seed mouse cells):
 
-1.	Change with 1.25 mLs fresh media (DMEM/HEPES + 10% FBS) after 24 hours.
+1.	Change with 1.25 mLs fresh media (`DMEM/HEPES + 10% FBS <HEPES>`) after 24 hours. Note: NBW transfects ~4pm and media changess ~10am next day to minimize PEI cytotoxicity.
 2.	Seed mouse cells
 
     i.  Coat wells in 0.1% gelatin for approx. ~10 min.
@@ -72,11 +74,11 @@ Day Three (Plat-E media change + seed mouse cells):
 
 Day Four (Plat-E media change + infect 1):
 
-1.	Harvest media after another 24 hours and add 1.25 mL fresh media (DMEM/HEPES + 10% FBS) to Plat-E plates for a second time.
+1.	Harvest media after another 24 hours and add 1.25 mL fresh media (`DMEM/HEPES + 10% FBS <HEPES>`) to Plat-E plates for a second time.
 2.	Transduce mouse cells with retroviruses made from the Plat-E cells
 
     .. note::
-        Each virus will make ~1 mL/well from each 6-well of Plat-E (enough for 1 96-well plate). 11 µL of each virus will be added to each well of a 96-well plate ALONG WITH POLYBRENE (1,000X at 5 mg/mL)
+        Each virus will make ~1 mL/well from each 6-well of Plat-E (enough for 1x96-well plate). 11 µL of each virus will be added to each well of a 96-well plate ALONG WITH POLYBRENE (1,000X at 5 mg/mL)
 
     a.  Filter each virus through a 0.45 µm filter
     b.  Master mixes will be made for simpler "aliquoting" into wells. The following table is a guide for the final total volume for each well depending on the plate.
@@ -105,3 +107,9 @@ Day Five (infect 2):
 Day Six (1 dpi):
 
 1.	Change media on transduced mouse cells
+
+
+
+.. note::
+    NBW has found you can freeze PlatE virus. I will concentrate a single 6-well collected over 2 days (~2.1 mL + 700 µL Lenti-X concentrator) and resuspend into 100 µL where I use 2 µL/96-well.
+    **You will lose ~50% of your virus so I go with frozen virus from 2x6-wells will infect 1x96-well plate**.
