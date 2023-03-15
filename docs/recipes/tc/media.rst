@@ -131,37 +131,34 @@ Total volume: **500 mL**
  MEM                       70%   350 mL
 ========================= ===== ===============
 
-Sorting media
--------------
-Used for preparing cells for sorting
 
-Total volume: **500 mL**
-
-========================= ===== ===============
-  Component                %     Volume
-========================= ===== ===============
- DMEM/F12                  99%   495 mL
-========================= ===== ===============
+.. _sortmedia:
 
 Sorting/Collection media
 -------------------------
 Used for cell sorting. Use DMEM/F12 for flow sorting and DMEM/F12 + 10% FBS for collection to help make cells happier.
 It is possible to use whatever though because you will have to spin-down and resuspend in the correct media (i.e. N3) anyways.
+You will want to include Pen/Strep as it will greatly reduce the amount of contamination.
 
-Total volume: **500 mL**
+Total volume: **50 mL**
 
 ================================= ===== ===============
   Component                        %     Volume
 ================================= ===== ===============
- FBS *(for collection only)*       10%   50 mL
- DMEM/F12                          90%   450 mL
+ FBS *(for collection only)*       10%      5   mL
+ DMEM/F12                          89%     44.5 mL
+ 100X Pen/Strep                     1%     500 µL
 ================================= ===== ===============
+
+
+.. _MNdissociate:
 
 Motor neuron dissociation media
 ----------------------------------
 Used for dissociating iMNs or primary motor neurons (embMN) harvested from spinal cords for plating/sorting.
+Add 50 µL/96-well, let sit in 37°C for ~15 min. Lightly tap plae to see if cells are dissociating.
 
-Total volume: **6 mL**
+Total volume: **6 mL** (enough for 1x96-well)
 
 ========================= =========================
   Component                  Volume
@@ -171,6 +168,8 @@ Total volume: **6 mL**
  DMEM/F12                  6 mL
 ========================= =========================
 
+
+.. _freezingmedia:
 
 Freezing media
 --------------
@@ -185,6 +184,8 @@ DMSO                       100 µL          10%
 
 - It is easy to keep a 4C stock of 80% FBS/20% DMSO then use 500 µL 80/20 FBS/DMSO + 500 µL DMEM/FBS cell solution
 
+
+.. _HEPES:
 
 HEPES-buffered DMEM
 -------------------
