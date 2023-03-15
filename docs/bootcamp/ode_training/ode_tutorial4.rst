@@ -2,7 +2,7 @@
 Tutorial 4: Modeling repressors
 ================================================================
 
-- Lesson PDF: `Lesson4_Repressors.pdf <ode_training_files/Lesson4_Repressors.pdf>`_
+- Lesson PDF: `Lesson4_Repressors.pdf <../../_static/files/ode_training_files/Lesson4_Repressors.pdf>`_
   
 On your own:
 

@@ -2,8 +2,8 @@
 Tutorial 2: Examining parameters affecting our models
 ================================================================
 
-- Lesson PDF: `Lesson2_ExaminingParameters.pdf <ode_training_files/Lesson2_ExaminingParameters.pdf>`_
-- MATLAB Script: `L2_constitutive_param_script.m <ode_training_files/L1_constitutive_script.m>`_
+- Lesson PDF: `Lesson2_ExaminingParameters.pdf <../../_static/files/ode_training_files/Lesson2_ExaminingParameters.pdf>`_
+- MATLAB Script: `L2_constitutive_param_script.m <../../_static/files/ode_training_files/L1_constitutive_script.m>`_
 
 On your own:
 

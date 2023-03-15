@@ -2,7 +2,7 @@
 Tutorial 3: Michaelis-Menten Kinetics
 ================================================================
 
-Lesson PDF: `Lesson3_MichaelisMenten.pdf <ode_training_files/Lesson3_MichaelisMenten.pdf>`_
+Lesson PDF: `Lesson3_MichaelisMenten.pdf <../../_static/files/ode_training_files/Lesson3_MichaelisMenten.pdf>`_
 
 On your own:
 
