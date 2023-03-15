@@ -62,21 +62,31 @@ Property
 2. Aliquot 50 uL in 600 uL tubes and store at -20°C in a labeled box. 
 
 
+
+.. _FBSaliquot:
+
 Fetal Bovine Serum (FBS) Aliquots
 ------------------------------------
 - FBS contains many nutrients and growth factors to support cell growth. To preserve FBS, it is usually stored in the -20°C freezer until used. To avoid multiple freeze-thaw cycles of FBS and to prevent contaminations we make FBS aliquots.
-- Thaw 500mL FBS bottle in the fridge overnight
-- Make 10 aliquots of 50mL each. Be sure to stop at the 50mL mark. Having larger volumes may cause the FBS to overflow (and be contaminated) when frozen again (FBS volume expands when frozen).
 - Store aliquots in -20°C freezer in the TC room.
 - Take responsibility for aliquoting new stocks, when older stocks are almost used up. Make sure to use sterile technique in preparing aliquots.
 
+1. Thaw 500 mL FBS bottle in the fridge 2 days beforehand
+2. Make ~10 aliquots of 50 mL each. Be sure to stop at the 50mL mark. Having larger volumes may cause the FBS to overflow (and be contaminated) when frozen again (FBS volume expands when frozen).
+3. Make 12 mL aliquots with any leftover for :ref:`80% FBS/20% DMSO freezing media <freezingmedia>` (just add 3 mL DMSO)
+
 .. note::
-    This is now a lab job. As of 1/23/23, notify Patrick if more aliquots need to be made.
+    This is now a lab job. As of 3/15/23, notify Nat if more aliquots need to be made.
+
+.. important::
+    As of 3/15/23, we will ask Brad from Genesee to set aside an FBS lot and send us a sample size. Test old and new FBS in :ref:`reprogramming <platEreprogram>`.
+    Use the sample FBS to defrost the MEFs, make the virus, and do the infection until 4 dpi. Assess 14 dpi reprogramming between the two lots.
+    You will have to :ref:`heat inactivate <FBSheatinact>` the sample FBS as they do not heat inactivate small 50 mL FBS lot samples.
 
 
-Pen-strep aliquots
----------------------
+100X Pen-strep aliquots
+--------------------------
 - Penicillin-streptomycin is a mixture of penicillin and streptomycin and is added to the media to prevent bacterial contamination. However, it is always important to be very careful when handling cultures as contamination may still occur even when pen-strep is added.
-- Thaw 50mL pen-strep bottle in the fridge overnight
-- Pen-strep is aliquoted into 5mL aliquots and stored in the TC -20°C until used.
+- Thaw 50 mL pen-strep bottle in the fridge overnight
+- Pen-strep is aliquoted into 5 mL aliquots and stored in the TC -20°C until used.
 - Take responsibility for aliquoting new stocks, when older stocks are almost used up. Make sure to use sterile technique in preparing aliquots.

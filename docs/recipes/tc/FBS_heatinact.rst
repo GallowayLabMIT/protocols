@@ -7,6 +7,13 @@ FBS heat inactivation
 
 - **Heat Inactivation (HI)**: a process by which serum is maintained at a temperature of 56 ± 2°C for 30 ± 2 minutes.
 
+.. note:: 
+    You should use a control bottles to measure temperature. The control bottle should be equivalent to the product bottle.
+    Controls bottles are volumed to the same level as the product being heat inactivated and fitted with a
+    thermometer suitable for monitoring 56°C. The thermometer should not touch the sides or bottom of the bottle.
+    **The temperature of the control must be 56± 2°C for 30 ± 2 minutes during the heat inactivation process.** A 15 mL
+    conical works well to heat-inactivate a 10 mL sample (good for 100 mL of DMEM/FBS)
+
 1. Thaw serum. If serum was thawed in a refrigerator allow serum to come to room temperature prior to placing in water bath.
 2. Fill the water-bath with sufficient water so that the product and control bottles are immersed near the serum level.
 3. Set water-bath temperature to maintain the product at 56± 2°C.

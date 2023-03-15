@@ -9,6 +9,8 @@ Supposedly, Plat-E viruses can't be frozen but we have seen frozen Plat-E virus 
 	Do a **10 µg/mL blast and 1 µg/mL puro selection every ~3 passages**. This is to ensure cells are expresssing the retroviral structure proteins.
 
 
+.. _platEreprogram:
+
 Plat-E Transfection
 -------------------
 
