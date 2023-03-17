@@ -82,7 +82,8 @@ Fetal Bovine Serum (FBS) Aliquots
     As of 3/15/23, we will ask Brad from Genesee to set aside an FBS lot and send us a sample size. Bulk ordering saves us $170/bottle (~$6k over year) and
     helps reduce lot-to-lot variability. Test old and new FBS in :ref:`reprogramming <platEreprogram>`.
     Use the sample FBS to defrost the MEFs, make the Plat-E virus, and do the infection until 4 dpi. Assess 14 dpi reprogramming between the two lots.
-    You will have to :ref:`heat inactivate <FBSheatinact>` the sample FBS as they do not heat inactivate small 50 mL FBS lot samples. An example of results
+    You will have to :ref:`heat inactivate <FBSheatinact>` the sample FBS as they do not heat inactivate small 50 mL FBS lot samples.
+    **You should freeze it at -20°C to match number of freeze-thaw cycles as the currrent FBS.** An example of results
 
     .. figure:: img/2023.03.17_FBS-test.png
         :align: center
