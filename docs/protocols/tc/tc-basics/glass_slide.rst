@@ -22,7 +22,7 @@ Coating glass coverslip
     - It will be difficult to make sure you're only grabbing a single coverslip
     - A 12 mm round cover glass coverslip should fit into a 24-well plate (16.2 mm ID)
 
-3. Add enough :ref:`gelatin coat <gelatin>` to coat coverslip, incubate 10 min at RT
+3. Add enough :ref:`0.1% gelatin <gelatin>` to coat coverslip, incubate 10 min at RT
 4. Aspirate excess gelatin and seed cells
 
 Mounting glass coverslip

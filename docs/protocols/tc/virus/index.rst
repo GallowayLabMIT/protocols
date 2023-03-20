@@ -9,6 +9,6 @@ Virus
    virus_safety
    virus_production
    virus_infection
-   platE_transfection
+   platE_prod
    VSV_production
    *
