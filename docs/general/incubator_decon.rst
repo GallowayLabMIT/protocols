@@ -19,12 +19,16 @@ The incubator manual is located in the drawer to the left of the sink in the mai
 
 Te Ka (Quarantine) and Te Fiti (66-219)
 ___________________
+
+.. warning::
+    Decontaminating these incubators requires the HEPA and outlet filters (3 total) to be replaced. Ensure that you have replacements before beginning!
+
 The incubator decontamination instructions are located in a plastic sleeve on the side of the incubators.
 
-1. Turn off carbon dioxide flow and disconnect tubing from the back of the incubators.
-2. Remove all internal components from the incubator and discard used filters.
+1. Turn off carbon dioxide flow and disconnect tubing from the back of the incubators. Be sure the tubing is not touching the incubator—the incubators get very hot during decon!
+2. Remove all internal components from the incubator (shelves, side walls, top panel) and discard used filters.
 3. Disinfect the incubator components with a dilute bleach solution followed by ethanol.
 4. Replace all internal components and follow manual instructions to start the sterilization cycle. This will take approximately 12 hours.
-5. Once the cycle is complete, open the chamber and reinstall HEPA filters.
+5. Once the cycle is complete, open the chamber and reinstall the filters.
 6. Fill the water tray with autoclaved DI water but DO NOT RECONNECT CARBON DIOXIDE.
 7. Allow the incubators to equilibrate for 12 hours and recalibrate carbon dioxide levels to zero. Then the carbon dioxide may be reconnected and turned on.

@@ -118,9 +118,9 @@ For seeding or other applications that require counting, dissociate with Accutas
 Dissociating with Accutase
 --------------------------
 
-TODO
+.. todo::
 
 Freezing
 ---------
 
-TODO
+.. todo::
