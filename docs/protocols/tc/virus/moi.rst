@@ -3,7 +3,7 @@ MOI Calculation
 ===============
 
 Protocol
---------
+--------------------------
 1.	Seed 293T cells at 20,000 cells per well on a 96-well plate 1 day prior to infection.
 2.  Create a dilution of the virus stock in DMEM with 10% FBS
 
@@ -21,4 +21,8 @@ Row         DMEM        Added
 3.  Add 30 uL of diluted virus + 70 uL DMEM with 10% FBS to each well
 4.  Record how many uL of the original virus stock was used in each well (can be calculated with `this excel file <../../_static/files/MOItemplate.xlsx>`__)
 5.  Count and record the cells in 1 well of the plate at the time of infection
-6.  24 hours later, move on to :doc:`/instruments/attune/attune_operation`
+6.  24 hours later, analyze the cells via :doc:`flow cytometry </tc-basics/flow_cytometry>`
+
+.. note::
+    Rather than seeding the cells 1 day before infection, cells can instead be :ref:`infected in suspension <suspension>` to precisely control the number of cells mixed with the virus.
+    In this case, it is convenient to combine diluted virus with media to a volume of 50 uL in each well, then use the multichannel to add 50 uL cells to each well of the plate.

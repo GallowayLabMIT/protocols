@@ -45,6 +45,7 @@ Flow Cytometry
 
 Cell staining (Live/Dead & surface markers)
 -------------------------------------------
+
 .. note::
     Cells are usually stained in U- or V-bottom 96-well plates but they can be stained in any container (e.g. test tubes, Eppendorf tubes, polystyrene round-bottom tubes, cluster tubes).
 
@@ -67,9 +68,10 @@ Cell staining (Live/Dead & surface markers)
 If staining for intracellular/nuclear protein targets, proceed with the following. If not, skip to step 14.
 
 5.	Remove supernatant and incubate cells in 3.7-4% paraformaldehyde (PFA) (in fume hood) for 15 min
+
    -  EU calls for 3.7% PFA
-  
-6.	Add 1 mL PBS and spin cold at 4°C to pellet cells 
+
+6.	Add 1 mL PBS and spin cold at 4°C to pellet cells
 
 7. Aspirate solution and incubate cells in 0.5% Tween/PBS for 15 min to permeabilize
 

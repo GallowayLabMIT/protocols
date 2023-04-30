@@ -52,7 +52,7 @@ Media change into selection media. Tested concentrations for PiggyBac are:
 =========   ====================
 Cell type   Puro
 =========   ====================
-293T        0.5 ng/mL (20,000x)
+293T        1.0 ng/mL (10,000x)
 U2-OS       0.25 ng/mL (40,000x)
 =========   ====================
 
@@ -108,6 +108,49 @@ At this point, you should see round colonies coming from either outgrowth condit
 
 If the overall integration percentage is high enough, you can do FACS or the BioMicroCenter
 single-cell sorting to isolate clonal lines. If not, you can use the microscope to re-pick.
+
+Clonal selection or enrichment via flow sorting
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. time:: 2 hours pre-flow-sort, 20 minutes per sample for flow sorting (min 90 minutes of sort time).
+
+.. note::
+
+   This assumes that you are sorting on the Sony in the flow core.
+   You can review the `Sony SOP <https://docs.google.com/document/d/1toqMY_qnDy0_YDkcEr2ktDJWcteKe0Pj42_scukqT5s/edit?usp=sharing>`__
+
+1. Two to three days before the sort, make sure you have enough cells going for conditioned media collection.
+   A T75 flask of 293Ts or whatever cell type you are using are a good source for this.
+2. The day before the sort, make sure you have enough cells to sort. You should have more than a million cells,
+   ideally several million.
+3. Prepare your destination tubes and plates. For tubes, if your media does not contain FBS, it is recommended
+   to coat the inside of the tubes with 7.5% BSA solution (put ~1mL in, swirl it around, aspirate). For plates,
+   remember to gelatin coat.
+4. Prepare conditioned media. Collect 1-2 day old media from cells, and filter through a 0.22 micron filter. Combine
+   this 1:1 with fresh media.
+5. Spin down cells, as if you were passaging. Resuspend the cells and count them.
+6. Resuspend cells to a final volume of 2-5 million cells per mL.
+7. Add the prepared conditioned media to your tubes and plates to be sorting into.
+8. Prep a box to bring with you to flow sorting. You should bring:
+   
+   - A P1000 and tips.
+   - Gloves
+   - Prepared tubes and plates to sort onto.
+   - An extra plate for aligning, if sorting onto plates.
+   - Falcon tubes with cell strainer caps.
+   - Enough ice for how many plates you are sorting onto. Ideally, cells stay directly touching the ice once they are sorted.
+
+9. Bring your stuff to the flow core and sort!
+
+.. note::
+
+    If sorting onto plates, you should update the settings to place 100 cells in well A1, with 1 cell in other wells.
+    This ensures that you will be able to locate the cells during outgrowth.
+
+10. Return your cells to the **quarantine** incubator as quickly as possible.
+11. At the end of the week, you likely will need to "top off" media to address evaporation.
+12. One week later, you should be able to locate colonies under the microscope.
+13. One week after that, passage cells onto 6-well plates.
 
 Repicking
 ~~~~~~~~~

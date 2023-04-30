@@ -75,6 +75,8 @@ In-lab, we have the ability to cast two gels simultaneous; this is recommended e
 need one, so that you have a backup in case of pouring mishaps. Our gel runner also requires two
 poured gels to properly seal.
 
+Gels can be stored in zip-lock bags in the fridge for at least several days.
+
 1. Locate two 0.75mm spacer plates and two short glass plates.
 2. Use ethanol and a Kimwipe to clean both glass surfaces.
 3. Assemble them in the green alignment device.

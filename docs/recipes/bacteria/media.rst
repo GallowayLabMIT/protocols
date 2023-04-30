@@ -46,3 +46,16 @@ K2HPO4              0.72 M                      125.4 g
 	fill up to the relevant line on the flask. This doesn't have to be super precise. 
 
 2. Autoclave the salt solution.
+
+SOC Media
+======================
+.. note::
+	We use 2x concentrated SOC for better bacterial growth. This is reflected in the amounts below.
+
+1. Combine 62 g of SOC powder with deionized water to a final volume of 1 L.
+2. Autoclave and let cool.
+
+LB Media
+======================
+1. Resuspend 25 g of LB Broth powder with deionized water to a final volume of 1 L.
+2. Autoclave and let cool.

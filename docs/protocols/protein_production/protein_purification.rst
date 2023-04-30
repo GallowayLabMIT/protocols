@@ -7,9 +7,13 @@ His-tag protein purification
   This protocol was attempted for Tn5 purification. This was unsuccessful,
   though possibly not because of this protocol.
 
+Source
+------
+The `QIAexpressionist </_static/files/QIAexpressionist_5ed.pdf>`__ is the go-to manual on His-tag purifying proteins.
+
 Required solutions
 -------------------
-* **Lysis buffer**:
+* **Lysis buffer**: You have options! Check page 113 of the QIAexpressionist.
 * **10% PEI**: pH to 7.2
 
 .. note::
@@ -69,9 +73,6 @@ Required solutions
 
 .. note::
   Perform the pH after all components have been added.
-
-Protocol
---------
 
 Protocol
 --------

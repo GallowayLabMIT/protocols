@@ -66,3 +66,22 @@ Anytime a package arrives, be sure to mark it as received in Quartzy. To do so, 
 
 .. image:: ../img/ordering-received.png
 
+
+Bulk Plastics Order
+-------------------
+
+The following items are ordered in bulk biannually from Genesee Scientific:
+
+- Serological pipettes
+- Cell culture plates, flasks, and dishes
+- Syringe filters
+- Barrier tips and reach tip reloads
+- Reagent reservoirs
+- Tubes (0.6ml 1.7ml, 15ml, 50ml, cyrovials, culture, PCR)
+- Gloves
+
+Information for the bulk order can be found in lab_jobs folder in the Sharepoint.
+To coordinate a bulk order, collect the tally sheets from lab, and calculate the number of units needed based on usage.
+Input this information into a spreadsheet with the prices from the previous bulk order.
+Directly email this spreadsheet to the Genesee Scientific representative and request a quote.
+Once the order is placed, print new tally sheets, and track the plastics as they are delivered.

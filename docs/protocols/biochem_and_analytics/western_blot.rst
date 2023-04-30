@@ -38,11 +38,11 @@ Protocol:
 5. Add 400 uL of 1X lysis buffer to the 10cm dish of cells
 
     ===================================   ==========================   ==================================
-    **Solution**                          **Vol for 1x10cm**           **Vol for 3x10cm**                       
+    **Solution**                          **Vol for 1x10cm**           **Vol for 3x10cm**
     ===================================   ==========================   ==================================
     ELGA water                             358 µL                         1,170 µL
     10X cell lysis buffer                   40 µL                           130 µL
-    200 mM PMSF                              2 µL                             6.5 µL       
+    200 mM PMSF                              2 µL                             6.5 µL
     ===================================   ==========================   ==================================
 
 6. Tilt to coat, then incubate on ice for 5 minutes.
@@ -57,7 +57,7 @@ Protocol:
 
 
 .. note::
-   * Use prepared lysates as quickly as possible, and store for as short a time as possible. 
+   * Use prepared lysates as quickly as possible, and store for as short a time as possible.
    * Store lysates at -80°C for as long as possible. For lysates that will need to be kept around long term,
      transfer freshly prepared tubes to an available -80°C freezer to prevent degradation.
    * Lysates have a shorter shelf life when stored at -20℃; long-term storage at this temperature is not recommended.
@@ -89,7 +89,7 @@ Materials
 
 .. important::
    Ensure that the Bradford assay kit is compatible with the lysis buffer.
-   
+
    For example, the Bradford assay should be compatible with RIPA lysis buffer but is not compatible with the CST Cell Lysis Buffer due to high amounts of Triton.
 
    See `Bradford Assay Documentation <https://geneseesci.com/shop-online/product-doc/18-442?doc_id=1>`_ for the full list of compatible reagents.
@@ -134,7 +134,7 @@ Blank   800                          0                                 0
 ====== ======================== ================================ ===================
 
 1. Combine each standard and unknown sample with the Bradford Reagent.
-   
+
    * For a working range of 100-1500 ug/mL, pipette 1 uL of each standard or unknown sample into a labeled tube and add 20 uL of the Bradford Protein Assay Reagent and mix well.
    * For a working range of 1-25 ug/mL, pipette 10 uL of each standard or unknown sample into a labeled tube and add 10 uL of the Bradford Protein Assay Reagent and mix well.
 
@@ -157,7 +157,7 @@ Required stock solutions
 ------------------------
 
 * **40% Acrylamide stock solution**: Solution of monomers for gel polymerization.
-  
+
   We find it cheaper to buy premixed 40% stock solution, with a acrylamide:bis-acrylamide
   ratio of 29:1 (3.3%). Stocks with a 37.5:1 ratio also work, and are typically used
   for resolving larger proteins.
@@ -180,7 +180,7 @@ Required stock solutions
   ======================== =================== ===========================================
   Ammonium persulfate       10%                 100 (For example: 10mg/100uL or 100mg/1mL)
   ======================== =================== ===========================================
-  
+
 Casting protocol
 ----------------
 
@@ -199,7 +199,7 @@ Casting protocol
    **Resolving buffer:** ~3 mL per gel (6.5 mL total). Final acrylamide concentration depends on desired protein size:
 
    ============  ==============  ===========================  ===============  =============================
-   Protein Size  Gel %           Vol 40% Acrylamide Stock     Vol DI Water     Vol 3x bis-Tris gel buffer   
+   Protein Size  Gel %           Vol 40% Acrylamide Stock     Vol DI Water     Vol 3x bis-Tris gel buffer
    ============  ==============  ===========================  ===============  =============================
      4-40 kDa     20%               3.25 mL                       1.05 mL        2.2 mL
      12-45 kDa    15%               2.44 mL                       1.86 mL        2.2 mL
@@ -265,9 +265,9 @@ Stacking gel
 4.  Add 1,000 µL of stacking gel into each gel.
 5.  Insert the comb into the top very carefully, one edge at a time to avoid bubbles. The stacking gel will overflow.
 6.  If any bubbles, pop comb slightly up near problem area and use remaining buffer to fill before closing again.
-4.  Wait for the stacking gel to polymerize.
-5.  Rinse with water or IPA (evaporates faster) to remove unpolymerized acrylamide.
-6.  If removing the combs prior to storage, slowly remove the comb, ensuring that wells are not broken.
+7.  Wait for the stacking gel to polymerize.
+8.  Rinse with water or IPA (evaporates faster) to remove unpolymerized acrylamide.
+9.  If removing the combs prior to storage, slowly remove the comb, ensuring that wells are not broken.
 
 
 Loading and Running the Gel
@@ -278,7 +278,7 @@ Modified for a Western Blot from `this <https://gallowaylabmit.github.io/protoco
 Solutions required
 ------------------
 * **20x MES-SDS running buffer stock solution**: Suitable for separating proteins with a molecular weight less than 75 kDa.
-  
+
   It is also generally cheaper to order this as a pre-mixed 20x stock solution. If you need to make it yourself, the recipe is:
 
   =========   ===================  ==========================
@@ -325,7 +325,7 @@ Solutions required
 
 * **0.1% bromophenol blue**: 1 mg / mL
 * **2x Loading Buffer (Laemmli Buffer)**: Used to denature and solubilize protein samples. Can be stored at 4°C.
-  
+
   ===========================  ======================  ================
   Component                     Final concentration     Volume
   ===========================  ======================  ================
@@ -368,13 +368,13 @@ Running procedure
         - Rinse gel holder and runner with water to help reduce smell
 
 7. Pour DI water into a plastic tray (tip box lid), about half a centimeter deep.
-8. Very carefully separate the gel plates without breaking the gel. The gel will stick to one side or the other. 
+8. Very carefully separate the gel plates without breaking the gel. The gel will stick to one side or the other.
 9. With a razor blade, cut off the stacking portion of the gel while still on glass.
 10. Invert the plate/gel over the water and "convince" the gel to fall into the dish. It can help to put the gel and plate into the water and let the solution help the gel release.
     Using a green gel scraper can also help with this process.
 11. Place the gel on a rocker for 2-5 minutes to remove excess free proteins.
 
-.. note:: BAL tried freezing Laemmli buffer-denatured lysate at -20℃ and it worked for Western 
+.. note:: BAL tried freezing Laemmli buffer-denatured lysate at -20℃ and it worked for Western
 
 
 Coomassie Staining
@@ -388,7 +388,7 @@ Solutions required
   Then, add water. Add the glacial acetic acid last to prevent aggregation.
 
   ================  ===================  ==================
-  Component         Final concentration  Amount per 1 liter   
+  Component         Final concentration  Amount per 1 liter
   ================  ===================  ==================
   Coomassie R-250    0.2% (2g/L)          2g
   Methanol           10%                  100 mL
@@ -397,7 +397,7 @@ Solutions required
   ================  ===================  ==================
 
 * **10% Acetic Acid**: Used as a destain solution.
-  
+
   .. Warning:: Do not microwave pure acetic acid.
 
 
@@ -448,7 +448,7 @@ Transferring the protein from the gel to the membrane
 16. Gently close the iBlot™ 2 Gel Transfer Device lid by pressing down with two hands on the sides of the lid. Make sure the latch is secure.
     Do not forcibly push the lid when closing, because it can cause the transfer stack or metal contacts to shift out of position
 17. Ensure that the correct Method is selected.
-    
+
 
   ======  ================  ================  ==============
   Method  Voltage           Default Run Time  Run Time Limit
@@ -490,9 +490,9 @@ Solutions required
 ------------------
 * **10X Tris-Buffered Saline (TBS)**:
   Add ~450 mL of DI water to dissolve the Tris and NaCl. Adjust to a pH of 7.6. Then add the remaining DI water to reach a final volume of 500 mL.
-  
+
     .. note:: Took ~8-9 mL 12N HCl to get to pH ~ 7.6
-  
+
   =========   ===================  =============
   Component   Final concentration  Amount Needed
   =========   ===================  =============
@@ -502,7 +502,7 @@ Solutions required
   =========   ===================  =============
 
 * **10% Tween20**:
-  
+
   =========   ===================  =============
   Component   Final concentration  Amount Needed
   =========   ===================  =============
@@ -513,9 +513,9 @@ Solutions required
   .. note:: Larger volumes of Tween20 are easier to measure because it is very viscous.
 
 * **1x Tris-Buffered Saline / Tween (TBST)**:
-  
+
   ===========   =======================  =====================  =============================
-  Component     Final concentration      Amount Needed (50 mL)   Amount Needed (1 L) 
+  Component     Final concentration      Amount Needed (50 mL)   Amount Needed (1 L)
   ===========   =======================  =====================  =============================
   10X TBS       1X                       5 mL                     100 mL
   10% Tween20   0.1%                     0.5 mL                   10 mL  (or 1 mL Tween-20)
@@ -523,18 +523,18 @@ Solutions required
   ===========   =======================  =====================  =============================
 
 * **Blocking Buffer**:
-  
+
   ===========   =======================  ===================
-  Component     Final concentration      Amount Needed        
-  ===========   =======================  =================== 
-  Milk Powder   5%                       2.5 g                
+  Component     Final concentration      Amount Needed
+  ===========   =======================  ===================
+  Milk Powder   5%                       2.5 g
   10% Tween20   0.1%                     0.5 mL
   10x TBS       1X                       5 mL
   DI Water                               To 50 mL
-  ===========   =======================  =================== 
+  ===========   =======================  ===================
 
 * **10% Blocking Buffer**: For diluting primary and secondary antibodies.
-  
+
   =============================     =======================  ===================
   Component                           Final concentration      Amount Needed
   =============================     =======================  ===================
