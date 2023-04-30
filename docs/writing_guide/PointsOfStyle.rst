@@ -3,6 +3,21 @@ Points of style
 ===============
 
 
+Specific and nonspecific subjects
+-----------------------------------
+As much as possible, use specific subjects to replace nonspecific subjects such as "this." It makes the reader work harder when you use nonspecific subjects. Often when you revise, you should remove them. Including specific subjects will make the writing more powerful. 
+
+**For example:**
+
+**Original:** We aim to build efficient delivery methods for genetic cargoes. This requires...
+
+**Revised:** We aim to build efficient delivery methods for genetic cargoes. Efficient delivery of genetic cargoes requires...
+
+
+If you remove nonspecific subjects, you may be able to eliminate or restructure some of the preceding text. Do we need to state our aim in the preceding sentence? Possibly or perhaps it is understood from the either the sentence prior or following text. Generally, we can assume if we are writing about the topic then it is an important and meaningful subject and the real task is simply explaining why and what we aim to do to tackle the challenges. Note: It is normal for first drafts to include nonspecific subjects. In first drafts, we are aiming to get ideas out. In revising, we are looking to make our ideas clear and concise. 
+
+**Revised-compact:** Efficient delivery of genetic cargoes requires...
+
 Hyphenation
 -------------------------------
 
