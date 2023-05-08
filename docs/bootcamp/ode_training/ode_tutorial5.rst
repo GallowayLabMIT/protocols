@@ -3,7 +3,7 @@ Tutorial 5: Hill functions
 ================================================================
 
 - Lesson PDF: `Lesson5_HillFunctions.pdf <../../_static/files/ode_training_files/Lesson5_HillFunctions.pdf>`_
-- Scripts: `L5_repressor_script.m <../../_static/files/ode_training_files/LL5_repressor_script.m>`_, `L5_repressilator_script.m <../../_static/files/ode_training_files/L5_repressilator_script.m>`_
+- Scripts: `L5_repressor_script.m <../../_static/files/ode_training_files/L5_repressor_script.m>`_, `L5_repressilator_script.m <../../_static/files/ode_training_files/L5_repressilator_script.m>`_
 
 On your own:
 

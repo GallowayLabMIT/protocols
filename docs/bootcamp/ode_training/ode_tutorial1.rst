@@ -3,7 +3,7 @@ Tutorial 1: Modeling gene expression with differential equations
 ================================================================
 
 - Lesson PDF: `Lesson1_Introduction.pdf <../../_static/files/ode_training_files/Lesson1_Introduction.pdf>`_
-- Scripts: `L1_constitutive_script.m </../../_static/files/ode_training_files/L1_constitutive_script.m>`_, `ode-modeling-python.ipynb </../../_static/files/ode_training_files/ode-modeling-python.ipynb>`_
+- Scripts: `L1_constitutive_script.m <../../_static/files/ode_training_files/L1_constitutive_script.m>`_, `ode-modeling-python.ipynb <../../_static/files/ode_training_files/ode-modeling-python.ipynb>`_
 
 On your own:
 
