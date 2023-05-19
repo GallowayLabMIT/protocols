@@ -25,3 +25,5 @@ Ingredient                  Amount (per 100 mL)
 5x stock solution           20 mL
 Ethanol                     80 mL
 ====================    =============================
+
+Other Qiagen recipes are available `here <../../_static/files/QiagenBufferRecipes.pdf>.
