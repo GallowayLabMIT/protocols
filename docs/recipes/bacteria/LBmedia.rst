@@ -4,7 +4,7 @@ LB (Amp/Kan) plate
 
 
 1. Dissolve 32 g of LB agar powder in 800 mL of sterile/ELGA water.  
-   (4g of LB agar powder in 100 mL) /Users/keitakahashi/github/protocols/docs/_build/html/protocols/index.html
+   (4g of LB agar powder in 100 mL)
 2. Autocleave it for 20 min at 121C.
 3. Cool it to about 45-50C by letting it sit on a bench (room temperature).
 
@@ -16,7 +16,7 @@ LB (Amp/Kan) plate
 3. Pour 30-35ml of the antibiotics-containing LB per a petri dish.
    
 .. tip::
-  You can use a pippet but the LB can easily become solid so pouring LB by hand might be a good alternative method. 
+  You can use a pipette but the LB can easily become solid so pouring LB by hand might be a good alternative method. 
 
 8. Incubate the plate at RT until the LB agar become solid (normally it takes about 30-45min).
 9. After the LB agar become solid, put the plates back to a bag and store it at 4C. 
