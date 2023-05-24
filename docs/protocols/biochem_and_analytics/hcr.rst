@@ -9,6 +9,10 @@ Expected time: 3 days
     All spins are performed at ~500 rcf for 4 min. Our centrifuge follows RCF = 1e-4*[rpm]^2 + 4e-2*[rpm] - 6e1, where **2200 rpm = 512 rcf**.
     It is recommended to perform all spins at 4°C once the cells have been fixed to prevent pellet loss. 
 
+.. warning::
+   Both PFA (used in the fixation) and Formamide (used in the hybridization buffers) are hazardous, so all steps should be performed in the fume hood
+
+
 Solution Detection Stage
 ========================
 1. Steps 1-5 of :doc:`antibody_staining`

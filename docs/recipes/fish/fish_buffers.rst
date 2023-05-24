@@ -15,7 +15,7 @@ Ingredient                  Amount
 1M Citric Acid, pH 6        90 uL
 10% Tween 20		        100 uL
 50X Denhardt's Solution     200 uL
-50% Dextran Sulfate         4 mL
+50% Dextran Sulfate         1.5 mL
 20 mg/mL BSA                50 uL
 H20                         Bring volume up to 10 mL
 =======================    =============================
