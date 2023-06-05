@@ -96,20 +96,22 @@ Every ~3-6 month system decontamination
    f. Hit **Next** in the software to start phase 1.
 
 2. Rinse
+
    a. Lower the tube lifter, and remove the plate from the autosampler.
    b. Hit **Next** in the software.
-   c. Remove all liquids from all fluid bottles. Rinse all with deionized water.
-   d. Replace the normal liquids in the fluid bottles.
-   e. Hit **Next** in the software.
-   f. Replace the focusing fluid filters, as detailed in :doc:`user_replacements`.
+   c. Remove all liquids from all fluid bottles. If you have time, rinse bottles that have not yet been bleached with 10% bleach.
+   d. Rinse all with deionized water.
+   e. Replace the normal liquids in the fluid bottles.
+   f. Hit **Next** in the software.
+   g. Replace the focusing fluid filters, as detailed in :doc:`user_replacements`.
 
    .. note::
 
       Replacing the focusing fluid filters before reconnecting the bottles, as suggested here, makes your life much easier.
 
-   g. Clean the Attune with ethanol (wipe up any spills inside the cabinet, clean the metal parts, etc).
-   h. Replace all bottles and reconnect all fluid connections.
-   i. Hit **Next** in the software to start phase 3.
+   h. Clean the Attune with ethanol (wipe up any spills inside the cabinet, clean the metal parts, etc).
+   i. Replace all bottles and reconnect all fluid connections.
+   j. Hit **Next** in the software to start phase 3.
 
 3. Run 3 startup procedures, 2 debubble procedures, and 2 rinse procedures while observing for leaks
    from the newly replaced filters.

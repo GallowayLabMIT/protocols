@@ -4,13 +4,14 @@ Cleaning and autoclaving guidelines
 
 
 .. important::
-	Under no circumstance should dirty glassware be left in the sink or in the autoclave station. All items around that area should be assumed to be clean for autoclaving.
-
+	All glassware will now be dishwashed. Place glassware to be washed to the left of the Elga water dispenser. All bacteria-related glassware should be bleached for 20 minutes and rinsed with water before being placed in the dishwashing locations. All the glassware on the wooden shelves should already be dishwashed and ready to be used.
 
 Washing glassware and tools
 ---------------------------
 
 We currently use Alconox as our soap. Alconox is stored as a powder underneath the sink. Dilute this powder in water in the squirt bottle labeled "Alconox". There is no precise measurement for this.
+
+There is also a dishwasher located in the autoclave room (56-414). If you use this, fill out your information (date, time, name, phone number, office number, and PI initials) in the dishwasher log on the metal racks to the left of the autoclave.
 
 Glass bottles and flasks
 ________________________
@@ -49,17 +50,24 @@ ________________________
 4. Let dry and wrap in tin foil.
 5. Place back into metal container and move to area next to ELGA water dispenser to be autoclaved.
 
-Autoclaving prep
+Autoclaving
 -------------------
 
 Glassware and plastics are autoclaved as needed. Usually, this amounts to twice a week. Clean glassware on the drying rack will be autoclaved as well as any empty tip or tube boxes.
 
-Prep materials as described below, place in autoclave-safe bin and run corresponding cycle:
+Prep materials as described below and place in autoclave-safe bin (located on the racks above the sink). The autoclave is located in room 56-414 and requires card access. 
+To operate the autoclave, first ensure there is not a program currently running. If someone else is currently running the autoclave, fill out your information in the autoclave log (date, name, phone number, office number, PI initials, and cycle time) on the metal shelves and write "next" to the left. 
+Once the autoclave is free, cross this out and fill in the start time for your desired cycle.
+Open the door by turning the wheel fully counterclockwise, then turn the lever counterclockwise.
+Place the bins on the racks inside the autoclave and close the door, first turning the lever and then the wheel fully clockwise.
+Using the screen on the autoclave, ensure the jacket is turned on and select your desired cycle:
 
 - For dry cycles (glassware, plastics, etc.): Gravity >> 20 min / 20 min (~45 min)
 - For wet cycles (liquids such as PBS, LB, etc.): Liquid >> 30 min / 0 min (~1 hr)
 
-
+When the cycle is complete, open the door by first turning the wheel counterclockwise and then the lever. 
+Be cautious of hot steam escaping from the open door. Remove bins from the autoclave using heat-proof gloves.
+Close the autoclave door using the lever, but do not tighten the wheel when the autoclave is not in use.
 
 
 Tip boxes
@@ -86,7 +94,7 @@ Glass pipette containers
 ________________________
 
 1. Make sure no glass shards remain in metal container (shake out over sharps container), throw away the autoclave tape, and place the empty container in the area next to the ELGA water dispenser.
-2. Carefully fill metal containers with glass pipettes with the thin end pointing down into the longer end (i.e. larger handle side points outwards when you open it)
+2. Carefully fill metal containers with glass pipettes with the thin end pointing down (i.e. larger handle side points outwards when you open it)
 3. Add strip of autoclave tape where the lid meets the side of the container.
 
 

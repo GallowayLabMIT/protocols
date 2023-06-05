@@ -32,6 +32,10 @@ class StaleTransform(docutils.transforms.Transform):
             # Skip this file; it doesn't have a git date
             return
         
+        if 'git_from_last_updated' not in dir(self.document.settings.env):
+            return
+        if str(source_relpath) not in self.document.settings.env.git_from_last_updated:
+            return
         last_updated = datetime.datetime.fromtimestamp(
             int(self.document.settings.env.git_last_updated[str(source_relpath)][0].decode())
         )

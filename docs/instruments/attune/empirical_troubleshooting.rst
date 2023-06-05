@@ -61,3 +61,14 @@ on insertion).
 fluid bottle side will prevent the syringe from getting fluid in (unless you elevate
 the focusing fluid bottle). A not fully connected waste line will cause pressure
 to build up in the system and prevent it from working.
+
+Power cycling the Attune
+------------------------
+If the machine is behaving oddly in a way not described above, or if the software prompts
+you to do so, power cycle the machine. To turn the Attune off, switch both the autosampler
+and the main machine off, and let them sit for 30 seconds. Then, to turn the machine on,
+**first turn on the autosampler** (switch is labeled on top with a 1) then turn on the main
+machine (switch is labeled with a 2).
+
+**Explanation:** The autosampler should be turned on first so that the main machine is able
+to sense that it is connected and initiate the correct settings.

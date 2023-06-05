@@ -24,7 +24,7 @@ Stock solutions
     ===================================   ==========================   =========================================================================  ==========================
     EU (100X)                              100 mM                       5 mg EU + 186 µL **DMSO** (74 rxns)                                        1 mM
     CuSO4.5H2O (100X)                      200 mM                       250 mg CuSO4.5H2O + 5 mL H2O (2,800 rxns)                                  2 mM
-    Ascorbic acid (10X) **MAKE FRESH**     200 mg/ml                    120 mg Ascorbic acid + 600 µL H2O (35 rxns)                                20 mg/mL
+    Ascorbic acid (10X) **MAKE FRESH**     200 mg/ml                    120 mg Ascorbic acid + 600 µL H2O (34 rxns)                                20 mg/mL
     ===================================   ==========================   =========================================================================  ==========================
 
     - Main azide solutions
@@ -60,7 +60,7 @@ Stock solutions
 Add EU to cells
 ----------------
 
-1.  In BSC hood, add 2.5 µl of 100 mM EU (100X) to 250 µL of complete growth medium (DMEM/FBS or N3 with no neurotrophics) per 24-well. For a full 24-well plate, 60 uL into 6 mL. 
+1.  In BSC hood, add 2.5 µL of 100 mM EU (100X) to 250 µL of complete growth medium (DMEM/FBS or N3 with no neurotrophics) per 24-well. For a full 24-well plate, 60 µL into 6 mL (90 µL into 9 mL if need more for single color ctrls). 
 2.  Incubate cells for 1 hour at 37°C.
 
 
@@ -106,7 +106,7 @@ Prepare click/label mix
     - The following mix is enough for a full 24-well plate: 4,500 µL ~ 25 rxns (OR  1,000 µL for NaN3 ctrls)
 
     ============================   =================================================
-    **Solution**                   **Volume**
+    **Solution**                   **Volume (for NaN3 ctrls)**
     ============================   =================================================
     PBS                             4,000 µL (or 888 µL)
     CuSO4 (100X, 200 mM)               45 µL (or 10 µL)

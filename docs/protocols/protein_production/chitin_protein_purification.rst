@@ -79,12 +79,38 @@ Protocol
 2. Sonicate the resuspended cells, using 5 cycles of 30-second, medium-amplitude 50% duty-cycle sonication.
 3. Spin to clarify the lysate using maximum centrifuge speed (14600 xg) for 30 minutes.
 4. If the protein of interest has DNA-binding activity, add 1.2 mL/10mL **10% PEI** dropwise while stirring.
+   This should be **branched PEI** as noted above.
    Centrifuge at maximum speed for 30 minutes to remove bound DNA.
 5. Incubate the supernatant with 10 mL chitin resin / 500 mL original culture. Tube rotate for 1 hour at 4C.
 6. Wash with 10-20 CVs of lysis buffer.
 7. Add cleavage buffer. Incubate at 4C for 48 hours.
 8. Elute into separate 1 mL fractions.
-9. Dialysize elution buffer into 2x dialysis buffer, followed by concentration.
+9. Proceed to dialysis and concentration.
+
+Dialysis and concentration protocol
+-----------------------------------
+
+.. note:: 
+
+  Both the dialysis tubing and the protein concentration columns come with a molecular weight cutoff!
+  Make sure that both the tubing and columns are sufficiently sized so that the protein cannot leave
+  through the tubing but also gets concentrated on the column!
+
+
+1. Prepare dialysis tubing, long enough to hold the desired volume, plus about a 20% headspace.
+   You can look up length calculators, or try it out with water first.
+2. For easy filling, soak the tubing in water to make it more pliable.
+3. Clip the bottom of the tubing shut with the dialysis tubing clips.
+4. Set the tubing in a clean glass beaker, in case you spill in the next step.
+5. Using a seriological pipette, transfer each elution buffer fraction into segment of tubing. Close the tubing
+   with a second dialysis tubing clip on the top.
+6. Check that the tubing is watertight, over/inside the clean glass beaker. 
+7. Transfer the tubing to a large plastic beaker, filled with 2x dialysis buffer. Place the beaker + tubing
+   on a stir plate and let the dialysis proceed at 4C in the deli fridge for around 4-8 hours.
+8. Replace the dialysis buffer with fresh buffer, and let it stir for an additional 24 hours.
+9. Further dialysis steps can be added on if desired purity not reached.
+10. Follow the instructions on the protein concentrator columns to concentrate the resulting 
+    Look up length calculators, or try it out with water to determine the correct length.
 
 
 Regeneration Protocol

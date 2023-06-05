@@ -30,8 +30,6 @@ Initial environment check
 If you run into errors, ask someone who has their environment fully setup! All of the following steps should
 be done *inside* a local copy of the ``environment-check`` repository.
 
-blah blah blah
-
 1. Clone the **environment-check** repository at https://github.com/GallowayLabMIT/environment-check.
    You can put this repository wherever you like. This is intentionally a private repository, which means
    that you will have to be in the GallowayLabMIT Github organization and have your local Github credentials
@@ -112,3 +110,4 @@ Completion date
 - Adam Beitz   (2022-06-21)
 - Patrick Han (2022-06-21)
 - Sneha Kabaria (2022-06-21)
+- Joji Teves (2023-02-24)
