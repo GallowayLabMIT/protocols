@@ -20,6 +20,9 @@ The following protocol makes 200 mL which can be used for 50 stocks.
 The following protocol makes 2.5 L of 1X TAE Buffer. 
 
 1. Add 50 mL of 50X TAE concentrate (Genesee catalog #20-194) to a 500 mL graduated cylinder.
+
+    - 50X TAE concentrate is kept under the sink to the left of the gel runners. 
+
 2. Fill graduated cylinder to 500 mL with DI water and add to 1X TAE carboy.
 3. Add an additional 2000 mL (2 L) of DI water to the 1x TAE carboy.
 4. Close the carboy lid and shake thoroughly to mix. 
