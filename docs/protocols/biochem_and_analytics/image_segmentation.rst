@@ -2,6 +2,9 @@
 Image segmentation and particle analysis in ImageJ
 ===================================================
 
+.. warning::
+  CellProfiler has become the preferred software for image segmentation and quantification. 
+
 This protocol describes how to use DAPI images to make a nuclear mask and quantify nuclear staining intensity.
 
 .. important::
