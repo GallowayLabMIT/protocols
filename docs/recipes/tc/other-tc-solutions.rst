@@ -16,6 +16,5 @@ Phosphate buffered saline (PBS)
 
 0.1% Gelatin
 =============
-
-.. todo::
-
+1. Dissolve 0.5 g gelatin (Type A, from porcine skin) (Sigma G1890) into 500uL ELGA water in an autoclavable glass bottle. Scale volume as needed.
+2. Label appropriately and mark with autoclave tape before autoclaving in liquid cycle (30/0).  
