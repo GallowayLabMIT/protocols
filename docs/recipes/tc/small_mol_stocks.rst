@@ -15,3 +15,16 @@ Indole-3-acetamide (Auxin precursor, IAM)
 2. Add mixture to ELGA water to achieve a final IAM concentration of 1.75 mg/mL (10mM).
 3. Sterilize with 0.22 uM filter.
 4. Separate into 50 uL aliquots and store at -20°C.
+
+50mM O6-Benzylguanine (O6BG)
+-----------------------------------------
+1. Dissolve 12 mg of O6BG in 1ml of DMSO.
+2. Sterilize with 0.22 uM filter.
+3. Separate into 50 uL aliquots and store at -20°C.
+
+25mM Guanine 
+-----------------------------------------
+1. Dissolve 7.5 mg of guanine in 2 ml of 0.2N NaOH/Water.
+   (Guanine can not be dissolved with DMSO/Water)
+2. Sterilize with 0.22 uM filter.
+3. Separate into 50 uL aliquots and store at -20°C.

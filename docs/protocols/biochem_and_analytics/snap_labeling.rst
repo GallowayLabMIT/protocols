@@ -42,3 +42,6 @@ Wash and destain ligand
 4. After 30 minutes, remove the Snap-working solution and wash 3 times with FBS containing medium.
 5. On the third wash, leave the media on the cells and incubate at 37°C for 30 minutes to allow unreacted ligand to diffuse out. 
 6. Remove final wash media and proceed to downstream application (imaging, flow, etc.)
+
+.. note::
+  If you got high background signal, you can dilute resuspended Snap ligand in an FBS containing medium 1:500-1:1000
