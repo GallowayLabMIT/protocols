@@ -96,6 +96,8 @@ Media                            to **50 µL**
 
 7. Continue culturing cells (e.g., select for integration) or proceed with end-point assay (e.g., flow cytometry).
 
+.. _spinfection:
+
 Spinfection
 ----------------------------
 
