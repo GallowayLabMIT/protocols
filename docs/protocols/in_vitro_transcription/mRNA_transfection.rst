@@ -5,7 +5,7 @@ We have used `Thermo Lipofectamine MessengerMax <https://www.thermofisher.com/or
 For each, we adapted the protocol from the manufacturer's protocol. 
 
 MessengerMax transfection protocol
-=================
+=======================================
 1. Seed cells to be 70-90% confluent at time of transfection.
 
 .. note:: Amounts given are for transfecting a 96-well with 100 ng of mRNA. If you would like to transfect more mRNA, adjust the amount of MessengerMax (2:1 ratio of reagent to mRNA, i.e., .2 µL MessengerMax per 100 ng mRNA ) Scale up amounts of mRNA, reagent, and KO-DMEM solutions 5x for a 24-well (25 µL total volume) and 12.5x (125 µL total volume) for a 6-well. 
@@ -18,7 +18,7 @@ MessengerMax transfection protocol
 
 
 StemMACS transfection protocol
-=================
+================================
 1. Seed cells to be 70% confluent at time of transfection.
 
 .. note:: Amounts given are for transfecting a 96-well with 100 ng of mRNA. If you would like to transfect more mRNA, adjust the amount of StemMACS (3:1 ratio of reagent to mRNA, i.e., .3 µL StemMACS per 100 ng mRNA ) Scale up amounts of mRNA, reagent, and KO-DMEM solutions 5x for a 24-well (25 µL total volume) and 10x (100 µL total volume) for a 6-well (their recommendations are different from MessengerMax)
