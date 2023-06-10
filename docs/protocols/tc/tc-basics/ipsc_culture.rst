@@ -123,4 +123,15 @@ Dissociating with Accutase
 Freezing
 ---------
 
-.. todo::
+1. Passage cells with ReLeSR through step 4 - incubate empty plate at 37 °C for 5 min.
+2. Add 0.9 mL of media to each well, tap to dislodge cells.
+3. Gently pipet up the liquid with a serological and dispense into a labeled cryovial. 1 well of a 6-well plate per cryovial.  
+
+   - Alternatively, dissociated cells from multiple wells can be pooled into a conical tube before aliquoting for freezing. 
+   - After dissociation, avoid excessive pipetting to maintain cell clumps.
+4. Add 100 uL of DMSO to cryovial to achieve a final concentration of 10% DMSO. 
+  
+   - If multiple wells were pooled in the previous step, add 100 uL of DMSO per well pooled, and then aliquot 1 mL of final mixture into labeled cryovials. 
+   
+5. Transfer tubes to styrofoam boxes in -80 °C freezer for overnight freezing. 
+6. The following day, transfer frozen tubes to liquid nitrogen for longe term storage. 

@@ -103,6 +103,9 @@ Day Five (infect 2):
 
 1.	Collect media from Plat-Es again and reinfect/retransduce the cells for a second day.
 
+.. note::
+    Centrifugation of target cells with virus (spinfection) can improve infection efficiency. Spinfection is typically performed on the second day of transduction. Spinfection protocol is :ref:`here <spinfection>`.
+
 
 Day Six (1 dpi):
 

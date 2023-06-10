@@ -88,7 +88,7 @@ a 96-well plate.
 
 
 .. note:: 
-    Celllysate can be stored on ice up to 4 hours, at -20°C for 2 months, and -80°C for 12 months.
+    Cell lysate can be stored on ice up to 4 hours, at -20°C for 2 months, and -80°C for 12 months.
 
 
 cDNA synthesis using Maxima H Minus Reverse Transcriptase

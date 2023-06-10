@@ -7,6 +7,8 @@ Protocol
 
 Any existing qPCR assay performed efficiently using standard cycling conditions may be converted to a fast qPCR assay with KAPA SYBR FAST qPCR Kits. Typically, re-optimization of reaction parameters is required.
 
+qPCR is performed  at the MIT BioMicro Center on a Roche LightCycler 480 using SYBR Green MasterMix. Roche's documentation is `here <../../_static/files/roche_light_cycler-manual.pdf>`__.
+
 1. Master Mix Preparation
 ---------------------------------
 
@@ -74,7 +76,7 @@ Any existing qPCR assay performed efficiently using standard cycling conditions 
 |                    +---------------------------------+---------------------+--------------+
 |                    | Primer dependent                |  None               | 00:00:20     |
 |                    +---------------------------------+---------------------+--------------+
-|                    | 72                              |  None               | 00:00:01     |
+|                    | 72                              |  Single             | 00:00:01     |
 +--------------------+---------------------------------+---------------------+--------------+
 | Melting curve      | 95                              |  None               | 00:00:05     |
 |                    +---------------------------------+---------------------+--------------+

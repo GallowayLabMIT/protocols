@@ -167,3 +167,32 @@ Repicking requires some trial and error using a pipette tip, but can get good en
 
 5. Check the scraped regions under the Keyence, repeating if you missed the desired colony. If the media level in the source plate
    gets too low, just add more media to that well.
+
+
+Genotyping your line
+~~~~~~~~~~~~~~~~~~~~
+Diagnostic PCR can be performed to validate the presence of your transgene (random integration, site-specific) and whether it integrated to the desired locus (CRISPR, Landing Pad).
+
+1. design primers specific for your cassette using `Primer-BLAST <https://www.ncbi.nlm.nih.gov/tools/primer-blast/>`_. This tool helps pick primers that anneal only to your target and not other genomic regions. 
+
+.. note::
+    This is a predictive tool, therefore multiple primer pairs may need to be designed and tested. 
+
+
+2. For site-specific integration, design primers to perform "In-Out" PCR, as described `here in Figure 3a <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5826598/>`_. 
+3. Isolate genomic DNA from your cell line. When performing routine passaging, spin down an aliquot of cells (50,000-500,000 cells, depending on culturing scale) in a microcentrifuge tube and spin down at 3000 rcf for 5 min.
+4. Aspirate media, and re-suspend pellet in 50 µL of Cell Lysis buffer supplemented with 0.5 µL of Proteinase K.
+   
+.. note::
+    If you're processing multiple samples, you can make a Cell Lysis buffer/Proteinase K mastermix. 
+
+5. Transfer the solution to a PCR tube and incubate at 85 C for 45 min.
+6. Microfuge the PCR tubes to pellet cell debris and use 1 µL of supernatant as template for 20 µL PCR reaction.
+   
+.. important:: 
+    If performing for the first time or you're not planning to sequence verify the amplicons, using Taq colony PCR reagent is sufficient. To validate the sequence junctions for HDR/seamless integration into a LP, use a high-fidelity polymerase (ie., Q5).
+
+7. For transgene-specific primer pairs, include your original vector as a positive control and genomic DNA from untransfected/untransduced cells as a negative control. For site-specific primer pairs, you can only run the negative control (super annoying, I know).
+
+.. note::
+    Genotyping can be challenging. `Touchdown PCR <10.1101/pdb.prot095133>`_ and `nested PCR <10.1101/pdb.prot095182>`_ has helped DSP amplify some tricky genomic DNA segments.   
