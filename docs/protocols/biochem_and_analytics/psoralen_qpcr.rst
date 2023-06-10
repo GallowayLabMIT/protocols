@@ -22,15 +22,3 @@ Aphidicolin 1 μM            338.48 g/mol
 =========== =============   =============  =========
 
 
-Cell harvest and DNA extraction
--------------------------------
-Single-cell acquisition
------------------------
-.. time:: 3-5 minutes per cell.
-
-.. important:: All work should be performed with RNase free reagents!
-
-
-1.	Cells should be plated on the lids of electrophysiology dishes to prevent interferences of dish sides with micromanipulator angle of approach. 
-2.	Label PCR tube strips with numbers to correspond to the number of the cell picked.
-3.	Add 5 ul of Cells Direct 2X rxn (Cells Direct One-step qRT-PCR kit , Life, Cat# 11753-100) mix to each PCR tube. 
