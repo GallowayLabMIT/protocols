@@ -3,11 +3,11 @@ Competnet cells　(NEB stable)
 =============================
 
 Day 1. Culture NEB stable cells for overnight.
---------------------------------------------------------
+******
 Take the glycerol stock of NEB stable from -80C freezer (Elsa) and pick the cells and culture them with 2ml of plain LB at 30C for overnight.
 
 Day 2. Grow the competent cells and stock the cells.
------------------------------------------------------
+******
 
 1. Take the 0.5ml of the overninght NEB stable cells from Day1, and put the cells into 50ml of plain LB and culture them @ 30C until the OD(600nm) reaches 0.4-0.6 (use nanodrop to measure the OD).
 
@@ -29,7 +29,7 @@ Day 2. Grow the competent cells and stock the cells.
 10. To make sure if the competent cells are not carrying any plasmid, culture the competnet cells made at step 8. with 2ml of LB-Kan, LB-Amp, and, LB-Amp-Chlor for about 2days at 30C.
 
 Day 4. Confirm the cell growth
-------------------------------
+******
 
 1. Confirm if the competent cells were not growing in any of the media. If you see cell growth in either LB media, discard the competent cells you made and remake the cell from step 1. 
 
