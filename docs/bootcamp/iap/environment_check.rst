@@ -111,3 +111,4 @@ Completion date
 - Patrick Han (2022-06-21)
 - Sneha Kabaria (2022-06-21)
 - Joji Teves (2023-02-24)
+- Deon Ploessl (2023-06-27)
