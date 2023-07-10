@@ -189,17 +189,25 @@ DMSO                       100 µL          10%
 HEPES-buffered DMEM
 -------------------
 
-For use during lentivirus or retrovirus production in HEK293T cells.
+For use during lentivirus or retrovirus production in HEK293T cells. We use HEPES Sigma-Aldrich (H3375).
 
-**1M HEPES stock solution** (filter sterilize after pH-ing)
+**1M HEPES stock solution** (filter sterilize with 0.22 µm filter after pH-ing)
 
 ==============================  =============================== ==============
 Component                       Concentration                   Amount/50 mL
 ==============================  =============================== ==============
-HEPES-potassium salt            1M                              13.82 g
+HEPES                           1M                              13.82 g
 DI H2O                          main solvent                    50 mL
-Hydrochloric acid               to pH 7.0
+NaOH                            to pH 7.0
 ==============================  =============================== ==============
+
+.. note:: 
+    When NBW did this on 7/10/23, I did 41.46 g HEPES + 150 mL water.
+    The HEPES takes up a lot of volume so I would dissolve in 100 mL ELGA-filtered water, then check volume and increase to 150 mL.
+
+    At the beginning, pH = 5.45 and I had to add 8.9 mL 4N NaOH to get to pH = 7.00.
+
+    
 
 **HEPES-buffered DMEM**
 
