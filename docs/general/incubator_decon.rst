@@ -1,15 +1,15 @@
-======================
+=========================
 Incubator Decontamination
-======================
+=========================
 Please refer to the manuals for detailed decontamination instructions. Below are additional tips and instructions not stated in the manuals.
 Decontamination should be done at least twice per year.
 
 Maui and Moana (Main TC)
-________________
+___________________________________
 Follow instructions on the incubator display.
 
 Hei Hei and Pua (Main TC)
-___________________
+______________________________________
 The incubator manual is located in the drawer to the left of the sink in the main TC room. Refer to Chapter 9 (Page 53) for detailed instructions.
 
 1. Remove the plastic water tray and empty. This tray may be autoclaved. If any water remains in the bottom of the incubator, use the water pump hanging on the side of the incubator to empty.
@@ -18,7 +18,7 @@ The incubator manual is located in the drawer to the left of the sink in the mai
 4. Once the decontamination routine is complete, follow instructions to begin the auto-start routine. This will take approximately 10 hours.
 
 Te Ka (Quarantine) and Te Fiti (66-219)
-___________________
+_______________________________________
 
 .. warning::
     Decontaminating these incubators requires the HEPA and outlet filters (3 total) to be replaced. Ensure that you have replacements before beginning!
