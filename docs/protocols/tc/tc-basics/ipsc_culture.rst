@@ -22,29 +22,34 @@ There are two main dissociation reagents we use:
 
 **Other Reagents**
 
-- `GelTrex <https://www.thermofisher.com/order/catalog/product/A1413301>`_: basement membrane for coating plates; 50X stored at -20°C in 120 µL aliquots, enough each for one 6-well plate
+- `Geltrex <https://www.thermofisher.com/order/catalog/product/A1413301>`_: basement membrane for coating plates; 50X stored at -20°C in 120 µL aliquots, enough each for one 6-well plate (see `GelTrex Aliquoting <_geltrex-aliquot>`_ for more information)
 - `ROCK inhibitor <https://www.caymanchem.com/product/10005583>`_: Y-27632, a chemical inhibitor of ROCK activity used to prevent differentiation upon thawing and passaging; 1000X stored at -20°C
 - DMEM/F12 for coating plates and spinning down cells
 - PBS
 
-GelTrex coating plates
+.. _geltrex-coating:
+
+Geltrex coating plates
 ----------------------
 
 .. important:: Plates require at least 1 hour to coat, so start early or make extras up to a week ahead of time!
 
-1. Thaw GelTrex on ice (use the designated TC styrofoam for ice).
+1. Thaw Geltrex on ice (use the designated TC styrofoam for ice).
 
 
    - Thaw one tube (50X, 120 µL aliquot) per 6-well plate to coat. It is recommended to only do ~2 at a time to avoid unintentional gelling.
    - Flick the tube to mix as it thaws and to speed up the process.
-   - While the GelTrex is thawing, prepare other materials in the BSC: 6-well plate(s), 15mL conical, DMEM/F12
+   - While the Geltrex is thawing, prepare other materials in the BSC: 6-well plate(s), 15mL conical, DMEM/F12
 
-2. Prepare at 15 mL conical with 6 mL DMEM/F12. Immediately once the GelTrex has thawed, pipet it into the prepared 15 mL conical. Pipet 1 mL of the DMEM/F12 mix back into the GelTrex tube to wash out any residual solution and return the liquid to the conical.
+2. Prepare at 15 mL conical with 6 mL DMEM/F12. Immediately once the Geltrex has thawed, pipet it into the prepared 15 mL conical. Pipet 1 mL of the DMEM/F12 mix back into the Geltrex tube to wash out any residual solution and return the liquid to the conical.
 3. With a serological pipette, pipet up and down once, then dispense 1 mL per well into the 6-well plate. Rock the plate to coat the entire surface.
 4. Let the plate sit to coat:
 
    - *If using same-day*: leave the plate at 37°C for at least 1 hour
    - *If preparing ahead*: parafilm the plate, then leave it at room temperature overnight. Plates can be stored at room temperature for at least a week.
+
+.. note::
+   The official recommendation is to store coated plates at 4ºC for up to 2 weeks, and then equilibrate them at room temp before plating.
 
 5. Immediately before seeding cells, aspirate the liquid from the coated well(s). Leave the liquid on any unused wells; these can be aspirated and used at a later date.
 
@@ -71,7 +76,7 @@ Thawing
 General Culturing Tips
 ----------------------
 
-- Always culture human iPSCs on GelTrex-coated plates (or other similar matric coating).
+- Always culture human iPSCs on Geltrex-coated plates (or other similar matric coating).
 - Typically, all culturing is done in 6-well plates. Use at least 2 mL of media per well.
 - Change to fresh media *every day* to keep the cells healthy. iPSCs are very metabolically active and can easily spontaneously differentiate, so if the media looks very yellow try refreshing with a larger volume (e.g., 3 mL).
 - Some amount of cell death is expected, but media changes every 24 hrs with enough fresh media should mitigate this.

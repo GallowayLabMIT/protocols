@@ -7,16 +7,16 @@ Common aliquot sizes for TC
 
 .. important::
     Dissolve neurotrophics into 0.1% BSA/PBS only, using **BSA, Millipore Sigma, A2058**.
-    For the FGF, it is possible to do sterile PBS but it is recommended that you use the same filtered 0.1% BSA/PBS 
+    For the FGF, it is possible to do sterile PBS but it is recommended that you use the same filtered 0.1% BSA/PBS
 
 ===================== ==============================
-Neurtrophic            Cat        
-===================== ============================== 
+Neurotrophic            Cat
+===================== ==============================
 BDNF                   R&D Systems 248-BDB-050
 CNTF                   R&D Systems 257-NT-050
 GDNF                   R&D Systems 212-GD-050
 FGF                    PeproTech 100-18B
-===================== ============================== 
+===================== ==============================
 
 For Neurotrophic factors, from the reagents in the glass tubes:
 
@@ -26,7 +26,7 @@ For Neurotrophic factors, from the reagents in the glass tubes:
 **For FGF only**
 
 3.  Make 10 µL of 10kx master stock aliquots for long term -80°C storage
-    
+
     - You'll end up with ~50 of 10kx aliquots
 
 **For BDNF, CNTF, GDNF only**
@@ -36,13 +36,13 @@ For Neurotrophic factors, from the reagents in the glass tubes:
     - You'll end up with ~5.5 of 10kx aliquots
 
 5.	For BDNF, CNTF, GDNF only, *directly* add 810 µL filtered 0.1% BSA/PBS to the 90 µL 10kx master stock to make 10 µg/ml (1,000x) stock aliquots
-   
+
     - For the last half 10kx master stock aliquot, you'll have to manually measure it day of to know how much BSA/PBS to add. e.g. 35.8 µL will need 322.2 µL.
 
 6.  Make 50 µL aliquots for medium term -20°C storage
-    
+
     -  You'll end up with ~18 of 1,000x aliquots (2 rows of a cardboard box)
-    -  Leave the last aliquot for short term use in 4°C 
+    -  Leave the last aliquot for short term use in 4°C
     -  You can use the full 50 µL -20°C aliquots to directly make 50 mL N3 aliquots for reprogramming experiments
 
 
@@ -50,16 +50,16 @@ RepSox
 -----------------
 
 ===================== ============
-Property                            
-===================== ============ 
+Property
+===================== ============
  Selleck Chem #         S7223
- MW                     287.32                 
- 1000x stock            7.5 mM          
- Final concentration    7.5 uM         
-===================== ============ 
+ MW                     287.32
+ 1000x stock            7.5 mM
+ Final concentration    7.5 uM
+===================== ============
 
-1. To make working 1,000x stock (7.5 mM), resuspend 25 mg RepSox in 11.6 mL DMSO. 
-2. Aliquot 50 uL in 600 uL tubes and store at -20°C in a labeled box. 
+1. To make working 1,000x stock (7.5 mM), resuspend 25 mg RepSox in 11.6 mL DMSO.
+2. Aliquot 50 uL in 600 uL tubes and store at -20°C in a labeled box.
 
 
 
@@ -95,3 +95,18 @@ Fetal Bovine Serum (FBS) Aliquots
 - Thaw 50 mL pen-strep bottle in the fridge overnight
 - Pen-strep is aliquoted into 5 mL aliquots and stored in the TC -20°C until used.
 - Take responsibility for aliquoting new stocks, when older stocks are almost used up. Make sure to use sterile technique in preparing aliquots.
+
+
+.. _geltrex-aliquot:
+
+50X Geltrex aliquots
+--------------------
+
+1. New orders of Geltrex (`Thermo Fisher Scientific A1413302 <https://www.thermofisher.com/order/catalog/product/A1413301>`_) should be stored at -80ºC until aliquoting
+2. Thaw the new vial overnight at 4ºC
+3. The next day, prepare ice (use designated TC styrofoam) to chill reagents during aliquoting
+4. Pre-chill DMEM/F12 and fresh, labeled 1.7 mL microcentrifuge tubes on ice
+5. Dilute the Geltrex 1:1 with the cold DMEM/F12. Immediately aliquot 120 µL each into prepared tubes.
+6. To use, further dilute a 120 µL 50X Geltrex aliquot in 6 mL cold DMEM/F12 (for a final 1:100 dilution). This is enough to coat one 6-well plate. See `Geltrex coating plates <_accutase-dissociation>`_ for additional details.
+
+Reference: `<https://assets.thermofisher.com/TFS-Assets/LSG/Application-Notes/stem-cell-transfection-guide-app-note.pdf>`_
