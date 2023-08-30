@@ -79,12 +79,24 @@ The incubator decontamination instructions are located in a plastic sleeve on th
 **Day 1**
 
 1. Turn off the incubators (power switch is located on the top left side of each).
-2. Turn off carbon dioxide flow and disconnect tubing from the back of the incubators. Be sure the tubing is not touching the incubator—the incubators get very hot during decon!
+2. Turn off carbon dioxide flow by screwing the knob counterclockwise until the pressure gauge reads zero. The carbon dioxide tanks are located on the wall to the left of the incubators.
 
-   *Details TODO*
+.. figure:: /img/incubator_co2_gauge.jpg
+    :align: center
+    :figwidth: 60%
 
-3. Remove and discard used filters in biowaste: 1 HEPA and 2 inlet filters.
-4. Remove and disassemble all internal components from the incubator. Items below are listed in the order to remove:
+    Carbon dioxide knob (black, center) and pressure gauge (top, currently at 0 psi).
+
+3. Disconnect the carbon dioxide tubing from the back of the incubators. Be sure the tubing is not touching the incubator—the incubators get very hot during decon!
+
+.. figure:: /img/incubator_co2_line.jpg
+    :align: center
+    :figwidth: 60%
+
+    Carbon dioxide tubing connected to the back of Maui (top incubator).
+
+4. Remove and discard used filters in biowaste: 1 HEPA and 2 inlet filters.
+5. Remove and disassemble all internal components from each incubator. Items below are listed in the order to remove:
 
    - 1 water tray
    - 3 shelves
@@ -104,13 +116,13 @@ The incubator decontamination instructions are located in a plastic sleeve on th
 
     Interior of a disassembled incubator.
 
-5. Disinfect the incubator components with a dilute bleach solution followed by ethanol. Also disinfect the inside of the incubator and glass door.
+6. Disinfect the incubator components with a dilute bleach solution followed by ethanol. Also disinfect the inside of the incubator and glass door.
 
    - Tip: Fill one of the water trays with 10% bleach and dip paper towels into the solution to clean
    - Wear a lab coat for this cleaning step to prevent bleach from staining your clothes. Be sure to put the dirty lab coat in the laundry hamper once you finish!
    - It is recommended that 2 or more people help with this cleaning step (**approximately 1 hour**)
 
-6. Replace all internal components (reverse order of the above list, this does NOT include filters).
+7. Replace all internal components (reverse order of the above list, this does NOT include filters).
 
 .. figure:: /img/incubator_shelf_location.jpg
     :align: center
@@ -118,7 +130,7 @@ The incubator decontamination instructions are located in a plastic sleeve on th
 
     Location of shelf holder bars.
 
-7. Turn the incubators on and initiate the sterilization cycle by holding down the green button on the right for 3 seconds. The screen will flash "Remove HEPAs" and "Remove water", press Enter to continue.
+8. Turn the incubators on and initiate the sterilization cycle by holding down the green button on the right for 3 seconds. The screen will flash "Remove HEPAs" and "Remove water", press Enter to continue.
 
 .. figure:: /img/incubator_sterilization_button.png
     :align: center
@@ -126,7 +138,7 @@ The incubator decontamination instructions are located in a plastic sleeve on th
 
     Diagram of the incubator display with the sterilization cycle button indicated.
 
-8. Place the "Incubator decon in progress" sign on the incubators and allow the sterilization cycle to proceed. This will take **approximately 12 hours**.
+9. Place the "Incubator decon in progress" sign on the incubators and allow the sterilization cycle to proceed. This will take **approximately 12 hours**.
 
    - Heat up: 2-4 hours
    - Sterilization: 2 hours
@@ -134,7 +146,7 @@ The incubator decontamination instructions are located in a plastic sleeve on th
 
 **Day 2**
 
-9.  Once the cycle is complete, open the chamber and install new filters (1 HEPA, 2 inlet; see diagram below). Insert the temperature sensor into the metal HEPA collar behind the large metal ceiling piece.
+10.  Once the cycle is complete, open the chamber and install new filters (1 HEPA, 2 inlet; see diagram below). Insert the temperature sensor into the metal HEPA collar behind the large metal ceiling piece.
 
 .. figure:: /img/incubator_filters.png
     :align: center
@@ -142,6 +154,17 @@ The incubator decontamination instructions are located in a plastic sleeve on th
 
     Diagram of the incubator filters. The inlet filters are labeled "Access port filter" and "Air sample filter".
 
-10. Fill the water tray with autoclaved DI water but DO NOT RECONNECT CARBON DIOXIDE. Allow the incubators to equilibriate for **approximately 12 hours**.
-11. Recalibrate carbon dioxide levels to zero on the incubator display. Reconnect and turn on the carbon dioxide.
-12. Once carbon dioxide levels reach 5%, the incubators may be used.
+11. Fill the water tray with autoclaved DI water but DO NOT RECONNECT CARBON DIOXIDE. Allow the incubators to equilibriate for **approximately 12 hours**. If necessary, a shorter equilibriation period may suffice.
+
+**Day 2 or 3**
+
+12. Recalibrate carbon dioxide levels to zero on the incubator display.
+
+    1. Press "Mode" button
+    2. Toggle left/right arrow buttons until the display reads "CO2 CAL"
+    3. Press up/down arrow buttons to set the calibration value to 0.0
+    4. Press "Mode" button to finish
+
+13. Reconnect the carbon dioxide tubes to both incubators (see image at step #3). Before turning on the carbon dioxide flow, it is recommended to turn off the incubators (power switch is located on upper left of each). This aids in finding any leaks/incomplete seals.
+14. Turn on carbon dioxide flow by screwing the knob clockwise until the pressure gauge reads 15 psi (see image at step #2). If any audible leaks are detected, determine the source of the leak, turn off the carbon dioxide flow, resolve the issue, then turn the flow back on.
+15. Turn the incubators back on. Once carbon dioxide levels reach 5%, the incubators may be used.
