@@ -36,19 +36,17 @@ The pairs of hard drives are stored in fireproof/waterproof safe boxes. Ideally,
 one of the safe boxes somewhere in lab/in an office, and store another one offsite (with Katie).
 
 Which NGS datasets are stored on which pair of hard drives is listed in a
-`spreadsheet in the OneDrive <https://mitprod.sharepoint.com/:x:/s/GallowayLab/ERLZeBrX4OVIpMRjG9Q5foIBV0iK1xhWT1DEF2Qg1dgGCA?e=0OhHi8>`__
+`spreadsheet in the OneDrive <https://mitprod.sharepoint.com/:x:/s/GallowayLab/ERLZeBrX4OVIpMRjG9Q5foIBV0iK1xhWT1DEF2Qg1dgGCA?e=0OhHi8>`__.
 
-Adding a new NGS dataset checklist
-----------------------------------
-- Compress the dataset, either into a ``.tgz`` or a ``.zip``.
-- Check the hard drive spreadsheet, and determine if the dataset fits on one of the existing disk pairs (including an extra 3-5% for parity data).
-- If there is not enough room, order a new pair of hard drives.
-  There are suggestions listed in the `backup helper instructions <https://github.com/GallowayLabMIT/cold_backups>`__;
-  as of 2023, it is recommended to get 6TB Western Digital Blue CMR (conventional magnetic recording) hard drives. This might
-  change in the future, so read the instructions!
-- Locate and bring both fireproof safes to lab. One is likely with Katie or otherwise offsite from 66.
-- Copy the dataset onto both drives, into the `data` folder.
-- Follow the `backup helper instructions <https://github.com/GallowayLabMIT/cold_backups>`__
+Adding a new NGS dataset
+-------------------------
+1. Compress the dataset, either into a ``.tgz`` or a ``.zip`` file.
+2. Check the hard drive spreadsheet, and determine if the dataset fits on one of the existing disk pairs (including an extra 3-5% for parity data).
+3. If there is not enough room, order a new pair of hard drives. There are suggestions listed in the `backup helper instructions <https://github.com/GallowayLabMIT/cold_backups>`__;
+   as of 2023, it is recommended to get 6TB Western Digital Blue CMR (conventional magnetic recording) hard drives. This might change in the future, so read the instructions!
+4. Locate and bring both fireproof safes to lab. One is likely with Katie or otherwise offsite from Building 66.
+5. Copy the dataset onto both drives, into the `data` folder.
+6. Follow the `backup helper instructions <https://github.com/GallowayLabMIT/cold_backups>`__.
 
 Once a year checklist
 ---------------------
@@ -56,9 +54,9 @@ The main instructions on how to use the backup helper are available at https://g
 
 In short, once a year you should:
 
-- Bring both fireproof safes to lab. One is likely with Katie or otherwise offsite.
-- For each pair of drives, load each into the external hard drives enclosures and connect to the same computer.
-- Follow the `backup helper instructions <https://github.com/GallowayLabMIT/cold_backups>` to run the auto-verification.
-- Do the suggested spot-check manual check on one of the files both as practice and to make sure the automated helper is working.
-- Check the desiccant packs. You can either weigh them to see how much water they have absorbed, or look at the color of the bead.
-  You can regenerate the desiccant by microwaving the packs for the listed time (or until they lose water mass).
+1. Bring both fireproof safes to lab. One is likely with Katie or otherwise offsite.
+2. For each pair of drives, load each into the external hard drives enclosures and connect to the same computer.
+3. Follow the `backup helper instructions <https://github.com/GallowayLabMIT/cold_backups>`_ to run the auto-verification.
+4. Do the suggested spot-check manual check on one of the files both as practice and to make sure the automated helper is working.
+5. Check the desiccant packs. You can either weigh them to see how much water they have absorbed, or look at the color of the beads.
+   You can regenerate the desiccant by microwaving the packs for the listed time (or until they lose water mass).

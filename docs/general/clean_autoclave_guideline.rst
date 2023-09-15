@@ -4,7 +4,7 @@ Cleaning and autoclaving guidelines
 
 
 .. important::
-	All glassware will now be dishwashed. Place glassware to be washed to the left of the Elga water dispenser. All bacteria-related glassware should be bleached for 20 minutes and rinsed with water before being placed in the dishwashing locations. All the glassware on the wooden shelves should already be dishwashed and ready to be used.
+	**All glassware will now be dishwashed.** Place glassware to be washed to the left of the Elga water dispenser. All bacteria-related glassware should be bleached for at least 15 minutes and rinsed with water before being placed in the dishwashing locations. All the glassware on the wooden shelves near the entrance to main TC should already be dishwashed and ready to be used.
 
 Washing glassware and tools
 ---------------------------
@@ -20,11 +20,12 @@ ________________________
   If you empty a glass bottle or flask (media, PBS, gelatin, ELGA water, etc.), *you are responsible for washing it.* If you cannot wash the bottle immediately, keep the bottle on your personal lab bench.
 
 1. If the glassware had cells in it (e.g. midipreps) first add bleach to a concentration of 10% and let sit for at least 15 min.
-2. Add Alconox and water, and shake/swirl vigorously to clean. Use the brushes by the sink for tough spots.
-3. Rinse thoroughly with tap water until no soap bubbles are left.
-4. Perform a quick rinse with DI water.
-5. Put glass to dry on drying rack.
-6. Move glassware when dry to the shelving with the other dry, clean glassware. To prevent dust accumulation, store beakers upside down and add foil to flask mouths.
+2. Glassware can now be placed in the area to be dishwashed. Alternatively, follow the steps below to wash by hand.
+3. Add Alconox and water, and shake/swirl vigorously to clean. Use the brushes by the sink for tough spots.
+4. Rinse thoroughly with tap water until no soap bubbles are left.
+5. Perform a quick rinse with DI water.
+6. Put glass to dry on drying rack.
+7. Move glassware when dry to the shelving with the other dry, clean glassware. To prevent dust accumulation, store beakers upside down and add foil to flask mouths.
 
 Glass beads
 ________________________
@@ -41,7 +42,7 @@ ________________________
 Dissection Tools
 ________________________
 
-.. note:: 
+.. note::
   Dissection tools should be washed as soon as dissection is finished. Dirty tools should not be left at autoclave station.
 
 1. After dissection, spray with ethanol and remove any visible residue.
@@ -53,11 +54,12 @@ ________________________
 Autoclaving
 -------------------
 
-Glassware and plastics are autoclaved as needed. Usually, this amounts to twice a week. Clean glassware on the drying rack will be autoclaved as well as any empty tip or tube boxes.
+Glassware and plastics are autoclaved as needed. Usually, this amounts to twice a week.
+Clean glassware on the appropriate storage shelf (i.e., wooden shelves next to the entrance to main TC) will be autoclaved as well as any empty tip or tube boxes in the autoclave area next to the sink.
 
-Prep materials as described below and place in autoclave-safe bin (located on the racks above the sink). The autoclave is located in room 56-414 and requires card access. 
-To operate the autoclave, first ensure there is not a program currently running. If someone else is currently running the autoclave, fill out your information in the autoclave log (date, name, phone number, office number, PI initials, and cycle time) on the metal shelves and write "next" to the left. 
-Once the autoclave is free, cross this out and fill in the start time for your desired cycle.
+Prep materials as described below and place in autoclave-safe bin (located on the racks above the sink). The autoclave is located in room 56-414 and requires card access.
+To operate the autoclave, first ensure there is not a program currently running. If someone else is currently running the autoclave, fill out your information in the autoclave log (date, name, phone number, office number, PI initials, and cycle time) on the metal shelves and write "next" to the left.
+Once the autoclave is free, cross out "next" and fill in the start time for your desired cycle.
 Open the door by turning the wheel fully counterclockwise, then turn the lever counterclockwise.
 Place the bins on the racks inside the autoclave and close the door, first turning the lever and then the wheel fully clockwise.
 Using the screen on the autoclave, ensure the jacket is turned on and select your desired cycle:
@@ -65,7 +67,7 @@ Using the screen on the autoclave, ensure the jacket is turned on and select you
 - For dry cycles (glassware, plastics, etc.): Gravity >> 20 min / 20 min (~45 min)
 - For wet cycles (liquids such as PBS, LB, etc.): Liquid >> 30 min / 0 min (~1 hr)
 
-When the cycle is complete, open the door by first turning the wheel counterclockwise and then the lever. 
+When the cycle is complete, open the door by first turning the wheel counterclockwise and then the lever.
 Be cautious of hot steam escaping from the open door. Remove bins from the autoclave using heat-proof gloves.
 Close the autoclave door using the lever, but do not tighten the wheel when the autoclave is not in use.
 
@@ -73,12 +75,12 @@ Close the autoclave door using the lever, but do not tighten the wheel when the 
 Tip boxes
 ________________________
 
-1. When a box of tips is emptied, recycle the empty plastic insert and autoclave tape, and place the empty box in the area next to the ELGA water dispenser.
+1. When a box of tips is emptied, :doc:`recycle </general/recycling>` the empty plastic insert and autoclave tape, and place the empty box in the area next to the ELGA water dispenser.
 
-  .. note:: 
+  .. note::
     Filter tip boxes do not need to be reused and the whole thing can be recycled when empty.
 
-2. Recycle any broken tip boxes.
+2. :doc:`Recycle </general/recycling>` any broken tip boxes.
 3. Add inserts with new tips to empty boxes and add strip of autoclave tape where the lid meets the side of the box.
 
 Tube containers

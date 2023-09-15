@@ -3,7 +3,7 @@
 Replacing the logged-in OneDrive user
 =====================================
 
-IST does not provide "service users", so one of us has to be logged into the lab computers
+IST does not provide "service users", so a lab member has to be logged into the lab computers
 in order for OneDrive syncing to work. Occasionally, someone will graduate or swap roles,
 so we need to change the logged in user.
 

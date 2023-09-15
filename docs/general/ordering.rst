@@ -2,6 +2,10 @@
 Ordering
 ====================================
 
+There are several ways to order/request new lab reagents. For all lab reagents, materials, etc., be sure to enter the information in Quartzy so that inventory can be tracked.
+(This excludes oligos, Addgene plasmids, and most Amazon items for the office.)
+See the :doc:`receiving instructions </general/receiving>` for proper tracking and storage of delivered items.
+
 Direct ordering through Coupa
 -----------------------------
 
@@ -10,13 +14,20 @@ on the right that are available for "punchout", i.e. you can just add to cart an
 
 On the Coupa checkout screen, fill out the following information:
 
-- **Address**: Under the \'Ship To\' tab, click the magnifying glass. Search for \'Building 66\' and select the standard delivery option. This is 32 Vassar St, the main receiving area for MIT deliveries.
+- **Address**: Under the \'Ship To\' tab, click the magnifying glass. Search for Building 66 by typing \'66\' and select the standard delivery option. This is 32 Vassar St, the main receiving area for MIT deliveries.
 
     .. image:: ../img/ordering-address.png
 
-- In the \'Attention\' box, add your name with the lab address in parentheses, i.e., \'Your Name (66-219)\'.
+- In the \'Attention\' box, add lab address and your name, i.e., \'66-219 – Your Name\'.
 
-    .. image:: ../img/ordering-review-cart.png
+   .. important::
+        Be sure to write the lab address first! Occasionally, Amazon deliveries will truncate this field.
+
+.. figure:: /img/ordering-review-cart.png
+    :align: center
+    :figwidth: 85%
+
+    **Replace this image!**
 
 - **Billing**: For each item, choose the correct item type (e.g., General Lab Supplies) and click the magnifying glass to choose the PO to charge.
 
@@ -26,11 +37,18 @@ On the Coupa checkout screen, fill out the following information:
 
     .. image:: ../img/ordering-account-2.png
 
+
 - Double check that the Approver workflow is accurate (i.e., through ChemE) and submit the order.
 
     .. image:: ../img/ordering-approvers.png
 
 After placing the order through Coupa, be sure to add the items to Quartzy (see below). This helps organize the lab inventory and facilitates re-ordering.
+
+
+Attaching a PO to a Coupa order
+-------------------------------
+
+**TODO**
 
 
 Requests through Quartzy
@@ -45,26 +63,20 @@ There are three scenarios for adding requests to Quartzy: re-ordering an item in
 
 To request an item already in the inventory, select the item and click on the \'Request\' button. Double check that the catalog number, price, and quantity are correct, then click \'Request\' to submit the request for Tseganesh to order.
 
-.. image:: ../img/ordering-reordering.png
+    .. image:: ../img/ordering-reordering.png
 
 **New Requests**
 
-To request a new item, select the \'Requests\' tab and click the \'Request\' button in the top left corner of the page. Search for the item by Manufacturer and Catalog Number.
+To request a new item, select the \'Requests\' tab and click the \'Request\' button in the top left corner of the page. Search for the item by Manufacturer and Catalog Number, and enter the correct price and quantity.
 There are two suppliers to choose from: the \'Quartzy Shop\', in which Quartzy fulfills the order (can be cheaper but may experience delays), or the manufacturer directly. Then click \'Request\' to submit the request for Tseganesh to order.
 
-.. image:: ../img/ordering-new.png
+    .. image:: ../img/ordering-new.png
 
 **Adding Ordered Items**
 
 To add an item ordered directly through Coupa, follow the same process as for a new request. The item will appear in the \'New\' section under the \'Requests\' tab. Then, select the \'Mark Ordered\' button to move the item to the \'Ordered\' tab.
 
-.. image:: ../img/ordering-add-item.png
-
-**Marking Received Items**
-
-Anytime a package arrives, be sure to mark it as received in Quartzy. To do so, navigate to the \'Ordered\' section under the \'Requests\' tab and click the \'Mark Received\' button. Additionally, place the packing slip in the box in the entryway near 66-219.
-
-.. image:: ../img/ordering-received.png
+    .. image:: ../img/ordering-add-item.png
 
 
 Bulk Plastics Order
@@ -80,8 +92,11 @@ The following items are ordered in bulk biannually from Genesee Scientific:
 - Tubes (0.6ml 1.7ml, 15ml, 50ml, cyrovials, culture, PCR)
 - Gloves
 
-Information for the bulk order can be found in lab_jobs folder in the Sharepoint.
-To coordinate a bulk order, collect the tally sheets from lab, and calculate the number of units needed based on usage.
-Input this information into a spreadsheet with the prices from the previous bulk order.
-Directly email this spreadsheet to the Genesee Scientific representative and request a quote.
-Once the order is placed, print new tally sheets, and track the plastics as they are delivered.
+Information for the bulk order can be found in the ``lab_jobs`` folder in the Sharepoint.
+To coordinate a bulk order:
+
+1. Collect the tally sheets from lab, which are located in three places: 66-219, rack next to the liquid nitrogen tanks, and rack across from the wooden wall shelves near the entrance to main TC. Replace the tally sheets and update the dates.
+2. Calculate the number of units needed for each item based on usage (from the tally sheets), any extra items ordered on Quartzy, and the previous order.
+3. Input this information into a new spreadsheet with the prices from the previous bulk order. Prices tend to increase annually, but this will be a good starting point.
+4. Directly email this spreadsheet to the Genesee Scientific representative (Brad Sloan, as of 2023) and request a quote; copy Tseganesh on this email so she can arrange the PO(s).
+5. Once the order is placed, print the order spreadsheet and post it on the door to the atrium to track the plastics as they are delivered. Be sure to inform the lab so they can help track items.

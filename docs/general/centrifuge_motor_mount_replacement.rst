@@ -30,7 +30,7 @@ Procedure
 
 .. figure:: /img/open_centrifuge.jpg
 
-    The centrifuge with the shell removed. You should not disconnect the wires; jsut leave the shell on the right.
+    The centrifuge with the shell removed. You should not disconnect the wires; just leave the shell on the right.
 
 4. Remove the old motor mount assemblies, replacing them with the new parts above. As seen in the picture, you should place washers on either side of the motor mount, and use a lock washer and a nut to secure it.
 

@@ -8,7 +8,7 @@ Decontamination should be performed at least twice per year, or after significan
 .. note::
     Because the incubators heat up significantly during decontamination, an entire stack (top and bottom) should be decontaminated simultaneously.
 
-Maui and Moana (Main TC)
+Moana and Maui (Main TC)
 ___________________________________
 Follow instructions on the incubator display.
 
@@ -18,7 +18,7 @@ ______________________________________
 .. time::
     Decontamination takes approximately **two days**, with about **30 minutes** of hands-on time.
 
-The `incubator manual </docs/_static/files/ode_training_files/vwr-basic-air-jacket-co2-incubator-manual.pdf>`_ is located in the drawer to the left of the sink in the main TC room. Refer to Chapter 9 (page 53) for detailed instructions.
+The `Hei Hei/Pua incubator manual </docs/_static/files/ode_training_files/vwr-basic-air-jacket-co2-incubator-manual.pdf>`_ is located in the drawer to the left of the sink in the main TC room. Refer to Chapter 9 (page 53) for detailed instructions.
 
 **Day 1**
 
@@ -74,7 +74,7 @@ Filter information:
 - HEPA filter: Thermo Scientific, `760175 <https://www.fishersci.com/shop/products/hepa-main-filter-3110-series-310-series-w-hepa-option-steri-cycle-series-incubators-hepa-main-filter-for-3110-series-310-series-w-hepa-option-steri-cycle-series-incubators/15497022?crossRef=760175&searchHijack=true&searchTerm=760175&searchType=RAPID&matchedCatNo=760175>`_ (source from Ebay)
 - Inlet filter: Thermo Scientific, `770001 <https://www.fishersci.com/shop/products/thermo-scientific-midi-40-co-sub-2-sub-incubator-accessories/11687203>`_
 
-The incubator decontamination instructions are located in a plastic sleeve on the side of the incubators. See `incubator manual </docs/_static/files/forma-stericycle-co2-incubator-usermanual-7010370.pdf>`_ for additional instructions.
+The incubator decontamination instructions are located in a plastic sleeve on the side of the incubators. See `Te Kā/Te Fiti incubator manual </docs/_static/files/forma-stericycle-co2-incubator-usermanual-7010370.pdf>`_ for additional instructions.
 
 **Day 1**
 
