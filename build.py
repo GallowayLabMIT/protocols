@@ -38,8 +38,11 @@ if __name__ == '__main__':
             builds.append(subprocess.Popen(latex_args, stdout=subprocess.PIPE, stderr=subprocess.PIPE))
         for build in builds:
             stdout, stderr = build.communicate()
-            print(stdout.decode('utf-8'))
-            print(stderr.decode('utf-8'), file=sys.stderr)
+            try:
+                print(stderr.decode('utf-8'), file=sys.stderr)
+                print(stdout.decode('utf-8'))
+            except UnicodeDecodeError:
+                pass
     else:
         subprocess.run(html_args)
         if args.latex:
