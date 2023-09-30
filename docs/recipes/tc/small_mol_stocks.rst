@@ -28,3 +28,10 @@ Indole-3-acetamide (Auxin precursor, IAM)
    (Guanine can not be dissolved with DMSO/Water)
 2. Sterilize with 0.22 uM filter.
 3. Separate into 50 uL aliquots and store at -20°C.
+4. 25mM Guanine 
+   
+50 μM AP1903/Rimiducid (1000x stock)
+-----------------------------------------
+1. Dissolve 1 mg of AP1903 in 14.2 mL of .1 % DMSO/water. 
+2. Sterilize with 0.22 uM filter.
+3. Separate into 50 uL aliquots and store at -20°C.
