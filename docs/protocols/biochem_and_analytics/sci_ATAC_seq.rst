@@ -479,7 +479,7 @@ Transposase assembly
    - For a full 96-well plate, this is in the 80-90 μL range, depending on how much excess you need in the next step.
 
 
-4. For each Tn5 mix required (20 mixes for a whole plate), prepare D2 dilutions by separately combing Z μL of D1 mix with Z μL of pre-annealed adapters. The minimum **without excess** for N reactions is :math:`Z=\frac{N}{4}\text{μL}`; you should include excess.
+4. For each Tn5 mix required (20 mixes for a whole plate), prepare D2 dilutions by separately combing Z μL of D1 mix with Z μL of pre-annealed adapters. The minimum **without excess** for N reactions is :math:`Z=\frac{N}{4}\mu\text{L}`; you should include excess.
    
    - For a full 96-well plate, we need at least 8 / 12 reactions worth of mix. This is at least 6 μL; the original protocol recommends Z = 4 μL so that we have 8 μL (2 μL of leftover mix). You can reduce this amount of excess.
    - For our example above, we can use Z=1.5 μL to have excess.
