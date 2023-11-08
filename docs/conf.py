@@ -61,6 +61,7 @@ plot_pre_code = """
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
+import rushd as rd
 import scipy
 import seaborn as sns
 from statannotations.Annotator import Annotator
