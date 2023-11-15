@@ -35,3 +35,9 @@ Indole-3-acetamide (Auxin precursor, IAM)
 1. Dissolve 1 mg of AP1903 in 14.2 mL of .1 % DMSO/water. 
 2. Sterilize with 0.22 uM filter.
 3. Separate into 50 uL aliquots and store at -20°C.
+
+Puromycin, 10 mg / mL (10,000x stock)
+-------------------------------------
+1. Dissolve 10 mg of Puromycin in 1.0 mL of water.
+2. Sterilize with 0.22 μM filer.
+3. Split into 50 μL aliquots and store at -20°C.

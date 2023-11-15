@@ -52,8 +52,8 @@ Media change into selection media. Tested concentrations for PiggyBac are:
 =========   ====================
 Cell type   Puro
 =========   ====================
-293T        1.0 ng/mL (10,000x)
-U2-OS       0.25 ng/mL (40,000x)
+293T        1.0 μg/mL (10,000x)
+U2-OS       0.25 μg/mL (40,000x)
 =========   ====================
 
 Day 2-4
