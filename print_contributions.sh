@@ -3,7 +3,7 @@
 #
 find_contributions() {
     echo "================================================== $1 ======================================================="
-    git log --reverse --shortstat --pretty=format:"%an (%s)" -- "$1"
+    git log --follow --reverse --shortstat --pretty=format:"%an (%s)" -- "$1"
 }
 
 export -f find_contributions
