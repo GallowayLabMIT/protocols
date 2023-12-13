@@ -39,7 +39,7 @@ To reset:
 It still doesn't work!
 ~~~~~~~~~~~~~~~~~~~~~~
 If syncing is still not happening, or it is forcing users to login, then the user cache probably
-needs to be fixed.
+needs to be fixed. Information on this is in the `Microsoft documentation <https://learn.microsoft.com/en-us/sharepoint/troubleshoot/sync/sign-into-onedrive-error-0x8004dec5>`__.
 
 1. If possible, log out of the OneDrive client, unlinking it.
 2. Run the OneDrive reset command from above (``%localappdata%\Microsoft\OneDrive\onedrive.exe /reset``), but do
