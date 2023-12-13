@@ -3,20 +3,26 @@ Cell Line Creation
 ==================
 
 
-.. time:: 1 month
+.. time:: ~2 weeks for polyclonal; ~ 2 months for monoclonal 
 
     While the initial transfection does not take very long, the selection
     process takes a long time!
 
 .. note::
-    Except for day 0, all steps are the same for the creation of PiggyBac, Crispr,
-    or TALEN cell lines
+    
 
-    This protocol is still in development! In particular, for PiggyBacs, the ratio of
-    transposase to integration plasmid is a key variable that must be tuned!
+    These protocols are still in development! While the pDNA-based PiggyBac w/ Puromycin co-integration protocol developed by Sneha seems robust, a markerless PiggyBac protocol leveraging modRNA-based transient selection protocol is currently under exploration.
+    
+    For CRISPR, Deon has developed a robust modRNA-based delivery method that is capable of single and multiplex HDR-based insertions.
+    
+    For TALEN, (insert here Chris) 
 
-    An efficient selection method has also not been fully tested.
 
+Each method possesses their unique cell plating, transfection, and selection timelines. After the selection period, the methods converge on universal enirichment and single-cell cloning protocols (ie., limiting dilution or cell sorting) 
+
+
+PiggyBac (Sneha)
+~~~~~~~~
 Day -1
 ~~~~~~
 Seed your cells such that they will be around 30-40% confluent on the next day. There is an
@@ -64,7 +70,115 @@ Continue selecting the cells until decent cell death occurs, or the cells are to
     Puromycin at the given concentration should decidedly kill your untransfected wells.
     If you do not see sufficient cell death, try using a different aliquot.
 
+CRISPR (Deon)
+~~~~~~~~
+Day -1
+~~~~~~
+Deon recommends CRISPR at 12-well scale, as this is the smallest scale that yielded a workable number of surviving cells after multiple transfections, CRISPR genotoxicity, and drug selection.  
+The following seeding density permits sufficient transfection efficiency while obviating the need for passaging in between pDNA and modRNA transfections:
 
+=========       ============================
+Cell type       Seeding amount (per 12 well)
+=========       ============================
+293T            150k cells
+=========       ============================
+
+Day 0
+~~~~~~
+
+Transfect the donor plasmid/s containing your cargo flanked by locus-specific homology arms. If targeting two loci, transfect each donor at a 1:1 mass ratio (1 microgram total DNA).
+    
+.. note::
+    Deon recommends the Mirus LT1 (low-toxicity) DNA transfection reagent. Avoiding PEI-mediated toxicity/cell-death is critical considering the intrinsically low efficiency of HDR-mediated CRISPR editing.
+
+    Transfect a separate well with your donor plasmids to monitor plasmid dilution/drug selection and to serve as a negative control for preliminary genotyping analysis. 
+
+Day 1
+~~~~~~
+Transfect your cells with 300 ng of Cas9 modRNA and sgRNA/s for your target locus/loci at a 3:1 mass ratio of Cas9 to sgRNA. For Rogi1/2 dual targeting, the amounts are as follows:   
+
+===========   ===========
+RNA species   Amount (ng)
+===========   ===========
+Cas9 modRNA     300 ng 
+Rogi1 sgRNA      50 ng
+Rogi2 sgRNA      50 ng
+===========   ===========
+
+Day 2
+~~~~~~~
+Depending on the health of your cells/confluency, passage onto a 6-well plate. If your cells are not ready for passaging, media change into fresh DMEM+10% FBS to remove the transfection reagents.
+
+Day 3
+~~~~~~
+If you didn't passage on Day 2, passage today onto a 6-well. After checking cells have adhered, media change into selective media corresponding to the drug marker you've integrated.
+
+Days 4-8
+~~~~~~~~
+media change with fresh Puro-containing media daily, passaging as needed.
+
+.. note::
+     In 293Ts, Puromycin (1 ug/mL) should decidedly kill an untransfected control well in ~72 hr. Deon has found 5 days of Puro selection sufficient to obtain a polyclonal CRISPR line.
+   
+
+Day 9
+Remove selection and let cells recover/expand. During your next passage, take a small aliquot of cells for genotyping analysis to validate cells within your population contain the desired insertion (see "Genotyping your line") before proceeding with single-cell cloning/downstream applications.
+
+~~~~~~
+
+
+
+TALENS (Chris)
+~~~~~~~~
+Day -1
+~~~~~~
+Seed your cells such that they will be around 30-40% confluent on the next day. There is an
+extended selection outgrowth period required, which means we should start with lower confluence.
+Recommended rough seeding counts are:
+
+=========       ============================
+Cell type       Seeding amount (per 96 well)
+=========       ============================
+293T            12.5k cells
+U2-OS           7.5k cells
+=========       ============================
+
+Day 0
+~~~~~~
+Follow the step for the cell line type to generate
+    - PiggyBac
+        - Co-transfect the PiggyBac plasmid alongside your plasmid containing PB recognition sites at a 3:1, template:transposase mass ratio.
+    - Crispr
+        - Co-transfect the Crispr/guide plasmid alongside your plasmid containing locus-specific recognition sites at a 1:1 mass ratio.
+    - TALEN
+        - Co-transfect the TALEN-R and TALEN-L plasmids alongside your plasmid containing locus-specific recognition sites at a 1:1:1 mass ratio.
+
+.. note::
+    When transfecting, leave some untransfected wells where you just add the KO-DMEM/PEI master mix, without plasmids.
+    This allows you to tell if your selection is working as expected, and also gives you a proxy for how much PEI-mediated
+    cell death you are seeing.
+
+Day 1
+~~~~~~
+Media change into selection media. Tested concentrations for PiggyBac are:
+
+=========   ====================
+Cell type   Puro
+=========   ====================
+293T        1.0 μg/mL (10,000x)
+U2-OS       0.25 μg/mL (40,000x)
+=========   ====================
+
+Day 2-4
+~~~~~~~
+Continue selecting the cells until decent cell death occurs, or the cells are too dense.
+
+.. note::
+    Puromycin at the given concentration should decidedly kill your untransfected wells.
+    If you do not see sufficient cell death, try using a different aliquot.
+
+Clonal selection or enrichment via limiting dilution
+~~~~~~~~~~~~~~~~~
 Day 5 - Week 2
 ~~~~~~~~~~~~~~
 Dilute cells into both 96-well plates (one per condition) and onto 24 well plates for outgrowth.
