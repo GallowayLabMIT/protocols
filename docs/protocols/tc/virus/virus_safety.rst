@@ -48,14 +48,17 @@ PPE
 When working with virus, we use disposable sleeves and double gloves. The proper order to put on your PPE is
 first, your lab coat, then your first pair of gloves, then sleeves, then the second pair of gloves.
 
-You can reuse your sleeves through a whole virus production, but **only** if you check for any droplets. Swap
-sleeves if you got virus on your gloves, as the sleeves may be contaminated.
+For BL2 virus, you can reuse your sleeves through a whole virus production, but **only** if you check for any droplets. Swap
+sleeves if you got virus on your gloves, as the sleeves may be contaminated. For any BSL2+ virus, dispose of sleeves upon completion of BSL2+ work each day.
 
 Virus protocols
 ===============
 We have specific virus procedures in place, which change the way that we work in TC to protect us.
 You should treat virus-infected cells or media using virus protocols until **both** two days and three media changes
-have passed.
+have passed. 
+
+BSL2+ work requires additional protocols that will be highlighted at each step. Work involving human-infectible viruses, even
+if the viruses are only BSL2, benefits from these additional safety protocols. 
 
 Specific protocols are:
 
@@ -72,26 +75,52 @@ Virus BSC setup
 1. When starting up your BSC hood to do virus work, make sure that you have enough seriological pipettes,
    tips, and other plastics. You want to make sure that you don't have to take your hands out. Add them
    now if needed.
-2. Add a secondary plastic bag to the waste container, to catch any liquid on tips or pipettes.
-3. Make sure that you have all of the plates, tubes, filters and other things that you need. You may want to
+2. Make sure that you have all of the plates, tubes, filters and other things that you need. You may want to
    do the gelatin coating before you add any virus to your hood.
-4. Make sure you have enough media in the hood. You may want to aliquot out of your 500mL container.
+3. Make sure you have enough media in the hood. You may want to aliquot out of your 500mL container.\
+4. Add the following extra items to the BSC:
+
+   a. A secondary plastic bag to the waste container, to catch any liquid on tips or pipettes. 
+   b. (**BSL2+**) Plastic jar to fill with 10% bleach, for rinsing tips and serological pipettes.  
+   c. (**BSL2+**) Squirt bottle of Preempt and 2-3 paper towels, for wiping down of materials that leave the BSC. 
+
+Plastic rinsing during viral work - BSL2+
+------------------------------------------
+
+1. Fill the plastic jar with 25-100 mL of 10% bleach.
+2. Plastics that contact virus-contaminated media should be bleached before disposal. 
+
+   a. Pipette tips - After dispensing and before ejecting the pipette tip, depress the plunger on the pipette 
+      to the second stop and pull up bleach from the bleach jar. Then, eject the pipette tip into the bleach. This ensures
+      all surfaces that contacted virus also contact bleach.
+   b. Serological pipettes - After dispensing, pull up bleach from the bleach jar up to or beyond the level 
+      that contained virus previously. For example, if 9 mL of virus-containing liquid was previously measured and dispensed, 
+      pull up at least 9 mL of bleach. Bleach can be immediately dispensed and the serological pipette can be disposed.
+   c. Empty centrifuge or eppendorf tubes - Fill with enough 10% bleach to ensure all surfaces that contacted virus are covered. 
+      Rotating the tube to ensure all surfaces are contacted by bleach is sufficient, tubes do not have to be completely filled with bleach. 
+
 
 Virus BSC cleanup
 -----------------
-1. For any liquid waste you have not aspirated (e.g. 10cm dishes you are done with), use a seriological
+1. For any virus that is going to be removed from the BSC for use at a later time, transfer the virus to a screw-top tube if not
+   already in one. 
+2. For any liquid waste you have not aspirated (e.g. 10cm dishes you are done with), use a serological
    pipette to add bleach to any waste plates/containers/tubes.
-2. Spread the waste out slightly so all waste will get UV'd.
-3. Remove your second pair of gloves, putting them in the biotrash container.
-4. Remove any non-waste cells, collected virus, small molecules, etc from the hood
-   (you may put on a fresh second pair of gloves, but the outside of these tubes should not be contaminated)
-5. Leaving all trash inside, close the sash on the BSC. Set a fifteen minute alarm!
-6. Fifteen minutes later, with full PPE (double gloves and sleeves), open the hood again.
+3. Spread the waste out slightly so all waste will get UV'd.
+4. (**BSL2+**) Soak a paper towel with Preempt and wipe down the exterior of any materials that are to be removed from the BSC and stored (e.g. media, 
+   concentrated virus, plates and dishes with cells). 
+5. (**BSL2+**) With a Preempt soaked paper towel, wipe down any pipettes, tip boxes, asipirator, or any other equipment that you may have touched 
+   while working with virus-containing media. 
+6. Remove your second pair of gloves, putting them in the biotrash container.
+7. Remove any non-waste cells, collected virus, small molecules, etc from the hood
+   (you may put on a fresh second pair of gloves, but the outside of these tubes should be decontaminated by Premept in Step 3)
+8. Leaving all trash inside, close the sash on the BSC. Set a fifteen minute alarm!
+9. Fifteen minutes later, with full PPE (double gloves and sleeves), open the hood again.
    Aspirate bleached liquid waste, finish with another bleach rinse of the aspirator,
    and collect all trash. Take the trash bag out and throw it in the red waste containers.
-7. Spray Preempt on the surface of the BSC. Wait one minute or longer, and then wipe up the Preempt by spraying ethanol.
-   on the surface. Once the surface is looking nice, close the hood.
-8. The hood is usable after the second UV cycle!
+10. Spray Preempt on the surface of the BSC. Wait one minute or longer, and then wipe up the Preempt by spraying ethanol.
+    on the surface. Once the surface is looking nice, close the hood.
+11. The hood is usable after the second UV cycle!
 
 Exposure plan
 =============
@@ -114,7 +143,7 @@ dropping this number to effectively 0%.
 If you believe that you are exposed, you should:
 
 1. Make sure the BSC is in a safe state, e.g. nothing in precariously perched on something else.
-2. Wash your hands and/or the exposed area of skin for ten to fifteen minutes with bleach.
+2. Wash your hands and/or the exposed area of skin for ten to fifteen minutes with soap and water.
 3. If possible while washing your hands, inform someone else in lab to contact.
    
    a. the EHS rep, Katie, or Brian Smith, to kick off the paperwork side of things. Do not worry about this paperwork now
