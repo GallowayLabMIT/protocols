@@ -40,6 +40,6 @@ really break the software. **Do not ignore these software updates**, just plan t
 4. Go to the Backup tab and hit "Backup user data". Choose a folder outside the OneDrive to backup to.
 5. When the backup is complete, close the database utility and unzip the software update installer.
 6. Read the PDF inside the update installer package. **This is not optional**.
-6. Run the installer and follow the prompts. This could involve doing many different things, which is why the instructions are important.
-7. If the update fails, it is sometimes possible to downgrade by rerunning an earlier installer. You can use the Attune Database Utility to restore your userdata backup as well.
-8. If all else fails, ask for a service call to fix it.
+7. Run the installer and follow the prompts. This could involve doing many different things, which is why the instructions are important.
+8. If the update fails, it is sometimes possible to downgrade by rerunning an earlier installer. You can use the Attune Database Utility to restore your userdata backup as well.
+9. If all else fails, ask for a service call to fix it.
