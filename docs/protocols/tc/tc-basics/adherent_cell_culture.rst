@@ -206,12 +206,19 @@ Protocol
 
 .. _culturing_T-Rex_Cells:
 
-Culturing T-Rex 293 Cells
--------------------------------------
+Maintaining Integrated Cell Lines made with a selection marker in culture 
+-------------------------------------------------------------------------
 
-T-REx™ Cell Lines stably express the tetracycline repressor protein. They save significant time and effort when using the T-REx™ System. The T-REx™ Cell Lines are functionally tested by transient transfection with the positive control vector pcDNA™4⁄TO⁄lacZ. T-REx™ Cell Lines exhibit extremely low basal expression levels in the repressed state and high expression upon induction with tetracycline (or doxycycline).
+To increase the stability of integrated cell lines (ie., Plat-Es, T-Rex 293 line, PiggyBac/CRISPR-edited lines), it is imperative to adhere to TC best practices, routinely passaging cell lines every 2-3 days. 
+It is advisable to culture cells in a reduced (but non-zero) concentration of antibiotic used for the original selection `see Mirus guidelines on cell line creation <https://www.mirusbio.com/applications-stable-cell-line-generation/>_`.
+
+For CRISPR/PiggyBac cell lines integrated with Puromycin, culturing the cells in 0.5 ug/mL Puromycin every 3 passages should increase the retention of the transgene on the genome and perhaps attenuate transgene silencing.
+
+For maintenance of Plat-Es (Deon doesn't know what the lab typically does for Plat-Es)
+
+For maintenance of the T-REx™ Cell Line, Thermo recommends culturing the cells in 100ug/mL zeocin (1:1000 dilution master stock) and 5ug/mL blasticidin (1:2000 dilution master stock). The T-REx Line stably expresses the tetracycline repressor protein. They save significant time and effort when using the T-REx™ System. The T-REx™ Cell Lines are functionally tested by transient transfection with the positive control vector pcDNA™4⁄TO⁄lacZ. T-REx™ Cell Lines exhibit extremely low basal expression levels in the repressed state and high expression upon induction with tetracycline (or doxycycline).
 For documentation of general (not Flp-in version) see `here <https://www.thermofisher.com/order/catalog/product/R71007#:~:text=T%2DREx%E2%84%A2%20Cell%20Lines,4%E2%81%84TO%E2%81%84lacZ>`.
 For documentation of the Flp-in system see `here <https://www.thermofisher.com/document-connect/document-connect.html?url=https://assets.thermofisher.com/TFS-Assets%2FLSG%2Fmanuals%2Fflpinsystem_man.pdf>`.
 
-Culture the cells in 100ug/mL zeocin (1:1000 dilution master stock) and 5ug/mL blasticidin (1:2000 dilution master stock). Gelatin coating is not needed.
+
 

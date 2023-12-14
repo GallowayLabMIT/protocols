@@ -22,13 +22,14 @@ Transformation (Chemically Competent Bacteria)
 3.	Mix 1 - 5 ul of DNA (usually 10 pg - 100 ng) into 20-50 uL of competent cells in a microcentrifuge tube. GENTLY mix by flicking the bottom of the tube with your finger a few times.
 
 .. note::
+	Ensure that your total volume of transformed DNA/reaction mixture does not exceed more than 10% of the total volume (ie., for 50 uL of competent cells, don't exceed more than 5 uL DNA/reaction mixture).
 	Transformation efficiencies will be approximately 10-fold lower for ligation of inserts to vectors than for an intact control plasmid.
 
 4.	Incubate the competent cell/DNA mixture on ice for 10 mins.
 5.	(Optional) Heat shock each transformation tube by placing the bottom 1/2 to 2/3 of the tube into a 42°C water bath for 30-60 secs (45 secs is usually ideal, but this varies depending on the competent cells you are using).
 
 .. note::
-	With the competent cells used in our lab, a heat shock step is not required but may increase transformation efficiency. For lower efficiency cloning strategies, such as ligation reactions, this can increase the resulting number of bacterial colonies.
+	With the competent cells used in our lab, a heat shock step is not required but may increase transformation efficiency (Deon has observed better cloning outcomes when he heatshocks/recovers, especially when working with CcdB-/Chlor selection). For lower efficiency cloning strategies, such as ligation reactions, this can increase the resulting number of bacterial colonies.
 
 6.	Put the tubes back on ice for 2 min.
 7.	Add 250-1,000 ul LB or SOC media (without antibiotic) to the bacteria and grow in 37°C shaking incubator for 1 hour.

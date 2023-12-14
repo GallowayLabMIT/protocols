@@ -57,5 +57,5 @@ SOC Media
 
 LB Media
 ======================
-1. Resuspend 25 g of LB Broth powder with deionized water to a final volume of 1 L.
+1. Resuspend 20 g of LB Broth powder with deionized water to a final volume of 800 mL.
 2. Autoclave and let cool.
