@@ -14,7 +14,8 @@ Core lab techniques
 - Molecular cloning
 - Mammalian tissue culture
 - Flow cytometry
-- Data analysis best practices
+- Staining and microscopy
+- Data analysis tips & common approaches
 - Introduction to genomics
 - Introduction to gene expression modeling
 
@@ -28,12 +29,13 @@ Computational skills
 - :doc:`General software tips and tricks <software_tips_and_tricks>`
 - Introduction to the :doc:`command line <the_shell>`
 
-**Github**
-  
-All lab code is stored on Github for version control and sharing. If you aren't familiar with Git, check out the
-:doc:`Introduction to Git <git_intro>` and associated resources. The Git repository :doc:`startup checklist <startup_checklist>` 
-is good to reference each time you clone a Git repo. Finally, complete the :doc:`computational environment check <environment_check>` 
-to confirm that you can edit Git repos (including this protocols site!).
+**Github:** All lab code is stored on Github for version control and sharing. Check out the following protocols to learn the basics 
+and refer back to as needed:
+
+- :doc:`Introduction to git <git_intro>`
+- :doc:`Startup checklist <startup_checklist>` for working with a new repository
+- :doc:`Computational environment check <environment_check>` to confirm that you can edit git repos
+- :doc:`Contributor guide <../../contributor_guide>` for editing this protocol site
 
 
 Research reading and writing

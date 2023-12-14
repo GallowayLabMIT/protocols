@@ -22,7 +22,7 @@ Lab-specific safety training
 
 After completing all other safety trainings online, meet with the lab EHS rep to learn the relevant safety features of our lab (e.g., 
 location of eyewash stations, processes for chemical waste disposal). To confirm that you understand these procedures, you must submit a 
-Google form to be checked off by the lab EHS rep.
+Google form to be checked off by the lab EHS rep. This safety information is :doc:`documented here <../../general/lab_safety>`.
 
 Lab citizenship training
 -------------------------
@@ -52,6 +52,6 @@ Selected lab protocols to be familiar with:
 Core facility access
 --------------------
 
-If you anticipate using a core facility (e.g., flow sorter, confocal microscope, plate reader) check out the :doc:`relevant protocol <./instruments/index>` to obtain 
+If you anticipate using a core facility (e.g., flow sorter, confocal microscope, plate reader) check out the :doc:`relevant protocol <../../instruments/index>` to obtain 
 access. It's best to start this process early, since obtaining access may take several weeks---training can be difficult to schedule during busy times, 
 and you may be required to book supervised time on equipment before independent access is permitted.
