@@ -14,15 +14,9 @@ Confocal access and Experimental planning:
     The training will cover mostly the instructions on how to operate the hardware and software components of the microscope, 
     as well as, practical advise on lasers based on your specific fluorophore needs. 
 
-1.	Carefully plan your Fluorophore-conjugated secondary Abs, (for example the Cy7 detection is weak unless your signal is very bright) 
-and use no more than 1:10000 for both Hoechst and DAPI for counterstaining, as these channels tends to be very bright.  
-If in doubt consult Jeff for Fluorophore-Laser compatibility. 
-2.	All cells to be used for  confocal imaging have to be cultured on glass-bottom plates. 
-Before plating your cells, try to position them as close to the center as possible, leaving at least 2 outer rows and columns blank. 
-If imaging Hb9::GFP cells, have 1 well close to the edge to be used as background control (uninfected, non-treated and unstained). 
-This is because Hb9::GFPs tend to be very bright causing halo and grainy effect on higher magnifications, so you need to use this well for black balance correction. 
-3.	Make sure you coat the glass bottom plate appropriately (i.e. Laminin - Neurons and Intermediate 4dpi cells, Matrigel- mature neurons, or gelatin- MEFs) 
-so that cells will adhere all throughout the fixation, permeabilibilization and washes. 
+1.	Carefully plan your Fluorophore-conjugated secondary Abs, (for example the Cy7 detection is weak unless your signal is very bright) and use no more than 1:10000 for both Hoechst and DAPI for counterstaining, as these channels tends to be very bright. If in doubt consult Jeff for Fluorophore-Laser compatibility. 
+2.	All cells to be used for  confocal imaging have to be cultured on glass-bottom plates. Before plating your cells, try to position them as close to the center as possible, leaving at least 2 outer rows and columns blank. If imaging Hb9::GFP cells, have 1 well close to the edge to be used as background control (uninfected, non-treated and unstained). This is because Hb9::GFPs tend to be very bright causing halo and grainy effect on higher magnifications, so you need to use this well for black balance correction. 
+3.	Make sure you coat the glass bottom plate appropriately (i.e. Laminin - Neurons and Intermediate 4dpi cells, Matrigel- mature neurons, or gelatin- MEFs) so that cells will adhere all throughout the fixation, permeabilibilization and washes. 
 4.	During storage or transport to KI, always cover the plate with foil and do not let wells dry. 
 
 .. note::
