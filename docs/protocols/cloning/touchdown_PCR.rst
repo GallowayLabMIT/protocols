@@ -2,9 +2,9 @@
 Touchdown PCR
 ======================================
 
-This protocol describes one method to PCR a difficult to product. The idea is to start at a high
-annealing temperature (Ta) and go down so you start at the most specific product and amplify
-at less and less specific Ta's.
+This protocol describes one `method <https://www.nature.com/articles/nprot.2008.133>`_ to PCR a difficult product. The idea is to start at a high
+annealing temperature (Ta) and "touchdown" so you start at the most specific product and amplify
+at progressively less specific Ta's.
 
 Touchdown PCR
 ---------------------------------
