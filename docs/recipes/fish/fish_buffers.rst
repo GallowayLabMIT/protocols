@@ -50,7 +50,7 @@ NaCL	                    292.2 mg
 H20                         Bring volume up to 10 mL
 ====================    =============================
 
-2. Bring the pH to 6.8
+2. Bring the pH to 6.8 (approximately 50 uL of 2.4 M HCl). Store at room temp.
 
 5X SSCT
 =======
@@ -65,4 +65,4 @@ Ingredient                  Amount
 DEPC H20                    Bring volume up to 40 mL
 ====================    =============================
 
-1. Store at -4 degrees C, expiration in 1 month
+1. Store at 4 degrees C, expiration in 1 month.

@@ -196,3 +196,4 @@ def setup(app):
     tex_replacements.append(('℃', r'\(^\circ\)C'))
     tex_replacements.append(('Ψ', r'\(\psi\)'))
     tex_replacements.append(('β', r'\(\beta\)'))
+    tex_replacements.append(('α', r'\(\alpha\)'))

@@ -76,6 +76,9 @@ all of the above. You will have to:
 * Accept the Zotero invitation to the ``gallowaylab`` group,
   checking that it appears in your `group list <https://www.zotero.org/groups/>`_.
 
+
+.. _OneDrive syncing:
+
 Shared storage
 --------------
 We use **OneDrive** for shared lab storage. OneDrive's web interface is slightly clunky,
