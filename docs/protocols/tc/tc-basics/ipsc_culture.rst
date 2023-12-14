@@ -127,7 +127,7 @@ To seed cells for an experiment, use Accutase to dissociate single cells. This a
 2. Add 1 mL Accutase (100 uL for a 96-well plate) and incubate at 37°C for 5-7 min until cells begin to lift off.
 3. Gently pipet up and down to dislodge cells. If using for flow cytometry, spin down the plate and prep as normal. If preparing to seed cells, add the dissociated cells to a 15 mL conical with DMEM/F12 and spin at 400g.
    
-      - While cells are spinning, prepare 1000x dilution of Rock inhibitor in mTeSR.
+   - While cells are spinning, prepare 1000x dilution of Rock inhibitor in mTeSR.
   
 4. Aspirate the media and gently resuspend the cells in a small amount of mTeSR.
 5. Count cells as normal and dilute to desired concentration.
