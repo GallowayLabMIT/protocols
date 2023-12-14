@@ -3,7 +3,7 @@ Transduction with concentrated virus
 ====================================
 
 This protocol describes how to transduce cells with concentrated virus (see :ref:`Virus Concentration <virus_concentration>` protocol).
-Virus produced in HEK293T cells can be used to transduce either human or mouse cells.
+Virus produced in HEK293T cells with the VSV-G envelope protein can be used to transduce either human or mouse cells.
 The following calculations are for transduction in a 96-well plate; volumes can be scaled up accordingly for other plate sizes.
 
 **Calculate amount of virus to use**
@@ -18,7 +18,7 @@ As an initial rule-of-thumb, ~1-2% of the total virus produced in one 10cm dish 
    See the :doc:`MOI Calculation </protocols/tc/virus/moi>` protocol for more details.
 
 .. note::
-    Viral titer is reported to decrease during freezing and thawing. Therefore, it is recommended to double the amount of virus used for every freeze-thaw cycle. NOTE: VALIDATION IN PROGRESS.
+    Viral titer is reported to decrease during freezing and thawing. Therefore, you may double the amount of virus used for every freeze-thaw cycle. NOTE: FURTHER TESTING NEEDED.
 
 .. note::
     Generally, higher total virus per well increases infection efficiency.
@@ -38,7 +38,7 @@ This protocol describes transduction of both :ref:`plated cells <plated>` and :r
 Transduction of plated cells
 ----------------------------
 
-1. The day before (18-24 hours prior) infection, seed cells on 0.1% gelatin-coated plates. Seeding densities may vary, but typically this will be 10k cells/well for a 96-well plate.
+1. The day before (18-24 hours prior) infection, seed cells on 0.1% gelatin-coated plates. Seeding densities vary by target cell type. For mouse embryonic fibroblasts, this is typically 10k cells/well for a 96-well plate.
 2. Dilute virus according to calculations in fresh media and polybrene (total volume = total well volume):
 
 =============================== =============
@@ -67,7 +67,7 @@ Media                            to 100 µL
 Transduction of cells in suspension
 -----------------------------------
 
-1. Coat plates with 0.1% gelatin. Do this first to provide at least 20 min for coating (plates will be used at step 5).
+1. Coat plates with 0.1% gelatin. Do this first to provide at least 10 min for coating (plates will be used at step 5).
 2. Dissociate and count cells to infect.
 3. Resuspend cells in fresh media at double the final concentration.
    For instance, if using 10k cells/well in a 96-well plate, resuspend at a concentration of 10k cells per 50 µL.
