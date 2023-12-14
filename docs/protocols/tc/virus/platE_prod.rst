@@ -1,6 +1,6 @@
-======================================
+=====================================
 Plat-E Retroviral Production
-======================================
+=====================================
 
 Plat-Es are a retrovirus packaging line that produce retroviruses that can only infect mouse cells. Plat-E cells contain gag, pol and env genes, allowing retroviral packaging with a single plasmid transfection.
 Supposedly, Plat-E viruses can't be frozen but we have seen frozen Plat-E virus work fine.
@@ -57,7 +57,7 @@ Day Two (transfect Plat-Es):
 Day Three (Plat-E media change + seed mouse cells):
 
 1.	Change with 1.25 mLs fresh media (:ref:`DMEM/HEPES + 10% FBS <HEPES>`) after 24 hours. Note: NBW transfects ~4pm and media changess ~10am next day to minimize PEI cytotoxicity.
-2.	Seed mouse cells
+2.	Seed mouse cells.
 
     i.  Coat wells in 0.1% gelatin for approx. ~10 min.
     ii. Seed at 10k cells/96-well. For larger sizes, scale accordingly according to surface area
@@ -68,14 +68,14 @@ Day Three (Plat-E media change + seed mouse cells):
         6-wells              30                            2
         12-wells             11                            1.5
         24-wells             6                             1.5
-        48-wells             3                             1.5
+        48-wells             2.6                           1.5
         96-wells             1                             1
         =================   ==========================   ===============================================================
 
 Day Four (Plat-E media change + infect 1):
 
 1.	Harvest media after another 24 hours and add 1.25 mL fresh media (:ref:`DMEM/HEPES + 10% FBS <HEPES>`) to Plat-E plates for a second time.
-2.	Transduce mouse cells with retroviruses made from the Plat-E cells
+2.	Transduce mouse cells with retroviruses made from the Plat-E cells.
 
     .. note::
         Each virus will make ~1 mL/well from each 6-well of Plat-E (enough for 1x96-well plate). 11 µL of each virus will be added to each well of a 96-well plate ALONG WITH POLYBRENE (1,000X at 5 mg/mL)
@@ -104,7 +104,7 @@ Day Five (infect 2):
 1.	Collect media from Plat-Es again and reinfect/retransduce the cells for a second day.
 
 .. note::
-    Centrifugation of target cells with virus (spinfection) can improve infection efficiency. Spinfection is typically performed on the second day of transduction. Spinfection protocol is :ref:`here <spinfection>`.
+    Centrifugation of target cells with virus (spinfection) can improve infection efficiency. Spinfection protocol is :ref:`here <spinfection>`.
 
 
 Day Six (1 dpi):
