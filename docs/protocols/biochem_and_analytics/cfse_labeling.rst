@@ -44,6 +44,9 @@ ________________________
 - DMEM + 10% FBS
 - Adherent cells to stain
 
+.. important:: 
+    Always include a negative (unstained) control. When adding + DDRR, you want to know when you're starting to lose signal.
+
 .. note::
     For MEFs and reprogramming experiments, you may want to work in **24-well plates or larger** to have enough cells for flow quantification (>10,000 cells). 
     A typical 96-well of MEFs NIL at 4 dpi will have ~1-10k cells and NIL + DDRR at 4 dpi will have ~10-100k cells. Be careful to remember if you're doing 6F you will need even more.
