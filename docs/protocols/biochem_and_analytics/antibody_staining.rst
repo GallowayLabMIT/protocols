@@ -9,15 +9,15 @@ Immunofluorescent Staining
 Solutions Required
 -----------------------------------------------
 
-===================================   =================================================================================  
-**Stock solutions**                    **How to make**                                                         
-===================================   =================================================================================  
-4% PFA in PBS                          8.75 mL PBS + 1.25 mL 32% PFA
-0.5% Tween-20 in PBS                   50 mL PBS + 250 µL Tween-20. **Add Tween-20 to 1 mL PBS first to mix easier!**  
-0.1% Tween-20 in PBS                   40 mL PBS + 10 mL 0.5% Tween/PBS
-25% FBS in PBS (5X)                    37.5 mL PBS + 12.5 mL FBS
-Blocking Solution                      40 mL 0.5% Tween/PBS + 10 mL 25% FBS in PBS
-===================================   ================================================================================= 
+===========================================   =================================================================================  
+**Stock solutions**                              **How to make**                                                         
+===========================================   =================================================================================  
+4% PFA in PBS                                    8.75 mL PBS + 1.25 mL 32% PFA
+0.5% Tween-20 in PBS (5X)                        50 mL PBS + 250 µL Tween-20. **Add Tween-20 to 1 mL PBS first to mix easier!**  
+0.1% Tween-20 in PBS                             40 mL PBS + 10 mL 0.5% Tween/PBS
+25% FBS in PBS (5X)                              37.5 mL PBS + 12.5 mL FBS
+Blocking Solution                                10 mL 0.5% Tween/PBS + 10 mL 25% FBS in PBS + 30 mL PBS
+===========================================   ================================================================================= 
   
 * **Blocking Solution**:
   5% FBS, 0.1% Tween in PBS
@@ -71,9 +71,20 @@ Expected time: 3 days
  6. Be very gentle with neuronal cultures, they are not very adherent
 
 
+.. _antibodyStaining-flow:
 
 Cell Staining for Flow
 -----------------------------------------------
+
+General notes:
+
+- Cells are usually stained in U- or V-bottom 96-well plates but they can be stained in any container (e.g. test tubes, Eppendorf tubes, polystyrene round-bottom tubes, cluster tubes).
+- Antibody dilutions will require optimization.
+- Primary antibodies are generally good at 1:500 dilution, Secondary antibodies ~1:1000, Live/Dead (e.g. Zombie) ~1:1000.
+
+
+.. tip::
+   It is recommended to stain with ice-cold reagents/solutions and at 4°C, since low temperature prevents modulation and internalization of surface antigens which can produce a loss of florescence intensity.
 
 Expected time: 1-2 days (only 2 if overnight primary antibody)
 
@@ -87,13 +98,16 @@ Expected time: 1-2 days (only 2 if overnight primary antibody)
 5.  Add 1 mL PBS and spin cold at 4°C to pellet cells
 6.	Aspirate solution and incubate cells in 200 µL primary antibody (diluted in blocking solution) for 1 hr in the rotator at 4°C
 
-    .. note:: Some antibodies (e.g. Ki67) work better overnight in the rotator at 4°C
+    .. tip:: Some antibodies (e.g. Ki67) work better overnight in the rotator at 4°C
 
-7.  Add 1 mL PBS and spin cold at 4°C to pellet cells
+7.  Add 1 mL 0.1% Tween/PBS and spin cold at 4°C to pellet cells
 8.	Aspirate solution and incubate cells in 200 µL secondary antibody (diluted in blocking solution) for 30 min in the rotator at 4°C **in the dark**
+    
+    .. tip:: To reduce background, you can wash x3 times with 0.1% Tween/PBS and let it sit for 30 min at 4C for the last wash
+
 9.  Add 1 mL PBS and spin cold at 4°C to pellet cells
 10.	If doing a DNA stain, add Hoechst or DAPI diluted in PBS for 10 minutes at room temp, then wash with PBS
 
 .. note::
-    All spins are performed at ~500 rcf for 5 min. Our centrifuge follows RCF = 1e-4*[rpm]^2 + 4e-2*[rpm] - 6e1, where **2200 rpm = 512 rcf**.
+    All spins are performed at ~500 rcf for 5 min. Our cold Eppendorf centrifuge follows RCF = 1e-4*[rpm]^2 + 4e-2*[rpm] - 6e1, where **2200 rpm = 512 rcf**.
     It is recommended to perform all spins at 4°C once the cells have been fixed to prevent pellet loss. 
