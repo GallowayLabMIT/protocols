@@ -52,6 +52,8 @@ EHS system and add all necessary trainings to your profile.
    'My Profile' tab, you should click **Join Another Group** under training
    groups and add the **68N: Mouse** training group.
 
+.. _software: 
+
 Software and webservices
 ========================
 
@@ -67,10 +69,13 @@ Core webservices
 * Create a `Zotero account <https://www.zotero.org/user/register>`_. Using a personal email is
   recommended for permanence reasons.
 * Create an `ORCID <https://orcid.org/register>`_. Adding all of your active emails is recommended.
+* (Optional) Sign up for an `MIT Google Workspace <https://ist.mit.edu/g-suite/request>`_ account. 
+  This provides access to Google services like Drive, Docs, Calendar, etc. 
 
-After creating these accounts, message your **Kerberos ID**, your **Github username**, your **Zotero username**,
-and the email you used to create your **Quartzy account** to the ``#iap`` slack channel. We'll get you added to
-all of the above. You will have to:
+After creating these accounts, message the following to the ``#iap`` slack channel: your **Kerberos ID**, 
+your **Github username**, your **Zotero username**, the email you used to create your **Quartzy account**, 
+and the email you'd like added to the lab **Google Calendar**. We'll get you added to all of the above. 
+You will have to:
 
 * Accept the Github invitation to the `gallowaylabmit organization <https://github.com/gallowaylabmit>`_.
 * Accept the Zotero invitation to the ``gallowaylab`` group,

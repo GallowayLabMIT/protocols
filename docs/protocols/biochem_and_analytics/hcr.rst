@@ -2,9 +2,19 @@
 HCR RNA-FISH
 ************
 
-Prepare necessary buffers as described in :doc:`/recipes/fish/fish_buffers`
+Prepare necessary buffers as described in :doc:`/recipes/fish/fish_buffers`. The total amount needed per sample (without technical replicates) is:
 
-Total amounts needed per sample (without technical replicates): 4% PFA (100 uL), 0.5% Tween (100 uL), hybridization buffer (270 uL), wash buffer (200 uL), amplification buffer (270 uL), 5X SSCT (600 uL)
+=====================   ========================
+Buffer                  Total amount per sample
+=====================   ========================
+4% PFA                  100 µL
+0.5% Tween              100 µL
+Hybridization buffer    270 µL
+Wash buffer             200 µL
+Amplification buffer    270 µL
+5x SSCT                 600 µL
+=====================   ========================
+
 
 .. time::
    3 days (3-4 hours Day 1, 2 hours Day 2, 1 hour Day 3)
@@ -31,7 +41,7 @@ Day 1
 .. important:: 
    The hybridization buffer is viscous, so the deceleration setting on the centrifuge should be lowered to 5 to get a good pellet.
 
-9.  Add 70 uL of the prepared probe solution, and incubate samples **overnight (12-16 h**) at 37 degrees Celsius.
+9.  Add 70 uL of the prepared probe solution, and incubate samples **overnight (12-16 h**) at 37 degrees C.
 
 Day 2
 =========================
@@ -45,11 +55,11 @@ Day 2
 4. Resuspend in 200 uL of 5X SSCT, and incubate for 5 minutes at room temp.
 5. Spin down, and aspirate 5X SSCT.
 6. Pre-amplify samples in 200 uL of amplification buffer for 30 min at room temp.
-   While waiting, begin Hairpin Preparation:
+   While waiting, begin *Hairpin Preparation*:
 
-      a. Prepare 4.5 pmol each of hairpin h1 and h2 by snap cooling 1.5 uL of 3 uM stock (per sample) at 95 degrees Celsius for 90 seconds.
-      b. Cool hairpins in the dark at room temperature for 30 minutes.
-      c. Prepare hairpin solution by adding h1 and h2 hairpins to 70 uL amplification buffer (per sample).
+   a. Prepare 4.5 pmol each of hairpin h1 and h2 by snap cooling 1.5 uL of 3 uM stock (per sample) at 95C for 90 seconds. Snap cool each individual hairpin in **separate tubes**.
+   b. Cool hairpins in the dark at room temperature for 30 minutes.
+   c. Prepare hairpin solution by adding h1 and h2 hairpins to 70 uL amplification buffer (per sample).
 
 7. Spin down, and aspirate amplification buffer.
 8. Add 70 uL uL of the hairpin/amplification buffer solution, and incubate samples **overnight (12-16 h)** in the dark at room temperature.
