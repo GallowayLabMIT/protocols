@@ -2,6 +2,9 @@
 Ordering
 ====================================
 
+.. important::
+    Check with Katie which cost object to use if unsure. Too many changes can trigger an audit unnecessarily. 
+
 There are several ways to order/request new lab reagents. For all lab reagents, materials, etc., be sure to enter the information in Quartzy so that inventory can be tracked.
 (This excludes oligos, Addgene plasmids, and most Amazon items for the office.)
 See the :doc:`receiving instructions </general/receiving>` for proper tracking and storage of delivered items.
@@ -27,8 +30,6 @@ On the Coupa checkout screen, fill out the following information:
     :align: center
     :figwidth: 85%
 
-    **Replace this image!**
-
 - **Billing**: For each item, choose the correct item type (e.g., General Lab Supplies) and click the magnifying glass to choose the PO to charge.
 
     .. image:: ../img/ordering-account-1.png
@@ -45,11 +46,20 @@ On the Coupa checkout screen, fill out the following information:
 After placing the order through Coupa, be sure to add the items to Quartzy (see below). This helps organize the lab inventory and facilitates re-ordering.
 
 
-Attaching a PO to a Coupa order
--------------------------------
+Attaching a quote to a Coupa order
+----------------------------------
 
-**TODO**
+1. Navigate to the cart
+2. Click ``Add file`` under Attachments
+3. Drag the quote there
+4. Add a buyer note to ``Notes to buyer``: "Please use attached quote"
 
+.. image:: ../img/ordering-attach-quote.png
+
+1. Manually add the item into the cart. Scroll down, click ``Add line``, put in the info for your item and save
+
+.. image:: ../img/ordering-addquote-line.png
+    
 
 Requests through Quartzy
 ------------------------
