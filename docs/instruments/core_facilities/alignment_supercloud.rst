@@ -8,11 +8,18 @@ This protocol aims to guide the user how to create an alignment script using the
 
 1.	Log in to your SuperCloud from Terminal. 
 2.	Navigate to ``~/galloway_shared/data/NGS_DATA/raw_reads`` and confirm the path to the FASTQ files that you intend to analyze. 
-3.	Go back to your local directory and create a bash script using 
+3.	Go back to your local directory and create a bash script using
+
+
     .. code-block:: text
+
         vim alignment.sh
+
 4.	 Type the following lines into the bash script, and don’t forget to modify the directory paths, organism genome , Read_1 and Read_1 extensions , accordingly.
+    
+    
     .. code-block:: bash
+
         #!/bin/bash
         # SBATCH --output=snakePipes-%j.txt
         # Loading the required module
