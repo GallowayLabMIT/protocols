@@ -82,7 +82,7 @@ Virus BSC setup
 
    a. A secondary plastic bag to the waste container, to catch any liquid on tips or pipettes. 
    b. (**BSL2+**) Plastic jar to fill with 10% bleach, for rinsing tips and serological pipettes.  
-   c. (**BSL2+**) Squirt bottle of Preempt and 2-3 paper towels, for wiping down of materials that leave the BSC. 
+   c. (**BSL2+**) Squirt bottle of Preempt and 2-3 paper towels, for wiping down materials before they leave the BSC. 
 
 Plastic rinsing during viral work - BSL2+
 ------------------------------------------
