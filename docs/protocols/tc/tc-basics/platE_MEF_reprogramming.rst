@@ -133,6 +133,9 @@ Day 6 (1 day post infection):
 19. ~24 hours after previous transduction, remove virus-containing media and replace with fresh media. 
 20. If you are interested in early proliferation during reprogramming, perform :ref:`CellTrace Staining <cellTraceStaining>` on ths day.
 
+Days 7 - 18: Media changes
+--------------------------
+
 Day 7 (2 days post infection):
 ##############################
 
@@ -168,7 +171,7 @@ Days 10 (5 dpi), 12, ..,. 18 (13 dpi):
 .. note:: 
     After 8 dpi, it is recommended to dissociate with (:ref:`DNAse/Papain <MNdissociate>`) instead of trypsin
 
-Day 19 (14 dpi):
-################
+Day 19 (14 dpi): Assay reprogramming rate
+------------------------------------------
 
 24. Assay reprogramming rate via microscopy or flow cytometry. 
