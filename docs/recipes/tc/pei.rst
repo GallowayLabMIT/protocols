@@ -38,7 +38,7 @@ optimal μg PEI:μg DNA ratio. Previous tests have used ratios ranging from 1:1 
 in 6-well plates for ease of pipetting PEI volumes. Smaller well plates and volumes may be used if the number of cells and the amount of DNA
 are decreased in proportion to the decrease in culture surface area. 
 
-1. The day before transfection, seed 1 million 293T cells in 1 well of a 6-well plate for each ratio to be tested. 
+1. The day before transfection, seed 1 million 293T cells in 1 well of a gelatin-coated 6-well plate for each ratio to be tested. 
 2. Prepare a midiprep of a plasmid tht expresses a single fluorescent protein under the control of a strong constitutive promoter
    such as CMV or EF1α. Plasmids such as pKG1923 (pSHIP-EFS-mGreenLantern-bGH) or pKG2340 (pSHIP-CMV-mRuby2-bGH) are appropriate 
    would work, along with any other simple plasmid.  You will need 2 μg of DNA per ratio tested.  
@@ -52,7 +52,8 @@ are decreased in proportion to the decrease in culture surface area.
    - 6:1 - 200 μL KO DMEM + 12 μL PEI (1 μg / μL) 
 
 4. After 10 minutes, add 2 μg of plasmid DNA to each KO DMEM/PEI Mix. Invert to mix and wait 10 minutes. 
-5. After 10 minutes, add the entire KO DMEM/PEI/DNA mix dropwise to a single well of the 6-well plate. Repeat for all tested titrations. 
+5. After 10 minutes, add the entire KO DMEM/PEI/DNA mix dropwise to a single well of the 6-well plate.
+   Repeat for all tested titrations. 
 6. Return cells to the incubator.
 7. The next morning, replace the media with fresh DMEM + 10% FBS. 
 8. 2 days after transfection, assess transfection efficiency using the Keyence or the Attune.

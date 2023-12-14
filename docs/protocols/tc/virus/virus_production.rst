@@ -2,6 +2,8 @@
 Virus production in HEK293T
 ======================================
 
+.. _virusProd:
+
 This protocol describes how to produce lentivirus and retrovirus in HEK293T cells, including a final concentration step.
 
 .. time::

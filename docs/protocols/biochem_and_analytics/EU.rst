@@ -2,6 +2,8 @@
 Homemade EU click
 ==========================
 
+.. _EUclick:
+ 
 1 rxn = 1 single 24-well (250 µL EU or 175 µL click mix).
 
 Note that ascorbic acid should be made fresh and **EU will likely be the limiting reagent.**
