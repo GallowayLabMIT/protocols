@@ -13,33 +13,49 @@ Local Usage
 Getting started
 ---------------
 
-1. Follow Chris's instructions for getting CellBaum set up on your computer and update this protocol with those instructions. (I don't remember how to do this - I think you need to clone the CellBaum repository or something?)
-2. Make sure you have CellProfiler and Fiji installed on your computer.
-3. Download all the timelapse images to your computer so they can be accessed quickly. This can be done by right clicking on the folder and selecting "Always keep on this device".
+1. Make sure you have `CellProfiler <https://cellprofiler.org/releases>`__, `Fiji <https://fiji.sc/>`__, and Conda installed on your computer.
+   Conda is needed for some of the dependency installation. We recommend `Miniconda <https://docs.conda.io/projects/miniconda/en/latest/>`__; do not let it install Python into your PATH.
+2. Using the Fiji plugin manager, install MIST, a Fiji stitching plugin.
+3. Clone the `CellBaum <https://github.com/GallowayLabMIT/CellBaum>`__ repo, either e.g. with VSCode or via a terminal (remember, the ``$`` just marks the terminal ready for input, you don't type it):
+
+.. code-block:: console
+  
+  $ git clone https://github.com/GallowayLabMIT/CellBaum.git
+
+4. Start a new branch for your own work.
+5. Follow the instructions in the ``README.md`` file. This involves running ``conda env create --prefix ./cenv --file env.yml``. There are suggestions in the README on making this faster.
+6. Download all the timelapse images to your computer so they can be accessed quickly. This can be done by right clicking on the folder and selecting "Always keep on this device".
    After you are done analyzing the images you can remove them from your computer by right clicking on the folder and selecting "Free up space".
-4. Complete the cellbaum_config.yml file for your specific experiment. This can be done using VS Code. See more detailed instructions below.
-5. Open up a terminal in the CellBaum folder. You may open the terminal using VS Code.
-6. Activate the virtual environment by typing conda activate ./cenv in the terminal::
+7. Complete the ``cellbaum_config.yml`` file for your specific experiment. This can be done using VS Code. See more detailed instructions below.
+8. Open up a terminal in the CellBaum folder. You may open the terminal using VS Code.
+9. Activate the virtual environment:
         
-        conda activate ./cenv
+.. code-block:: console
 
-7. To do a dry-run the CellBaum pipline, type snakemake - -dry-run in the terminal. This is to double check that everything is configured correctly::
+  $ conda activate ./cenv
 
-        snakemake --dry-run
+10. To do a dry-run the CellBaum pipline, type the following in the terminal. This is to double check that everything is configured correctly:
 
-8. To run CellBaum, type snakemake into the terminal. To assign a set number of cores on your computer, add the -j# flag after snakemake. For example, to use 7 cores on your computer to run CellBaum, type snakemake -j7::
+.. code-block:: console
+  
+  $ snakemake --dry-run
 
-        snakemake -j7
 
-9.  Let CellBaum run. This may take many hours. The typical order of jobs is:
+11.  To run CellBaum, type the following into the terminal. To assign a set number of cores on your computer, add the ``-j#`` flag after snakemake. For example, to use 7 cores on your computer to run CellBaum, you could run:
+
+.. code-block:: console
+  
+  $ snakemake --j7
+
+12. Let CellBaum run. This may take many hours. The typical order of jobs is:
    
-   1. folder merging (if needed, e.g. you stopped and re-started the timelapse)
-   2. grayscaling
-   3. find focus (if z-stacking was used)
-   4. stitching (if stitching was used)
-   5. run Cell Profiler pipeline to collect cell data and locations (nuclei_masking.cppipe)
-   6. btracking (for more information on Bayesian Tracking see `GitHub <https://github.com/quantumjot/BayesianTracker>`_ and their `User's Guide <https://btrack.readthedocs.io/en/latest/>`_)
-   7. Add cell data to HDF tracks file
+    1. folder merging (if needed, e.g. you stopped and re-started the timelapse)
+    2. grayscaling
+    3. find focus (if z-stacking was used)
+    4. stitching (if stitching was used)
+    5. run Cell Profiler pipeline to collect cell data and locations (nuclei_masking.cppipe)
+    6. btracking (for more information on Bayesian Tracking see `GitHub <https://github.com/quantumjot/BayesianTracker>`_ and their `User's Guide <https://btrack.readthedocs.io/en/latest/>`_)
+    7. Add cell data to HDF tracks file
 
 
 .. tip::
@@ -47,19 +63,23 @@ Getting started
   If you want to stop CellBaum from running, hit ctrl+C while in the terminal and CellBaum will stop running after it finishes all the jobs it is currently running.
   
   If you are too impatient to wait for CellBaum to finish running or it is stuck on the btracking step, you can kill the terminal.
-  However, if you kill the terminal, you will need to unlock it before you can run again::
+  However, if you kill the terminal, you will need to unlock it before you can run again:
 
-    snakemake --unlock
+  .. code-block:: console
 
-  You may also need to use the rerun-incomplete flag after unlocking if you stopped CellBaum partway through a job such as grayscaling::
+    $ snakemake --unlock
 
-    snakemake -j7 --rerun-incomplete
+  You may also need to use the rerun-incomplete flag after unlocking if you stopped CellBaum partway through a job such as grayscaling:
+
+  .. code-block:: console
+
+    $ snakemake -j7 --rerun-incomplete
 
 
 CellBaum Config File
 --------------------
 
-If you have not completed a config file previously, copy the cellbaum_config.yml.template file and remove ".template" from the file name. This will be your config file.
+If you have not completed a config file previously, copy the ``cellbaum_config.yml.template`` file and remove ".template" from the file name. This will be your config file.
 If you have a previous config file, you may simply edit that one.
 
 Complete the config file with the following information:
@@ -93,9 +113,9 @@ Complete the config file with the following information:
 * gray_channels
 
   * list of channels you want to grayscale and which grayscale method to use.
-  * 'max' uses the RGB channel in which the maximum pixel value occurs (I think)
-  * 'avg' uses the average of all three RGB channels (I think)
-  * using a list of 3 ratios lets you choose the weight of each RGB channel (I think)
+  * 'max' uses the RGB channel in which the maximum pixel value occurs
+  * 'avg' uses the average of all three RGB channels
+  * using a list of 3 ratios lets you choose the weight of each RGB channel
   * For example::
 
         gray_channels:
@@ -246,7 +266,7 @@ Change the btrack model parameters (models/cell_config.json)
 * You can read more about the btrack config models `here <https://btrack.readthedocs.io/en/latest/user_guide/configuration.html#>`_.
 * The output of the tracking is very sensitive to the choice of parameter values. The global optimization step can take a very long time to complete if you have a poor choice of model parameters.
 * Changing the Motion Model probably won't help much.
-* Brittany has found that increasing the values for lambda_link and lambda_branch helped most with converging.
+* Brittany has found that increasing the values for ``lambda_link`` and ``lambda_branch`` helped most with converging.
 
 
 MIT Supercloud Usage
@@ -277,17 +297,23 @@ Upload Timelapse Files from the Keyence to the Supercloud
 ---------------------------------------------------------
 
 1. Open a terminal **in your Keyence Timelapse Ondrive folder** (shift + right click then choose Open Terminal).
-2. Use rclone to copy your experiment folder to the supercloud. Rclone uses the following command to copy files::
+2. Use rclone to copy your experiment folder to the supercloud. Rclone uses the following command to copy files:
 
-    rclone copy (--dry-run) (--progress) source:sourcepath dest:destpath
+   .. code-block:: console
 
-3. It is recommended to first do a dry run to ensure everything will transfer correctly::
+    $ rclone copy (--dry-run) (--progress) source:sourcepath dest:destpath
 
-    ~/downloads/rclone-v1.60.1-windows-amd64/rclone-v1.60.1-windows-amd64/rclone.exe copy --dry-run 2022.12.16_Hb9-Activation supercloud-blende:/home/gridsan/blende/galloway_shared/data/2022.12.16_Hb9-Activation
+3. It is recommended to first do a dry run to ensure everything will transfer correctly:
 
-4. Then when you are ready to transfer the files, include the progress flag to see upload progress::
+   .. code-block:: console
 
-    ~/downloads/rclone-v1.60.1-windows-amd64/rclone-v1.60.1-windows-amd64/rclone.exe copy --progress 2022.12.16_Hb9-Activation supercloud-blende:/home/gridsan/blende/galloway_shared/data/2022.12.16_Hb9-Activation
+    $ ~/downloads/rclone-v1.60.1-windows-amd64/rclone-v1.60.1-windows-amd64/rclone.exe copy --dry-run 2022.12.16_Hb9-Activation supercloud-blende:/home/gridsan/blende/galloway_shared/data/2022.12.16_Hb9-Activation
+
+4. Then when you are ready to transfer the files, include the progress flag to see upload progress:
+
+   .. code-block:: console
+
+    $ ~/downloads/rclone-v1.60.1-windows-amd64/rclone-v1.60.1-windows-amd64/rclone.exe copy --progress 2022.12.16_Hb9-Activation supercloud-blende:/home/gridsan/blende/galloway_shared/data/2022.12.16_Hb9-Activation
 
 
 .. note:: 
@@ -305,30 +331,42 @@ Using the MIT Supercloud
 ------------------------
 
 1. Open powershell.
-2. In the terminal type::
+2. In the terminal type:
 
-    ssh supercloud
+   .. code-block:: console
+
+    $ ssh supercloud
 
 3. You may need to type your password. If you don't want to type your password every time you can use ssh-add to use an agent to control authentification.
-4. Navigate to the CellBaum folder::
+4. Navigate to the CellBaum folder:
 
-    cd ~/galloway_shared/CellBaum
+   .. code-block:: console
 
-5. Do a git pull to update CellBaum::
+    $ cd ~/galloway_shared/CellBaum
 
-    git pull
+5. Do a git pull to update CellBaum:
 
-6. If you have your own branch in CellBaum, switch to your branch. For example::
+   .. code-block:: console
 
-    git checkout KTRs
+    $ git pull
 
-7. Update the supercloud_config.yml file for your specific timelapse. You can update the file in VS Code on your computer, push it to GitHub, and then do git pull on the supercloud. Or you can use nano::
+6. If you have your own branch in CellBaum, switch to your branch. For example:
 
-    nano supercloud_config.yml
+   .. code-block:: console
 
-8. You might also need to update the snakefile to use the supercloud_config.yml instead of the cellbaum_config.yml file::
+    $ git checkout KTRs
 
-    nano snakefile
+7. Update the supercloud_config.yml file for your specific timelapse. You can update the file in VS Code on your computer, push it to GitHub, and then do git pull on the supercloud. Or you can use nano:
+
+   .. code-block:: console
+
+    $ nano supercloud_config.yml
+
+8. You might also need to update the snakefile to use the supercloud_config.yml instead of the cellbaum_config.yml file:
+
+   .. code-block:: console
+
+    $ nano snakefile
 
     # Then change
 
@@ -340,17 +378,23 @@ Using the MIT Supercloud
 
 9. Update any CellProfiler pipelines that are used. You can copy files to the supercloud via `scp <https://supercloud.mit.edu/accessing-and-transferring-data-and-files>`_, or you can git push the file from your computer and then git pull from the supercloud.
 
-10. To run CellBaum you need to run the submission bash script::
+10. To run CellBaum you need to run the submission bash script:
  
-     LLsub sub_script.sh
+   .. code-block:: console
 
-11. To see what is running, you can type::
+    $ LLsub sub_script.sh
+
+11. To see what is running, you can type:
  
-     LLstat
+   .. code-block:: console
 
-12. When you want to leave the supercloud, just type exit::
+    $ LLstat
 
-     exit
+12. When you want to leave the supercloud, just type exit:
+
+   .. code-block:: console
+
+    $ exit
 
 13. You can view the files on the supercloud using the Powershell and ls. Or you can log into the online web portal: https://txe1-portal.mit.edu/
 
@@ -367,11 +411,3 @@ This config file is virtually the same as the cellbaum_config.yml file, except y
     output_dir: /home/gridsan/blende/galloway_shared/data/2022.12.16_Hb9-Activation/CellBaum_results
     log_dir: /home/gridsan/blende/galloway_shared/data/2022.12.16_Hb9-Activation/CellBaum_results/Logs
     cell_config: /home/gridsan/blende/galloway_shared/CellBaum/models/cell_config.json
-
-
-Data Analysis
-=============
-
-To add later
-
-How to open HDF files and understand LBEPR format.
