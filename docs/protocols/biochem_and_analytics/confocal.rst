@@ -56,3 +56,4 @@ You can either save all of them in one go or save them individually.
  It should redirect you to a file path in the D-drive of the microscopy core, where you can save files in a folder under your name. 
 3.	This can later on be accessed and analyzed using one of the Workstations in the Core. 
 
+
