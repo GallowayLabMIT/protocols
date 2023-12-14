@@ -27,7 +27,7 @@ Basic Operation
   :align: center
 
 6. **Focusing Images**: To manually focus the microscope image, use the mouse scroll for fine adjustments. For moderate adjustment use ctrl + mouse wheel. For large adjustments use ctrl + shift + mouse wheel. There is also an option to auto-focus under the Z Position menu, but this method can take longer.
-7. **Exposure Time / Brightness**: To change the brightness of the selected channel, change the exposure time under the Camera Setting menu. In general, it is best to stay under an exposure time of 1s for fluorescent channels because any longer is typically starts to show autofluorescence.
+7. **Exposure Time / Brightness**: To change the brightness of the selected channel, change the exposure time under the Camera Setting menu. In general, it is best to stay under an exposure time of 1s for fluorescent channels because any longer typically starts to show autofluorescence.
 
 .. image:: img/camera_setting.PNG
   :width: 50%
@@ -71,8 +71,73 @@ Basic Operation
   :width: 75%
   :align: center
 
-.. note:: The 60X lens requires adding oil to the lens.
+.. note::
+    **The 60X lens requires adding oil to the lens.** See :ref:`60X Magnification <60X_mag>` 
 
+
+Default image settings
+-----------------------
+
+.. important::
+    Check to make sure the image settings are off. It is best practice to take un-edited images and then make trackable adjustments with softwares like Fiji.
+
+Here are some common things to check for.
+
+.. image:: img/image-settings.PNG
+    :width: 100%
+    :align: center
+
+As an example, this is what the same cells look like with black balance on.
+While it helps clarify which cells are mRuby2+, it can also be misleading.
+
+.. image:: img/image-settings-blackbalance.PNG
+    :width: 100%
+    :align: center
+
+
+
+.. _60X_mag:
+
+60X Magnification
+------------------
+
+The 60X lens works best with glass coverslips/plates. 
+
+.. important::
+    The 60X lens is very sensitive. Exercise extreme caution when using and only clean with the special *Ross Optical Lens Tissue* (doesn't leave behind lint).
+    
+Tips for cleaning
+~~~~~~~~~~~~~~~~~
+
+1. Dust is the most common contaminant and can usually be removed using pressurized gas. Use a dust-free blower or a soft optical cleaning brush to remove large dirt particles before attempting to clean the optic with lens tissue, as these larger particles trapped under the tissue will scratch the surface.
+2. Take a single piece of tissue and fold it in half until it is about 1 inch wide. **Moisten the tissue with ethanol**.
+   The tissue should be moist but not dripping wet.
+3. Place the moist portion of the tissue on the optic.
+   With gentle pressure from your index finger, drag across the surface with a circular motion, starting from the center of the lens and moving outward.
+   Discard this piece of tissue. Reusing the same tissue can cause recontamination of the cleaned surface.
+4. Repeat steps 2 and 3 until the surface of the optic is clean.
+
+
+How to use the 60X lens
+~~~~~~~~~~~~~~~~~~~~~~~~
+1. Click the "x60 lens" icon to change the lens 
+2. Click ``Drop Immersion Oil...``. The 60X lens will move forward for you to be able drop oil on it.
+
+ .. image:: img/immersion_oil.png
+     :width: 75%
+     :align: center
+
+2. Follow the instructions that are presented.
+   Use the Nikon immersion oil and carefully place no more than one drop of oil.
+   Wipe off excess with a Ross optical tissue so oil doesn't spill when the plate is added.
+
+    .. image:: img/immersion-oil-instruct.png
+     :width: 75%
+     :align: center
+
+3. Click ``Ok`` and then proceed to change the lens.
+
+.. note:: If doing lots of imaging, you may have to add more oil as it will dry out from the heat.
 
 Multi-point capture
 -------------------
