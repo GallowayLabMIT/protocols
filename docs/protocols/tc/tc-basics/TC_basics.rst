@@ -6,7 +6,7 @@ When handling mammalian cells (aka tissue culture) always work in the Biosafety 
 
 General Guidelines
 --------------------
-- All TC room equipment (e.g., tube racks, timers, 70% ethanol bottles, gloves) should stay in the TC room. Also, outside equipment should not be brought into the TC  room unless absolutely necessary.
+- All TC room equipment (e.g., tube racks, timers, 70% ethanol bottles, gloves) should stay in the TC room. Also, outside equipment should not be brought into the TC room unless absolutely necessary -- spray these with 70% Ethanol.
 - Do not wear your TC coat into the bacteria area. The white coats should be primarily limited to use in the TC, the exception would be getting media from the fridge (Sven).
 - Discard gloves used for bacteria work before entering the TC room.
 
@@ -61,7 +61,7 @@ Finishing up work in the BSC
 ----------------------------
 
 1. Put away all reagents, cultures, and other materials you brought into the BSC.
-2. Discard trash in the biohazard waste bin (**NOT for BL2+ work**, see step 5 below); if not using a trash bag, spray the benchtop biowaste container with 70% ethanol and wipe clean before placing it back in the BSC.
+2. Discard trash in the biohazard waste bin (**NOT for BL2+ work**, see step 5 below and refer to BL2+ guidelines); if not using a trash bag, spray the benchtop biowaste container with 70% ethanol and wipe clean before placing it back in the BSC.
 3. In order to minimize contamination and cross contamination, run ethanol or bleach through the aspirator tip after use.
 
 .. note::
@@ -70,7 +70,7 @@ Finishing up work in the BSC
 4. Spray the surface inside the BSC with Pre-Empt, wait one minute for decontamination, then wipe down the surface with 70% ethanol. Pre-empt can be sticky so “rinsing” with ethanol can help remove residue that accumulates over time.
 
 .. important::
-    Pre-Empt is required after BSL2+ work, and should otherwise be used at least once daily.
+    Pre-Empt is required after BSL2+ work, and should otherwise be used at least once daily by the last BSC user of the day.
 
 5. Pull the sash down and allow the UV light to run for one cycle (minimum 15 min). Following the UV cycle, BSL2+ trash can be removed and placed in the biohazard waste bin.
 6. Again, wipe the surfaces with Pre-Empt and ethanol following the removal of trash.
