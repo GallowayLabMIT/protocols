@@ -4,6 +4,8 @@ Immunofluorescent Staining
 ============================================
 
 
+.. _antibodyStaining:
+
 Solutions Required
 -----------------------------------------------
 

@@ -1,5 +1,5 @@
 =====================================
-CFSE Labeling
+CellTrace Dye Labeling
 =====================================
 
 CFSE and other CellTrace dyes are used to measure relative 
@@ -19,6 +19,7 @@ uses less dye and may lead to more even staining. The drawback is that with
 some of the dyes (e.g. CFSE) you start to lose resolution at 4 dpi in NILDDRR
 conditions.
 
+.. _cellTraceStaining:
 
 .. note::
     CFSE (500 µg) is the cheapest by far but NW has observed it may dilute out faster than CTV and CTFR.
