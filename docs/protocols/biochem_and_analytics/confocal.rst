@@ -55,5 +55,3 @@ You can either save all of them in one go or save them individually.
 2.	To save and export, right click either the Entire Project or the Individual image acquisitions and click Export.
  It should redirect you to a file path in the D-drive of the microscopy core, where you can save files in a folder under your name. 
 3.	This can later on be accessed and analyzed using one of the Workstations in the Core. 
-
-
