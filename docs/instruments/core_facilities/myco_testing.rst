@@ -7,14 +7,14 @@ Myco testing is run by the Preclinical Modeling Core Facility in the Koch Instit
 Getting Access
 --------------
 1. Create an iLab account with your MIT email and select to join the Galloway Lab.
-2. If needed, request internal access to the Koch by emailing Jaime Cheah at jcheah@mit.edu. They will need to sponsor anyone outside of the KI for those who need access.
+2. If needed, request internal access to the Koch by emailing the Preclinical Modeling staff (Aurora and Noranne) at escore@mit.edu and explain why you need access. They will need to sponsor anyone outside of the KI for those who need access.
 
 Submitting Testing Request in iLab
 ----------------------------------
 
 1. Requests for myco testing can be submitted through the iLab website. The request form can be found under Core Facilities >> ES Cell and Transgenics Facility >> Request Services >> MYCOPLASMA TESTING >> Request Service.
 2. Complete the table with matrix vial barcode numbers, cell line names, email, PI, and TC Room # (66-225b). Adding the passage number is optional. If submitting a non-conditioned media sample, indicated "media only" in the passage number box. Once completed, save the table.
-3. Enter the quantity of samples to be submitted. This should match the number of completed rows in the table. The cost is $25 per sample or $50 for media-only sample.
+3. Enter the quantity of samples to be submitted. This should match the number of completed rows in the table. The cost is $40 per sample or $50 for media-only sample.
 4. Under payment information, select the desired payment number.
 5. Submit the request to the core and drop off samples before 10am on Tuesday.
 

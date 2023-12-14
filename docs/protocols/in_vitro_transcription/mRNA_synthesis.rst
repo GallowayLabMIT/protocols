@@ -2,7 +2,6 @@ modRNA synthesis
 =================
 
 
-
 This procedure outlines modRNA synthesis with Cap 1 structure, where IVT and capping is conducted simultaneously using `CleanCap AG reagent <https://www.neb.com/protocols/2019/09/23/co-transcriptional-capping-using-cleancap-reagent-ag-from-trilink-and-hiscribe>`_. Just be certain that your IVT template contains an AG directly downstream of the T7 promoter element: 5’ TAATACGACTCACTATA **AG** 3’
 
 
@@ -10,8 +9,12 @@ You could also use Anti-Reverse Cap Analog `(ARCA) <https://www.neb.com/products
 workflow has fallen out of favor since the development of CleanCap, as ARCA 1) reduces yield of capped mRNA and 2) contaminates the product with uncapped mRNA, which elicits an immunogenic response.   
 
 .. important:: 
-  Please be careful to avoid `degradation from RNase <https://www.neb.com/tools-and-resources/usage-guidelines/avoiding-ribonuclease-contamination>`_. Although I haven't encountered noticeable RNA degradation,
-  it's probably a good idea to adhere to some of these general guidelines. I recommend using a new pair of gloves each time you enter/exit lab. Also, use a fresh barrier pipette tip when handling any of the reagents (nucleosides, buffers, enzymes) to prevent RNase contamination for other users. 
+  Please be careful to avoid `degradation from RNase <https://www.neb.com/tools-and-resources/usage-guidelines/avoiding-ribonuclease-contamination>`_.
+  
+  Perform these steps in the genomics hood, wipe down all surfaces with the RNase surface decontaminant, and
+  use a new pair of gloves sprayed with the decontaminant each time you enter/exit the lab.
+
+  Also, use fresh barrier tips from inside the genomics hood when handling any of the reagents (nucleosides, buffers, enzymes).
 
 
 IVT reaction
@@ -44,19 +47,20 @@ The protocol for IVT is adapted from the `NEB HiScribe protocol <https://www.neb
 
 4. Optional: post IVT, you can treat you sample with DNase I if your application cannot tolerate residual amounts of DNA template. Add nuclease-free water to 50 µL, add 1 µL DNase I, and incubate at 37 C for 15 min. 
    
-4. Purify modRNA with `NEB Monarch RNA Cleanup Kit <https://www.neb.com/products/t2050-monarch-rna-cleanup-kit-500-ug#Protocols,%20Manuals%20&%20Usage>`_ following manual provided in kit.
+5. Purify modRNA with `NEB Monarch RNA Cleanup Kit <https://www.neb.com/products/t2050-monarch-rna-cleanup-kit-500-ug#Protocols,%20Manuals%20&%20Usage>`_ following manual provided in kit.
 
-5. Keep the purified modRNA on ice to perform quality control analysis. Nanodrop to determine concentration (for a 20 µL reaction, one should expect ~50 micrograms of RNA). 
+6. Keep the purified modRNA on ice to perform quality control analysis. Nanodrop to determine concentration (for a 20 µL reaction, one should expect ~50 micrograms of RNA). 
   
-6. Perform gel electrophoresis to confirm the full-length product was synthesized. Add nanodropped samples to a new PCR tube containing 8 µL of NEB 2X RNA Loading Dye (blue reagent), incubate at 90 C for 3 minutes, and immediately place on ice for 2 minutes. This is to denature RNA secondary structure so it can be resolved on a native agarose gel.
+7. Perform gel electrophoresis to confirm the full-length product was synthesized. Add nanodropped samples to a new PCR tube containing 8 µL of NEB 2X RNA Loading Dye (blue reagent), incubate at 90 C for 3 minutes, and immediately place on ice for 2 minutes. This is to denature RNA secondary structure so it can be resolved on a native agarose gel.
 
-7. In parallel, prep a `ssRNA ladder <https://www.neb.com/products/n0362-ssrna-ladder#Product%20Information>`_ to serve as a standard. 
-   
-8. Run your denatured RNA samples on a gel to confirm product size. 
+8. In parallel, prep a `ssRNA ladder <https://www.neb.com/products/n0362-ssrna-ladder#Product%20Information>`_ to serve as a standard. 
+  
+9. Run your denatured RNA samples on a gel to confirm product size. 
 
 .. important:: 
-  Ethidium bromide does not stain ssRNA very well, prepare your gel using SYBR safe!!
+  Ethidium bromide does not stain ssRNA very well, prepare your gel using SYBR safe!
 
-9. Aliquot modRNA into single-use tubes (scale appropriately for your experiment) and store in -80 C. 
+10. Aliquot modRNA into single-use tubes (scale appropriately for your experiment) and store in -80 C. We have a box for
+    synthesized modRNA in Nokk.
 
 .. note:: I have observed no reduction in product quality multiple months after storing. Although I have witnessed some sublimination which leads to more concentrated RNA samples.    

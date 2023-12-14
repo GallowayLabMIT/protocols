@@ -1,4 +1,4 @@
-===================================== 
+=====================================
 Snap-tag Labeling
 =====================================
 
@@ -23,6 +23,7 @@ Snap-Cell 647-SIR           RL1 (645/661)                0.6 mM (200x)          
 
 .. note:: 
     The NEB website recommends the above stock concentrations as 200x. Greater dilutions can been used and labeling is still sufficient. AMB has used 400x dilution (2.5 µL dye / mL media ) to label and had detectable signal.
+    Greater dilutions may also reduce the amount of background staining.
 
 Other materials needed:
 ________________________  

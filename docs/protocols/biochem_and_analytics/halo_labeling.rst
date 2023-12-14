@@ -1,6 +1,6 @@
-===================================== 
+====================================
 Halo-tag Labeling
-=====================================
+====================================
 
 Cell expressing the Halo protein or a Halo-tagged fusion protein can be labeled live, without fixation using Halo ligands ordered from Promega. 
 This protocol for labeling of live cells with Halo ligand is also found on `the Promega website <https://www.promega.com/products/protein-detection/protein-labeling/janelia-fluor-halotag-ligands/?catNum=GA1110#protocols>`_ in the "Focus on Imaging Technical Manual."

@@ -20,7 +20,8 @@ Packages are usually delivered to the atrium (lab entrance near 66-219), or occa
       4ºC           TC         Oaken
       -20ºC         Cloning    Anna
       -20ºC         TC         Olaf, top shelf
-      -80ºC         either     Elsa, bottom shelf
+      -80ºC         Cloning    Elsa, bottom shelf
+      -80ºC         TC         Nokk, top shelf
      ============== ========= ========================
 
    - For items that are not temperature sensitive, leave the package on the recipient's lab bench.

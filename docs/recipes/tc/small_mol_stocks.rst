@@ -16,11 +16,15 @@ Indole-3-acetamide (Auxin precursor, IAM)
 3. Sterilize with 0.22 uM filter.
 4. Separate into 50 uL aliquots and store at -20°C.
 
+.. _O6-BG_stock:
+
 50mM O6-Benzylguanine (O6BG)
 -----------------------------------------
 1. Dissolve 12 mg of O6BG in 1ml of DMSO.
 2. Sterilize with 0.22 uM filter.
 3. Separate into 50 uL aliquots and store at -20°C.
+
+.. _guanine_stock:
 
 25mM Guanine 
 -----------------------------------------
@@ -28,7 +32,6 @@ Indole-3-acetamide (Auxin precursor, IAM)
    (Guanine can not be dissolved with DMSO/Water)
 2. Sterilize with 0.22 uM filter.
 3. Separate into 50 uL aliquots and store at -20°C.
-4. 25mM Guanine 
    
 50 μM AP1903/Rimiducid (1000x stock)
 -----------------------------------------
