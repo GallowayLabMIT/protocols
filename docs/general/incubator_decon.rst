@@ -22,8 +22,8 @@ The `Hei Hei/Pua incubator manual </docs/_static/files/ode_training_files/vwr-ba
 
 **Day 1**
 
-1. Turn off the incubator.
-2. Remove and empty the plastic water tray. This tray may be autoclaved.
+1. Turn off the incubator (switch located below the door on the left) and turn off CO2 flow (silver levers on the wall).
+2. Remove and empty the metal water tray. This tray may be autoclaved.
 3. If any water remains in the bottom of the incubator, use the water pump hanging on the side of the incubator to empty.
 
    To operate the water pump:
@@ -45,7 +45,7 @@ The `Hei Hei/Pua incubator manual </docs/_static/files/ode_training_files/vwr-ba
 
    - If necessary, the blower wheel can be removed to be more thoroughly cleaned. Refer to the manual (page 56) for instructions.
 
-6. Replace the plastic water tray and fill with autoclaved DI water.
+6. Replace the metal water tray and fill with autoclaved DI water.
 7. Follow the manual instructions (page 58) for starting the 90ºC decontamination cycle. This will take **approximately 25 hours** to complete.
 
    - Heating: 2 hours
@@ -55,8 +55,10 @@ The `Hei Hei/Pua incubator manual </docs/_static/files/ode_training_files/vwr-ba
 
 **Day 2**
 
-8. Once the decontamination routine is complete, follow manual instructions (page 45) to begin the auto-start routine. This will take **approximately 5 hours**.
-9. After the auto-start routine finishes, the incubators can be used.
+8. Once the decontamination routine is complete, wipe up any water on the bottom of the incubator and make sure the water tray is still filled.
+9. Reconnect CO2 flow.
+10. Follow manual instructions (page 45) to begin the auto-start routine. This will take **approximately 5 hours**.
+11. After the auto-start routine finishes, the incubators can be used.
 
 Te Kā (Quarantine) and Te Fiti (66-219)
 _______________________________________
