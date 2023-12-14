@@ -364,7 +364,8 @@ Day 1: cell collection and fixation
    If you have fewer than 100k cells, leave it resuspended in the cold PBS (e.g. do not concentrate).
 7. Pellet the cells at 300 g for 3 minutes. Do not aspirate the PBS.
 8. Prepare small quantities of 1.6% formaldehyde dilution, at least 6.7 μL per sample. From our 32% stock, this is a twenty-fold dilution.
-9. Freshly prepare a master mix to stop fixation:
+   You can alternatively prepare 2.7 μL of 4% formaldehyde per sample.
+9.  Freshly prepare a master mix to stop fixation:
    
    ================  =================
    Component         Amount per sample
@@ -374,12 +375,12 @@ Day 1: cell collection and fixation
    7.5% BSA          1.3 μL
    ================  =================
 
-10. Fix cells by adding 6.7 μL of 1.6% formaldehyde to each sample, simultaneously diluting the formaldehyde and resuspending the pellet via pipetting.
-11. Incubate the samples at room temperature for 5 minutes. Get ice if you don't already have some.
-12. Add 11.9 μL of the stop-fixation master mix to each sample.
-13. Incubate on ice for 10 minutes.
-14. Gently add 0.5 mL of cold PBS; try to not disturb cells that have settled to the bottom. Spin at 500 g for 3 minutes.
-15. Carefully aspirate media and again gently add 0.5 mL of cold PBS, trying not to disturb the pellet.
+11. Fix cells by adding 6.7 μL of 1.6% formaldehyde or 2.7 μL of 4.0% formaldehyde to each sample, simultaneously diluting the formaldehyde and resuspending the pellet via pipetting.
+12. Incubate the samples at room temperature for 5 minutes. Get ice if you don't already have some.
+13. Add 11.9 μL of the stop-fixation master mix to each sample.
+14. Incubate on ice for 10 minutes.
+15. Gently add 0.5 mL of cold PBS; try to not disturb cells that have settled to the bottom. Spin at 500 g for 3 minutes.
+16. Carefully aspirate media and again gently add 0.5 mL of cold PBS, trying not to disturb the pellet.
 
 .. note:: 
    You can pause at this point, with the fixed pellet sitting in PBS. If time allows on day 1, you should proceed to transposition.
@@ -473,10 +474,14 @@ Transposase assembly
 
       In total, we need to make 7 Tn5 mixes, and each mix will be used in 3 or 4 wells. This means that we need
       at least 1.0 μL of D1 dilutions per mix. Accounting for excess, we could make 10.5 uL of D1 mix total (1.5 μL of D1 per mix, diluted to 3 μL D2, diluted to 6 μL D3).
-      
-3. Prepare the unloaded D1 dilution of Tn5 by diluting Tn5 with dilution buffer. Using the Diagenode 2 mg/mL Tn5, the dilution ratio can be at least 1:10 (e.g. 9.0 μL Tn5 diluted to 90 μL). This has been verified to work at 1:7, with some over-transposition observed.
 
-   - For a full 96-well plate, this is in the 80-90 μL range, depending on how much excess you need in the next step.
+   .. note:: 
+      
+      If you are doing an entire plate, then you can use :math:`Z = 3.5`μL for the sci.AD1 primers and :math:`Z = 3.0`μL for sci.AD2.
+      
+3. Prepare the unloaded D1 dilution of Tn5 by diluting Tn5 with dilution buffer. Using the Diagenode 2 mg/mL Tn5, the dilution ratio can be at least 1:10 (e.g. 9.0 μL Tn5 diluted to 90 μL). This has been verified to work at 1:10.
+
+   - For a full 96-well plate, this is in the 70 μL range, depending on how much excess you need in the next step.
 
 
 4. For each Tn5 mix required (20 mixes for a whole plate), prepare D2 dilutions by separately combing Z μL of D1 mix with Z μL of pre-annealed adapters. The minimum **without excess** for N reactions is :math:`Z=\frac{N}{4}\mu\text{L}`; you should include excess.
@@ -591,7 +596,8 @@ Minimal amplification
 3. Prepare PCR master mix by combining 1.25 mL of NEBNext PCR mix and 250 μL of Elga water per plate.
 4. Add 15 μL of the PCR mix to each well, pipetting to mix.
 5. Spin down the PCR plate briefly at 300 g for 10 seconds.
-6. Run an initial amplification:
+6. Run an initial amplification. This takes about 24 minutes per plate. You can run multiple batches of these, e.g.
+   you don't need 9 thermocyclers to do so. Leave completed plates at 4C.
 
    ==================== ===============   ======= ======
    Step                 Temperature (C)   Time    Cycles
@@ -611,9 +617,54 @@ Quantification
 
 .. time:: 2 hours
 
-1. Randomly choose O(5) wells per PCR plate to use for qPCR, using **any** of the sciP1/P2 primers (such as sciP1.01 and sciP2.01). This works because the primers share a 3' end.
-2. Perform qPCR, ensuring that you include some blank water wells. Calculate the average :math:`\frac{C_t}{3}` value (e.g. the cycle number to reach 1/3rd the plateau value), ensuring that the water wells do not show comparable amplification. **Keep the qPCR plates to run wells on a gel**
-3. Perform N additional cycles of PCR, where :math:`N = \frac{C_t}{3} - 5`. This minimal amplification ensures that we generate a large enough library without introducing a bunch of PCR duplicates.
+1. Randomly choose O(5) wells per PCR plate to use for qPCR, using **any** of the sciP1/P2 primers (this has been done with sciP1.01 and sciP2.01). This works because the primers share a 3' end.
+2. Prepare qPCR master mix. Using the 2X master mix from the BioMicroCenter, the recipe for a full 96-well plate (with 5% excess) is:
+
+====================== ======== ====================
+Component               Amount    Amount with excess
+====================== ======== ====================
+2x SYBR master mix      500 μL        525 μL
+100 μM stock sciP1.01   1.0 μL      1.05 μL
+100 μM stock sciP2.01   1.0 μL      1.05 μL
+DEPC/Elga water         498 μL      523 μL
+====================== ======== ====================
+
+3. Sample 1 μL from 3-5 wells of each PCR plate and put it in the qPCR plate, doing at least duplicate technical replicates. Include some blank water wells, where you just place 1 μL of water in each well.
+4. Add 9 μL of master mix to every well, bringing the reaction volume to 10 μL.
+5. Perform qPCR with the following programs, ensuring that you included some blank water wells, following the LightCycler instructions `here <../../_static/files/roche_light_cycler-manual.pdf>`__.
+
+   **Programs**:
+
+   ===============   =======  ===============
+   Program           Cycles   Analysis mode
+   ===============   =======  ===============
+   Pre-incubation    1        None
+   Amplification     35       Quantification
+   Melting curve     1        Melting curve
+   Cooling           1        None
+   ===============   =======  ===============
+
+   **Details**:
+
+   ================ =====  ================  ========== =========== =============
+    Program          Temp  Acquisition mode  Hold        Ramp rate   Acquisitions
+   ================ =====  ================  ========== =========== =============
+   Pre-incubation    95    None              00:05:00    4.4
+   Amplification     95    None              00:00:30    4.4
+   Amplification     60    None              00:00:45    2.2
+   Amplification     72    Single            00:00:30    4.4
+   Melting curve     95    None              00:00:05    4.4
+   Melting curve     65    None              00:01:00    2.2
+   Melting curve     97    Continuous                                 5
+   Cooling           40    None              00:00:10    1.5
+   ================ =====  ================  ========== =========== =============
+
+
+6. Export the raw fluorescence curves for analysis.
+7. Calculate the average :math:`\frac{C_t}{3}` value (e.g. the cycle number to reach 1/3rd the plateau value), ensuring that the water wells do not show comparable amplification. **Keep the qPCR plates to run wells on a gel**.
+8. Perform N additional cycles of PCR, where :math:`N = \frac{C_t}{3} - 5`. This minimal amplification ensures
+   that we generate a large enough library without introducing a bunch of PCR duplicates.
+   The extra number of cycles should generally be less than 10. This PCR takes about 25 minutes.
 
    ==================== ===============   ======= ======
    Step                 Temperature (C)   Time    Cycles
@@ -625,15 +676,15 @@ Quantification
    Hold                 4
    ==================== ===============   ======= ======
 
-4. While additional cycles are running, run some of the completed qPCR wells on a gel. You should see a smear of transposition products, with the peak around 800bp-1kb.
+9. While additional cycles are running, run some of the completed qPCR wells on a gel. You should see a smear of transposition products, with the peak around 800bp-1kb.
 
 .. note:: 
 
    A smaller peak indicates overtransposition and means that you can increase the cell loading and/or increase the Tn5 dilution. Over-transposition isn't necessarily bad, it just possibly makes the data harder to align.
 
-5. Pool samples from each plate into separate 15 mL conical tubes.
-6. Purify the DNA from each plate using the DNA Clean and Concentration kit (1 column per plate). Use between 3- and 5-fold binding buffer. This will be a lot of binding buffer; it's fine. Load the column multiple times as needed.
-7. Elute in 12 μL of TE, pH 8.5 
+10. Pool samples from each plate into separate 15 mL conical tubes.
+11. Purify the DNA from each plate using the DNA Clean and Concentration kit (1 column per plate). Use between 3- and 5-fold binding buffer. This will be a lot of binding buffer; it's fine. Load the column multiple times as needed.
+12. Elute in 12 μL of TE, pH 8.5 
 
 Day 3: library quantification
 =============================
