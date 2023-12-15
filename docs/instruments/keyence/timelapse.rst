@@ -12,8 +12,8 @@ The Keyence comes with a special chamber / plate holder and `stage top incubator
 3. Secure the cords/tubes to the plate using the clasps.
 4. Remove the chamber lid and add Elga water to the "moat" until it is full. You can do this using the syringe located by the Keyence. Be careful not to spill water into the Keyence!
 5. Turn on the stage top incubator controller that is attached to the incubation chamber.
-6. Turn on the flow of CO2 by opening the valves on the tank. There are 3 different values you may need to open.
-7. Check there is enough CO2 tank pressure (right pressure gauge) for your time lapse (should be >600 psi?).
+6. Turn on the flow of CO2 by opening the valves on the tank. There are 3 different values you may need to open: the valve directly on top of the cylinder, the large valve on pressure regulator, and the small blue valve on the underside of the pressure regulator. 
+7. Check there is enough CO2 tank pressure (right pressure gauge) for your time lapse (should be >600 psi).
    The left pressure gauge should be between 14.5-21.5 psi; to change this pressure you can turn the large blue valve on the CO2 tank.
    Ensure the CO2 is flowing by looking at the process value (PV) on the controller display.
 
@@ -24,7 +24,7 @@ Using the Keyence Software
 1. Open the Keyence software and select "Time Lapse Capture".
 2. Set capture points, z-stacking, and stitching as normal.
 3. Click "Start Capture".
-4. Choose where you want to save the images. You should save them onto the Galloway Lab OneDrive that is specifically for time lapses.
+4. Choose where you want to save the images. You should save them onto the Galloway Lab - Timelapse OneDrive that is specifically for time lapses.
 5. Choose how frequently you want to capture images. They software will show the limit for how frequently you are able to capture images. This limit depends on the total number of images you want to capture at each time point.
 6. Choose how many times you want to capture images. The software will display the total capture time in the window based on imaging frequency and number of time points.
 7. There is also a limit to the total number of images you can take in a single time lapse (100,000 images).
