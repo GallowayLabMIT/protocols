@@ -1,6 +1,6 @@
 =======================
 Lab Safety Information
-========================
+=======================
 
 General Information
 ---------------------
@@ -75,9 +75,11 @@ Room-Specific Information
 - If the aspirator waste is filled to the indicated line, add more bleach for 20 minutes before pouring down the sink. Fill the empty bottle with a small amout of bleach.
 - Gloves should be disposed of in large or small biowaste bins.
 
-.. important:: BSL2+ Information
+.. important:: 
+  
+  **BSL2+ Information**
 
-  - Official indication that the room is BSL2+ is the black and orange sign on the door. If this is present, UROP and HIP-SAT students CAN NOT enter the room.
+  - Official indication that the room is BSL2+ is the black and orange sign on the door. If this is present, UROP and HIP-SAT students MAY NOT enter the room.
   - BSL2+ samples can be stored in:
       
     - Incubators that are labeled with a sign, within a secondary containment tray.
@@ -86,10 +88,12 @@ Room-Specific Information
     - The bottom centrifuge when labeled.
   
   - UROP and HIP-SAT students MAY NOT touch any equipment, cells, or samples that are BSL2+.
-  - When beginning BSL2+ work, you must flip the BSL2/BSL2+ sign, add the expected time to the google calendar, send a message in the BSL2+ slack channel, and confirm that there are no non-BSL2+ trained people in the room.
-  - All human-infectible viruses that express known oncogenes are to be treated as BSL2+ including: Lenti p53DD/hRas, Retro p53DD/hRas (not made in PlateE cells), 1 media change after infection with a BSL2+ virus
+  - When beginning BSL2+ work, you must flip the BSL2/BSL2+ sign, add the expected time to the lab Google calendar, send a message in the BSL2+ slack channel, and confirm that there are no non-BSL2+ trained people in the room.
+  - All human-infectible viruses that express known oncogenes are to be treated as BSL2+ including: Lenti p53DD/hRas, Retro p53DD/hRas (not made in PlateE cells), starting from 1 day after infection with a BSL2+ virus.
   - Do not use glass aspirating pipettes when doing BSL2+ work.
-  - Biosafety centrifuge caps are required when spinning a BSL2+ virus or infected sample . Buckets should only be opened in the BSC and must be decontaminated after use.
+  - Biosafety centrifuge caps are required when spinning a BSL2+ virus or infected sample. Buckets should only be opened in the BSC and must be decontaminated after use.
+
+  For more information on BL2+ protocols, see the :doc:`Virus safety <../protocols/tc/virus/virus_safety>` page.
 
 
 **66-218 (Atrium/Hallway area)**

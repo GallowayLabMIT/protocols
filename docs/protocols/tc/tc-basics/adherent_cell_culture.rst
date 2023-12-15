@@ -146,6 +146,7 @@ Image source: `<https://en.wikipedia.org/wiki/Hemocytometer>`__
 .. note::
     Counting more cells---by diluting the cell sample less, counting a larger region of the hemocytometer, or averaging the counts of several regions of the same size---will increase the accuracy of the concentration calculation.
 
+.. _seed-plating-cells:
 
 Seeding/Plating cells
 --------------------------------------------------------

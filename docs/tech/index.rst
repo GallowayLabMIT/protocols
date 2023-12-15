@@ -8,7 +8,7 @@ Tech documentation
    
    *
 
-See the :doc:`Repository setup guide <repo_setup>` if you are interested in how the continuous build system works, or you'd like to fork this repository to make it your own.
+See the :doc:`ci_builder_config` if you are interested in how the continuous build system works, or you'd like to fork this repository to make it your own.
 
 .. admonition:: TODO
 

@@ -73,9 +73,20 @@ Expected time: 3 days
  6. Be very gentle with neuronal cultures, they are not very adherent
 
 
+.. _antibodyStaining-flow:
 
 Cell Staining for Flow
 -----------------------------------------------
+
+General notes:
+
+- Cells are usually stained in U- or V-bottom 96-well plates but they can be stained in any container (e.g. test tubes, Eppendorf tubes, polystyrene round-bottom tubes, cluster tubes).
+- Antibody dilutions will require optimization.
+- Primary antibodies are generally good at 1:500 dilution, Secondary antibodies ~1:1000, Live/Dead (e.g. Zombie) ~1:1000.
+
+
+.. tip::
+   It is recommended to stain with ice-cold reagents/solutions and at 4°C, since low temperature prevents modulation and internalization of surface antigens which can produce a loss of florescence intensity.
 
 Expected time: 1-2 days (only 2 if overnight primary antibody)
 
@@ -93,7 +104,7 @@ Expected time: 1-2 days (only 2 if overnight primary antibody)
 5.  Add 1 mL PBS and spin cold at 4°C to pellet cells
 6.	Aspirate solution and incubate cells in 100 µL primary antibody (diluted in blocking solution) for at least 1 hr in the rotator at 4°C
 
-    .. note:: Some antibodies (e.g. Ki67) work better overnight in the rotator at 4°C
+    .. tip:: Some antibodies (e.g. Ki67) work better overnight in the rotator at 4°C
 
 7.  Add 1 mL 3% FBS (diluted in PBS) and spin cold at 4°C to pellet cells
 
@@ -104,6 +115,6 @@ Expected time: 1-2 days (only 2 if overnight primary antibody)
 10.	If doing a DNA stain, add Hoechst or DAPI diluted in PBS for 10 minutes at room temp, then wash with PBS
 
 .. note::
-    All spins are performed at ~500 rcf for 5 min. Our centrifuge follows RCF = 1e-4*[rpm]^2 + 4e-2*[rpm] - 6e1, where **2200 rpm = 512 rcf**.
+    All spins are performed at ~500 rcf for 5 min. Our cold Eppendorf centrifuge follows RCF = 1e-4*[rpm]^2 + 4e-2*[rpm] - 6e1, where **2200 rpm = 512 rcf**.
     It is recommended to perform all spins at 4°C once the cells have been fixed to prevent pellet loss. 
 

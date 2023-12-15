@@ -4,20 +4,11 @@ Glycerol Stocking
 
 After successfully sequencing a bacterial plasmid, we must stock it for storage. 
 
-1. Add pKG # to Quartzy database. Add in a new item to the plasmid database, with the criteria below. The pKG number is XXXXX, use the next pKG number available. 
+1. Add the plasmid to the database in Quartzy. See instructions on :doc:`this page <../../general/plasmid_database>`. 
 
-=============================== ====================================================
-Criteria                        Label 
-=============================== ====================================================
-Item Name                       pKGXXXXX (put leading zero if neccesary)
-Type                            bacterial stock
-Date Stored                     date of storage
-Plasmid                         description of construct (ex. LentiX-EF1a-mGL-BGH)
-pKG#                            XXXXX
-Plasmid type                    Selection from options
-Resistance markers              Selection from options
-Species                         Bacterial cell type (ex. NEB Stable)
-=============================== ====================================================
+.. important:: 
+    Add plasmids to the database before stocking! That way, you don't run into issues with overlapping numbering if someone else
+    is also stocking around the same time.
 
 2. Culture desired 4 mL of bacteria clone with the plasmid in LB Broth with the correct resistance antibiotic (overnight). 
 3. Add 2 mL of 60% glycerol to the 4 mL of culture. Mix well. 
