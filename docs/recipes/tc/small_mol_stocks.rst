@@ -7,8 +7,6 @@ Antibiotic concentrations
 
 Reference: `Selection antibiotics <https://www.thermofisher.com/us/en/home/life-science/cell-culture/transfection/transfection-reagents/selection-antibiotics.html>`_ (ThermoFisher)
 
-.. attention:: Fix!!!
-
 =============================================== ================= ========================= ============================= =========================================
 Name                                             Temperature       Stock conc                Common working conc.          293T conc. KL 2023.12.11
 =============================================== ================= ========================= ============================= =========================================              
