@@ -44,3 +44,22 @@ Puromycin, 10 mg / mL (10,000x stock)
 1. Dissolve 10 mg of Puromycin in 1.0 mL of water.
 2. Sterilize with 0.22 μM filer.
 3. Split into 50 μL aliquots and store at -20°C.
+
+
+
+
+Antibiotic stocks (10kx and 1kx)
+-----------------------------------------
+
+.. attention:: Fix!!!
+
+=============================================== ================= ===============
+Name                                              Stock conc       Temperature    
+=============================================== ================= ===============
+ Polybrene (Hexadimethrine bromide)              5 mg/mL (1kx)      -20°C
+ Puromycin                                       ? (1kx)            -20°C
+ Blasticidin                                     ? (1kx)            -20°C
+ Doxycycline                                     ? (1kx)            -20°C
+ Gentimicin                                      ? (1kx)            -20°C
+ Hygromycin                                      ? (1kx)            -20°C
+=============================================== ================= ===============

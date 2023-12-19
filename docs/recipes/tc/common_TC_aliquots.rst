@@ -123,22 +123,3 @@ Pen-strep aliquots (100X, 5 mL)
 6. To use, further dilute a 120 µL 50X Geltrex aliquot in 6 mL cold DMEM/F12 (for a final 1:100 dilution). This is enough to coat one 6-well plate. See `Geltrex coating plates <_accutase-dissociation>`_ for additional details.
 
 Reference: `<https://assets.thermofisher.com/TFS-Assets/LSG/Application-Notes/stem-cell-transfection-guide-app-note.pdf>`_
-
-
-
-Other stocks (10kx and 1kx)
------------------------------------------
-
-.. attention:: Fix!!!
-
-
-=============================================== ================= ===============
-Name                                              Stock conc       Temperature    
-=============================================== ================= ===============
- Polybrene (Hexadimethrine bromide)              5 mg/mL (1kx)      -20°C
- Puromycin                                       ? (1kx)            -20°C
- Blasticidin                                     ? (1kx)            -20°C
- Doxycycline                                     ? (1kx)            -20°C
- Gentimicin                                      ? (1kx)            -20°C
- Hygromycin                                      ? (1kx)            -20°C
-=============================================== ================= ===============
