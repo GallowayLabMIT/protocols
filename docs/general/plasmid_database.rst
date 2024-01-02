@@ -57,7 +57,14 @@ the errors/warnings can be fixed. This list can be generated from the same proje
 
 1. Clone the git repo, then create and activate a virtual environment. See 
    :doc:`Startup checklist when working with repositories <../bootcamp/iap/startup_checklist>` for instructions.
-2. In the terminal, run ``python -m quartzy_parser`` to print a list of ``pKG`` numbers with errors and warnings by user.
+2. Create a file called ``credentials.json`` in the main directory of the repo. This should contain Quartzy login information in the following format::
+
+    {
+        "username": "your-username",
+        "password": "your-password"
+    }
+
+3. In the terminal, run ``python -m quartzy_parser`` to print a list of ``pKG`` numbers with errors and warnings by user.
 
    - To print only errors or only warnings, add the flag ``--only-errors`` or ``--only-warnings``, respectively.
    - To print only for a subset of users, add the flag ``--users`` followed by the list of users (full names).
@@ -65,4 +72,4 @@ the errors/warnings can be fixed. This list can be generated from the same proje
 
 .. note::
 
-    This code takes a while (>5 min) to run, since it has to scrape thousands of items from Quartzy.
+    This code takes a while (~5 min) to run, since it has to scrape thousands of items from Quartzy.
