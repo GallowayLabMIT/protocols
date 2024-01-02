@@ -56,7 +56,7 @@ the errors/warnings can be fixed. This list can be generated from the same proje
 `https://github.com/GallowayLabMIT/plasmids <https://github.com/GallowayLabMIT/plasmids>`_
 
 1. Clone the git repo, then create and activate a virtual environment. See 
-   :doc:`Startup checklist when working with repositories <../bootcamp/iap/startup_checklist>` for instructions.
+   :ref:`Startup checklist when working with repositories <existing_repo_setup>` for instructions.
 2. Create a file called ``credentials.json`` in the main directory of the repo. This should contain Quartzy login information in the following format::
 
     {
