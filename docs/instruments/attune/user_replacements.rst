@@ -65,7 +65,7 @@ See page 15 in the `Attune maintenance guide <../../_static/files/attune_mainten
     obtain replacements!
 
 8. Orient the new filter with the arrow pointing downward. Screw the luerlock adapters in.
-9. Screw in the bottom part of the filter into the amber threaded adapter at the bottom
+9. Screw in the bottom part of the filter into the amber threaded adapter at the bottom.
 10. Using a syringe, flush 10 mL of focusing fluid into the top of the filter. Do not apply any backpressure to the system!
 11. Carefully screw in the top luerlock adapter into the top of the tubing until a click is felt.
 12. Run 3 startup procedures, 2 debubble procedures, and 2 rinse procedures while observing for leaks.

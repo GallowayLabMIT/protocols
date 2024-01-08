@@ -33,6 +33,9 @@ This protocol aims to guide the user how to create an alignment script using the
 
 5.	Save and exit from script by pressing ``:wq`` . You can always open and edit the script using ``vim alignment.sh``
 6.	To run the script in Supercloud, you need to submit to SLURM via LLsub (See Supercloud user guidelines ) using the following command: 
+
     .. code-block:: text
+
         LLsub -i alignment.sh
+
 7.	Once submitted, you can check the status of the run via ``LLstat``. To verify the success/failure of the run, you can check the log ``file—alignment.sh.logXXXXX`` for more details. Usually the log file contains the progress of the alignment run and/or the details if the alignment failed. 

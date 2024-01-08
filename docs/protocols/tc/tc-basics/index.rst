@@ -11,4 +11,7 @@ TC Basics
    cryopreservation_and_thawing
    transient_transfection
    flow_cytometry
+   platE_MEF_reprogramming
+   human_reprogramming
+   glass_slide
    *

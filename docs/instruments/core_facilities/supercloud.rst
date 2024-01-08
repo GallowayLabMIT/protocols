@@ -14,4 +14,6 @@ MIT SuperCloud Access
 
 3. Once approved, you will receive an email with instructions to set up the account.
 
-For more information about how to use the SuperCloud, complete the Practical High Performance Computing Course: https://learn.llx.edly.io/course/practical-hpc/ 
+.. tip::
+    
+    For more information about how to use the SuperCloud, complete the Practical High Performance Computing Course: https://learn.llx.edly.io/course/practical-hpc/ 

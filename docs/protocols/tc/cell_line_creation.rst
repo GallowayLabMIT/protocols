@@ -22,7 +22,7 @@ Each method possesses their unique cell plating, transfection, and selection tim
 
 
 PiggyBac (Sneha)
-~~~~~~~~
+~~~~~~~~~~~~~~~~
 Day -1
 ~~~~~~
 Seed your cells such that they will be around 30-40% confluent on the next day. There is an
@@ -71,7 +71,7 @@ Continue selecting the cells until decent cell death occurs, or the cells are to
     If you do not see sufficient cell death, try using a different aliquot.
 
 CRISPR (Deon)
-~~~~~~~~
+~~~~~~~~~~~~~
 Day -1
 ~~~~~~
 Deon recommends CRISPR at 12-well scale, as this is the smallest scale that yielded a workable number of surviving cells after multiple transfections, CRISPR genotoxicity, and drug selection.  
@@ -129,7 +129,7 @@ Remove selection and let cells recover/expand. During your next passage, take a 
 
 
 TALENS (Chris)
-~~~~~~~~
+~~~~~~~~~~~~~~
 Day -1
 ~~~~~~
 Seed your cells such that they will be around 30-40% confluent on the next day. There is an
@@ -178,7 +178,7 @@ Continue selecting the cells until decent cell death occurs, or the cells are to
     If you do not see sufficient cell death, try using a different aliquot.
 
 Clonal selection or enrichment via limiting dilution
-~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Day 5 - Week 2
 ~~~~~~~~~~~~~~
 Dilute cells into both 96-well plates (one per condition) and onto 24 well plates for outgrowth.

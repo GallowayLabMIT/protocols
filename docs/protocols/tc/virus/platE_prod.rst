@@ -1,9 +1,12 @@
-======================================
+=====================================
 Plat-E Retroviral Production
-======================================
+=====================================
 
-Plat-Es are a retrovirus packaging line that produce retroviruses that can only infect mouse cells. Plat-E cells contain gag, pol and env genes, allowing retroviral packaging with a single plasmid transfection.
-Supposedly, Plat-E viruses can't be frozen but we have seen frozen Plat-E virus work fine.
+
+.. _platEProd:
+
+Plat-Es are a retrovirus packaging line sold by `Cell Biolabs <https://www.cellbiolabs.com/platinum-e-plat-e-retroviral-packaging-cell-line>`_ that produce retroviruses that can only infect mouse or rat cells. Plat-E cells contain gag, pol and env genes, allowing retroviral packaging with a single plasmid transfection.
+Supposedly, Plat-E viruses can't be frozen but we have seen frozen Plat-E virus work fine. 
 
 .. note::
 	Do a **10 µg/mL blast and 1 µg/mL puro selection every ~3 passages**. This is to ensure cells are expresssing the retroviral structure proteins.
@@ -19,7 +22,7 @@ Day One (seed Plat-Es):
 3. Rock the plate back and forth, side to side to mix, then place back in incubator. *Rocking side to side prevents cells from clustering at the well edge.*
 
 .. tip::
-	If starting from frozen, **start growing Plat-E cells 1 week prior** - they will be slow growing at first (don't change culture medium during the first 3 days). Split Plat-Es 4X-6X every 2-3 days when culture reaches 70-90% confluency.
+	If starting from frozen, **start growing Plat-E cells 1 week prior** - they will be slow growing at first (don't change culture medium during the first 3 days). Split Plat-Es 1:4 to 1:6 every 2-3 days when culture reaches 70-90% confluency.
 
 
 Day Two (transfect Plat-Es):
@@ -30,7 +33,7 @@ Day Two (transfect Plat-Es):
 
         i.  In a 1.5 mL tube, FIRST add 180 µL KO DMEM.
         ii. SECOND, add 7.2 µL PEI (1 mg/mL) for a 4:1 ratio (of µg PEI:µg DNA ratio).
-        iii. Gently flick to mix. Let sit for 5 minutes.
+        iii. Gently flick to mix. Let sit for 10-15 minutes.
 
     b.	For *3.5 rxns or wells of a 6-well plate*, same as above but use 630 µL KO DMEM + 25.2 µL PEI (1 mg/ml) for a 4:1 ratio
 
@@ -51,13 +54,13 @@ Day Two (transfect Plat-Es):
     pMXs-mGL (500 µg/µL)                 3.6 µL          12.6 µL          **190.8 µL/well**
     =============================   ==============   =================   ====================
 
-3.	Add each KO DMEM + PEI + DNA mix to a single 6-well (1 WELL PER VIRUS) **DROPWISE** and evenly around the plate, rocking the plate back and forth, side to side to mix. Place back in incubator.
+3.	Add each KO DMEM + PEI + DNA mix to a single 6-well (1 VIRUS PER WELL) **DROPWISE** and evenly around the plate, rocking the plate back and forth, side to side to mix. Place back in incubator.
 
 
 Day Three (Plat-E media change + seed mouse cells):
 
 1.	Change with 1.25 mLs fresh media (:ref:`DMEM/HEPES + 10% FBS <HEPES>`) after 24 hours. Note: NBW transfects ~4pm and media changess ~10am next day to minimize PEI cytotoxicity.
-2.	Seed mouse cells
+2.	Seed mouse cells.
 
     i.  Coat wells in 0.1% gelatin for approx. ~10 min.
     ii. Seed at 10k cells/96-well. For larger sizes, scale accordingly according to surface area
@@ -68,14 +71,14 @@ Day Three (Plat-E media change + seed mouse cells):
         6-wells              30                            2
         12-wells             11                            1.5
         24-wells             6                             1.5
-        48-wells             3                             1.5
+        48-wells             2.6                           1.5
         96-wells             1                             1
         =================   ==========================   ===============================================================
 
 Day Four (Plat-E media change + infect 1):
 
 1.	Harvest media after another 24 hours and add 1.25 mL fresh media (:ref:`DMEM/HEPES + 10% FBS <HEPES>`) to Plat-E plates for a second time.
-2.	Transduce mouse cells with retroviruses made from the Plat-E cells
+2.	Transduce mouse cells with retroviruses made from the Plat-E cells.
 
     .. note::
         Each virus will make ~1 mL/well from each 6-well of Plat-E (enough for 1x96-well plate). 11 µL of each virus will be added to each well of a 96-well plate ALONG WITH POLYBRENE (1,000X at 5 mg/mL)
@@ -104,7 +107,7 @@ Day Five (infect 2):
 1.	Collect media from Plat-Es again and reinfect/retransduce the cells for a second day.
 
 .. note::
-    Centrifugation of target cells with virus (spinfection) can improve infection efficiency. Spinfection is typically performed on the second day of transduction. Spinfection protocol is :ref:`here <spinfection>`.
+    Centrifugation of target cells with virus (spinfection) can improve infection efficiency. Spinfection protocol is :ref:`here <spinfection>`.
 
 
 Day Six (1 dpi):
