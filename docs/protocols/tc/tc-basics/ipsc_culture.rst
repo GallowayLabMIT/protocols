@@ -88,7 +88,8 @@ Passaging with ReLeSR
 .. time:: ~15 min — don't forget to coat plates at least 1 hr ahead of time!
 
 To passage for general cell culture maintenance, use ReLeSR to dissociate cells in clumps. This is less disruptive and may improve the long-term integrity of the iPSCs.
-For seeding or other applications that require counting, dissociate with Accutase to achieve a single-cell suspension (see :ref:`accutase-dissociation` below).
+For seeding or other applications that require counting, dissociate with Gentle Cell Dissociation Reagent (preferred) or Accutase to achieve a single-cell suspension 
+(see :ref:`gcdr-dissociation` and :ref:`accutase-dissociation` below).
 
 1. Aspirate the old media. Gently wash with 1 mL PBS and aspirate.
 2. Add 1 mL ReLeSR and incubate at room temperature for 1 min.
@@ -110,6 +111,35 @@ For seeding or other applications that require counting, dissociate with Accutas
 
 8. Within 24 hours (e.g., the next day), media change to fresh mTeSR. Then, culture as normal.
 
+.. _gcdr-dissociation:
+
+Dissociating with Gentle Cell Dissociation Reagent (GCDR)
+---------------------------------------------------------
+
+.. time:: ~15 min — don't forget to coat plates at least 1 hr ahead of time!
+
+To seed cells for an experiment, use Gentle Cell Dissociation Reagent (GCDR) to dissociate single cells. This allows for more accurate 
+cell counting and seeding. However, ROCK inhibitor (Ri) must be added during seeding to promote survival of the single cells. GCDR is 
+preferred over Accutase because it is non-enzymatic and gentler on the cells.
+
+.. note::
+    Addition of Ri leads to cytoskeletal remodeling, so cells will have a spiky morphology the day after passaging.
+    The morphology should return to normal a day or so after the ROCK inhibitor is removed.
+
+1. Aspirate old media. Gently wash with 1 mL PBS and aspirate.
+2. Add 1 mL GCDR (100 uL for a 96-well plate) and incubate at 37°C for 8-10 min until cells ball up on the plate. You will likely NOT 
+   observe cells lifting off.
+3. Gently pipet up and down to dislodge cells. If preparing for flow cytometry, spin down the plate and prep 
+   :doc:`as normal <flow_cytometry>`. If preparing to seed cells, add the dissociated cells to a 15 mL conical with DMEM/F12 
+   and spin at 400g.
+   
+   - While cells are spinning, prepare 1000x dilution of Ri in mTeSR.
+  
+4. Aspirate the media and gently resuspend the cells in a small amount of mTeSR (e.g., 1 mL).
+5. Count cells :ref:`as normal <counting>` and dilute to desired concentration.
+6. Aspirate Geltrex from wells to seed and add cell suspension.
+7. Within 24 hours (e.g., the next day), media change to fresh mTeSR without Ri. Then, proceed with the experiment as normal.
+
 .. _accutase-dissociation:
 
 Dissociating with Accutase
@@ -117,22 +147,25 @@ Dissociating with Accutase
 
 .. time:: ~15 min — don't forget to coat plates at least 1 hr ahead of time!
 
-To seed cells for an experiment, use Accutase to dissociate single cells. This allows for more accurate cell counting and seeding. However, Rock inhibitor must be added during seeding to promote survival of the single cells.
+Accutase can be used to dissociate iPSCs to single cells for seeding. However, Gentle Cell Dissociation Reagent (GCDR) is preferred, since
+Accutase (enzymatic) is harsher on the cells than GCDR (non-enzymatic).
 
 .. note::
-    Addition of ROCK inhibitor leads to cytoskeletal remodeling, so cells will have a spiky morphology the day after passaging.
+    Addition of Ri leads to cytoskeletal remodeling, so cells will have a spiky morphology the day after passaging.
     The morphology should return to normal a day or so after the ROCK inhibitor is removed.
 
 1. Aspirate old media. Gently wash with 1 mL PBS and aspirate.
 2. Add 1 mL Accutase (100 uL for a 96-well plate) and incubate at 37°C for 5-7 min until cells begin to lift off.
-3. Gently pipet up and down to dislodge cells. If using for flow cytometry, spin down the plate and prep as normal. If preparing to seed cells, add the dissociated cells to a 15 mL conical with DMEM/F12 and spin at 400g.
+3. Gently pipet up and down to dislodge cells. If preparing for flow cytometry, spin down the plate and prep 
+   :doc:`as normal <flow_cytometry>`. If preparing to seed cells, add the dissociated cells to a 15 mL conical with DMEM/F12 
+   and spin at 400g.
    
-   - While cells are spinning, prepare 1000x dilution of Rock inhibitor in mTeSR.
+   - While cells are spinning, prepare 1000x dilution of Ri in mTeSR.
   
 4. Aspirate the media and gently resuspend the cells in a small amount of mTeSR.
-5. Count cells as normal and dilute to desired concentration.
+5. Count cells :ref:`as normal <counting>` and dilute to desired concentration.
 6. Aspirate Geltrex from wells to seed and add cell suspension.
-7. Within 24 hours (e.g., the next day), media change to fresh mTeSR without Rock inhibitor. Then, proceed with the experiment as normal.
+7. Within 24 hours (e.g., the next day), media change to fresh mTeSR without Ri. Then, proceed with the experiment as normal.
 
 Freezing
 ---------
