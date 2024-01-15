@@ -23,9 +23,9 @@ Protocol
 	If your backbone vector is 5 kb at a concentration of 50 ng/uL, you need to add 3 uL to the reaction. If your insert is 1 kb at a concentration of 30 ng/uL, you need to add 2 uL (2:1 molar ratio) to the reaction. Finally, the sum of vector and insert volumes is 5 uL, so 5 uL of the 2X master mix should be added.
 
 5. Incubate at 50°C for 15 minutes (2-3 fragments) or for 60 minutes (4-6 fragments).
-6. :doc:`Transform competent cells <transformation>` with 2 uL of the Gibson mixture.
+6. :doc:`Transform competent cells <transformation>` with 2 uL to 5 uL of the Gibson mixture.
 
 .. note::
-	If you're skipping outgrowth step, adding water up to 300 µL total volume helps spread the transformed bacteria.
+	Outgrowth step is required for kanamycin resistance and otherwise optional but may increase number of colonies. If you're skipping outgrowth step, adding water up to 300 µL total volume helps spread the transformed bacteria.
 
 6. Store unused Gibson products at -20°C

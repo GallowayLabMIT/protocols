@@ -33,7 +33,6 @@ pKG#                            ``NNNNN``
 Plasmid type                    Select from options
 Resistance markers              Select from options
 Species                         Bacterial cell type (e.g., NEB Stable)
-CAS # (under "Specs")           Copy "Plasmid" field
 =============================== ======================================================================
 
 Then, click the "Add Item" button in the lower left corner to add the item to the database. 
