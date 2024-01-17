@@ -17,7 +17,7 @@ Glass bottles and flasks
 ________________________
 
 .. note::
-  If you empty a glass bottle or flask (media, PBS, gelatin, ELGA water, etc.), *you are responsible for washing it.* If you cannot wash the bottle immediately, keep the bottle on your personal lab bench.
+  If you empty a glass bottle or flask (media, PBS, gelatin, ELGA water, etc.), *you are responsible for bleaching and rinsing it for bacteria related uses.* If you cannot bleach and rinse the bottle immediately, keep the bottle on your personal lab bench.
 
 1. If the glassware had cells in it (e.g. midipreps) first add bleach to a concentration of 10% and let sit for at least 15 min.
 2. Glassware can now be placed in the area to be dishwashed. Alternatively, follow the steps below to wash by hand.

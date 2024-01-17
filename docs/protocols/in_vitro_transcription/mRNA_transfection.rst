@@ -11,11 +11,12 @@ MessengerMax transfection protocol
 .. note:: Amounts given are for transfecting a 96-well with 100 ng of mRNA. If you would like to transfect more mRNA, adjust the amount of MessengerMax (2:1 ratio of reagent to mRNA, i.e., .2 µL MessengerMax per 100 ng mRNA ) Scale up amounts of mRNA, reagent, and KO-DMEM solutions 5x for a 24-well (25 µL total volume) and 12.5x (125 µL total volume) for a 6-well. 
 
 
-1. Dilute .2 µL MessengerMax Reagent in 4.8 µL KO-DMEM, mix well, and incubate 10 minutes at room temperature.
-2. Dilute 100 ng mRNA in KO-DMEM to a total volume of 5 µL, and add to the MessengerMax/KO-DMEM mixture.
+1. Dilute .2 µL MessengerMax Reagent in 4.8 µL opti-mem, mix well, and incubate 10 minutes at room temperature.
+2. Dilute 100 ng mRNA in opti-mem to a total volume of 5 µL, and add to the MessengerMax/opti-mem mixture.
 3. Incubate for 5 minutes at room temperature.
 4. Add the 10 µL of mRNA-lipid complex to desired 96 well. 
 
+.. note:: KO-DMEM can also be used instead of opti-mem media. KO DMEM will have lower efficiency.
 
 StemMACS transfection protocol
 ================================
