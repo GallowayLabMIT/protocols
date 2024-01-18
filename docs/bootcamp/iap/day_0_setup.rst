@@ -164,6 +164,8 @@ Other
   these plugins through Firefox, you will need to explicitly right click->download target; left-clicking on download
   links will attempt to install the Zotero plugin as a Firefox plugin, which will fail.
   
+.. _graphics:
+
 * **Creative Cloud:**  MIT has a site-license for students and staff. After installing the
   `Creative Cloud application <https://www.adobe.com/creativecloud/desktop-app.html>`__, login with your MIT credentials,
   after selecting "Work/School account". You may have to wait 24 hours for activation after your first login. You should
@@ -173,7 +175,7 @@ Other
   If you have not learned to use either, pick one to start with to learn first (likely Illustrator), However, it's likely eventually
   worth learning both if you don't want to eventually pay for Creative Cloud. Inkscape's (Cairo) PDF import also tends to be superior,
   if trying to import vector images from paper PDFs.
-* **Color palletes:** Having nice color-blind friendly, distinct colors to start drawings from is helpful.
+* **Color palettes:** Having nice color-blind friendly, distinct colors to start drawings from is helpful.
   If making cartoon/stylized figures, the colors in-pallette might be enough! If not, the pallette can provide
   a good starting place.
 
@@ -185,7 +187,7 @@ Other
   .. image:: img/illustrator_swatches.png
     :align: center
   
-  To use these pallette files, see the `Illustrator documentation <https://helpx.adobe.com/illustrator/using/using-creating-swatches.html#share_swatches_between_applications>`__
+  To use these palette files, see the `Illustrator documentation <https://helpx.adobe.com/illustrator/using/using-creating-swatches.html#share_swatches_between_applications>`__
   or the `Inkscape documentation <https://inkscape-manuals.readthedocs.io/en/latest/palette.html>`__.
 
 
