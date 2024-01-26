@@ -22,14 +22,18 @@ Lab-specific safety training
 
 After completing all other safety trainings online, meet with the lab EHS rep to learn the relevant safety features of our lab (e.g., 
 location of eyewash stations, processes for chemical waste disposal). To confirm that you understand these procedures, you must submit a 
-Google form to be checked off by the lab EHS rep. This safety information is :doc:`documented here <../../general/lab_safety>`.
+Google form to be checked off by the lab EHS rep. This safety information is :doc:`documented here <../../general/lab_safety>`, and key 
+points are highlighted in the 
+`IAP 2024 lab-specific training slides <https://mitprod.sharepoint.com/:p:/s/GallowayLab/EW0UpzVQxgVDsnZOqmIS-sQBGbnor3MEVkoWMS2K6cmLwg?e=C8s5PY>`_.
 
-Lab citizenship training
--------------------------
+Lab citizenship 
+----------------
 
-It is essential for lab members to display common courtesy and follow established procedures to ensure the lab runs smoothly. On your first 
-day in lab, a current lab member will present a set of general guidelines for you to follow. (*Slides and additional information 
-to be added IAP 2024*)
+It is essential for lab members to display common courtesy and follow established procedures to ensure the lab runs smoothly. Professor Galloway 
+expects all lab members to contribute to the lab mission and uphold lab values, as described on the 
+`lab website <https://gallowaylab.mit.edu/bts/>`_ and internally 
+`here <https://mitprod.sharepoint.com/:p:/s/GallowayLab/EX3IEiFinshLuxgMlo7OOFcBP6OPoIPMCpJyrZk4CTOvmA?e=ToEa1S>`_ (IAP 2024). 
+On your first day in lab, a current lab member will walk you through the lab space and our digital organization. 
 
 Maps for lab organization:
 
@@ -41,6 +45,7 @@ Maps for lab organization:
 
 Selected lab protocols to be familiar with:
 
+- :doc:`Lab safety <../../general/lab_safety>`
 - :doc:`Ordering materials and reagents <../../general/ordering>`
 - :doc:`Receiving orders <../../general/receiving>`
 - :doc:`Recycling <../../general/recycling>`

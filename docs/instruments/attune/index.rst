@@ -8,5 +8,6 @@ Attune operation
     
     startup_shutdown
     attune_operation
+    attune_software
     user_replacements
     empirical_troubleshooting

@@ -13,5 +13,5 @@ After successfully sequencing a bacterial plasmid, we must stock it for storage.
 2. Culture desired 4 mL of bacteria clone with the plasmid in LB Broth with the correct resistance antibiotic (overnight). 
 3. Add 2 mL of 60% glycerol to the 4 mL of culture. Mix well. 
 4. Aliquot 2 mL of the resulting mixture to three cryovials. 
-5. Label each cryovial with pKG#, date, initials, and description of the construct. 
+5. Label each cryovial with pKG#, date, initials, and description of the construct. Labels can be printed using the LabBot app on slack "Print Labels". (If it does not show up begin to type "/labels" to find it.) You must be connected to MIT Wifi for this app to work.
 6. Put cyrovials in -80 C. Put one cryovial per box. 
