@@ -26,6 +26,11 @@ Google form to be checked off by the lab EHS rep. This safety information is :do
 points are highlighted in the 
 `IAP 2024 lab-specific training slides <https://mitprod.sharepoint.com/:p:/s/GallowayLab/EW0UpzVQxgVDsnZOqmIS-sQBGbnor3MEVkoWMS2K6cmLwg?e=C8s5PY>`_.
 
+For grad students and postdocs, an in-person training is also required for access to the room containing the autoclave, dishwasher, and ice 
+machine (room 56-415). Once you have completed the `Autoclave Safety Training <http://web.mit.edu/training/course.html?course=EHS00254w&sys=PS1>`_ 
+module in Atlas, a lab member will demonstrate how to operate the autoclave and describe relevant safety features. Then, email the ChemE EHS 
+Coordinator (`Brian Smith <https://cheme.mit.edu/people/staff/>`_) to request card access.
+
 Lab citizenship 
 ----------------
 

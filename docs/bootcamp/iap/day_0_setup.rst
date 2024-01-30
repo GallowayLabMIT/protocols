@@ -52,6 +52,10 @@ EHS system and add all necessary trainings to your profile.
    'My Profile' tab, you should click **Join Another Group** under training
    groups and add the **68N: Mouse** training group.
 
+7. Grad students and postdocs should also complete the 
+   `Autoclave Safety Training <http://web.mit.edu/training/course.html?course=EHS00254w&sys=PS1>`_
+   module.
+
 .. _software: 
 
 Software and webservices
