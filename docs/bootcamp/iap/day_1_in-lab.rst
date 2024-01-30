@@ -28,8 +28,8 @@ points are highlighted in the
 
 For grad students and postdocs, an in-person training is also required for access to the room containing the autoclave, dishwasher, and ice 
 machine (room 56-415). Once you have completed the `Autoclave Safety Training <http://web.mit.edu/training/course.html?course=EHS00254w&sys=PS1>`_ 
-module in Atlas, a lab member will demonstrate how to operate the autoclave and describe relevant safety features. Then, email the ChemE EHS 
-Coordinator (`Brian Smith <https://cheme.mit.edu/people/staff/>`_) to request card access.
+module in Atlas, a lab member will demonstrate how to operate the autoclave and describe relevant safety features. Then, email the Building 66 
+Facilities Manager and ChemE EHS Coordinator (Chris Monaco and Brian Smith, `directory <https://cheme.mit.edu/people/staff/>`_) to request card access.
 
 Lab citizenship 
 ----------------
