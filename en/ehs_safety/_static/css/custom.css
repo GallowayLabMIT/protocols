@@ -1,0 +1,149 @@
+@font-face {
+    font-family: 'Electrolize';
+    src: url('fonts/Electrolize-Regular.woff2') format('woff2'),
+        url('fonts/Electrolize-Regular.woff') format('woff'),
+        url('fonts/Electrolize-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+#icon-home {
+	font-family: 'Electrolize';
+}
+
+.rst-content .admonition-time {
+	background-color: #d2f8ea;
+}
+
+.rst-content .admonition-time .admonition-title {
+	background-color: #2c6854;
+}
+
+.rst-content .admonition-time .admonition-title:before {
+	content: '\f017';
+}
+
+.rst-content .deprecated span.versionmodified.deprecated:before {
+    content: "";
+    font-family: "FontAwesome";
+    display: inline-block;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    text-decoration: inherit;
+    margin-right: 4px;
+}
+.rst-content .deprecated span.versionmodified.deprecated {
+    background-color: #f29f97;
+    color: #fff;
+    font-style: normal;
+    font-weight: 700;
+    display: block;
+    padding: 2px 6px;
+    margin: -6px -12px 7px -12px;
+
+}
+.rst-content .deprecated p {
+    background-color: #fdf3f2;
+    padding: 6px 12px;
+}
+
+.wy-nav-top {
+    background-color: #2c6854;
+}
+
+/* override table width restrictions */
+@media screen and (min-width: 767px) {
+
+   .wy-table-responsive table td {
+      /* !important prevents the common CSS stylesheets from overriding
+         this as on RTD they are loaded after this stylesheet */
+      white-space: normal !important;
+   }
+
+   .wy-table-responsive {
+      overflow: visible !important;
+   }
+}
+
+.rst-content div[class*="highlight-python"]{
+    border: solid 1px #3e7bac;
+    border-left-color: rgb(54, 0, 132);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-left: solid 5px #3e7bac;
+    margin: 15px 5px 10px 0;
+    border-radius: 4px 0 0 4px;
+}
+
+.rst-content div[class*="highlight-python"]::before {
+    content: "Python";
+	color: #3e7bac;
+	background-color: #dfe7ee;
+	display: block;
+	/*font-weight: bold;*/
+	padding: 5px 10px;
+}
+
+
+.rst-content div[class*="highlight-console"]{
+    border: solid 1px #360084;
+    border-left-color: rgb(54, 0, 132);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-left: solid 5px #360084;
+    margin: 15px 5px 10px 0;
+    border-radius: 4px 0 0 4px;
+}
+
+.rst-content div[class*="highlight-console"]::before {
+    content: "Terminal";
+	color: #360084;
+	background-color: #f2eff6;
+	display: block;
+	/*font-weight: bold;*/
+	padding: 5px 10px;
+}
+
+/* Bash overrides */
+.rst-content div[class*="highlight-console"] div[class^="highlight"] {
+    padding: 0;
+    border: none;
+    margin: 0;
+}
+
+.rst-content div[class*="bash-console"] {
+    border: solid 1px #001884;
+    border-left-color: #001884;
+    border-left: solid 5px #001884;
+}
+.rst-content div[class*="bash-console"]::before {
+    content: "Bash";
+	color: #001884;
+	background-color: #dadce7;
+}
+
+.rst-content div[class*="powershell-console"]{
+    border: solid 1px #007884;
+    border-left-color: #007884;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-left: solid 5px #007884;
+    margin: 15px 5px 10px 0;
+    border-radius: 4px 0 0 4px;
+}
+
+.rst-content div[class*="powershell-console"]::before {
+    content: "Powershell";
+	color: #007884;
+	background-color: #e5ebec;
+	display: block;
+	/*font-weight: bold;*/
+	padding: 5px 10px;
+}
+
+/* Allow overriding of default line height, so box drawing works*/
+.highlight-default.box-spacing-override .highlight pre {
+    line-height: 1.07;
+}
