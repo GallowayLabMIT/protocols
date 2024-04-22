@@ -8,9 +8,13 @@ Homemade EU click
 
 Note that ascorbic acid should be made fresh and **EU will likely be the limiting reagent.**
 
+.. warning::
+    Click chemistry is known to diminish fluorescence due to `ROS that are produced during the Cu-catalyzed azide-alkyne cycloaddition <https://doi.org/10.1002/biot.201400026>`_
+    Have not tested but the ThermoFisher `Click-iT Plus EdU kit <https://www.thermofisher.com/us/en/home/references/newsletters-and-journals/bioprobes-journal-of-cell-biology-applications/bioprobes-70/click-it-plus-edu-proliferation-kits.html>`_ supposedly fixes this.
+
 .. important::
     The NaN3 is important to include in any single color controls! We observe that presence of EU doesn't change CFSE only control signal but any azide addition (with or without EU) significantly changes FSC/SSC and CFSE signal.
-    The following image shows the effects of azide addition on 1 dpi CFSE-labeled MEFs flowed at 4 dpi.
+    The following image shows the effects of azide addition on 1 dpi CFSE-labeled MEFs flowed at 4 dpi.
 
     .. figure:: img/Az_effect_on_CFSE.png
         :align: center
