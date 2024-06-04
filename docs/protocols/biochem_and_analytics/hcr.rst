@@ -57,7 +57,7 @@ Day 2
 6. Pre-amplify samples in 200 uL of amplification buffer for 30 min at room temp.
    While waiting, begin *Hairpin Preparation*:
 
-   a. Prepare 4.5 pmol each of hairpin h1 and h2 by snap cooling 1.5 uL of 3 uM stock (per sample) at 95C for 90 seconds. Snap cool each individual hairpin in **separate tubes**.
+   a. Prepare 9 pmol each of hairpin h1 and h2 by snap cooling 3 uL of 3 uM stock (per sample) at 95C for 90 seconds. Snap cool each individual hairpin in **separate tubes**.
    b. Cool hairpins in the dark at room temperature for 30 minutes.
    c. Prepare hairpin solution by adding h1 and h2 hairpins to 70 uL amplification buffer (per sample).
 
