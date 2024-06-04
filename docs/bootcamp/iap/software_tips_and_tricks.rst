@@ -48,7 +48,8 @@ file, you can also direct-import it into Zotero.
 
 .. image:: img/zotero_feeds.png
     :align: center
-    
+
+|
 
 Creating feeds from searches
 -----------------------------
@@ -113,8 +114,7 @@ There are several built-in features of Zotero that make paper reading more effic
 
    .. image:: img/zotero_tablet.png
     :align: center
-
-
+|
 
 
 Better Quartzy
@@ -148,10 +148,16 @@ or in the Tampermonkey Utilities tab, you can use the **install from URL** optio
 
 .. image:: img/tampermonkey_install_from_url.png
     :align: center
+|
 
 Regex help
 ----------
 If you ever need help debugging or designing a regular expression, try using https://regex101.com/
+
+
+YAML files
+----------
+Several lab workflows use YAML files to add metadata to images, flow data, etc. A quick tutorial can be found here: https://learnxinyminutes.com/docs/yaml/
 
 
 Fonts
@@ -167,8 +173,7 @@ you are using.
 
 .. image:: img/fira_code.png
     :align: center
-
-
+|
 
 Activate SnapGene remotely
 ----------------------------

@@ -28,9 +28,9 @@ pKG00008              pMXs-Lhx2
 pKG01169              pMXs-NIL
 pKG01574              pMXs-LNI3xHA
 pKG00060              pMXs-p53DD
-pKG00121              pMXs-hRasG12V
-pKG00121              pMXs-hRasG12V-IRES-p53DD
-pKG00121              pMXs-Snap-p53DD-IRES-hRasG12V
+pKG00197              pMXs-hRasG12V
+pKG01112              pMXs-hRasG12V-IRES-p53DD
+pKG01292             pMXs-Snap-p53DD-IRES-hRasG12V
 =================   ================================
 
 

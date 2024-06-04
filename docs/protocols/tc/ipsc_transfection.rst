@@ -58,3 +58,4 @@ Protocol
 
    - mRNA expression peaks at ~12 hours post-transfection.
    - pDNA expression is visible at 24 hours post-transfection (1 dpt) and increases through at least 3 dpt.
+   - To analyze via flow cytometry, follow the framework for analysis of other cell types, except dissociate in GCDR instead of trypsin.
