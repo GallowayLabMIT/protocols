@@ -115,3 +115,4 @@ Completion date
 - Mary Ehmann (2024-01-15)
 - Diya Godavarti (2024-06-03)
 - Eliska Liang (2024-06-24)
+- Yunbeen Bae (2024-08-08)
