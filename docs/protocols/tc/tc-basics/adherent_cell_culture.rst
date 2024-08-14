@@ -203,7 +203,7 @@ Laminin coating for reprogramming
 
 Protocol
 
-1. Thaw lamini-521 at 4°C or on ice
+1. Thaw laminin-521 at 4°C or on ice
 2. Dilute laminin-521 in sterile PBS +/+ to a final conc of 5 µg/mL (20X dilute)
 3. Incubate plates for ~2h at 37°C
 
