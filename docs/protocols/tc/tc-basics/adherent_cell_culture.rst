@@ -176,12 +176,13 @@ Seeding/Plating cells
 4. Pipet cells into new flask/dish or wells of the new plate. This should account for the entire flask/dish/well volume (e.g. 10 mL into a T75 flask, 100 µL into each well of a 96-well plate).
 5. Any excess cells can be :ref:`passaged <passaging>` to a new flask or :doc:`cryopreserved <cryopreservation_and_thawing>`.
 
+
 Laminin Coating
 ---------------------------------------------------------
 
 Materials
 
-- 100x Laminin (1 mg/mL; stored -20 deg C)
+- 100x Laminin (1 mg/mL; stored -20°C)
 - PBS
 
 Protocol
@@ -189,6 +190,39 @@ Protocol
 1. Add laminin to PBS.
 2. Add 2 mL laminin-PBS to each 6 well plate.
 3. Allow wells to set for 2-4 hours before removing excess liquid and plating cells.
+
+
+.. _laminin-reprogram:
+
+Laminin coating for reprogramming
+---------------------------------------------------------
+
+
+- `CellAdhere Laminin-521  <https://www.stemcell.com/celladhere-laminin-521.html>`_ (20X; stored -20°C)
+- `PBS +/+  <https://www.thermofisher.com/order/catalog/product/14040117>`_
+
+Protocol
+
+1. Thaw lamini-521 at 4°C or on ice
+2. Dilute laminin-521 in sterile PBS +/+ to a final conc of 5 µg/mL (20X dilute)
+3. Incubate plates for ~2h at 37°C
+
+Notes
+- Coated plates can be stored for up to 4 weeks at 4°C 
+
+.. important::
+	PBS +/+ is critical as divalent cations (Mg2+, Ca2+) are important for structure and function of laminin-521
+
+=================   =================================================================   ===========================================   ====================   ====================
+**Culture plate**    **Approx surface area per well (cm^2) **                             **Total coating solution volume**            **Laminin-521**        **PBS +/+**
+=================   =================================================================   ===========================================   ====================   ====================
+6-wells                 9.4                                                                1,000 µL/well                                 50 µL/well             950 µL/well    
+12-wells                3.8                                                                  500 µL/well                                 25 µL/well             475 µL/well   
+24-wells                1.9                                                                  300 µL/well                                 15 µL/well             285 µL/well     
+48-wells                0.76                                                                 150 µL/well                                  7.5 µL/well           142.5 µL/well      
+96-wells                0.32                                                                  70 µL/well                                  3.5 µL/well            66.5 µL/well      
+=================   =================================================================   ===========================================   ====================   ====================
+
 
 .. _gelatin:
 
