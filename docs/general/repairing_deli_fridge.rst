@@ -14,6 +14,8 @@ The starter consists of two parts:
 We can reorder the parts for relatively cheap:
 
 - A `Danfoss/Kemet 117U5023 240V capacitor <https://www.zoro.com/danfoss-capac-240-mfd-125v-round-wbkt-117u5023/i/G4044761/>`__, $23.49 from Zoro. The capacitor fails by not having the correct capacitance anymore (e.g. through dielectric breakdown or other effects).
+- An additional capacitor that is available to try is the `Dayton E224674 Motor Start Capacitor, 216-259 MFD, Round <https://www.zoro.com/dayton-motor-start-capacitor-216-259-mfd-round-2met8/i/G2244356/#specifications>`__, $24.39 from Zoro. This is a larger capacitor than the previous and could be used as an additional replacement. Lead wires are not attached to this capacitor and must be done so separately.
+- Lead wires for the above capacitor, `Dayton Capacitor Jumper Wire Set <https://www.zoro.com/dayton-capacitor-jumper-wire-set-6-in-pk10-2mev9/i/G2684324/>`__, $18.65 from Zoro.
 - A `Danfoss 117U7020 current-starting relay <https://www.zoro.com/beverage-air-relay-danfoss-117u7020-for-312155d-comp-314-075d/i/G806895395/>`__, $36.19 from Zoro. The relay fails when the contacts begin getting pitted / arcing and either the resistance is too high or it does not properly switch.
 
 
@@ -104,3 +106,9 @@ Assembly
     Properly reassembled starter components
 
 5. Reattach the stripped ends of the white and black wires to the Wago lever nuts, **matching white to white and black to black**. Make sure all levers are in the down position and the wires are securely attached.
+
+
+Replacements:
+========
+- 2023.11.10 - Capacitor
+- 2024.06.24 - Capacitor
