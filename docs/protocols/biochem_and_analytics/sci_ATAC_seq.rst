@@ -477,7 +477,7 @@ Transposase assembly
 
    .. note:: 
       
-      If you are doing an entire plate, then you can use :math:`Z = 3.5`μL for the sci.AD1 primers and :math:`Z = 3.0`μL for sci.AD2.
+      If you are doing an entire plate, then you can use :math:`Z = 3.5` μL for the sci.AD1 primers and :math:`Z = 3.0` μL for sci.AD2.
       
 3. Prepare the unloaded D1 dilution of Tn5 by diluting Tn5 with dilution buffer. Using the Diagenode 2 mg/mL Tn5, the dilution ratio can be at least 1:10 (e.g. 9.0 μL Tn5 diluted to 90 μL). This has been verified to work at 1:10.
 

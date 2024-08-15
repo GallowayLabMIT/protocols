@@ -114,7 +114,6 @@ There are several built-in features of Zotero that make paper reading more effic
 
    .. image:: img/zotero_tablet.png
     :align: center
-|
 
 
 Better Quartzy
@@ -148,7 +147,7 @@ or in the Tampermonkey Utilities tab, you can use the **install from URL** optio
 
 .. image:: img/tampermonkey_install_from_url.png
     :align: center
-|
+
 
 Regex help
 ----------
@@ -173,7 +172,7 @@ you are using.
 
 .. image:: img/fira_code.png
     :align: center
-|
+
 
 Activate SnapGene remotely
 ----------------------------

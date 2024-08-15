@@ -30,6 +30,6 @@ Click `here <galloway_lab_protocols.pdf>`_ to access the PDF version.
 Contributing
 =============
 
-See the :doc:`Repository setup guide <tech/repo_setup>` if you are interested in how the continuous build system works, or you'd like to fork this repository to make it your own.
+See the :doc:`Repository setup guide <tech/ci_builder_config>` if you are interested in how the continuous build system works, or you'd like to fork this repository to make it your own.
 
 See the :doc:`Contributor guide <contributor_guide>` for a more detailed walkthrough of how to contribute to this protocols repository.
