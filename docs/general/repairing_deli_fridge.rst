@@ -4,7 +4,7 @@ Deli fridge starter replacement
 When the deli fridge refuses to start, it is possibly due to the starter components. The starter components are responsible for getting the initial burst of energy needed to turn over the compressor motor. Luckily, both of these parts are easy to replace!
 
 Background
-==========
+----------
 The starter consists of two parts:
 
 1. A current-sensitive starter relay: `this video <https://www.youtube.com/watch?v=PRq1WPH1sRg>`__ discusses the details, but this is effectively a relay that turns on when it senses current above a certain threshold, entirely mechanically.
@@ -20,7 +20,7 @@ We can reorder the parts for relatively cheap:
 
 
 Disassembly
-===========
+-----------
 
 1. Unplug the deli fridge from the wall. Wait about 5 minutes for capacitors to discharge.
 2. Take the front grill off. It just pops off if you pull it horizontally out.
@@ -65,7 +65,7 @@ Disassembly
 
         
 Debugging
-==========
+---------
 You don't need to disconnect any wires between the capacitor and relay to test it.
 
 1. Check if the relay is bad or not. The relay switches via a metal piece that gets pulled up into the
@@ -86,7 +86,8 @@ You don't need to disconnect any wires between the capacitor and relay to test i
 If the relay resistance is fine and switches when you invert it, then try swapping the capacitor.  
 
 Assembly
-========
+--------
+
 1. After deciding which part to replace (possibly both!) connect the replacement capacitor and relay by using the existing connectors. This should not require any wire stripping; just reuse the wires with the push-on connectors.  Assemble it as in the picture. It is **important which terminals you connect the white and black wires to**, but it does not matter which orientation you attach the capacitor (it's an AC capacitor so no polarity).
 
 .. figure:: ../img/deli_starter_connections.jpg
@@ -109,6 +110,7 @@ Assembly
 
 
 Replacements:
-=============
+-------------
+
 - 2023.11.10 - Capacitor
 - 2024.06.24 - Capacitor
