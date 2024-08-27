@@ -29,6 +29,8 @@ Empirically determined reagent amounts to use:
 =============================================================================================================================================== ==========================================
 
 .. note:: Not all reagent amounts have been rigorously optimized. 
+.. note:: These amounts can be scaled  to various plate sizes and DNA amounts. 
+.. note:: The protocol for Lipofectamine 3000 can be applied to transfection of Jurkat cells in suspension at low efficiency (1-3%).
 
 
 Protocol

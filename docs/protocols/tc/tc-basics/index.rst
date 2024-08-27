@@ -14,4 +14,6 @@ TC Basics
    platE_MEF_reprogramming
    human_reprogramming
    glass_slide
+   murine_bone_marrow
+   splenocyte
    *

@@ -15,43 +15,35 @@ Cell Line Creation
     
     For CRISPR, Deon has developed a robust modRNA-based delivery method that is capable of single and multiplex HDR-based insertions.
     
-    For TALEN, (insert here Chris) 
-
-
 Each method possesses their unique cell plating, transfection, and selection timelines. After the selection period, the methods converge on universal enirichment and single-cell cloning protocols (ie., limiting dilution or cell sorting) 
 
 
-PiggyBac (Sneha)
-~~~~~~~~~~~~~~~~
-Day -1
+PiggyBac
+--------
+Day 0
 ~~~~~~
-Seed your cells such that they will be around 30-40% confluent on the next day. There is an
+Seed your cells such that they will be around 20-30% confluent on the next day. There is an
 extended selection outgrowth period required, which means we should start with lower confluence.
 Recommended rough seeding counts are:
 
 =========       ============================
-Cell type       Seeding amount (per 96 well)
+Cell type       Seeding amount (per 24 well)
 =========       ============================
-293T            12.5k cells
-U2-OS           7.5k cells
+293T            40k cells
+U2-OS           10k cells
 =========       ============================
 
-Day 0
+Day 1
 ~~~~~~
-Follow the step for the cell line type to generate
-    - PiggyBac
-        - Co-transfect the PiggyBac plasmid alongside your plasmid containing PB recognition sites at a 3:1, template:transposase mass ratio.
-    - Crispr
-        - Co-transfect the Crispr/guide plasmid alongside your plasmid containing locus-specific recognition sites at a 1:1 mass ratio.
-    - TALEN
-        - Co-transfect the TALEN-R and TALEN-L plasmids alongside your plasmid containing locus-specific recognition sites at a 1:1:1 mass ratio.
+- Co-transfect the PiggyBac plasmid alongside your plasmid containing PB recognition sites at a 3:1, template:transposase mass ratio.
+- If you are doing markerless integration, then co-transfect a plasmid containing your resistance gene and an unused fluorescent marker.
 
 .. note::
     When transfecting, leave some untransfected wells where you just add the KO-DMEM/PEI master mix, without plasmids.
     This allows you to tell if your selection is working as expected, and also gives you a proxy for how much PEI-mediated
     cell death you are seeing.
 
-Day 1
+Day 2
 ~~~~~~
 Media change into selection media. Tested concentrations for PiggyBac are:
 
@@ -62,16 +54,24 @@ Cell type   Puro
 U2-OS       0.25 μg/mL (40,000x)
 =========   ====================
 
-Day 2-4
-~~~~~~~
-Continue selecting the cells until decent cell death occurs, or the cells are too dense.
+Day 4
+~~~~~
+Replace the selection media and continue selecting until sufficient cell death occurs.
 
 .. note::
     Puromycin at the given concentration should decidedly kill your untransfected wells.
     If you do not see sufficient cell death, try using a different aliquot.
 
+Day 7
+~~~~~
+Passage the remaining cells to 6-well scale.
+
+Day 9
+~~~~~
+Sort!
+
 CRISPR (Deon)
-~~~~~~~~~~~~~
+-------------
 Day -1
 ~~~~~~
 Deon recommends CRISPR at 12-well scale, as this is the smallest scale that yielded a workable number of surviving cells after multiple transfections, CRISPR genotoxicity, and drug selection.  
@@ -129,7 +129,7 @@ Remove selection and let cells recover/expand. During your next passage, take a 
 
 
 TALENS (Chris)
-~~~~~~~~~~~~~~
+--------------
 Day -1
 ~~~~~~
 Seed your cells such that they will be around 30-40% confluent on the next day. There is an
@@ -351,4 +351,4 @@ RMCE integration of payloads into V2 line
 
 
 Day -1
-~~~~~~
+-------

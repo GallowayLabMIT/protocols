@@ -64,7 +64,6 @@ import pandas as pd
 import rushd as rd
 import scipy
 import seaborn as sns
-from statannotations.Annotator import Annotator
 from matplotlib import ticker as mticker
 
 sns.set_theme(style="ticks")
