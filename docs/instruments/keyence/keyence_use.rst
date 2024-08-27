@@ -83,7 +83,7 @@ Default image settings
 
 Here are some common things to check for.
 
-.. image:: img/image-settings.PNG
+.. image:: img/image-settings.png
     :width: 100%
     :align: center
 
