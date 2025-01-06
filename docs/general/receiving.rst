@@ -31,3 +31,20 @@ Packages are usually delivered to the atrium (lab entrance near 66-219), or occa
 6. Mark the item as received on Quartzy. To do so, navigate to the \'Ordered\' section under the \'Requests\' tab and click the \'Mark Received\' button.
 
    .. image:: ../img/ordering-received.png
+
+   Note that you can add comments to an order or mark the order as \'Partially Recevied\' if the packing slip doesn't match the Quartzy request.
+
+Receiving orders in Coupa
+-------------------------
+
+If you ordered items through Coupa (punch-out or manually), you need to personally mark those items as received in Coupa.
+When the package arrives, follow the steps above to receive the item physically and in Quartzy, then additionally check it off in Coupa.
+
+1. Log in to Coupa. On the home screen, you should see your orders under \'Recent Activity\'.
+2. For the relevant order, under \'Actions\' select \'Receive\'.
+
+   .. image:: ../img/coupa_receive_items.jpg
+
+3. For each item, enter the quantity received (or check \'All'\) and the receipt date, then click \'Submit\'. 
+
+   .. image:: ../img/coupa_receive_items2.jpg

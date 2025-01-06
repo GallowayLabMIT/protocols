@@ -51,7 +51,7 @@ Room-Specific Information
 
 - Vacuum pumps closer to 66-219 are for miniprep waste (supernatant buffers AFTER cells have been lysed). Vacuum pumps closer to 66-257A are for media and have flasks containing bleach.
 
-  .. important:: Bleach should NEVER ben added to miniprep waste since it will generate toxic fumes.
+  .. important:: Bleach should NEVER be added to miniprep waste since it will generate toxic fumes.
 
   - After aspirating into the media/cells aspirators, you should run 10% bleach through the line from the bottles in each bin.
   - If you swap between the multichannel and single-channel aspirator, flush the line with 10% bleach before switching.

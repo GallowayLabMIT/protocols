@@ -3,11 +3,14 @@ Ordering
 ====================================
 
 .. important::
-    Check with Katie which cost object to use if unsure. Too many changes can trigger an audit unnecessarily. 
+    Check with Katie which cost object to use if you are unsure. Too many changes can trigger an audit unnecessarily. 
 
 There are several ways to order/request new lab reagents. For all lab reagents, materials, etc., be sure to enter the information in Quartzy so that inventory can be tracked.
 (This excludes oligos, Addgene plasmids, and most Amazon items for the office.)
 See the :doc:`receiving instructions </general/receiving>` for proper tracking and storage of delivered items.
+
+For a more comprehensive introduction to ordering in Coupa (buy-to-pay, or B2P), see `this training series <https://vpf.mit.edu/buy-to-pay-b2p-training-series>`_ from MIT Office of the Vice President for Finance.
+The finance office also has prepared a `quick-guide document <https://mitprod.sharepoint.com/:w:/s/GallowayLab/EaUDIQAoABlNgQVU6CKdbI0BTHDcVh3Q1q_cIBM6CRJa7w?e=OHAWtY>`_ that you can reference.
 
 Direct ordering through Coupa
 -----------------------------
@@ -34,9 +37,15 @@ On the Coupa checkout screen, fill out the following information:
 
     .. image:: ../img/ordering-account-1.png
 
+    .. tip::
+        Almost all materials should be categorized as \'Laboratory Supplies\', including office supplies (pens, notebooks, etc. --- do NOT use the 'Office Supplies' category)
+
 - The PO can be found by searching \'Galloway\' and selecting an option from the list (e.g., \'Start-Up Funds\').
 
     .. image:: ../img/ordering-account-2.png
+
+    .. important::
+        Be sure to double-check with Katie if you don't know which account to use.
 
 
 - Double check that the Approver workflow is accurate (i.e., through ChemE) and submit the order.
@@ -56,7 +65,7 @@ Attaching a quote to a Coupa order
 
 .. image:: ../img/ordering-attach-quote.png
 
-1. Manually add the item into the cart. Scroll down, click ``Add line``, put in the info for your item and save
+5. Manually add the item into the cart. Scroll down, click ``Add line``, put in the info for your item and save
 
 .. image:: ../img/ordering-addquote-line.png
     
@@ -82,31 +91,36 @@ There are two suppliers to choose from: the \'Quartzy Shop\', in which Quartzy f
 
     .. image:: ../img/ordering-new.png
 
+    .. important:: 
+        In most cases, we order materials directly from manufacturers/suppliers, NOT through the Quartzy Shop.
+
 **Adding Ordered Items**
 
 To add an item ordered directly through Coupa, follow the same process as for a new request. The item will appear in the \'New\' section under the \'Requests\' tab. Then, select the \'Mark Ordered\' button to move the item to the \'Ordered\' tab.
 
     .. image:: ../img/ordering-add-item.png
 
+Then, add the PO and/or requisition numbers to the order to facilitate tracking.
+
 
 Bulk Plastics Order
 -------------------
 
-The following items are ordered in bulk biannually from Genesee Scientific:
+The following items are ordered in bulk from Genesee Scientific several times per year:
 
 - Serological pipettes
 - Cell culture plates, flasks, and dishes
 - Syringe filters
 - Barrier tips and reach tip reloads
 - Reagent reservoirs
-- Tubes (0.6ml 1.7ml, 15ml, 50ml, cyrovials, culture, PCR)
+- Tubes (0.6mL 1.7mL, 15mL, 50mL, cyrovials, culture, PCR)
+- Petri dishes
 - Gloves
 
-Information for the bulk order can be found in the ``lab_jobs`` folder in the Sharepoint.
+Information for the bulk order can be found in the ``lab_jobs`` folder in the `Sharepoint <https://mitprod.sharepoint.com/:f:/s/GallowayLab/EriJnL4G8UFBpwqUE48fWWUBn18cOK8C8pbRpWJOhlgWOQ?e=RiPRFm>`_.
 To coordinate a bulk order:
 
-1. Collect the tally sheets from lab, which are located in three places: 66-219, rack next to the liquid nitrogen tanks, and rack across from the wooden wall shelves near the entrance to main TC. Replace the tally sheets and update the dates.
-2. Calculate the number of units needed for each item based on usage (from the tally sheets), any extra items ordered on Quartzy, and the previous order.
-3. Input this information into a new spreadsheet with the prices from the previous bulk order. Prices tend to increase annually, but this will be a good starting point.
-4. Directly email this spreadsheet to the Genesee Scientific representative (Brad Sloan, as of 2023) and request a quote; copy Tseganesh on this email so she can arrange the PO(s).
-5. Once the order is placed, print the order spreadsheet and post it on the door to the atrium to track the plastics as they are delivered. Be sure to inform the lab so they can help track items.
+1. Calculate the number of units needed for each item based on the previous bulk order, any extra items ordered on Quartzy, and expected usage (e.g., a busy upcoming summer).
+2. Input this information into a new spreadsheet with the prices from the previous bulk order. Prices tend to increase annually, but this will be a good starting point.
+3. Directly email this spreadsheet to the Genesee Scientific representative (Brad Sloan, as of January 2025) and request a quote; copy Tseganesh on this email so she can arrange the PO(s).
+4. Once the order is placed, print the order spreadsheet and post it on the door to the atrium to track the plastics as they are delivered. Be sure to inform the lab so they can help track items.

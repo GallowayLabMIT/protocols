@@ -180,10 +180,10 @@ Other
   worth learning both if you don't want to eventually pay for Creative Cloud. Inkscape's (Cairo) PDF import also tends to be superior,
   if trying to import vector images from paper PDFs.
 * **Color palettes:** Having nice color-blind friendly, distinct colors to start drawings from is helpful.
-  If making cartoon/stylized figures, the colors in-pallette might be enough! If not, the pallette can provide
+  If making cartoon/stylized figures, the colors in-palette might be enough! If not, the palette can provide
   a good starting place.
 
-  You can download pre-created pallettes for both `Illustrator <../../_static/iap_files/cat20_colors.ase>`__
+  You can download pre-created palettes for both `Illustrator <../../_static/iap_files/cat20_colors.ase>`__
   and `Inkscape <../../_static/iap_files/cat20_colors.gpl>`__
   for the well-known Category20/20b color set, which is color-blind friendly (and becoming the default in more and more
   software packages):

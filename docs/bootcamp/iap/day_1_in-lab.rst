@@ -8,7 +8,7 @@ Onboarding form
 ---------------
 
 Complete the tasks on the lab 
-`Onboarding Form <https://mitprod.sharepoint.com/:b:/s/GallowayLab/EVMPYzgt5mxJqJibaW7MGA0BN9E3s3tIBzDVc-kutuT-7A?e=TFwYtM>`_. 
+`Onboarding Form <https://mitprod.sharepoint.com/:b:/s/GallowayLab/EZsBE7z_J2lNj-mX6hkqCwkBOuqw3G_a8fSO2M_vI-Oi1w?e=yygej4>`_. 
 Have your mentor (or another lab member) check off each one. This list includes:
 
 - Given access to lab software accounts (requested in :ref:`Day 0 <software>`)
@@ -24,7 +24,7 @@ After completing all other safety trainings online, meet with the lab EHS rep to
 location of eyewash stations, processes for chemical waste disposal). To confirm that you understand these procedures, you must submit a 
 Google form to be checked off by the lab EHS rep. This safety information is :doc:`documented here <../../general/lab_safety>`, and key 
 points are highlighted in the 
-`IAP 2024 lab-specific training slides <https://mitprod.sharepoint.com/:p:/s/GallowayLab/EW0UpzVQxgVDsnZOqmIS-sQBGbnor3MEVkoWMS2K6cmLwg?e=C8s5PY>`_.
+`IAP 2025 lab-specific training slides <https://mitprod.sharepoint.com/:p:/s/GallowayLab/EffS_fJNCA1KgtfpJG7O6DgBQFc9nWfK2uXpOLrbIo9-lg?e=HzM0Cq>`_.
 
 For grad students and postdocs, an in-person training is also required for access to the room containing the autoclave, dishwasher, and ice 
 machine (room 56-415). Once you have completed the `Autoclave Safety Training <http://web.mit.edu/training/course.html?course=EHS00254w&sys=PS1>`_ 
@@ -46,7 +46,6 @@ Maps for lab organization:
 - `Lab equipment <https://mitprod.sharepoint.com/:b:/s/GallowayLab/EbjBy6vhAyZKqWVgSfxkRXABdfoGp_YYGrRKiLTGay74fg?e=zjkM5C>`_ 
 - `Freezer organization <https://mitprod.sharepoint.com/:x:/s/GallowayLab/ERVgIOi4w31JohZf3xSQIDQBK7t2Pm4gxTZNxHdolh4EOw?e=kSnjs1>`_
 - `Incubator shelf assignment <https://mitprod.sharepoint.com/:w:/s/GallowayLab/EediYQ9VgLFMpMWxMOpqOu8Bqo__zbC4BykKfnjKReiZqQ?e=4zv17t>`_ 
-- `Plastics stocks <https://mitprod.sharepoint.com/:b:/s/GallowayLab/EUYyRZVnERFGkCTT3r17n38B6laSF31OOvgD4bcuIhYzNA?e=qTp14K>`_
 
 Selected lab protocols to be familiar with:
 
@@ -55,7 +54,7 @@ Selected lab protocols to be familiar with:
 - :doc:`Receiving orders <../../general/receiving>`
 - :doc:`Recycling <../../general/recycling>`
 - :doc:`Cleaning and autoclaving <../../general/clean_autoclave_guideline>`
-- :doc:`Basic TC procedures <../../protocols/tc/tc-basics/TC_basics>`
+- :doc:`Basic TC procedures <../../protocols/tc/tc-basics/TC_basics>```
 - :doc:`Virus safety <../../protocols/tc/virus/virus_safety>`
 
 
@@ -63,5 +62,5 @@ Core facility access
 --------------------
 
 If you anticipate using a core facility (e.g., flow sorter, confocal microscope, plate reader) check out the :doc:`relevant protocol <../../instruments/index>` to obtain 
-access. It's best to start this process early, since obtaining access may take several weeks---training can be difficult to schedule during busy times, 
+access. It's best to start this process early, since obtaining access may take several weeks --- training can be difficult to schedule during busy times, 
 and you may be required to book supervised time on equipment before independent access is permitted.
