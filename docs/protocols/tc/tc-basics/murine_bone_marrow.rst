@@ -109,7 +109,9 @@ Bone Isolation with Images
     At this point you can also use a clean pipette tip to pull liquid through the bottom of the strainer if it is clogged
   
 12.   If you have a large volume of media, you can spin down the cells for 5 mins at 1600g and resuspend in a smaller volume.
+    
     - If you spun down the cell suspension, aspirate off the media and resuspend into a smaller volume
+  
 13.  Seed cells into desired plate for downstream experiments. If your desired cell type is BMDMs, culture in DMEM + 10% FBS with 1x Pen/Strep and 10 ng/mL M-CSF.
 
 .. note::

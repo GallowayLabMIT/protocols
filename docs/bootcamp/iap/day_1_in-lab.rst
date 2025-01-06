@@ -54,7 +54,7 @@ Selected lab protocols to be familiar with:
 - :doc:`Receiving orders <../../general/receiving>`
 - :doc:`Recycling <../../general/recycling>`
 - :doc:`Cleaning and autoclaving <../../general/clean_autoclave_guideline>`
-- :doc:`Basic TC procedures <../../protocols/tc/tc-basics/TC_basics>```
+- :doc:`Basic TC procedures <../../protocols/tc/tc-basics/TC_basics>`
 - :doc:`Virus safety <../../protocols/tc/virus/virus_safety>`
 
 
