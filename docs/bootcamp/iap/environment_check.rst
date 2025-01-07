@@ -116,4 +116,4 @@ Completion date
 - Diya Godavarti (2024-06-03)
 - Eliska Liang (2024-06-24)
 - Yunbeen Bae (2024-08-08)
-- Zahmiria Johnson (2024-01-07)
+- Zahmiria Johnson (2025-01-07)
