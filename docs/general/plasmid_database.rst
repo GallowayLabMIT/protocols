@@ -37,10 +37,14 @@ Species                         Bacterial cell type (e.g., NEB Stable)
 
 Then, click the "Add Item" button in the lower left corner to add the item to the database. 
 
-.. important::
+.. warning::
 
     Double check that all the fields are correct, especially "Item Name", "pKG#", and "Upload File"! These are the most common sources
     of entry errors, particularly when adding a many plasmids at the same time.
+
+.. tip:: 
+    If the file upload fails, it is likely that the file is too large. The easiest way to fix this is to trim the history tree in SnapGene 
+    (\'History\' tab -> \'Edit History\' -> \'Trim History Tree\', or \'File\' -> \'Batch trim file histories\' to select several at once).
 
 
 Plasmid website
