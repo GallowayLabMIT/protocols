@@ -14,26 +14,26 @@ also be ordered from DNA synthesis companies.
 
 Methods of DNA fragment generation include:
 
-- PCR, with or without new ends added by primer overhangs
-- Restriction digest
-- :doc:`Annealing oligos <oligo_annealing>` synthesized by an external company (e.g., Genewiz)
-- Ordering a long dsDNA sequence from an external company (e.g., gBlock from Genewiz)
-- Obtaining an existing plasmid to use directly as a fragment (e.g., pPV plasmid for our :ref:`Golden Gate cloning scheme <_pPV-scheme>`)
+- :doc:`PCR </protocols/cloning/pcr>`, with or without new ends added by primer overhangs
+- :doc:`Restriction digest </protocols/cloning/digest>`
+- :doc:`Annealing oligos <oligo_annealing>` synthesized by an external company (e.g., Azenta/Genewiz)
+- Ordering a long dsDNA sequence from an external company (e.g., gBlock from Azenta/Genewiz)
+- Obtaining an existing plasmid to use directly as a fragment (e.g., pPV plasmid for our :ref:`Golden Gate cloning scheme <pPV-scheme>`)
 
 
 Step 2: Assemble plasmids
--------------------------
+-------------------------``
 
 Next, fragments are assembled into plasmids, circular pieces of DNA on the order of 1-15 kilobases. Plasmids are
-the primary means by which we delivery DNA to mammalian cells. Assembly occurs in a biochemical reaction in a tube,
+the primary means by which we delivery DNA (or generate viruses to deliver DNA) to mammalian cells. Assembly occurs in a biochemical reaction in a tube,
 and efficiencies of these reactions vary widely.
 
 Methods of plasmid assembly include:
 
 - :doc:`Ligation <ligation_assembly>`
-- :doc:`Gibson (aka Hifi) <gibson>` 
-- :doc:`Gateway <lr_cloning>`
-- :doc:`Golden Gate <golden_gate>`
+- :doc:`Gibson Assemby (aka Hifi) <gibson>` 
+- :doc:`Gateway Assemby <lr_cloning>`
+- :doc:`Golden Gate Assembly<golden_gate>`
 
 
 Step 3: Transform bacteria
@@ -113,7 +113,7 @@ Once plasmids are sequence-confirmed, we want to save the bacterial clone harbor
 purify more of it later. Bacteria streaked on agar plates only last on the order of ~1 month at 4ºC; for longer-term 
 storage, we make a :doc:`glycerol stock <glycerol_stocking>` (in triplicate) that is added to our lab's shared set of stocks. 
 To allow others in lab---and eventually the wider scientific community, upon publication---to access our plasmids, the 
-sequence should be added to our existing plasmid database and assigned a ``pKG`` number for reference.
+sequence should be added to our existing :doc:`plasmid database </general/plasmid_database>` and assigned a ``pKG`` number for reference.
 
 .. tip::
 
@@ -126,20 +126,20 @@ Starting with an assembled plasmid
 ----------------------------------
 
 To make a stock of a plasmid for which you only have a DNA prep (e.g., obtained from a collaborator, or the original agar plate dried out), 
-simply transform (or re-transform) the plasmid directly without needing to reassemble it. This means you can skip Steps 1 and 2 above, beginning
+simply transform (or re-transform) the plasmid directly---you do not need to reassemble it. This means you can skip Steps 1 and 2 above, beginning
 directly with Step 3.
 
-**Step 3:** :doc:`Transform <transformation>` chemically competent cells with 0.5 µsxL plasmid DNA.
+**Step 3:** :doc:`Transform <transformation>` chemically competent cells with 0.5 µL plasmid DNA.
    
    .. tip::
     The transformation should be highly efficient since all the DNA is (presumably) the correct plasmid product. You may want to
-    scale down the volume of cells or plate only a fraction of the reaction to avoid overcrowding of the colonies the next day.
+    dilute your plasmid DNA or scale down the volume of cells to avoid overcrowding of the colonies the next day.
     Be careful not to overgrow such that the colonies merge!
 
 **Step 4:** It is usually okay to skip the initial screening step if your plasmid DNA is pure. Instead, pick 1-2 colonies directly 
 into liquid cultures and shake overnight at 30ºC. The next day, save ~2 uL to inoculate a new culture or streak onto a fresh plate.
 
-**Steps 5-7:** Perform as described above.
+**Steps 5-7:** Purify, sequence, and stock your plasmid as described above.
 
 
 Cloning Workflow Timeline
@@ -156,17 +156,23 @@ Typical Timeline
 
   Note that some assembly reactions may need to run overnight before transformation (e.g., Gateway or an inefficient Golden Gate).
 
+  Additionally, it is common for the fragment generation step to take several days if the reactions have a long run-time and require troubleshooting (e.g., a tricky PCR).
+
 **Day 2:** Screen colonies, start liquid cultures of candidates (*shake overnight*)
 
   If plates are streaked with colonies in the morning, cultures can usually be started from them in the evening.
-  Otherwise, the streaked plates may need to incubate overnight.
+  Otherwise, the streaked plates may need to incubate overnight before starting liquid cultures of candidate clones.
 
 **Day 3:** Purify plasmid DNA, send for sequencing (*typically next-day turn-around*)
 
   Same-day sequencing results are sometimes possible for Azenta/Genewiz orders submitted for 9am pickup; results
-  usually are ready around 6pm.
+  usually are ready around 6pm. Otherwise, sequencing picked up at the evening 3 or 7pm (Azenta/Genewiz) or 4pm (Plasmidsaurus) cutoffs
+  generate results sometime the next day (occasional delays occur on weekends).
 
-**Day 4:** Asses sequencing results, start liquid cultures for glycerol stock (*shake overnight*)
+**Day 4:** Assess sequencing results, start liquid cultures for glycerol stock (*shake overnight*)
+
+  At this point, you can use the purified DNA in the next cloning step or in a tissue culture experiment. Note that some experiments require 
+  high DNA concentrations/purity, so you may want to start a culture for a `midiprep <https://www.qiagen.com/us/resources/download.aspx?id=3da21fc3-a078-4665-aefe-06154db2b6d2&lang=en>`_.
 
 **Day 5:** Make glycerol stock
 
