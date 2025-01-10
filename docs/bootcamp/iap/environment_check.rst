@@ -44,12 +44,21 @@ be done *inside* a local copy of the ``environment-check`` repository.
 2. Create a **virtual environment** within the environment-check repository; see :ref:`python_setup`
    for help creating this environment. Remember to add your virtual environment folder to the ``.gitignore``
    so it is not tracked by ``git``! [KEG: This just involves adding the file 'env' to the ".gitignore' file]
-3. Activate the virtual environment, and install the listed dependencies with ``pip install -r requirements.txt``. [Note: "requirements.txt" can be found in the protocol repo]
-4. Create and switch to another branch (for example, ``cjohnsto``). [KEG: I found the easiest way to do this is via Github Desktop. Branch > New branch]
-5. Install ``rushd``, a package for sane data management, using ``pip install rushd``. Because you
+   
+.. note::
+   If you get get an error message about not having permission to run scripts, you may need to change your execution policy.
+   On Windows:
+      1. Open PowerShell on administrator mode.
+      2. Type "set-ExecutionPolicy RemoteSigned" and press Enter.
+      3. Select "Y" to confirm.
+   Now you should be able to run scripts.
+
+1. Activate the virtual environment, and install the listed dependencies with ``pip install -r requirements.txt``. [Note: "requirements.txt" can be found in the protocol repo]
+2. Create and switch to another branch (for example, ``cjohnsto``). [KEG: I found the easiest way to do this is via Github Desktop. Branch > New branch]
+3. Install ``rushd``, a package for sane data management, using ``pip install rushd``. Because you
    added new packages, update the requirements file by using ``pip freeze > requirements.txt`` so someone else could
    use the same package versions.
-6. Create a ``datadir.txt`` file that contains the path to your locally-synced OneDrive. [KEG: Just make a text file and copy the path to your OneDrive (aka SharePoint) folder for the Galloway lab so you can link directly to your data using "rushd".]
+4. Create a ``datadir.txt`` file that contains the path to your locally-synced OneDrive. [KEG: Just make a text file and copy the path to your OneDrive (aka SharePoint) folder for the Galloway lab so you can link directly to your data using "rushd".]
    For example, the datadir.txt file might look like this (on MacOS):
 
 
