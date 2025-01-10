@@ -137,6 +137,16 @@ We install all of the necessary build requirements by doing:
 
 From now on, you just need to follow the virtual environment activation step.
 
+.. admonition:: Potential Version Issues 
+  
+  You may run into problems with requirement versions being incompatible with your computer's versions.
+  In this case, you should delete all version information from requirements (control + f "==.*" and delete).
+  This will automatically install the most up-to-date versions of the packages. After successful installation, freeze these versions by doing:
+  
+  .. code-block:: console
+
+    $ pip freeze > requirements.txt
+  
 
 Standard workflow
 -----------------

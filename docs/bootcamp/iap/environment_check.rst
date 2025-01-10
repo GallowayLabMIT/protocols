@@ -46,11 +46,14 @@ be done *inside* a local copy of the ``environment-check`` repository.
    so it is not tracked by ``git``! [KEG: This just involves adding the file 'env' to the ".gitignore' file]
    
 .. note::
-   If you get get an error message about not having permission to run scripts, you may need to change your execution policy.
-   On Windows:
+   If you get an error message about not having permission to run scripts, you may need to change your execution policy.
+   
+      On Windows:
+   
       1. Open PowerShell on administrator mode.
       2. Type "set-ExecutionPolicy RemoteSigned" and press Enter.
       3. Select "Y" to confirm.
+   
    Now you should be able to run scripts.
 
 1. Activate the virtual environment, and install the listed dependencies with ``pip install -r requirements.txt``. [Note: "requirements.txt" can be found in the protocol repo]
@@ -97,6 +100,7 @@ be done *inside* a local copy of the ``environment-check`` repository.
       5. Are you sure you installed Sphinx? https://pypi.org/project/Sphinx/
       6. Visually confirming the protocols' preview is working is encouraging. Try 'Ctrl+Shift+P' or 'Ctrl+Shift+R'
       7. If you get stuck, ask for help!
+      8. If you can't get Python to run from the terminal, you may not have selected "Add to PATH" when initially installing Python. In that case, reinstall Python and ensure "Add to PATH" is selected. Then restart computer.
 
 Protocols check
 ---------------
