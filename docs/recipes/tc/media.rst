@@ -230,7 +230,7 @@ Last updated: 2025-01-31
 ================================== ============ ===============
   Component                             %           Volume
 ================================== ============ ===============
-KO-DMEM                                
+KO-DMEM                               1x stock       41.4 mL
 de-activated FBS                       15%           7.5 mL
 Glutamax                                1%           500 uL                                   
 MEM/NEAA                                1%           500 uL
