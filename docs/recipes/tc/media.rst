@@ -217,3 +217,36 @@ Component                       Concentration                   Amount/50 mL    
 DMEM + 10% FBS                  main Component                  48.75 mL        550 mL
 Sterile 1M HEPES                25 mM                           1.25 mL         14.10 mL
 ==============================  =============================== ============== ==============
+
+iPSC Reprogramming Media
+------------------------
+
+Used for reprogramming fibroblasts to iPSCs.
+
+Last updated: 2025-01-31
+
+* Total Volume: **50 mL**
+
+================================== ============ ===============
+  Component                             %           Volume
+================================== ============ ===============
+KO-DMEM                                
+de-activated FBS                       15%           7.5 mL
+Glutamax                                1%           500 uL                                   
+MEM/NEAA                                1%           500 uL
+Leukemia inhibitory factor (LIF)   1000x stock        50 uL
+β-mercaptoethanol                  1000x stock        50 uL
+================================== ============ ===============
+.. note:: 
+  β-mercaptoethanol is not stable in dilute solution, so add fresh to an aliquot of media right before each media change.
+
+**50 mM β-mercaptoethanol stock solution**
+
+* Total volume: **1.2 mL** (enough for ~20 aliquots of 60 uL)
+  
+================================== ============== ===============
+Component                           Concentration      Volume
+================================== ============== ===============
+Starting stock                        14.3 M             4.2 uL
+PBS                                      1x           1195.8 uL
+================================== ============== ===============
