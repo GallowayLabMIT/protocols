@@ -57,8 +57,9 @@ The `Hei Hei/Pua incubator manual </docs/_static/files/ode_training_files/vwr-ba
 
 8. Once the decontamination routine is complete, wipe up any water on the bottom of the incubator and make sure the water tray is still filled.
 9. Reconnect CO2 flow.
-10. Follow manual instructions (page 45) to begin the auto-start routine. This will take **approximately 5 hours**.
-11. After the auto-start routine finishes, the incubators can be used.
+10. Finish the decontamination cycle by holding down the 90ºC button for 5s (see manual instructions, page 59). The display should switch from 0h to the CO2 level.
+11. Follow manual instructions (page 45) to begin the auto-start routine. This will take **approximately 5 hours**.
+12. After the auto-start routine finishes, the incubators can be used.
 
 Te Kā (Quarantine) and Te Fiti (66-219)
 _______________________________________
