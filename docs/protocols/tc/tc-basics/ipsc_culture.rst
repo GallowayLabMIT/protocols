@@ -65,18 +65,25 @@ Thawing
 
 .. important:: Thaw cells quickly and spin down as soon as all ice is gone to limit the cells' exposure to DMSO.
 
-2. Pipet the contents of the cryovial into a 15 mL conical. Then, GENTLY add 10 mL of DMEM/F12. Optionally, pipet 1 mL of liquid from the conical around in the cryovial to remove any residual cells, then return the liquid to the conical.
-3. Spin down cells at 40g for 4 min. If cells were not frozen in big enough clumps, they may not pellet at this low speed. In that case, you can try 400g, but cells frozen in these smaller clumps may not recover as well.
-4. Aspirate the media and *gently* resuspend the cells in the culture medium (i.e., mTeSR) and plate. Typically, iPSCs are frozen such that 1 vial goes to 1 to 6 wells of a 6-well plate. Decide how many wells to use based on the size of the pellet.
-5. Within 24 hours (e.g., the next day), media change to fresh mTeSR. Then, culture as normal.
+2. While cells are thawing, prewarm a coated plate and 2 mL media (e.g. mTeSR) per 6-well.
+3. As soon as cryovial is thawed, transfer to a 15 mL conical using a p1000
+4. Using a p1000, **SLOWLY** add 1 mL of DMEM/F12 to the conical dropwise, shaking the tube every 2-3 drops to evenly mix thawed cells with DMEM/F12. *Optionally*, pipet 1 mL of DMEM/F12 into the cryovial to remove any residual cells, then add dropwise to conical.
+
+.. important:: Slow addition of DMEM/F12 is important at the beginning to prevent osmotic shock to the iPSCs
+
+5. Using a serological pipet, **GENTLY** add 4 more mL of DMEM/F12 dropwise, mixing every 3-5 drops (total ~ 6 mL)
+6. Spin down cells at 40g for 4 min. If cells were not frozen in big enough clumps, they may not pellet at this low speed. In that case, you can try 400g, but cells frozen in these smaller clumps may not recover as well or you may need to add ROCKi.
+7. Aspirate the media and *gently* resuspend the cells in the culture medium (i.e. mTeSR) and plate. Typically, iPSCs are frozen such that 1 vial goes to 1 to 6 wells of a 6-well plate. Decide how many wells to use based on the size of the pellet.
+8. Within 24 hours (e.g., the next day), media change to fresh mTeSR. Then, culture as normal.
 
 General Culturing Tips
 ----------------------
 
 - Always culture human iPSCs on Geltrex-coated plates (or other similar matrix coating).
 - Typically, all culturing is done in 6-well plates. Use at least 2 mL of media per well.
-- Change to fresh media *every day* to keep the cells healthy. iPSCs are very metabolically active and can easily spontaneously differentiate, so if the media looks very yellow try refreshing with a larger volume (e.g., 3 mL).
+- Change to fresh media *every other day* to keep the cells healthy. iPSCs are very metabolically active and can easily spontaneously differentiate, so if the media looks very yellow try refreshing with a larger volume (e.g., 3 mL).
 - Some amount of cell death is expected, but media changes every 24 hrs with enough fresh media should mitigate this.
+- mTeSR-PLUS says you can media change every other day with x2 volume for 3 days (weekend)
 - To maintain optimal cell health, be sure to passage cells before they are 100% confluent. Typically, healthy cells that are passaged 1:6 will need to be passaged again 2 days later.
 - Splits of 1:6 to 1:12 are recommended. Larger dilutions may impede growth if the cells are too sparse, and lower dilutions will require very frequent passaging.
 - iPSCs grow in colonies with a cobblestone-like cell morphology. The edges of the colonies should be smooth, not spiky.
