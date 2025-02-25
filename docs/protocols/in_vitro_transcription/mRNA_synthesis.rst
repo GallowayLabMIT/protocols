@@ -64,3 +64,57 @@ The protocol for IVT is adapted from the `NEB HiScribe protocol <https://www.neb
     synthesized modRNA in Nokk.
 
 .. note:: I have observed no reduction in product quality multiple months after storing. Although I have witnessed some sublimination which leads to more concentrated RNA samples.    
+
+
+IVT using pKG3198 (polyA encoded on plasmid)
+===========================================================
+The protocol for IVT is adapted from the `NEB HiScribe protocol <https://www.neb.com/protocols/2021/10/12/mrna-synthesis-protocol-with-modified-nucleotides-using-the-hiscribe-t7-mrna-kit-with-cleancap-reagent-agneb-e2080>`_.
+
+.. warning:: 
+  This needs to be updated (2/25/2025 - NBW)
+
+.. important:: 
+  2/25/2025 - We have not been able to get a master mix to work (suspect mixing changes volumes a lot). Although annoying, make each mix separately.
+
+
+1. Thaw the necessary kit components on ice and microfuge to collect solutions to tube bottoms.
+2. Assemble the IVT reaction at room temperature in the following order (total volume = 20 µL):
+
+================================= =================================================
+  Component                          Amount
+================================= =================================================
+ Template (~300-400 ng)             X µL
+ Water                              9.2 - X µL  
+ 10x buffer                         2 µL
+ DTT                                1 µL
+ GTP                                1 µL
+ CTP                                1 µL
+ ATP                                1 µL
+ Nlm4                               1 µL
+ CleanCap Reagent AG                0.8 µL 
+ ECIPP                              1 µL
+ T7 RNAP                            2 µL
+ Total                              20 µL
+================================= =================================================  
+
+3. Gently mix reactions, microfuge, and incubate at 37°C in a thermoblock for 2-4 hours (longer incubation times recommended for transcripts >3 kb).
+
+4. Optional: post IVT, you can treat you sample with DNase I if your application cannot tolerate residual amounts of DNA template. Add 30 µL nuclease-free water (to ~50 µL), add 2 µL DNase I, and incubate at 37°C for 30 min. 
+   
+5. Purify modRNA with `NEB Monarch RNA Cleanup Kit <https://www.neb.com/products/t2050-monarch-rna-cleanup-kit-500-ug#Protocols,%20Manuals%20&%20Usage>`_ following manual provided in kit.
+
+6. Keep the purified modRNA on ice to perform quality control analysis. Nanodrop to determine concentration (for a 20 µL reaction, one should expect ~50 micrograms of RNA). 
+  
+7. Perform gel electrophoresis to confirm the full-length product was synthesized. Add nanodropped samples to a new PCR tube containing 8 µL of NEB 2X RNA Loading Dye (blue reagent), incubate at 90 C for 3 minutes, and immediately place on ice for 2 minutes. This is to denature RNA secondary structure so it can be resolved on a native agarose gel.
+
+8. In parallel, prep a `ssRNA ladder <https://www.neb.com/products/n0362-ssrna-ladder#Product%20Information>`_ to serve as a standard. 
+  
+9. Run your denatured RNA samples on a gel to confirm product size. 
+
+.. important:: 
+  Ethidium bromide does not stain ssRNA very well, prepare your gel using SYBR safe!
+
+10. Aliquot modRNA into single-use tubes (scale appropriately for your experiment) and store in -80 C. We have a box for
+    synthesized modRNA in Nokk.
+
+.. note:: I have observed no reduction in product quality multiple months after storing. Although I have witnessed some sublimination which leads to more concentrated RNA samples.  
