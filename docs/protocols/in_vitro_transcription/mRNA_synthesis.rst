@@ -66,7 +66,7 @@ The protocol for IVT is adapted from the `NEB HiScribe protocol <https://www.neb
 .. note:: I have observed no reduction in product quality multiple months after storing. Although I have witnessed some sublimination which leads to more concentrated RNA samples.    
 
 
-IVT using pKG3198 (polyA encoded on plasmid)
+IVT using MluI digested pKG3198 (polyA encoded on plasmid)
 ===========================================================
 The protocol for IVT is adapted from the `NEB HiScribe protocol <https://www.neb.com/protocols/2021/10/12/mrna-synthesis-protocol-with-modified-nucleotides-using-the-hiscribe-t7-mrna-kit-with-cleancap-reagent-agneb-e2080>`_.
 
@@ -76,32 +76,42 @@ The protocol for IVT is adapted from the `NEB HiScribe protocol <https://www.neb
 .. important:: 
   2/25/2025 - We have not been able to get a master mix to work (suspect mixing changes volumes a lot). Although annoying, make each mix separately.
 
+.. note:: 
+  Wear a blue lab coat and wipe down area and pipets before starting.
+  Use barrier tips when handling any of the reagents (nucleosides, buffers, enzymes).
+
 
 1. Thaw the necessary kit components on ice and microfuge to collect solutions to tube bottoms.
+
+.. note:: 
+  DTT and dNTPs will take a while to thaw
+
 2. Assemble the IVT reaction at room temperature in the following order (total volume = 20 µL):
 
 ================================= =================================================
   Component                          Amount
 ================================= =================================================
  Template (~300-400 ng)             X µL
- Water                              9.2 - X µL  
- 10x buffer                         2 µL
+ Nuclease-free water                9.2 - X µL  
+ 10X T7 IVT rxn buffer              2 µL
  DTT                                1 µL
  GTP                                1 µL
  CTP                                1 µL
  ATP                                1 µL
- Nlm4                               1 µL
+ m1Ψ (100 mM)                       1 µL 
  CleanCap Reagent AG                0.8 µL 
  ECIPP                              1 µL
- T7 RNAP                            2 µL
+ T7 RNAP mix                        2 µL
  Total                              20 µL
 ================================= =================================================  
 
 3. Gently mix reactions, microfuge, and incubate at 37°C in a thermoblock for 2-4 hours (longer incubation times recommended for transcripts >3 kb).
 
+.. note:: The reaction should be cloudy if successful. The ECIPP is a pyrophosphatase to counter pyrophosphates which will precipitate with magnesium and decrease IVT efficiency but even with the ECIPP, it will precipitate and look cloudy if successful.
+
 4. Optional: post IVT, you can treat you sample with DNase I if your application cannot tolerate residual amounts of DNA template. Add 30 µL nuclease-free water (to ~50 µL), add 2 µL DNase I, and incubate at 37°C for 30 min. 
    
-5. Purify modRNA with `NEB Monarch RNA Cleanup Kit <https://www.neb.com/products/t2050-monarch-rna-cleanup-kit-500-ug#Protocols,%20Manuals%20&%20Usage>`_ following manual provided in kit.
+5. Purify modRNA with `NEB Monarch RNA Cleanup Kit <https://www.neb.com/products/t2050-monarch-rna-cleanup-kit-500-ug#Protocols,%20Manuals%20&%20Usage>`_ following manual provided in kit. 60 µL elution with nuclease-free water should give ~800 ng/µL.
 
 6. Keep the purified modRNA on ice to perform quality control analysis. Nanodrop to determine concentration (for a 20 µL reaction, one should expect ~50 micrograms of RNA). 
   
@@ -115,6 +125,6 @@ The protocol for IVT is adapted from the `NEB HiScribe protocol <https://www.neb
   Ethidium bromide does not stain ssRNA very well, prepare your gel using SYBR safe!
 
 10. Aliquot modRNA into single-use tubes (scale appropriately for your experiment) and store in -80 C. We have a box for
-    synthesized modRNA in Nokk.
+    synthesized modRNA in Nokk. If ~2,400 ng aliquots, you'll have ~20 aliquots.
 
 .. note:: I have observed no reduction in product quality multiple months after storing. Although I have witnessed some sublimination which leads to more concentrated RNA samples.  
