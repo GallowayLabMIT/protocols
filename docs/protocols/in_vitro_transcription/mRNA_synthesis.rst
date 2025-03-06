@@ -66,33 +66,56 @@ The protocol for IVT is adapted from the `NEB HiScribe protocol <https://www.neb
 .. note:: I have observed no reduction in product quality multiple months after storing. Although I have witnessed some sublimination which leads to more concentrated RNA samples.    
 
 
-IVT using MluI digested pKG3198 (polyA encoded on plasmid)
+
+
+MluI digestion for pKG3198 (polyA encoded on plasmid)
+==========================================================
+
+.. note:: 
+  You should get about 1 µg (100 ng/µL, 10 µL) of IVT template using this method which is good for 3 IVT reactions (if 100ng/96-well, this should give modRNA for ~18 plates)
+
+1. Assemble
+
+================================= =================================================
+  Component                          Amount
+================================= =================================================
+ rSAP                                1 µL
+ MluI                                2 µL
+ 10X rCutSmart                       2.5 µL
+ Water                               19.5 - X µL  
+ Template (~1,000 ng)                X µL
+ Total                              25 µL
+================================= =================================================  
+
+2. Incubate at 37°C for 1 hour
+3. Use DNA cleanup kit and elute in 10 µL (should be ~100 ng/µL)
+
+IVT using MluI-digested pKG3198 (polyA encoded on plasmid)
 ===========================================================
+
 The protocol for IVT is adapted from the `NEB HiScribe protocol <https://www.neb.com/protocols/2021/10/12/mrna-synthesis-protocol-with-modified-nucleotides-using-the-hiscribe-t7-mrna-kit-with-cleancap-reagent-agneb-e2080>`_.
 
 .. warning:: 
   This needs to be updated (2/25/2025 - NBW)
 
-.. important:: 
-  2/25/2025 - We have not been able to get a master mix to work (suspect mixing changes volumes a lot). Although annoying, make each mix separately.
-
 .. note:: 
   Wear a blue lab coat and wipe down area and pipets before starting.
   Use barrier tips when handling any of the reagents (nucleosides, buffers, enzymes).
 
+.. note:: 
+  If you follow the DNA_template
 
-1. Thaw the necessary kit components on ice and microfuge to collect solutions to tube bottoms.
+
+1. Thaw the necessary kit components, gently invert to mix, and microfuge to collect solutions to tube bottoms.
 
 .. note:: 
-  DTT and dNTPs will take a while to thaw
+  Thaw DTT, dNTPs, and CleanCap at room temp, then make a master mix of 7.8 µL per tube. Then add template, water, and enzymes separately.
 
 2. Assemble the IVT reaction at room temperature in the following order (total volume = 20 µL):
 
 ================================= =================================================
   Component                          Amount
 ================================= =================================================
- Template (~300-400 ng)             X µL
- Nuclease-free water                9.2 - X µL  
  10X T7 IVT rxn buffer              2 µL
  DTT                                1 µL
  GTP                                1 µL
@@ -100,6 +123,8 @@ The protocol for IVT is adapted from the `NEB HiScribe protocol <https://www.neb
  ATP                                1 µL
  m1Ψ (100 mM)                       1 µL 
  CleanCap Reagent AG                0.8 µL 
+ Template (~300-400 ng)             X µL
+ Nuclease-free water                9.2 - X µL  
  ECIPP                              1 µL
  T7 RNAP mix                        2 µL
  Total                              20 µL
