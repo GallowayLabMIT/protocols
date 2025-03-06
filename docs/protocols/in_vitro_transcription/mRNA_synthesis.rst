@@ -72,7 +72,7 @@ MluI digestion for pKG3198 (polyA encoded on plasmid)
 ==========================================================
 
 .. note:: 
-  You should get about 1 µg (100 ng/µL, 10 µL) of IVT template using this method which is good for 3 IVT reactions (if 100ng/96-well, this should give modRNA for ~18 plates)
+  You should get about 1 µg (100 ng/µL, 10 µL) of IVT template using this method which is good for 3 IVT reactions (each IVT gives ~50-60 µg so at 100ng/96-well, this should give modRNA for ~15-18 plates)
 
 1. Assemble
 
@@ -95,16 +95,9 @@ IVT using MluI-digested pKG3198 (polyA encoded on plasmid)
 
 The protocol for IVT is adapted from the `NEB HiScribe protocol <https://www.neb.com/protocols/2021/10/12/mrna-synthesis-protocol-with-modified-nucleotides-using-the-hiscribe-t7-mrna-kit-with-cleancap-reagent-agneb-e2080>`_.
 
-.. warning:: 
-  This needs to be updated (2/25/2025 - NBW)
-
 .. note:: 
   Wear a blue lab coat and wipe down area and pipets before starting.
   Use barrier tips when handling any of the reagents (nucleosides, buffers, enzymes).
-
-.. note:: 
-  If you follow the DNA_template
-
 
 1. Thaw the necessary kit components, gently invert to mix, and microfuge to collect solutions to tube bottoms.
 
@@ -138,11 +131,14 @@ The protocol for IVT is adapted from the `NEB HiScribe protocol <https://www.neb
    
 5. Purify modRNA with `NEB Monarch RNA Cleanup Kit <https://www.neb.com/products/t2050-monarch-rna-cleanup-kit-500-ug#Protocols,%20Manuals%20&%20Usage>`_ following manual provided in kit. 60 µL elution with nuclease-free water should give ~800 ng/µL.
 
-6. Keep the purified modRNA on ice to perform quality control analysis. Nanodrop to determine concentration (for a 20 µL reaction, one should expect ~50 micrograms of RNA). 
+6. Keep the purified modRNA on ice to perform quality control analysis. Nanodrop to determine concentration (for a 20 µL reaction, one should expect ~50-60 micrograms of RNA). 
   
 7. Perform gel electrophoresis to confirm the full-length product was synthesized. Add nanodropped samples to a new PCR tube containing 8 µL of NEB 2X RNA Loading Dye (blue reagent), incubate at 90 C for 3 minutes, and immediately place on ice for 2 minutes. This is to denature RNA secondary structure so it can be resolved on a native agarose gel.
 
-8. In parallel, prep a `ssRNA ladder <https://www.neb.com/products/n0362-ssrna-ladder#Product%20Information>`_ to serve as a standard. 
+.. note:: 
+  You want >500 ng RNA to resolve on SYBR safe gel. You can put 8 µL NEB RNA loading dye / PCR-tube prior to nanodrop and then add the nanodrop sample directly to the loading dye.
+
+8. In parallel, prep a `ssRNA ladder <https://www.neb.com/products/n0362-ssrna-ladder#Product%20Information>`_ to serve as a standard. Use 2 µL ssRNA + 8 µL RNA loading dye. 
   
 9. Run your denatured RNA samples on a gel to confirm product size. 
 
