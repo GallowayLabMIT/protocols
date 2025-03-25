@@ -15,7 +15,7 @@ Prep plates (2 hours):
 ########################
 
 1. Coat plate with :ref:`gelatin <gelatin>`
-2. Coat plate with :ref:`laminin <laminin-reprogram>` - takes 2 hours!!
+2. Coat plate with :doc:`laminin <laminin_coating_reprogram.rst>` - takes 2 hours!!
 
 Sort and replate cells:
 ########################

@@ -26,15 +26,15 @@ iPSCs are cultured on plates with specific coatings, either extracellular matrix
 Often, a defined matrix is preferred to eliminate lot variability, but these reagents tend to be more expensive.
 While it is relatively easy to adapt a cell line to a new medium, it takes longer (2 passages) to adapt to a new coating.
 
-- `Geltrex <https://www.thermofisher.com/order/catalog/product/A1413301>`_: basement membrane derived from murine tumor cells; 50X stored at -20°C in 120 µL aliquots, enough each for one 6-well plate (see `GelTrex Aliquoting <_geltrex-aliquot>`_ for more information)
-- `Laminin-521 <https://www.stemcell.com/products/celladhere-laminin-521.html>`_: a defined culture matrix consisting of a single protein that is expressed in human blastocysts; aliquots are stored long-term at -20ºC, and a working aliquot is good at 4ºC for up to 3 months
+- `Geltrex <https://www.thermofisher.com/order/catalog/product/A1413301>`_: basement membrane derived from murine tumor cells; 50X stored at -20°C in 120 µL aliquots, enough each for one 6-well plate (see :ref:`Geltrex Aliquoting <_geltrex-aliquot>` for more information)
+- `Laminin-521 <https://www.stemcell.com/products/celladhere-laminin-521.html>`_: a defined culture matrix consisting of a single protein that is expressed in human blastocysts; 20X aliquots are stored long-term at -20ºC, and a working aliquot is good at 4ºC for up to 3 months
 
 **Dissociation Reagents**
 
-There are several dissociation reagents with different use cases:
+There are several dissociation reagents with different use cases. See the corresponding sections below for dissociation protocols.
 
 - `ReLeSR <https://www.stemcell.com/products/relesr.html>`_: non-enzymatic dissociation of cells in clumps (clump passaging is preferred for regular maintenance to reduce genomic instability); stored at room temperature
-- `Gentle Cell Dissociation Reagent (GCDR) <https://www.stemcell.com/products/gentle-cell-dissociation-reagent.html>`_: non-enzymatic dissociation to single cells; preferred over harsher, enzymatic treatments like Accutase; stored at room temperature
+- `Gentle Cell Dissociation Reagent <https://www.stemcell.com/products/gentle-cell-dissociation-reagent.html>`_ (GCDR): non-enzymatic dissociation to single cells; preferred over harsher, enzymatic treatments like Accutase; stored at room temperature
 - `Accutase <https://www.sigmaaldrich.com/US/en/product/sigma/a6964>`_: enzymatic dissociation to single cells; stored long-term at -20ºC, and working aliquots are stored at 4ºC
 
 **Survival-promoting small molecules**
@@ -44,8 +44,8 @@ These compounds should be removed after 24 hours by performing a media change.
 It is common to observe significant changes in cell morphology with these inhibitors; the cells should return to their typical form a few days after removal.
 There are several small-molecule formulations that work well:
 
-- `ROCK inhibitor <https://www.stemcell.com/products/y-27632.html>`_: Y-27632, a single chemical inhibitor of ROCK (Rho-associated, coiled-coil containing protein kinase) activity; 1000X aliquots are stored at -20°C, and a working aliquot is kept at 4ºC
-- `RevitaCell Supplement <https://www.thermofisher.com/order/catalog/product/A2644501>`_: a proprietary blend of a ROCK inhibitor and other antioxidant small molecules; 100X aliquots (*can also be used as a 200X solution*) are stored at -20°C, and a working aliquot is kept at 4ºC
+- `ROCK inhibitor <https://www.stemcell.com/products/y-27632.html>`_ (ROCKi, RI): Y-27632, a single chemical inhibitor of ROCK (Rho-associated, coiled-coil containing protein kinase) activity; 1000X aliquots are stored at -20°C, and a working aliquot is kept at 4ºC
+- `RevitaCell Supplement <https://www.thermofisher.com/order/catalog/product/A2644501>`_ (RC): a proprietary blend of a ROCK inhibitor and other antioxidant small molecules; 100X aliquots (*can also be used as a 200X solution*) are stored at -20°C, and a working aliquot is kept at 4ºC
 - `CloneR2 <https://www.stemcell.com/products/cloner2.html>`_: a defined supplement to promote survival, genomic integrity, and differentiation potential in high-stress culturing conditions like clonal expansion; 10X solution is stored long-term at -20ºC, and working aliquots are stored at 4ºC
 
 **Freezing solutions**
@@ -58,8 +58,26 @@ Like MEFs, iPSCs should be frozen in a solution of 10% DMSO and 90% serum or ser
 **Other Reagents**
 
 - DMEM/F12: for coating plates and spinning down cells, use bottle labeled "iPSC only"
-- PBS: normal phosphate buffered saline without calcium and magnesium (-/-) for washes; use autoclaved bottle labeled "iPSC only"
-- PBS +/+: phosphate buffered saline that includes calcium and magnesium ions; used for Laminin-521 coating; stored at 4ºC
+- DMEM/F12 + 1% FBS: for spinning down cells; the added protein helps the cells pellet well
+- PBS: normal phosphate buffered saline without calcium and magnesium (–/–) for washes; use autoclaved bottle labeled "iPSC only"
+- `PBS +/+  <https://www.thermofisher.com/order/catalog/product/14040117>`_: phosphate buffered saline that includes calcium and magnesium ions; used for Laminin-521 coating; stored at 4ºC
+- `Penicillin-streptomycin <https://www.fishersci.com/shop/products/gibco-penicillin-streptomycin-10-000-u-ml-3/15140122>`_ (Pen/Strep, P/S): optional antibiotic to reduce contamination; 100X stored at 4ºC
+
+
+
+General Culturing Tips
+----------------------
+
+- Change to fresh media *every other day* to keep the cells healthy. iPSCs are very metabolically active and can easily spontaneously differentiate, so if the media looks very yellow try refreshing with a larger volume.
+- If media cannot be changed in two days (e.g., over the weekend), use twice the normal media volume. This should keep the cells healthy for 3 days until the next media change (as long as they are not confluent).
+- Some amount of cell death is expected, but regular media changes should keep this to a minimum.
+- To maintain optimal cell health, be sure to passage cells before they are 100% confluent. Regular 1:10 passaging can usually be done every 3-4 days.
+- iPSCs grow in colonies with a cobblestone-like cell morphology. The edges of the colonies should be smooth, not spiky. However, morphology will change with ROCKi/RevitaCell, but should return to normal 1-2 days after removal. Each cell line has its own normal morphology; be aware of any changes.
+- Also look out for large spaces between cells or flat, more transparent cells growing away from a colony. These are signs of differentiation.
+- Be extra attentive with sterile technique (e.g., don fresh gloves before beginning, use separate glass pipette aspirators for different cell lines) to avoid contamination.
+
+.. note:: TODO: Add table for reagents usually used with iPS11, STRAIGHT-IN, etc. lines
+
 
 .. _geltrex-coating:
 
@@ -87,38 +105,67 @@ Geltrex coating plates
 
 5. Immediately before seeding cells, aspirate the liquid from the coated well(s). Leave the liquid on any unused wells; these can be aspirated and used at a later date.
 
+
+Laminin-521 coating plates
+---------------------------
+
+Materials
+
+- `CellAdhere Laminin-521  <https://www.stemcell.com/celladhere-laminin-521.html>`_ (20X; aliquots stored at -20ºC, working aliquot at 4ºC is good for 3 months)
+- `PBS +/+  <https://www.thermofisher.com/order/catalog/product/14040117>`_ (stored at 4ºC)
+
+.. important::
+	PBS +/+ is critical as divalent cations (Mg2+, Ca2+) are important for structure and function of laminin-521. Do not use normal, autoclaved PBS!
+
+Protocol
+
+1. If using a new aliquot from -20ºC, thaw laminin-521 at 4°C or on ice.
+2. Dilute laminin-521 in sterile PBS +/+ to a final concentration of 5 µg/mL (dilute 1:20). See the table below for helpful volumes.
+3. Incubate plates for ~2h at 37°C.
+4. If not using immediately, parafilm the plate and store at 4ºC for up to 4 weeks.
+
+
+===================   =========================================   ===========================   ===========================   ======================
+ **Culture plate**     **Surface area per well (cm\ :sup:`2`)**   **Total volume (µL/well)**     **Laminin-521 (µL/well)**     **PBS +/+ (µL/well)**
+===================   =========================================   ===========================   ===========================   ======================
+6-well                 9.4                                          1,000                          50                           950  
+12-well                3.8                                          500                            25                           475  
+24-well                1.9                                          300                            15                           285     
+48-well                0.76                                         150                            7.5                          142.5     
+96-well                0.32                                         70                             3.5                          66.5     
+===================   =========================================   ===========================   ===========================   ======================
+
+
 Thawing
 ---------
 
 .. time:: ~30 min
 
-1. Remove cryovial(s) of cells from liquid nitrogen and thaw quickly in the 37°C bead bath.
+Typically, cells dissociated in clumps are frozen such that 1 vial contains 1 well of a 6-well plate. Recovery is variable and depends on clump size, so 1 vial can be thawed into 1-6 wells of a 6-well plate. 
+Decide how many wells to use based on the size of the pellet. ROCKi can be added to improve recovery, but it is not strictly necessary.
 
-.. important:: Thaw cells quickly and spin down as soon as all ice is gone to limit the cells' exposure to DMSO.
+For cells dissociated as single cells, 1 vial usually contains 1 well of a 12-well or 24-well plate (this should be labeled on the vial). Recovery is quite high with ROCKi or RevitaCell, so it is recommended to thaw the vial into multiple wells.
+For instance, a vial containing 1 well from a 24-well plate could be thawed into two new wells of a 24-well plate, split 1/3 and 2/3 into each well. This helps ensure one of the wells will be ready to passage in 2-4 days (optimal).
 
-2. While cells are thawing, prewarm a coated plate and 2 mL media (e.g. mTeSR) per 6-well.
-3. As soon as cryovial is thawed, transfer to a 15 mL conical using a p1000
-4. Using a p1000, **SLOWLY** add 1 mL of DMEM/F12 to the conical dropwise, shaking the tube every 2-3 drops to evenly mix thawed cells with DMEM/F12. *Optionally*, pipet 1 mL of DMEM/F12 into the cryovial to remove any residual cells, then add dropwise to conical.
+1. Coat a plate with the appropriate coating. If using a pre-coated plate from the fridge, allow to warm in the incubator.
+2. Warm the appropriate volume of media (e.g., 2 mL/well for a 6-well plate) and, if using, DMEM + 1% FBS (5 mL per vial thawed).
+3. Remove cryovial(s) of cells from liquid nitrogen and thaw quickly (1-2 minutes) in the 37°C bead bath.
 
-.. important:: Slow addition of DMEM/F12 is important at the beginning to prevent osmotic shock to the iPSCs
+   .. important:: Thaw cells quickly and spin down as soon as all the ice is gone to limit the cells' exposure to DMSO.
 
-5. Using a serological pipet, **GENTLY** add 4 more mL of DMEM/F12 dropwise, mixing every 3-5 drops (total ~ 6 mL)
-6. Spin down cells at 40g for 4 min. If cells were not frozen in big enough clumps, they may not pellet at this low speed. In that case, you can try 400g, but cells frozen in these smaller clumps may not recover as well or you may need to add ROCKi.
-7. Aspirate the media and *gently* resuspend the cells in the culture medium (i.e. mTeSR) and plate. Typically, iPSCs are frozen such that 1 vial goes to 1 to 6 wells of a 6-well plate. Decide how many wells to use based on the size of the pellet.
-8. Within 24 hours (e.g., the next day), media change to fresh mTeSR. Then, culture as normal.
+4. As soon as cryovial is thawed, transfer the contents to a 15 mL conical using 5 mL serological pipette.
+5. Using a P1000 pipette, **SLOWLY** add 1 mL of DMEM/F12 (or warm DMEM/F12 + 1% FBS) to the conical dropwise, shaking the tube every 2-3 drops to evenly mix thawed cells with DMEM/F12. *Optionally*, pipet 1 mL of DMEM/F12 into the cryovial to remove any residual cells, then add dropwise to conical.
 
-General Culturing Tips
-----------------------
+   .. important:: Slow addition of DMEM/F12 is important to prevent osmotic shock to the iPSCs.
 
-- Always culture human iPSCs on Geltrex-coated plates (or other similar matrix coating).
-- Typically, all culturing is done in 6-well plates. Use at least 2 mL of media per well.
-- Change to fresh media *every other day* to keep the cells healthy. iPSCs are very metabolically active and can easily spontaneously differentiate, so if the media looks very yellow try refreshing with a larger volume (e.g., 3 mL).
-- Some amount of cell death is expected, but media changes every 24 hrs with enough fresh media should mitigate this.
-- mTeSR-PLUS says you can media change every other day with x2 volume for 3 days (weekend)
-- To maintain optimal cell health, be sure to passage cells before they are 100% confluent. Typically, healthy cells that are passaged 1:6 will need to be passaged again 2 days later.
-- Splits of 1:6 to 1:12 are recommended. Larger dilutions may impede growth if the cells are too sparse, and lower dilutions will require very frequent passaging.
-- iPSCs grow in colonies with a cobblestone-like cell morphology. The edges of the colonies should be smooth, not spiky.
-- Be extra attentive with sterile technique (i.e., don fresh gloves before beginning, use separate glass pipet aspirators for different cell lines) to avoid contamination.
+6. Using a serological pipette, **GENTLY** add 4 more mL of DMEM/F12 (or warm DMEM/F12 + 1% FBS) dropwise, mixing every 3-5 drops (total tube volume ~6 mL).
+7. Spin down cells at 40g (for clumps) or 400g (for single cells) for 4 minutes.
+   
+   .. note:: If clumps of cells do not pellet well at 40g, you can try 400g, but cells frozen in these smaller clumps may not recover as well without ROCKi.
+
+8. Aspirate the plate coating and the supernatant from the cell pellet. *Gently* resuspend the cells in the warm culture medium with ROCKi/RevitaCell (if using) and plate. 
+9. Within 24 hours (i.e., the next day), change to fresh media to remove dead cells and ROCKi/RevitaCell. Then, continue culturing as normal.
+
 
 Passaging with ReLeSR
 ---------------------
