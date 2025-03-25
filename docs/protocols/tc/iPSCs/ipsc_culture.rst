@@ -6,29 +6,60 @@ Reagents
 
 **Media**
 
-Human iPSCs can be cultured in a range of media; in this lab, we mainly use `mTeSR-Plus <https://www.stemcell.com/products/mtesr-plus.html#section-protocols-and-documentation>`_.
-The medium has two components: the basal medium and the 5X supplement. The supplement is stored at -20°C; the basal medium is stored at 4°C.
+Human iPSCs can be cultured in a range of media. All media come as two components: the basal medium and a 5X or 10X supplement. 
+The supplement is stored at -20°C; the basal medium is stored at 4°C.
 To make the  complete medium, add an entire bottle of supplement to the bottle of basal medium.
-The complete medium is stored at 4°C. The exact amount of medium needed should be aliquotted and warmed before use. 
+The complete medium is stored at 4°C (entire bottle) or at -20ºC (40 mL aliquots). Media should be warmed before adding to cells; be sure to warm only an aliquot.
 
 .. important:: 
-   Do not warm the entire bottle of mTeSR-Plus!
+   Do not warm the entire media bottle! Instead, aliquot what you will need and only warm that tube. As a bonus, this smaller volume will warm faster.
 
+Media we use:
+
+- `mTeSR-Plus <https://www.stemcell.com/products/mtesr-plus.html>`_: optimized for clump passaging, we mainly use with iPS11 cells
+- `eTeSR <https://www.stemcell.com/products/etesr.html>`_: a variant of mTeSR optimized for single-cell passaging
+- `StemFlex <https://www.thermofisher.com/order/catalog/product/A3349401>`_: good for single-cell passaging, used with STRAIGHT-IN cell lines
+
+**Coating**
+
+iPSCs are cultured on plates with specific coatings, either extracellular matrix typically derived from a cancer cell line or a defined, single polymer.
+Often, a defined matrix is preferred to eliminate lot variability, but these reagents tend to be more expensive.
+While it is relatively easy to adapt a cell line to a new medium, it takes longer (2 passages) to adapt to a new coating.
+
+- `Geltrex <https://www.thermofisher.com/order/catalog/product/A1413301>`_: basement membrane derived from murine tumor cells; 50X stored at -20°C in 120 µL aliquots, enough each for one 6-well plate (see `GelTrex Aliquoting <_geltrex-aliquot>`_ for more information)
+- `Laminin-521 <https://www.stemcell.com/products/celladhere-laminin-521.html>`_: a defined culture matrix consisting of a single protein that is expressed in human blastocysts; aliquots are stored long-term at -20ºC, and a working aliquot is good at 4ºC for up to 3 months
 
 **Dissociation Reagents**
 
-There are two main dissociation reagents we use:
+There are several dissociation reagents with different use cases:
 
-1. `ReLeSR <https://www.stemcell.com/products/relesr.html>`_: non-enzymatic dissociation of cells in clumps; better for regular passaging so as not to disturb the cells too much
-2. `Accutase <https://www.sigmaaldrich.com/US/en/product/sigma/a6964>`_: enzymatic dissociation to single cells; necessary for counting and seeding
+- `ReLeSR <https://www.stemcell.com/products/relesr.html>`_: non-enzymatic dissociation of cells in clumps (clump passaging is preferred for regular maintenance to reduce genomic instability); stored at room temperature
+- `Gentle Cell Dissociation Reagent (GCDR) <https://www.stemcell.com/products/gentle-cell-dissociation-reagent.html>`_: non-enzymatic dissociation to single cells; preferred over harsher, enzymatic treatments like Accutase; stored at room temperature
+- `Accutase <https://www.sigmaaldrich.com/US/en/product/sigma/a6964>`_: enzymatic dissociation to single cells; stored long-term at -20ºC, and working aliquots are stored at 4ºC
 
-**Other Reagents (Use bottles designated "iPSC Only")**
+**Survival-promoting small molecules**
 
-- `Geltrex <https://www.thermofisher.com/order/catalog/product/A1413301>`_: basement membrane for coating plates; 50X stored at -20°C in 120 µL aliquots, enough each for one 6-well plate (see `GelTrex Aliquoting <_geltrex-aliquot>`_ for more information)
-- `ROCK inhibitor <https://www.caymanchem.com/product/10005583>`_: Y-27632, a chemical inhibitor of ROCK activity used to prevent differentiation upon thawing and passaging; 1000X stored at -20°C
-- DMEM/F12 for coating plates and spinning down cells
-- PBS
-- FBS for freezing
+When thawing iPSCs or passaging them as single cells, it is necessary to add inhibitor(s) to prevent apoptosis and promote cell survival. 
+These compounds should be removed after 24 hours by performing a media change. 
+It is common to observe significant changes in cell morphology with these inhibitors; the cells should return to their typical form a few days after removal.
+There are several small-molecule formulations that work well:
+
+- `ROCK inhibitor <https://www.stemcell.com/products/y-27632.html>`_: Y-27632, a single chemical inhibitor of ROCK (Rho-associated, coiled-coil containing protein kinase) activity; 1000X aliquots are stored at -20°C, and a working aliquot is kept at 4ºC
+- `RevitaCell Supplement <https://www.thermofisher.com/order/catalog/product/A2644501>`_: a proprietary blend of a ROCK inhibitor and other antioxidant small molecules; 100X aliquots (*can also be used as a 200X solution*) are stored at -20°C, and a working aliquot is kept at 4ºC
+- `CloneR2 <https://www.stemcell.com/products/cloner2.html>`_: a defined supplement to promote survival, genomic integrity, and differentiation potential in high-stress culturing conditions like clonal expansion; 10X solution is stored long-term at -20ºC, and working aliquots are stored at 4ºC
+
+**Freezing solutions**
+
+Like MEFs, iPSCs should be frozen in a solution of 10% DMSO and 90% serum or serum equivalent. 
+
+- 10% DMSO + 90% FBS: use a 15 mL aliquot of FBS labeled "iPSC only"
+- 10% DMSO + 90% `KnockOut Serum Replacement <https://www.thermofisher.com/order/catalog/product/10828028>`_: a more defined, FBS-free serum equivalent with less lot variability
+
+**Other Reagents**
+
+- DMEM/F12: for coating plates and spinning down cells, use bottle labeled "iPSC only"
+- PBS: normal phosphate buffered saline without calcium and magnesium (-/-) for washes; use autoclaved bottle labeled "iPSC only"
+- PBS +/+: phosphate buffered saline that includes calcium and magnesium ions; used for Laminin-521 coating; stored at 4ºC
 
 .. _geltrex-coating:
 
