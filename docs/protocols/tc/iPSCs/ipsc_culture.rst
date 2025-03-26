@@ -81,6 +81,8 @@ General Culturing Tips
 - Also look out for large spaces between cells or flat, more transparent cells growing away from a colony. These are signs of differentiation.
 - Be extra attentive with sterile technique (e.g., don fresh gloves before beginning, use separate glass pipette aspirators for different cell lines) to avoid contamination.
 
+Common culturing conditions:
+
 ====================================== ================ ======================
 **Reagent / Step**                     iPS11             STRAIGHT-IN
 ====================================== ================ ======================
@@ -89,6 +91,9 @@ General Culturing Tips
  Dissociation for passaging/freezing   ReLeSR (clumps)   GCDR (single cells)
  Survival-promoting addition           ROCKi             RevitaCell
 ====================================== ================ ======================
+
+When maintaining iPSCs, it is often useful to keep 1-2 wells in a 6-well plate for iPS11 cells. That way, one well can be used to passage in clumps, while the other can be used to seed for an experiment (1 well is enough for a 96-well plate).
+For STRAIGHT-IN lines, maintaining ~1 well in a 24-well plate is usually sufficient, if experiments are performed at a smaller scale (only a few wells in a 24-well plate).
 
 
 .. _geltrex-coating:
@@ -142,16 +147,20 @@ Protocol
 4. If not using immediately, parafilm the plate and store at 4ºC for up to 4 weeks.
 5. Immediately before seeding cells, aspirate the liquid from the coated well(s) *using a P1000 pipette* (not the aspirator) to avoid dislodging the laminin-521.
 
-
-===================   =========================================   ===========================   ===========================   ======================
- **Culture plate**     **Surface area per well (cm\ :sup:`2`)**   **Total volume (µL/well)**     **Laminin-521 (µL/well)**     **PBS +/+ (µL/well)**
-===================   =========================================   ===========================   ===========================   ======================
-6-well                 9.4                                          1,000                          50                           950  
-12-well                3.8                                          500                            25                           475  
-24-well                1.9                                          300                            15                           285     
-48-well                0.76                                         150                            7.5                          142.5     
-96-well                0.32                                         70                             3.5                          66.5     
-===================   =========================================   ===========================   ===========================   ======================
++-------------------+----------------------------+-------------------+-------------------+-----------------+
+| **Culture plate** |  **Surface area per well** | **Total volume**  |  **Laminin-521**  |  **PBS +/+**    |
+|                   |  **(cm\ :sup:`2`\)**       | **(µL/well)**     |  **(µL/well)**    |  **(µL/well)**  |
++===================+============================+===================+===================+=================+
+| 6-well            |    9.4                     |   1,000           |  50               |     950         |
++-------------------+----------------------------+-------------------+-------------------+-----------------+
+| 12-well           |    3.8                     |     500           |  25               |     475         |
++-------------------+----------------------------+-------------------+-------------------+-----------------+
+| 24-well           |    1.9                     |     300           |  15               |     285         |
++-------------------+----------------------------+-------------------+-------------------+-----------------+
+| 48-well           |    0.76                    |     150           |  7.5              |     142.5       |
++-------------------+----------------------------+-------------------+-------------------+-----------------+
+| 96-well           |    0.32                    |      70           |  3.5              |     66.5        |
++-------------------+----------------------------+-------------------+-------------------+-----------------+
 
 
 Thawing
