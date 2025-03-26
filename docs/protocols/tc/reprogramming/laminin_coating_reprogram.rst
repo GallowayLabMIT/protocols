@@ -3,7 +3,7 @@ Laminin Coating
 
 Materials
 
-- 100x Laminin (1 mg/mL; stored -20°C)
+- 100x `Laminin <https://ecatalog.corning.com/life-sciences/b2c/US/en/Surfaces/Extracellular-Matrices-ECMs/Corning%C2%AE-Laminin/p/354232>`_  (1 mg/mL; stored -20°C)
 - PBS
 
 Protocol
