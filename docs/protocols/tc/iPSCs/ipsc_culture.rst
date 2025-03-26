@@ -26,7 +26,7 @@ iPSCs are cultured on plates with specific coatings, either extracellular matrix
 Often, a defined matrix is preferred to eliminate lot variability, but these reagents tend to be more expensive.
 While it is relatively easy to adapt a cell line to a new medium, it takes longer (2 passages) to adapt to a new coating.
 
-- `Geltrex <https://www.thermofisher.com/order/catalog/product/A1413301>`_: basement membrane derived from murine tumor cells; 50X stored at -20°C in 120 µL aliquots, enough each for one 6-well plate (see :ref:`Geltrex Aliquoting <_geltrex-aliquot>` for more information)
+- `Geltrex <https://www.thermofisher.com/order/catalog/product/A1413301>`_: basement membrane derived from murine tumor cells; 50X stored at -20°C in 120 µL aliquots, enough each for one 6-well plate (see :ref:`Geltrex Aliquoting <geltrex-aliquot>` for more information)
 - `Laminin-521 <https://www.stemcell.com/products/celladhere-laminin-521.html>`_: a defined culture matrix consisting of a single protein that is expressed in human blastocysts; 20X aliquots are stored long-term at -20ºC, and a working aliquot is good at 4ºC for up to 3 months
 
 See coating protocols below for :ref:`Geltrex <geltrex-coating>` and :ref:`laminin-521 <laminin-521-coating>`.
@@ -147,20 +147,20 @@ Protocol
 4. If not using immediately, parafilm the plate and store at 4ºC for up to 4 weeks.
 5. Immediately before seeding cells, aspirate the liquid from the coated well(s) *using a P1000 pipette* (not the aspirator) to avoid dislodging the laminin-521.
 
-+-------------------+----------------------------+-------------------+-------------------+-----------------+
-| **Culture plate** |  **Surface area per well** | **Total volume**  |  **Laminin-521**  |  **PBS +/+**    |
-|                   |  **(cm\ :sup:`2`\)**       | **(µL/well)**     |  **(µL/well)**    |  **(µL/well)**  |
-+===================+============================+===================+===================+=================+
-| 6-well            |    9.4                     |   1,000           |  50               |     950         |
-+-------------------+----------------------------+-------------------+-------------------+-----------------+
-| 12-well           |    3.8                     |     500           |  25               |     475         |
-+-------------------+----------------------------+-------------------+-------------------+-----------------+
-| 24-well           |    1.9                     |     300           |  15               |     285         |
-+-------------------+----------------------------+-------------------+-------------------+-----------------+
-| 48-well           |    0.76                    |     150           |  7.5              |     142.5       |
-+-------------------+----------------------------+-------------------+-------------------+-----------------+
-| 96-well           |    0.32                    |      70           |  3.5              |     66.5        |
-+-------------------+----------------------------+-------------------+-------------------+-----------------+
++---------------------+-----------------------------+--------------------+-------------------+-----------------+
+| | **Culture plate** | | **Surface area per well** | | **Total volume** | | **Laminin-521** | | **PBS +/+**   |
+| |                   | | (cm^2)                    | | (µL/well)        | | (µL/well)       | | (µL/well)     |
++=====================+=============================+====================+===================+=================+
+| 6-well              |    9.4                      |   1,000            |  50               |     950         |
++---------------------+-----------------------------+--------------------+-------------------+-----------------+
+| 12-well             |    3.8                      |     500            |  25               |     475         |
++---------------------+-----------------------------+--------------------+-------------------+-----------------+
+| 24-well             |    1.9                      |     300            |  15               |     285         |
++---------------------+-----------------------------+--------------------+-------------------+-----------------+
+| 48-well             |    0.76                     |     150            |  7.5              |     142.5       |
++---------------------+-----------------------------+--------------------+-------------------+-----------------+
+| 96-well             |    0.32                     |      70            |  3.5              |     66.5        |
++---------------------+-----------------------------+--------------------+-------------------+-----------------+
 
 
 Thawing
