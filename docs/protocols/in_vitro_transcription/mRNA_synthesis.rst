@@ -64,3 +64,88 @@ The protocol for IVT is adapted from the `NEB HiScribe protocol <https://www.neb
     synthesized modRNA in Nokk.
 
 .. note:: I have observed no reduction in product quality multiple months after storing. Although I have witnessed some sublimination which leads to more concentrated RNA samples.    
+
+
+
+
+MluI digestion for pKG3198 (polyA encoded on plasmid)
+==========================================================
+
+.. note:: 
+  You should get about 1 µg (100 ng/µL, 10 µL) of IVT template using this method which is good for 3 IVT reactions (each IVT gives ~50-60 µg so at 100ng/96-well, this should give modRNA for ~15-18 plates)
+
+1. Assemble
+
+================================= =================================================
+  Component                          Amount
+================================= =================================================
+ rSAP                                1 µL
+ MluI                                2 µL
+ 10X rCutSmart                       2.5 µL
+ Water                               19.5 - X µL  
+ Template (~1,000 ng)                X µL
+ Total                              25 µL
+================================= =================================================  
+
+2. Incubate at 37°C for 1 hour
+3. Use DNA cleanup kit and elute in 10 µL (should be ~100 ng/µL)
+
+IVT using MluI-digested pKG3198 (polyA encoded on plasmid)
+===========================================================
+
+The protocol for IVT is adapted from the `NEB HiScribe protocol <https://www.neb.com/protocols/2021/10/12/mrna-synthesis-protocol-with-modified-nucleotides-using-the-hiscribe-t7-mrna-kit-with-cleancap-reagent-agneb-e2080>`_.
+
+.. note:: 
+  Wear a blue lab coat and wipe down area and pipets before starting.
+  Use barrier tips when handling any of the reagents (nucleosides, buffers, enzymes).
+
+1. Thaw the necessary kit components, gently invert to mix, and microfuge to collect solutions to tube bottoms.
+
+.. note:: 
+  Thaw DTT, dNTPs, and CleanCap at room temp, then make a master mix of 7.8 µL per tube. Then add template, water, and enzymes separately.
+
+2. Assemble the IVT reaction at room temperature in the following order (total volume = 20 µL):
+
+================================= =================================================
+  Component                          Amount
+================================= =================================================
+ 10X T7 IVT rxn buffer              2 µL
+ DTT                                1 µL
+ GTP                                1 µL
+ CTP                                1 µL
+ ATP                                1 µL
+ m1Ψ (100 mM)                       1 µL 
+ CleanCap Reagent AG                0.8 µL 
+ Template (~300-400 ng)             X µL
+ Nuclease-free water                9.2 - X µL  
+ ECIPP                              1 µL
+ T7 RNAP mix                        2 µL
+ Total                              20 µL
+================================= =================================================  
+
+3. Gently mix reactions, microfuge, and incubate at 37°C in a thermoblock for 2-4 hours (longer incubation times recommended for transcripts >3 kb).
+
+.. note:: The reaction should be cloudy if successful. The ECIPP is a pyrophosphatase to counter pyrophosphates which will precipitate with magnesium and decrease IVT efficiency but even with the ECIPP, it will precipitate and look cloudy if successful.
+
+4. Optional: post IVT, you can treat you sample with DNase I if your application cannot tolerate residual amounts of DNA template. Add 30 µL nuclease-free water (to ~50 µL), add 2 µL DNase I, and incubate at 37°C for 30 min. 
+   
+5. Purify modRNA with `NEB Monarch RNA Cleanup Kit <https://www.neb.com/products/t2050-monarch-rna-cleanup-kit-500-ug#Protocols,%20Manuals%20&%20Usage>`_ following manual provided in kit. 60 µL elution with nuclease-free water should give ~800 ng/µL.
+
+6. Keep the purified modRNA on ice to perform quality control analysis. Nanodrop to determine concentration (for a 20 µL reaction, one should expect ~50-60 micrograms of RNA). 
+  
+7. Perform gel electrophoresis to confirm the full-length product was synthesized. Add nanodropped samples to a new PCR tube containing 8 µL of NEB 2X RNA Loading Dye (blue reagent), incubate at 90 C for 3 minutes, and immediately place on ice for 2 minutes. This is to denature RNA secondary structure so it can be resolved on a native agarose gel.
+
+.. note:: 
+  You want >500 ng RNA to resolve on SYBR safe gel. You can put 8 µL NEB RNA loading dye / PCR-tube prior to nanodrop and then add the nanodrop sample directly to the loading dye.
+
+8. In parallel, prep a `ssRNA ladder <https://www.neb.com/products/n0362-ssrna-ladder#Product%20Information>`_ to serve as a standard. Use 2 µL ssRNA + 8 µL RNA loading dye. 
+  
+9. Run your denatured RNA samples on a gel to confirm product size. 
+
+.. important:: 
+  Ethidium bromide does not stain ssRNA very well, prepare your gel using SYBR safe!
+
+10. Aliquot modRNA into single-use tubes (scale appropriately for your experiment) and store in -80 C. We have a box for
+    synthesized modRNA in Nokk. If ~2,400 ng aliquots, you'll have ~20 aliquots.
+
+.. note:: I have observed no reduction in product quality multiple months after storing. Although I have witnessed some sublimination which leads to more concentrated RNA samples.  

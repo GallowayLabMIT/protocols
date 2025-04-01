@@ -50,7 +50,7 @@ Scalpels             Pen/Strep
 8. Before moving into the hood, try to remove any last bits of muscle that were loosened up with the PBS soak.
 
 Bone Isolation with Images
-==========================
+--------------------------
 
 .. image:: img/BMDMs_isolation.png
     :width: 80%
@@ -156,12 +156,11 @@ MCSF1                  1-50 ng/mL
     At 7-days into the differentiation, all BMDMs should be adherent to the plate. Cells that are floating are either masses of dead cells or undifferentiated cells.
 
 Dissociation Methods
-====================
+--------------------
 
 Seeding cells that need to be dissociated on un-treated plates is highly recommended. Dissociation protocols differ greatly between different papers and labs.
 
-Option #1: Trypsin
-------------------
+**Option #1: Trypsin**
 
 1. Add a 1:1 dilution of trypsin in PBS to the cells
 2. Allow cells to incubate for 8-10 minutes until there are visible cells lifting off the plates
@@ -174,8 +173,7 @@ Option #1: Trypsin
 4. Spin down the cells for 5 mins at 1600 g
 5. Aspirate off the media and seed cells for downstream experiments.
 
-Option #2: Scraping
--------------------
+**Option #2: Scraping**
 
 1. Use a cell scraper to gently scrape the bottom of the plate for 2-5 minutes.
 
@@ -189,7 +187,7 @@ Option #2: Scraping
 5. Aspirate off the media and seed cells for downstream experiments
 
 Freezing BMDMs
-==============
+--------------
 
 BMDMs and bone marrow cells can be frozen down for later use. Freezing media should be used to freeze down both cell types. A mixture of 90% FBS and 10% DMSO is preferred.
 
