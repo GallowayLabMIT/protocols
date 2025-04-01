@@ -218,12 +218,16 @@ DMEM + 10% FBS                  main Component                  48.75 mL        
 Sterile 1M HEPES                25 mM                           1.25 mL         14.10 mL
 ==============================  =============================== ============== ==============
 
+.. _iPSCmedia:
+
 iPSC Reprogramming Media
 ------------------------
 
 Used for reprogramming fibroblasts to iPSCs.
 
-Last updated: 2025-01-31
+Last updated: 2025-04-01
+
+From: Hoetker, Michael S., et al. "H3K36 methylation maintains cell identity by regulating opposing lineage programmes." Nature cell biology 25.8 (2023): 1121-1134.
 
 * Total Volume: **50 mL**
 
@@ -237,8 +241,10 @@ MEM/NEAA                                1%           500 uL
 Leukemia inhibitory factor (LIF)   1000x stock        50 uL
 β-mercaptoethanol                  1000x stock        50 uL
 ================================== ============ ===============
+
 .. note:: 
   β-mercaptoethanol is not stable in dilute solution, so add fresh to an aliquot of media right before each media change.
+  As of 2025-03-24, LIF is also aliquotted fresh from -20°C (do not refreeze).
 
 **50 mM β-mercaptoethanol stock solution**
 
@@ -250,3 +256,4 @@ Component                           Concentration      Volume
 Starting stock                        14.3 M             4.2 uL
 PBS                                      1x           1195.8 uL
 ================================== ============== ===============
+
