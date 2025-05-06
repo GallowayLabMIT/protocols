@@ -90,12 +90,12 @@ Fetal Bovine Serum (FBS) Aliquots (50 mL)
 3. Make 12 mL aliquots with any leftover for :ref:`80% FBS/20% DMSO freezing media <freezingmedia>` (just add 3 mL DMSO)
 
 .. note::
-    This is now a lab job. As of 3/15/23, notify Nat if more aliquots need to be made.
+    This is now a lab job. As of 5/6/2025, notify Sneha if more aliquots need to be made.
 
 .. important::
     As of 3/15/23, we will ask Brad from Genesee to set aside an FBS lot and send us a sample size. Bulk ordering saves us $170/bottle (~$6k over year) and
     helps reduce lot-to-lot variability. Test old and new FBS in :ref:`reprogramming <platEreprogram>`.
-    Use the sample FBS to defrost the MEFs, make the Plat-E virus, and do the infection until 4 dpi. Assess 14 dpi reprogramming between the two lots.
+    Use the sample FBS to defrost the MEFs, make the Plat-E virus, and the infection until 4 dpi. From 4 to 14 dpi, use N3 + supplements as normal. Assess 14 dpi reprogramming between the two lots. You should compare NIL (or LNI) +/- DDRR.
     You will have to :ref:`heat inactivate <FBSheatinact>` the sample FBS as they do not heat inactivate small 50 mL FBS lot samples.
     **You should freeze it at -20°C to match number of freeze-thaw cycles as the currrent FBS.** An example of results
 
