@@ -19,3 +19,7 @@ Protocol
 Expected results
 ================
 An efficent reaction will produce > 5000 colonies, if the entire volume is transformed and plated.
+
+
+.. warning:: LR clonase does expire and you'll get weird fragments or the unreacted backbone. Make sure to pay attention to the expiration date (~1 year)
+
