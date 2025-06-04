@@ -21,7 +21,7 @@ Dissolve and Aliquot PEI
 3. While stirring, slowly add HCl to dissolve the PEI and achieve a final pH of 7.0.
 
    - PEI will not dissolve well in a basic solution, so slowly add acid to facilitate this process.
-   - Add acid a few drops at a time to not overshoot. Total acid required is ~1 mL of 2.5M HCl.
+   - Add acid a few drops at a time to not overshoot. For a 500 mL batch of PEI (made 5/29/25), MC used ~800 uL of 4 N HCl.
    - After each addition, wait several minutes for the solution to stabilize. After pH 7.0 is reached, wait an extra 10 min to ensure the pH has not drifted.
 
 4. In a BSC, filter sterilize the PEI solution through a 0.22 µm filter (the 500 mL ones are appropriate).
