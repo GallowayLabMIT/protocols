@@ -113,7 +113,7 @@ Day 17 (7 days post infection):
 2. If assaying reprogramming rates, re-seed cells on this day.
    
    1. Gelatin coat a new 96-well plate as usual.
-   2. Aspirate the gelatin and coat the plate with laminin (described :doc:`here <laminin_coating_reprogram.rst>`).
+   2. Aspirate the gelatin and coat the plate with laminin (described :doc:`here <laminin_coating_reprogram>`).
    3. Dissociate 7dpi cells with 3x diluted trypsin.
    4. Quench with 200 uL HDF media.
    5. Aspirate laminin and transfer dissociated cells to laminin coated plate.

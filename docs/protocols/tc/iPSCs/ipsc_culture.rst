@@ -131,6 +131,9 @@ Wells with Geltrex + additional DMEM/F12 should still be good as long as the liq
 Coating plates with Laminin-521
 -------------------------------
 
+.. important:: 
+   This protocol uses **human laminin-521** for iPSC culture. This is different from the **Corning mouse laminin** used for human reprogramming (that protocol is :ref:`here <laminin_reprogramming>`).
+
 Materials
 
 - `CellAdhere Laminin-521  <https://www.stemcell.com/celladhere-laminin-521.html>`_ (20X; aliquots stored at -20ºC, working aliquot at 4ºC is good for 3 months)

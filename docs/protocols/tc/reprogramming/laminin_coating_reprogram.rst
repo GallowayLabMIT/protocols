@@ -1,13 +1,18 @@
-Laminin Coating
----------------
+.. _laminin_reprogramming:
+
+Laminin coating for human reprogramming
+---------------------------------------
+
+.. important:: 
+    This protocol is for **Corning mouse laminin**, which we use for human reprogramming. This is different from **human laminin-521**, which we use for iPSC culturing (that protocol is :ref:`here <laminin-521-coating>`). 
 
 Materials
 
-- 100x `Laminin <https://ecatalog.corning.com/life-sciences/b2c/US/en/Surfaces/Extracellular-Matrices-ECMs/Corning%C2%AE-Laminin/p/354232>`_  (1 mg/mL; stored -20°C)
+- 100x `mouse laminin <https://ecatalog.corning.com/life-sciences/b2c/US/en/Surfaces/Extracellular-Matrices-ECMs/Corning%C2%AE-Laminin/p/354232>`_  (Corning, 1 mg/mL; stored -20°C)
 - PBS
 
 Protocol
 
-1. Add laminin to PBS.
+1. Add laminin to PBS, diluting 1:100.
 2. Add 2 mL laminin-PBS to each well in a 6-well plate. For a 96-well plate, use 67 µL per well.
-3. Allow wells to set for 2-4 hours at 37ºC before removing excess liquid and plating cells.
+3. Allow wells to set for 1 hour at 37ºC before removing excess liquid and plating cells.
