@@ -20,7 +20,7 @@ Gel electrophoresis can also be used to select and purify DNA fragments by size.
         Since you will be running a larger volume, you should use the gel comb that creates larger wells (6 wells in a row for the small gels).
         Also, be careful to adequately fill the mold so that the well is deep enough.
 
-2. After the gel is finished running, use the imager to identify the desired band on the gel. Using a razor blade, cut out a 
+2. After the gel is finished running, use the UV imager to identify the desired band on the gel. Using a razor blade, cut out a 
    fragment of gel containing your product. Do your best to cut the **smallest** gel fragment that includes your product. 
 
    .. important:: 
@@ -28,16 +28,19 @@ Gel electrophoresis can also be used to select and purify DNA fragments by size.
 
 3. Place the gel fragment into an eppendorf tube.
 4. Weigh the fragment (tare the scale on an empty tube first) and record the weight in mg.
-5. Add gel dissolving buffer to the tube. Use a 4:1 ratio of buffer in µL to gel fragment in mg (e.g., add 200 µL buffer to a 50 mg gel fragment). 
+5. Add gel dissolving buffer to the tube. Use a 4:1 ratio of buffer in µL to gel fragment in mg (e.g., add 200 µL buffer for a 50 mg gel fragment). 
 
     .. tip:: 
-        Don't use more than ~400 µL gel dissolving buffer. Larger volumes will introduce more contaminants into your final product.
+        Don't use more than ~400 µL gel dissolving buffer. Larger volumes will introduce more contaminants into your final product. 
+        In many cases, using a standard 250 µL of gel dissolving buffer works well, assuming a reasonably sized gel fragment.
 
-6. Incubate in a water bath at 56ºC for ~10 minutes, or until the gel looks dissolved.
-7. Follow the steps in the NEB Monarch PCR DNA Cleanup Kit to purify DNA from this solution. 
+6. Incubate in the water bath at 56ºC for ~10 minutes, or until the gel looks dissolved.
+7. Follow the steps in the `NEB Monarch PCR DNA Cleanup Kit <https://www.neb.com/en-us/protocols/2024/07/16/standard-cleanup-protocol-using-the-monarch-spin-pcr-and-dna-cleanup-kit-and-centrifugation>`_
+   to purify DNA from this solution. 
 
    - In the first step, you do NOT need to add binding buffer; you can directly load the solution into the spin column.
-   - Perform **4 washes** instead of the two listed in the protocol. This will help improve the purity of the final product.
+   - Perform **4 washes** instead of the two listed in the protoco, followed by a dry spin. This will help improve the purity of the final product.
    - In the final step, elute into ~15 µL of pre-warmed Elga water.
 
-8. To confirm effective purification, measure concentration of the final product on the Nanodrop. Concentrations below ~25 ng/µL are unreliable and indicate poor purification.
+8. To confirm effective purification, measure the concentration of the final product on the Nanodrop.
+   Concentrations below ~25 ng/µL are unreliable and indicate poor purification, but may still be used in downstream reactions at lower efficiency.
