@@ -90,7 +90,7 @@ Here are some common things to check for.
 As an example, this is what the same cells look like with black balance on.
 While it helps clarify which cells are mRuby2+, it can also be misleading.
 
-.. image:: img/image-settings-blackbalance.PNG
+.. image:: img/image-settings-blackbalance.png
     :width: 100%
     :align: center
 
