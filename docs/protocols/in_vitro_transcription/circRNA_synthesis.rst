@@ -8,7 +8,7 @@ This procedure outlines circRNA synthesis based on `Engineering circular RNA for
 Generating IVT linear DNA template from plasmid
 ==================================================================
 
-Our IVT platform relies on PCR amplification using a universal primer pair and a plasmid harboring the CDS of interest as template to generate the IVT template. The forward and reverse primers bind to the 5' and 3' beta globin UTR, respectively.  The forward and reverse primers also encode the T7 polymerase promoter and the polyA tail, respectively. 
+Our IVT platform relies on PCR amplification using a universal primer pair and a plasmid harboring the CDS of interest as template to generate the IVT template. The forward and reverse primers bind to the T7 promoter and terminator, respectively. They also contain a polyA tail to promote non-circularized RNA degradation by RNase R. 
 
 .. note:: Alternatively, one could encode these elements on the plasmid and generate IVT template via restriction digestion. Although obviating the need for PCR and using an expensive oligo, the downside of this method is variable polyA tail length due to truncation of long repeat A sequences in E. coli. `There is a report of reducing these recombination events, <10.1261/rna.069286.118>`_ if someone is feeling ambitious and would like to build/test this :) 
 
@@ -28,6 +28,9 @@ Our IVT platform relies on PCR amplification using a universal primer pair and a
     circRNA_fwd: 5' AAAAAAAAAAAAAAAAAAAAAAAAAAAGGCCAGTGAATTGTAATACGACTCACTATAGGG 3'
     circRNA_rev: 5' TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTCAAAAAACCCCTCAAGACCCGTTTAGAGGC 3'
 
+.. note:: 
+    For certain sequences, Nat found that Q5 with GC enhancer and a 2-step anneal temperature (5 cycles at 70°C, 25 cycles at 72°C) worked better.
+
 1. Perform 2-step PCR, adjust extension time based on length of linear template. 98°C for 10s, 68°C for X s, x35 cycles.
    
 2. Gel extract PCR product
@@ -35,6 +38,9 @@ Our IVT platform relies on PCR amplification using a universal primer pair and a
 .. note:: This template can now serve as a "master" PCR template for future PCR amplifications. This is advantageous for tricky PCR amplicons and essential for those that contain internal primer binding sites (such as pKG02007, which harbors Cas9), as the annealing temperature can be increased due to the lengthened primer/template homology.
 
 3. Perform the PCR outlined in step 1, substituting the Plasmid Template DNA with the PCR-generated linear template DNA. Scale-up accordingly to generate the amount of linear IVT template needed for your IVT reaction. Store unused linear PCR template in the IVT box and use as needed.  
+
+.. important:: 
+    Nat found that a good clean band (no smearing) is important for efficient circRNA IVT
 
 
 IVT reaction for circRNA
@@ -44,9 +50,6 @@ The protocol for IVT is adapted from the `NEB HiScribe protocol <https://www.neb
 1. Thaw the necessary kit components on ice and microfuge to collect solutions to tube bottoms.
 2. Assemble the IVT reaction at room temperature in the following order (total volume = 20 µL):
 
-.. warning:: 
-  This needs to be updated (8/22/2025 - NBW)
-
 .. note:: 
   Wear a blue lab coat and wipe down area and pipets before starting.
   Use barrier tips when handling any of the reagents (nucleosides, buffers, enzymes).
@@ -54,7 +57,7 @@ The protocol for IVT is adapted from the `NEB HiScribe protocol <https://www.neb
 1. Thaw the necessary kit components, gently invert to mix, and microfuge to collect solutions to tube bottoms.
 
 .. note:: 
-  Thaw reaction buffer, DTT, and dNTPs, and CleanCap at room temp, then make a master mix of 11 µL per tube. Then add template, water, and enzymes separately.
+  Thaw reaction buffer, DTT, and dNTPs at room temp, then make a master mix of 11 µL per tube. Then add template, water, and enzymes separately.
 
 2. Assemble the IVT reaction at room temperature in the following order (total volume = 20 µL):
 
@@ -62,13 +65,13 @@ The protocol for IVT is adapted from the `NEB HiScribe protocol <https://www.neb
   Component                          Amount
 ================================= =================================================
  10X T7 IVT rxn buffer              2 µL
- ATP (100 mM)                       1 µL
- GTP (100 mM)                       1 µL
- UTP (100 mM)                       1 µL
- CTP (100 mM)                       1 µL
+ ATP (100 mM)                       2 µL
+ GTP (100 mM)                       2 µL
+ UTP (100 mM)                       2 µL
+ CTP (100 mM)                       2 µL
  DTT (0.1 M)                        1 µL
  Template (~1 µg)                   X µL
- Nuclease-free water                10 - X µL  
+ Nuclease-free water                6 - X µL  
  ECIPP                              1 µL
  T7 RNAP mix                        2 µL
  Total                              20 µL
