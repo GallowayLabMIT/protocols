@@ -84,7 +84,7 @@ The protocol for IVT is adapted from the `NEB HiScribe protocol <https://www.neb
 2. Add 30 µL nuclease-free water (to ~50 µL), add 2 µL DNase I, and incubate at 37°C for 30 min. 
    
 3. Purify circRNA with `NEB Monarch Spin RNA Cleanup Kit <https://www.neb.com/en-us/protocols/2025/01/10/monarch-spin-rna-cleanup-kit-protocol>`_ following manual
-   provided in kit. 60 µL elution with nuclease-free water should give ~1,500 ng/µL.
+   provided in kit. 50 µL elution with nuclease-free water should give >1,500 ng/µL.
 
 4. Keep the purified circRNA on ice and Nanodrop to determine concentration (for a 20 µL reaction, one should expect ~90-100 micrograms of RNA). 
   
@@ -92,18 +92,18 @@ The protocol for IVT is adapted from the `NEB HiScribe protocol <https://www.neb
    If circRNA is ~1,500 ng/µL, 13 µL should be about 20 µg circRNA.
 
 
-================================= =================================================
-  Component                          Amount
-================================= =================================================
- 10X RNase R rxn buffer             2 µL
- circRNA (20 µg)                    X µL (~13-15ish)
- RNaseR (20 U/µL)                   1 µL
- Nuclease-free water                17 - X µL  
- Total                              20 µL
-================================= =================================================  
+================================= =========================== ========================
+  Component                          Amount                    Amount if < 1.2µg/µL
+================================= =========================== ========================
+ 10X RNase R rxn buffer             2 µL                       3 µL
+ circRNA (20 µg)                    X µL (~15ish)              Y µL (~20ish)
+ RNaseR (20 U/µL)                   1 µL                       1 µL
+ Nuclease-free water                17 - X µL                  26-Y  
+ Total                              20 µL                      30 µL
+================================= =========================== ========================
 
 
-6. Repeat step 3 to clean up RNA and elute in 60 µL nuclease-free water 
+6. Repeat step 3 to clean up RNA and elute in 50 µL nuclease-free water 
   
 7. QC by sumitting samples to `BMC AATI Fragment Analyzer <https://bmcwiki.mit.edu/index.php/BioMicroCenter:Advanced_analytical_Fragment_analyzer>`_. 
    It's $15/sample for 5 µL and the Nano kit can handle 5 to 500 ng/µl (25 to 2500 ng) or Pico RNA 0.05 to 5 ng/µl (0.25 to 25 ng).
