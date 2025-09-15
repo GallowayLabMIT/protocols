@@ -5,7 +5,7 @@ DNase (2X) and papain (2X)
 DNase and papain from 2X
 =============================
 
-This is based off of `Worthington Papain Dissociation System <https://www.worthington-biochem.com/products/papain-dissociation-system`_ to achieve a final ** 20 U papain/mL + 2,000 U DNase I/mL solution with 0.5mM EDTA and 1mM L-cysteine**. 
+This is based off of `Worthington Papain Dissociation System <https://www.worthington-biochem.com/products/papain-dissociation-system>`_ to achieve a final ** 20 U papain/mL + 2,000 U DNase I/mL solution with 0.5mM EDTA and 1mM L-cysteine**. 
 
 Add equal volumes 2X DNase and papain from the -80°C. e.g. 1 mL DNase (2X) + 1 mL papain (2x).
 
@@ -40,7 +40,7 @@ Papain (2X: 1mM EDTA, 2mM L-cysteine, 40 U papain/mL)
 .. note:
   We add all the L-cysteine and EDTA into the 2X papain (DNase will only be dissolved in DMEM/F12) so we make a stock 2X papain solution that is ** 1mM EDTA, 2mM L-cysteine, 40 U papain/mL ** to achieve a final concentration of 0.5mM EDTA, 1mM L-cysteine, 20 U papain/mL.
 
-To make a 50 mL solution of 2X papain from `Papain 100 mg <https://www.fishersci.com/shop/products/papain-i-carica-papaya-i-latex-2/AAJ61875MC`_:
+To make a 50 mL solution of 2X papain from `Papain 100 mg <https://www.fishersci.com/shop/products/papain-i-carica-papaya-i-latex-2/AAJ61875MC>`_:
 
 =============================== ================ ===============
  Component                       Final conc       Volume
@@ -59,6 +59,6 @@ Sterilize with 0.22 µM filter and store aliquots at -80°C. :ref:`EDTA (0.5M, p
 DNase (2X: 4,000 U/mL solution)
 ==================================
 
-To make a 2X solution from `DNase I (100 mg, 2000 units/mg) <hhttps://www.stemcell.com/products/dnase-i.html`_.
+To make a 2X solution from `DNase I (100 mg, 2000 units/mg) <hhttps://www.stemcell.com/products/dnase-i.html>`_.
 
 Add 50 mL DMEM/F12 to a 100 mg bottle, sterilize with 0.22 µM filter and store aliquots at -80°C.
