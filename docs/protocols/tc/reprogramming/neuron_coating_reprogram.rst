@@ -1,3 +1,14 @@
+Specialized coatings for neurons
+---------------------------------------
+
+To improve adhesion of neurons, it is not uncommon to use 2 coatings. Usually coating options are:
+
+- **Primary coating:** Positively charged polymers: PEI, PLO
+- **Secondary coating:** ECM proteins: Gelatin, mLaminin, hLaminin
+
+For positively charged polymers, they are often dissolved in borate buffer (pH approx 8.5) to improve adsoprtion onto cell culture surface.
+
+
 1X Borate Buffer for TC
 ---------------------------------------
 
@@ -5,7 +16,7 @@ Materials
 
 - `Pierce™ Concentrated Borate Buffer Stock (20X) <https://www.thermofisher.com/order/catalog/product/28341>`_  (ThermoFisher, 20X; stored RT near TAE)
 
-Protocol
+Protocol to make 1X sodium borate buffer (50 mM borate at pH 8.8)
 
 1. Add 19 mL ELGA-water for every 1 mL 20X Borate
 2. Sterile filter with 0.22µm filter
