@@ -72,12 +72,12 @@ Indole-3-acetamide (Auxin precursor, IAM)
 
 .. _rimiducid_stock:
 
-1 mM or 10 µM AP1903/Rimiducid (100kx or 1kx stock - current NBW)
+1 mM or 100 µM AP1903/Rimiducid (100kx or 10kx stock - current NBW)
 ------------------------------------------------------------------
 1. Dissolve 5 mg bottle of AP1903 in 3.542 mL DMSO.
 2. Sterilize with 0.22 µm filter.
 3. Separate into roughly 7 x 500 µL 100kx aliquots and store at -20°C.
-4. Further dilute each 500 µL 100kx aliquot into 1kx by adding 50 µL 100kx to 4.950 mL DMSO and separate into roughly 10 x 500 µL 1kx aliquots and store at -20°C.
+4. Further dilute each 500 µL 100kx aliquot into 1kx by adding 4.5 mL DMSO and separate into roughly 10 x 500 µL 10kx aliquots and store at -20°C.
 
 Based on working conc. of 10 nM to activate iCasp9 (`Mammalian Genomic Manipulation with Orthogonal Bxb1 DNA Recombinase Sites for the Functional Characterization of Protein Variants, 2023 <http://pubs.acs.org/doi/10.1021/acssynbio.3c00355>`_)
 
