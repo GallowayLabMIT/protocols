@@ -28,10 +28,6 @@ class StaleTransform(docutils.transforms.Transform):
             self.document.reporter.warning(f'Unable to parse local path of document {source}')
             return
         
-        if str(source_relpath) not in self.document.settings.env.git_last_updated:
-            # Skip this file; it doesn't have a git date
-            return
-        
         if 'git_from_last_updated' not in dir(self.document.settings.env):
             return
         if str(source_relpath) not in self.document.settings.env.git_from_last_updated:
