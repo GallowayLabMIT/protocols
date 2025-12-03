@@ -151,7 +151,7 @@ You can access the web interface at https://smithsonian.mit.edu. You will see a 
 
 The "Direct login" option is only used for special accounts that are not attached to a person, namely,
 the administrator account and the account that the lab computers use. Both of these account details are
-in the password database and are accessed as described in :doc:`the tech documentation </tech/tech/nas_data_storage>`.
+in the password database and are accessed as described in :doc:`the tech documentation </tech/nas_data_storage>`.
 
 To login, use the MIT Touchstone option, which will redirect you through Touchstone and eventually land you on the files page:
 
