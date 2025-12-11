@@ -31,14 +31,14 @@ Animal Facility
 
 
 Mouse Colony Manager Lab Job
-------------------------------
+==============================
 
 A lab job is to manage our mouse colony. Responsibilities include:
 
    * Completing annual CAC renewal (or 3 year renewal)
    * Submitting amendments for new mouse strains or protocols
    * Ordering new mouse strains
-   * Setting up timed matings with our vet technician Yinghui Ning (yhning@mit.edu)
+   * Setting up timed matings with our vet tech Yinghui Ning (yhning@mit.edu)
    * Attending monthly DCM meetings (usually the first Tuesday of each month)
   
 
@@ -63,21 +63,47 @@ After filling out this summary, you will need to fill out the follow sections.
 
 For Personnel or Administrative Amendments:
 
-   * Additional Forms: answer all questions marked under an incomplete incubation
+   * Additional Forms: answer all questions marked under an incomplete icon
    * General: change personnel information or points of contact
    * Certification: completed by the PI before the amendment can be submitted
 
 
 For Animal or Protocol Amendments:
 
-   * Additional Forms: answer all questions marked under an incomplete incubation. Include animal justification here if adding a new strain.
+   * Additional Forms: answer all questions marked under an incomplete icon. Include animal justification here if adding a new strain.
    * Animals & Procedures:
   
-     * Procedures: If requesting to make a new strain (or purchasing a cryopreserved embryo), include a "Transgenic/KO Animal Production" 
+     * Procedures: If requesting to make a new strain (or purchasing a cryopreserved embryo), include a "Transgenic/KO Animal Production" form
      * Animal Groups: Add new strain to respective mouse groups (usually groups B and C)
      * Animal Justification: A written justification for new strain and number of animals expected in each group per protocol year
      * Certification: completed by the PI before the amendment can be submitted
 
 After completing all required sections, you can submit the amendment by clicking Actions >> Submit Amendment
 
-For more general information, the CAC provides a small online course on how to submit certain `amendments(https://cac.mit.edu/cac-connect/cac-connect-guidance)`.
+For more general information, the CAC provides a small online course on how to submit certain `amendments<https://cac.mit.edu/cac-connect/cac-connect-guidance>`_.
+
+
+Ordering a new mouse strain
+============================
+
+To order new mouse strains, an amendment needs to be added to the CAC protocol and approved. Once approval has been granted
+you can proceed with ordering. If ordering from an approved DCM vendor (i.e. Jackson Labs, Charles River, Taconic), email animalrequest@mit.edu. 
+For atypical vendors (i.e. MMRRC), these are covered by animal-import-export@mit.edu. They will send you a form that requires you to fill out some standard information:
+
+   * PI name: Kate E. Galloway
+   * Department: Chemical Engineer
+   * Contact person & email (current mouse manager)
+   * Building/Room: 66-219
+   * Protocol Title: Optimizing reprogramming efficiency by tailoring transgene expression
+   * CAC Protocol Number: 2305000528
+   * Campus housing location: 68N
+
+The form will also require information about the strain, vendor, expected pain category, age, and sex of the mice. When ordering both male and female mice, they require separate ordering forms.
+
+
+Recovering cryopreserved embryos
+================================
+
+Certain mouse strains are only available for purchase a cryopreserved embryos. While companies do offer the service to rederive the strain in house, it is usually expensive.
+DCM offers assisted reproductive services where they can implant cryopreserved embryos. You must fill out a `form<https://comp-med.mit.edu/form/webform-707>`_ to request the services.
+The cost is currently around $300.
