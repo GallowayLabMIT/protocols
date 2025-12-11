@@ -10,10 +10,10 @@ Line summary
 V4 Rogi2 dual LP single site integrase line:
 
 =========       ===============      ================      ===============================              ===============================
-locus            pHA for cargo        recombinase       positive selection (gene, drug)              counterselection (gene, drug)
+locus            pHA for cargo        recombinase          positive selection (gene, drug)               counterselection (gene, drug)
 
 =========       ===============      ================      ===============================              ===============================
-Rogi2 LP            pKG03560          Bxb1 or eeBxb1             PuroR, Puromycin                       HSV-TK SR39h, GCV or PCV
+Rogi2 LP            pKG03560          Bxb1 or eeBxb1             PuroR, Puromycin                           HSV-TK SR39h, GCV or PCV
 =========       ===============      ================      ===============================              ===============================
 
 .. note::
