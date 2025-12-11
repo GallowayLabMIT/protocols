@@ -315,7 +315,10 @@ Diagnostic PCR can be performed to validate the presence of your transgene (rand
 Rogi1 and Rogi2 LPs
 ===================
 
-We currently have monoclones for v2 and v3. The table below highlights the key attributes of each LP architecture:
+We currently have monoclones for v2, v3, and v4. The table below highlights the key attributes of v2 and v3 LP architectures.
+
+.. note::
+    The Rogi2 v4 is our current version. Please see the page on `Rogi1 and Rogi2 Landing Pads <rogi1_and_rogi2_lps.html>`_ for more information on the v4 LP designs.
 
 
 V2 Rogi1/Rogi2 dual LP RMCE line:

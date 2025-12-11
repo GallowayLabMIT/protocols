@@ -166,12 +166,11 @@ Sync client
 ~~~~~~~~~~~
 To setup the local sync client, you need to download the Nextcloud client software and point it at Smithsonian.
 
+.. important::
+
+  On MacOS, you **NEED** to click the dropdown on the download page and select the **"Virtual Files"** version of the Nextcloud app. Otherwise it will download everything.
+
 1. Download the appropriate version of the Nextcloud Files app for your computer from the `Nextcloud site <https://nextcloud.com/install/>`__.
-
-.. note::
-
-  On MacOS, you should click the dropdown on the download page and select the "Virtual Files" version of the Nextcloud app.
-
 2. Install the software.
 3. Launch the software. It will ask you what server to connect to. Type in ``smithsonian.mit.edu``
 4. A web browser should open showing the Smithsonian login page. Login with Touchstone. You will reach a

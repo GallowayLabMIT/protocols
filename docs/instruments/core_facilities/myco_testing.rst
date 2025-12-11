@@ -14,7 +14,7 @@ Submitting Testing Request in iLab
 
 1. Requests for myco testing can be submitted through the iLab website. The request form can be found under Core Facilities >> ES Cell and Transgenics Facility >> Request Services >> MYCOPLASMA TESTING >> Request Service.
 2. Complete the table with matrix vial barcode numbers, cell line names, email, PI, and TC Room # (66-225b). Adding the passage number is optional. If submitting a non-conditioned media sample, indicated "media only" in the passage number box. Once completed, save the table.
-3. Enter the quantity of samples to be submitted. This should match the number of completed rows in the table. The cost is $40 per sample or $50 for media-only sample.
+3. Enter the quantity of samples to be submitted. This should match the number of completed rows in the table. The cost is $71 per sample as of December 2025.
 4. Under payment information, select the desired payment number.
 5. Submit the request to the core and drop off samples before 10am on Tuesday.
 

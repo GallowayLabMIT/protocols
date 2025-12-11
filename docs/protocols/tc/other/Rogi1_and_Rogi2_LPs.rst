@@ -13,9 +13,11 @@ V4 Rogi2 dual LP single site integrase line:
 locus            pHA for cargo        recombinase       positive selection (gene, drug)              counterselection (gene, drug)
 
 =========       ===============      =============      ===============================              ===============================
-Rogi2 LP            pKG02180              Bxb1                  PuroR, Puromycin                       HSV-TK SR39h, GCV or PCV
+Rogi2 LP            pKG03560              Bxb1                  PuroR, Puromycin                       HSV-TK SR39h, GCV or PCV
 =========       ===============      =============      ===============================              ===============================
 
+.. note::
+    The Rogi2 v4 is our current version. DO NOT use the pKG02180 donor plasmid, which contains an SV40 promoter which will replicate the plasmid in HEK293Ts. Use pKG03560.
 
 Integration protocol
 ----------------------------------
