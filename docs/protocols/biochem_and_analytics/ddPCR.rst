@@ -132,8 +132,8 @@ Protocol
 13. [Any clean up steps?]
 
 .. note::
-   It is possible to perform analyses in the BioRad software, but it may be preferable to perform your own calculations directly on the raw data in Python. 
-   The `.ddpcr` file contains all the relevant data and any metadata you inputted on the software, and you can use the `load_ddpcr` function in `rushd` to load this info into a Pandas DataFrame.
+   It is possible to perform analyses in the BioRad software, but it may be preferable to perform your own calculations directly on the raw droplet data in Python. 
+   The `.ddpcr` file contains all the relevant data and any metadata you inputted using the software, and you can use the `load_ddpcr` function in `rushd` to load this info into a Pandas DataFrame.
 
 
 References
