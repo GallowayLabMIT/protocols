@@ -31,3 +31,8 @@ Animal Facility
 
 6. To gain access to the facility, you will need to email dcmaccess@mit.edu. In the email include the facility in which you will be working (68N) and your MIT Kerberos ID.
 7. Once granted access to the 68N facility, you can be trained on lab-specific CAC protocols.
+
+Managing the mouse colony
+___________________________________
+
+2025.12.11: Documentation from past mouse managers in progress.
