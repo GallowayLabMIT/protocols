@@ -263,7 +263,7 @@ Local previewing
 ~~~~~~~~~~~~~~~~
 If using VS Code with the reStructuredText plugin installed, you can use the instant previewer to view
 the HTML version as it recompiles on the fly. To show the preview, open the Command palette,
-accessible through  ``Control-Shift-P`` or ``Command-Shift-P``, and run ``reStructuredText: Open Preview to the Side``.
+accessible through  ``Control-Shift-P`` or ``Command-Shift-P``, and run ``Esbonio: Preview Documentation in Split Window``.
 
 If local previewing fails, you need to check a few things:
 
