@@ -37,6 +37,7 @@ Visualize cells to verify efficient transfection and check cell health.
 
 .. note:: 
     DSP doesn't observe toxicity from PEI/Bxb1 expression, and therefore, does not media change. 
+    SRK typically does a media change at this step to improve cell health.
 
 Day 2
 ~~~~~~
@@ -45,6 +46,9 @@ Passage entire 24-well to 6-well plate.
 Day 3
 ~~~~~~
 Verify cells have adhered/look healthy and begin Puromycin selection @ 1 ug/mL (standard concentration). 
+
+.. note:: 
+    If cells do not look healthy, wait another 1-2 days to start selection. At maximum, cells should be less than 50% confluent, otherwise selection may not perform as well. 
 
 Day 6
 ~~~~~~
@@ -61,7 +65,8 @@ Day 9 + n
 ~~~~~~~~~~
 Monitor cells and passage once confluent. DSP recommends passaging 1:10 at 6-well scale to let the cells recover and dilute out any residual plasmid before proceeding with downstream experiments.
 
-
+.. note::
+    SRK has noticed some outgrowth of non-integrated cell lines over time. Therefore, she recommends maintaining puromycin selection (1 ug/mL) in the media for all downstream experiments.
     
 Excision protocol
 
