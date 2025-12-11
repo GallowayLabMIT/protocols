@@ -105,7 +105,7 @@ be done *inside* a local copy of the ``environment-check`` repository.
 Protocols check
 ---------------
 After getting all green checks, clone the protocols repo (https://github.com/GallowayLabMIT/protocols)
-and edit this file (``docs/training/iap/environment_check.rst``), adding your name to the completion list.
+and edit this file (``docs/training/onboarding/environment_check.rst``), adding your name to the completion list.
 Commit and push those changes and you are done! [KEG: To save, "Ctrl+S"].
 
 
