@@ -17,12 +17,12 @@ Methods of DNA fragment generation include:
 - :doc:`PCR </protocols/cloning/pcr>`, with or without new ends added by primer overhangs
 - :doc:`Restriction digest </protocols/cloning/digest>`
 - :doc:`Annealing oligos <oligo_annealing>` synthesized by an external company (e.g., Azenta/Genewiz)
-- Ordering a long dsDNA sequence from an external company (e.g., gBlock from Azenta/Genewiz)
+- Ordering a long dsDNA sequence from an external company (e.g., gBlock from Azenta/Genewiz or Twist)
 - Obtaining an existing plasmid to use directly as a fragment (e.g., pPV plasmid for our :ref:`Golden Gate cloning scheme <pPV-scheme>`)
 
 
 Step 2: Assemble plasmids
--------------------------``
+-------------------------
 
 Next, fragments are assembled into plasmids, circular pieces of DNA on the order of 1-15 kilobases. Plasmids are
 the primary means by which we delivery DNA (or generate viruses to deliver DNA) to mammalian cells. Assembly occurs in a biochemical reaction in a tube,
@@ -101,9 +101,9 @@ a good idea to whole-plasmid sequence DNA vital to experimental workflows.
 However, at close to one-fourth the cost of whole-plasmid sequencing, traditional Sanger sequencing remains useful
 in some circumstances. These cases include:
 
-- Plasmids with small inserts/edits to existing plasmids that are fully covered by three or fewer ~800-1000 bp reads
+- Plasmids with small inserts or edits to existing plasmids that are fully covered by three or fewer ~800-1000 bp reads
 - Intermediate plasmids where mutations outside of the sequenced region will not be passed on in the next cloning step
-- Use as a screening step before whole-plasmid sequencing candidates from inefficient or error-prone assemblies
+- As a screening step before whole-plasmid sequencing candidates from inefficient or error-prone assemblies
 
 
 Step 7: Glycerol stock
@@ -166,13 +166,13 @@ Typical Timeline
 **Day 3:** Purify plasmid DNA, send for sequencing (*typically next-day turn-around*)
 
   Same-day sequencing results are sometimes possible for Azenta/Genewiz orders submitted for 9am pickup; results
-  usually are ready around 6pm. Otherwise, sequencing picked up at the evening 3 or 7pm (Azenta/Genewiz) or 4pm (Plasmidsaurus) cutoffs
-  generate results sometime the next day (occasional delays occur on weekends).
+  usually are ready around 6pm. Otherwise, sequencing picked up at the afternoon or evening cutoffs
+  generate results sometime the next day (except when submitting on Saturday).
 
 **Day 4:** Assess sequencing results, start liquid cultures for glycerol stock (*shake overnight*)
 
   At this point, you can use the purified DNA in the next cloning step or in a tissue culture experiment. Note that some experiments require 
-  high DNA concentrations/purity, so you may want to start a culture for a `midiprep <https://www.qiagen.com/us/resources/download.aspx?id=3da21fc3-a078-4665-aefe-06154db2b6d2&lang=en>`_.
+  high DNA concentrations or high purity, so you may want to start a culture for a `midiprep <https://www.qiagen.com/us/resources/download.aspx?id=3da21fc3-a078-4665-aefe-06154db2b6d2&lang=en>`_.
 
 **Day 5:** Make glycerol stock
 
@@ -195,7 +195,7 @@ Accelerated Timeline
 **Day 2 (pm):** Miniprep, send for Sanger sequencing (*by 7pm pickup*)
 
   Note that plasmid preps will likely have low concentrations after growing for an abbreviated period. You may 
-  want to start new cultures to grow overnight and prep after the sequencing results come in on Day 3.
+  want to start new cultures to grow overnight and prep again after the sequencing results come in on Day 3.
 
 **Day 3:** Assess sequencing results
 

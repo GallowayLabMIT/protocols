@@ -2,34 +2,52 @@
 Competent cells (NEB stable)
 =============================
 
-Day 1. Culture NEB stable cells for overnight.
-----------------------------------------------
-Take the glycerol stock of NEB stable from -80C freezer (Elsa) and pick the cells and culture them with 2ml of plain LB at 30C for overnight.
+.. time:: Overnight + 3 hours + 2 days
 
-Day 2. Grow the competent cells and stock the cells.
+Day 1. Start an overnight culture
+----------------------------------------------
+Start a culture of the relevant bacterial strain (i.e., NEB Stable, ccdB resistant) from the glycerol stock stored in the same box as the aliquots of competent cells. Use plain LB media,
+and grow overnight at 30ºC.
+
+Day 2. Prepare competent cells
 ----------------------------------------------------
 
-1. Take the 0.5ml of the overnight NEB stable cells from Day 1, and put the cells into 50ml of plain LB in a 250 mL Erlenmeyer flask and culture them @ 30C until the OD(600nm) reaches 0.4-0.6 (use nanodrop to measure the OD).
+.. important:: All pipetting should be done with filter tips, under a flame, and with fresh gloves to prevent contamination.
+
+1. Combine 1 mL of the overnight culture with 99 mL of fresh LB (plain) in a 500 mL Erlenmeyer flask.
+2. Shake at 37ºC until the OD (600nm) measures 0.4-0.6 (0.5-0.6 is ideal). Use the Nanodrop to measure OD with default settings.
 
 .. note::
-	Usually, it takes 2-2.5 hours to the OD(600nm) reaches 0.4-0.6 when the cells are cultured at 30C.
+	Usually, it takes 2-2.5 hours to reach 0.4-0.6 OD(600nm). Check the OD after ~90 min to estimate how long it will take---consider that 
+	bacteria double approximately every 30 min. Be careful not to overshoot! If so, you'll need to restart the 100 mL culture.
 
-1. Once the OD(600nm) reaches to 0.4-0.6, place the cell on ice for at least 10min.
-2. Prepare 5ml of 1xWash Buffer and 5ml of 1xCompetent Buffer by diluting the 2x solutions with Dilution Buffer.
-3. From step 2, after 10 minutes incubation on ice, pellet the cells by centrifugation at 3000xg for 10min. at 4C.
-4. After the cenritugation, remove the supernatant completely and suspend the pellet GENTLY with 5ml of ice-cold **1xWash Buffer** prepared at step 2.
-5. Re-pellet the cells by centrifugation at 3000xg for 10min. at 4C.
-6. After removing the 1xWash Buffer COMPLETELY by transfering the supernatant to an another 50ml falcon tube **(see below how to descard the wash buffer)**, GENTLY suspend the cells with 5ml of ice-cold **1xCompetent Buffer**.
+3. Once the OD (600nm) reaches 0.4-0.6, place the cells on ice for at least 10 min.
+4. Using the `Zymo Mix & Go! kit <https://www.zymoresearch.com/products/mix-and-go-e-coli-transformation-kit>`_ (stored in green bin in Deli fridge), prepare 10 mL of 1X Wash Buffer and 10 mL of 1X Competent Buffer by diluting the 2X solutions with Dilution Buffer.
+   At this point, set the centrifuge to 4ºC to cool and label 100 Eppendorf tubes with the strain (e.g., "NS" for NEB Stable). Mark each labeled tube with a unique color from any competent cells remaining in the freezer.
+5. After incubating the culture on ice, pellet the cells by centrifugation at 3000xg for 10 min at 4ºC.
+6. Remove the supernatant completely and suspend the pellet GENTLY with 10 mL of ice-cold 1X Wash Buffer.
+7. Re-pellet the cells by centrifugation at 3000xg for 10 min at 4ºC.
+8. Remove the 1X Wash buffer and collect it in a separate tube.
 
 .. important::
-	Add a few ml of 10% bleach to the collected 1xWash Buffer and centrifuge the tubes at 3000xg for 3-5min.. Then, you can discard the supernatant into a sink and the precipitate to a biowaste box.
+	**To dispose of 1X Wash**: Add a few mL of bleach to the collected 1X Wash Buffer. A dark brown/black precipitate will form. This can be left to settle over several days or can be centrifuged after 20 min of decontamination. 
+	Then, discard the supernatant down the drain and dispose of the tube with precipitate in the biowaste.
 
-8. Aliquot 100ul of the cell suspention (ON ICE!) into eppendorf tubes. Mark each labeled tube with Sharpie that has a unique color from any competent cells remaining in the freezer.
-9. Store the cells @ -80C (ELSA)
-10. To make sure if the competent cells are not carrying any plasmid, culture the competent cells made at step 8. with 2ml of LB-Kan, LB-Amp, and, LB-Chlor for about 2days at 30C.
+9.  GENTLY resuspend the cells in 10 mL of ice-cold 1X Competent Buffer.
+10. Aliquot 100 uL of the cell suspension ON ICE into the labeled Eppendorf tubes. 
+11. Store the cells in the relevant competent cell box at -80ºC (Elsa). Update the spreadsheet on the freezer door with the batch color and date.
+12. To confirm there is no plasmid contamination, innoculate LB + ampicilin and LB + kanamycin cultures with competent cells.
+    It is convenient to use any leftover cells insufficient for a final aliquot for this step. Grow the cultures at 37ºC for two days.
 
-Day 4. Confirm the cell growth
+Day 4. Check for cell growth
 ----------------------------------------------
 
-1. Confirm if the competent cells were not growing in any of the media. If you see cell growth in either LB media, discard the competent cells you made and remake the cell from step 1.
+After two days in culture, check whether cells grew in the LB + ampicilin and LB + kanamycin conditions. If there is no growth, the competent cells are good to use.
+Mark the batch as such on the spreadsheet on the freezer door.
+
+.. important:: 
+	If cell growth is observed, **discard the entire batch** of competent cells. Note the contamination on the spreadsheet on the freezer door and 
+	message the lab if any aliquots may have been used. To discard the competent cells, combine the contents of all the aliquots and follow the protocol
+	for disposing of the 1X Wash Buffer waste.
+	
 

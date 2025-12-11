@@ -110,7 +110,7 @@ Primer 1    0.75           Use 10 µM primers diluted from stocks
 Primer 2    0.75           Use 10 µM primers diluted from stocks
 Taq 2X MM   7.5            Thaw from Anna (-20ºC)
 Elga water  6              
-**Total**   **15**         Scale up as needed
+**Total**   **15**         Scale up as needed, 1X per colony
 ========== ============== =======
 
 Thermocycler protocol:
@@ -139,7 +139,7 @@ Confirm and purify
 **DpnI digest**
 
 If you plan to use your PCR product in a cloning reaction, it is helpful to perform a DpnI digestion on your PCR product before purification. 
-DnpI is a restriction enzyme that recognizes dam methylation, which is found only on cell-derived DNA --- i.e., your plasmid template.
+DnpI is a restriction enzyme that recognizes dam methylation, which is found only on cell-derived DNA---i.e., your plasmid template.
 This chops up any of the original template from your PCR reaction, which is particularly useful if the template plasmid has the same antibiotic
 resistance as the new, final plasmid product of the downstream assembly reaction.
 
@@ -160,7 +160,7 @@ This can be performed in parallel with a DpnI digestion.
 
 **Purify**
 
-We use the NEB Monarch PCR DNA Cleanup Kit to purify PCR products. If the gel shows a single band at the size you expect for your PCR product, you can purify the remaining product directly.
+We use the `NEB Monarch PCR DNA Cleanup Kit <https://www.neb.com/en-us/protocols/2024/07/16/standard-cleanup-protocol-using-the-monarch-spin-pcr-and-dna-cleanup-kit-and-centrifugation>`_ to purify PCR products. If the gel shows a single band at the size you expect for your PCR product, you can purify the remaining product directly.
 
 - **For amplicons <2 kb:** Use a 5:1 ratio of binding buffer to sample. For a 25 µL PCR reaction (where you ran a portion on a gel), you should use ~100 µL binding buffer.
 - **For amplicons >2 kb:** Use a 2:1 ratio of binding buffer to sample. For a 25 µL PCR reaction (where you ran a portion on a gel), you should use ~40 µL binding buffer.

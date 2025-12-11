@@ -54,4 +54,8 @@ if __name__ == '__main__':
             plot_data_zip.write(file, arcname='data/'+file.name)
 
     if args.latex:
-        shutil.copyfile('output/latex/latex/gallowaylabprotocols.pdf', 'output/html/galloway_lab_protocols.pdf')
+        # Run ghostscript
+        # You can switch to `/printer` if you want a higher quality output (less image compression)
+        # see https://unix.stackexchange.com/questions/274428/how-do-i-reduce-the-size-of-a-pdf-file-that-contains-images
+        subprocess.run(['gs', '-sDEVICE=pdfwrite', '-dPDFSETTINGS=/ebook', '-q', '-o', 'output/html/galloway_lab_protocols.pdf', 'output/latex/latex/gallowaylabprotocols.pdf'])
+        #shutil.copyfile('output/latex/latex/gallowaylabprotocols.pdf', 'output/html/galloway_lab_protocols.pdf')

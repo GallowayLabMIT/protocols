@@ -90,28 +90,29 @@ You will have to:
 
 Shared storage
 --------------
-We use **OneDrive** for shared lab storage. OneDrive's web interface is slightly clunky,
-and occasionally you have to wait a minute for syncing to occur, but it is the MIT option
-that offers us the largest amount of storage space, without having bandwidth limits (unlike MIT's Google Drive).
+We use two file storage services in the lab: **OneDrive** for "small" files like documents, plasmids,
+primers, posters, and so on, and **Smithsonian / Nextcloud** for data files (microscopy images, flow data, NGS data).
+We used to use OneDrive for everything, but OneDrive has a 5TB storage limit, which we reached after seven years.
 
-OneDrive also has an excellent implementation of "files-on-demand"/"online sync", where all
+Luckily, you login to **both** Smithsonian and OneDrive through Touchstone, so you don't need separate accounts.
+
+OneDrive
+********
+OneDrive's web interface is slightly clunky, and the official file syncing client is, honestly, not great.
+There are sync delays and sometimes things do not update. However, OneDrive has tight integration with Office
+products, allowing Google Drive-esque live, multi-person editing of Office documents saved within it.
+This is the largest reason why we still use OneDrive.
+
+OneDrive uses "files-on-demand"/"online sync", where all
 files in the shared storage *appear* to be accessible, but do not actually take up local
 disk space until you open them/unless you manually trigger a download, at which point
 the software invisibly downloads files in the background. There's no cost to having
-the entire shared folder locally synced.
-
-OneDrive also has tight integration with Office products, allowing Google Drive-esque live,
-multi-person editing of Office documents saved inside it.
-
-We share presentations, software, primers, and plasmids with each other through the shared
-library, and all lab instruments will save data into OneDrive so everything is accessible.
-
-When you see a file location like ``instruments\data\attune`` without an additional information,
-it is likely a path inside the OneDrive.
+the entire shared folder locally synced. Additionally, you can override this behavior and request
+that OneDrive download files before you access them (normally via a right-click menu)
 
 After being given access:
 
-1. If not on a recent version of Windows 10 (e.g. Win 7, MacOSX, etc), download the
+1. If not on a recent version of Windows 11 (e.g. Win 7, MacOSX, etc), download the
    `OneDrive client <https://www.microsoft.com/en-us/microsoft-365/onedrive/download>`_.
    Recent versions of Windows come with this preinstalled.
 2. Bookmark the web version here: https://mitprod.sharepoint.com/sites/GallowayLab/Shared%20Documents
@@ -124,6 +125,59 @@ After being given access:
    to sync into. After several minutes, it will show "OneDrive is up to date", and all files
    should be accessible.
 
+  
+Smithsonian
+***********
+
+Smithsonian is the name of our storage server, that lives in the lab. We run this server ourselves,
+and it (currently) has a much larger capacity than OneDrive / Google Drive / MIT Dropbox: nearly 45TB.
+Data stored on here is also backed up to an MIT-run backup system called Spectrum Protect / TSM. For more details
+on how this is setup, see :doc:`the tech documentation </tech/nas_data_storage>`.
+
+Our storage server is running software called Nextcloud Server. Unlike e.g. Google Drive, Nextcloud (the mostly open-source organization)
+does not run servers themselves, so our instance of Nextcloud is accessible at ``smithsonian.mit.edu``.
+
+Like OneDrive, there is both a web interface to quickly browse files, and a local sync client that you can download
+that lets you access the files. The Nextcloud sync client also does the same virtual-file / "files-on-demand" that
+OneDrive does.
+
+Web interface
+~~~~~~~~~~~~~
+
+You can access the web interface at https://smithsonian.mit.edu. You will see a login page that looks like this:
+
+.. image:: img/nextcloud_login.png
+  :alt: A view of the Nextcloud login interface, which shows the options "Direct Log in" and "MIT Touchstone"
+
+The "Direct login" option is only used for special accounts that are not attached to a person, namely,
+the administrator account and the account that the lab computers use. Both of these account details are
+in the password database and are accessed as described in :doc:`the tech documentation </tech/nas_data_storage>`.
+
+To login, use the MIT Touchstone option, which will redirect you through Touchstone and eventually land you on the files page:
+
+.. image:: img/file_landing.png
+  :alt: A view of the Nextcloud files view, showing the data folder.
+
+Lab computers automatically save data into the ``data`` folder and are automatically shared with everyone.
+Other files and folders you create within your account are not shared with the lab by default (but are backed up
+and accessible with the administrator account).
+
+Sync client
+~~~~~~~~~~~
+To setup the local sync client, you need to download the Nextcloud client software and point it at Smithsonian.
+
+1. Download the appropriate version of the Nextcloud Files app for your computer from the `Nextcloud site <https://nextcloud.com/install/>`__.
+
+.. note::
+
+  On MacOS, you should click the dropdown on the download page and select the "Virtual Files" version of the Nextcloud app.
+
+2. Install the software.
+3. Launch the software. It will ask you what server to connect to. Type in ``smithsonian.mit.edu``
+4. A web browser should open showing the Smithsonian login page. Login with Touchstone. You will reach a
+   "grant access" page to allow sync access for this computer.
+5. After granting access, return to the sync client. It will ask you where to put the local sync folder; pick
+   anything convenient.
 
 Experimental software
 ---------------------

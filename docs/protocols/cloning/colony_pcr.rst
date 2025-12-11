@@ -58,7 +58,7 @@ Protocol
    .. note::
 
       The reaction will run well with slightly more or less than 15 µL per colony. Therefore, rather than making extra mix to account for 
-      pipetting loss, instead pipet 14-14.5 µL per tube.
+      pipetting loss, you can instead pipet 14-14.5 µL per tube.
 
 5. **Pick colonies** one at a time under a flame: Touch the end of a sterile toothpick (or pipette tip) to the colony, swirl the toothpick 
    in the reaction mix of one of the PCR strip tubes, then streak the wet toothpick on the corresponding region of the prepared fresh agar 
@@ -89,4 +89,4 @@ Protocol
 8. **Incubate the streaked plate** overnight at 30ºC. To start cultures from the streaked plate on the same day, instead grow for ~6 hours 
    at 37ºC. Once visible bacteria is growing for each colony, the plate can be used to inoculate cultures for plasmid preps and 
    :doc:`glycerol stocks <glycerol_stocking>`.
-   Wrap the plate in parafilm and store at 4ºC for up to ~4 weeks.
+   At this point, or after incubating overnight, wrap the plate in parafilm and store at 4ºC for up to ~4 weeks.
