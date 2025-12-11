@@ -63,7 +63,7 @@ The relevant folders here are:
 - `raw_reads`: where we put all our raw data
 - `projects`: where we clone git repos for analysis pipelines, etc.
 
-So the next thing to do is to clone your git repo:
+Next, clone the git repo for your project in the cluster:
 
 .. code-block::
 
@@ -71,16 +71,38 @@ So the next thing to do is to clone your git repo:
     git clone https://github.com/GallowayLabMIT/[your_project]
     git config --global --add safe.directory /orcd/data/katiegal/002/projects/[your_project]
 
+A convenient way to organize your project is to add a folder called `cluster` (or similar) in the root directory of your project repo.
+Here, you can add pipelines to run on the cluster separate from the other data analysis (e.g., flow) for your project. 
+
 TODO: suggested project folder structure
 
+- `data`
+   - `raw`
+- `envs`
+- `inputs`
+- `profiles`
+- `scripts` 
+- `Snakefile`
+- `.gitignore`
+
+
+Anayzing data on Engaging
+=========================
 
 **Upload data to Engaging**
 
-TODO
+The most straightforward way to copy your data to the Engaging cluster is to use `sftp`. [add short description with link to sftp docs/manual]
 
-then, symlink data to your project folder
+TODO: describe how to use get/put commands
 
-ln -s /orcd/data/katiegal/002/data/raw_reads YourPath
+The BioMicro Center provides instructions for copying data from their server to your location of choice. [TODO: describe for this use-case]
+
+Then, it is recommended to symlink the data inside your project folder. To do so, run the following, where `[your-path]` is the location where
+you'd like to copy to (e.g., `/orcd/data/katiegal/002/projects/[your_project]/data/raw`).
+
+.. code-block::
+    
+    ln -s /orcd/data/katiegal/002/data/raw_reads [your-path]
 
 
 **Run pipeline**
