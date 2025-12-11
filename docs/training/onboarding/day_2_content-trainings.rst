@@ -55,7 +55,7 @@ several trainings on these topics. The :doc:`"How to" training series <../traini
 writing at all levels (papers, proposals, etc.). 
 
 To produce high-quality, informative graphics, the lab mainly uses Adobe Illustrator. Check out the 
-:ref:`Bootcamp Day 0 section <graphics>` for instructions on setting up the software. This `YouTube video <https://www.youtube.com/watch?v=3IuoK07YDds>`_ 
+:ref:`Onboarding Day 0 section on Illustrator <graphics>` for instructions on setting up the software. This `YouTube video <https://www.youtube.com/watch?v=3IuoK07YDds>`_ 
 offers a basic tutorial to many of the features relevant for scientific graphics, and the best way to learn how to use Illustrator is by making graphics 
 of your own!
 
