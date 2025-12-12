@@ -37,10 +37,10 @@ Day 0
 Co-transfect your donor plasmid and Bxb1 expression plasmid at a 1.5:1 ratio, ie., following our standard PEI protocol.
 
 .. note::
-    An example that has worked well for SRK is 850 ng of donor plasmid and 565 ng of Bxb1 expression plasmid per 24-well.
+    An example that has worked well for SRK is 850 ng of donor plasmid and 565 ng ofBxb1 expression plasmid per 24-well.
 
 .. note::
-    Keep one control well with no donor plasmid to be used as a negative control for puromycin selection.
+    Keep one well with no donor plasmid to be used as a negative control for puromycin selection.
 
 Day 1
 ~~~~~
@@ -59,7 +59,7 @@ Day 3
 Verify cells have adhered/look healthy and begin Puromycin selection @ 1 ug/mL (standard concentration). 
 
 .. note:: 
-    If cells do not look healthy, wait another 1-2 days to start selection. However, do not wait too long. At maximum, cells should be less than 50% confluent, otherwise selection may not perform as well. Include at least one condition with no integration to be used the monitor the puromycin selection.
+    If cells do not look healthy, wait another 1-2 days to start selection. However, do not wait too long. At maximum, cells should be less than 40% confluent, otherwise selection may not perform as well. Include at least one condition with no integration to be used the monitor the puromycin selection.
 
 Day 6
 ~~~~~~
