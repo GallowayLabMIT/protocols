@@ -80,7 +80,7 @@ For Animal or Protocol Amendments:
 
 After completing all required sections, you can submit the amendment by clicking Actions >> Submit Amendment
 
-For more general information, the CAC provides a small online course on how to submit certain `amendments<https://cac.mit.edu/cac-connect/cac-connect-guidance>`_.
+For more general information, the CAC provides a small online course on how to submit certain `amendments <https://cac.mit.edu/cac-connect/cac-connect-guidance>`_.
 
 
 Ordering a new mouse strain
@@ -105,5 +105,5 @@ Recovering cryopreserved embryos
 ================================
 
 Certain mouse strains are only available for purchase as a cryopreserved embryos. While companies do offer the service to rederive the strain in house, it is usually expensive.
-DCM offers assisted reproductive services where they can implant cryopreserved embryos. You must fill out a `form<https://comp-med.mit.edu/form/webform-707>`_ to request the services.
+DCM offers assisted reproductive services where they can implant cryopreserved embryos. You must fill out a `form <https://comp-med.mit.edu/form/webform-707>`_ to request the services.
 The cost is currently around $300.
