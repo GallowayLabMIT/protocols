@@ -99,4 +99,3 @@ Day 1
 7. Spin down the cell + nuclei pellete, and resuspend in 100 uL of complete Dig-Wash (Dig-Wash plus protease inhibitor cocktail).
 8. Aliquot 10 uL of activated ConA beads into PCR tubes.
 9. Add the 100 uL of cells to the beads. Incubate on the Nutator for 10 minutes at room temperature.
-10. 
