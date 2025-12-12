@@ -54,7 +54,6 @@ On Engaging, we have a shared folder for the lab data. You should create a symli
 To do so, run
 
 .. code-block::
-
     ln -s /orcd/data/katiegal/002 katiegal_shared
 
 This creates the directory ``katiegal_shared`` in your cluster home directory.
@@ -63,6 +62,10 @@ The relevant folders here are:
 
 - ``data/raw_reads``: where we put all our raw data
 - ``projects``: where we clone git repos for analysis pipelines, etc.
+
+.. important::
+    We have multiple data folders from the Engaging cluster. Ideally everything should be symlinked into the current folder.
+    TODO ADD MORE DETAILS `` /orcd/data/katiegal/003``
 
 So the next thing to do is to clone your git repo:
 
