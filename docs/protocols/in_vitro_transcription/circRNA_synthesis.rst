@@ -6,7 +6,7 @@ This procedure outlines circRNA synthesis based on `Engineering circular RNA for
 
 
 Generating IVT linear DNA template from plasmid
-==================================================================
+---------------------------------------------------
 
 Our IVT platform relies on PCR amplification using a universal primer pair and a plasmid harboring the CDS of interest as template to generate the IVT template. The forward and reverse primers bind to the T7 promoter and terminator, respectively. They also contain a polyA tail to promote non-circularized RNA degradation by RNase R. 
 
@@ -44,7 +44,7 @@ Our IVT platform relies on PCR amplification using a universal primer pair and a
 
 
 IVT reaction for circRNA
-==========================
+---------------------------
 The protocol for IVT is adapted from the `NEB HiScribe protocol <https://www.neb.com/en-us/protocols/0001/01/01/standard-rna-synthesis-e2040>`_ and `Engineering circular RNA for enhanced protein production <https://www.nature.com/articles/s41587-022-01393-0>`_.
 
 1. Thaw the necessary kit components on ice and microfuge to collect solutions to tube bottoms.

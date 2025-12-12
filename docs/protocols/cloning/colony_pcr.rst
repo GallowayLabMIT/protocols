@@ -90,3 +90,21 @@ Protocol
    at 37ºC. Once visible bacteria is growing for each colony, the plate can be used to inoculate cultures for plasmid preps and 
    :doc:`glycerol stocks <glycerol_stocking>`.
    At this point, or after incubating overnight, wrap the plate in parafilm and store at 4ºC for up to ~4 weeks.
+
+For hard to amplify templates
+=============================
+
+If your desired colony PCR region is GC rich or contains hard to amplify sequences, the following reaction mix has improved
+the PCR reaction.
+
+Reaction mix (12.5 µL per tube)
+=========== ============== =======
+Reagent      1X (1 colony)  8X
+=========== ============== =======
+Elga water  3.75            30
+GC Enhancer 1.25            10
+Primer 1    0.625           5
+Primer 2    0.625           5
+Taq 2X MM   6.25            50
+**Total**   12.5 µL         90 µL
+=========== ============== =======
