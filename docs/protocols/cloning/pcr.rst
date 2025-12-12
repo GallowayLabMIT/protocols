@@ -130,6 +130,41 @@ Thermocycler protocol:
 
 Source: `APExBIO 2X Taq PCR <https://www.apexbt.com/downloader/document/K1034/Protocol.pdf>`_
 
+KOD Xtreme
+-------------
+This polymerase is very good for amplifying difficult templates (i.e CAG promoter, TFs, GC rich).
+
+Reaction mix:
+======================= ============== ==========================
+Reagent                 Amount (µL)     Notes
+======================= ============== ==========================
+DNA template            1               Use template that is ~100-500 ng/µL
+Primer 1                1               Use 10 µM primers diluted from stocks 
+Primer 2                1               Use 10 µM primers diluted from stocks 
+2x Buffer               10              Thaw from box in Anna (-20ºC)
+dNTPs                   4               Thaw working aliquot from box in Anna (-20ºC)
+KOD Polymerase          0.4             Stored in small box in Anna (-20ºC) --- keep cold!
+Elga water              3.5             
+**Total**               **20.9**
+======================= ============== ==========================
+
+Thermocycler protocol:
+
++----------------------+------------------+------------+
+| Step                 | Temperature (ºC) | Time       |
++======================+==================+============+
+| Initial denaturation | 95               | 30 sec     |
++----------------------+------------------+------------+
+|| 1. Denaturation     || 95              || 15 sec    |
+|| 2. Annealing        || Ta (or 61)      || 15 sec    |
+|| 3. Extension        || 68              || 30 sec/kb |
+|| x 30 cycles         ||                 ||           |
++----------------------+------------------+------------+
+| Final extension      | 68               | 2 min      |
++----------------------+------------------+------------+
+
+Source: `KOD Xtreme <https://www.sigmaaldrich.com/US/en/product/mm/71975m#product-documentation>`_
+
 
 .. _pcr_confirm_purify:
 
