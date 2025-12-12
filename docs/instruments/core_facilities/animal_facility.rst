@@ -43,7 +43,7 @@ A lab job is to manage our mouse colony. Responsibilities include:
   
 
 How to submit a CAC amendment
------------------------------
+==============================
 
 There are multiple types of CAC amendments that you can submit. The most common are personnel and new mouse strain amendments.
 Below is the CAC Connect dashboard. Here you can access the active protocol and any amendments that are in progress or submitted to the CAC.
@@ -91,7 +91,7 @@ you can proceed with ordering. If ordering from an approved DCM vendor (i.e. Jac
 For atypical vendors (i.e. MMRRC), these are covered by animal-import-export@mit.edu. They will send you a form that requires you to fill out some standard information:
 
    * PI name: Kate E. Galloway
-   * Department: Chemical Engineer
+   * Department: Chemical Engineering
    * Contact person & email (current mouse manager)
    * Building/Room: 66-219
    * Protocol Title: Optimizing reprogramming efficiency by tailoring transgene expression
@@ -104,6 +104,6 @@ The form will also require information about the strain, vendor, expected pain c
 Recovering cryopreserved embryos
 ================================
 
-Certain mouse strains are only available for purchase a cryopreserved embryos. While companies do offer the service to rederive the strain in house, it is usually expensive.
+Certain mouse strains are only available for purchase as a cryopreserved embryos. While companies do offer the service to rederive the strain in house, it is usually expensive.
 DCM offers assisted reproductive services where they can implant cryopreserved embryos. You must fill out a `form<https://comp-med.mit.edu/form/webform-707>`_ to request the services.
 The cost is currently around $300.
