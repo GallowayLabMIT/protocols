@@ -171,13 +171,92 @@ Per-project setup
 
 .. admonition:: TODO 
 
-    - Talk about setting up SSH key forwarding, and making sure that you use the same SSH key
-      for both Github and Engaging.
-    - Talk about cloning your project repo into ``~/katiegal_shared/projects/``
-    - Talk about creating a ``cluster/data`` folder and symlinking the raw_reads folder in
+    - .gitignore? 
 
 **Set up project Git repo**
-After getting your ``ssh-agent`` set up as described above,
+
+After getting your ``ssh-agent`` set up as described above, you should clone your project repo into ``~/katiegal_shared/projects/``.
+This will let you edit your script files locally or on the server, and track changes. The end result should look something like this:
+
+.. code-block::
+
+    katiegal_shared
+    ├── data
+    ├── hpc_infra
+    └── projects
+        └── project_repo
+            ├── analysisFile.ipynb
+            ├── datadir.txt
+            └── cluster
+                ├── config      # Metadata for configuring
+                ├── data        # Data you don't want tracked, like genomes
+                │    └── raw_reads
+                ├── envs        # TODO DESCRIPTION
+                ├── inputs      # Inputs that should be tracked, like transgenes or metadata
+                ├── profiles    # TODO DESCRIPTION
+                ├── scripts     # Scripts for analysis
+                └── Snakefile   # Runs pipeline
+
+Clone the project repo:
+
+1. ``ssh engaging`` and log into the Engaging cluster
+2. Navigate to the projects directory by ``cd katiegal_shared/projects``
+3. Clone your project repo by using the ``ssh`` url which you can get from GitHub. This might look like ``git clone git@github.com:GallowayLabMIT/project_repo.git``
+
+At the end of this, you should get something like this
+
+.. code-block::
+
+    katiegal_shared
+    ├── data
+    ├── hpc_infra
+    └── projects
+        └── project_repo
+            ├── analysisFile.ipynb
+            └── datadir.txt
+
+**Set up data folder in project Git repo**
+
+You will want to make a new directory to house all of your Engaging cluster files. You can either copy a ``cluster`` folder from someone else's pipeline or make a new one. 
+To make a new one:
+
+1. Run ``mkdir ~/katiegal_shared/projects/project_repo/cluster``
+2. Run ``mkdir ~/katiegal_shared/projects/project_repo/cluster/data`` . This will house any untracked data, like genomes and raw_reads
+
+It should look like this
+
+.. code-block::
+
+    katiegal_shared
+    ├── data
+    ├── hpc_infra
+    └── projects
+        └── project_repo
+            ├── analysisFile.ipynb
+            ├── datadir.txt
+            └── cluster
+                └── data        # Data you don't want tracked, like genomes
+
+Next we want to symlink in the raw_reads so you can easily access it:
+
+1. Run ``ln -s ~/katiegal_shared/data/raw_reads/ ~/katiegal_shared/projects/project_repo/cluster/data/raw_reads``
+   
+It should look like this
+
+.. code-block::
+
+    katiegal_shared
+    ├── data
+    ├── hpc_infra
+    └── projects
+        └── project_repo
+            ├── analysisFile.ipynb
+            ├── datadir.txt
+            └── cluster
+                └── data        
+                    └── raw_reads   # Symlink to ~/katiegal_shared/data/raw_reads/
+
+
 
 
 Transferring files
