@@ -16,7 +16,9 @@ Step 1: Landing Pad Targeting
 2. With Lipofectamine Stem co-transfect the hiPSCs with a selection of following:
 
    - Cas9 expression plasmid + sgRNA plasmid targeting the safe harbor locus + HDR donor plasmid + (optional: p53DD modRNA)
+   
    - AIO Cas9 & sgRNA plasmid  + HDR donor plasmid
+   
    - Control HDR donor plasmid only (this will give background fluorescence from the landing pad and an indicator for dilution out of the HDR plasmid)
 
 .. note:: 

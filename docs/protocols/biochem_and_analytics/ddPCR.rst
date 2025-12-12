@@ -122,14 +122,52 @@ Protocol
 .. note::
    After running the ddPCR reaction in the thermocycler, the plate can be stored at 4ºC for up to a few days before analysis. Typically, however, we run the analysis on the same day.
 
-11. Analyze the droplets using the QX200 Droplet Reader.
+Analyze the droplets using the QX200 Droplet Reader:
 
-   1. Place the plate into the machine [something about latches?].
-   2. Set up the software [needs description].
-   3. Read the droplets by selecting [Run?] on the software. This takes [amount of time].
+11. Remove the plate from the thermocycler and turn on the QX200 Droplet reader (switch on the backside)
 
-12. Save the experiment. Copy the `.ddpcr` file to a flashdrive and transfer the file to the lab data folder at `instruments/data/Weiss.lab.ddPCR`.
-13. [Any clean up steps?]
+12. Load the plate oriented correctly into the QX200 Droplet Reader with the metal plate cover on top with the latches clasped down.
+   
+INSERT image
+
+13. Open the QX Manager software (username: admin, Password: on post-it on computer)
+
+14. If the three green lights on the front the of machine are green, you are ready to start a new experiment by selecting the plate icon button in the top left. 
+   
+INSERT image
+
+15. Fill out the three input tabs for experimental information
+
+      1. Plate information
+
+          - Create a plate/experiment name
+  
+          - IMPORTANT: select "ddPCR Supermix for Probes (No dUTP)" for Supermix
+  
+          - Select to acquire wells by columns or rows
+
+      2. Well selection 
+
+      3. Well information
+
+           - Select Experiment type (for this example a Copy Number Analysis was selected)
+  
+           - Input Sample Description for each well for easier identification
+  
+           - Input target information for each well (multiple wells can be selected if the targets are shared)
+             In this example, we were interested in mRuby2 copy number in hiPSCs with RPP30 as a reference gene. We use the HEX probe in Channel2 for RPP30 (with 2 copies in the genome) and the FAM probe in Channel 1 for the mRuby2. 
+
+INSERT image 
+
+1.  Run the experiment. The machine will take ~10 minutes to analyze 8 wells. 
+
+.. note::
+   A live analysis window can be opened to monitor the progress. It can be helpful to watch the "Event Count" aka the number of droplets analyzed. 
+   We are targeting >10,000 droplets per well to ensure sufficient droplet generation and good data qualilty.
+
+17. The experiment data will be automatically saved to the "ddPCR data" file on the computer. Copy your `.ddpcr` file to a flashdrive and transfer the file to the lab data folder at `instruments/data/Weiss.lab.ddPCR`.
+
+18. Remove and dispose the plate from the machine and turn off the QX200 Droplet reader. 
 
 .. note::
    It is possible to perform analyses in the BioRad software, but it may be preferable to perform your own calculations directly on the raw droplet data in Python. 
