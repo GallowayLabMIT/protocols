@@ -1,5 +1,5 @@
 =========
-Bootcamp
+Training
 =========
 
 .. toctree::

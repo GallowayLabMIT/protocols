@@ -175,8 +175,8 @@ To setup the local sync client, you need to download the Nextcloud client softwa
 3. Launch the software. It will ask you what server to connect to. Type in ``smithsonian.mit.edu``
 4. A web browser should open showing the Smithsonian login page. Login with Touchstone. You will reach a
    "grant access" page to allow sync access for this computer.
-5. After granting access, return to the sync client. It will ask you where to put the local sync folder; pick
-   anything convenient.
+5. After granting access, return to the sync client. If it asks you to pick a location for the local sync folder, pick
+   anything convenient. On MacOS, it will appear in the default location: ``/Users/[your-user]/Library/CloudStorage/``.
 
 Experimental software
 ---------------------
