@@ -7,7 +7,7 @@ We currently have three harbors (pHAs) for IVT:
   * pKG03198: contains human beta globin 5' and 3' UTRs AND polyA is encoded on the plasmid
 
 .. important::
-  When making new DNA IVT templates, use pKG03198! This plasmid already encodes the polyA and template is generate with a simple MluI digest.
+  When making new DNA IVT templates, use pKG03198! This plasmid already encodes the polyA and the template is generated with a simple MluI digest.
 
 
 Creating a new IVT template plasmid
@@ -17,9 +17,9 @@ pKG03198 is compatible with existing pPV2s for BsaI golden gate cloning, as is p
 If a desired CDS is not available, you can either 1) make a pPV2 or 2) clone directly into pKG01864 via Gibson. If proceeding with option 2, the plasmid backbone can be PCR amplified with the following primers: 
 
     VECTOR-FWD: 5'-ctcgagctcaagcttcgaattcac-3'
+    
     VECTOR-REV: 5'-gaccggtagcgtgcttt-3'
 
-Primers are not listed for pKG03198.
 
 Generating IVT linear DNA template from an IVT template plasmid
 ==================================================================
@@ -59,6 +59,10 @@ PCR-amplified template
 MluI digested template
 =======================
 
+.. note:: 
+  You should get about 1 µg (100 ng/µL, 10 µL) of IVT template using this method which is good for 3 IVT reactions (each IVT gives ~50-60 µg so at 100ng/96-well, this should give modRNA for ~15-18 plates)
+
+
 1. Combine the following in a PCR strip tube:
 
   =================== =========== =========
@@ -74,7 +78,9 @@ MluI digested template
 
 2. Incubate the mixture at 37ºC in the water bath for 1 hour.
    
-3. PCR clean-up the linearized template DNA and use for downstream IVT reactions.
+3. PCR clean-up the linearized template DNA and use for downstream IVT reactions. Elute in ~10 µL.
+
+
 
 
 .. important:: 

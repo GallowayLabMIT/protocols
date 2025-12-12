@@ -66,30 +66,6 @@ The protocol for IVT is adapted from the `NEB HiScribe protocol <https://www.neb
 .. note:: I have observed no reduction in product quality multiple months after storing. Although I have witnessed some sublimination which leads to more concentrated RNA samples.    
 
 
-
-
-MluI digestion for pKG3198 (polyA encoded on plasmid)
-==========================================================
-
-.. note:: 
-  You should get about 1 µg (100 ng/µL, 10 µL) of IVT template using this method which is good for 3 IVT reactions (each IVT gives ~50-60 µg so at 100ng/96-well, this should give modRNA for ~15-18 plates)
-
-1. Assemble
-
-================================= =================================================
-  Component                          Amount
-================================= =================================================
- rSAP                                1 µL
- MluI                                2 µL
- 10X rCutSmart                       2.5 µL
- Water                               19.5 - X µL  
- Template (~1,000 ng)                X µL
- Total                              25 µL
-================================= =================================================  
-
-2. Incubate at 37°C for 1 hour
-3. Use DNA cleanup kit and elute in 10 µL (should be ~100 ng/µL)
-
 IVT using MluI-digested pKG3198 (polyA encoded on plasmid)
 ===========================================================
 
