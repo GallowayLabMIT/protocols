@@ -127,14 +127,18 @@ Analyze the droplets using the QX200 Droplet Reader:
 11. Remove the plate from the thermocycler and turn on the QX200 Droplet reader (switch on the backside)
 
 12. Load the plate oriented correctly into the QX200 Droplet Reader with the metal plate cover on top with the latches clasped down.
-   
-INSERT image
+  
+  .. figure:: img/ddPCR_plate_loading.jpg
+      :align: center
+      :width: 60%
 
 13. Open the QX Manager software (username: admin, Password: on post-it on computer)
 
 14. If the three green lights on the front the of machine are green, you are ready to start a new experiment by selecting the plate icon button in the top left. 
    
-INSERT image
+  .. figure:: img/ddPCR_mahcine_light_check.jpg
+      :align: center
+      :width: 60%
 
 15. Fill out the three input tabs for experimental information
 
@@ -157,7 +161,9 @@ INSERT image
            - Input target information for each well (multiple wells can be selected if the targets are shared)
              In this example, we were interested in mRuby2 copy number in hiPSCs with RPP30 as a reference gene. We use the HEX probe in Channel2 for RPP30 (with 2 copies in the genome) and the FAM probe in Channel 1 for the mRuby2. 
 
-INSERT image 
+  .. figure:: img/ddPCR_wellinfo_example.jpg
+      :align: center
+      :width: 60%
 
 1.  Run the experiment. The machine will take ~10 minutes to analyze 8 wells. 
 
