@@ -20,7 +20,6 @@ This will automatically trigger a new account to be created.
 Confirm you can log in to Engaging via the terminal using ``ssh``. Replace ``[your-kerberos]`` below with your Kerberos ID.
    
 .. code-block::
-
     ssh [your-kerberos]@orcd-login.mit.edu
 
 This will prompt you for your Kerberos password and Duo authentication.
@@ -32,7 +31,6 @@ Once you've confirmed that you can log in, create an ``ssh`` shortcut to the clu
 On your computer (not in the cluster), add the following to your config file using ``nano ~/.ssh/config``:
 
 .. code-block::
-
     Host engaging
         HostName orcd-login.mit.edu
         User [your-kerberos]
@@ -41,7 +39,6 @@ On your computer (not in the cluster), add the following to your config file usi
 While you're at it, add a shortcut to the BioMicro Center cluster. This is where they'll temporarily store your sequencing data.
 
 .. code-block::
-
     Host bmc
         HostName bmc-150.mit.edu
         User galloway_ill
@@ -53,35 +50,12 @@ While you're at it, add a shortcut to the BioMicro Center cluster. This is where
 
 **Set up folders on Engaging**
 
-We use ``sftp`` to copy data between servers, either remote (e.g. Engaging cluster) or local (your computer). 
-You can look at `SFTPCloud docs <https://sftpcloud.io/learn/sftp/sftp-put-command>`_ for more info.
-
-For **Plasmidsaurus**, download the fastq.zip file (e.g. "4Y5Y7T_fastq.zip" which contains fastq.gz files). Open a new terminal or PowerShell and run locally:
+On Engaging, we have a shared folder for the lab data. You should create a symlink to this folder within your personal folder.
+To do so, run
 
 .. code-block::
 
-    sftp [your-kerberos]@orcd-login.mit.edu
-
-This connects your local computer to the Engaging cluster. You should see ``katiegal_shared``. 
-Then use ``put`` to upload the sequencing data to ``katiegal_shared\data\raw_reads``
-
-.. code-block::
-
-    put path/to/local/directory/filename.extension /path/to/remote/directory/newname.extension
-
-
-Before you upload your data, making a new directory to hold the data using ``katiegal_shared\data\raw_reads\new_directory_name``
-It should look something like this
-
-.. code-block::
-
-    mkdir katiegal_shared/data/raw_reads/251204_Plas
-    put C:\Users\ChemeGrad2019\Downloads\4Y5Y7T_fastq.zip katiegal_shared/data/raw_reads/251204_Plas/4Y5Y7T_fastq.zip
-
-Then unzip your files and delete the original zip.
-
-
-
+    ln -s /orcd/data/katiegal/002 katiegal_shared
 
 This creates the directory ``katiegal_shared`` in your cluster home directory.
 
@@ -93,13 +67,16 @@ The relevant folders here are:
 So the next thing to do is to clone your git repo:
 
 .. code-block::
-
     cd ~/katiegal_shared/projects
     git clone https://github.com/GallowayLabMIT/[your_project]
     git config --global --add safe.directory /orcd/data/katiegal/002/projects/[your_project]
 
-A convenient way to organize your project is to add a folder called `cluster` (or similar) in the root directory of your project repo.
+A convenient way to organize your project is to add a folder called ``cluster`` (or similar) in the root directory of your project repo.
 Here, you can add pipelines to run on the cluster separate from the other data analysis (e.g., flow) for your project. 
+
+
+.. warning::
+    Below needs to be updated
 
 TODO: suggested project folder structure
 
@@ -144,6 +121,40 @@ then, symlink data to your project folder
 .. code-block::
 
     ln -s /orcd/data/katiegal/002/data/raw_reads YourPath
+
+
+
+**Uploading RNA-seq data from Plasmidsaurus **
+
+We use ``sftp`` to copy data between servers, either remote (e.g. Engaging cluster) or local (your computer). 
+You can look at `SFTPCloud docs <https://sftpcloud.io/learn/sftp/sftp-put-command>`_ for more info.
+
+For **Plasmidsaurus**, download the fastq.zip file (e.g. "4Y5Y7T_fastq.zip" which contains fastq.gz files). Open a new terminal or PowerShell and run locally:
+
+.. code-block::
+    sftp [your-kerberos]@orcd-login.mit.edu
+
+This connects your local computer to the Engaging cluster. You should see ``katiegal_shared``. 
+Then use ``put`` to upload the sequencing data to ``katiegal_shared\data\raw_reads``
+
+.. code-block::
+    put path/to/local/directory/filename.extension /path/to/remote/directory/newname.extension
+
+
+Before you upload your data, making a new directory to hold the data using ``katiegal_shared\data\raw_reads\new_directory_name``
+It should look something like this
+
+.. code-block::
+    mkdir katiegal_shared/data/raw_reads/251204_Plas
+    put C:\Users\ChemeGrad2019\Downloads\4Y5Y7T_fastq.zip katiegal_shared/data/raw_reads/251204_Plas/4Y5Y7T_fastq.zip
+
+Then unzip your files and delete the original zip.
+
+
+
+
+
+
 
 
 **Run pipeline**
