@@ -17,7 +17,7 @@ This will automatically trigger a new account to be created.
 .. note::
     There may be a delay of a day after creating your account before you can start any jobs. However, you should still be able to log in. 
 
-Confirm you can log in to Engaging via the terminal using `ssh`. Replace `[your-kerberos]` below with your Kerberos ID.
+Confirm you can log in to Engaging via the terminal using ``ssh``. Replace ``[your-kerberos]`` below with your Kerberos ID.
    
 .. code-block::
 
@@ -26,10 +26,10 @@ Confirm you can log in to Engaging via the terminal using `ssh`. Replace `[your-
 This will prompt you for your Kerberos password and Duo authentication.
 
 
-**Add an `ssh` shortcut**
+**Add an ``ssh`` shortcut**
 
-Once you've confirmed that you can log in, create an `ssh` shortcut to the cluster.
-On your computer (not in the cluster), add the following to your config file (`nano ~/.ssh/config`):
+Once you've confirmed that you can log in, create an ``ssh`` shortcut to the cluster. You can look at `MIT ORCD docs SSH key setup <https://orcd-docs.mit.edu/accessing-orcd/ssh-setup/>`_ for more info.
+On your computer (not in the cluster), add the following to your config file using ``nano ~/.ssh/config``:
 
 .. code-block::
 
@@ -46,24 +46,51 @@ While you're at it, add a shortcut to the BioMicro Center cluster. This is where
         HostName bmc-150.mit.edu
         User galloway_ill
 
+.. important::
+    You can't use ``nano`` on Windows. Instead, navigate to the folder directly in the File Explorer and edit your config file with a text editor.
+    To do this, use PowerShell and navigate by ``cd ~/.ssh`` and get the directory path by ``pwd``. Then copy this path into "File Explorer".
+    This might look like ``C:\Users\ChemeGrad2025\.ssh``. Then edit config file with "WordPad" and add in the above.
 
 **Set up folders on Engaging**
 
-On Engaging, we have a shared folder for the lab data. You should create a symlink to this folder within your personal folder.
-To do so, run
+We use ``sftp`` to copy data between servers, either remote (e.g. Engaging cluster) or local (your computer). 
+You can look at `SFTPCloud docs <https://sftpcloud.io/learn/sftp/sftp-put-command>`_ for more info.
+
+For **Plasmidsaurus**, download the fastq.zip file (e.g. "4Y5Y7T_fastq.zip" which contains fastq.gz files). Open a new terminal or PowerShell and run locally:
 
 .. code-block::
 
-    ln -s /orcd/data/katiegal/002 katiegal_shared
+    sftp [your-kerberos]@orcd-login.mit.edu
 
-This creates the directory `katiegal_shared` in your cluster home directory.
+This connects your local computer to the Engaging cluster. You should see ``katiegal_shared``. 
+Then use ``put`` to upload the sequencing data to ``katiegal_shared\data\raw_reads``
+
+.. code-block::
+
+    put path/to/local/directory/filename.extension /path/to/remote/directory/newname.extension
+
+
+Before you upload your data, making a new directory to hold the data using ``katiegal_shared\data\raw_reads\new_directory_name``
+It should look something like this
+
+.. code-block::
+
+    mkdir katiegal_shared/data/raw_reads/251204_Plas
+    put C:\Users\ChemeGrad2019\Downloads\4Y5Y7T_fastq.zip katiegal_shared/data/raw_reads/251204_Plas/4Y5Y7T_fastq.zip
+
+Then unzip your files and delete the original zip.
+
+
+
+
+This creates the directory ``katiegal_shared`` in your cluster home directory.
 
 The relevant folders here are:
 
-- `raw_reads`: where we put all our raw data
-- `projects`: where we clone git repos for analysis pipelines, etc.
+- ``data/raw_reads``: where we put all our raw data
+- ``projects``: where we clone git repos for analysis pipelines, etc.
 
-Next, clone the git repo for your project in the cluster:
+So the next thing to do is to clone your git repo:
 
 .. code-block::
 
@@ -76,33 +103,47 @@ Here, you can add pipelines to run on the cluster separate from the other data a
 
 TODO: suggested project folder structure
 
-- `data`
+`cluster`
+- `data/`
    - `raw`
-- `envs`
-- `inputs`
-- `profiles`
-- `scripts` 
+- `envs/`
+- `inputs/`
+- `profiles/`
+- `scripts/` 
 - `Snakefile`
 - `.gitignore`
 
+cluster
+├── config
+│   ├── samplesheet.csv
+├── data
+│   ├── raw
+├── envs
+│   ├── deseq2.yaml
+│   ├── salmon.yaml
+│   └── trim_reads.yaml
+├── inputs
+│   └── transgenes
+│       ├── transgenes-eGFP.fna
+│       └── transgenes-eGFP.gtf
+├── load_snakemake.sh
+├── profiles
+│   └── default
+│       └── config.yaml
+├── scripts
+│   └── run_deseq2.R
+└── Snakefile 3
 
-Anayzing data on Engaging
-=========================
 
 **Upload data to Engaging**
 
-The most straightforward way to copy your data to the Engaging cluster is to use `sftp`. [add short description with link to sftp docs/manual]
+TODO
 
-TODO: describe how to use get/put commands
-
-The BioMicro Center provides instructions for copying data from their server to your location of choice. [TODO: describe for this use-case]
-
-Then, it is recommended to symlink the data inside your project folder. To do so, run the following, where `[your-path]` is the location where
-you'd like to copy to (e.g., `/orcd/data/katiegal/002/projects/[your_project]/data/raw`).
+then, symlink data to your project folder
 
 .. code-block::
-    
-    ln -s /orcd/data/katiegal/002/data/raw_reads [your-path]
+
+    ln -s /orcd/data/katiegal/002/data/raw_reads YourPath
 
 
 **Run pipeline**
