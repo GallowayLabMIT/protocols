@@ -135,6 +135,7 @@ KOD Xtreme
 This polymerase is very good for amplifying difficult templates (i.e CAG promoter, TFs, GC rich).
 
 Reaction mix:
+
 ======================= ============== ==========================
 Reagent                 Amount (µL)     Notes
 ======================= ============== ==========================
