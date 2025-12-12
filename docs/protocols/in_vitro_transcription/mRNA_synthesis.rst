@@ -18,7 +18,7 @@ workflow has fallen out of favor since the development of CleanCap, as ARCA 1) r
 
 
 IVT reaction
-==========================
+--------------------
 The protocol for IVT is adapted from the `NEB HiScribe protocol <https://www.neb.com/protocols/2021/10/12/mrna-synthesis-protocol-with-modified-nucleotides-using-the-hiscribe-t7-mrna-kit-with-cleancap-reagent-agneb-e2080>`_.
 
 1. Thaw the necessary kit components on ice and microfuge to collect solutions to tube bottoms.
@@ -67,7 +67,7 @@ The protocol for IVT is adapted from the `NEB HiScribe protocol <https://www.neb
 
 
 IVT using MluI-digested pKG3198 (polyA encoded on plasmid)
-===========================================================
+--------------------------------------------------------------
 
 The protocol for IVT is adapted from the `NEB HiScribe protocol <https://www.neb.com/protocols/2021/10/12/mrna-synthesis-protocol-with-modified-nucleotides-using-the-hiscribe-t7-mrna-kit-with-cleancap-reagent-agneb-e2080>`_.
 

@@ -11,24 +11,24 @@ We currently have three harbors (pHAs) for IVT:
 
 
 Creating a new IVT template plasmid
-=========================================
+-------------------------------------
 pKG03198 is compatible with existing pPV2s for BsaI golden gate cloning, as is pKG01864.
 
 If a desired CDS is not available, you can either 1) make a pPV2 or 2) clone directly into pKG01864 via Gibson. If proceeding with option 2, the plasmid backbone can be PCR amplified with the following primers: 
 
     VECTOR-FWD: 5'-ctcgagctcaagcttcgaattcac-3'
-    
+
     VECTOR-REV: 5'-gaccggtagcgtgcttt-3'
 
 
 Generating IVT linear DNA template from an IVT template plasmid
-==================================================================
+-----------------------------------------------------------------
 
 Our IVT platform relies either on MluI digestion (pKG03198 backbone) or on PCR amplification (pKG01864 or pKG01834 backbone) using a universal primer pair and a plasmid harboring the CDS of interest as template to generate the IVT template. 
 The forward and reverse primers bind to the 5' and 3' beta globin UTR, respectively.  The forward and reverse primers also encode the T7 polymerase promoter and the polyA tail, respectively. 
 
 PCR-amplified template
-=======================
+-------------------------
 
 1. If a PCR-generated linear template already exists, skip to step 4. Else, perform a small-scale PCR on a new IVT template to verify desired amplification and product specificity:
 
@@ -57,7 +57,7 @@ PCR-amplified template
 4. Perform the PCR outlined in step 1, substituting the Plasmid Template DNA with the PCR-generated linear template DNA. Scale-up accordingly to generate the amount of linear IVT template needed for your IVT reaction. Store unused linear PCR template in the IVT box and use as needed.  
 
 MluI digested template
-=======================
+------------------------
 
 .. note:: 
   You should get about 1 µg (100 ng/µL, 10 µL) of IVT template using this method which is good for 3 IVT reactions (each IVT gives ~50-60 µg so at 100ng/96-well, this should give modRNA for ~15-18 plates)
