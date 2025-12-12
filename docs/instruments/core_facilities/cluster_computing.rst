@@ -19,11 +19,15 @@ This will automatically trigger a new account to be created.
 
 Confirm you can log in to Engaging via the terminal using ``ssh``. Replace ``[your-kerberos]`` below with your Kerberos ID.
    
-.. code-block::
-    ssh [your-kerberos]@orcd-login.mit.edu
+.. code-block:: console
+
+    $ ssh [your-kerberos]@orcd-login.mit.edu
 
 This will prompt you for your Kerberos password and Duo authentication.
 
+
+First-time setup
+----------------
 
 **Add an ``ssh`` shortcut**
 
@@ -46,22 +50,94 @@ While you're at it, add a shortcut to the BioMicro Center cluster. This is where
 .. important::
     You can't use ``nano`` on Windows. Instead, navigate to the folder directly in the File Explorer and edit your config file with a text editor.
     To do this, use PowerShell and navigate by ``cd ~/.ssh`` and get the directory path by ``pwd``. Then copy this path into "File Explorer".
-    This might look like ``C:\Users\ChemeGrad2025\.ssh``. Then edit config file with "WordPad" and add in the above.
+    This might look like ``C:\Users\ChemeGrad2025\.ssh``. Then edit config file with "Notepad" or with VSCode and add in the above.
 
-**Set up folders on Engaging**
 
-On Engaging, we have a shared folder for the lab data. You should create a symlink to this folder within your personal folder.
-To do so, run
+**Setup the link to the shared data folder**
+
+We have a 20TB shared data folder on the Engaging cluster. It is located at ``/orcd/data/katiegal/002``, which is an
+annoying path to type. Instead, we like to put a link in your home directory, which is the place where you start when you SSH in.
+
+You only have to create this symbolic link (symlink) once. To make the symlink, run:
 
 .. code-block::
-    ln -s /orcd/data/katiegal/002 katiegal_shared
 
-This creates the directory ``katiegal_shared`` in your cluster home directory.
+    $ ln -s /orcd/data/katiegal/002 ~/katiegal_shared
 
 The relevant folders here are:
 
 - ``data/raw_reads``: where we put all our raw data
 - ``projects``: where we clone git repos for analysis pipelines, etc.
+- ``hpc_infra``: infastructure scripts and other useful items.
+
+Per-project setup
+-----------------
+
+.. admonition:: TODO 
+
+    - Talk about setting up SSH key forwarding, and making sure that you use the same SSH key
+      for both Github and Engaging.
+    - Talk about cloning your project repo into ``~/katiegal_shared/projects/``
+    - Talk about creating a ``cluster/data`` folder and symlinking the raw_reads folder in
+
+
+Transferring files
+------------------
+There are two major ways to transfer files: **rclone** for transferring files between Smithsonian or the BMC, and **sftp**
+for transferring files from your local computer.
+
+**rclone**
+``rclone`` is an all-purpose tool for moving files between servers, and especially cloud providers. We have it setup
+with two "remotes":
+
+- ``bmc``: the BioMicroCenter data directory
+- ``smithsonian``: our data storage.
+
+Once per SSH session, you need to activate the rclone module. You do this by running our HPC-infastructure activate
+script and adding the module:
+
+.. code-block:: console
+
+    $ . ~/katiegal_shared/hpc-infra/modules/activate.sh
+    $ module add rclone
+
+Then, you can use ``rclone``. See the `rclone documentation <https://rclone.org/docs/>`__ for more details, but a simple
+copy command between files stored in Smithsonian to the cluster could be:
+
+.. code-block:: console
+
+    $ rclone copy smithsonian:data/NGS/raw_reads/251204_Plasmidsaurus ~/katiegal_shared/data/raw_reads/251204_Plasmidsaurus
+
+This works bidirectionally! You can copy results back into Smithsonian directly.
+
+
+**sftp**
+
+To transfer local files, we use SFTP. On your local computer (not in the cluster), run:
+
+.. code-block:: console
+
+    $ sftp [your-kerberos]@orcd-login.mit.edu
+
+This connects your local computer to the Engaging cluster. You should see ``katiegal_shared``. 
+Then use ``put`` to upload the sequencing data to ``katiegal_shared\data\raw_reads``
+
+.. code-block::
+
+    put path/to/local/directory/filename.extension /path/to/remote/directory/newname.extension
+
+
+Before you upload your data, making a new directory to hold the data using ``katiegal_shared\data\raw_reads\new_directory_name``
+It should look something like this
+
+.. code-block::
+
+    mkdir katiegal_shared/data/raw_reads/251204_Plas
+    put C:\Users\ChemeGrad2019\Downloads\4Y5Y7T_fastq.zip katiegal_shared/data/raw_reads/251204_Plas/4Y5Y7T_fastq.zip
+
+Then unzip your files and delete the original zip.
+
+
 
 .. important::
     We have multiple data folders from the Engaging cluster. Ideally everything should be symlinked into the current folder.
@@ -70,9 +146,10 @@ The relevant folders here are:
 So the next thing to do is to clone your git repo:
 
 .. code-block::
-    cd ~/katiegal_shared/projects
-    git clone https://github.com/GallowayLabMIT/[your_project]
-    git config --global --add safe.directory /orcd/data/katiegal/002/projects/[your_project]
+
+    $ cd ~/katiegal_shared/projects
+    $ git clone https://github.com/GallowayLabMIT/[your_project]
+    $ git config --global --add safe.directory /orcd/data/katiegal/002/projects/[your_project]
 
 A convenient way to organize your project is to add a folder called ``cluster`` (or similar) in the root directory of your project repo.
 Here, you can add pipelines to run on the cluster separate from the other data analysis (e.g., flow) for your project. 
