@@ -4,7 +4,17 @@ Gel electrophoresis and extraction of DNA
 Gel electrophoresis
 -------------------
 
-TODO
+Gel electrophoresis is a technique used to separate DNA fragments by size. DNA is negatively charged, so when an electric field is applied, DNA fragments will migrate towards the positive electrode. Smaller fragments migrate faster than larger ones, allowing for size-based separation.
+
+1. Prepare a 1% agarose gel by mixing 0.5 g of agarose powder with 50 mL of 1X TAE buffer.
+
+.. note::
+    50 mL is needed for a 2 comb gel, whereas 30 mL is sufficient for a 1 comb gel. To detect smaller fragments, higher concentrations of agarose (up to ~3% for ~100 bp fragments) can be used.
+
+2. Heat the mixture in a microwave until the agarose is completely dissolved (~1 min).
+3. Allow the solution to cool slightly before pouring it into a gel casting tray with a comb in place to create wells. 
+4. Let the gel solidify at room temperature for ~30 minutes.
+
 
 .. _gel_extract: 
 

@@ -857,7 +857,7 @@ from the set of changes you want to snapshot.
 
 .. admonition:: Exercise
 
-    1. Edit this file (``docs/bootcamp/iap/git_intro.rst``), adding your name below:
+    1. Edit this file (``docs/training/onboarding/git_intro.rst``), adding your name below:
 
        ::
        
@@ -1243,8 +1243,8 @@ same lines within a file. When this is a case, you will get a scary-looking mess
 .. code-block:: console
 
     $ git pull
-    Auto-merging docs/bootcamp/iap/git_intro.rst
-    CONFLICT (content): Merge conflict in docs/bootcamp/iap/git_intro.rst
+    Auto-merging docs/training/onboarding/git_intro.rst
+    CONFLICT (content): Merge conflict in docs/training/onboarding/git_intro.rst
     Automatic merge failed; fix conflicts and then commit the result.
 
 This long error message is just Git informing you that it could not automatically merge. 
@@ -1262,7 +1262,7 @@ If we run ``git status``, we will get more information on what to do:
 
     Unmerged paths:
     (use "git add <file>..." to mark resolution)
-            both modified:   docs/bootcamp/iap/git_intro.rst
+            both modified:   docs/training/onboarding/git_intro.rst
 
     no changes added to commit (use "git add" and/or "git commit -a")
 
@@ -1275,7 +1275,7 @@ This means that the file now looks like:
 
 ::
 
-        1. Edit this file (``docs/bootcamp/iap/git_intro.rst``), adding your name below:
+        1. Edit this file (``docs/training/onboarding/git_intro.rst``), adding your name below:
 
         ::
         
@@ -1306,7 +1306,7 @@ After we have resolved the conflict, we can finish the commit:
 
 .. code-block:: console
     
-    $ git add docs/bootcamp/iap/git_intro.rst
+    $ git add docs/training/onboarding/git_intro.rst
     $ git commit
 
 
