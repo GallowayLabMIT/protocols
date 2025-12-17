@@ -119,17 +119,17 @@ STRAIGHT-IN Integration Protocol
 | 2    | Tube 2 | OptiMEM                      | 25 µL - DNA volume                           |
 |      |        | DNA                          | 600 ng donor + 400 ng Bxb1 + 400 ng p53DD    |
 +------+--------+------------------------------+----------------------------------------------+
-| 3    |        | Add Tube 2 into Tube 1 and mix well                                         |
+| 3    | Add Tube 2 into Tube 1 and mix well                                                  |
 +------+--------+-----------------------------------------------------------------------------+
-| 4    |        | Incubate 10 minutes at room temperature                                     |
+| 4    | Incubate 10 minutes at room temperature                                              |
 +------+--------+-----------------------------------------------------------------------------+
-| 5    |        | Rinse cells with PBS-/- and add 0.5 mL OptiMEM                              |
+| 5    | Rinse cells with PBS-/- and add 0.5 mL OptiMEM                                       |
 +------+--------+-----------------------------------------------------------------------------+
-| 6    |        | Add 50 µL complex to each well and swirl to distribute                      |
+| 6    | Add 50 µL complex to each well and swirl to distribute                               |
 +------+--------+-----------------------------------------------------------------------------+
-| 7    |        | Incubate 4 hours at 37°C with 5% CO₂                                        |
+| 7    | Incubate 4 hours at 37°C with 5% CO₂                                                 |
 +------+--------+-----------------------------------------------------------------------------+
-| 8    |        | Add 0.5 mL warm StemFlex per well and incubate overnight                    |
+| 8    | Add 0.5 mL warm StemFlex per well and incubate overnight                             |
 +------+--------+-----------------------------------------------------------------------------+
 
 
