@@ -65,6 +65,7 @@ STRAIGHT-IN Integration Protocol
 =================================
 
 **Two Days Before Transfection (d -2)**
+----------------------------------------
 
 1.	Dilute rhLaminin-521 at 1:20 in PBS +/+.
 2.	Add 300 µl per well to a 24-well plate (15 µl rhLaminin-521 + 285 µl PBS +/+).
@@ -72,6 +73,7 @@ STRAIGHT-IN Integration Protocol
   * Alternatively, coat on the day of splitting and incubate for 2 hours at 37°C.
 
 **Day Before Transfection (d -1)**
+------------------------------------
 
 1.	Warm the coated plate at 37 C for 10 minutes.
 2.	Select a hiPSC well that is approximately 80% confluent.
@@ -89,11 +91,11 @@ STRAIGHT-IN Integration Protocol
 13.	Plate cells and distribute evenly by gentle rocking. Incubate at 37°C and 5% CO2.
 
 **Day of Transfection (d0)**
+----------------------------
 
 1.	Confirm cells are approximately 30 to 40% confluent.
   * If too confluent, re-seed.
   * If too sparse, feed and wait until they reach the appropriate density.
-  
 2.	Prepare transfection mixes. Per well:
   * 600 ng Donor plasmid
   * 400 ng eeBxb1 modRNA
@@ -101,19 +103,45 @@ STRAIGHT-IN Integration Protocol
   * 3 µl Lipofectamine Stem reagent
   * Prepare Lipofectamine master mix based on n + 0.5 wells.
   * Add DNA mix to Lipofectamine mix (not the reverse).
-
 3.	Incubate 50 µl Lipofectamine:DNA mix for 10 minutes at room temperature.
 4.	Aspirate StemFlex, rinse once with PBS -/- and add 0.5 mL OptiMEM.
 5.	Add 50 µl transfection mix dropwise and gently shake.
 6.	After 4 hours, add 0.5 mL StemFlex without removing OptiMEM.
 
+**Lipofectamine Stem Transfection Overview (24-well format)**
+
++------+--------+------------------------------+----------------------------------------------+
+| Step | Tube   | Components                   | Amount per Well                               |
++======+========+==============================+==============================================+
+| 1    | Tube 1 | OptiMEM                      | 22 µL                                        |
+|      |        | Lipofectamine Stem Reagent   | 3 µL                                         |
++------+--------+------------------------------+----------------------------------------------+
+| 2    | Tube 2 | OptiMEM                      | 25 µL - DNA volume                           |
+|      |        | DNA                          | 600 ng donor + 400 ng Bxb1 + 400 ng p53DD     |
++------+--------+------------------------------+----------------------------------------------+
+| 3    |        | Add Tube 2 into Tube 1 and mix well                                   |
++------+--------+----------------------------------------------------------------------+
+| 4    |        | Incubate 10 minutes at room temperature                               |
++------+--------+----------------------------------------------------------------------+
+| 5    |        | Rinse cells with PBS-/- and add 0.5 mL OptiMEM                         |
++------+--------+----------------------------------------------------------------------+
+| 6    |        | Add 50 µL complex to each well and swirl to distribute                |
++------+--------+----------------------------------------------------------------------+
+| 7    |        | Incubate 4 hours at 37°C with 5% CO₂                                   |
++------+--------+----------------------------------------------------------------------+
+| 8    |        | Add 0.5 mL warm StemFlex per well and incubate overnight               |
++------+--------+----------------------------------------------------------------------+
+
+
 **One Day After Transfection (d1)**
+------------------------------------
 
 1.	Aspirate media, rinse once with PBS -/-, add 0.5 mL StemFlex.
 2.	Expect some cell death due to plasmid toxicity.
 3.	Assess fluorescence if applicable.
 
 **Two Days After Transfection (d2)**
+---------------------------------------
 
 1.	Begin antibiotic selection if cells are healthy and above 50% confluent.
   * Zeocin 1:6666 for Bxb1 GT
@@ -121,11 +149,13 @@ STRAIGHT-IN Integration Protocol
 2.	Prepare at least 1.5 mL antibiotic medium for multiple refreshments. Keep at 4°C for up to one week.
 
 **Three to Four Days After Transfection (d3 to d4)**
+------------------------------------------------------
 
 1.	Rinse once with PBS -/- and add 0.5 mL antibiotic medium.
 2.	A lot of cell death during selection is expected.
 
 **Five Days After Transfection (d5)**
+-------------------------------------
 
 1.	Look for clear colonies. If present, stop antibiotic selection.
   * Three days of selection are usually sufficient.
@@ -133,6 +163,7 @@ STRAIGHT-IN Integration Protocol
 2.	Replace with 0.5 mL StemFlex without antibiotic.
 
 **Six to Eight Days After Transfection (d6 to d8)**
+------------------------------------------------------
 
 1.	Refresh medium every other day.
 2.	Proceed to the STRAIGHT-IN Excision Protocol.
