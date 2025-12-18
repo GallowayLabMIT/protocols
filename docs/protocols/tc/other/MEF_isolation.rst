@@ -69,11 +69,12 @@ Complete all steps in the BSC in quarantine (66-219) and with separate quarantin
     The pellet will be VERY loose. It is important that you are very careful with your aspiration steps otherwise the pellet will be lost. It is ok to leave a little media on top of the pellet to avoid accidentally aspirating it.
 
 7. Resuspend the pellet in 2 mL of 0.25% Trypsin
-8. Quench with 4 mL of DMEM + 10% FBS.
-9. Place a 40 um strainer over a 50 mL conical. Strain the cell mixture through, using a sterile pestle to help push some of the cells through
-10. Wash the strainer using DMEM + 10% FBS. You may find it useful to pull liquid through the opposite side of the strainer with a P1000
-11. Spin down the strained mixture for 5 minutes at 300-400 g. 
-12. Aspirate supernatant and resuspend the pellet to plate onto 10 cm dishes (~10 mL volume per 10 cm dish)
+8. Quench with 8 mL of DMEM + 10% FBS.
+9. Spin down for 5 minutes at 300-400 g, aspirate the supernatant and resuspend in 2-5 mL of DMEM + 10% FBS.
+10. Place a 40 um strainer over a 50 mL conical. Strain the cell mixture through, using a sterile pestle to help push some of the cells through
+11. Wash the strainer using DMEM + 10% FBS. You may find it useful to pull liquid through the opposite side of the strainer with a P1000
+12. Spin down the strained mixture for 5 minutes at 300-400 g. 
+13. Aspirate supernatant and resuspend the pellet to plate onto 10 cm dishes (~10 mL volume per 10 cm dish)
 
 .. note::
     Be sure to label plates depending on which embryos were chopped together (i.e. for each # you will have 2 dishes)
