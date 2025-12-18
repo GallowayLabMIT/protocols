@@ -68,6 +68,69 @@ Protocol:
    * BAD has seen a drastic reduction in detected protein (especially phosphorylated proteins) after thawing from -80°C for a second time. Only thaw an aliquot from -80°C once.
 
 
+Lysis for phosphatase treatment
+-------------------------------
+
+.. note:: This protocol for phosphatase treatment of cell lysate requires further troubleshooting.
+
+In the normal RIPA or CST Lysis Buffer, the Na3VO4 (Sodium Orthovanadate) and EDTA components can inhibit lambda protein phosphatase (NEB #P0753).
+Therefore, a different lysis buffer lacking these components is required.
+
+Lambda Phosphatase-compatible lysis buffer:
+
+1 M Tris-HCl stock solution, adjust to pH7.5
+=========   ===================  =============
+Component   Final concentration  Amount Needed
+=========   ===================  =============
+Tris-HCl      1M                  0.394 g
+DI Water                          2.5 mL
+=========   ===================  =============
+
+5 M NaCl stock solution
+=========   ===================  =============
+Component   Final concentration  Amount Needed
+=========   ===================  =============
+NaCl          5M                  0.731 g
+DI Water                          2.5 mL
+=========   ===================  =============
+
+200 mM (200x) DTT (dithiothreitol) stock solution (aliquot at store at -20°C)
+=========   ===================  =============
+Component   Final concentration  Amount Needed
+=========   ===================  =============
+DTT          200 mM               25 mg
+DI Water                          810 µL
+=========   ===================  =============
+
+
+Lysis Buffer (aliquot and store at -20°C)
+============   ===================  =============
+Component      Final concentration  Amount Needed
+============   ===================  =============
+1M Tris-HCl       50 mM               250 µL
+5M NaCl           150 mM              150 µL
+Triton X-100      1%                  50 µL
+DI Water                              To 5 mL
+============   ===================  =============
+
+Right before use add 200x DTT and 200x PMSF to this lysis buffer. Lyse cells following above protocol.
+
+
+Phosphatase Treatment
+---------------------
+
+1. After measuring protein concentration using Bradfor Assay (see protocol below), dilute samples to equal concentration using the phosphatase-compatible lysis buffer with PMSF and DTT.
+2. To each sample, add 10x buffer for PMP and 10x MnCL2 to reach a 1x concentration.
+3. Split each sample into 2 equal volumes: 1 for non-treated, 1 for phosphatase treated.
+4. Add phosphatase to reach ~16 U/µL (stock from NEB is 400 U/µL) in samples designated for phosphatase treatment.
+5. Incubate for 30 minutes at 30°C.
+6. Mix 1:1 with laemelli buffer.
+7. Incubate for 5 minutes at 95°C for 5 minutes to denature proteins.
+8. Continue on to loading and running the gel protocol as usual.
+
+.. note:: Verify the protocol worked by blotting for a phosphorylated protein (such as ppERK) and comparing the - and + phosphatase samples.
+
+
 
 Bradford Assay
 ==============
@@ -612,7 +675,7 @@ Staining Procedure
 4. Wash the membrane 3 times for 10 minutes each in TBST using agitation to remove any unbound primary antibody.
 5. Incubate blot with 4 mL/10 cm of secondary antibody HRP-conjugate at a 1:10,000 dilution (or at the manufacturer’s recommended dilution) for 30 minutes to 1 hour at room temperature using agitation. (NW does 1 hr at RT)
 
-   .. note:: BAD recommends starting with 1:20k for 1°Ab and 1:50k for 2°Ab. BAD uses 1:50k for both 1° and 2° for beta-actin.
+   .. note:: BAD recommends starting with 1:20k for 1°Ab and 1:50k for 2°Ab. BAD uses 1:50k for both 1° and 2° for beta-actin. This is because the SuperSignal West Femto Substrate works better with very diluted antibodies.
 
 6. Wash the membrane 6 times for 5 minutes each in TBST to remove any unbound secondary antibody conjugate. It is crucial to thoroughly wash the membrane after incubation with the HRP enzyme conjugate.
 7. Prepare the `SuperSignal West Femto Substrate <https://www.thermofisher.com/order/catalog/product/34094>`_ working solution by mixing equal parts of the Substrate and Stable Peroxide components
