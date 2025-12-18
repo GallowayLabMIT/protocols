@@ -44,6 +44,11 @@ Proceed with all steps in quarantine (66-219) and use autoclaved surgery tools f
     You will need to return the carcasses to the mouse facility and place them in the freezer in the surgery room. Ensure that all carcasses are double bagged and one bag labeled with PI last name.
 
 
+.. figure:: img/isolation_1.jpg
+
+.. figure:: img/isolation_2.jpg
+
+
 Embryo processing
 -----------------
 
@@ -72,6 +77,8 @@ Complete all steps in the BSC in quarantine (66-219) and with separate quarantin
 
 .. note::
     Be sure to label plates depending on which embryos were chopped together (i.e. for each # you will have 2 dishes)
+
+.. figure:: img/isolation_3.jpg
 
 
 Maintenance, freezing and testing protocols
