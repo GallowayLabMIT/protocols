@@ -113,10 +113,10 @@ STRAIGHT-IN Integration Protocol
 +------+--------+------------------------------+----------------------------------------------+
 | Step | Tube   | Components                   | Amount per Well                              |
 +======+========+==============================+==============================================+
-| 1    | Tube 1 | OptiMEM                      | 22 µL                                        |
+| 1    | Tube 1 | OptiMEM   \                  | 22 µL   \                                    |
 |      |        | Lipofectamine Stem Reagent   | 3 µL                                         |
 +------+--------+------------------------------+----------------------------------------------+
-| 2    | Tube 2 | OptiMEM                      | 25 µL - DNA volume                           |
+| 2    | Tube 2 | OptiMEM      \               | 25 µL - DNA volume \                         |
 |      |        | DNA                          | 600 ng donor + 400 ng Bxb1 + 400 ng p53DD    |
 +------+--------+------------------------------+----------------------------------------------+
 | 3    | Add Tube 2 into Tube 1 and mix well                                                  |
@@ -152,14 +152,20 @@ STRAIGHT-IN Integration Protocol
 ------------------------------------------------------
 
 1.	Rinse once with PBS -/- and add 0.5 mL antibiotic medium.
-2.	A lot of cell death during selection is expected.
+
+.. note::
+    A lot of cell death during selection is expected.
+
 
 **Five Days After Transfection (d5)**
 -------------------------------------
 
 1.	Look for clear colonies. If present, stop antibiotic selection.
+
+.. note::
   * Three days of selection are usually sufficient.
   * Include a negative control lacking eeBxb1 and p53DD to confirm full lethality.
+
 2.	Replace with 0.5 mL StemFlex without antibiotic.
 
 **Six to Eight Days After Transfection (d6 to d8)**

@@ -120,12 +120,15 @@ In the lab we use mouse embryonic fibroblasts (MEFs) to assess our direct conver
 to set up timed matings to ensure we isolate embryos on these specific days during gestation. How to set up timed matings:
 
 * Contact our vet tech (Yinghui Ning, yhning@mit.edu) to schedule timed matings. Reach out the week before you want to the matings set up. Provide how many mice you would like to plug (become pregnant) and the pairings you would like. (ex. Hb9+ male w/ WT female)
-* Yinghui will send an email regarding how many mice plugged. The day the mice were separated and a plug was found is day E0.5.
-* Send a message in the mef_isolation channel with the isolation days (E13.5 or E14.5) and people responsible.
+* Yinghui will send an email regarding how many mice plugged. The day the mice were separated and a plug is found is day E0.5
+* Send a message in the mef_isolation channel with the isolation days (E13.5 or E14.5) and people responsible
 * The day before the isolation, check to see if the mice are pregnant. Send updates in the mef_isolation channel.
 * If mice do not appear pregnant, leave the cage and email Yinghui to let her know.
 
 Below is an example of a message in the mef_isolation channel. The schedule can be found `here <https://mitprod.sharepoint.com/:x:/s/GallowayLab/Eaa1DDMFM65IsCM5oHc59DUBvyd7G7xggmkQJ7QRqa_RPg?e=eNfced>`_
 
 .. figure:: img/isolation.png
+
+
+
 

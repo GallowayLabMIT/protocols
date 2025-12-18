@@ -6,8 +6,10 @@ In reprogramming, we use transgenic mouse reporter lines to easily assess reprog
 that we use for reprogramming purposes. From these lines we mainly isolate mouse embryonic fibroblasts on day E13.5 to E14.5. The mouse colony manager sets up timed matings as we need and assigns
 people to take charge of the isolation and other downstream needs.
 
-Isolation procotol
+Isolation protocol
 ===================
+
+The isolation and embryo processing is done by the two primary people on the MEF isolation. They may also help out with the passaging, freezing and myco testing as needed.
 
 .. note::
 
@@ -24,19 +26,22 @@ Retrieving the mice
 Embryo isolation
 -----------------
 
-Procede with all steps in quarantine (66-219) and use autoclaved surgery tools from the metal case. Prepare 10 cm dishes with some sterile PBS in them (usually 3 per mouse).
+Proceed with all steps in quarantine (66-219) and use autoclaved surgery tools from the metal case. Prepare 10 cm dishes with some sterile PBS in them (usually 3 per mouse).
 
 
 1. Remove mice from the bag and place onto paper towels
 2. Heavily spray mice with 70% ethanol and make a "Y" cut along the abdomen. Be careful not to cut the intestines
-3. If the mouse is pregnant, pull the uterus with the embyros forward. Heavily ethanol the mouse again.
+3. If the mouse is pregnant, pull the uterus with the embryos forward. Heavily ethanol the mouse again.
 4. Carefully cut away the uterus from the mouse and place it into a 10 cm dish with PBS. 
 5. Once the uterus is removed, place the mouse back into the clear plastic bag.
 6. Carefully cut the embryos out of the uterine lining. The embryos will still be incased in a smaller sac once removed from the lining. Place them in a separate 10 cm dish.
 7. Using scissors or sharper tweezers, remove the final lining around the embryos. 
-8. If isolating Hb9::GFP embryos, use the blue laser and plastic shield to identify GFP+ embyros. Place the embryos (based on transgenic/NT) into separate 10 cm dishes.
+8. If isolating Hb9::GFP embryos, use the blue laser and plastic shield to identify GFP+ embryos. Place the embryos (based on transgenic/NT) into separate 10 cm dishes.
 9. Place the dish with the embryos under the dissection microscope. Using 2 pairs of tweezers, carefully remove the head of the embryo and remove all the red insides, leaving behind a "skin suit".
 10. Place 2 "skin suits" in one 10 cm dish (with NO PBS) and proceed to downstream processing steps in the hood.
+
+.. note::
+    You will need to return the carcasses to the mouse facility and place them in the freezer in the surgery room. Ensure that all carcasses are double bagged and one bag labeled with PI last name.
 
 
 Embryo processing
@@ -58,21 +63,28 @@ Complete all steps in the BSC in quarantine (66-219) and with separate quarantin
 .. note::
     The pellet will be VERY loose. It is important that you are very careful with your aspiration steps otherwise the pellet will be lost. It is ok to leave a little media on top of the pellet to avoid accidentally aspirating it.
 
-6. Resuspend the pellet in 2 mL of 0.25% Trypsin
-7. Quench with 4 mL of DMEM + 10% FBS.
-8. Place a 40 um strainer over a 50 mL conical. Strain the cell mixture through, using a sterile pestle to help push some of the cells through
-9. Wash the strainer using DMEM + 10% FBS. You may find it useful to pull liquid through the opposite side of the strainer with a P1000
-10. Spin down the strained mixture for 5 minutes at 300-400 g. 
-11. Aspirate supernatant and resuspend the pellet to plate onto 10 cm dishes (~10 mL volume per 10 cm dish)
+7. Resuspend the pellet in 2 mL of 0.25% Trypsin
+8. Quench with 4 mL of DMEM + 10% FBS.
+9. Place a 40 um strainer over a 50 mL conical. Strain the cell mixture through, using a sterile pestle to help push some of the cells through
+10. Wash the strainer using DMEM + 10% FBS. You may find it useful to pull liquid through the opposite side of the strainer with a P1000
+11. Spin down the strained mixture for 5 minutes at 300-400 g. 
+12. Aspirate supernatant and resuspend the pellet to plate onto 10 cm dishes (~10 mL volume per 10 cm dish)
 
 .. note::
-    Be sure to label plates depending on which embryos were chopped together (i.e. you will have 2 dishes per each #)
+    Be sure to label plates depending on which embryos were chopped together (i.e. for each # you will have 2 dishes)
+
+
+Maintenance, freezing and testing protocols
+-------------------------------------
+
+The passaging, freezing and myco testing as usually done by the two secondary people on the isolation. This is to help reduce the amount of time one person spends in the hood per isolation.
+The primary people may also help with these tasks as needed.
 
 
 Passaging MEFs
 ---------------
 
-MEFs will need to passaged once they reach ~80% confluency. Depending on the isolation, certain plates may be ready to passage earlier or later than others.
+MEFs will need to passaged once they reach ~80% confluency (about 3-4 days). Depending on the isolation, certain plates may be ready to passage earlier or later than others.
 
 1. Gelatin coat the required number of 10 cm dishes (three 10 cm dishes per one original 10 cm dish) AND a 24-well plate for myco testing
 2. Aspirate media from dishes
@@ -83,15 +95,15 @@ MEFs will need to passaged once they reach ~80% confluency. Depending on the iso
 .. note::
     When passaging you may combine cells that were chopped together to use less tubes
 
-5. Transfer cells to a 15 mL or 50 mL conical and spin down for 5 minutes at 300-400 g
-6. Aspirate supernatant and resuspend pellet in DMEM + 10% FBS
-7. Before plating cells on 10 cm dishes, take a small amount of the cell suspension and transfer it to a 24-well for myco testing. Make sure there is at least 0.7 mL of media in the well.
-8. Distribute one embryo to three 10 cm plates
+6. Transfer cells to a 15 mL or 50 mL conical and spin down for 5 minutes at 300-400 g
+7. Aspirate supernatant and resuspend pellet in DMEM + 10% FBS
+8. Before plating cells on 10 cm dishes, take a small amount of the cell suspension and transfer it to a 24-well for myco testing. Make sure there is at least 0.7 mL of media in the well.
+9. Distribute one embryo to three 10 cm plates
 
 Freezing MEFs
 --------------
 
-MEFs will need to be frozen once they reach ~80% confluency. Be sure to print labels for the cryovials before proceeding.
+MEFs will need to be frozen once they reach ~80% confluency (about 3-4 days since passage). Be sure to print labels for the cryovials before proceeding.
 
 1. Aspirate media from dishes
 2. Wash plates once with sterile PBS
@@ -106,19 +118,25 @@ MEFs will need to be frozen once they reach ~80% confluency. Be sure to print la
 Myco testing MEFs
 --------------------
 
-Myco testing for the MEFs is done according to this procedure. Always add additional media back onto the cells in case they need to be retested. 
+Myco testing for the MEFs is done according to this procedure. Always add additional media (more than 0.5 mL) back onto the cells in case they need to be retested. 
 
-If MEFs come back negative complete the following steps:
+**If MEFs come back negative:**
 
-1. Move cyrovials from the "Waiting for myco" box to the correct boxes in the small liquid nitrogen tank
-2. Write tube names, initials, and date from the tubes on the MEF stock tracker along with the number of vials added
-3. Discard the myco plate
+1. Negative is defined as a score less than 1
+2. Move cyrovials from the "Waiting for myco" box to the correct boxes in the small liquid nitrogen tank
+3. Write tube names, initials, and date from the tubes on the MEF stock tracker along with the number of vials added
+4. Discard the myco plate
 
-If MEFs come back borderline:
+**If MEFs come back borderline:**
 
-1. Re-test for myco the next week.
-2. If still borderline, bleach vials.
+1. Borderline is defined as a score between 1 and 1.2
+2. Re-test for myco the next week.
+3. If still borderline, bleach vials and discard the myco plate
 
-IF MEFs come back positive:
+**If MEFs come back positive:**
 
-1. Bleach all vials and discard the myco plate.
+1. Positive is defined as a score above 1.2
+2. Bleach all vials and discard the myco plate.
+   
+.. note::
+    Myco testing at the Koch is relatively expensive ($70 per sample), so we usually only test the MEFs once or twice. We should soon be able to do our own myco testing in lab for $10 per sample
