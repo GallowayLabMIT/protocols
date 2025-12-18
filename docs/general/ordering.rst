@@ -3,7 +3,7 @@ Ordering
 ====================================
 
 .. important::
-    Check with Katie which cost object to use if you are unsure. Too many changes can trigger an audit unnecessarily. 
+    Check with Katie which cost object to use if you are unsure. Too many charges can trigger an audit unnecessarily. 
 
 There are several ways to order/request new lab reagents. For all lab reagents, materials, etc., be sure to enter the information in Quartzy so that inventory can be tracked.
 (This excludes oligos, Addgene plasmids, and most Amazon items for the office.)
