@@ -1,6 +1,7 @@
-======================
+==================
 Cluster Computing
-======================
+==================
+
 
 MIT houses several computing clusters that are available for the lab to use. As of 2025, we use the Engaging cluster, though this may change in the future.
 
@@ -163,7 +164,7 @@ Check to make sure it's set up correctly:
 1. Log into Engaging cluster using ``ssh engaging`` and sign in
 2. On the Engaging cluster, test to see if the SSH key is set up and working again with Github by entering ``ssh -T git@github.com`` in the terminal. Like before, if successful it should say ``Hi USERNAME! You've successfully authenticated, but GitHub does not provide shell access.``
 
-If it's not working, check `GitHub docs "Using SSH agent forwarding: Troubleshooting SSH agent forward" <https://docs.github.com/en/authentication/connecting-to-github-with-ssh/using-ssh-agent-forwarding#troubleshooting-ssh-agent-forwarding`_ .
+If it's not working, check `GitHub docs "Using SSH agent forwarding: Troubleshooting SSH agent forward" <https://docs.github.com/en/authentication/connecting-to-github-with-ssh/using-ssh-agent-forwarding#troubleshooting-ssh-agent-forwarding>`_.
 for more tips.
 
 Per-project setup
@@ -279,7 +280,7 @@ script and adding the module:
     $ . ~/katiegal_shared/hpc-infra/modules/activate.sh
     $ module add rclone
 
-Then, you can use ``rclone``. See the `rclone documentation <https://rclone.org/docs/>`__ for more details, but a simple
+Then, you can use ``rclone``. See the `rclone documentation <https://rclone.org/docs/>`_ for more details, but a simple
 copy command between files stored in Smithsonian to the cluster could be:
 
 .. code-block:: console
@@ -382,7 +383,7 @@ then, symlink data to your project folder
 
 
 
-**Uploading RNA-seq data from Plasmidsaurus **
+**Uploading RNA-seq data from Plasmidsaurus**
 
 We use ``sftp`` to copy data between servers, either remote (e.g. Engaging cluster) or local (your computer). 
 You can look at `SFTPCloud docs <https://sftpcloud.io/learn/sftp/sftp-put-command>`_ for more info.
@@ -390,12 +391,16 @@ You can look at `SFTPCloud docs <https://sftpcloud.io/learn/sftp/sftp-put-comman
 For **Plasmidsaurus**, download the fastq.zip file (e.g. "4Y5Y7T_fastq.zip" which contains fastq.gz files). Open a new terminal or PowerShell and run locally:
 
 .. code-block::
+
     sftp [your-kerberos]@orcd-login.mit.edu
+
+
 
 This connects your local computer to the Engaging cluster. You should see ``katiegal_shared``. 
 Then use ``put`` to upload the sequencing data to ``katiegal_shared\data\raw_reads``
 
 .. code-block::
+
     put path/to/local/directory/filename.extension /path/to/remote/directory/newname.extension
 
 
@@ -403,6 +408,7 @@ Before you upload your data, making a new directory to hold the data using ``kat
 It should look something like this
 
 .. code-block::
+
     mkdir katiegal_shared/data/raw_reads/251204_Plas
     put C:\Users\ChemeGrad2019\Downloads\4Y5Y7T_fastq.zip katiegal_shared/data/raw_reads/251204_Plas/4Y5Y7T_fastq.zip
 
@@ -428,9 +434,12 @@ TODO (KL has notes)
 
 
 KL notes
-========
+--------
 
-### Run pipeline
+
+
+**Run pipeline**
+
 - in your project folder, do `git pull` to confirm you are up-to-date
 - do `tmux new` to activate a [terminal multiplexer](https://github.com/tmux/tmux/wiki)
 	- this will keep things running in the background even if you close your computer
