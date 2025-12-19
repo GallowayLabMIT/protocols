@@ -2,8 +2,25 @@
 Koch Flow Core FACS Training
 ============================
 
-Overview
---------
+Sorting Machines
+----------------
+
+There are currently two types of FACS machines available at the Koch Flow Core.
+
+1.  Sony MA-900 (recommended)
+
+     * Easy to use.
+     * Doesn’t require extra training on an analyzer.
+     * However, the green + red lasers and the blue + far-red lasers are collinear (not spatially separated), meaning if you want to use green with red or blue with far-red at the same time, you will want to learn how to use the compensation wizard.
+
+2.  Aria
+
+     * You need to be trained on an analyzer first, then you can be trained on the Aria.
+     * However, lasers are spatially separated like on the Attune.
+
+
+Training
+========
 
 You will need to do several meetings and trainings before you can use the flow core independently, expect it to take a few weeks to get fully trained. The main steps are:
 
@@ -13,25 +30,9 @@ You will need to do several meetings and trainings before you can use the flow c
 4.	2-hour flow sort training (you need to bring your own samples)
 5.	1-hour flow sort with supervision (this can be part of an experiment)
 
-Sorting Machines
-----------------
 
-There are currently two types of FACS machines available at the Koch Flow Core.
-
-1.  Sony MA-900 (recommended)
-
-     *	Easy to use.
-     *	Doesn’t require extra training on an analyzer.
-     *	However, the green + red lasers and the blue + far-red lasers are collinear (not spatially separated), meaning if you want to use green with red or blue with far-red at the same time, you will want to learn how to use the compensation wizard.
-
-
-2.	Aria
-
-     * 	You need to be trained on an analyzer first, then you can be trained on the Aria.
-     *	However, lasers are spatially separated like on the Attune.
-
-Steps to get trained
---------------------
+Training Details
+~~~~~~~~~~~~~~~~
 
 .. note::
     Much of this training information is also on iLabs or you will hear about it during your consultation meeting with Glenn.
@@ -71,12 +72,12 @@ Steps to get trained
      * If you need to do a longer sort for an experiment, you could sign up for the 1-hour assisted use, then separately sign up for more time immediately after to finish your sort.
 
 Sony MA-900
-============
+-----------
 
 The Sony MA900 cell sorter has a `SOP <https://docs.google.com/document/d/1toqMY_qnDy0_YDkcEr2ktDJWcteKe0Pj42_scukqT5s/edit>`__ that you can follow for startup and shutdown.
 
 Startup
---------
+~~~~~~~
 
 You only need to start up the Sony if you want to use it over the weekend, on holidays, or outside of normal hours.
 During the week, core staff will do the start up in the morning.
@@ -120,7 +121,7 @@ The Sony is generally very easy to startup once you've seen how to; you mostly f
      * You don’t need to include startup time when signing up to sort on weekends/holidays (e.g. don’t pay for startup time).
 
 Sample Prep and Sorting
------------------------
+~~~~~~~~~~~~~~~~~~~~~~~
 
 1. Get ice. Keep your samples on ice as much as possible after dissociation.
 2. Dissociate cells using appropriate method. Centrifuge the cells to pellet them.
@@ -185,34 +186,34 @@ Sample Prep and Sorting
      * Increasing sample pressure can decrease sort efficiency. Aim for a sort efficiency of 80% or greater.
 
 .. warning::
-    Watch out for if the event rate suddenly drops quickly. This can mean the tube is close to running dry which can damage the machine.
+    Watch out for the event rate suddenly dropping quickly. This can mean the tube is close to running dry which can damage the machine.
 
     Always keep an eye on sample volume!
 
-15. If you did not set a stop condition for the sort, once you have sorted the desired number of cells, click Stop.
-16. If you have more samples to sort, click **Next Tube** to create a new sample. You can rename each sample to reflect your condition name.
-17. After you have sorted all your samples:
+1.  If you did not set a stop condition for the sort, once you have sorted the desired number of cells, click Stop.
+2.  If you have more samples to sort, click **Next Tube** to create a new sample. You can rename each sample to reflect your condition name.
+3.  After you have sorted all your samples:
     
      a. If there is a user signed up after you, run **Bleach Cleaning** (~6 min) and then **DI Rinse** (~6 min) and follow the software's prompts for each step.
         You don't have to stay while the DI Rinse if there is another user after you.
      b. If you are the last user of the day, from the **Cytometer** tab, select **Hardware and Software Shutdown** to start the cleaning wizard.
         Follow the prompts to complete the Bleach Cleaning and DI Rinse. Then select Shutdown to turn off the instrument.
 
-18. Export your FCS files to the computer. There should be a data folder on the desktop with a folder for each month of the year, and you can add a folder with your name for the month.
+4.  Export your FCS files to the computer. There should be a data folder on the desktop with a folder for each month of the year, and you can add a folder with your name for the month.
 
-     * Right-click on the experiment (at the top of all the tube names) and select Export as FCS Files.
-     * A PDF of the experiment layout can be saved by clicking Custom Print (in Worksheet Tools ribbon).
-     * To export the entire experiment, go to File > Database, then click on the experiment you want to export, then on the arrows to move it to the export window on the right.
+     * Right-click on the experiment (at the top of all the tube names) and select **Export as FCS Files**.
+     * A PDF of the experiment layout can be saved by clicking **Custom Print** (in **Worksheet Tools** ribbon).
+     * To export the entire experiment, go to **File** > **Database**, then click on the experiment you want to export, then on the arrows to move it to the export window on the right.
        This will save the data, plots, and gates into one file.
 
-19. Optionally, save your workspace as a template for future experiments.
-20. Login and then upload your data and/or template to the Galloway Lab Onedrive under instruments/data/koch_flow_core.
+5.  Optionally, save your workspace as a template for future experiments.
+6.  Login and then upload your data and/or template to the Galloway Lab Onedrive under instruments/data/koch_flow_core.
 
 .. note::
-    * Each droplet is 1 nL, and you have 2 droplets per sorted cell. (e.g. 100k sorted cells = ~200 uL)
+    * Each droplet is 1 nL, and you have 2 droplets per sorted cell. (e.g. 100k sorted cells = ~200 µL)
     * Sorting at 5k cells / sec is a safe rate, but you will lose more cells the more you put through.
     * You want your BSA or FBS to be at least 20-30% of the final volume after sorting.
-      For example, if you want to sort 300k events, the sorted volume will be ~600 uL, and therefore you want to put ~200-300 uL of BSA or FBS into your collection tube.
+      For example, if you want to sort 300k events, the sorted volume will be ~600 µL, and therefore you want to put ~200-300 µL of BSA or FBS into your collection tube.
     * Don't use a larger collection tube than needed. You can lose cells on the sides of your tube.
     * Leave 1-2 cm at the top of the collection tube to reduce cell loss.
     * The Sony can keep your sample and collection tubes cold, just remember to turn on that feature.
@@ -235,7 +236,8 @@ Sample Prep and Sorting
     6. Add on extra time for setting up the workspace, setting voltages and gates, swapping samples, the final Bleach Cleaning and DI Rinse steps, and exporting your data.
 
 Shutdown
----------
+~~~~~~~~
+
 Follow the shutdown SOP, with the exception that on step 7 ("Turn off the air compressor and blue switch on the air-line"), 
 do **not** turn off the blue switch on the air-line, 
 and turn off the air compressor by turning off the power strip that is below you to the left, when sitting at the computer. 
