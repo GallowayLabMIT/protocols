@@ -21,7 +21,7 @@ In lab, we currently have primers and probes (assays) for the following targets:
     +----------+---------------------------------+
     | Probe    | Target                          |
     +==========+=================================+
-    | HEX      | *RPP30* -- human reference gene |
+    | HEX      | *RPP30* (human reference gene)  |
     +----------+---------------------------------+
     | FAM      | *mRuby2*, *mScarletI*           |
     |          +---------------------------------+
@@ -42,7 +42,7 @@ Protocol
 2. Obtain 20X assay mixes that include a probe and matching primer set.
    
    We make these in 100 µL aliquots, which is enough for ~90 reactions.
-   They are stored in A.B.A.'s rack in Olaf (-20ºC) and should be thawed on ice.
+   They are stored in the shared ddPCR box in Olaf (-20ºC) and should be thawed on ice.
 
     **20X Assay Mix**:
 
@@ -61,7 +61,7 @@ Protocol
    We prepare 22 µL per condition so that 20 µL can be easily loaded into the machine without bubbles.
    The following table shows amounts for one reaction and for 8.8 reactions (a full set plus extra), which is useful for making a master mix for 8 samples.
    The 2X ddPCR Supermix is the `ddPCR Supermix for Probes (no dUTP) <https://www.bio-rad.com/en-us/life-science/digital-pcr/digital-pcr-supermixes/ddpcr-supermix-for-probes-no-dutp>`_ 
-   from BioRad.
+   from BioRad, and is stored in Sven (-20ºC).
 
     **Reaction Mix**:
 
@@ -87,8 +87,8 @@ Protocol
 5. Turn on the plate sealer to allow it to come to temp. Remove the large block from the machine first.
 6. Load the cartridge for creating droplets:
    
-   1. Pipet 20 µL of each reaction into the wells in the middle channel of the cartridge, ensuring there are no bubbles. For unused wells, add 20 µL [1x ddPCR buffer? water?].
-   2. Pipet 70 µL Droplet Generation Oil per well into the bottom channel of the cartridge.
+   1. Pipet 20 µL of each reaction into the wells in the middle channel of the cartridge, ensuring there are no bubbles. For unused wells, add 20 µL water.
+   2. Pipet 70 µL Droplet Generation Oil per well into the bottom channel of the cartridge. For wells corresponding to those without sample, you can add water rather than oil.
    3. Place the cartridge into the white holder and cover it with the gasket (stretchy rust-colored material), being careful not to spill.
    4. Load the cartridge into the QX200 Droplet Generator machine (see picture). When loaded correctly, the middle green light will turn on.
    
@@ -103,7 +103,7 @@ Protocol
    If you have more than 8 reactions, repeat the droplet generation steps with additional, fresh cartridges.
 8. Transfer the droplets from the cartridge to a 96-well plate. 
 
-   - Pipet up the entire well volume (70 µL) from the [middle?] channel of the cartridge. Place your pipette tip at the center-bottom of the well to ensure you get the full volume.
+   - Pipet up the entire well volume (70 µL) from the top channel of the cartridge. Place your pipette tip at the center-bottom of the well to ensure you get the full volume.
    - Dispense the droplets into a well of the 96-well plate, going slowly to not disturb the droplets. Place your pipette tip on the side of the well when dispensing, and avoid bubbles as usual (though this is not critical at this step).
    - Tip: Transfer droplets from one cartridge into one column of the 96-well plate for easy plate layouts.
    - Tip: Leave the cartridge in the white holder while pipetting. After transfer to the 96-well plate is complete, you can throw away the cartridge.
@@ -117,7 +117,7 @@ Protocol
 
       ddPCR Plate Sealer with block, plate, and foil ready to run.
 
-10. Load the sealed plate in the thermocycler and run the `ddPCR_DEMO` protocol. This takes ~2 hours to run.
+10. Load the sealed plate in the thermocycler and run the ``ddPCR_DEMO`` protocol. This takes ~2 hours to run.
 
 .. note::
    After running the ddPCR reaction in the thermocycler, the plate can be stored at 4ºC for up to a few days before analysis. Typically, however, we run the analysis on the same day.
@@ -132,52 +132,56 @@ Analyze the droplets using the QX200 Droplet Reader:
       :align: center
       :width: 60%
 
-13. Open the QX Manager software (username: admin, Password: on post-it on computer)
+      Loading the plate into the Droplet Reader.
 
-14. If the three green lights on the front the of machine are green, you are ready to start a new experiment by selecting the plate icon button in the top left. 
+13. Open the QX Manager software (username: admin, password: on post-it on computer)
+
+14. If the three lights on the front the of machine are green, you are ready to start a new experiment by selecting the plate icon button in the top left. 
    
-  .. figure:: img/ddPCR_mahcine_light_check.jpg
+   .. figure:: img/ddPCR_machine_light_check.jpg
       :align: center
-      :width: 60%
+      :width: 40%
 
-15. Fill out the three input tabs for experimental information
+15. Fill out the three input tabs for experimental information:
 
       1. Plate information
 
-          - Create a plate/experiment name
-  
-          - IMPORTANT: select "ddPCR Supermix for Probes (No dUTP)" for Supermix
-  
-          - Select to acquire wells by columns or rows
+         - Create a plate/experiment name
+         - IMPORTANT: select "ddPCR Supermix for Probes (No dUTP)" for Supermix
+         - Select to acquire wells by columns or rows
 
       2. Well selection 
 
+         - Select wells to analyze
+
       3. Well information
 
-           - Select Experiment type (for this example a Copy Number Analysis was selected)
+         - Select "Experiment type" (for this example a Copy Number Analysis was selected)
+         - Input "Sample Description" for each well for easier identification
+         - Input target information for each well (the dye and gene for the probe); multiple wells can be selected if the targets are shared
   
-           - Input Sample Description for each well for easier identification
-  
-           - Input target information for each well (multiple wells can be selected if the targets are shared)
-             In this example, we were interested in mRuby2 copy number in hiPSCs with RPP30 as a reference gene. We use the HEX probe in Channel2 for RPP30 (with 2 copies in the genome) and the FAM probe in Channel 1 for the mRuby2. 
+      In this example, we were interested in *mRuby2* copy number in hiPSCs with *RPP30* as a reference gene. We use the HEX probe in Channel 2 for *RPP30* (with 2 copies in the genome) and the FAM probe in Channel 1 for *mRuby2*. 
 
   .. figure:: img/ddPCR_wellinfo_example.jpg
       :align: center
-      :width: 60%
+      :width: 80%
 
-1.  Run the experiment. The machine will take ~10 minutes to analyze 8 wells. 
+      Example inputting sample target information in software.
+
+16.   Run the experiment. The machine will take ~10 minutes to analyze 8 wells. 
 
 .. note::
-   A live analysis window can be opened to monitor the progress. It can be helpful to watch the "Event Count" aka the number of droplets analyzed. 
-   We are targeting >10,000 droplets per well to ensure sufficient droplet generation and good data qualilty.
+   A live analysis window can be opened to monitor the progress. It can be helpful to watch the "Event Count", i.e., the number of droplets analyzed. 
+   We are targeting >10,000 droplets per well to ensure sufficient droplet generation and good data quality.
 
-17. The experiment data will be automatically saved to the "ddPCR data" file on the computer. Copy your `.ddpcr` file to a flashdrive and transfer the file to the lab data folder at `instruments/data/Weiss.lab.ddPCR`.
+17. The experiment data will be automatically saved to the "ddPCR data" file on the computer. Copy your ``.ddpcr`` file to a flashdrive and transfer the file to the lab data folder at ``instruments/data/Weiss.lab.ddPCR``.
 
-18. Remove and dispose the plate from the machine and turn off the QX200 Droplet reader. 
+18. Remove and dispose of the plate from the machine and turn off the QX200 Droplet Reader. 
 
 .. note::
    It is possible to perform analyses in the BioRad software, but it may be preferable to perform your own calculations directly on the raw droplet data in Python. 
-   The `.ddpcr` file contains all the relevant data and any metadata you inputted using the software, and you can use the `load_ddpcr` function in `rushd` to load this info into a Pandas DataFrame.
+   The ``.ddpcr`` file contains all the relevant data and any metadata you inputted using the software, and you can use the ``load_ddpcr`` function in ``rushd`` (coming soon!)
+   to load this info into a Pandas DataFrame.
 
 
 References
