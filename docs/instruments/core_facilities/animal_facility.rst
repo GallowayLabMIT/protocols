@@ -43,7 +43,7 @@ A lab job is to manage our mouse colony. Responsibilities include:
   
 
 How to submit a CAC amendment
-==============================
+-------------------------------
 
 There are multiple types of CAC amendments that you can submit. The most common are personnel and new mouse strain amendments.
 Below is the CAC Connect dashboard. Here you can access the active protocol and any amendments that are in progress or submitted to the CAC.
@@ -84,7 +84,7 @@ For more general information, the CAC provides a small online course on how to s
 
 
 Ordering a new mouse strain
-============================
+-------------------------------
 
 To order new mouse strains, an amendment needs to be added to the CAC protocol and approved. Once approval has been granted
 you can proceed with ordering. If ordering from an approved DCM vendor (i.e. Jackson Labs, Charles River, Taconic), email animalrequest@mit.edu. 
@@ -101,9 +101,34 @@ For atypical vendors (i.e. MMRRC), these are covered by animal-import-export@mit
 The form will also require information about the strain, vendor, expected pain category, age, and sex of the mice. When ordering both male and female mice, they require separate ordering forms.
 
 
-Recovering cryopreserved embryos
-================================
+.. note:: 
+   When ordering throught MMRRC, a COU agreement will need to be filled out. This form will be sent in an email to either DCM or animal-import-export. They will forward this email to you.
+   The form (even if they say to fill it out) needs to be sent to Susan Watts in the TLO office (wattss@mit.edu) for them to sign.
+
+
+Recovering a cryopreserved embryo
+----------------------------------
 
 Certain mouse strains are only available for purchase as a cryopreserved embryos. While companies do offer the service to rederive the strain in house, it is usually expensive.
 DCM offers assisted reproductive services where they can implant cryopreserved embryos. You must fill out a `form <https://comp-med.mit.edu/form/webform-707>`_ to request the services.
 The cost is currently around $300.
+
+Timed matings for embryo isolation
+-----------------------------------
+
+In the lab we use mouse embryonic fibroblasts (MEFs) to assess our direct conversion protocols. The MEFs that we use are isolated from embryos at day E13.5 to E14.5. Therefore, we need
+to set up timed matings to ensure we isolate embryos on these specific days during gestation. How to set up timed matings:
+
+* Contact our vet tech (Yinghui Ning, yhning@mit.edu) to schedule timed matings. Reach out the week before you want to the matings set up. Provide how many mice you would like to plug (become pregnant) and the pairings you would like. (ex. Hb9+ male w/ WT female)
+* Yinghui will send an email regarding how many mice plugged. The day the mice were separated and a plug is found is day E0.5
+* Send a message in the mef_isolation channel with the isolation days (E13.5 or E14.5) and people responsible
+* The day before the isolation, check to see if the mice are pregnant. Send updates in the mef_isolation channel.
+* If mice do not appear pregnant, leave the cage and email Yinghui to let her know.
+
+Below is an example of a message in the mef_isolation channel. The schedule can be found `here <https://mitprod.sharepoint.com/:x:/s/GallowayLab/Eaa1DDMFM65IsCM5oHc59DUBvyd7G7xggmkQJ7QRqa_RPg?e=eNfced>`_
+
+.. figure:: img/isolation.png
+
+
+
+

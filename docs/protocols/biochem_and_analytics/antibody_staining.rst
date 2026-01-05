@@ -43,6 +43,9 @@ Expected time: 3 days
 5.	**If staining nuclear proteins**, change solution and incubate cells in 0.5% PBS/Tween for 1 hour at room temperature to overnight at 4°C to permeabilize
 
     .. note:: Overnight is preferred for the permeabilization step
+    
+    .. tip::
+        You can also combine the permeabilization and blocking step at the same time. Use 0.5% Tween and 5% FBS in PBS solution for either 1 hour at room temperature or overnight at 4°C.
 
 6.	Change solution and incubate cells in blocking solution for 1 hr at room temperature or overnight at 4°C
 
@@ -70,7 +73,7 @@ Expected time: 3 days
  3. Keep your antibodies on ice at all times
  4. Generally, **50 µL/96-well** for all steps is good (can go higher for PBS wash steps). AMB has used as low as 35 µL/96-well with comparable results.
  5. If mounting, try to avoid bubbles in the final step. Leave some solution still on your slides so the cells do not dry and carefully dispense 2-3 drops of the solution, very carefully putting the coverslip on your slide
- 6. Be very gentle with neuronal cultures, they are not very adherent
+ 6. Be very gentle with neuronal cultures, they are not very adherent. Do not use the aspirates, manually aspirate with a P200.
 
 
 .. _antibodyStaining-flow:
@@ -90,29 +93,30 @@ General notes:
 
 Expected time: 1-2 days (only 2 if overnight primary antibody)
 
-1.	Dissociate cells (trypsin or DNase/Papain if MNs) and spin down
-2.  Remove supernatant and incubate cells in 3.7-4% paraformaldehyde (PFA) *(in fume hood, at room temperature)* for 15 min
+1. Perform any Live/Dead stains prior to dissociation and fixing	
+2. Dissociate cells (trypsin or DNase/Papain if MNs) and spin down
+3. Remove supernatant and incubate cells in 3.7-4% paraformaldehyde (PFA) *(in fume hood, at room temperature)* for 15 min
 
     - EU protocol calls for 3.7% PFA, AMB uses this for antibody staining as well. 
 
-3.  Add 1 mL PBS and spin cold at 4°C to pellet cells
-4.	Aspirate solution and incubate cells in 0.5% Tween/PBS for 15 min at room temperature to permeabilize
+4.  Add 1 mL PBS and spin cold at 4°C to pellet cells
+5.	Aspirate solution and incubate cells in 0.5% Tween/PBS for 15 min at room temperature to permeabilize
 
     .. note:: 
         Permeabilized cells do not pellet as well. Be careful not to aspirate the cell pellet when aspirating solution after centrifugation.
 
-5.  Add 1 mL PBS and spin cold at 4°C to pellet cells
-6.	Aspirate solution and incubate cells in 100 µL primary antibody (diluted in blocking solution) for at least 1 hr in the rotator at 4°C
+6.  Add 1 mL PBS and spin cold at 4°C to pellet cells
+7.	Aspirate solution and incubate cells in 100 µL primary antibody (diluted in blocking solution) for at least 1 hr in the rotator at 4°C
 
     .. tip:: Some antibodies (e.g. Ki67) work better overnight in the rotator at 4°C
 
-7.  Add 1 mL 3% FBS (diluted in PBS) and spin cold at 4°C to pellet cells
+8.  Add 1 mL 3% FBS (diluted in PBS) and spin cold at 4°C to pellet cells
 
     .. note:: AMB has found using FBS in wash buffer improves cell yield.
 
-8.	Aspirate solution and incubate cells in 100 µL secondary antibody (diluted in blocking solution) for 30 min in the rotator at 4°C **in the dark**
-9.  Add 1 mL 3% FBS (diluted in PBS) and spin cold at 4°C to pellet cells
-10.	If doing a DNA stain, add Hoechst or DAPI diluted in PBS for 10 minutes at room temp, then wash with PBS
+9.	Aspirate solution and incubate cells in 100 µL secondary antibody (diluted in blocking solution) for 30 min in the rotator at 4°C **in the dark**
+10.  Add 1 mL 3% FBS (diluted in PBS) and spin cold at 4°C to pellet cells
+11.	If doing a DNA stain, add Hoechst or DAPI diluted in PBS for 10 minutes at room temp, then wash with PBS
 
 .. note::
     All spins are performed at ~500 rcf for 5 min. Our cold Eppendorf centrifuge follows RCF = 1e-4*[rpm]^2 + 4e-2*[rpm] - 6e1, where **2200 rpm = 512 rcf**.
