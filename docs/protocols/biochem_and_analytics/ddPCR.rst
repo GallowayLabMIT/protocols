@@ -165,7 +165,7 @@ Analyze the droplets using the QX200 Droplet Reader:
       :align: center
       :width: 60%
 
-1.  Run the experiment. The machine will take ~10 minutes to analyze 8 wells. 
+16.  Run the experiment. The machine will take ~10 minutes to analyze 8 wells. 
 
 .. note::
    A live analysis window can be opened to monitor the progress. It can be helpful to watch the "Event Count" aka the number of droplets analyzed. 
