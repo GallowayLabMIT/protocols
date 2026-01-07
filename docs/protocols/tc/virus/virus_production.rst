@@ -29,12 +29,12 @@ You'll also need to co-transfect separate packaging and envelope plasmids specif
 
 **Scale:**
 
-========    ===========    ======================    ===================    ============================    ========================
-Scale       Area (cm^2)    Seeding amount (cells)    Total DNA mass (µg)    Collection media volume (mL)    Concentrated volume (μL)
-========    ===========    ======================    ===================    ============================    ========================
-10cm        56.7            6.0 x 10^6 *             24                     6.5                             200
-6-well      9.6             1.0 x 10^6               4.1                    1.25                            40
-========    ===========    ======================    ===================    ============================    ========================
+========    ===========    ========================    ===================    ============================    ========================
+Scale       Area (cm^2)    Seeding amount (# cells)    Total DNA mass (µg)    Collection media volume (mL)    Concentrated volume (μL)
+========    ===========    ========================    ===================    ============================    ========================
+10cm        56.7            6.0 x 10^6 *               24                     6.5                             200
+6-well      9.6             1.0 x 10^6                 4.1                    1.25                            40
+========    ===========    ========================    ===================    ============================    ========================
 
 If using a different virus production scale, the total DNA mass should be scaled by surface area.
 The collection media volume should be roughly half of the standard amount of media used for that scale.
@@ -47,12 +47,12 @@ The collection media volume should be roughly half of the standard amount of med
 
 **Virus type:**
 
-===========     ===================     =================
-Type            Packaging plasmid       Envelope plasmid
-===========     ===================     =================
-Lentivirus      psPAX2 (pKG0362)         pMD2.G (pKG0096)
-Retrovirus      pIK-MLVgp (pKG0015)      pHDMG (pKG0022)
-===========     ===================     =================
+===========     ================================  ===================================
+Type            Packaging plasmid                  Envelope plasmid
+===========     ================================  ===================================
+Lentivirus      psPAX2 (pKG0362, Addgene #12260)   pMD2.G (pKG0096, Addgene #12259)
+Retrovirus      pIK-MLVgp (pKG0015)                pHDMG (pKG0022, Addgene #164440)
+===========     ================================  ===================================
 
 Typically, we prep common stocks of the packaging and envelope plasmids (TC aliquots box in Bruni 4ºC, additional aliquots in common box in Olaf -20ºC).
 These are maxipreps normalized to 500 ng/µL, but double-check the concentrations on the tubes to be sure. We sequence-confirm each prep of these 
@@ -104,7 +104,7 @@ Co-transfect your cells with transfer, packing, and envelope plasmids.
    - Use the calculation spreadsheet to determine appropriate volumes.
    - If you are transfecting multiple dishes per virus, consider mixing 10% extra of the final condition mix to account for pipetting loss when adding to the dishes.
    - When transfecting multiple virues, it can be helpful to create a mastermix of the packaging and envelope plasmids to reduce pipetting. Add these 
-     to the condition mix tubes first, then add the transfer plasmid DNA.
+     to the empty condition mix tubes first, then add the transfer plasmid DNA.
    - It it important to **mix all the DNA together** before adding the PEI-KO DMEM mastermix in the next step. That way, the transfection complexes
      contain equal ratios of all the plasmids. (You don't have to pipet a ton, just don't add the packaging and envelope plasmids to the PEI-KO DMEM
      mastermix separately.)
@@ -119,7 +119,7 @@ Co-transfect your cells with transfer, packing, and envelope plasmids.
       timing of this media change can help reduce variability in titer across batches of virus.
 
 6. Six-to-eight hours after transfection, replace the media on the plates with HEPES-buffered
-   DMEM + 10% FBS. Use the collection volume of media, which is 6.5mL for a 10cm dish.
+   DMEM + 10% FBS. Use the collection volume of media, which is 6.5 mL for a 10cm dish.
 
    The recipes to prepare both the 1M stock solution of HEPES and the HEPES-buffered DMEM can be :ref:`found here<HEPES>`.
    Typically, there is a common bottle of HEPES-buffered DMEM in Bruni (TC 4ºC).
@@ -139,8 +139,8 @@ Day 2
 2. Store the collected media at 4°C. The collected media from separate days can be stored in the same conical tubes. 
 
 .. note::
-   Two collections (Days 2 and 3) elicit sufficiently high titer virus.
-   However, a third collection (extra day between Days 2 and 3 written here) may further increase titer.
+   Two collections (on Days 2 and 3) elicit sufficiently high titer virus.
+   However, a third collection (on an extra day between Days 2 and 3 written here) may further increase titer.
 
 Day 3
 *******
@@ -174,7 +174,7 @@ Virus Concentration
 2. Store at 4°C overnight.
 3. The next day, centrifuge at 1500 x g at 4°C for 45 minutes (use the lower centrifuge). Be sure to use the caps/lids on the centrifuge buckets.
 4. Aspirate the supernatant. There will be a little liquid left; this is okay.
-5. Resuspend the pellet gently in the remaining liquid. Add media to reach the desired final volume suggested in the **Concentrated volume** column of the above table.
+5. Resuspend the pellet gently in the remaining liquid. Add media to reach the desired final volume suggested in the "Concentrated volume" column of the scale table above.
 
 .. note::
    Measuring to the exact desired final volume can be tedious. If you are planning to titer the virus before use, it is okay to resuspend in a 

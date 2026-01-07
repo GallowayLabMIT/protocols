@@ -2,13 +2,13 @@
 Virus safety
 =============
 
-The highest hazard that we have in lab is likely human-infectable lentiviruses. The lentiviruses we make are
-*replication-incompetent*, e.g. they do not make more virus after they infect, but they can still be dangerous
+The highest hazard that we have in lab is likely human-infectible lentiviruses. The lentiviruses we make are
+*replication-incompetent*, i.e. they do not make more virus after they infect, but they can still be dangerous
 for two reasons:
 
-1. Insertional mutagenesis: even a benign GFP is bad for you if it randomly inserts into a key gene and causes cancer.
-2. Oncogene expression: expressing known oncogenes from your constructs can cause cancer. Known or suspected oncogenes
-   made in human-infectable lentiviruses falls under BSL2+. Only graduate student and postdocs that have done the special
+1. Insertional mutagenesis: Even a benign GFP is bad for you if it randomly inserts into a key gene and causes misregulation leading to cancer.
+2. Oncogene expression: Expressing known oncogenes from your constructs can cause cancer. Known or suspected oncogenes
+   made in human-infectible lentiviruses falls under BSL2+. Only graduate students and postdocs that have done the special
    BSL2+ training are allowed to work with these.
 
 Other virus types are also potentially hazardous if they express oncogenes, even if they are non-integrating like AAVs.
@@ -19,7 +19,7 @@ Control methods
 
 Elimination/Mitigation
 ----------------------
-The easiest way to not be exposed to a human-infectable virus is to not make viruses! There are other integration techniques,
+The easiest way to not be exposed to a human-infectible virus is to not make viruses! There are other integration techniques,
 such as PiggyBac/transposon-insertion which may be suitable for your process.
 
 Substitution
@@ -49,13 +49,13 @@ PPE
 When working with virus, we use disposable sleeves and double gloves. The proper order to put on your PPE is
 first, your lab coat, then your first pair of gloves, then sleeves, then the second pair of gloves.
 
-For BL2 virus, you can reuse your sleeves through a whole virus production, but **only** if you check for any droplets. Swap
+For BSL2 virus, you can reuse your sleeves through several days of a whole virus production, but **only** if you check for any droplets. Swap
 sleeves if you got virus on your gloves, as the sleeves may be contaminated. For any BSL2+ virus, dispose of sleeves upon completion of BSL2+ work each day.
 
 Virus protocols
 ===============
 We have specific virus procedures in place, which change the way that we work in TC to protect us.
-You should treat virus-infected cells or media using virus protocols until **both** two days and three media changes
+You should treat virus-infected cells or media using virus protocols until **both** three days and two media changes
 have passed. 
 
 BSL2+ work requires additional protocols that will be highlighted at each step. Work involving human-infectible viruses, even
@@ -73,7 +73,7 @@ Virus BSC setup
     **never take your hands out of the BSC** until you have removed your second layer of gloves.
     If you forget something and need to exit the BSC to grab it, do a glove change.
 
-1. When starting up your BSC hood to do virus work, make sure that you have enough seriological pipettes,
+1. When starting up your BSC hood to do virus work, make sure that you have enough serological pipettes,
    tips, and other plastics. You want to make sure that you don't have to take your hands out of the BSC. Add them
    now if needed.
 2. Make sure that you have all of the plates, tubes, filters and other things that you need. You may want to
@@ -97,7 +97,7 @@ Plastic rinsing during viral work (BSL2+)
    - **Serological pipettes**: After dispensing, pull up bleach from the bleach jar up to or beyond the level 
      that contained virus previously. For example, if 9 mL of virus-containing liquid was previously measured and dispensed, 
      pull up at least 9 mL of bleach. Bleach can be immediately dispensed and the serological pipette can be disposed.
-   - **Empty conicals or eppendorf tubes**: Fill with enough 10% bleach to ensure all surfaces that contacted virus are covered. 
+   - **Empty conicals or Eppendorf tubes**: Fill with enough 10% bleach to ensure all surfaces that contacted virus are covered. 
      Rotating the tube to ensure all surfaces are contacted by bleach is sufficient; tubes do not have to be completely filled with bleach. 
 
 .. _virus_cleanup:
@@ -109,18 +109,18 @@ Virus BSC cleanup
 2. For any liquid waste you have not aspirated (e.g., 10cm dishes you are done with), use a serological
    pipette to add bleach to any waste plates/containers/tubes.
 3. Spread the waste out slightly so all waste will get UV'd.
-4. (**BSL2+**) Soak a paper towel with Pre-Empt and wipe down the exterior of any materials that are to be removed from the BSC and stored (e.g. media, 
+4. (**BSL2+**) Soak a paper towel with Pre-Empt and wipe down the exterior of any materials that are to be removed from the BSC and stored (e.g., media, 
    concentrated virus, plates and dishes with cells). 
-5. (**BSL2+**) With a Pre-Empt soaked paper towel, wipe down any pipettes, tip boxes, asipirator, or any other equipment that you may have touched 
+5. (**BSL2+**) With a Pre-Empt soaked paper towel, wipe down any pipettes, tip boxes, aspirator, or any other equipment that you may have touched 
    while working with virus-containing media. 
 6. Remove your second pair of gloves, putting them in the benchtop biowaste container.
 7. Remove any non-waste cells, collected virus, small molecules, etc. from the hood
    (you may put on a fresh second pair of gloves, but the outside of these tubes should be decontaminated by Pre-Empt in Step 4).
-8. Leaving all trash inside, close the sash on the BSC. Set a fifteen minute alarm!
-9. Fifteen minutes later, with full PPE (double gloves and sleeves), open the hood again.
+8. Leaving all trash inside, close the sash on the BSC. Set a fifteen minute timer!
+9. Fifteen minutes later, with full PPE (double gloves and sleeves, only required for **BSL2+**), open the hood again.
    Aspirate bleached liquid waste, finish with another bleach rinse of the aspirator,
    and collect all trash. Take the trash bag out and throw it in the biowaste containers.
-10. Spray Pre-Empt on the surface of the BSC. Wait one minute or longer, and then wipe up the Pre-Empt by spraying ethanol.
+10. Spray Pre-Empt on the surface of the BSC. Wait one minute or longer, and then wipe up the Pre-Empt by spraying 70% ethanol
     on the surface. Once the surface is looking nice, close the hood.
 11. The hood is usable after the second UV cycle!
 
@@ -148,15 +148,14 @@ If you believe that you have been exposed, you should:
 2. Wash your hands and/or the exposed area of skin for ten to fifteen minutes with soap and water.
 3. If possible while washing your hands, inform someone else in lab to contact:
    
-   a. the EHS rep, Katie, or Brian Smith, to kick off the paperwork side of things. Do not worry about this paperwork now
+   a. the EHS rep, Katie, or `department EHS Coordinator <https://cheme.mit.edu/people/staff/>`_ (Brian Smith), to kick off the paperwork side of things. Do not worry about this paperwork now
       if you can't reach these people, it's not your job to deal with it.
-   b. Anyone, to contact MIT Medical urgent care (617-253-1311) if inside business hours (8am-8pm M-F, 10am-4pm on weekends)
-   c. If outside of business hours, any other urgent care that is open (or ER if everywhere is closed).
+   b. anyone, to contact MIT Medical urgent care (617-253-1311) if during business hours (8am-8pm M-F, 10am-4pm on weekends)
+   c. if outside of business hours, any other urgent care that is open (or ER if everywhere is closed).
 
 4. Tell the doctor that you were exposed to an HIV-derived lentiviral vector, and how you were exposed. If the virus
-   was BSL2+, tell them that the vector encodes an oncogene.
-5. The prescription should be covered under even the base insurance that all students get.
-6. Follow up with other people in lab to handle the paperwork filing, finishing cleaning out the BSC, and so on.
+   was BSL2+, tell them that the vector encodes an oncogene. Any prescriptions should be covered under the base insurance that all students get.
+5. Follow up with other people in lab to handle the paperwork filing, finishing cleaning out the BSC, and so on.
 
 
 Lessons learned from incidents
@@ -165,7 +164,7 @@ Lessons learned from incidents
 Spilled virus incident
 ----------------------
 
-While a former member of the lab was filtering a human-infectable lentivirus encoding a fluorescent protein, 
+While a former member of the lab was filtering a human-infectible lentivirus encoding a fluorescent protein, 
 too much pressure was applied on the syringe. Their hold on the syringe slipped, and knocked over the tube containing
 the filtered lentivirus. Most of the lentivirus-containing media stayed within the BSC, though some was knocked onto
 the person's lab coat, around the mid-chest area.
@@ -177,5 +176,5 @@ Katie filled out the incident paperwork. The lab coat was soaked in bleach and P
 after being decontaminated in lab.
 
 **Lessons learned:** When filtering virus, if the filter gets too clogged with cells or other debris, it can be hard
-to apply enough pressure to filter the virus. If this happens, you can transfer the remaining virus to filter back
-into a separate tube, and use a second syringe. Do not apply more force than you can control.
+to apply enough pressure to filter the virus. If this happens, you can carefully transfer the remaining virus to filter back
+into a separate tube, and use a second syringe to complete the filtration. Do not apply more force than you can control.
