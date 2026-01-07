@@ -166,20 +166,15 @@ Analyze the droplets using the QX200 Droplet Reader:
       :align: center
       :width: 80%
 
-<<<<<<< HEAD
-16.  Run the experiment. The machine will take ~10 minutes to analyze 8 wells. 
-=======
       Example inputting sample target information in software.
 
-16.   Run the experiment. The machine will take ~10 minutes to analyze 8 wells. 
->>>>>>> c9b439280f313150d73374418a9cb5e3a28ae946
+16. Run the experiment. The machine will take ~10 minutes to analyze 8 wells. 
 
 .. note::
    A live analysis window can be opened to monitor the progress. It can be helpful to watch the "Event Count", i.e., the number of droplets analyzed. 
    We are targeting >10,000 droplets per well to ensure sufficient droplet generation and good data quality.
 
 17. The experiment data will be automatically saved to the "ddPCR data" file on the computer. Copy your ``.ddpcr`` file to a flashdrive and transfer the file to the lab data folder at ``instruments/data/Weiss.lab.ddPCR``.
-
 18. Remove and dispose of the plate from the machine and turn off the QX200 Droplet Reader. 
 
 .. note::

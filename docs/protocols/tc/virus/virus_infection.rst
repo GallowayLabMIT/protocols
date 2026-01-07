@@ -1,65 +1,70 @@
 
-Transduction with concentrated virus
-====================================
+Viral transduction
+==================
 
-This protocol describes how to transduce cells with concentrated virus (see :ref:`Virus Concentration <virus_concentration>` protocol).
+This protocol describes how to transduce cells with unconcentrated or concentrated virus (see :ref:`Virus Concentration <virus_concentration>` protocol).
+The method for each is the same, though the volume of viral solution to add to the cells will differ (much more for unconcentrated virus).
 Virus produced in HEK293T cells with the VSV-G envelope protein can be used to transduce either human or mouse cells.
-The following calculations are for transduction in a 96-well plate; volumes can be scaled up accordingly for other plate sizes.
 
-**Calculate amount of virus to use**
+Before beginning, calculate the amount of virus to use. The following calculations are for transduction in a 96-well plate;
+volumes can be scaled up accordingly for other plate sizes. Below are three common scenarios for virus amounts:
 
-Before beginning, calculate the volume of concentrated virus to use per well.
+    - As an initial rule-of-thumb, ~1% of the total virus produced in one 10cm dish (e.g., 1-2 µL if concentrated and resuspended in 200 µL total) 
+      is a good starting place for transducing one well in a 96-well plate.
+    - When transducing to calculate viral titer, follow the :doc:`Measuring viral titer</protocols/tc/virus/moi>` protocol, transducing several wells with a serial dilution of the virus.
+    - If the viral titer (transducing units, TU, per µL) is known, calculate the volume to use based on the number of cells and the desired multiplicity of infection (MOI): 
+    
+        virus volume (µL) = # cells * MOI (TU/cell) / titer (TU/µL)
 
-As an initial rule-of-thumb, ~1-2% of the total virus produced in one 10cm dish (e.g., 2-4 µL if concentrated and resuspended in 200 µL total) may be appropriate for infection of one well in a 96-well plate.
-(FURTHER VALIDATION REQUIRED.)
-
-.. note::
-   If it is important to know the titer of the concentrated virus, an initial infection (transduction) can be performed to calculate this value before conducting experiments.
-   See the :doc:`MOI Calculation </protocols/tc/virus/moi>` protocol for more details.
-
-.. note::
-    Viral titer is reported to decrease during freezing and thawing. Therefore, you may double the amount of virus used for every freeze-thaw cycle. NOTE: FURTHER TESTING NEEDED.
+    Typically, an MOI of 0.3 or lower is used to ensure single-copy transduction. An MOI of 3 or higher is useful to ensure most of the cells are transduced with at least one copy.
 
 .. note::
-    Generally, higher total virus per well increases infection efficiency.
+    Viral titer is reported to decrease during freezing and thawing. Therefore, you may wish to increase the amount of virus used for every freeze-thaw cycle.
+    However, we have not rigorously quantified the degree to which this matters, so it may be fine to ignore this for few freeze-thaw cycles.
+    It is best practice to store an aliquot of concentrated virus for titering, separate from the main aliquot for later transduction.
 
-**Protocol**
+Cells may be transduced in suspension (i.e., at the same time as seeding) or after plating. Transduction is more efficient in suspension,
+and efficiency can be increased for plated cells through spinfection. However, there may be a tradeoff between efficiency and cell viability.
+All three methods are described below.
 
-This protocol describes transduction of both :ref:`plated cells <plated>` and :ref:`cells in suspension <suspension>`.
+.. important::
+   We use precautions beyond those for normal BL2 tissue culture when transducing any human-infectible virus. Read over the 
+   :doc:`/protocols/tc/virus/virus_safety` protocol before beginning.
 
-.. tip::
-   Virus infection is more efficient if it is done at the same time as seeding (i.e., in suspension).
-
-.. warning::
-    Since virus produced in HEK293T cells is able to infect human cells, be sure to use proper PPE (i.e., lab coats, disposable sleeves) and wipe down hoods with Pre-Empt after use.
 
 .. _plated:
 
 Transduction of plated cells
 ----------------------------
 
-1. The day before (18-24 hours prior) infection, seed cells on 0.1% gelatin-coated plates. Seeding densities vary by target cell type. For mouse embryonic fibroblasts, this is typically 10k cells/well for a 96-well plate.
-2. Dilute virus according to calculations in fresh media and polybrene (total volume = total well volume):
+1. The day before (18-24 hours prior), seed cells on plates with the appropriate coating. Seeding densities vary by target cell type.
+   Typical densities are 10k cells/well for mouse embryonic fibroblasts and 10-15k cells/well for hiPSCs.
+2. Combine the calculated amount of virus with the appropriate amount of media and 1000X polybrene. For a 96-well plate, this is:
 
-=============================== =============
-Component                        Volume
-=============================== =============
-Concentrated virus               calculated
-1000X polybrene                  0.1 µL
-Media                            to 100 µL
-=============================== =============
+    =============================== =================
+    Component                        Volume
+    =============================== =================
+    Virus                            calculated above
+    1000X polybrene                  0.1 µL
+    Media                            to 100 µL
+    =============================== =================
 
-.. tip::
-    Since the amount of polybrene for a single well is so small, it is recommended to infect many wells or make a media-polybrene master mix.
+    .. tip::
+        Since the amount of polybrene for a single well is so small, if you are not infecting several wells with the same virus, you may wish to make a media-polybrene master mix.
+        For instance, make a virus-media mix (without polybrene) to 50 µL/well, then add 50 µL/well of a 2X polybrene + media solution.
+
+    .. note::
+        When transducing unconcentrated virus, the virus volumes may be large. Calculate amounts to add at least a half-well volume (e.g., 50 µL for a 96-well plate) of fresh
+        media per well, even if this leads to a larger total well volume. This will make sure the cells have enough fresh media to stay healthy. Don't forget to
+        adjust the volume of polybrene if the total well volume changes!
 
 3. Aspirate the media from the cells.
-4. Add the virus-media mix to each well.
-5. The next day (1 dpi), aspirate and replace with fresh media.
+4. Add the virus mix to each well.
+5. The next day (1 day post-infection, dpi), aspirate and replace with fresh media. This is a good time to add any small molecule inducers, if applicable.
+6. Continue culturing cells, observing proper virus precautions. Typically, a good end point for flow cytometry is 3 dpi.
 
-.. note::
-    Viral particles are no longer present after 3 days or 1 media change.
-
-6. Continue culturing cells (e.g., select for integration) or proceed with end-point assay (e.g., flow cytometry).
+.. important::
+    Viral particles are no longer present after 3 days AND 2 media changes. Use proper :doc:`virus safety </protocols/tc/virus/virus_safety>` until then.
 
 
 .. _suspension:
@@ -67,47 +72,42 @@ Media                            to 100 µL
 Transduction of cells in suspension
 -----------------------------------
 
-1. Coat plates with 0.1% gelatin. Do this first to provide at least 10 min for coating (plates will be used at step 5).
-2. Dissociate and count cells to infect.
-3. Resuspend cells in fresh media at double the final concentration.
-   For instance, if using 10k cells/well in a 96-well plate, resuspend at a concentration of 10k cells per 50 µL.
-4. Dilute virus according to calculations in fresh media and polybrene (total volume = **half** total well volume):
+1. Coat plates. Do this first to provide sufficient time for coating (e.g., at least 10 min for 0.1% gelatin), as plates will be used at step 5.
+2. Dissociate and count the cells that you will transduce.
+3. Resuspend cells in fresh media at **double** the final concentration.
+   For instance, if using 20k cells/well in a 96-well plate (a typical amount for HEK293T cells), resuspend at a concentration of 20k cells per 50 µL.
+   To this mix, add 2X polybrene (i.e., 1:500 dilution of the 1000X stock).
 
-=============================== =============
-Component                        Volume
-=============================== =============
-Concentrated virus               calculated
-1000X polybrene                  0.1 µL
-Media                            to **50 µL**
-=============================== =============
+.. note:: Polybrene can be added either to the cell solution or to the virus-media mix (next step). Typically, adding to the cells is easier because it reduces pipetting.
 
-.. tip::
-    Since the amount of polybrene for a single well is so small, it is recommended to infect many wells or make a media-polybrene or cells-polybrene master mix.
+4. Combine the calculated amount of virus with the appropriate amount of media to a **half-well volume**. For a 96-well plate, this is 50 µL/well.
+5. Aspirate the coating from the prepared plate and add a half-well volume of the cell solution to each well (e.g., 50 µL/well for a 96-well plate). Use the multichannel for easier pipetting.
+6. Add a half-well volume of the virus-media mix to the appropriate wells and pipet to mix. Each well should now contain a full well volume of cells, polybrene, virus, and media.
+7. The next day (1 day post-infection, dpi), aspirate and replace with fresh media. This is a good time to add any small molecule inducers, if applicable.
+8. Continue culturing cells, observing proper virus precautions. Typically, a good end point for flow cytometry is 3 dpi.
 
-5. Add virus-media mix (50 µL or half well volume) to gelatin-coated plate. Then add cells (50 µL or half well volume) and pipette to mix.
+.. important::
+    Viral particles are no longer present after 3 days AND 2 media changes. Use proper :doc:`virus safety </protocols/tc/virus/virus_safety>` until then.
 
-.. tip::
-    It is convenient to use a multichannel pipette to transfer the cells from a reservoir to the plate.
-
-6. The next day (1 dpi), aspirate and replace with fresh media.
-
-.. note::
-    Viral particles are no longer present after 3 days or 1 media change.
-
-7. Continue culturing cells (e.g., select for integration) or proceed with end-point assay (e.g., flow cytometry).
-
+    
 .. _spinfection:
 
 Spinfection
-----------------------------
+------------
 
-After following the transduction protocols above for either plated cell or cells in suspension, additional spinning could increase infection efficiency. The combined protocol is dubbed "spinfection."
+After following the transduction protocols above for either plated cell or cells in suspension, spinning the plate can increase transduction efficiency.
+This may help the viral particles settle on, and ultimately be taken up by, the cells.
+The combined protocol of transduction plus spinning is dubbed "spinfection."
 
-For the spinning steps follow the below protocol.
+1. Immediately after combining the virus with cells, polybrene, and fresh media as described above (with either :ref:`plated cells <plated>` or cells :ref:`in suspension <suspension>`), 
+   move the plate into the bottom TC centrifuge rather than into the incubator.
 
-1. Move plate into TC centrifuge.
+.. important:: Cover the centrifuge buckets with the plate spinner tray caps.
 
-.. important:: Ensure to cover the centrifuge buckets with the plate spinner tray caps.
+2. Centrifuge the plate at 1500 x g for 90 min at 32ºC.
 
-2. Centrifuge the plate at 1500 xg for 90 min at 32C.
-3. Subsequently transferred to 37oC incubator.
+.. note:: The centrifuge won't heat to 32ºC before the spin, but it will warm up during.
+
+.. note:: Spins shorter than 90 min may also be effective.
+
+3. After the spin is complete, transfer the plate to the 37ºC incubator. Continue as normal with the 1 dpi media change and subsequent steps.
