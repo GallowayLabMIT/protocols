@@ -4,8 +4,8 @@ Flow Cytometry
 
 .. _plate spinning:
 
-96-well plate spinning
------------------------
+Preparing in a 96-well plate
+----------------------------
 
 .. note::
     It is convenient to prep cells for flow cytometry in a 96-well plate because you can add media and do mixing with a multichannel pipette.

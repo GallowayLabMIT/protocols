@@ -11,7 +11,7 @@ volumes can be scaled up accordingly for other plate sizes. Below are three comm
 
     - As an initial rule-of-thumb, ~1% of the total virus produced in one 10cm dish (e.g., 1-2 µL if concentrated and resuspended in 200 µL total) 
       is a good starting place for transducing one well in a 96-well plate.
-    - When transducing to calculate viral titer, follow the :doc:`Measuring viral titer</protocols/tc/virus/moi>` protocol, transducing several wells with a serial dilution of the virus.
+    - When transducing to calculate viral titer, follow the :doc:`Measuring viral titer</protocols/tc/virus/viral_titer>` protocol, transducing several wells with a serial dilution of the virus.
     - If the viral titer (transducing units, TU, per µL) is known, calculate the volume to use based on the number of cells and the desired multiplicity of infection (MOI): 
     
         virus volume (µL) = # cells * MOI (TU/cell) / titer (TU/µL)
@@ -84,7 +84,7 @@ Transduction of cells in suspension
 5. Aspirate the coating from the prepared plate and add a half-well volume of the cell solution to each well (e.g., 50 µL/well for a 96-well plate). Use the multichannel for easier pipetting.
 6. Add a half-well volume of the virus-media mix to the appropriate wells and pipet to mix. Each well should now contain a full well volume of cells, polybrene, virus, and media.
 7. The next day (1 day post-infection, dpi), aspirate and replace with fresh media. This is a good time to add any small molecule inducers, if applicable.
-8. Continue culturing cells, observing proper virus precautions. Typically, a good end point for flow cytometry is 3 dpi.
+8. Continue culturing cells, observing proper virus precautions. Typically, a good end point for :doc:`flow cytometry </protocols/tc/tc-basics/flow_cytometry>` is 3 dpi.
 
 .. important::
     Viral particles are no longer present after 3 days AND 2 media changes. Use proper :doc:`virus safety </protocols/tc/virus/virus_safety>` until then.
@@ -110,4 +110,4 @@ The combined protocol of transduction plus spinning is dubbed "spinfection."
 
 .. note:: Spins shorter than 90 min may also be effective.
 
-3. After the spin is complete, transfer the plate to the 37ºC incubator. Continue as normal with the 1 dpi media change and subsequent steps.
+3. After the spin is complete, transfer the plate to the 37ºC incubator. Continue as normal with the 1 dpi media change and subsequent treatments, readouts, etc.
