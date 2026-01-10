@@ -10,6 +10,7 @@ the **multiplicity of infection (MOI, TU per cell)** in subsequent infections. T
 constructs or batches of virus.
 
 Below, the protocol describes transduction with a serial dilution of virus and a flow cytometry readout, then how to use the flow cytometry data to compute viral titer.
+Note that expression can be detected easily if one or more of the cargoes is fluorescent, or via staining for non-fluorescent payloads.
 
 Transduction with a serial dilution of virus
 ---------------------------------------------
@@ -92,4 +93,44 @@ virus-media mix.
 Computing titer from transduction data
 --------------------------------------
 
-.. warning:: TO DO
+From the transduction experiment described above, we obtain fluorescence measurements for known numbers of cells transduced with known volumes of virus.
+Note that individual cells with detectable expression may be contain one or more copies of the viral payload, representing at least one transduction event. 
+
+First, let's define the **multiplicity of infection (MOI)**, :math:`\lambda`, as the ratio of viral transducing units (TU) to number of cells, *n*:
+
+.. math:: \lambda = \frac{\text{# TU}}{n}
+
+We can obtain a particular MOI in an experiment by using a calculated **volume of virus**, *v*, if we know the **viral titer**, *t*:
+
+.. math:: \lambda = \frac{t \times v}{n}
+
+Assuming transductions follow a **Poisson process**, where discrete events occur in a fixed interval and events are independent, the expected rate of 
+events (transductions) is the MOI, :math:`\lambda`. Then, the probability of *k* events in the interval, or *k* transductions in a cell, is
+
+.. math:: P(x=k) = \frac{\lambda^k e^{-\lambda}}{k!}
+
+We can see that the probability of transductions in a cell increases with :math:`\lambda` (MOI), as expected. Notice that at an MOI of 0.3, the probability
+of transduction (:math:`P(x > 0)`) is low, but the probability of multiple transductions (:math:`P(x > 1)`) is negligible; this is useful for ensuring single integrations.
+On the other hand, at an MOI of 3, the probability that a cell will not be transduced (:math:`P(x=0)`) is low, useful for ensuring most cells are transduced.
+
+.. figure:: img/viral-titer-poisson.png
+  :width: 50%
+
+Across a population of cells, we expect the fraction of cells with *k* transductions to reflect the probability of *k* transductions (:math:`P(x=k)`).
+However, it is difficult to quantify the exact number of transductions in individual cells with flow cytometry. But we can easily compute the fraction of 
+cells with at least one transduction:
+
+.. math::
+  \begin{align}
+    P(x>0) &= 1 - P(x=0) \\
+    &= 1 - \frac{\lambda^0 e^{-\lambda}}{0!} \\
+    &= 1 - e^{-\lambda} \\
+    &= 1 - e^{v / n \ \times \ t}
+  \end{align}
+
+Thus, the flow cytometry data from the experiment above can give us a fraction of expressing cells, which we can use with known values of *v* and *n* (experimental parameters)
+to find *t*, the viral titer. To make this calculation more accurate, we can measure the fraction of expressing cells for several different volumes of virus---exactly the 
+experiment described above---and curve fit to better estimate the viral titer when measurements are noisy. Note that viral titer has units TU/mL (or TU/µL, if you use virus volumes in µL).
+
+We have written a function in the ``rushd`` Python package to simplify this calculation (coming soon!). See also the example Jupyter notebook in the ``example_training`` repo
+on the Galloway lab GitHub (also coming soon).
