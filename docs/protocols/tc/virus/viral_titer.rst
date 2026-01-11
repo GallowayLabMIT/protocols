@@ -115,6 +115,7 @@ On the other hand, at an MOI of 3, the probability that a cell will not be trans
 
 .. figure:: img/viral-titer-poisson.png
   :width: 50%
+  :align: center
 
 Across a population of cells, we expect the fraction of cells with *k* transductions to reflect the probability of *k* transductions (:math:`P(x=k)`).
 However, it is difficult to quantify the exact number of transductions in individual cells with flow cytometry. But we can easily compute the fraction of 
