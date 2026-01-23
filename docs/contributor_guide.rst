@@ -148,6 +148,8 @@ From now on, you just need to follow the virtual environment activation step.
     $ pip freeze > requirements.txt
   
 
+.. _contrib_standard_workflow:
+
 Standard workflow
 -----------------
 A normal workflow to update a protocol would be:
@@ -258,6 +260,8 @@ then you can build the PDF locally with:
 These build functions build the website in the folder ``output/html``. If you want to
 view your locally built website, open the file ``output/html/index.html``.
 
+
+.. _contrib_local_preview:
 
 Local previewing
 ~~~~~~~~~~~~~~~~

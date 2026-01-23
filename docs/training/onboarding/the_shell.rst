@@ -693,6 +693,7 @@ do basic searches and also regular-expression searches on one or multiple files.
 
     Finally, by adding the ``-r``, the **recursive flag**, you can tell ``grep`` to search entire folders!
 
+.. _shell-exercise:
 
 Exercise
 ========

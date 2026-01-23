@@ -678,6 +678,7 @@ to find out what is happening in history. If you are ever feeling confused, take
         </details>
 
 
+.. _git-branches:
 
 Branching out, adding, and checking out files
 ---------------------------------------------
