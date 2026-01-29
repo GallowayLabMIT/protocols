@@ -128,6 +128,7 @@ Instead, to start, it's good to check that you can edit one of the files.
    - Maria Castellanos (2025-01-07)
    - Derin Gumustop (2025-01-09)
    - Rachel Lee (2026-01-22)
+   - Paulina Naydenkov (2026-01-29)
 
 
 The next frontier
