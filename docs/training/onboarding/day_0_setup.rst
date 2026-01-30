@@ -289,6 +289,143 @@ Coding and collaboration
 
   When installing, select **Add Python to PATH**; this ensures that when you type ``python`` at a terminal, you get this version you
   just installed. Other software can also access this "default" installation.
+ 
+  .. admonition:: Fixing Python “command not found” (Windows & macOS)
+   :class: warning
+
+   This protocol addresses a common issue where Python is installed correctly,
+   but typing ``python`` or ``pip`` in a terminal results in an error such as:
+
+   - ``'python' is not recognized as an internal or external command``
+   - ``command not found: python``
+
+   The most common cause is that Python exists on disk, but its directory
+   is missing from the PATH environment variable.
+
+   ------------------------------------------------------------
+   Windows (Command Prompt / PowerShell)
+   ------------------------------------------------------------
+
+   Confirm that Python is installed
+   --------------------------------
+
+   1. Open **PowerShell**
+   2. Navigate to the Python installation directory, for example::
+
+         C:\Users\<USERNAME>\AppData\Local\Python\pythoncore-3.14-64\
+
+   3. In PowerShell, run Python directly using the call operator ``&``::
+
+         & "C:\Users\<USERNAME>\AppData\Local\Python\pythoncore-3.14-64\python.exe" --version
+
+   If a Python version is printed, Python is installed correctly and the issue
+   is related to PATH configuration.
+
+   ------------------------------------------------------------
+   Fix PATH using the Environment Variables GUI (recommended)
+   ------------------------------------------------------------
+
+   **Do not use ``setx PATH``**, as it can truncate PATH and break other software.
+
+   1. Press the **Windows key**
+   2. Search for **Edit environment variables**
+   3. Open **Edit the system environment variables**
+   4. Click **Environment Variables…**
+
+   You will see two sections:
+   - **User variables for <USERNAME>** (top box)
+   - **System variables** (bottom box)
+
+   5. In the **User variables** section, select **Path**
+   6. Click **Edit…**
+
+   You will now see a list of directories that make up your PATH.
+
+   7. Click **New**
+   8. Add::
+
+         C:\Users\<USERNAME>\AppData\Local\Python\pythoncore-3.14-64\
+
+   9. Click **New** again
+   10. Add::
+
+         C:\Users\<USERNAME>\AppData\Local\Python\pythoncore-3.14-64\Scripts\
+
+   11. Click **OK** to close the Path editor
+   12. Click **OK** to close the Environment Variables window
+
+   **Important:** Close all open PowerShell and Command Prompt windows,
+   then open a new terminal.
+
+   Verify the fix::
+
+      python --version
+      pip --version
+      where.exe python
+      where.exe pip
+
+   If ``where.exe python`` points to the ``pythoncore`` directory, PATH is fixed.
+
+   ------------------------------------------------------------
+   Common Windows pitfalls
+   ------------------------------------------------------------
+
+   PowerShell vs Command Prompt
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   - PowerShell requires ``&`` to execute a quoted executable path
+   - Command Prompt does not
+
+   App execution aliases
+   ~~~~~~~~~~~~~~~~~~~~~
+   Windows may redirect ``python`` to the Microsoft Store.
+
+   To disable this:
+   1. Open the Start menu
+   2. Search for **App execution aliases**
+   3. Turn **OFF** ``python.exe`` and ``python3.exe``
+
+   ------------------------------------------------------------
+   macOS (differences from Windows)
+   ------------------------------------------------------------
+
+   On macOS, PATH issues are handled through shell configuration files,
+   not a graphical environment variables editor.
+
+   Check Python::
+
+      which python3
+      python3 --version
+
+   Fix PATH (zsh default):
+
+   1. Edit your shell configuration file::
+
+         nano ~/.zshrc
+
+   2. Add (example for Homebrew)::
+
+         export PATH="/opt/homebrew/bin:$PATH"
+
+   3. Reload::
+
+         source ~/.zshrc
+
+   Verify::
+
+      python3 --version
+      pip3 --version
+
+   ------------------------------------------------------------
+   Key takeaways
+   ------------------------------------------------------------
+
+   - Python is often installed correctly, but missing from PATH
+   - On Windows:
+     - Edit the existing **Path** variable
+     - Do not create new variables
+     - Avoid ``setx PATH``
+   - On macOS:
+     - PATH is managed in ``~/.zshrc`` or ``~/.bashrc``
 
   .. admonition:: On snakes and Anaconda
 
