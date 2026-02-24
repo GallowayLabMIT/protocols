@@ -96,6 +96,20 @@ Thermocycler protocol:
 
 Source: `Takara PrimeSTAR® Max DNA Polymerase Ver.2 <https://www.takarabio.com/documents/User%20Manual/R047S/R047S_R047A_DS.pdf>`_
 
+You can also use the two-step reaction for enhanced specificity (less off-target binding):
+
++----------------------+------------------+-----------+
+| Step                 | Temperature (ºC) | Time      |
++======================+==================+===========+
+| Initial denaturation | 98               | 30 sec    |
++----------------------+------------------+-----------+
+|| 1. Denaturation     || 98              || 10 sec   |
+|| 2. Extension        || 68              || 5 sec/kb |
+|| x 30 cycles         ||                 ||          |
++----------------------+------------------+-----------+
+| Final extension      | 68               | 2 min     |
++----------------------+------------------+-----------+
+
 
 Taq
 ----
