@@ -1,0 +1,6 @@
+# see the esbonio docs for auto-discovery of the right virtual environment
+# This *requires* that users name their virtual environment `env` and place it in the
+# repo root (which is what our .gitignore file also assumes)
+# https://github.com/swyddfa/esbonio/blob/develop/docs/usage/howto/configure-the-sphinx-build-env.rst
+[tool.esbonio.sphinx]
+pythonCommand = ["${venv:./env}"]
