@@ -73,7 +73,8 @@ Indole-3-acetamide (Auxin precursor, IAM)
 .. _rimiducid_stock:
 
 1 mM or 100 µM AP1903/Rimiducid (100kx or 10kx stock - current NBW)
-------------------------------------------------------------------
+-------------------------------------------------------------------
+
 1. Dissolve 5 mg bottle of AP1903 in 3.542 mL DMSO.
 2. Separate into roughly 7 x 500 µL 100kx aliquots and store at -20°C.
 3. Further dilute each 500 µL 100kx aliquot into 1kx by adding 4.5 mL DMSO and separate into roughly 10 x 500 µL 10kx aliquots and store at -20°C.

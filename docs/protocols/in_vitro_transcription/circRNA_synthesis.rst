@@ -111,5 +111,6 @@ The protocol for IVT is adapted from the `NEB HiScribe protocol <https://www.neb
 
 
 
-.. todo:: 
-  Add image of QC
+.. note::
+
+  TODO: Add image of QC

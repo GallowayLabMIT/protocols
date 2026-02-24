@@ -118,7 +118,7 @@ Basic microscope controls
 
 6. Navigate to your desired well either by using the joystick or by double clicking on the plate map. 
    The “XY^” button directly above the joystick determines how coarse or fine the XY movements are. 
-    Similarly the “Z^” buttons on the right and left sides determine how coarse or fine the Z movements are. 
+   Similarly the “Z^” buttons on the right and left sides determine how coarse or fine the Z movements are. 
 
 .. figure:: img/stage_movement.jpeg
         :align: center

@@ -23,7 +23,8 @@ Materials
 - Vehicle for small molecule as a control (e.g. DMSO, NaOH)
 
 .. note:: 
-  :doc:`Aliquots are 25mM in NaOH <../../recipes/tc/small_mol_stocks>`, and a final concentration of 100uM has been used by BAD/JCA.
+
+  :doc:`Aliquots are 25mM in NaOH </recipes/tc/small_mol_stocks>`, and a final concentration of 100uM has been used by BAD/JCA.
 
   Theophylline is used for the Theo.CAUAA ribozyme switch. Aliquots are 25mM in water, and a final concentration of 300uM is used by BAD/JCA.
 
@@ -47,7 +48,7 @@ Day 1: Seed cells
 Day 2: Transfection
 -------------------
 
-1. Transfect 100μg of a plasmid expressing transgene-ribozyme switch cassette per well with PEI by following the :doc:`general transfection protocol <./tc-basics/transient_transfection>`. If your small molecule or the solvent has cytotoxicity, using a lower PEI:DNA ratio of 3:1 is recommended.
+1. Transfect 100μg of a plasmid expressing transgene-ribozyme switch cassette per well with PEI by following the :doc:`general transfection </protocols/tc/tc-basics/transient_transfection>`. If your small molecule or the solvent has cytotoxicity, using a lower PEI:DNA ratio of 3:1 is recommended.
 2. Incubate the cells at 37°C for 4-6 hours.
 3. Remove the media from the wells carefully to not lose the cells, and add 100μl of fresh media that contains the small-molecule inducer.
 4. Incubate the cells overnight.

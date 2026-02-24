@@ -34,7 +34,7 @@ Day 2: Transfection
 -------------------
 
 1. Transfect 100 μg each of the input and output plasmids per well with PEI by following the 
-   :doc:`general transfection protocol <./tc-basics/transient_transfection>`. To avoid cell death due to toxicity of 
+   :doc:`general transfection </protocols/tc/tc-basics/transient_transfection>`. To avoid cell death due to toxicity of 
    the small-molecule inducers, reduce cell stress from transfection by using a lower PEI:DNA ratio of 3:1.
 2. Incubate the cells at 37ºC overnight.
 
@@ -57,4 +57,4 @@ Day 3: Small molecule treatment
 Day 5-6: Analysis
 -----------------
 
-Analyze the cells via microscopy or :doc:`flow cytometry <./tc-basics/flow_cytometry>`.
+Analyze the cells via microscopy or :doc:`flow cytometry </protocols/tc/tc-basics/flow_cytometry>`.

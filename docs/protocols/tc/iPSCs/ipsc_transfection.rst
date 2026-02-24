@@ -56,7 +56,7 @@ Protocol
    transfections, and twice that amount for Lipofectamine transfections.
 6. Gently rock the plate back-and-forth, side-to-side to distribute the complexes. Return the cells to the incubator.
 7. After 4-6 hours, media change to fresh mTeSR-Plus to remove the transfection reagent and Ri. Waiting longer than this may compromise cell health.
-8. Analyze expression via microscopy or :doc:`flow cytometry <./tc-basics/flow_cytometry>`, or continue with downstream experimental steps.
+8. Analyze expression via microscopy or :doc:`flow cytometry </protocols/tc/tc-basics/flow_cytometry>`, or continue with downstream experimental steps.
 
    - mRNA expression peaks at ~12 hours post-transfection.
    - pDNA expression is visible at 24 hours post-transfection (1 dpt) and increases through at least 3 dpt.

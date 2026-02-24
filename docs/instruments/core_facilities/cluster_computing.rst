@@ -339,15 +339,17 @@ Here, you can add pipelines to run on the cluster separate from the other data a
 
 TODO: suggested project folder structure
 
-`cluster`
-- `data/`
-   - `raw`
-- `envs/`
-- `inputs/`
-- `profiles/`
-- `scripts/` 
-- `Snakefile`
-- `.gitignore`
+.. code-block::
+
+    cluster
+    - data/
+    - raw
+    - envs/
+    - inputs/
+    - profiles/
+    - scripts/
+    - Snakefile
+    - .gitignore
 
 | cluster
 | ├── config
@@ -459,12 +461,19 @@ KL notes
 
 ### Download plots, etc from cluster
 - navigate to the directory where you want to download the data
+  
 	- e.g., your computer downloads folder, some output folder in your local project repo
+  
 - log in to the cluster using `sftp`
+  
 	- `sftp engaging`
 	- approve the Duo request (note that nothing will pop up)
+  
 - navigate to what you'd like to transfer
+  
 	- e.g., `cd katiegal_shared/projects/YourProject`
+  
 - download the data using the `get` command
+  
 	- `get -R PathToFolderToCopy`
 	- [sftp manual](https://man.openbsd.org/sftp.1)

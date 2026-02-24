@@ -11,6 +11,7 @@ in the reaction determines the speed and fidelity of product generation. In lab,
 - **Q5**: relatively efficient with high fidelity, recommended for generating fragments for cloning
 - **PrimeSTAR**: extremely fast with slight compromises in fidelity, recommended for difficult-to-amplify sequences
 - **Taq**: slow with lower fidelity, recommended for screening bacterial colonies (:doc:`colony PCR </protocols/cloning/colony_pcr>`) or other large-batch screening
+- **KOD Xtreme**: also good for difficult-to-amplify sequences
 
 Protocols for each polymerase are below. After running the reaction, :ref:`confirm and purify <pcr_confirm_purify>` the product.
 
@@ -87,13 +88,13 @@ Thermocycler protocol:
 +----------------------+------------------+-----------+
 || 1. Denaturation     || 98              || 10 sec   |
 || 2. Annealing        || 55              || 5 sec    |
-|| 3. Extension        || 72              || 5 sec/kb |
+|| 3. Extension        || 68              || 5 sec/kb |
 || x 30 cycles         ||                 ||          |
 +----------------------+------------------+-----------+
-| Final extension      | 72               | 2 min     |
+| Final extension      | 68               | 2 min     |
 +----------------------+------------------+-----------+
 
-Source: `Takara Bio PrimeSTAR® Max DNA Polymerase <https://www.takarabio.com/documents/User%20Manual/R045Q/R045Q_e.v1108Da.pdf?srsltid=AfmBOoqYaK51A1XbVEkvskFbtibSTPU9uN4hpuIgiBXUMyP3nXMId-J9>`_
+Source: `Takara PrimeSTAR® Max DNA Polymerase Ver.2 <https://www.takarabio.com/documents/User%20Manual/R047S/R047S_R047A_DS.pdf>`_
 
 
 Taq
@@ -122,10 +123,10 @@ Thermocycler protocol:
 +----------------------+------------------+-----------+
 || 1. Denaturation     || 95              || 15 sec   |
 || 2. Annealing        || Ta              || 15 sec   |
-|| 3. Extension        || 68              || 1 min/kb |
+|| 3. Extension        || 72              || 1 min/kb |
 || x 30 cycles         ||                 ||          |
 +----------------------+------------------+-----------+
-| Final extension      | 68               | 5 min     |
+| Final extension      | 72               | 5 min     |
 +----------------------+------------------+-----------+
 
 Source: `APExBIO 2X Taq PCR <https://www.apexbt.com/downloader/document/K1034/Protocol.pdf>`_

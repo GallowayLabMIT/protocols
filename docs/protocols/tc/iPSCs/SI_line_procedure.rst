@@ -70,6 +70,7 @@ STRAIGHT-IN Integration Protocol
 1.	Dilute rhLaminin-521 at 1:20 in PBS +/+.
 2.	Add 300 µl per well to a 24-well plate (15 µl rhLaminin-521 + 285 µl PBS +/+).
 3.	Seal with Parafilm and incubate overnight at 4 C.
+
   * Alternatively, coat on the day of splitting and incubate for 2 hours at 37°C.
 
 **Day Before Transfection (d -1)**
@@ -94,15 +95,19 @@ STRAIGHT-IN Integration Protocol
 ----------------------------
 
 1.	Confirm cells are approximately 30 to 40% confluent.
+  
   * If too confluent, re-seed.
   * If too sparse, feed and wait until they reach the appropriate density.
+  
 2.	Prepare transfection mixes. Per well:
+
   * 600 ng Donor plasmid
   * 400 ng eeBxb1 modRNA
   * 400 ng p53DD modRNA
   * 3 µl Lipofectamine Stem reagent
   * Prepare Lipofectamine master mix based on n + 0.5 wells.
   * Add DNA mix to Lipofectamine mix (not the reverse).
+  
 3.	Incubate 50 µl Lipofectamine:DNA mix for 10 minutes at room temperature.
 4.	Aspirate StemFlex, rinse once with PBS -/- and add 0.5 mL OptiMEM.
 5.	Add 50 µl transfection mix dropwise and gently shake.
@@ -120,17 +125,17 @@ STRAIGHT-IN Integration Protocol
 |      |        | DNA                          | 600 ng donor + 400 ng Bxb1 + 400 ng p53DD    |
 +------+--------+------------------------------+----------------------------------------------+
 | 3    | Add Tube 2 into Tube 1 and mix well                                                  |
-+------+--------+-----------------------------------------------------------------------------+
++------+--------------------------------------------------------------------------------------+
 | 4    | Incubate 10 minutes at room temperature                                              |
-+------+--------+-----------------------------------------------------------------------------+
-| 5    | Rinse cells with PBS -/- and add 0.5 mL OptiMEM                                       |
-+------+--------+-----------------------------------------------------------------------------+
++------+--------------------------------------------------------------------------------------+
+| 5    | Rinse cells with PBS -/- and add 0.5 mL OptiMEM                                      |
++------+--------------------------------------------------------------------------------------+
 | 6    | Add 50 µL complex to each well and swirl to distribute                               |
-+------+--------+-----------------------------------------------------------------------------+
++------+--------------------------------------------------------------------------------------+
 | 7    | Incubate 4 hours at 37°C with 5% CO₂                                                 |
-+------+--------+-----------------------------------------------------------------------------+
++------+--------------------------------------------------------------------------------------+
 | 8    | Add 0.5 mL warm StemFlex per well and incubate overnight                             |
-+------+--------+-----------------------------------------------------------------------------+
++------+--------------------------------------------------------------------------------------+
 
 
 **One Day After Transfection (d1)**
@@ -144,8 +149,10 @@ STRAIGHT-IN Integration Protocol
 ---------------------------------------
 
 1.	Begin antibiotic selection if cells are healthy and above 50% confluent.
+
   * Zeocin 1:6666 for Bxb1 GT
   * Puromycin 1:1000 for Bxb1 GA
+  
 2.	Prepare at least 1.5 mL antibiotic medium for multiple refreshments. Keep at 4°C for up to one week.
 
 **Three to Four Days After Transfection (d3 to d4)**
@@ -191,14 +198,17 @@ Flp-Mediated Excision (GA Landing Pad)
 
 1.	Once colonies are large and healthy, transfect with Flp-T2A-BleoR modRNA.
 2.	Per well, use:
+
   * 500 ng Flp-T2A-BleoR modRNA
   * 2 µl Lipofectamine Stem
+
 3.	Prepare Lipofectamine master mix based on n + 0.5 wells. Add RNA mix to Lipofectamine.
 4.	Incubate 10 minutes at room temperature.
 5.	Aspirate medium, rinse with PBS -/-, add 0.5 mL OptiMEM.
 6.	Add 50 µl Lipofectamine:RNA mix.
 7.	After 4 hours, add 0.5 mL StemFlex without removing OptiMEM.
 8.	After another ~2-4 hours, add 0.5 mL StemFlex containing Zeocin (1:6666).
+
   * Selection may also begin the next day if needed.
 
 **Option B: Replate and Transfect (d6 to d8)**
@@ -216,11 +226,14 @@ Cre-Mediated Excision (GT Landing Pad)
 1.	Replate cells into two rhLaminin-521 coated wells.
 2.	When cells reach 30 to 50% confluency, proceed.
 3.	Prepare a 0.5 mL StemFlex mixture containing 2.25 µl TAT-Cre (1 µM final).
+
   * Mix the components in a separate protein low-bind/retention tube before adding to cells.
+  
 4.	Add the mix to one well. Keep the second well as a backup.
 5.	The next day, rinse with PBS -/- and replace with 0.5 mL StemFlex.
 6.	Allow cells to grow until confluent, typically 2 days. Refresh every other day.
 7.	Passage cells and collect samples for gDNA extraction and CNV ddPCR assays for BleoR and EBFP2/EGFP.
+
   * Typical excision efficiency is 50 to 60%.
   * Additional rounds of TAT-Cre may further increase excision rates.
 
@@ -233,5 +246,6 @@ Cre-Mediated Excision (GT Landing Pad)
 5.	The next day, rinse with PBS -/- and replace with 0.5 mL StemFlex.
 6.	Allow cells to grow until confluent, typically 2-3 days. Refresh every other day.
 7.	Passage cells and collect samples for gDNA extraction and CNV ddPCR assays for BleoR and EBFP2/EGFP.
+
   * Typical excision efficiency is 30%.
   * Additional rounds of Cre modRNA transfection may further increase excision rates.

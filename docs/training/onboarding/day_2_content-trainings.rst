@@ -50,7 +50,7 @@ Research reading and writing
 ----------------------------
 
 Reading literature, communicating your findings, and composing compelling visuals are key research skills to master. The lab has put together 
-several trainings on these topics. The :doc:`"How to" training series <../training/index>` was presented in Summer 2021 and Summer 2023 to undergraduates 
+several trainings on these topics. The :doc:`"How to" training series </training/how-to/index>` was presented in Summer 2021 and Summer 2023 to undergraduates 
 (and other interested lab members). Additionally, Katie has put together a :doc:`Writing Guide <../../writing_guide/index>` relevant for academic 
 writing at all levels (papers, proposals, etc.). 
 

@@ -83,7 +83,7 @@ Complete all steps in the BSC in quarantine (66-219) and with separate quarantin
 
 
 Maintenance, freezing and testing protocols
--------------------------------------
+-------------------------------------------
 
 The passaging, freezing and myco testing as usually done by the two secondary people on the isolation. This is to help reduce the amount of time one person spends in the hood per isolation.
 The primary people may also help with these tasks as needed.
