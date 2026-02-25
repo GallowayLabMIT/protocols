@@ -31,17 +31,20 @@ Gel electrophoresis can also be used to select and purify DNA fragments by size.
         Also, be careful to adequately fill the mold so that the well is deep enough.
 
 2. After the gel is finished running, use the UV imager to identify the desired band on the gel. Using a razor blade, cut out a 
-   fragment of gel containing your product. Do your best to cut the **smallest** gel fragment that includes your product. 
+   fragment of gel containing your product. Do your best to cut the **smallest** gel fragment that includes your product.
+   Cut the gel while still in the acrylic loader, don't cut it directly on the backlight.
 
    .. important:: 
     To avoid UV exposure while cutting your gel at the imager, it is recommended to wear a blue lab coat (if you are not already wearing long sleeves).
 
 3. Place the gel fragment into an eppendorf tube.
 4. Weigh the fragment (tare the scale on an empty tube first) and record the weight in mg.
-5. Add gel dissolving buffer to the tube. Use a 4:1 ratio of buffer in µL to gel fragment in mg (e.g., add 200 µL buffer for a 50 mg gel fragment). 
+5. Add agarose dissolving buffer to the tube. Use a 3:1 ratio of buffer in µL to gel fragment in mg (e.g., add 300 µL buffer for a 100 mg gel fragment). 
 
     .. tip:: 
-        Don't use more than ~400 µL gel dissolving buffer. Larger volumes will introduce more contaminants into your final product. 
+        You should always use the 3:1 ratio. However, you should try to cut your gel chunks so that you are
+        using less than 400 µL gel dissolving buffer. Larger volumes will introduce more contaminants into your
+        final DNA cleanup and reduce the quality of DNA.
         In many cases, using a standard 250 µL of gel dissolving buffer works well, assuming a reasonably sized gel fragment.
 
 6. Incubate in the water bath at 56ºC for ~10 minutes, or until the gel looks dissolved.
@@ -49,7 +52,7 @@ Gel electrophoresis can also be used to select and purify DNA fragments by size.
    to purify DNA from this solution. 
 
    - In the first step, you do NOT need to add binding buffer; you can directly load the solution into the spin column.
-   - Perform **4 washes** instead of the two listed in the protoco, followed by a dry spin. This will help improve the purity of the final product.
+   - Perform **3 washes** instead of the two listed in the protocol, followed by a dry spin. If you had to use more ADB, you can add a fourth or fifth wash. This will help improve the purity of the final product.
    - In the final step, elute into ~15 µL of pre-warmed Elga water.
 
 8. To confirm effective purification, measure the concentration of the final product on the Nanodrop.
