@@ -104,10 +104,9 @@ The combined protocol of transduction plus spinning is dubbed "spinfection."
 
 .. important:: Cover the centrifuge buckets with the plate spinner tray caps.
 
-2. Centrifuge the plate at 1500 x g for 90 min at 32ºC.
+2. Centrifuge the plate at 1500 x g for 30 min at 32ºC.
 
 .. note:: The centrifuge won't heat to 32ºC before the spin, but it will warm up during.
 
-.. note:: Spins shorter than 90 min may also be effective.
 
-3. After the spin is complete, transfer the plate to the 37ºC incubator. Continue as normal with the 1 dpi media change and subsequent treatments, readouts, etc.
+1. After the spin is complete, transfer the plate to the 37ºC incubator. Continue as normal with the 1 dpi media change and subsequent treatments, readouts, etc.

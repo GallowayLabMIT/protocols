@@ -59,7 +59,14 @@ Day Two (transfect Plat-Es):
 
 Day Three (Plat-E media change + seed mouse cells):
 
+
 1.	Change with 1.25 mLs fresh media (:ref:`DMEM/HEPES + 10% FBS <HEPES>`) after 24 hours. Note: NBW transfects ~4pm and media changess ~10am next day to minimize PEI cytotoxicity.
+
+.. note::
+
+    Instead of infecting MEFs with unconcentrated retrovirus for two days, you can also media collect for 2 days and concentrate, same as the :ref:`HEK293T protocol <virusProd>`.
+    BAD and MC resuspend concentrated retrovirus in 100 uL media per well of a 6 well, and :ref:`spinfect <spinfection>` MEFs for 1 day with 2 uL concentrated virus.
+
 2.	Seed mouse cells.
 
     i.  Coat wells in 0.1% gelatin for approx. ~10 min.
