@@ -47,12 +47,19 @@ EHS system and add all necessary trainings to your profile.
     the free antibody titer test. You can get a free booster
     or get doses of a new, more modern HepB vaccine if you
     no longer have HepB antibodies.
+.. note::
+   To complete the Signature: Read Dept. Chemical Hygiene Plan training, please read the Chemical Hygiene Plan and then sign the attestation form.
+   The attestation form is available at:
+    https://web-cert.mit.edu/cheme/resources/lab/ehs/ehs_cert.html
+    You will need an MIT web certificate to access and complete the form.
+    If you do not yet have a web certificate, you can obtain one here:
+      https://ist.mit.edu/mit-apps/certaid
 
-6. If you are going to be helping with mouse work, still under the
+1. If you are going to be helping with mouse work, still under the
    'My Profile' tab, you should click **Join Another Group** under training
    groups and add the **68N: Mouse** training group.
 
-7. Grad students and postdocs should also complete the 
+2. Grad students and postdocs should also complete the 
    `Autoclave Safety Training <http://web.mit.edu/training/course.html?course=EHS00254w&sys=PS1>`_
    module.
 
