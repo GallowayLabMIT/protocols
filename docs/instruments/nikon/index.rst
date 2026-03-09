@@ -9,3 +9,4 @@ Nikon operation
     microscope_components
     startup_shutdown
     single_image_acquisition
+    live_cell_tracking
