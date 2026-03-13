@@ -5,6 +5,11 @@ Cluster Computing
 
 MIT houses several computing clusters that are available for the lab to use. As of 2025, we use the Engaging cluster, though this may change in the future.
 
+The most common use case in our lab is RNAseq analysis because reading and aligning millions of transcripts is computationally intensive, as you can imagine.
+The general workflow (in detail below) is using a Snakefile to execute a list of commands for trimming, aligning, and/or analyzing transcripts.
+These commands may point to RNAseq-related packages or to user-defined python scripts that run analysis.
+At a high level, you upload your raw reads and your project repo housing your snakefile, run snakemake on the cluster, the cluster will compute, 
+and then you will extract the data you need (usually gene counts and/or differentially expressed genes).
 
 Creating and setting up an account
 ==================================
@@ -177,7 +182,23 @@ Per-project setup
 **Set up project Git repo**
 
 After getting your ``ssh-agent`` set up as described above, you should clone your project repo into ``~/katiegal_shared/projects/``.
-This will let you edit your script files locally or on the server, and track changes. The end result should look something like this:
+This will let you edit your script files locally or on the server, and track changes.
+You will want to make a new directory to house all of your Engaging cluster files. You can either copy a ``cluster`` folder from someone else's pipeline (CJ is working on an incoming template repo) or make a new one. 
+
+
+To clone your repo:
+
+1. ``ssh engaging`` and log into the Engaging cluster
+2. Navigate to the projects directory by ``cd katiegal_shared/projects``
+3. Clone your project repo by using the ``ssh`` url which you can get from GitHub. This might look like ``git clone git@github.com:GallowayLabMIT/project_repo.git``
+
+To make a new cluster directory (if not using existing template):
+
+1. Run ``mkdir ~/katiegal_shared/projects/project_repo/cluster``
+2. Run ``mkdir ~/katiegal_shared/projects/project_repo/cluster/data`` . This will house any untracked data, like genomes and raw_reads
+3. Run ``mkdir ~/katiegal_shared/projects/project_repo/cluster/data/raw_reads``. We will symlink this with the raw reads once it is uploaded.
+
+Ultimately, your repo/cluster structure should look something like this:
 
 .. code-block::
 
@@ -196,82 +217,10 @@ This will let you edit your script files locally or on the server, and track cha
                 ├── inputs      # Inputs that should be tracked, like transgenes or metadata
                 ├── profiles    # TODO DESCRIPTION
                 ├── scripts     # Scripts for analysis
+                ├── .gitignore  # TODO DESCRIPTION
                 └── Snakefile   # Runs pipeline
 
-Clone the project repo:
-
-1. ``ssh engaging`` and log into the Engaging cluster
-2. Navigate to the projects directory by ``cd katiegal_shared/projects``
-3. Clone your project repo by using the ``ssh`` url which you can get from GitHub. This might look like ``git clone git@github.com:GallowayLabMIT/project_repo.git``
-
-At the end of this, you should get something like this
-
-.. code-block::
-
-    katiegal_shared
-    ├── data
-    ├── hpc_infra
-    └── projects
-        └── project_repo
-            ├── analysisFile.ipynb
-            └── datadir.txt
-
-**Set up data folder in project Git repo**
-
-You will want to make a new directory to house all of your Engaging cluster files. You can either copy a ``cluster`` folder from someone else's pipeline or make a new one. 
-To make a new one:
-
-1. Run ``mkdir ~/katiegal_shared/projects/project_repo/cluster``
-2. Run ``mkdir ~/katiegal_shared/projects/project_repo/cluster/data`` . This will house any untracked data, like genomes and raw_reads
-
-It should look like this
-
-.. code-block::
-
-    katiegal_shared
-    ├── data
-    ├── hpc_infra
-    └── projects
-        └── project_repo
-            ├── analysisFile.ipynb
-            ├── datadir.txt
-            └── cluster
-                └── data        # Data you don't want tracked, like genomes
-
-Next we want to symlink in the raw_reads so you can easily access it:
-
-1. Run ``ln -s ~/katiegal_shared/data/raw_reads/ ~/katiegal_shared/projects/project_repo/cluster/data/raw_reads``
-   
-It should look like this
-
-.. code-block::
-
-    katiegal_shared
-    ├── data
-    ├── hpc_infra
-    └── projects
-        └── project_repo
-            ├── analysisFile.ipynb
-            ├── datadir.txt
-            └── cluster
-                └── data        
-                    └── raw_reads   # Symlink to ~/katiegal_shared/data/raw_reads/
-
-
-
-
-Transferring files
-------------------
-There are two major ways to transfer files: **rclone** for transferring files between Smithsonian or the BMC, and **sftp**
-for transferring files from your local computer.
-
-**rclone**
-``rclone`` is an all-purpose tool for moving files between servers, and especially cloud providers. We have it setup
-with two "remotes":
-
-- ``bmc``: the BioMicroCenter data directory
-- ``smithsonian``: our data storage.
-
+Next we will upload the raw reads from smithsonian to the cluster using rclone.
 Once per SSH session, you need to activate the rclone module. You do this by running our HPC-infastructure activate
 script and adding the module:
 
@@ -287,193 +236,143 @@ copy command between files stored in Smithsonian to the cluster could be:
 
     $ rclone copy smithsonian:data/NGS/raw_reads/251204_Plasmidsaurus ~/katiegal_shared/data/raw_reads/251204_Plasmidsaurus
 
-This works bidirectionally! You can copy results back into Smithsonian directly.
 
+Be sure to ``unzip`` your files if they are zipped. 
 
-**sftp**
+Next we want to symlink in the raw_reads so you can easily access it:
 
-To transfer local files, we use SFTP. On your local computer (not in the cluster), run:
+1. Run ``ln -s ~/katiegal_shared/data/raw_reads/ ~/katiegal_shared/projects/project_repo/cluster/data/raw_reads``
 
-.. code-block:: console
+.. .. warning::
+..     Below needs to be updated
 
-    $ sftp [your-kerberos]@orcd-login.mit.edu
+.. TODO: suggested project folder structure
 
-This connects your local computer to the Engaging cluster. You should see ``katiegal_shared``. 
-Then use ``put`` to upload the sequencing data to ``katiegal_shared\data\raw_reads``
+.. .. code-block::
 
-.. code-block::
+..     cluster
+..     - data/
+..     - raw
+..     - envs/
+..     - inputs/
+..     - profiles/
+..     - scripts/
+..     - Snakefile
+..     - .gitignore
 
-    put path/to/local/directory/filename.extension /path/to/remote/directory/newname.extension
+.. | cluster
+.. | ├── config
+.. | │   ├── samplesheet.csv 
+.. | ├── data
+.. | │   ├── raw
+.. | ├── envs
+.. | │   ├── deseq2.yaml
+.. | │   ├── salmon.yaml
+.. | │   └── trim_reads.yaml
+.. | ├── inputs
+.. | │   └── transgenes
+.. | │       ├── transgenes-eGFP.fna
+.. | │       └── transgenes-eGFP.gtf
+.. | ├── load_snakemake.sh
+.. | ├── profiles
+.. | │   └── default
+.. | │       └── config.yaml
+.. | ├── scripts
+.. | │   └── run_deseq2.R
+.. | └── Snakefile 3
 
 
-Before you upload your data, making a new directory to hold the data using ``katiegal_shared\data\raw_reads\new_directory_name``
-It should look something like this
 
-.. code-block::
 
-    mkdir katiegal_shared/data/raw_reads/251204_Plas
-    put C:\Users\ChemeGrad2019\Downloads\4Y5Y7T_fastq.zip katiegal_shared/data/raw_reads/251204_Plas/4Y5Y7T_fastq.zip
 
-Then unzip your files and delete the original zip.
 
 
+Run pipeline
+------------
 
-.. important::
-    We have multiple data folders from the Engaging cluster. Ideally everything should be symlinked into the current folder.
-    TODO ADD MORE DETAILS `` /orcd/data/katiegal/003``
-
-So the next thing to do is to clone your git repo:
-
-.. code-block::
-
-    $ cd ~/katiegal_shared/projects
-    $ git clone https://github.com/GallowayLabMIT/[your_project]
-    $ git config --global --add safe.directory /orcd/data/katiegal/002/projects/[your_project]
-
-A convenient way to organize your project is to add a folder called ``cluster`` (or similar) in the root directory of your project repo.
-Here, you can add pipelines to run on the cluster separate from the other data analysis (e.g., flow) for your project. 
-
-
-.. warning::
-    Below needs to be updated
-
-TODO: suggested project folder structure
-
-.. code-block::
-
-    cluster
-    - data/
-    - raw
-    - envs/
-    - inputs/
-    - profiles/
-    - scripts/
-    - Snakefile
-    - .gitignore
-
-| cluster
-| ├── config
-| │   ├── samplesheet.csv 
-| ├── data
-| │   ├── raw
-| ├── envs
-| │   ├── deseq2.yaml
-| │   ├── salmon.yaml
-| │   └── trim_reads.yaml
-| ├── inputs
-| │   └── transgenes
-| │       ├── transgenes-eGFP.fna
-| │       └── transgenes-eGFP.gtf
-| ├── load_snakemake.sh
-| ├── profiles
-| │   └── default
-| │       └── config.yaml
-| ├── scripts
-| │   └── run_deseq2.R
-| └── Snakefile 3
-
-
-**Upload data to Engaging**
-
-TODO
-
-then, symlink data to your project folder
-
-.. code-block::
-
-    ln -s /orcd/data/katiegal/002/data/raw_reads YourPath
-
-
-
-**Uploading RNA-seq data from Plasmidsaurus**
-
-We use ``sftp`` to copy data between servers, either remote (e.g. Engaging cluster) or local (your computer). 
-You can look at `SFTPCloud docs <https://sftpcloud.io/learn/sftp/sftp-put-command>`_ for more info.
-
-For **Plasmidsaurus**, download the fastq.zip file (e.g. "4Y5Y7T_fastq.zip" which contains fastq.gz files). Open a new terminal or PowerShell and run locally:
-
-.. code-block::
-
-    sftp [your-kerberos]@orcd-login.mit.edu
-
-
-
-This connects your local computer to the Engaging cluster. You should see ``katiegal_shared``. 
-Then use ``put`` to upload the sequencing data to ``katiegal_shared\data\raw_reads``
-
-.. code-block::
-
-    put path/to/local/directory/filename.extension /path/to/remote/directory/newname.extension
-
-
-Before you upload your data, making a new directory to hold the data using ``katiegal_shared\data\raw_reads\new_directory_name``
-It should look something like this
-
-.. code-block::
-
-    mkdir katiegal_shared/data/raw_reads/251204_Plas
-    put C:\Users\ChemeGrad2019\Downloads\4Y5Y7T_fastq.zip katiegal_shared/data/raw_reads/251204_Plas/4Y5Y7T_fastq.zip
-
-Then unzip your files and delete the original zip.
-
-
-
-
-
-
-
-
-**Run pipeline**
-
-TODO (KL has notes)
-
-
-**Download output to local computer**
-
-TODO (KL has notes)
-
-
-
-
-KL notes
---------
-
-
-
-**Run pipeline**
-
-- in your project folder, do `git pull` to confirm you are up-to-date
-- do `tmux new` to activate a [terminal multiplexer](https://github.com/tmux/tmux/wiki)
+1. in your project folder on the cluster, do `git pull` to confirm you are up-to-date
+2. do `tmux new` to activate a [terminal multiplexer](https://github.com/tmux/tmux/wiki)
 	- this will keep things running in the background even if you close your computer
-- add modules
-	- `. ~/katiegal_shared/hpc-infra/modules/activate.sh`
-	- `module add snakemake`
-- do a dry run to check for errors
-	- `snakemake --dry-run`
-- tip: create the conda environment (long step) using a compute node
-	- `salloc --mem 20G -c 10 -p mit_normal`
-	- `snakemake --conda-create-envs-only`
-- then, run your pipeline
-	- `snakemake --default-resources slurm_partition=mit_preemptable --keep-going --retries 3`
-	- do this when you know your pipeline is good, otherwise just do `snakemake` inside the folder with your `Snakefile` 
-- to exit the tmux window, type `ctrl-b d` (dettaches, keeps running in background)
-- to check on progress, do `tmux attach`
+3. Add modules:
+   
+.. code-block::
 
-### Download plots, etc from cluster
-- navigate to the directory where you want to download the data
+    ~/katiegal_shared/hpc-infra/modules/activate.sh
+    module add snakemake
+
+4. do a dry run to check for errors in the structure of snakemake calls (note: this will not catch all errors)
+   
+.. code-block::
+
+    snakemake --dry-run
+
+5. (optional) create the conda environment (long step) using a compute node
+
+.. code-block::
+
+    salloc --mem 20G -c 10 -p mit_normal
+    snakemake --conda-create-envs-only
+
+6. run the pipeline! (do this when you know your pipeline is good, otherwise just do snakemake inside the folder with your Snakefile)
+   
+.. code-block::
+
+   snakemake --default-resources slurm_partition=mit_preemptable --keep-going --retries 3
+
+7. to exit the tmux window, type ``ctrl-b d`` (dettaches, keeps running in background), and to check on progress, do `tmux attach`
+8. When the job is finished, download to smithsonian using rclone.
+
+.. code-block::
+
+    $ . ~/katiegal_shared/hpc-infra/modules/activate.sh
+    $ module add rclone
+    $ rclone copy ~/katiegal_shared/data/[data of interest] smithsonian:data/NGS/processed_reads/[new folder for your data]
+
+
+Troubleshooting
+---------------
+- if your snakemake is failing and nothing appears in a log for a rule involving a python script, 
+  ensure you have made the script executable by typing ``git update-index --chmod=+x cluster/scripts/pythonfile.py`` in the VS Code terminal
+
+.. KL notes
+.. --------
+
+
+
+.. **Run pipeline**
+
+.. - in your project folder, do `git pull` to confirm you are up-to-date
+.. - do `tmux new` to activate a [terminal multiplexer](https://github.com/tmux/tmux/wiki)
+.. 	- this will keep things running in the background even if you close your computer
+.. - add modules
+.. 	- `. ~/katiegal_shared/hpc-infra/modules/activate.sh`
+.. 	- `module add snakemake`
+.. - do a dry run to check for errors
+.. 	- `snakemake --dry-run`
+.. - tip: create the conda environment (long step) using a compute node
+.. 	- `salloc --mem 20G -c 10 -p mit_normal`
+.. 	- `snakemake --conda-create-envs-only`
+.. - then, run your pipeline
+.. 	- `snakemake --default-resources slurm_partition=mit_preemptable --keep-going --retries 3`
+.. 	- do this when you know your pipeline is good, otherwise just do `snakemake` inside the folder with your `Snakefile` 
+.. - to exit the tmux window, type `ctrl-b d` (dettaches, keeps running in background)
+.. - to check on progress, do `tmux attach`
+
+.. ### Download plots, etc from cluster
+.. - navigate to the directory where you want to download the data
   
-	- e.g., your computer downloads folder, some output folder in your local project repo
+.. 	- e.g., your computer downloads folder, some output folder in your local project repo
   
-- log in to the cluster using `sftp`
+.. - log in to the cluster using `sftp`
   
-	- `sftp engaging`
-	- approve the Duo request (note that nothing will pop up)
+.. 	- `sftp engaging`
+.. 	- approve the Duo request (note that nothing will pop up)
   
-- navigate to what you'd like to transfer
+.. - navigate to what you'd like to transfer
   
-	- e.g., `cd katiegal_shared/projects/YourProject`
+.. 	- e.g., `cd katiegal_shared/projects/YourProject`
   
-- download the data using the `get` command
+.. - download the data using the `get` command
   
-	- `get -R PathToFolderToCopy`
-	- [sftp manual](https://man.openbsd.org/sftp.1)
+.. 	- `get -R PathToFolderToCopy`
+.. 	- [sftp manual](https://man.openbsd.org/sftp.1)
