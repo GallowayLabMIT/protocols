@@ -32,6 +32,8 @@ class StaleTransform(docutils.transforms.Transform):
             return
         if str(source_relpath) not in self.document.settings.env.git_last_updated:
             return
+        if self.document.settings.env.git_last_updated[str(source_relpath)][0] is None:
+            return
         last_updated = datetime.datetime.fromtimestamp(
             int(self.document.settings.env.git_last_updated[str(source_relpath)][0].decode())
         )
