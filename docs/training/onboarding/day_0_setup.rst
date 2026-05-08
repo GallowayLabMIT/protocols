@@ -309,7 +309,6 @@ Coding and collaboration
    The most common cause is that Python exists on disk, but its directory
    is missing from the PATH environment variable.
 
-   ------------------------------------------------------------
    Windows (Command Prompt / PowerShell)
    ------------------------------------------------------------
 
@@ -373,7 +372,6 @@ Coding and collaboration
 
    If ``where.exe python`` points to the ``pythoncore`` directory, PATH is fixed.
 
-   ------------------------------------------------------------
    Common Windows pitfalls
    ------------------------------------------------------------
 
@@ -391,7 +389,6 @@ Coding and collaboration
    2. Search for **App execution aliases**
    3. Turn **OFF** ``python.exe`` and ``python3.exe``
 
-   ------------------------------------------------------------
    macOS (differences from Windows)
    ------------------------------------------------------------
 
@@ -422,7 +419,6 @@ Coding and collaboration
       python3 --version
       pip3 --version
 
-   ------------------------------------------------------------
    Key takeaways
    ------------------------------------------------------------
 
