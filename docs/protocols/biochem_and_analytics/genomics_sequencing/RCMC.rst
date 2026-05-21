@@ -530,8 +530,8 @@ Test PCR
 We use test PCRs to more accurately estimate how many amplification cycles we need. This also helps ensure that we don't over-amplify (which in theory
 does not change the library but in practice reduce library complexiety and biases towards shorter fragments).
 
-1.   Remove Ampure beads from the fridge and the dual-indexed primers from the freezer and allow both to equilbirate to room temperature.
-2.   Prepare enough PCR mix. You will need 29 µL of mix per reaction; prepare 10% excess. You can use either undiluted 100 µM
+103. Remove Ampure beads from the fridge and the dual-indexed primers from the freezer and allow both to equilbirate to room temperature.
+104. Prepare enough PCR mix. You will need 29 µL of mix per reaction; prepare 10% excess. You can use either undiluted 100 µM
      primers or diluted 10 µM primers.
 
      **PCR Master Mix (27 µL / condition)**
@@ -551,7 +551,7 @@ does not change the library but in practice reduce library complexiety and biase
         Pick the dilution that makes sense for the number of samples you are running. For example, don't use the
         undiluted primers if you only have 3-4 conditions.
 
-3.   In fresh PCR tubes, add 3 µL of the bead slurry per condition to 27 µL of PCR Master Mix. The following PCR program has
+105. In fresh PCR tubes, add 3 µL of the bead slurry per condition to 27 µL of PCR Master Mix. The following PCR program has
      several hold steps. To test different cycle times, you take the tubes out at the 42°C hold steps (e.g. after 12/14/16 total cycles) and take 7 µL samples
      during the course of the program.
      
@@ -577,10 +577,10 @@ does not change the library but in practice reduce library complexiety and biase
      42          Hold           Remove 7 µL gel sample
      ==========  =============  ==============================================
 
-4.   The test PCR process takes four samples: three to run on a gel and one to process with Qubit.
+106. The test PCR process takes four samples: three to run on a gel and one to process with Qubit.
      While the initial cycles of the PCR are running, prepare four sets of fresh PCR tubes and a normal DNA gel.
      For **three** of the sets of tubes, place 3 µL of Orange Loading Dye in each.
-5.   When the hold step is reached, do not hit enter to continue. Instead, pause the run, press the lid open button, and
+107. When the hold step is reached, do not hit enter to continue. Instead, pause the run, press the lid open button, and
      briefly take the tubes out. Use the multi-channel P10 to take a 7 µL sample, combining with the pre-prepared 3 µL of Orange Loading Dye if taking a gel sample.
      Place the tubes back in the thermocycler, close the lid, press lid close, press resume, then hit enter to continue past the hold.
      
@@ -588,8 +588,8 @@ does not change the library but in practice reduce library complexiety and biase
 
         It is fine if your samples contain some of the streptavidin beads. They do not interfere with downstream processes.
 
-6.   Run the three samples per condition on a DNA gel. It is convienent to group the three runs per condition together.
-7.   While waiting on the gel to run, cleanup the samples for Qubit using Ampure beads. You can also use SPRI beads, but we use Ampure
+108. Run the three samples per condition on a DNA gel. It is convienent to group the three runs per condition together.
+109. While waiting on the gel to run, cleanup the samples for Qubit using Ampure beads. You can also use SPRI beads, but we use Ampure
      beads to cleanup the final PCR.
      
      a. Vortex the Ampure beads well.
@@ -602,8 +602,8 @@ does not change the library but in practice reduce library complexiety and biase
      g. Add 20 µL of 0.1x TE to elute. Mix well via pipetting and incubate off-magnet for 2 minutes at room temperature.
      h. Place the tubes back on the magnet and transfer the supernatant to new PCR tubes.
 
-8.   Image the DNA gel, both on our imager and an actually-linear imager like the Niles lab imager.
-9.   Process the Qubit samples. If you are unsure about the concentration, prepare both a 1 µL samples and a 10 µL sample.
+110. Image the DNA gel, both on our imager and an actually-linear imager like the Niles lab imager.
+111. Process the Qubit samples. If you are unsure about the concentration, prepare both a 1 µL samples and a 10 µL sample.
 
         a. Dilute the Qubit light-sensitive reagent 1:200 in Qubit dilution buffer to make working buffer. For 8 samples + 2 standards, this is 10 µL reagent + 1.990 dilution buffer.
         b. In Qubit tubes, dilute 10 µL of Standard 1 and Standard 2 with 190 µL of working buffer.
@@ -611,7 +611,7 @@ does not change the library but in practice reduce library complexiety and biase
         d. Vortex all tubes to mix well.
         e. Measure at the BMC.
 
-10.  Estimate the number of required cycle counts for the real PCR per condition. Use both the gel and Qubit measurements to estimate
+112. Estimate the number of required cycle counts for the real PCR per condition. Use both the gel and Qubit measurements to estimate
      how much amplification is needed to hit 1000 ng per condition (we need 500 ng per condition, but this allows losses to occur).
      The Qubit measurement can saturate: prefer the gel quantification results
      over the Qubit method if in conflict.
@@ -699,4 +699,93 @@ Real PCR
 121. Remove residual EtOH wash using a P10.
 122. Air-dry the beads until the shiny-to-matte transition happens, not longer than 5 minutes.
 123. Add 25 µL of 0.1x TE to elute. Mix well via pipetting and incubate off-magnet for 2 minutes at room temperature.
-124. Place the tubes back on the magnet and transfer the supernatant to nicely labled, new low-binding 1.7 mL tubes. Store at -20°C.
+124. Place the tubes back on the magnet and transfer the supernatant to nicely labled, new low-binding 1.7 mL tubes. Store at -20°C. This is a good pause step.
+
+Pre-amplification library quantification
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+125. Following the instructions for the NEB Next Library Quant Kit, quantify the concentration of each library.
+126. Perform a 1:200 dilution Qubit quantification of each library.
+
+        a. Dilute the Qubit light-sensitive reagent 1:200 in Qubit dilution buffer to make working buffer. For 8 samples + 2 standards, this is 10 µL reagent + 1.990 dilution buffer.
+        b. In Qubit tubes, dilute 10 µL of Standard 1 and Standard 2 with 190 µL of working buffer.
+        c. In Qubit tubes, dilute 1 of each sample with 199 µL of working buffer.
+        d. Vortex all tubes to mix well.
+        e. Measure at the BMC.
+127. Based on these measurements, calculate volumes required to pool 500 ng of each condition together, up to a maximum of 4 µg per capture reaction.
+     Trust the library quant kit result over the Qubit quantification, though both should be close. The Qubit measures
+     total DNA, whereas the library quant kit measures only DNA containing amplifiable Illumina primers.
+
+Day 4: Region capture
+---------------------
+
+.. time::
+    
+    The first capture day has very short hands-on time. It ends with a 16 hour incubation step
+    that should be precisely followed! Start the incubation step at the end of the day so that you
+    will have sufficient time to prepare buffers and such the following day.
+
+.. warning::
+
+    If you google the Twist Target Hybridization Protocol, there are multiple versions of the
+    protocol! Make sure your protocol version matches the reagents you have.
+
+128. Combine 500 ng of each condition together into a single pool in a fresh PCR tube. Load another PCR tube
+     with an equivilant amount of water.
+129. Thaw required ragents on ice (Hybridization Mix, Hybridization Enhancer, Universal Blockers, Blocker Solution).
+130. Use a lyophilizer to dry the indexed pool, in no-heat mode.
+     
+     a. Fill the condenser with liquid nitrogen.
+     b. Place the PCR tubes **(with caps open!)** within 1.7 mL tubes, then place these inside the lyo centrifuge.
+     c. Make sure the lid seals, then turn on the centrifuge, keeping the heater **off**.
+     d. Turn on the vacuum pump and open the valve to the centrifuge. Wait at the centrifuge until the
+        vacuum monitor reaches mill-Torr.
+     e. Lyophilize the pooled library for at least 90 minutes.
+     f. There should be a thin film of DNA visible after drying is complete, with no visible liquid.
+
+131. Near the end of the lyophilization, set a water bath to 65°C and set a thermocycler to 95°C (lid temp 105°C).
+132. Heat the Hybridization Mix in the water bath for 10 minutes. Cool at room temperature for 5 minutes.
+133. In a clean PCR tube, prepare Probe Solution. Mix well.
+
+     **Probe Solution**
+
+     ================== ======
+     Component          Volume
+     ================== ======
+     Hybridization mix  20 µL
+     Twist Custom Panel 4 µL
+     Water              4 µL
+     ================== ======
+
+134. Resuspend the library pool with the following reagents. Flick and pipette to mix.
+
+     ====================== ======
+     Component              Volume
+     ====================== ======
+     Dried library pool     n/a
+     Blocker solution       5 µL
+     Universal blockers     7 µL
+     ====================== ======
+
+133. Heat the Probe Solution to 95°C for two minutes in the thermocycler (with the lid closed to prevent condensation), then remove tube and place on ice for 5 minutes.
+134. While the Probe Solution is cooling, heat the library pool to 95°C on the thermocycler (with the lid closed to prevent condensation) for 5 minutes, followed by 5 minutes at room temperature.
+135. Vortex and spin down the probe solution, then transfer the whole volume into the resuspended library pool. Mix well.
+136. Pulse-spin the tube.
+137. Add 30 µL of Hybridization Enhancer to the top of the reaction. This enhancer floats on the top like oil.
+138. Pulse-spin the tube.
+139. Incubate the hybridization reaction at 70°C for 16 hours in a thermocycler, with the lid at 85°C.
+
+.. note::
+    Shoot for 16 hours. You can stop the hyrbidization between 15 and 17 hours, so you have some, but limited room.
+
+Day 5: Region capture part 2
+----------------------------
+
+140. Follow the Twist instructions with the following changes:
+    
+     a. Instead of guessing on a number of amplification cycles, perform a test PCR. Twist has you elute in 45 µL,
+        so if you perform 30 µL test reactions with 3 µL template, subtract off :math:`\log_2(45/3) = 3.9` cycles from
+        the gel quantification. Use the NEBNext Ultra II mix for the test PCR.
+     b. You can use either the provided Equinox library amplification mix, or the NEBNext Ultra II mix for the final PCR.
+     c. Quantify the resulting 30 µL libraries (eluted in 10 mM Tris-HCl, pH 8) both with the NEB Library Quant Kit and by submitting
+        a sample to the FragmentAnalyzer in the BMC.
+
