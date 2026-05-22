@@ -269,6 +269,8 @@ Day 0 (N days before)
 
 Day 1
 -----
+.. time:: 3 hours
+
 1. Prepare the following buffers fresh:
 
    - 5 mL of **Wash Buffer** (enough for 12 samples, e.g. ~400 uL per sample, excess already included):
@@ -276,14 +278,18 @@ Day 1
      =======================    ==================== ==========================
      Component                   Concentration        Amount / 5 mL
      =======================    ==================== ==========================
-     1M HEPES-KOH                     20 mM                100 uL 
+     1M HEPES-NaOH                    20 mM                100 uL 
      5M NaCl                          150 mM               150 uL
      500 mM spermidine                0.5 mM                 5 uL
      Elga water                       to 5 mL               4.74 mL                       
      =======================    ==================== ==========================
 
-2. Ensure there is at least 50 uL of 100x PIC dissolved in Wash Buffer. If there is not enough, dissolve 1 Pierce EDTA-free Protease Inhibitor Cocktail tablet in 500 uL of Wash Buffer and store at 4C.
-3. Take 20 uL of digitonin (CST #16359) and transfer it to a PCR tube. Heat the tube to 95C for 5 minutes, then place on ice.
+2. Ensure there is at least 50 uL of 100x PIC dissolved in HEPES-NaCl (Wash Buffer without spermidine). If there is not enough, dissolve 1 Pierce EDTA-free Protease Inhibitor Cocktail tablet in 500 uL of Wash Buffer and store at 4C.
+3. Defrost digitonin (CST #16359) and pipette to mix. Freshly transfer 20 uL to a PCR tube. Heat the tube to 95°C for 5 minutes, then place on ice.
+   
+   .. note::
+      This thermocycler protocol is ``GapRUN/digprep``
+
 4. Make the following two buffers immediately before the protocol calls for it. The following recipes are given per 100 uL.
 
    - **Wash Buffer + PIC**
@@ -315,63 +321,84 @@ Day 1
 6. While spinning down the cells as described, activate the Concanavalin A beads. You can activate the ConA beads
    in larger batches (e.g. activate 8 reactions worth in 1.7 mL tubes).
 
-   1. Resuspend ConA beads via trituration, and aliquot 10 uL per sample.
-   2. Place the beads on the magnet and, once clear, remove the supernatant.
-   3. Add 100 uL of activation / binding buffer per 10 uL sample. Let sit at room temperature for 10-15 minutes.
-   4. Place the beads on the magnet, remove the supernatant.
-   5. If using the Cell Signaling Technology beads, repeat this 100 uL wash step, because CST provides
+   a. Resuspend ConA beads via trituration, and aliquot 10 uL per sample.
+   b. Place the beads on the magnet and, once clear, remove the supernatant.
+   c. Add 100 uL of activation / binding buffer per 10 uL sample. Let sit at room temperature for 10-15 minutes.
+   d. Place the beads on the magnet, remove the supernatant.
+   e. If using the Cell Signaling Technology beads, repeat this 100 uL wash step, because CST provides
       enough reagents for two washes.
-   6. Resuspend beads in 10 uL of activation/binding buffer per sample.
+   f. Resuspend beads in 10 uL of activation/binding buffer per sample.
 
 7. Wash aliquots of 200-500k cells twice with 100 uL of Wash Buffer + PIC. Resuspend the washed cell pellets in 100 uL of Wash Buffer + PIC.
+
+   .. warning::
+      Collect these two washes as biowaste, since the cells are not fixed. Bleach the waste and sink-dispose.
+
 8. Combine the 100 uL of cells with 10 uL of activated ConA beads. After mixing well via trituration, place the tubes on a Nutator at room temperature for 10 minutes.
 
-.. note:: 
+   .. note:: 
 
-    You can optionally take some of the supernatant and confirm that the concentration of cells has been reduced by ConA bead binding.
+      You can optionally take some of the supernatant and look with a hemocytometer to confirm that the concentration of cells has been reduced by ConA bead binding.
 
 
-9. Magnetically separate the cells bound to ConA beads, and resuspend each in 50 uL of Complete Wash Buffer (Wash + PIC + **digitonin**). 
-10. Spike in one microliter of the LaG16 MNase per 100k cells, mix well, and nutate overnight at 4C.
+9. Magnetically separate the cells bound to ConA beads, and resuspend each in 50 uL of Complete Wash Buffer (Wash + PIC + **digitonin**). Place the cells on ice.
+10. On ice, spike in one microliter of the LaG16 MNase per 100k cells, mix well (optionally, with a multichannel), and nutate overnight at 4C.
 
 Day 2
 -----
+
+.. time:: 4.5 hours
+
 1. Prepare fresh Complete Wash Buffer (500 uL per sample, excess included), using the recipe from the previous day.
-
-   
-
-3. Magnetically separate and wash the beads with 200 uL of Complete Wash Buffer (Wash + PIC + digitonin), transferring the washed beads to a new PCR tube.
+2. Magnetically separate and wash the beads with 200 uL of Complete Wash Buffer (Wash + PIC + digitonin), transferring the washed beads to a new PCR tube.
+   When not pipetting, keep cells on ice
 
 .. note:: 
 
     Moving the beads reduces the amount of background.
 
-2. Repeat the wash step.
-3. Resuspend beads in 50 uL of Complete Wash Buffer, mixing via gentle pipetting, and place on ice for at least two minutes.
-4. Spike in 1 uL of 150 mM CaCl2. Place samples on the Nutator at 4C for 2 hours.
-5. Prepare Stop Buffer, adding the RNase A and glycogen shortly *(and outside the genomics hood!)* before the 2 hours are up. You need 50 uL per sample (excess **not** included)
+3. Repeat the wash step.
+4. Resuspend beads in 50 uL of Complete Wash Buffer, mixing via gentle pipetting, and place on ice for at least two minutes.
+5. Dilute 2.5M CaCl2 to 150 mM in DEPC-treated water. Dilute 1 µL of 2.5M CaCl2 with 15.6 µL water.
+6. Spike in 1 uL of 150 mM CaCl2. Place samples on the Nutator at 4C for 2 hours.
+7. Prepare Stop Buffer, adding the RNase A and glycogen shortly *(and outside the genomics hood!)* before the 2 hours are up. You need 50 uL per sample (excess **not** included)
+
+   **Stop Buffer**
 
    =======================    ==================== ==========================
-   Component                   Concentration        Amount / 500 uL
+   Component                   Concentration        Amount / sample (50 uL)
    =======================    ==================== ==========================
-   5M NaCl                          340 mM               17 uL
-   500 mM EDTA                      20 mM                20 uL
-   500 mM EGTA                      10 mM                10 uL
-   CST digitonin                                        12.5 uL
-   Elga water                       to 500 uL           434 uL
-   20 mg/mL glycogen                50 ug/mL             1.25 uL
-   20 mg/mL RNase A                 100 ug/mL            2.5 uL
+   5M NaCl                          340 mM               1.7 uL
+   500 mM EDTA                      20 mM                2.0 uL
+   500 mM EGTA                      10 mM                1.0 uL
+   CST digitonin                                        1.25 uL
+   Elga water                       to 500 uL           43.4 uL
+   20 mg/mL glycogen                50 ug/mL             0.125 uL
+   20 mg/mL RNase A                 100 ug/mL            0.25 uL
    =======================    ==================== ==========================
 
-6. Remove the samples from the Nutator, keeping them on ice. Add in 50 uL of Stop Buffer to each sample **outside of the genomics hood**, and mix with gentle pipetting.
-7. Incubate samples at 37C for 10 minutes in a thermocycler, with the lid set to 65C.
-8. Place samples on the magnetic rack **outside the genomics hood**, and transfer the cleared supernatant to fresh low-binding 1.7 mL tubes.
-9. Use the Monarch DNA cleanup kit (using the small, non-miniprep columns), following the instructions that **retains small fragments**. Elute in 50 uL of 1x TE.
-10. Libraries can be stored at -20C until ready to perform library preparation. Library preparation will take around ~3 hours.
+7. Remove the samples from the Nutator, keeping them on ice. Add in 50 uL of Stop Buffer to each sample **outside of the genomics hood**, and mix with gentle pipetting.
+8. Incubate samples at 37C for 10 minutes in a thermocycler, with the lid set to 65C.
+
+   .. note::
+      This thermocycler protocol is ``GapRUN/stop``
+
+9. Place samples on the magnetic rack **outside the genomics hood**, and transfer the cleared supernatant to fresh low-binding 1.7 mL tubes.
+10.  Use the Monarch DNA cleanup kit (using the small, non-miniprep columns), following the instructions that **retains small fragments**.
+     
+     a. Add 200 µL of binding buffer to each 100 µL sample.
+     b. Add 600 µL of IPA and mix well. Do not try to combine this with the previous step, SDS will crash out!
+     c. Perform two washes plus a dry spin.
+     d. Elute in 50 µL of 1x TE, for compatibility with the library prep kit.
+
+11.  Libraries can be stored at -20C until ready to perform library preparation. Library preparation will take around ~3 hours.
 
 Day 3
 -----
-1. Follow the instructions for NEBNext Ultra II DNA Library Prep Kit, without performing size selection (e.g. follow steps 3B instead of 3A).
+
+.. time:: 2.5 hours
+
+1. Follow the instructions for `NEBNext Ultra II DNA Library Prep Kit </_static/files/nebnext_ultraII_library_prep_kit.pdf>`__, without performing size selection (e.g. follow steps 3B instead of 3A).
 2. Perform test PCRs at 17/20/23 cycles to determine the target number of cycles. A normal number of final cycles is 12 (e.g. 17 test-PCR cycles).
 3. Perform indexed "full" PCRs, following the volumes and SPRI cleanup instructions given in the Ultra II DNA Library Prep Kit. Elute in 33 uL of 0.1x TE. Eluted libraries can be stored at -20C.
 4. Quantify the libraries and pool for sequencing.
