@@ -33,6 +33,18 @@ All of these should be **0.22µm filter-sterilized** (use syringe filters) and s
    Filter sterilize
    =======================    ================ ========  ====================
 
+-  50 mL **1M Tris (pH 8.0)**
+
+   =======================    ================ ========  ====================
+   Component                   Concentration    g / L     Amount / 50 mL
+   =======================    ================ ========  ====================
+   Tris-HCl                     1 M             157.64       7.88 g
+   Elga water                  to 40 mL
+   NaOH                        to pH 8.0                 ~900 uL of 12 N NaOH
+   Elga water                  to 50 mL
+   Filter sterilize            
+   =======================    ================ ========  ====================
+
 -  50 mL of **1M HEPES pH 7.5 stock solution**
 
    =======================    ================ ========  ====================

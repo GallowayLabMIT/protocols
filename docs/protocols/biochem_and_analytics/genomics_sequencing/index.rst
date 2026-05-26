@@ -29,7 +29,7 @@ We can break down our in-lab protocols in the following way:
 Protocol    Fragment generation           Post-fragment           Adaptors                 Post-library
 =========   ============================= ======================= =======================  ==============
 ATAC-seq    Tn5 transposition                                     N/A: Tn5 adds adaptors
-ChIP         Sonication                   Antibody pulldown       Ligation    
+ChIP        Sonication                    Antibody pulldown       Ligation    
 CUT&RUN     Targeted MNase digestion                              Ligation
 CUT&Tag     Targeted Tn5 transposition                            N/A: Tn5 adds adaptors
 GapRUN      GapR-targeted MNase digestion                         Ligation

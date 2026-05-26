@@ -22,43 +22,13 @@ In addition to the buffer components listed below, we use the following kits and
 Stock buffer preparation
 -------------------------
 
-Prepare and check for sufficient amounts of the following buffers; many of them are common genomics buffers.
+1. Prepare and check that there is sufficient amounts of the following :doc:`shared genomics buffers </protocols/biochem_and_analytics/genomics_sequencing/shared_genomics_buffers>`:
+  
+  - 1M Tris-HCl, pH 7.5
+  - 0.5M EDTA, pH 8.0
+  - 5M NaCl
 
-1. 10 mL **1M Tris (pH 7.5)**
-
-   =======================    ================ ========  ====================
-   Component                   Concentration    g / L     Amount / 10 mL
-   =======================    ================ ========  ====================
-   Tris-HCl                     1 M             157.64       1.57g
-   Elga water                  to 9 mL
-   NaOH                        to pH 7.5                 ~140 uL of 12 N NaOH
-   Elga water                  to 10 mL
-   =======================    ================ ========  ====================
-
-
-2. 10 mL of **500 mM EDTA (pH 8.0) stock solution**
-
-   =======================    ==================== ========  ==========================
-   Component                   Concentration          g / L     Amount / 10 mL
-   =======================    ==================== ========  ==========================
-   EDTA                           500 mM           186.1        1.861 g
-   Elga water                  to ~7 mL                       
-   NaOH                        to pH 8                         ~0.75 mL of 12N NaOH
-   Elga water                  to 10 mL                       
-   =======================    ==================== ========  ==========================
-
-   The EDTA makes the solution acidic. Adding the NaOH will help it dissolve.
-
-3. 50 mL of **5M NaCl stock solution**:
-
-   =======================    ================ ========  ====================
-   Component                   Concentration    g / L     Amount / 10 mL
-   =======================    ================ ========  ====================
-   NaCl                           5 M            292.21    14.611 g
-   Elga water                  to 50 mL
-   =======================    ================ ========  ====================
-
-4. 1 mL of **1M IPTG**:
+2. 1 mL of **1M IPTG**:
 
    ==============================    ================ ========  ====================
    Component                          Concentration    g / L     Amount / 1 mL
@@ -68,7 +38,7 @@ Prepare and check for sufficient amounts of the following buffers; many of them 
    Sterile filter, 0.22μm filter
    ==============================    ================ ========  ====================
 
-5. 200 mL of **Protein purification buffer**:
+3. 200 mL of **Protein purification buffer**:
 
    ==============================    ================ ========  ====================
    Component                          Concentration    g / L     Amount / 200 mL
@@ -79,7 +49,7 @@ Prepare and check for sufficient amounts of the following buffers; many of them 
    Elga water                           to 200 mL
    ==============================    ================ ========  ====================
 
-6. 50 mL of **0.1M K2PO4 (pH 7.0)**:
+4. 50 mL of **0.1M K2PO4 (pH 7.0)**:
 
    ==============================    ================ ========  ====================
    Component                          Concentration    g / L     Amount / 50 mL
@@ -208,23 +178,14 @@ GapRUN
 
 Stock buffer preparation
 ------------------------
-Prepare and check for sufficient amounts of the following buffers. Suggested amounts
-of buffer are given; these stock solutions are enough for many experiments (and useful
-for other genomics techniques)
+1. Prepare and check that there is sufficient amounts of the following :doc:`shared genomics buffers </protocols/biochem_and_analytics/genomics_sequencing/shared_genomics_buffers>`:
+  
+  - 1M HEPES, pH 7.5
+  - 5M NaCl
+  - 2.5M CaCl2
+  - 0.5M EDTA, pH 8.0
 
-
-1. 10 mL of **1M HEPES-NaOH (pH 7.5)**
-
-   =======================    ================ ========  ====================
-   Component                   Concentration    g / L     Amount / 10 mL
-   =======================    ================ ========  ====================
-   HEPES                         1 M            238.3       2.383 g
-   Elga water                  to 6 mL
-   NaOH                        to pH 7.5                 ~250 uL of 12 N NaOH
-   Elga water                  to 10 mL
-   =======================    ================ ========  ====================
-
-2. 500 uL of **500 mM spermidine**, aliquoted and stored at -20C
+2. Prepare 500 uL of **500 mM spermidine**, aliquoted and stored at -20C
 
    ===========================    ================ ========  ====================
    Component                        Concentration    g / L     Amount / 500 uL
@@ -233,20 +194,7 @@ for other genomics techniques)
    Elga water                       to 500 uL
    ===========================    ================ ========  ====================
 
-3. **5M NaCl stock solution**: see above.
-
-4. 50 mL of **2.5M CaCl2**:
-
-   =======================    ================ ========  ====================
-   Component                   Concentration    g / L     Amount / 10 mL
-   =======================    ================ ========  ====================
-   CaCl2 dihydrate              2.5 M           147.02    18.38 g
-   Elga water                  to 50 mL
-   =======================    ================ ========  ====================
-
-5. **0.5M EDTA (pH 8.0)**: see above.
-
-6. 500 uL of **500 mM EGTA stock solution**
+3. Prepare 500 uL of **500 mM EGTA stock solution**
 
    =======================    ==================== ========  ==========================
    Component                   Concentration          g / L     Amount / 10 mL

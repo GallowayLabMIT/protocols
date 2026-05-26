@@ -32,48 +32,17 @@ Buffer preparation
 
 .. time:: Multiple hours; put on a good podcast and try to enjoy the pH'ing and measuring.
 
-
-These buffers should not be reused from other protocols, as we want them as nuclease-free as possible. For solutions that need to be pH'd, it is easier to prepare them in 50 mL tubes, even though we are only making 10 mL solutions.
+- Make sure there is sufficient amounts of the following :doc:`shared genomics buffers </protocols/biochem_and_analytics/genomics_sequencing/shared_genomics_buffers>`:
+  
+  - 1M Tris-HCl, pH 8.0
+  - 1M Tris-HCl, pH 7.5
+  - 0.5M EDTA, pH 8.0
+  - 1M HEPES, pH 7.5
+  - 1M MgCl2
 
 All buffers except for the DTT can be stored at room temperature for a long time and can also be sink-disposed. You may want to remake if it's been longer than a year. The DTT is likely good for at least a month.
 
-4. Prepare 10 mL of **1M Tris pH 8.0 stock solution**
-
-   =======================    ================ ========  ====================
-   Component                   Concentration    g / L     Amount / 10 mL
-   =======================    ================ ========  ====================
-   Tris-HCl                     1 M             157.64       1.57g
-   Elga water                  to 9 mL
-   NaOH                        to pH 8.0                 ~300 uL of 12 N NaOH
-   Elga water                  to 10 mL
-   =======================    ================ ========  ====================
-
-   and 10 mL of **1M Tris pH 7.5 stock solution**
-
-   =======================    ================ ========  ====================
-   Component                   Concentration    g / L     Amount / 10 mL
-   =======================    ================ ========  ====================
-   Tris-HCl                     1 M             157.64       1.57g
-   Elga water                  to 9 mL
-   NaOH                        to pH 7.5                 ~140 uL of 12 N NaOH
-   Elga water                  to 10 mL
-   =======================    ================ ========  ====================
-
-
-   and 10 mL of **500 mM EDTA stock solution**
-
-   =======================    ==================== ========  ==========================
-   Component                   Concentration          g / L     Amount / 10 mL
-   =======================    ==================== ========  ==========================
-   EDTA                           500 mM           186.1        1.861 g
-   Elga water                  to ~7 mL                       
-   NaOH                        enough to dissolve              ~0.75 mL of 12N NaOH
-   Elga water                  to 10 mL                       
-   =======================    ==================== ========  ==========================
-
-   The EDTA makes the solution acidic. Adding NaOH will help it dissolve. The EDTA stock solution will dissolve, it just takes a decent amount of time on the vortexer. 
-
-5. Prepare 1 mL of **5 mM EDTA**
+4. Prepare 1 mL of **5 mM EDTA**
 
    =======================    ==================== ==============
    Component                   Concentration        Amount / 1 mL
@@ -82,56 +51,31 @@ All buffers except for the DTT can be stored at room temperature for a long time
    Elga water                                       990 μL
    =======================    ==================== ==============
 
-6. Prepare 50 mL of **pH 8.0 IDTE**
+5. Prepare 10 mL of **1xTE**
 
-   =======================    ================ ========  ====================
-   Component                   Concentration    g / L     Amount / 10 mL
-   =======================    ================ ========  ====================
-   Tris-HCl                     10 mM            1.57       0.0788 g
-   500 mM EDTA                  0.1 mM                      10 uL
-   Elga water                  to 50 mL
-   NaOH                        to pH 8.0                  ~35 uL of 4 N NaOH
-   =======================    ================ ========  ====================
+   =======================    ================ ====================
+   Component                   Concentration   Amount / 10 mL
+   =======================    ================ ====================
+   10x TE                      1xTE             1 mL
+   Elga water                  to 10 mL         9 mL
+   =======================    ================ ====================
 
-   Prepare 50 mL of **pH 8.5 TE buffer**
+6. Prepare 1 mL of fresh **100 mM DTT stock solution**:
 
-   =======================    ================ ========  ====================
-   Component                   Concentration    g / L     Amount / 10 mL
-   =======================    ================ ========  ====================
-   Tris-HCl                     10 mM            1.57       0.0788 g
-   Elga water                  to 50 mL
-   NaOH                        to pH 8.5                  ~40 uL of 4 N NaOH
-   =======================    ================ ========  ====================
-
-These buffers can be prepared in 15 mL tubes since they do not need to be pH'd.
-
-7. Prepare 10 mL of **5M NaCl stock solution**:
-
-   =======================    ================ ========  ====================
-   Component                   Concentration    g / L     Amount / 10 mL
-   =======================    ================ ========  ====================
-   NaCl                           5 M            292.21   2.92g
-   Elga water                  to 10 mL
-   =======================    ================ ========  ====================
-
-   and 5 mL of **100 mM DTT stock solution**:
-
-   =======================    ================ ========  ====================
-   Component                   Concentration    g / L     Amount / 5 mL
-   =======================    ================ ========  ====================
-   DTT                           100 mM         15.425   0.077125 g
-   Elga water                  to 5 mL
-   =======================    ================ ========  ====================
+    ======================= =========
+    Component               Amount
+    ======================= =========
+    DTT                     0.01543 g
+    1 M  HEPES pH 7.5       25 µL
+    DEPC-treated water      975 µL
+    ======================= =========
 
    .. note::
 
       DTT, as a reducing agent, will slowly degrade / lose its reduction potential.
-      You may want to remake this after a few months.
-      5 mL is the smallest volume, given our balance accuracy.
+      You need to remake this fresh every time you use it.
 
-      Collect unused DTT as a hazardous waste; do not sink dispose.
-
-8. Prepare the acetate salt buffers. These salts are *very* hygroscopic!
+7. Prepare the acetate salt buffers. These salts are *very* hygroscopic!
    You may have to reorder, and we should possibly store them with silica gel.
 
    Prepare 10 mL of **0.2M Tris-acetate stock solution**:
@@ -161,16 +105,7 @@ These buffers can be prepared in 15 mL tubes since they do not need to be pH'd.
    Elga water                  to 10 mL                  Add in two rounds
    =======================    ================ ========  ====================
 
-9. Prepare 10 mL of **1.0M magnesium chloride stock solution**:
-
-   =======================    ================ ========  ====================
-   Component                   Concentration    g / L     Amount / 10 mL
-   =======================    ================ ========  ====================
-   MgCl2                         1.0M           95.21        0.952 g
-   Elga water                  to 10 mL                  
-   =======================    ================ ========  ====================
-
-10. Prepare 5 mL of **10% IGEPAL CA-630**:
+8.  Prepare 5 mL of **10% IGEPAL CA-630**:
 
     =======================    ================  ====================
     Component                   Concentration     Amount / 5 mL
@@ -188,27 +123,18 @@ These buffers can be prepared in 15 mL tubes since they do not need to be pH'd.
     Elga water                  to 5 mL                  
     =======================    ================  ====================
  
-    Prepare 10 mL of **20% SDS**:
- 
-    =======================    ================  ====================
-    Component                   Concentration     Amount / 10 mL
-    =======================    ================  ====================
-    SDS                           20% (w/v)         2 g
-    Elga water                  to 10 mL                  
-    =======================    ================  ====================
-
-11. Prepare 10 mL of **reverse crosslinking buffer (RCB)** 
+9.  Prepare 10 mL of **reverse crosslinking buffer (RCB)** 
 
     =======================    ================  ====================
     Component                   Concentration     Amount / 10 mL
     =======================    ================  ====================
     1 M Tris, pH 8.0             100 mM            1 mL
     5 M NaCl                     100 mM            0.2 mL
-    20% SDS                      0.4%              0.2 mL
+    10% SDS                      0.4%              0.4 mL
     Elga water                                     8.58 mL
     =======================    ================  ====================
  
-11. Prepare 1 mL of **2.5M glycine stock solution**:
+10. Prepare 1 mL of **2.5M glycine stock solution**:
 
     =======================    ================ ========  ====================
     Component                   Concentration    g / L     Amount / 1 mL
@@ -217,7 +143,7 @@ These buffers can be prepared in 15 mL tubes since they do not need to be pH'd.
     Elga water                  to 1 mL                  
     =======================    ================ ========  ====================
 
-12. Check that there is enough 7.5% BSA solution; much less than a mL is needed.
+11. Check that there is enough 7.5% BSA solution; much less than a mL is needed.
 
     =======================    ================  ====================
     Component                   Concentration     Amount / 1 mL
@@ -232,7 +158,7 @@ Primer resuspension
 
 .. time:: 90 minutes
 
-1. Resuspend all primers (sciAD1/sciAD2/sciP1/sciP2/MEComp) in IDTE to a final concentration of 100 μM.
+1. Resuspend all primers (sciAD1/sciAD2/sciP1/sciP2/MEComp) in 1xTE to a final concentration of 100 μM.
 2. Pipette 50 uL of each PCR primer onto two plates. The recommended plate layouts are:
 
 .. plot:: 
@@ -276,7 +202,7 @@ Primer resuspension
    ================     ==============     ================================
    100 μM MEComp        13 μL               273 μL
    1M Tris, pH 8.0      0.26 μL             5.46 μL
-   5M NaCL              0.26 μL             5.46 μL
+   5M NaCl              0.26 μL             5.46 μL
    ================     ==============     ================================
 
 9. In a PCR plate / PCR tubes, combine 13.5 μL of the master mix with 13 uL of each 100 μM sciAD1.X or sciAD2.X oligos.
@@ -684,14 +610,20 @@ DEPC/Elga water         498 μL      523 μL
 
 10. Pool samples from each plate into separate 15 mL conical tubes.
 11. Purify the DNA from each plate using the DNA Clean and Concentration kit (1 column per plate). Use between 3- and 5-fold binding buffer. This will be a lot of binding buffer; it's fine. Load the column multiple times as needed.
-12. Elute in 12 μL of TE, pH 8.5 
+12. Elute in 18 μL of 1xTE.
 
 Day 3: library quantification
 =============================
+.. time:: 2.5 hours
 
-.. warning::
+1. Following the instructions for the NEB Next Library Quant Kit, quantify the concentration of each library.
+2. Perform a 1:200 dilution Qubit quantification of each library.
 
-   TODO: Library quantification and QC.
+        a. Dilute the Qubit light-sensitive reagent 1:200 in Qubit dilution buffer to make working buffer. For 8 samples + 2 standards, this is 10 µL reagent + 1.990 dilution buffer.
+        b. In Qubit tubes, dilute 10 µL of Standard 1 and Standard 2 with 190 µL of working buffer.
+        c. In Qubit tubes, dilute 1 of each sample with 199 µL of working buffer.
+        d. Vortex all tubes to mix well.
+        e. Measure at the BMC.
 
 References
 ----------
