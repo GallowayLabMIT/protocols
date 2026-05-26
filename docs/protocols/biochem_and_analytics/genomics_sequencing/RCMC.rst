@@ -18,22 +18,30 @@ Protocol numbers will be sequentially numbered throughout the entire procedure, 
 Day -n: Buffer preparation
 --------------------------
 
-MNase resuspension and storage
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Avoid temperature cycles! This means keeping it in a reliable -80°C freezer.
-
-Protease inhibitor cocktail
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
-- Need it in MB1
 
 Shared genomics buffers
 ^^^^^^^^^^^^^^^^^^^^^^^
-- Mark sterile filtered components with a red sharpie line.
-
-- 10 mM Tris-HCl with 10 mM NaCl
+- Make sure there is sufficient amounts of the following :doc:`shared genomics buffers </protocols/biochem_and_analytics/genomics_sequencing/shared_genomics_buffers>`:
+  
+  - 5M NaCl
+  - 1M Tris-HCl, pH 7.5
+  - 0.5M EDTA, pH 8.0
+  - 10% SDS
+  - 1M MgCl2
+  - 2.5M CaCl2
 
 RCMC-specific buffers
 ^^^^^^^^^^^^^^^^^^^^^^
+
+**10 mM Tris, 10 mM NaCl (1 mL)**
+
+======================  =======
+Component               Volume
+======================  =======
+1 M Tris-HCl pH 7.5     10 µL
+5 M NaCl                 2 µL
+DEPC-treated water      988 µL
+======================  =======
 
 **2xBW (50 mL)**
 
@@ -59,10 +67,72 @@ Water (Elga or DEPC)    25 mL
 0.2 µm sterile filter
 =====================   ======
 
-- MB2 (not Complete MB2)
+**MB1 (50 mL)**
 
+=================== ==============  ========
+Component           Concentration   Volume
+=================== ==============  ========
+5 M NaCl            50 mM           0.5 mL
+1 M Tris-HCl pH 7.5 10 mM           0.5 mL
+1 M MgCl2            5 mM           0.25 mL
+2.5 M CaCl2          1 mM           20 µL
+DEPC-treated water                  48.7 mL
+=================== ==============  ========
 
-RCMC requires many, many buffers
+**MB2 (50 mL)**
+
+=================== ==============  ========
+Component           Concentration   Volume
+=================== ==============  ========
+5 M NaCl            50 mM           0.5 mL
+1 M Tris-HCl pH 7.5 10 mM           0.5 mL
+1 M MgCl2           10 mM           0.5 mL
+DEPC-treated water                  48.5 mL
+=================== ==============  ========
+
+**MB3 (50 mL)**
+
+=================== ==============  ========
+Component           Concentration   Volume
+=================== ==============  ========
+1 M Tris-HCl pH 7.5 50 mM           2.5 mL
+1 M MgCl2           10 mM           0.5 mL
+DEPC-treated water                  47 mL
+=================== ==============  ========
+
+**20 mg/mL BSA (prepare fresh each day)**
+
+=================== ======
+Component           Amount
+=================== ======
+BSA                 20 mg
+DEPC-treated water  1 mL
+=================== ======
+
+MNase resuspension and storage
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+We want to avoid temperature cycles of the MNase! To prevent temperature cycles, we make
+aliquots of 20U / µL MNase.
+
+1. Based on the documented units of lyophilized MNase (on the packing slip), prepare and resuspend the MNase to 40U / µL in the following buffer:
+
+   **2xMNase storage buffer (10 mL)**
+
+   ======================  ==============  =======
+   Component               Concentration   Volume
+   ======================  ==============  =======
+   1M Tris-HCl, pH 7.5     20 mM           200 µL
+   5 M NaCl                100 mM          200 µL
+   500 mM EDTA, pH 8.0      2 mM            40 µL
+   DEPC-treated water                      9.56 mL
+   ======================  ==============  =======
+
+2. Add an equal volume of 100% glycerol to reach 20U / µL. Mix well and aliquot, store in a **reliable** -80°C freezer.
+
+Protease inhibitor cocktail
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+- Dissolve one Protease Inhibitor Cocktail tablet in 500 µL of MB1. The protease inhibitor cocktail will
+  not fully dissolve, but aliquot the resulting slurry. This is your 100x PIC solution.
 
 
 Day 1: MNase titration
@@ -221,7 +291,7 @@ Day 1 continued: post-titration digestion and end repair
 Buffer preparation
 ^^^^^^^^^^^^^^^^^^
 36. Prepare sufficient 20 mg/mL BSA if needed. You don't need super large amounts: 1 mL should be sufficient.
-37. Prepare enough Complete MB1 and MB2 on ice for all of your samples.
+37. Prepare enough Complete MB1, MB2, and MB3 on ice for all of your samples.
     You will need 3 mL of Complete MB1 per 10M cells:
 
     **Complete MB1 (10/50 mL)**:
@@ -245,16 +315,30 @@ Buffer preparation
     20 mg/mL BSA    50 µL
     =============== ======
 
-38. Prepare fresh 100 mM DTT. Prepare 1 mL of this buffer; do not go smaller because our balances have limited precision.
+    and 1 mL of Complete MB3 per sample (not per cell count):
+
+    **Complete MB3 (5 mL)**:
+
+    =============== ======
+    Component       Volume
+    =============== ======
+    MB3             5 mL
+    20 mg/mL BSA    25 µL
+    =============== ======
+    
+    Then, prepare fresh 100 mM DTT. Prepare 1 mL of this buffer; do not go smaller because our balances have limited precision.
+
+    **100 mM DTT (1 mL)**:
 
     ======================= =========
     Component               Amount
     ======================= =========
     DTT                     0.01543 g
-    25 mM HEPES pH 7.75     1 mL
+    1 M  HEPES pH 7.5       25 µL
+    DEPC-treated water      975 µL
     ======================= =========
 
-39. On ice, start defrosting NEBuffer 2.1 and ATP for the end labeling and Biotin-dATP, Biotin-dCTP, dTTP, dGTP, and T4 DNA ligase buffer for the end labeling step.
+38. On ice, start defrosting NEBuffer 2.1 and ATP for the end labeling and Biotin-dATP, Biotin-dCTP, dTTP, dGTP, and T4 DNA ligase buffer for the end labeling step.
 
 MNase digestion
 ^^^^^^^^^^^^^^^
@@ -420,7 +504,7 @@ Bead cleanup
     c. Place the tubes on the magnet and separate the beads. Move the **supernatant** to a new tube.
     d. Add 0.15x of the initial volume (12 µL) of SPRI beads to the supernatant. Mix well by pipetting and  incubate at room temperature for 1 minute.
     e. Place the tubes on the magnet and separate the beads. **Remove** the supernatant.
-    f. With the tubes still on the magnet, add 200 µL of 80% ethanol, incubate for 30 seconds, then remove the ethanol. Repeat this wash step
+    f. With the tubes still on the magnet, add 200 µL of **freshly prepared** 80% ethanol, incubate for 30 seconds, then remove the ethanol. Repeat this wash step
     g. Use a P10 pipette to remove residual ethanol, while the tubes are still on the magnet.
     h. Wait for the beads to dry, not longer than 5 minutes. The beads should go from "shiny" to "matte".
     i. Elute by adding 32 µL 0.1xTE. Take the tubes off the magnet and mix well. After a 1 minute incubation, place back on the magnet until the beads are pelleted.
@@ -527,7 +611,7 @@ Adapter ligation
 Test PCR
 ^^^^^^^^
 
-103. Following the Test PCR protocol, using the following variables:
+103. Following the :doc:`Test PCR protocol </protocols/biochem_and_analytics/genomics_sequencing/test_pcrs>`, using the following variables:
      
      - Use 3 µL of the 23 µL bead slurry for test PCR purposes. 19 µL will be used in the real PCR, so :math:`\log_2(19/ 0.7) = 4.76` delta cycles.
      - Use the ``ligation_fwd`` and ``ligation_rev`` primers.
@@ -584,7 +668,7 @@ Real PCR
 108. Pool the split reactions back together.
 109. To each 100 µL sample, add 90 µL of Ampure beads. Mix well via pipetting.
 110. Incubate at room temperature for 15 minutes.
-111. Place tubes on the magnetic rack. Remove the supernatant, and wash twice with 200 µL of freshly-prepared 80% EtOH
+111. Place tubes on the magnetic rack. Remove the supernatant, and wash twice with 200 µL of **freshly prepared** 80% EtOH
      without disturbing the beads (e.g. keep the tubes on the magnet).
 112. Remove residual EtOH wash using a P10.
 113. Air-dry the beads until the shiny-to-matte transition happens, not longer than 5 minutes.

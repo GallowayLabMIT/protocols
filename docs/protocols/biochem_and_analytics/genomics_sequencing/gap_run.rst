@@ -398,10 +398,16 @@ Day 3
 
 .. time:: 2.5 hours
 
-1. Follow the instructions for `NEBNext Ultra II DNA Library Prep Kit </_static/files/nebnext_ultraII_library_prep_kit.pdf>`__, without performing size selection (e.g. follow steps 3B instead of 3A).
-2. Perform test PCRs at 17/20/23 cycles to determine the target number of cycles. A normal number of final cycles is 12 (e.g. 17 test-PCR cycles).
-3. Perform indexed "full" PCRs, following the volumes and SPRI cleanup instructions given in the Ultra II DNA Library Prep Kit. Elute in 33 uL of 0.1x TE. Eluted libraries can be stored at -20C.
-4. Quantify the libraries and pool for sequencing.
+1. Follow the instructions for `NEBNext Ultra II DNA Library Prep Kit </_static/files/nebnext_ultraII_library_prep_kit.pdf>`__, without performing size selection (e.g. follow steps 3B instead of 3A). Elute in 18 µL instead of 17 µL and stop before Step 4 (PCR enrichment).
+2. Follow the :doc:`Test PCR protocol </protocols/biochem_and_analytics/genomics_sequencing/test_pcrs>` with the following parameters:
+
+     - Use 3 µL of the 18 µL elution for test PCR purposes. 15 µL will be used in the real PCR, so :math:`\log_2(15/ 0.7) = 4.42` delta cycles.
+     - Use the ``ligation_fwd`` and ``ligation_rev`` primers.
+     - Target at least 500 ng. Perform 16/19/22 test cycles.
+     - The final cycle count should be around 12 cycles.
+
+5. Perform indexed "full" PCRs, following the volumes and SPRI cleanup instructions given in the Ultra II DNA Library Prep Kit instructions from above. Elute in 33 uL of 0.1x TE. Eluted libraries can be stored at -20C.
+6. Quantify the libraries and pool for sequencing.
 
 
 .. [Longo2024] https://dx.doi.org/10.1016/j.molcel.2024.10.007
