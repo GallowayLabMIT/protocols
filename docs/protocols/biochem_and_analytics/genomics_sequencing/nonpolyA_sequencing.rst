@@ -51,6 +51,15 @@ you will need less than 1mL of the following :doc:`shared genomics buffers </pro
 - 5M NaCl
 - 0.5M EDTA
 
+Day 0: Buffer preparation
+------------------------------
+
+- Make sure there is sufficient amounts of the following :doc:`shared genomics buffers </protocols/biochem_and_analytics/genomics_sequencing/shared_genomics_buffers>`:
+  
+  - 5M NaCl
+  - 1M Tris-HCl, pH 7.5
+  - 0.5M EDTA, pH 8.0
+
 
 Ligation and target enrichment
 ------------------------------
@@ -101,7 +110,8 @@ Following RNA isolation, setup a ligation reaction. This reaction can be scaled 
      .. warning::
 
         Formamide is a suspected carcinogen and can damage fertility / fetuses!
-        Don't work with this if you are pregnant, and work with the 100% formamide in the actual fumehood.
+        Don't work with this if you are pregnant, and work with both the 100% formamide buffer preparation and 
+        capture steps up to the first wash in the actual fumehood, before moving back to the genomics hood.
 
         Collect used buffer, unused buffer, and the first wash after as chemical waste.
 
