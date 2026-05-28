@@ -150,7 +150,7 @@ if __name__ == '__main__':
     html_args = [python_exe, '-m', 'sphinx.cmd.build', '-b', 'html', str(docs_path), str(html_path)]
     latex_args = [python_exe, '-m', 'sphinx.cmd.build','-M', 'latexpdf', str(docs_path), str(latex_path)]
     latex_env = os.environ.copy()
-    latex_env["LATEXMKOPTS"] = "-interaction=batchmode"
+    latex_env["LATEXMKOPTS"] = "-interaction=nonstopmode"
 
     gh_annotations = []
 
@@ -164,7 +164,7 @@ if __name__ == '__main__':
             try:
                 if args.emit_gh_annotations:
                     gh_annotations.extend(parse_sphinx_log(stderr.decode('utf-8')))
-                    print("::group::{name} build")
+                    print(f"::group::{name} build")
                 print(stdout.decode('utf-8'))
                 print(stderr.decode('utf-8'), file=sys.stderr)
                 if args.emit_gh_annotations:

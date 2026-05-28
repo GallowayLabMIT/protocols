@@ -2,8 +2,10 @@
 # Modified from Michael Altfield's work:
 # https://tech.michaelaltfield.net/2020/07/23/sphinx-rtd-github-pages-2/
 ######################################################################### 
+echo "::group::Build env info"
 pwd
 ls -lah
+echo "::endgroup::"
 export SOURCE_DATE_EPOCH=$(git log -1 --pretty=%ct)
  
 # make a new temp dir which will be our GitHub Pages docroot
@@ -20,9 +22,10 @@ versions="`git for-each-ref '--format=%(refname:lstrip=-1)' refs/remotes/origin/
 for current_version in ${versions}; do
    # make the current language available to conf.py
    export current_version
-   git checkout ${current_version}
+   git checkout ${current_version} >/dev/null 2>/dev/null
+
  
-   echo "INFO: Building sites for ${current_version}"
+   echo "::group::Pre-build info for ${current_version}"
  
    # skip this branch if it doesn't have our docs dir & sphinx config
    if [ ! -e 'docs/conf.py' ]; then
@@ -37,6 +40,7 @@ for current_version in ${versions}; do
    ##########
    # BUILDS #
    ##########
+   echo "::endgroup::"
    python ./build.py --latex --parallel --force-rebuild --emit-gh-annotations
 
    # HTML #
@@ -47,9 +51,12 @@ for current_version in ${versions}; do
 
    # copy the static assets produced by the above build into our docroot
    mkdir -p "${docroot}/${current_language}/${current_version}"
+   echo "::group::Collecting ${current_version} output"
    rsync -av "output/html/" "${docroot}/${current_language}/${current_version}/"
+   echo "::endgroup::"
 done
  
+echo "::group::Pushing to GH pages"
 # return to master branch
 git checkout latest
  
@@ -108,6 +115,7 @@ git commit -am "${msg}"
  
 # overwrite the contents of the gh-pages branch on our github.com repo
 git push deploy gh-pages --force
+echo "::endgroup::"
  
 popd # return to main repo sandbox root
  
