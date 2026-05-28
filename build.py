@@ -122,6 +122,10 @@ def parse_sphinx_log(logs):
 
     return annotations
 
+def summarize_latex_logfile(logs):
+    pass
+#    texlogsieve --no-summary-detail --no-heartbeat --no-shipouts --no-page-delay --no-file-banner -l CRITICAL --only-summary --no-box-detail
+
 # Argparse and main
 
 parser = argparse.ArgumentParser(description="Generates HTML and PDFs from Markdown files")
@@ -149,6 +153,8 @@ if __name__ == '__main__':
     latex_path = Path(__file__).resolve().parent / 'output' / 'latex'
     html_args = [python_exe, '-m', 'sphinx.cmd.build', '-b', 'html', str(docs_path), str(html_path)]
     latex_args = [python_exe, '-m', 'sphinx.cmd.build','-M', 'latexpdf', str(docs_path), str(latex_path)]
+    if args.parallel or args.emit_gh_annotations:
+        html_args.insert(3, '--no-color')
     latex_env = os.environ.copy()
     latex_env["LATEXMKOPTS"] = "-interaction=nonstopmode"
 
