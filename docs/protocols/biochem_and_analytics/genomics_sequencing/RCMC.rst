@@ -15,6 +15,12 @@ The big-picture protocol is:
 
 Protocol numbers will be sequentially numbered throughout the entire procedure, for easy referencing.
 
+The overall days are split up:
+
+.. contents::
+    :depth: 1
+    :local:
+
 Day -n: Buffer preparation
 --------------------------
 

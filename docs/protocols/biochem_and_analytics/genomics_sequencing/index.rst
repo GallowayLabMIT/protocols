@@ -2,12 +2,6 @@
 Genomics and sequencing methods
 ================================
 
-.. toctree::
-   :maxdepth: 1
-   :glob:
-   
-   *
-
 Genomics methods give us a way to interrogate any DNA you can place adaptors on, at very high scale and resolution.
 Short-read sequencing is increasingly a commodity; it costs roughly $1000 for 500 million reads, and even less
 per-read for billions of reads.
@@ -25,18 +19,19 @@ Genomics methods are very "mix and match", as they all follow the overall trend 
 
 We can break down our in-lab protocols in the following way:
 
-=========   ============================= ======================= =======================  ==============
-Protocol    Fragment generation           Post-fragment           Adaptors                 Post-library
-=========   ============================= ======================= =======================  ==============
-ATAC-seq    Tn5 transposition                                     N/A: Tn5 adds adaptors
-ChIP        Sonication                    Antibody pulldown       Ligation    
-CUT&RUN     Targeted MNase digestion                              Ligation
-CUT&Tag     Targeted Tn5 transposition                            N/A: Tn5 adds adaptors
-GapRUN      GapR-targeted MNase digestion                         Ligation
-MicroC      MNase digestion               Proximity cross-linking Ligation
-RCMC        MNase digestion               Proximity cross-linking Ligation                 ROI capture
-RNA-seq     RNA isolation, cDNA synthesis                         Ligation    
-=========   ============================= ======================= =======================  ==============
+==================================  ============================= ======================= =======================  ==============
+Protocol                            Fragment generation           Post-fragment           Adaptors                 Post-library
+==================================  ============================= ======================= =======================  ==============
+ATAC-seq                            Tn5 transposition                                     N/A: Tn5 adds adaptors
+ChIP                                Sonication                    Antibody pulldown       Ligation    
+CUT&RUN                             Targeted MNase digestion                              Ligation
+:doc:`CUT&Tag <cut_and_tag>`        Targeted Tn5 transposition                            N/A: Tn5 adds adaptors
+:doc:`GapRUN <gap_run>`             GapR-targeted MNase digestion                         Ligation
+MicroC                              MNase digestion               Proximity cross-linking Ligation
+:doc:`RCMC <RCMC>`                  MNase digestion               Proximity cross-linking Ligation                 ROI capture
+RNA-seq                             RNA isolation, cDNA synthesis                         Ligation    
+==================================  ============================= ======================= =======================  ==============
+
 
 Single-cell genomics methods take one of two paths:
 
@@ -46,19 +41,44 @@ Single-cell genomics methods take one of two paths:
 
 The following protocols we have done in lab fall into these categories:
 
-=============  =====================   =====================
-Method         Single-cell technique   Effort
-=============  =====================   =====================
-sci-ATAC-seq   Combinatorial           Very high
-sc-RNA-seq     Droplet                 Low (core submission)
-=============  =====================   =====================
+=====================================  =====================   =====================
+Method                                 Single-cell technique   Effort
+=====================================  =====================   =====================
+:doc:`sci-ATAC-seq <sci_ATAC_seq>`     Combinatorial           Very high
+sc-RNA-seq                             Droplet                 Low (core submission)
+=====================================  =====================   =====================
+
+
+.. toctree::
+   :maxdepth: 1
+   :caption: End-to-end protocols
+   
+   cut_and_tag
+   gap_run
+   RCMC
+   sci_ATAC_seq
+   nonpolyA_sequencing
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Common buffers and shared protocols
+
+   shared_genomics_buffers
+   test_pcrs
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Deprecated protocols
+
+   HIVE
+   tn5_titration
 
 
 Sequencing technologies
-=======================
+-----------------------
 
 "Last generation" sequencing
------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 The original sequencing technology that you may be familiar with is Sanger sequencing.
 Sanger sequencing works by running a normal PCR reaction for a single cycle,
 starting from a primer binding site and using a low percentage of fluorescent, chain-terminating modified
@@ -71,7 +91,7 @@ the fragments based on length, with the resulting fluorescent measurements as a 
 being the ``ab1`` file that you load into Snapgene.
 
 Next generation sequencing
----------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 Next generation sequencing (NGS) is also a "sequencing by synthesis" and also uses fluorescent base pairs,
 but measures the data in a fundamentally different way. Instead of measuring a single species for ~1000 base pairs,
 like Sanger sequencing, NGS uses a patterned flow cell that reads millions to billions of DNA molecules
@@ -96,7 +116,7 @@ The high-level process of what the core facility does is:
 4. Primers and fluorescent bases, added in successive wash/binding steps, allows sequences of each cluster to be read out base-by-base.
 
 Long-read sequencing
---------------------
+^^^^^^^^^^^^^^^^^^^^
 Long-read sequencing is (currently) dominated by nanopore technology. These methods sequence DNA by forcing individual
 DNA or RNA molecules through a small pore. A known adapter sequence is still needed to bind a DNA fragment to the pore to start
 sequencing.

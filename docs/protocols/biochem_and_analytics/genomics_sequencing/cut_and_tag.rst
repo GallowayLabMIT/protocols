@@ -39,6 +39,9 @@ This protocol is most sanely split over three days.
 - Day 2: secondary antibody binding, tagmentation, DNA cleanup, test PCR. This is a very long day! Nearly ~11 hours for 32 samples.
 - Day 3: PCR amplification, library quantification.
 
+The overall days are split up:
+
+
 Experimental setup
 ==================
 
@@ -341,6 +344,9 @@ m. Remove the supernatant from the beads, add 35 µL of DNA Purification Binding
 53. Leave the PCR tube caps open, and use a 10 µL pipette to remove any remaining wash buffer. Air dry until the shiny-to-matte transition happens, not more than 5 minutes.
 54. Add 24 µL of DNA Purification Elution Buffer and resuspend the beads off the magnet. Incubate for 1 minute.
 55. Place tubes on the magnet and transfer 23 µL to fresh PCR tubes.
+   
+    .. note::
+      This is a good stopping point if needed.
 
 n. Follow the :doc:`Test PCR protocol </protocols/biochem_and_analytics/genomics_sequencing/test_pcrs>` with the following parameters:
 
