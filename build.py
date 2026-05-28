@@ -26,6 +26,7 @@ def output_annotation(annotation, where_to_print=sys.stdout):
     level_to_command = {
         AnnotationLevel.WARNING: "warning",
         AnnotationLevel.ERROR: "error",
+        AnnotationLevel.NOTICE: "notice",
     }
 
     command = level_to_command[annotation.annotation_level]
@@ -123,8 +124,21 @@ def parse_sphinx_log(logs):
     return annotations
 
 def summarize_latex_logfile(logs):
-    pass
-#    texlogsieve --no-summary-detail --no-heartbeat --no-shipouts --no-page-delay --no-file-banner -l CRITICAL --only-summary --no-box-detail
+    p = subprocess.Popen(['texlogsieve',
+                          '--no-summary-detail', '--no-heartbeat', '--no-shipouts', '--no-page-delay', '--no-file-banner',
+                          '-l', 'CRITICAL',
+                          '--only-summary'], stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    stdout, _ = p.communicate(logs)
+    try:
+        return [CheckAnnotation(
+            path='latex',
+            message=stdout.decode('utf-8').replace('\n',"%0A"),
+            start_line=1,
+            end_line=1,
+            annotation_level=AnnotationLevel.NOTICE
+        )]
+    except UnicodeDecodeError:
+        return []
 
 # Argparse and main
 
@@ -156,7 +170,7 @@ if __name__ == '__main__':
     if args.parallel or args.emit_gh_annotations:
         html_args.insert(3, '--no-color')
     latex_env = os.environ.copy()
-    latex_env["LATEXMKOPTS"] = "-interaction=nonstopmode"
+    latex_env["LATEXMKOPTS"] = "-interaction=batchmode"
 
     gh_annotations = []
 
@@ -186,20 +200,31 @@ if __name__ == '__main__':
             build = subprocess.Popen(html_args, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
             stdout, stderr = build.communicate()
             gh_annotations.extend(parse_sphinx_log(stderr.decode('utf-8')))
-            print("::group::HTML build")
-            print(stdout.decode('utf-8'))
-            print(stderr.decode('utf-8'), file=sys.stderr)
-            print("::endgroup::")
+            try:
+                print("::group::HTML build")
+                print(stdout.decode('utf-8'))
+                print(stderr.decode('utf-8'), file=sys.stderr)
+                print("::endgroup::")
+            except UnicodeDecodeError:
+                pass
 
             if args.latex:
                 build = subprocess.Popen(latex_args, stdout=subprocess.PIPE, stderr=subprocess.PIPE, env=latex_env)
                 stdout, stderr = build.communicate()
-                print("::group::LaTeX build")
-                print(stdout.decode('utf-8'))
-                print(stderr.decode('utf-8'), file=sys.stderr)
-                print("::endgroup::")
+                try:
+                    print("::group::LaTeX build")
+                    print(stdout.decode('utf-8'))
+                    print(stderr.decode('utf-8'), file=sys.stderr)
+                    print("::endgroup::")
+                except UnicodeDecodeError:
+                    pass
 
     if args.emit_gh_annotations:
+        if args.latex:
+            # filter the output log file
+            with open("output/latex/latex/gallowaylabprotocols.log", 'br') as f:
+                latex_log = f.read()
+                gh_annotations.extend(summarize_latex_logfile(latex_log))
         print("::group::Line-level job annotations")
         for annotation in gh_annotations:
             output_annotation(annotation)
