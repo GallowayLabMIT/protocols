@@ -15,7 +15,7 @@ jobs:
       run: |
           sudo apt-get update
           sudo apt-get install texlive-latex-recommended texlive-fonts-recommended \
-                               texlive-latex-extra latexmk tex-gyre \
+                               texlive-latex-extra texlive-extra-utils latexmk tex-gyre \
                                ghostscript \
                                --no-install-recommends
     - name: Set up Python
