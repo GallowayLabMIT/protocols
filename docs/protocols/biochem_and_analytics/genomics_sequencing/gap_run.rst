@@ -169,9 +169,120 @@ Day 3
 12. Load the accumulated samples in sample buffer onto a :doc:`prepared denaturing protein gel </protocols/protein_production/denaturing_protein_gel>`, to confirm a single elution band
     corresponding to the anti-GFP-MNase.
 
-Day n
-------
-Following the RCMC MNase titration protocol, the activity of the anti-GFP-MNase can be benchmarked against commercial MNase.
+Day 4
+-----
+
+Cell harvest and fixation
+^^^^^^^^^^^^^^^^^^^^^^^^^
+1. Prepare sufficent 100x BSA (200 µg / mL) to aid to help cells pellet and limit cell losses. Cool a centrifuge to 4°C and place sufficient PBS on ice.
+2. Collect cells following normal passaging conditions. Collect into and wash in the same 50 mL tube. After collecting and spinning down the cells,
+   perform a PBS wash before resuspending and counting cells. Spike in 100x BSA prior to spinning down the cells in the PBS wash.
+3. Count the cells. We want as high cell counts as possible; it is good to crosslink and fix as many
+   cells as possible instead of throwing away cells at this step.
+
+   .. warning::
+
+        Collect all of the following wash steps as formaldehyde waste until step the cells are resuspended prior to aliquoting.
+
+4. In a fumehood, add 1 mL of fresh 16% formaldehyde per 15 mL of cells (15M cells), in a dropwise but relatively rapid manner.
+   Use the 10mL and 1mL ampules either opened fresh or opened and stored in the last ~48 hours.
+5. Incubate for 10 minutes at room temperature on the plate shaker.
+6. Add pH 7.5 Tris dropwise to a final concentration of 0.375M. This is 3.45 mL of 2M Tris per 15M cells.
+7. Incubate for 5 minutes at room temperature. Spike in 100x BSA prior to spinning at 400 xg at 4°C for 5 minutes.
+8. Remove the supernatant, wash with cold PBS at a concentration of 1M cells / mL. Spike in 100x BSA prior to spinning at 400 xg at 4°C for 5 minutes.
+9. Resuspend the cell pellet to 20M cells / mL, in cold PBS with spiked-in 100x BSA. Make the desired aliquots of these cells.
+   For the MNase titration, you will need at least one aliquot of 5M cells. If processing the rest of the cells, in the same reaction,
+   you can freeze down a "large" aliquot.
+
+   .. note::
+
+      For smaller aliquots, make sure you use **low-binding** 1.7 mL tubes instead of normal 1.7 mL tubes.
+10. Spin down aliquots, aspirate the supernatant and snap-freeze the cell pellets in liquid nitrogen. Store at -80°C.
+    For consistency, snap-freeze and store the main samples even if you are proceeding on the same day.
+    There is no benefit to having "fresh" un-snap-frozen cells.
+
+    .. note::
+        
+        To snap-freeze, using the LN2 PPE, fill the small dewar with LN2. Then, pour some LN2 into a styrofoam
+        container. Place the tubes to be snap-frozen in the foam holders we use for water baths, then float
+        them in the LN2.
+
+        Use tongs / some similar tool and the LN2 gloves to remove the samples. 
+
+MNase Titration
+^^^^^^^^^^^^^^^
+.. time:: 2 hours to pause point (reverse crosslinking)
+
+A key variable is the ratio of MNase to cells required to properly digest the DNA.
+
+For each cell type (iPS11, Leiden iPSCs, 293Ts, reprogrammed neurons), you should perform the titration. It is not necessary
+to have a titration per genetic edit.
+
+You will need two 5M cell aliquots to perform the titration on and compare to the commercial MNase.
+
+.. note::
+
+    At this point, the cell pellets are fixed. All waste from the titration can be collected and sink-disposed.
+
+    Use low-binding 1.7 mL tubes for all steps requiring this tube size.
+
+1. Prepare MB1 following the instructions in the :ref:`RCMC protocol <rcmc_specific_buffers>`.
+2.  Prepare fresh Complete MB1 and place on ice. For the standard 5M cell titration, you need 1.5 mL of this buffer per 5M cells,
+    but this can be scaled up or down.
+    
+    **Complete MB1 (2 mL)**:
+    
+    ======================  ========
+    Component               Volume
+    ======================  ========
+    MB1                     1940 µL
+    10% NP-40 alternative   40 µL
+    100x PIC (in MB1)       20 µL
+    ======================  ========
+
+3. Thaw two 5M cell pellet on ice and resuspend in 500 µL of Complete MB1 (1M cells per 100 µL).
+4. Incubate for 20 minutes on ice. While waiting, unfreeze a fresh MNase aliquot on ice to compare to.
+
+   .. note::
+       You can technically reuse MNase aliquots 2-3 times, but MNase is cheap compared to redoing an experiment 
+       because the aliquot you used went bad.
+
+       You will need roughly 0.5 µL of MNase per million cells, so unfreeze accordingly.
+
+5. Centrifuge at 1750 xg for 5 minutes at 4°C. 
+6. Remove the supernatant, leaving ~10-20 µL in the tube.
+7. Wash the nuclei pellet with 500 µL of Complete MB1. Centrifuge at 1750 xg for 5 minutes at 4°C.
+8. Removing as much supernatant as possible, resuspend the cell pellet in 500 µL of Complete MB1 (1M cells per 100 µL).
+9. Split the cells into 5 low-binding 1.7 mL tubes, with 100 µL of cells each, keeping them on ice.
+10. Decide on your titration series. A common series is 2U, 4U, 7U, 12U, and 20U for the commercial enzyme and 5U, 10U, 15U, 20U, 40U (assuming 20U/µL)
+    for our in-house enzyme.
+11. Add MNase to each 1M cell aliquot. Briefly vortex the tubes to ensure uniform MNase distribution,
+    then incubate at 20 min at 37°C with shaking at 1000 rpm.
+12. Transfer the digested nuclei to ice and add 0.8 µL of 500 mM EGTA. to reach a final concentration of 4 mM EGTA.
+13. Briefly vortex the tube, then incubate for 10 minutes at 65°C with no shaking (but using the Thermomixer).
+14. While waiting on the inactivation, prepare 0.9 mL of Reverse Crosslinking Solution **at room temperature and outside of the genomics hood**
+    because of the RNase A. The SDS will precipitate out if you put it on ice.
+
+    **Reverse Crosslinking Solution (1.8 mL)**
+
+    ======================= =======
+    Component               Volume
+    ======================= =======
+    1x TE                   1440 µL
+    10% SDS                 180 µL
+    5M NaCl                 72 µL
+    20 mg/mL Proteinase K   90 µL
+    10 mg/mL RNaseA         18 µL
+    ======================= =======
+
+15. Centrifuge at 1750 xg for 5 minutes at 4°C.
+16. Discard the supernatant and resuspend each pellet in 150 µL of Reverse Crosslinking Solution.
+17. Reverse cross-links for a minimum of 2 hours to overnight at 65°C with 1000 rpm shaking. This step does not 
+    noticeably improve after 2 hours, you just have the option to stop.
+18. Clean up the resulting DNA fragments using the genomics-only Monarch DNA cleanup kit. Use a 5:1 ratio of binding buffer : sample. Elute in 25 µL.
+19. Quantify the DNA via Nanodrop. Load 1-5 µg of sample per thin-comb well using Orange Loading Dye onto a 1.5% agorase gel. Run at 100V for 30 minutes, then image.
+20. Compare the digestion bands to estimate the activity on the anti-GFP-MNase, in the same units as the commercial MNase.
+    Expect that the in-house anti-GFP-MNase has at least 5x worse activity.
 
 GapRUN
 =======

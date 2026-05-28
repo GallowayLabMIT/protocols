@@ -36,6 +36,8 @@ Shared genomics buffers
   - 1M MgCl2
   - 2.5M CaCl2
 
+.. _rcmc_specific_buffers:
+
 RCMC-specific buffers
 ^^^^^^^^^^^^^^^^^^^^^^
 
