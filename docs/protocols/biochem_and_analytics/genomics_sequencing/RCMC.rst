@@ -762,6 +762,6 @@ Day 5: Region capture part 2
         so if you perform 30 µL test reactions with 3 µL template, subtract off :math:`\log_2(45/3) = 3.9` cycles from
         the gel quantification. Use the NEBNext Ultra II mix for the test PCR.
      b. You can use either the provided Equinox library amplification mix, or the NEBNext Ultra II mix for the final PCR.
-     c. Quantify the resulting 30 µL libraries (eluted in 10 mM Tris-HCl, pH 8) both with the NEB Library Quant Kit and by submitting
+     c. Quantify the resulting 30 µL libraries (eluted in 10 mM Tris-HCl, pH 8) both with the `NEB Library Quant kit </_static/files/neb_library_quant_kit_manual.pdf>`__ and by submitting
         a sample to the FragmentAnalyzer in the BMC.
 
