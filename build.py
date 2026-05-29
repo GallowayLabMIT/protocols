@@ -125,9 +125,10 @@ def parse_sphinx_log(logs):
 
 def summarize_latex_logfile(logs):
     p = subprocess.Popen(['texlogsieve',
-                          '--no-summary-detail', '--no-heartbeat', '--no-shipouts', '--no-page-delay', '--no-file-banner',
-                          '-l', 'CRITICAL',
-                          '--only-summary'], stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+                          '--no-page-delay', '--no-summary', '--no-shipouts', '--no-file-banner', '--no-heartbeat']
+                         + [f'--silence-package={p}' for p in ['fancyhdr', 'textcomp', 'sphinxhighlight', 'wrapfig']]
+                         + [f'--silence-string={s}' for s in ['<./', r'Underfull \hbox', r'Overfull \hbox', r'Underfull \vbox', r'Overfull \vbox', r'LaTeX Font Info', 'Float too large']]
+                         , stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     stdout, _ = p.communicate(logs)
     try:
         return [CheckAnnotation(
@@ -184,6 +185,7 @@ if __name__ == '__main__':
             try:
                 if args.emit_gh_annotations:
                     gh_annotations.extend(parse_sphinx_log(stderr.decode('utf-8')))
+                    print(f"::endgroup::") # end the group started by build_helper
                     print(f"::group::{name} build")
                 print(stdout.decode('utf-8'))
                 print(stderr.decode('utf-8'), file=sys.stderr)
@@ -201,6 +203,7 @@ if __name__ == '__main__':
             stdout, stderr = build.communicate()
             gh_annotations.extend(parse_sphinx_log(stderr.decode('utf-8')))
             try:
+                print(f"::endgroup::") # end the group started by build_helper
                 print("::group::HTML build")
                 print(stdout.decode('utf-8'))
                 print(stderr.decode('utf-8'), file=sys.stderr)

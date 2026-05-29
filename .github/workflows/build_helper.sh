@@ -40,7 +40,6 @@ for current_version in ${versions}; do
    ##########
    # BUILDS #
    ##########
-   echo "::endgroup::"
    python ./build.py --latex --parallel --force-rebuild --emit-gh-annotations
 
    # HTML #
