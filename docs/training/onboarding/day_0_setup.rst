@@ -50,10 +50,11 @@ EHS system and add all necessary trainings to your profile.
 .. note::
    To complete the Signature: Read Dept. Chemical Hygiene Plan training, please read the Chemical Hygiene Plan and then sign the attestation form.
    The attestation form is available at:
-    https://web-cert.mit.edu/cheme/resources/lab/ehs/ehs_cert.html
-    You will need an MIT web certificate to access and complete the form.
-    If you do not yet have a web certificate, you can obtain one here:
-      https://ist.mit.edu/mit-apps/certaid
+   https://web-cert.mit.edu/cheme/resources/lab/ehs/ehs_cert.html
+
+   You will need an MIT web certificate to access and complete the form.
+   If you do not yet have a web certificate, you can obtain one here:
+   https://ist.mit.edu/mit-apps/certaid
 
 1. If you are going to be helping with mouse work, still under the
    'My Profile' tab, you should click **Join Another Group** under training
