@@ -1,7 +1,8 @@
 #########################################################################
 # Modified from Michael Altfield's work:
 # https://tech.michaelaltfield.net/2020/07/23/sphinx-rtd-github-pages-2/
-######################################################################### 
+#########################################################################
+FAILED=0
 echo "::group::Build env info"
 pwd
 ls -lah
@@ -9,7 +10,7 @@ echo "::endgroup::"
 export SOURCE_DATE_EPOCH=$(git log -1 --pretty=%ct)
  
 # make a new temp dir which will be our GitHub Pages docroot
-docroot=`mktemp -d`
+docroot=$(mktemp -d)
 
 export REPO_NAME="${GITHUB_REPOSITORY##*/}"
  
@@ -18,11 +19,11 @@ export REPO_NAME="${GITHUB_REPOSITORY##*/}"
 ##############
  
 # get a list of branches, excluding 'HEAD' and 'gh-pages'
-versions="`git for-each-ref '--format=%(refname:lstrip=-1)' refs/remotes/origin/ refs/tags | grep -viE '^(HEAD|gh-pages)$'`"
+versions="$(git for-each-ref '--format=%(refname:lstrip=-1)' refs/remotes/origin/ refs/tags | grep -viE '^(HEAD|gh-pages)$')"
 for current_version in ${versions}; do
    # make the current language available to conf.py
    export current_version
-   git checkout ${current_version} >/dev/null 2>/dev/null
+   git checkout "${current_version}" >/dev/null 2>/dev/null
 
  
    echo "::group::Pre-build info for ${current_version}"
@@ -40,7 +41,7 @@ for current_version in ${versions}; do
    ##########
    # BUILDS #
    ##########
-   python ./build.py --latex --parallel --force-rebuild --emit-gh-annotations
+   python ./build.py --latex --parallel --force-rebuild --emit-gh-annotations || FAILED=1
 
    # HTML #
 
@@ -66,7 +67,7 @@ git checkout latest
 git config --global user.name "${GITHUB_ACTOR}"
 git config --global user.email "${GITHUB_ACTOR}@users.noreply.github.com"
  
-pushd "${docroot}"
+pushd "${docroot}" || exit
  
 # don't bother maintaining history; just generate fresh
 git init
@@ -109,14 +110,14 @@ EOF
 git add .
  
 # commit all the new files
-msg="Updating Docs for commit ${GITHUB_SHA} made on `date -d"@${SOURCE_DATE_EPOCH}" --iso-8601=seconds` from ${GITHUB_REF} by ${GITHUB_ACTOR}"
+msg="Updating Docs for commit ${GITHUB_SHA} made on $(date -d"@${SOURCE_DATE_EPOCH}" --iso-8601=seconds) from ${GITHUB_REF} by ${GITHUB_ACTOR}"
 git commit -am "${msg}"
  
 # overwrite the contents of the gh-pages branch on our github.com repo
 git push deploy gh-pages --force
 echo "::endgroup::"
  
-popd # return to main repo sandbox root
+popd || exit # return to main repo sandbox root
  
-# exit cleanly
-exit 0
+# exit based on FAILED state
+exit $FAILED

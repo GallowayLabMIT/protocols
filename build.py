@@ -244,3 +244,8 @@ if __name__ == '__main__':
         # see https://unix.stackexchange.com/questions/274428/how-do-i-reduce-the-size-of-a-pdf-file-that-contains-images
         subprocess.run(['gs', '-sDEVICE=pdfwrite', '-dPDFSETTINGS=/ebook', '-q', '-o', 'output/html/galloway_lab_protocols.pdf', 'output/latex/latex/gallowaylabprotocols.pdf'])
         #shutil.copyfile('output/latex/latex/gallowaylabprotocols.pdf', 'output/html/galloway_lab_protocols.pdf')
+    
+    if args.emit_gh_annotations:
+        for annotation in gh_annotations:
+            if annotation.annotation_level == AnnotationLevel.ERROR:
+                sys.exit(1)
