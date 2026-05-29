@@ -72,12 +72,12 @@ Training Details
      * If you need to do a longer sort for an experiment, you could sign up for the 1-hour assisted use, then separately sign up for more time immediately after to finish your sort.
 
 Sony MA-900
------------
+===========
 
 The Sony MA900 cell sorter has a `SOP <https://docs.google.com/document/d/1toqMY_qnDy0_YDkcEr2ktDJWcteKe0Pj42_scukqT5s/edit>`__ that you can follow for startup and shutdown.
 
 Startup
-^^^^^^^
+~~~~~~~
 
 You only need to start up the Sony if you want to use it over the weekend, on holidays, or outside of normal hours.
 During the week, core staff will do the start up in the morning.
@@ -121,7 +121,7 @@ The Sony is generally very easy to startup once you've seen how to; you mostly f
      * You don’t need to include startup time when signing up to sort on weekends/holidays (e.g. don’t pay for startup time).
 
 Sample Prep and Sorting
-^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~
 
 1. Get ice. Keep your samples on ice as much as possible after dissociation.
 2. Dissociate cells using appropriate method. Centrifuge the cells to pellet them.
@@ -236,7 +236,7 @@ Sample Prep and Sorting
     6. Add on extra time for setting up the workspace, setting voltages and gates, swapping samples, the final Bleach Cleaning and DI Rinse steps, and exporting your data.
 
 Shutdown
-^^^^^^^^
+~~~~~~~~
 
 Follow the shutdown SOP, with the exception that on step 7 ("Turn off the air compressor and blue switch on the air-line"), 
 do **not** turn off the blue switch on the air-line, 
