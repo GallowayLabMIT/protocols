@@ -50,10 +50,12 @@ EHS system and add all necessary trainings to your profile.
 .. note::
    To complete the Signature: Read Dept. Chemical Hygiene Plan training, please read the Chemical Hygiene Plan and then sign the attestation form.
    The attestation form is available at:
-    https://web-cert.mit.edu/cheme/resources/lab/ehs/ehs_cert.html
-    You will need an MIT web certificate to access and complete the form.
-    If you do not yet have a web certificate, you can obtain one here:
-      https://ist.mit.edu/mit-apps/certaid
+   https://web-cert.mit.edu/cheme/resources/lab/ehs/ehs_cert.html
+
+   MIT certificates were phased out in summer 2026. There will be some new method to do this.
+
+   In the past, you had to get a web certificate from:
+   https://ist.mit.edu/mit-apps/certaid
 
 1. If you are going to be helping with mouse work, still under the
    'My Profile' tab, you should click **Join Another Group** under training
@@ -295,140 +297,63 @@ Coding and collaboration
   and select the 64-bit installer for your OS.
 
   When installing, select **Add Python to PATH**; this ensures that when you type ``python`` at a terminal, you get this version you
-  just installed. Other software can also access this "default" installation.
+  just installed. Other software can also access this "default" installation. After installing, restart VS Code.
+
+  .. admonition:: What is PATH?
+
+    ``PATH`` is a "environment variable", e.g. something that any program running
+    in the "environment" of your computer can access. It is a list of folders where software can be found.
+    In a command line, when you type a program name (like ``ls``, or ``python``, or ``git``)
+    without specifying where the program is, your computer iterates through every folder in ``PATH`` to see
+    if it can find the program there.
+
+    Bonus fact: virtual environments work by temporarily messing with ``PATH``, redirecting e.g. Python to
+    the virtual environment install.
  
   .. admonition:: Fixing Python “command not found” (Windows & macOS)
    :class: warning
-
-   This protocol addresses a common issue where Python is installed correctly,
-   but typing ``python`` or ``pip`` in a terminal results in an error such as:
+   
+   If you see errors like
 
    - ``'python' is not recognized as an internal or external command``
    - ``command not found: python``
 
-   The most common cause is that Python exists on disk, but its directory
-   is missing from the PATH environment variable.
+   then you likely forgot do the above step (clicking Add Python to PATH),
+   or you didn't restart VS Code.
 
-   Windows (Command Prompt / PowerShell)
-   ------------------------------------------------------------
+   The easiest remediation is simply uninstall Python and reinstall it, while
+   clicking the box.
 
-   Confirm that Python is installed
-   --------------------------------
+   If you don't want to do that for some reason, you can manually add Python to PATH. 
 
-   1. Open **PowerShell**
-   2. Navigate to the Python installation directory, for example::
+   **Windows**
 
-         C:\Users\<USERNAME>\AppData\Local\Python\pythoncore-3.14-64\
+   You need to find where Python is installed. This will vary! The easiest way to do this
+   is just search for ``python.exe`` to locate where that folder is. Say that the location is
 
-   3. In PowerShell, run Python directly using the call operator ``&``::
+    ``C:\Users\<USERNAME>\AppData\Local\Python\python-3.14\python.exe``
 
-         & "C:\Users\<USERNAME>\AppData\Local\Python\pythoncore-3.14-64\python.exe" --version
+   Then:
 
-   If a Python version is printed, Python is installed correctly and the issue
-   is related to PATH configuration.
+   1. Press the Windows key on your keyboard to bring up the search.
+   2. Search for *Edit environment variables*
+   3. In the box that shows up, hit *Edit the system environment variables*.
+   4. Click *Environment Variables*.
+   5. In the **User variables for <USERNAME>** box, find the **Path** variable and hit Edit.
+   6. In the list of directories that shows up, hit **New** and add the folder containing Python
+      identified earlier.
+   7. Hit OK in the boxes and **restart any open terminals and VSCode to pick up the change**. The most
+      reliable method here is logging out and logging back in.
 
-   ------------------------------------------------------------
-   Fix PATH using the Environment Variables GUI (recommended)
-   ------------------------------------------------------------
+   **macOS / Linux**
 
-   **Do not use ``setx PATH``**, as it can truncate PATH and break other software.
+   On macOS and Linux, you handle path by editing your shell configuration file, normally either
+   at ``~/.zshrc`` for zsh or ``~/.bashrc`` for Bash.
 
-   1. Press the **Windows key**
-   2. Search for **Edit environment variables**
-   3. Open **Edit the system environment variables**
-   4. Click **Environment Variables…**
+   In these lines, you should add an export call to add the Python location to the end of path, like:
 
-   You will see two sections:
-   - **User variables for <USERNAME>** (top box)
-   - **System variables** (bottom box)
 
-   5. In the **User variables** section, select **Path**
-   6. Click **Edit…**
-
-   You will now see a list of directories that make up your PATH.
-
-   7. Click **New**
-   8. Add::
-
-         C:\Users\<USERNAME>\AppData\Local\Python\pythoncore-3.14-64\
-
-   9. Click **New** again
-   10. Add::
-
-         C:\Users\<USERNAME>\AppData\Local\Python\pythoncore-3.14-64\Scripts\
-
-   11. Click **OK** to close the Path editor
-   12. Click **OK** to close the Environment Variables window
-
-   **Important:** Close all open PowerShell and Command Prompt windows,
-   then open a new terminal.
-
-   Verify the fix::
-
-      python --version
-      pip --version
-      where.exe python
-      where.exe pip
-
-   If ``where.exe python`` points to the ``pythoncore`` directory, PATH is fixed.
-
-   Common Windows pitfalls
-   ------------------------------------------------------------
-
-   PowerShell vs Command Prompt
-   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-   - PowerShell requires ``&`` to execute a quoted executable path
-   - Command Prompt does not
-
-   App execution aliases
-   ~~~~~~~~~~~~~~~~~~~~~
-   Windows may redirect ``python`` to the Microsoft Store.
-
-   To disable this:
-   1. Open the Start menu
-   2. Search for **App execution aliases**
-   3. Turn **OFF** ``python.exe`` and ``python3.exe``
-
-   macOS (differences from Windows)
-   ------------------------------------------------------------
-
-   On macOS, PATH issues are handled through shell configuration files,
-   not a graphical environment variables editor.
-
-   Check Python::
-
-      which python3
-      python3 --version
-
-   Fix PATH (zsh default):
-
-   1. Edit your shell configuration file::
-
-         nano ~/.zshrc
-
-   2. Add (example for Homebrew)::
-
-         export PATH="/opt/homebrew/bin:$PATH"
-
-   3. Reload::
-
-         source ~/.zshrc
-
-   Verify::
-
-      python3 --version
-      pip3 --version
-
-   Key takeaways
-   ------------------------------------------------------------
-
-   - Python is often installed correctly, but missing from PATH
-   - On Windows:
-     - Edit the existing **Path** variable
-     - Do not create new variables
-     - Avoid ``setx PATH``
-   - On macOS:
-     - PATH is managed in ``~/.zshrc`` or ``~/.bashrc``
+   ``export PATH="$PATH:/path/to/python/that/you/found``
 
   .. admonition:: On snakes and Anaconda
 

@@ -98,7 +98,7 @@ Note that individual cells with detectable expression may be contain one or more
 
 First, let's define the **multiplicity of infection (MOI)**, :math:`\lambda`, as the ratio of viral transducing units (TU) to number of cells, *n*:
 
-.. math:: \lambda = \frac{\text{# TU}}{n}
+.. math:: \lambda = \frac{\text{number of TU}}{n}
 
 We can obtain a particular MOI in an experiment by using a calculated **volume of virus**, *v*, if we know the **viral titer**, *t*:
 
@@ -122,12 +122,10 @@ However, it is difficult to quantify the exact number of transductions in indivi
 cells with at least one transduction:
 
 .. math::
-  \begin{align}
     P(x>0) &= 1 - P(x=0) \\
     &= 1 - \frac{\lambda^0 e^{-\lambda}}{0!} \\
     &= 1 - e^{-\lambda} \\
     &= 1 - e^{v / n \ \times \ t}
-  \end{align}
 
 Thus, the flow cytometry data from the experiment above can give us a fraction of expressing cells, which we can use with known values of *v* and *n* (experimental parameters)
 to find *t*, the viral titer. To make this calculation more accurate, we can measure the fraction of expressing cells for several different volumes of virus---exactly the 

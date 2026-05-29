@@ -171,7 +171,7 @@ if __name__ == '__main__':
     if args.parallel or args.emit_gh_annotations:
         html_args.insert(3, '--no-color')
     latex_env = os.environ.copy()
-    latex_env["LATEXMKOPTS"] = "-interaction=batchmode"
+    latex_env["LATEXMKOPTS"] = "-interaction=nonstopmode"
 
     gh_annotations = []
 
