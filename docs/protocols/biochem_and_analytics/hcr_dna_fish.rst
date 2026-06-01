@@ -2,8 +2,9 @@
 HCR DNA-FISH
 ************
 
-Prepare necessary buffers as described in :doc:`/recipes/fish/fish_buffers`
-Expected time: 2 days
+Prepare necessary buffers as described in :doc:`/recipes/biochem_and_analytics/fish_buffers`
+
+.. time:: 2 days
 
 Fixation
 ========

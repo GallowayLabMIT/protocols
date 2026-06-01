@@ -1,5 +1,5 @@
 =======================
-Region-Capture Micro-C
+Region Capture Micro-C
 =======================
 
 RCMC is a complicated protocol! Don't let this discourage you; there are plenty of intermediate QC steps
@@ -27,7 +27,7 @@ Day -n: Buffer preparation
 
 Shared genomics buffers
 ^^^^^^^^^^^^^^^^^^^^^^^
-- Make sure there is sufficient amounts of the following :doc:`shared genomics buffers </protocols/biochem_and_analytics/genomics_sequencing/shared_genomics_buffers>`:
+- Make sure there is sufficient amounts of the following :doc:`shared genomics buffers </recipes/biochem_and_analytics/shared_genomics_buffers>`:
   
   - 5M NaCl
   - 1M Tris-HCl, pH 7.5

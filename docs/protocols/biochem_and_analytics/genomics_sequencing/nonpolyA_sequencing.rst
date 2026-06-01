@@ -45,7 +45,7 @@ Prepare a 5'-phosphorylated adapter oligo. This can be stored at -20°C indefini
 3. Cleanup using a DNA spin column. Use the "alternative / oligo" cleanup protocol that adds more IPA to reduce the size cutoff. Elute in 10 µL of 0.1x TE.
 
 Make sure that enough genomics-grade stock solutions are available. These are common buffers shared across many protocols. In particular,
-you will need less than 1mL of the following :doc:`shared genomics buffers </protocols/biochem_and_analytics/genomics_sequencing/shared_genomics_buffers>`:
+you will need less than 1mL of the following :doc:`shared genomics buffers </recipes/biochem_and_analytics/shared_genomics_buffers>`:
 
 - 1M Tris, pH 7.5
 - 5M NaCl
@@ -54,7 +54,7 @@ you will need less than 1mL of the following :doc:`shared genomics buffers </pro
 Day 0: Buffer preparation
 ------------------------------
 
-- Make sure there is sufficient amounts of the following :doc:`shared genomics buffers </protocols/biochem_and_analytics/genomics_sequencing/shared_genomics_buffers>`:
+- Make sure there is sufficient amounts of the following :doc:`shared genomics buffers </recipes/biochem_and_analytics/shared_genomics_buffers>`:
   
   - 5M NaCl
   - 1M Tris-HCl, pH 7.5

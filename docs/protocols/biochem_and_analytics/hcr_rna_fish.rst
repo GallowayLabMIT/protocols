@@ -2,7 +2,7 @@
 HCR RNA-FISH
 ************
 
-Prepare necessary buffers as described in :doc:`/recipes/fish/fish_buffers`. The total amount needed per sample (without technical replicates) is:
+Prepare necessary buffers as described in :doc:`/recipes/biochem_and_analytics/fish_buffers`. The total amount needed per sample (without technical replicates) is:
 
 =====================   ========================
 Buffer                  Total amount per sample
@@ -15,10 +15,6 @@ Amplification buffer    270 µL
 5x SSCT                 600 µL
 =====================   ========================
 
-
-.. time::
-   3 days (3-4 hours Day 1, 2 hours Day 2, 1 hour Day 3)
-
 .. note::
     All spins are performed at ~500 rcf for 4 min. Our centrifuge follows RCF = 1e-4*[rpm]^2 + 4e-2*[rpm] - 6e1, where **2200 rpm = 512 rcf**.
     It is recommended to perform all spins at 4°C once the cells have been fixed to prevent pellet loss. 
@@ -29,6 +25,9 @@ Amplification buffer    270 µL
 
 Day 1
 ========================
+
+.. time:: 3-4 hours
+
 1. Dissociate cells and spin down. Resuspend in PBS and transfer to a 96-well V-bottom plate.
 2. Spin down and aspirate PBS. Resusepnd in 100 uL of 4% PFA and incubate for 15 min at room temp.
 3. Add 150 uL of PBS, spin down, and aspirate.
@@ -45,6 +44,9 @@ Day 1
 
 Day 2
 =========================
+
+.. time:: 2 hours
+
 1. Spin down at reduced deceleration, and aspirate probe solution.
 
 .. important:: 
@@ -66,6 +68,9 @@ Day 2
 
 Day 3
 ===========
+
+.. time:: 1 hr
+
 1. Spin down, and aspirate hairpin solution.
 2. Resuspend in 200 uL of 5X SSCT, and incubate for 30 min in the dark at room temp.
 3. Spin down, and aspirate 5X SSCT.

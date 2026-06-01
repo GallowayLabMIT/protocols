@@ -1,5 +1,5 @@
 ===================
-FISH buffer recipes
+FISH buffers
 ===================
 
 Probe Hybridization Buffer

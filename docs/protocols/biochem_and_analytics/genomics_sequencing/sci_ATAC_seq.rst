@@ -32,7 +32,7 @@ Buffer preparation
 
 .. time:: Multiple hours; put on a good podcast and try to enjoy the pH'ing and measuring.
 
-- Make sure there is sufficient amounts of the following :doc:`shared genomics buffers </protocols/biochem_and_analytics/genomics_sequencing/shared_genomics_buffers>`:
+- Make sure there is sufficient amounts of the following :doc:`shared genomics buffers </recipes/biochem_and_analytics/shared_genomics_buffers>`:
   
   - 1M Tris-HCl, pH 8.0
   - 1M Tris-HCl, pH 7.5
