@@ -346,6 +346,8 @@ Buffer preparation
     DEPC-treated water      975 µL
     ======================= =========
 
+    .. warning:: DTT stock should be collected as a separate waste stream.
+
 38. On ice, start defrosting NEBuffer 2.1 and ATP for the end labeling and Biotin-dATP, Biotin-dCTP, dTTP, dGTP, and T4 DNA ligase buffer for the end labeling step.
 
 MNase digestion

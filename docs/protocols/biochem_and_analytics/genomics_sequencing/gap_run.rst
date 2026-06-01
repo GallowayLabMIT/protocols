@@ -8,11 +8,12 @@ Measure MNase activity
 ======================
 
 A key variable in any genomics assay with MNase is the ratio of MNase to cells required to properly digest the DNA. 
-Before using the :doc:`produced nanobody-MNase fusion protein </protocols/protein_production/gaprun_protein_production>` in GapRUN, benchmark its activity against commercial MNase.
+Before using the nanobody-MNase protein (fusion of an anti-GFP nanobody to MNase, produced in-house according to :doc:`this protocol </protocols/protein_production/gaprun_protein_production>`) 
+in the GapRUN assay, benchmark its activity against commercial MNase.
 This only needs to be performed once per batch of protein, but should be performed for each cell type (iPS11, Leiden iPSCs, induced neurons, etc.).
 It is not necessary to perform a titration per genetic edit.
 
-You will need two 5M cell aliquots to perform the titration, one aliquot each for the nanobody-MNase and the commercial MNase.
+You will need two 5-million (5M) cell aliquots to perform the titration, one aliquot each for the nanobody-MNase and the commercial MNase.
 The cells can be fixed and snap-frozen any time prior to the titration. 
 
 Preparing fixed, snap-frozen cell aliquots
@@ -119,8 +120,8 @@ MNase titration
     noticeably improve after 2 hours, you just have the option to stop.
 18. Clean up the resulting DNA fragments using the genomics-only Monarch DNA cleanup kit. Use a 5:1 ratio of binding buffer : sample. Elute in 25 µL.
 19. Quantify the DNA via Nanodrop. Load 1-5 µg of sample per thin-comb well using Orange Loading Dye onto a 1.5% agorase gel. Run at 100V for 30 minutes, then image.
-20. Compare the digestion bands to estimate the activity on the anti-GFP-MNase, in the same units as the commercial MNase.
-    Expect that the in-house anti-GFP-MNase has at least 5x worse activity.
+20. Compare the digestion bands to estimate the activity on the nanobody-MNase, in the same units as the commercial MNase.
+    Expect that the in-house nanobody-MNase has at least 5x worse activity.
 
 |
 
@@ -290,7 +291,7 @@ Day 2
      c. Perform two washes plus a dry spin.
      d. Elute in 50 µL of 1x TE, for compatibility with the library prep kit.
 
-11.  Libraries can be stored at -20C until ready to perform library preparation. Library preparation will take around ~3 hours.
+11.  Libraries can be stored at -20C until ready to perform library preparation (Day 3).
 
 Day 3
 -----

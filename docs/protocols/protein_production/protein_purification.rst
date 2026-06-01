@@ -39,7 +39,7 @@ Required solutions
 .. note::
   Perform the pH after all components have been added.
 
-* **cOmplete elution buffer (native)**:
+* **Complete elution buffer (native)**:
 
   ===================== ================   ================== ================================================================
   Component             Concentration        g/L final volume  Purpose

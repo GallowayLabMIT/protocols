@@ -79,6 +79,7 @@ Therefore, a different lysis buffer lacking these components is required.
 Lambda Phosphatase-compatible lysis buffer:
 
 1 M Tris-HCl stock solution, adjust to pH7.5
+
 =========   ===================  =============
 Component   Final concentration  Amount Needed
 =========   ===================  =============
@@ -87,6 +88,7 @@ DI Water                          2.5 mL
 =========   ===================  =============
 
 5 M NaCl stock solution
+
 =========   ===================  =============
 Component   Final concentration  Amount Needed
 =========   ===================  =============
@@ -95,6 +97,7 @@ DI Water                          2.5 mL
 =========   ===================  =============
 
 200 mM (200x) DTT (dithiothreitol) stock solution (aliquot at store at -20°C)
+
 =========   ===================  =============
 Component   Final concentration  Amount Needed
 =========   ===================  =============
@@ -102,8 +105,10 @@ DTT          200 mM               25 mg
 DI Water                          810 µL
 =========   ===================  =============
 
+.. warning:: DTT stock should be collected as a separate waste stream.
 
 Lysis Buffer (aliquot and store at -20°C)
+
 ============   ===================  =============
 Component      Final concentration  Amount Needed
 ============   ===================  =============

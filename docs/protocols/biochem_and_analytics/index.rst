@@ -7,5 +7,8 @@ Biochemical and analytical protocols
    :glob:
 
    genomics_sequencing/index
+   staining_labeling/index
+   imaging_analysis/index
+   other/index
    
    *

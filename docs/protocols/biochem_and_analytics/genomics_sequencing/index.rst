@@ -56,8 +56,10 @@ sc-RNA-seq                             Droplet                 Low (core submiss
    cut_and_tag
    gap_run
    RCMC
-   sci_ATAC_seq
+   sci_ATAC_seq 
    nonpolyA_sequencing
+   RNAseq_plasmidsaurus
+   single_shot_rna_isolation_and_rt
 
 .. toctree::
    :maxdepth: 1
@@ -71,6 +73,9 @@ sc-RNA-seq                             Droplet                 Low (core submiss
 
    HIVE
    tn5_titration
+   nuclei_isolation_genomics
+   atac_see
+   magnetic_bead
 
 Recipes
 -------

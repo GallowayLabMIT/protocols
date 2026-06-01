@@ -75,6 +75,8 @@ All buffers except for the DTT can be stored at room temperature for a long time
       DTT, as a reducing agent, will slowly degrade / lose its reduction potential.
       You need to remake this fresh every time you use it.
 
+   .. warning:: DTT stock should be collected as a separate waste stream.
+
 7. Prepare the acetate salt buffers. These salts are *very* hygroscopic!
    You may have to reorder, and we should possibly store them with silica gel.
 
