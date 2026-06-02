@@ -17,7 +17,7 @@ Note that ascorbic acid should be made fresh and **EU will likely be the limitin
     The NaN3 is important to include in any single color controls! We observe that presence of EU doesn't change CFSE only control signal but any azide addition (with or without EU) significantly changes FSC/SSC and CFSE signal.
     The following image shows the effects of azide addition on 1 dpi CFSE-labeled MEFs flowed at 4 dpi.
 
-    .. figure:: img/Az_effect_on_CFSE.png
+    .. figure:: /img/EU_Az_effect_on_CFSE.png
         :align: center
 
 

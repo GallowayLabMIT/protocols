@@ -124,7 +124,7 @@ Right before use add 200x DTT and 200x PMSF to this lysis buffer. Lyse cells fol
 Phosphatase Treatment
 ---------------------
 
-1. After measuring protein concentration using Bradfor Assay (see protocol below), dilute samples to equal concentration using the phosphatase-compatible lysis buffer with PMSF and DTT.
+1. After measuring protein concentration using Bradford Assay (see protocol below), dilute samples to equal concentration using the phosphatase-compatible lysis buffer with PMSF and DTT.
 2. To each sample, add 10x buffer for PMP and 10x MnCL2 to reach a 1x concentration.
 3. Split each sample into 2 equal volumes: 1 for non-treated, 1 for phosphatase treated.
 4. Add phosphatase to reach ~16 U/µL (stock from NEB is 400 U/µL) in samples designated for phosphatase treatment.
@@ -676,9 +676,9 @@ Staining Procedure
 
 1. Wash the membrane with DI water for 5 minutes using agitation.
 2. Block the membrane with blocking solution for 30-60 minutes at room temperature with agitation. Alternatively, block overnight at 2-8°C. (NW does 60 min at RT).
-3. Incubate the membrane with 4 mL/10 cm of primary antibody diluted (at manufacturer’s recommended dilution) in 10% blocking solution overnight at 2-8°C.
+3. Incubate the membrane with 4 mL/10 cm of primary antibody diluted (at manufacturer's recommended dilution) in 10% blocking solution overnight at 2-8°C.
 4. Wash the membrane 3 times for 10 minutes each in TBST using agitation to remove any unbound primary antibody.
-5. Incubate blot with 4 mL/10 cm of secondary antibody HRP-conjugate at a 1:10,000 dilution (or at the manufacturer’s recommended dilution) for 30 minutes to 1 hour at room temperature using agitation. (NW does 1 hr at RT)
+5. Incubate blot with 4 mL/10 cm of secondary antibody HRP-conjugate at a 1:10,000 dilution (or at the manufacturer's recommended dilution) for 30 minutes to 1 hour at room temperature using agitation. (NW does 1 hr at RT)
 
    .. note:: BAD recommends starting with 1:20k for 1°Ab and 1:50k for 2°Ab. BAD uses 1:50k for both 1° and 2° for beta-actin. This is because the SuperSignal West Femto Substrate works better with very diluted antibodies.
 

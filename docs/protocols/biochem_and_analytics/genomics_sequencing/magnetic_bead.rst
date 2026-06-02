@@ -86,7 +86,7 @@ Basic Bead Clean Protocol:
 **2nd clean:**
 
 1. 1.1x Bead:original lib vol, for total ratio of 1.8x PEG+NaCl  to original lib vol.
-2. Mix well & incubate up to 15m, pellet beads well (8-10 min’s), EtOH wash 2x
+2. Mix well & incubate up to 15m, pellet beads well (8-10 min), EtOH wash 2x
 3. Allow to air dry & elute back into desired vol of diH2O or EB.
 
 .. |degree| unicode:: U+00B0

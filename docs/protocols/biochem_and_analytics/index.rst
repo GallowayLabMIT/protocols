@@ -11,4 +11,3 @@ Biochemical and analytical protocols
    imaging_analysis/index
    other/index
    
-   *

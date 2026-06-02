@@ -12,4 +12,4 @@ Bulk RNAseq with Plasmidsaurus
 8. Ship like a regular plasmid sample.
 
 .. note::
-    DNA/RNA shield is on the shelf with the agarose dissolving buffer. The mixture will become increasingly viscuous, so take care to avoid bubbles.
+    DNA/RNA shield is on the shelf with the agarose dissolving buffer. The mixture will become increasingly viscous, so take care to avoid bubbles.

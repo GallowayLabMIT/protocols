@@ -8,7 +8,7 @@ Prepare necessary buffers as described in :doc:`/recipes/biochem_and_analytics/f
 
 Fixation
 ========
-1. Steps 1-5 of :doc:`antibody_staining`
+1. Steps 1-5 of :doc:`/protocols/biochem_and_analytics/staining_labeling/antibody_staining`
 
 Hybridization
 =============

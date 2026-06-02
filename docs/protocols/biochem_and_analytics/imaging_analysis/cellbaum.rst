@@ -4,8 +4,8 @@ CellBaum User's Guide
 
 A practical guide to CellBaum for those who want to live track cells but know absolutely nothing about computers.
 
-.. note::
-    You can use CellBaum either on your computer or the MIT Supercloud.
+.. important::
+    You can use CellBaum either on your computer or on a cluster. The instructions for the MIT Supercloud are **deprecated**, as we no longer use this cluster.
 
 Local Usage
 ===========

@@ -3,7 +3,7 @@ Droplet Digital PCR (ddPCR)
 ============================
 
 This protocol describes how to run ddPCR copy number variability assays on the `BioRad QX200 <https://www.bio-rad.com/en-us/life-science/digital-pcr/qx200-droplet-digital-pcr-system>`_ system, 
-following instructions from the STRAIGHT-IN *Nature Protocols* paper. [#blanch-asensio2024]_
+following instructions from the STRAIGHT-IN *Nature Protocols* paper [blanch-asensio2024]_.
 See also `this presentation <https://mitprod.sharepoint.com/:p:/s/GallowayLab/EaPOh1lNzpZHpF5xqf2SNscBnhMz82q7pHYbfiS__mnsvw?e=1zoBkN>`_ from A.B.A. on the SharePoint.
 
 Design 
@@ -92,7 +92,7 @@ Protocol
    3. Place the cartridge into the white holder and cover it with the gasket (stretchy rust-colored material), being careful not to spill.
    4. Load the cartridge into the QX200 Droplet Generator machine (see picture). When loaded correctly, the middle green light will turn on.
    
-   .. figure:: img/ddPCR-droplet-generator.jpg
+   .. figure:: /img/ddPCR-droplet-generator.jpg
       :align: center
       :width: 60%
       :alt: ddPCR Droplet Generator correctly loaded with cartridge
@@ -110,7 +110,7 @@ Protocol
 
 9. Seal the 96-well plate. Place the block, plate, and piece of foil in the PX1 PCR Plate Sealer (see picture) and run. This takes ~10 seconds.
 
-   .. figure:: img/ddPCR-plate-sealer.jpg
+   .. figure:: /img/ddPCR-plate-sealer.jpg
       :align: center
       :width: 60%
       :alt: ddPCR Plate Sealer ready to run
@@ -128,7 +128,7 @@ Analyze the droplets using the QX200 Droplet Reader:
 
 12. Load the plate oriented correctly into the QX200 Droplet Reader with the metal plate cover on top with the latches clasped down.
   
-  .. figure:: img/ddPCR_plate_loading.jpg
+  .. figure:: /img/ddPCR_plate_loading.jpg
       :align: center
       :width: 60%
 
@@ -138,7 +138,7 @@ Analyze the droplets using the QX200 Droplet Reader:
 
 14. If the three lights on the front the of machine are green, you are ready to start a new experiment by selecting the plate icon button in the top left. 
    
-   .. figure:: img/ddPCR_machine_light_check.jpg
+   .. figure:: /img/ddPCR_machine_light_check.jpg
       :align: center
       :width: 40%
 
@@ -162,7 +162,7 @@ Analyze the droplets using the QX200 Droplet Reader:
   
       In this example, we were interested in *mRuby2* copy number in hiPSCs with *RPP30* as a reference gene. We use the HEX probe in Channel 2 for *RPP30* (with 2 copies in the genome) and the FAM probe in Channel 1 for *mRuby2*. 
 
-  .. figure:: img/ddPCR_wellinfo_example.jpg
+  .. figure:: /img/ddPCR_wellinfo_example.jpg
       :align: center
       :width: 80%
 
@@ -179,14 +179,14 @@ Analyze the droplets using the QX200 Droplet Reader:
 
 .. note::
    It is possible to perform analyses in the BioRad software, but it may be preferable to perform your own calculations directly on the raw droplet data in Python. 
-   The ``.ddpcr`` file contains all the relevant data and any metadata you inputted using the software, and you can use the ``load_ddpcr`` function in ``rushd`` (coming soon!)
+   The ``.ddpcr`` file contains all the relevant data and any metadata you inputted using the software, and you can use the ``load_ddpcr`` function in ``rushd``
    to load this info into a Pandas DataFrame.
 
 
 References
 ----------
 
-.. [#blanch-asensio2024]
+.. [blanch-asensio2024]
     Blanch-Asensio, A., Grandela, C., Mummery, C.L. et al. 
     STRAIGHT-IN: a platform for rapidly generating panels of genetically modified human pluripotent stem cell lines. 
     Nature Protocols (2024). 

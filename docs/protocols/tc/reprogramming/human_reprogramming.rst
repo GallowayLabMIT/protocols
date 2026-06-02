@@ -141,7 +141,7 @@ Day 33 (28 days post-infection): Assay Reprogramming
 
 .. note:: Zombie NIR™ dye is excited by the red laser and has fluorescence emission maximum at 746 nm.
 
-3. Proceed with plate or flow staining as :doc:`described here <../../biochem_and_analytics/antibody_staining>`.
+3. Proceed with plate or flow staining as :doc:`described here </protocols/biochem_and_analytics/staining_labeling/antibody_staining>`.
 
 .. note:: 
     BAD has used the following antibodies for adherent cell staining:

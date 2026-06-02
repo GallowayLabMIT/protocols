@@ -21,12 +21,12 @@ Defining regions of interest (ROI)
 5. Then delineate the nuclei by tracing: *Process* -> *Find Edges*. If nuclei are well separated, this should work well. If not, there is a program/plug-in called *Watershed* that can be used to resolve merged nuclei segments. 
 6. Then use Analyze Particles function: *Analyze* -> *Analyze Particles*. The pixel size can be changed to exclude particles that are too small or big or not circle enough or too circular.
 
-.. figure:: img/analyze_particles.png
+.. figure:: /img/segmentation_analyze_particles.png
   :align: center
 
-7.	The ROIs should now be labeled with numbers to indicate which is which. If you only want to count numbers of nuclei, the *Summary* window will tell you how many. In the case below, it counts 29. However, we can see that #9 is 3 nuclei. That’s why the *Watershed* program may be useful and necessary. Still this process gives us a good estimate for generally well separated nuclei. 
+7.	The ROIs should now be labeled with numbers to indicate which is which. If you only want to count numbers of nuclei, the *Summary* window will tell you how many. In the case below, it counts 29. However, we can see that #9 is 3 nuclei. That's why the *Watershed* program may be useful and necessary. Still this process gives us a good estimate for generally well separated nuclei. 
 
-.. figure:: img/count_particles.png
+.. figure:: /img/segmentation_count_particles.png
   :align: center
 
 Now that we have our regions of interest, it is time to get our other images with our staining.
@@ -34,17 +34,17 @@ Now that we have our regions of interest, it is time to get our other images wit
 8.	Open the RED/GREEN or other image. 
 9.	GO to *Analyze* -> *Tools* -> *ROI Manager*. In the ROI Manager, you can click on the different numbered ROIs to view them in the image you just opened. 
 
-.. figure:: img/roi_manager.png
+.. figure:: /img/segmentation_roi_manager.png
   :align: center
 
 10.	If you would like to get the intensity for each ROI, then simply go to *Analyze* -> *Set Measurements*. Make sure *Area*, *Min & max gray value* and *Mean gray value*, and *Integrated density* are selected. Then click *OK*. 
 
-.. figure:: img/set_measurements.png
+.. figure:: /img/segmentation_set_measurements.png
   :align: center
 
 11.	Next go to back to the ROI Manager and make sure all the desired regions are selected. You can deselect any that are problematic (too small, overlapping nuclei, etc). Then click on *Measure* and a window with the measurements will pop-up. 
 
-.. figure:: img/results.png
+.. figure:: /img/segmentation_results.png
   :align: center
 
 12.	Save this as a tab delimited file to open in Excel later. The area will be useful for normalizing the intensity for size of the nucleus. 
@@ -56,13 +56,13 @@ Quantifying nuclear-localized foci
 14.	Next open your stained image for foci counting. 
 15.	Go to *Process* -> *Find Maxima*. Toggle with noise tolerance setting to get good detection of foci. The higher the noise tolerance the stronger the signal has to be to be detected. 
 
-.. figure:: img/find_maxima.png
+.. figure:: /img/segmentation_find_maxima.png
   :align: center
 
 16.	Now go to ROI Manager and click on *Measure*. 
 17.	The *RawIntDen* tells you how many foci in each ROI (e.g. it sums the 255 values (code for black dots) within each ROI). To determine the number of foci per region, simply divide by 255. Save this file in excel for further processing. 
 
-.. figure:: img/results2.png
+.. figure:: /img/segmentation_results2.png
   :align: center
 
 Reference: http://microscopy.duke.edu/HOWTO/countfoci.html

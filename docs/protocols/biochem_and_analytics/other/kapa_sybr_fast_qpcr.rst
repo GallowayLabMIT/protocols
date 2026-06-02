@@ -7,11 +7,11 @@ Protocol
 
 Any existing qPCR assay performed efficiently using standard cycling conditions may be converted to a fast qPCR assay with KAPA SYBR FAST qPCR Kits. Typically, re-optimization of reaction parameters is required.
 
-qPCR is performed at the MIT BioMicro Center on a Roche LightCycler 480 using SYBR Green MasterMix. Roche's documentation is `here <../../_static/files/roche_light_cycler-manual.pdf>`__.
+qPCR is performed at the MIT BioMicro Center on a Roche LightCycler 480 using SYBR Green MasterMix. Roche's documentation is `here </docs/_static/files/roche_light_cycler-manual.pdf>`__.
 
 .. tip:: 
     To do qPCR with HEK293T RNA, use about one million cells as input to the Monarch Total RNA Miniprep Kit and elute into at least 50 µL. 
-    Be sure to do the optional "on-column" DNase I treatment to prevent contamiantion with genomic or plasmid DNA.
+    Be sure to do the optional "on-column" DNase I treatment to prevent contamination with genomic or plasmid DNA.
     cDNA can then be prepared using the ProtoScript First Strand cDNA Synthesis Kit with oligo-dT primers.
     Include a control without reverse transcriptase to ensure qPCR amplification is not coming from residual DNA.
 
@@ -77,7 +77,7 @@ qPCR is performed at the MIT BioMicro Center on a Roche LightCycler 480 using SY
 +--------------------+---------------------------------+------------------------------------+
 | Cooling            | 1                               |  None                              |
 +--------------------+---------------------------------+---------------------+--------------+
-| **Program Name**   | **Target (**\ |degree|\ **C)**  | **Aquisition Mode** | **Hold**     |
+| **Program Name**   | **Target (**\ |degree|\ **C)**  | **Acquisition Mode**| **Hold**     |
 |                    |                                 |                     | (hh:mm:ss)   |
 +--------------------+---------------------------------+---------------------+--------------+
 | Pre-incubation     | 95                              |  None               | 00:03:00     |

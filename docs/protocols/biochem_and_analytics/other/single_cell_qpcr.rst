@@ -16,7 +16,7 @@ Single-cell acquisition
 
 .. admonition:: TODO
 
-	Speicfy glass micropipette diameter and describe machine used in this step.
+	Specify glass micropipette diameter and describe machine used in this step.
 
 5.	Obtain dry ice in a cooler box for immediate freezing of cell following acquisition. 
 6.  Setup fluorescence on an inverted microscope, imaging at 40X.
