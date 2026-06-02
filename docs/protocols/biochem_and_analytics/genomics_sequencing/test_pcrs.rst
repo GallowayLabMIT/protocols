@@ -73,7 +73,7 @@ Three key variables that depend on which genomics technique source procedure are
 
         It is fine if your input samples contain streptavidin or other magnetic beads. They do not interfere with downstream processes.
 
-6.   Run the three samples per condition on a DNA gel. It is convienent to group the three runs per condition together.
+6.   Run the three samples per condition on a DNA gel. It is convenient to group the three runs per condition together.
 7.   While waiting on the gel to run, cleanup the samples for Qubit using Ampure beads. You can also use SPRI beads, but we use Ampure
      beads to cleanup the final PCR.
      
@@ -107,7 +107,7 @@ Three key variables that depend on which genomics technique source procedure are
         
         For example, for a 500 ng amplification shown here, a cycle count corresponding between the first and second lanes
         would be appropriate:
-
+        
         .. image:: /img/rcmc_test_pcr_gel.jpg
             :align: center
             :height: 7cm
