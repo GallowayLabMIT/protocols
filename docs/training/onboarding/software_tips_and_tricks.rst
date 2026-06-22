@@ -3,8 +3,8 @@ Software Tips and Tricks
 ========================
 
 
-One date format to rule them all/naming
----------------------------------------
+Naming, and one date format to rule them all
+--------------------------------------------
 
 .. figure:: https://imgs.xkcd.com/comics/iso_8601.png
     :align: center
@@ -13,13 +13,13 @@ One date format to rule them all/naming
     Courtesy of `xkcd <https://xkcd.com/1179/>`__
 
 In file naming schemes, we typically use the ``YYYY-MM-DD`` format. The separators
-don't typically matter, you could use dashes or underscores or periods.
+don't typically matter, you could use dashes or underscores or periods. (Most of the time, we use periods.)
 
-This date format is both unambiguous and also sorts well (e.g. a lexicographic/alphabetical
+This date format is both unambiguous and also sorts well (i.e., a lexicographic/alphabetical
 sort sorts in the correct time order).
 
-Finally, avoid using spaces in file and directory names! It's not a problem for most
-code, but it's just a good best practice that makes typing these paths in easier
+Finally, **avoid using spaces** in file and directory names! It's not a problem for most
+code, but it's a best practice that makes typing these paths in easier
 in a terminal.
 
 
@@ -32,11 +32,11 @@ to push lists of content over time; the first podcasts were actually syndicated/
 Most journals have RSS feeds; you can find it by searching for a journal name + ``rss``,
 or by looking around with the RSS icon: |rss_icon|
 
-.. |rss_icon| image:: https://upload.wikimedia.org/wikipedia/en/thumb/4/43/Feed-icon.svg/128px-Feed-icon.svg.png
+.. |rss_icon| image:: img/rss-feed-icon.svg
     :align: middle
-    :height: 2.0ex
+    :height: 3ex
 
-For example, the main Nature feed lives at http://feeds.nature.com/nature/rss/current.
+For example, the main Nature feed lives at: http://feeds.nature.com/nature/rss/current
 
 After finding some feeds you are interested in, you likely want to use a **feed aggregator**, something
 that combines all of the new pushed papers into a single feed. A very popular feed aggregator is
@@ -90,16 +90,16 @@ There are several built-in features of Zotero that make paper reading more effic
      :align: center
 
 2. **Notes**:  When you add notes through the sidebar, they become fully searchable! You can
-   also embed images and other content within notes. This is particularly helpful for summarizing papers; I use the
-   following note template:
+   also embed images and other content within notes. This is particularly helpful for summarizing papers. A template for notes
+   might look like the following:
    ::
 
-        Top line summary:
+        One-sentence summary:
 
 
-        What they did/highlights:
+        Highlights/claims:
 
-        Why do we care:
+        Relevance:
 
         Limitations:
 
@@ -116,62 +116,24 @@ There are several built-in features of Zotero that make paper reading more effic
     :align: center
 
 
-Better Quartzy
----------------
-While Quartzy is great for inventory purposes, and the interface for the plasmid
-database isn't too bad, the web-interface leaves a lot to be desired. By default,
-you can't really read the plasmid names even after you drag the CAS # field to the
-second position:
+Regex
+-----
+Regular expressions, or "regex"s are used for pattern-matching strings (words). This is useful for searching for files with names
+that follow a particular structure. For instance, the Python package ``rushd`` developed by the lab uses a regex to extract 
+metadata from filenames when loading flow cytometry data in Python. Here's one `tutorial <https://librarycarpentry.github.io/lc-data-intro/01-regular-expressions.html>`_ 
+with examples to learn more about regular expressions.
 
-.. image:: img/quartzy_pre_enhancer.png
-    :align: center
-
-To fix this, there is a Quartzy enhancer userscript that makes it look like the following!
-
-.. image:: img/quartzy_post_enhancer.png
-    :align: center
-
-The plasmid field is larger, and the plasmid resistance (Amp/Kan/Chlor) is listed directly
-below the plasmid.
-
-
-This feature is implemented using something called **userscripts**; these are small Javascript
-scripts that get injected into webpages; effectively they are mini browser extensions.
-
-First, you should install a userscript manager like `Tampermonkey <https://www.tampermonkey.net/>`__.
-
-Then, you should be able to click on this link to add the userscript:
-https://gist.github.com/meson800/f28e64d532da9b0fe2a1d22480ea5cda/raw/quartzy_enhancer.user.js
-
-or in the Tampermonkey Utilities tab, you can use the **install from URL** option:
-
-.. image:: img/tampermonkey_install_from_url.png
-    :align: center
-
-
-Regex help
-----------
-If you ever need help debugging or designing a regular expression, try using https://regex101.com/
+If you ever need help designing or debugging a regular expression, try using https://regex101.com/
+Be sure to change the "Flavor" on the left to Python, or whichever language you're using.
 
 
 YAML files
 ----------
-Several lab workflows use YAML files to add metadata to images, flow data, etc. A quick tutorial can be found here: https://learnxinyminutes.com/docs/yaml/
+Several lab workflows use YAML files to add metadata to images, flow data, etc. YAML is a language/syntax commonly used for metadata
+or configuration files, similar to the JSON format.
 
-
-Fonts
------
-Helvetica Neue is a good sans-serif font that is based on everyone's favorite font, Helvetica. 
-Download it `here <../../_static/iap_files/HelveticaNeue.zip>`__. Windows needs a slightly different version of the fonts, available `here <../../_static/iap_files/WinNeue.zip>`__
-
-For a good monospaced/code/terminal font, `Fira Code <https://github.com/tonsky/FiraCode/releases>`__ is excellent.
-Besides looking nice, Fira Code has something called **font ligatures**. These are originally defined for special
-letter combinations, like æ for adjacent ae. In Fira Code, common programming combinations are given
-special ligature symbols that appear as you type normally. You often have to enable ligatures in the editor
-you are using.
-
-.. image:: img/fira_code.png
-    :align: center
+A quick tutorial can be found here: https://learnxinyminutes.com/docs/yaml/
+and the official introduction is here: https://www.yaml.info/learn/index.html
 
 
 Activate SnapGene remotely
