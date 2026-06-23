@@ -32,9 +32,9 @@ Computational skills
 **Github:** All lab code is stored on Github for version control and sharing. Check out the following protocols to learn the basics 
 and refer back to as needed:
 
-- :doc:`Introduction to git <git_intro>`
-- :doc:`Startup checklist <startup_checklist>` for working with a new repository
-- :doc:`Computational environment check <environment_check>` to confirm that you can edit git repos
+- :doc:`Introduction to Git <git_intro>`
+- :doc:`Startup checklist <startup_checklist>` for working with Git repositories
+- :doc:`Computational environment check <environment_check>` to confirm that you can edit Git repos
 - :doc:`Contributor guide <../../contributor_guide>` for editing this protocol site
 
 **Data Analysis & Modeling**
@@ -54,13 +54,14 @@ several trainings on these topics. The :doc:`"How to" training series </training
 (and other interested lab members). Additionally, Katie has put together a :doc:`Writing Guide <../../writing_guide/index>` relevant for academic 
 writing at all levels (papers, proposals, etc.). 
 
-To produce high-quality, informative graphics, the lab mainly uses Adobe Illustrator. Check out the 
-:ref:`Onboarding Day 0 section on Illustrator <graphics>` for instructions on setting up the software. This `YouTube video <https://www.youtube.com/watch?v=3IuoK07YDds>`_ 
-offers a basic tutorial to many of the features relevant for scientific graphics, and the best way to learn how to use Illustrator is by making graphics 
-of your own!
+To produce high-quality, informative graphics, the lab mainly uses Adobe Illustrator. The best way to learn how to use Illustrator is by making graphics of your own!
+To get started, check out the following:
+
+  - :ref:`Section on Illustrator <graphics>` in the Onboarding Day 0 page for instructions on setting up the software
+  - `YouTube video <https://www.youtube.com/watch?v=3IuoK07YDds>`_ for a basic tutorial to many of the features relevant for scientific graphics
+  - Illustrator `keyboard shortcuts list <https://mitprod.sharepoint.com/:w:/s/GallowayLab/IQAtam1dK9LiQqfk-UDpyb2bAS8J5FQOKeUqJ94R-dkRs9g?e=VHPmpM>`_ from Graphics & Illustrator training (IAP 2026)
 
 Journal clubs are another essential piece of reading and evaluating primary literature. Past lab journal club presentations are located 
-in `this folder <https://mitprod.sharepoint.com/:f:/s/GallowayLab/Eugaj4o4lw5Egeyo9_lQmjIB8un7AnIkFoRDG5BQ0Btwaw?e=OQuJTU>`_. Additionally, 
-during IAP 2024, lab members will present a series of journal clubs on all papers and review articles published by the lab (*more 
-information to be added IAP 2024*). For a complete list of lab papers, see the `lab website <https://gallowaylab.mit.edu/publications/>`_ 
+in `this folder <https://mitprod.sharepoint.com/:f:/s/GallowayLab/Eugaj4o4lw5Egeyo9_lQmjIB8un7AnIkFoRDG5BQ0Btwaw?e=OQuJTU>`_. This includes a 
+series of journal clubs on some of the lab's papers and review articles (IAP 2024). For a complete list of lab papers, see the `lab website <https://gallowaylab.mit.edu/publications/>`_ 
 or Katie's `Google Scholar profile <https://scholar.google.com/citations?user=boemvUgAAAAJ&hl=en>`_. 

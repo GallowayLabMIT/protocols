@@ -7,15 +7,15 @@ Before your first day in lab, be sure to complete required trainings and downloa
 Onboarding form 
 ---------------
 
-Complete the tasks on the lab 
-`Onboarding Form <https://mitprod.sharepoint.com/:b:/s/GallowayLab/EZsBE7z_J2lNj-mX6hkqCwkBOuqw3G_a8fSO2M_vI-Oi1w?e=yygej4>`_. 
+Complete the tasks on the most recent lab Onboarding Form in 
+`this folder <https://mitprod.sharepoint.com/:f:/s/GallowayLab/IgDFT2QaHvFyRK8T-mimny_OAWjTpmM18Te5DVKyJORWO10?e=KXd2iO>`_. 
 Have your mentor (or another lab member) check off each one. This list includes:
 
-- Given access to lab software accounts (requested in :ref:`Day 0 <software>`)
+- Given access to lab software accounts (you should've requested access to these in :ref:`Day 0 <software>`)
 - Added the lab printer (``stephenie``)
 - Have appropriate card and key access to the lab 
 - Acquired a lab notebook
-- The two in-lab trainings described in the following sections
+- Participated in the two in-lab trainings described in the following sections
 
 Lab-specific safety training
 ----------------------------
@@ -37,8 +37,10 @@ Lab citizenship
 It is essential for lab members to display common courtesy and follow established procedures to ensure the lab runs smoothly. Professor Galloway 
 expects all lab members to contribute to the lab mission and uphold lab values, as described on the 
 `lab website <https://gallowaylab.mit.edu/bts/>`_ and internally 
-`here <https://mitprod.sharepoint.com/:p:/s/GallowayLab/EX3IEiFinshLuxgMlo7OOFcBP6OPoIPMCpJyrZk4CTOvmA?e=ToEa1S>`_ (IAP 2024). 
-On your first day in lab, a current lab member will walk you through the lab space and our digital organization. 
+`here <https://mitprod.sharepoint.com/:p:/s/GallowayLab/IQD9zyPd_-dBS5MBPrYZXVD7AabiBQJH33UpdkmKmh_5X9s?e=4uMhI5>`_ (IAP 2026). 
+On your first day in lab, a current lab member will walk you through the lab space and describe our digital organization. 
+`This presentation <https://mitprod.sharepoint.com/:p:/r/sites/GallowayLab/_layouts/15/Doc.aspx?sourcedoc=%7B34FBAE9F-CA9A-40E5-B0BA-5EADE917E203%7D>`_ 
+(IAP 2026) contains a good list of things to know.
 
 Maps for lab organization:
 
@@ -49,13 +51,14 @@ Maps for lab organization:
 
 Selected lab protocols to be familiar with:
 
-- :doc:`Lab safety <../../general/lab_safety>`
-- :doc:`Ordering materials and reagents <../../general/ordering>`
-- :doc:`Receiving orders <../../general/receiving>`
-- :doc:`Recycling <../../general/recycling>`
-- :doc:`Cleaning and autoclaving <../../general/clean_autoclave_guideline>`
-- :doc:`Basic TC procedures <../../protocols/tc/tc-basics/TC_basics>`
-- :doc:`Virus safety <../../protocols/tc/virus/virus_safety>`
+- :doc:`Lab safety </general/lab_safety>`
+- :doc:`Ordering materials and reagents </general/ordering>`
+- :doc:`Receiving orders </general/receiving>`
+- :doc:`Recycling </general/recycling>`
+- :doc:`Cleaning and autoclaving </general/clean_autoclave_guideline>`
+- :doc:`Plasmid database </general/plasmid_database>`
+- :doc:`Basic TC procedures </protocols/tc/tc-basics/TC_basics>`
+- :doc:`Virus safety </protocols/tc/virus/virus_safety>`
 
 
 Core facility access

@@ -156,10 +156,10 @@ A normal workflow to update a protocol would be:
 
 1. Do a ``git pull`` to receive any updated changes from others.
 2. Make changes to the desired files, such as adding pictures, writing new text, and so on.
-3. Locally build the protocols website, checking for any errors (e.g. incorrect reStructuredText).
+3. :ref:`Locally build <contrib_local_build>` the protocols website, checking for any errors (e.g., incorrect reStructuredText).
    Before running the local build, you will likely have to create/activate your virtual environment
    as listed in the :ref:`Python setup <python_setup>` section.
-4. When there are no build errors, add the files and create a commit describing your changes.
+4. When there are no build errors, add/stage the changed files and create a commit describing your changes.
 5. Do a ``git push`` to update the website.
 
 .. admonition:: Common problems
@@ -320,6 +320,8 @@ of the file view:
   :width: 90%
   :align: center
 
+|
+
 .. note::
   While Github does render a preview of what the reStructuredText will look like,
   it does not preview how Sphinx will render the final website. For example, we can see in the
@@ -336,6 +338,8 @@ This will open an editor window:
   :width: 90%
   :align: center
 
+|
+
 After you are done editing, add a commit message describing your change, and (normally), commit
 directly to the ``latest`` branch. If there is need for further discussion of an added protcol,
 creating a secondary branch + pull request could be helpful.
@@ -343,6 +347,8 @@ creating a secondary branch + pull request could be helpful.
 .. image:: img/online_commit_changes.png
   :width: 90%
   :align: center
+
+|
 
 .. note::
   Make sure you make the commit message more descriptive than the default "Update <filename>" message!

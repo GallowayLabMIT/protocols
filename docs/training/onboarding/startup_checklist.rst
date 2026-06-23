@@ -26,11 +26,13 @@ New repository (Python)
        :width: 80%
        :align: center
 
+..  _clone_and_venv:
+
 2. Clone the repository to some local folder.
 
    .. note::
       A common pattern is to put all of your git repositories in a ``repo`` folder in your home directory.
-      Importantly, don't put git repositories inside OneDrive or another cloud-synced folder; in addition to duplicated effort,
+      Importantly, don't put git repositories inside OneDrive or another cloud-synced folder; in addition to duplicated version control,
       ``git`` tracks lots of small files internally which means a lot of syncing effort.
 
    First, find the URL to the repository. You can get the link at the repository online under the green "Code" button.
@@ -44,14 +46,14 @@ New repository (Python)
 
    - In a terminal:
          
-     1. Navigate (``cd``) to the local folder you want to put the repo in
-     2. Run ``git clone URL``, replacing ``URL`` with the one you found above
+     1. Navigate (``cd``) to the local folder you want to put the repo in.
+     2. Run ``git clone URL``, replacing ``URL`` with the one you found above.
 
    - In VS Code:
 
-     1. Open the Command Palette (``ctrl-shift-p`` or ``command-shift-p``) and select "Git: Clone"
-     2. Paste the URL you found above, or search within your repos
-     3. In the pop-up file explorer, select the local folder you want to put the repo in
+     1. Open the Command Palette (``ctrl-shift-p`` or ``command-shift-p``) and select "Git: Clone".
+     2. Paste the URL you found above, or search within your repos.
+     3. In the pop-up file explorer, select the local folder you want to put the repo in.
 
 3. Open a terminal in the repository folder (i.e., ``cd`` into the folder). It's easiest to do this and the following steps inside VS Code.
 4. Create a **virtual environment** for this project.
@@ -67,7 +69,7 @@ New repository (Python)
    .. code-block:: console
 
       $ python -m venv env  # On Windows, most Linuxes
-      $ python3 -m venv env # On modern MacOS
+      $ python3 -m venv env # On modern macOS
 
 5. **Activate** the virtual environment. This typically has to be done every time you open a new terminal or when you switch between projects 
    with different virtual environments. Once the environment has been activated, any Python changes you do (installing packages, etc.) will only
@@ -76,7 +78,7 @@ New repository (Python)
    .. code-block:: console
       :class: bash-console
 
-      $ source env/bin/activate # On MacOS, Linux
+      $ source env/bin/activate # On macOS, Linux
 
    .. code-block:: console
       :class: powershell-console
@@ -90,7 +92,7 @@ New repository (Python)
       If you are working inside VS Code, right after you create the virtual environment,
       you may get a popup that says something akin to "New virtual environment detected.
       Do you want to set this environment as your project environment?" Answering yes
-      means that all launched Python instances will use that environment by default.
+      means that all launched Python instances will use that environment by default. (Convenient!)
 
       If you don't see the popup, you can also set the Python environment through
       the Command Palette. Press ``ctrl-shift-p`` or ``command-shift-p``,
@@ -102,7 +104,7 @@ New repository (Python)
          :align: center
 
 6. Install the packages you need. For data analysis projects, this is likely
-   ``pip install numpy pandas scipy matplotlib seaborn ipykernel nb-clean rushd``
+   ``pip install ipykernel matplotlib nb-clean numpy pandas rushd scipy seaborn``
 
    These packages are useful for computing with arrays and statistics (``numpy``, ``pandas``, ``scipy``);
    plotting (``matplotlib``, ``seaborn``); and running Jupyter notebooks (``ipykernel``, ``nb-clean``), 
@@ -111,7 +113,7 @@ New repository (Python)
    analysis, and plotting.
    
    If you are using ``nb-clean``, in the terminal run ``nb-clean add-filter``. From
-   then on, this package will automatically run alongside git as a filter to remove extraneous notebook 
+   then on, this package will automatically run alongside Git as a filter to remove extraneous notebook 
    metadata.
 
 7. Save your environment into a ``requirements.txt`` file using ``pip freeze > requirements.txt``.
@@ -121,25 +123,40 @@ New repository (Python)
 
 8. If you will eventually load data from Smithsonian, create a ``datadir.txt`` file in the top-level folder
    of the repository. This file should contain one line with the full, absolute path to where Smithsonian syncs locally on your computer.
+   You don't need any quotes or other characters around the path.
 
-   For instance, a path on MacOS might look something like: 
+   For instance, a path on macOS might look something like: 
 
    .. code-block:: text
       
       /Users/username/Library/CloudStorage/Nextcloud-kerberos@mit.edu@smithsonian.mit.edu/data
+   
+
+9. Mark items that Git should not track by adding them to your ``.gitignore`` file.
+   This means adding a line in ``.gitignore`` (usually at the top) for each file or directory.
+
+   Typically, this includes your virtual environment ``env`` and any output files you save in a directory like ``output``, as you can always re-create 
+   these later. Other files like ``datadir.txt``, ``.DS_store`` (on macOS), and ``.vscode`` save information relevant only to your local computer,
+   so these should not be tracked by Git.
+
+   Here's an example:
+   ::
       
-   You don't need any quotes or other characters around the path.
+      # custom
+      env/
+      datadir.txt
+      output/
+      .vscode
+      .DS_store
 
-9. Mark items that git should not track by adding them to your ``.gitignore`` file.
-   This means adding a line in ``.gitignore`` (typically at the top) for each file or directory.
+      # defaults continue below
+      ...
 
-   Typically, this includes your virtual environment ``env`` as you can always re-create it later, and
-   ``datadir.txt`` since this absolute path is different on every computer. Other files that you might want
-   to ignore in the future are ``.DS_store`` (on Mac) and ``.vscode``, which save information only relevant to your local computer.
+.. _git_commit:
 
 10. This is a good time to commit your changes, probably with a commit message like "repo setup".
 
-   You can do this in the terminal with ``git commit -m "Your message"``, or in VS Code in the Source Control pane. For the latter, 
+   You can do this in the terminal with ``git commit -m "Your message"``, or in VS Code in the "Source Control" pane. For the latter, 
    stage changes first by clicking the plus icon next to each change, type your commit message in the box, and click the blue "Commit" button.
 
    .. image:: img/git-commit-vscode.png
@@ -186,23 +203,29 @@ New repository (R)
 
 .. _existing_repo_setup:
 
-Existing repository 
---------------------
+Existing repository (Python)
+----------------------------
 
-1. Clone the repository to some local folder. See step 2 above in "New repository (Python)".
-2. Open a terminal in the repository folder (i.e., ``cd`` into the folder). It's easiest to do this and the following steps inside VS Code.
-3. If you will use Python in the repo:
+1. Follow steps 2-5 for "New repository (Python)" :ref:`above <clone_and_venv>` to clone the repo, create a virtual environment, and activate it.
+2. Install the current package versions for this project using ``pip install -r requirements.txt``.
+3. If using Jupyter notebooks, run ``nb-clean add-filter`` to register the cleaning filter with Git.
+4. If using ``rushd``, add a ``datadir.txt`` file to the root folder of the repository. This file should contain one line with the full, absolute path 
+   to where Smithsonian syncs locally on your computer. You don't need any quotes or other characters around the path.
 
-   a. Create and activate a virtual environment, following steps 4-5 above in "New repository (Python)".
-   b. Install the current package versions for this project using ``pip install -r requirements.txt``.
-   c. If using Jupyter notebooks, run ``nb-clean add-filter`` to register the cleaning filter with Git.
-   d. If using ``rushd``, add a ``datadir.txt`` file to the root folder of the repository, containing the absolute path to where 
-      Smithsonian locally syncs on your computer.
+   For instance, a path on macOS might look something like: 
 
-4. If you will use Julia in the repo:
+   .. code-block:: text
+      
+      /Users/username/Library/CloudStorage/Nextcloud-kerberos@mit.edu@smithsonian.mit.edu/data
 
-   a. Start Julia within a local virtual environment using ``julia --project=.``.
-   b. Enter package mode by pressing ``]``.
-   c. Run ``instantiate`` to automatically install the reproducible list of packages in the Manifest and Project files.
+5. Any additional setup should be described in the ``README.md`` file of the repository.
 
+
+Existing repository (Julia)
+---------------------------
+
+1. Clone the repository, following steps 2-3 for "New repository (Python)" :ref:`above <clone_and_venv>`.
+2. Start Julia within the virtual environment using ``julia --project=.``
+3. Enter package mode by pressing ``]``
+4. Run ``instantiate`` to automatically install the reproducible list of packages in the Manifest and Project files.
 5. Any additional setup should be described in the ``README.md`` file of the repository.

@@ -1,5 +1,5 @@
 ========================
-Software Tips and Tricks
+Software tips and tricks
 ========================
 
 

@@ -632,11 +632,14 @@ history tab to see a linearized history (e.g. like the default ``git log``):
 .. image:: img/ghd_history.png
     :align: center
 
+|
+
 You can also run ``gitk`` in a terminal to bring up a different graphical view which shows the entire tree:
 
 .. image:: img/gitk.png
     :align: center
 
+|
 
 In summary, ``git log`` and ``git status`` and their GUI equivalents should be your go-to tool
 to find out what is happening in history. If you are ever feeling confused, take a look at the log!
@@ -755,6 +758,8 @@ Inside VS Code, you can access this functionality with the drop down menu inside
 
 .. image:: img/vsc_branches.png
     :align: center
+
+| 
 
 .. admonition:: Exercise
 

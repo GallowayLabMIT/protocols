@@ -1,5 +1,5 @@
 =======================
-On Terminals and Shells
+On terminals and shells
 =======================
 
 Motivation

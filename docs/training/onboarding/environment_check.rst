@@ -34,9 +34,8 @@ Initial environment check
 
 1. Clone the ``environment-check`` repository at https://github.com/GallowayLabMIT/environment-check.
    
-   To do so, follow the instructions in the "Existing repository" section of 
-   :ref:`Startup checklist when working with repositories <existing_repo_setup>`. You should follow 
-   the instructions for a Python repo, but you do not need to add the ``nb-clean`` filter. Wait to commit your changes until later.
+   To do so, follow the instructions in the "Existing repository (Python)" section of 
+   "Startup checklist when working with repositories" (:ref:`here <existing_repo_setup>`).
 
    .. note::
       This is intentionally a private repository, which means that you will have to be in the GallowayLabMIT Github organization 
@@ -59,23 +58,21 @@ Initial environment check
    added new packages, update the requirements file by using ``pip freeze > requirements.txt`` so someone else could
    use the same package versions in the future.
 4. For this training, modify the ``datadir.txt`` file (or create one if you haven't yet) to contain the path to your locally synced lab OneDrive/SharePoint
-   (*not* the Nextcloud for this repo).
+   (*not the Nextcloud for this repo only*). You don't need any quotes or other characters around the path.
    
-   For example, the path might look like this (on MacOS):
+   For example, the path might look like this (on macOS):
 
    .. code-block:: text
 
       /Users/username/Library/CloudStorage/OneDrive-SharedLibraries-MassachusettsInstituteofTechnology/GallowayLab - Documents
-
-   You don't need any quotes or other characters around the path.
 
    .. note::
 
       The environment-check script expects that you point the data directory at the *root* of the OneDrive,
       i.e., the folder with subdirectories like ``projects``, ``instruments``, etc.
 
-5. Commit your changed files and push your new branch to Github. See step 10 on the "New respository (Python)" section of :doc:`/training/onboarding/startup_checklist`.
-6. From a terminal inside the repo, run ``python check.py`` or ``python3 check.py`` (MacOS) to see if you get all green checks! Fix any errors until you do.
+5. Commit your changed files and push your new branch to Github. See :ref:`this step <git_commit>` in the "New repository (Python)" section of "Startup checklist when working with repositories".
+6. From a terminal inside the repo, run ``python check.py`` or ``python3 check.py`` (macOS) to see if you get all green checks! Fix any errors until you do.
 
 
 Protocols check
@@ -84,20 +81,20 @@ Protocols check
 Getting all green checks above means that you can now clone repos and run Python! The next step is to make sure you can contribute to our lab protocols 
 (this website). At base, this site is a collection of formatted text files that is built into a website and pdf using Python. Specifically, protocols 
 are written in `reStructuredText <https://docutils.sourceforge.io/rst.html>`_, a lightweight markup language that enables useful formatting in a 
-relatively straightforward manner. These ``.rst`` files areconverted into a nice-looking website via the Python package `Sphinx <https://www.sphinx-doc.org/en/master/>`_. 
-For more details on how we use this system here, check out the :doc:`/contributor_guide`. Don't worry about knowing the ins and outs of all this now.
+relatively straightforward manner. These ``.rst`` files are converted into a nice-looking website via the Python package `Sphinx <https://www.sphinx-doc.org/en/master/>`_. 
+(For more details on how we use this for the protocols site, check out the :doc:`/contributor_guide`. But don't worry about knowing the ins and outs of all this now.)
 
 Instead, to start, it's good to check that you can edit one of the files. 
 
 1. Confirm that you have installed the "reStructuredText" and "reStructuredText Syntax highlighting" extensions in VS Code, as directed in :doc:`/training/onboarding/day_0_setup`.
-2. Clone the protocols repo (https://github.com/GallowayLabMIT/protocols), using your new knowledge. (Hint: Begin with the 
+2. Clone the protocols repo at https://github.com/GallowayLabMIT/protocols, using your new knowledge. (Hint: Check out 
    :ref:`Startup checklist when working with repositories <existing_repo_setup>`.)
 
 3. Edit this file (``docs/training/onboarding/environment_check.rst``), adding your name to the completion list.
 4. Save, commit, and push those changes, and you are done!
 
 .. tip::
-   Some specific tips for working with the protocols site:
+   For tips when working with the protocols site, read the :doc:`Contributor guide </contributor_guide>`. For instance:
 
       - Use :ref:`contrib_local_preview` to see how the reStructuredText is rendered on the website as you edit.
       - Check out the :ref:`contrib_rst_basics` for a primer on formatting in reStructuredText.
@@ -138,26 +135,30 @@ Now that your computational environment is set up, you're ready to move on to *t
 This belongs separately in its own training, but there are a few things you can do to get started with the knowledge you
 have from this one.
 
-1. Create a new repository in the GallowayLabMIT organization for your project. (Hint: See 
+1. Create a new repository in the GallowayLabMIT organization for your project, which will use Python. (Hint: See 
    :ref:`Startup checklist when working with repositories <new_repository_python>`.)
 
-   Call it something descriptive related to the project (but probably not your name/initials, as collaborators may contribute to it).
+   Call it something descriptive related to the project (but *probably not your name/initials*, as collaborators may contribute to it).
    You can always change this later on Github under the "Settings" tab in the repo.
    
-   The repo can be private for now, but you'll make (a version of) the final code public when you publish!
+   The repo should be private for now, but you'll make (a version of) the final code public when you publish!
 
 2. Test that you can run a Jupyter notebook by creating a new file anywhere in the repo called ``test.ipynb``.
 
-   The easiest way to do this is probably with the "New file" icon (paper with plus sign) on the left-side Explorer panel in VS Code.
+   The easiest way to do this is probably with the "New file" icon on the left-side "Explorer" panel in VS Code.
 
    .. image:: img/new-file-vs-code.png
       :align: center
       :width: 40%
 
-3. Make a plot in the notebook! 
+3. Use your imagination to make a plot in the notebook! 
    
    - The first time you run a code cell in the Jupyter notebook, VS Code will prompt you to select a kernel. Choose the Python instance from your virtual environment.
    - Don't worry about loading data for now; generate some random values or use one of the sample datasets from 
      `seaborn <https://seaborn.pydata.org/tutorial/introduction.html>`_.
    - Consider checking out the seaborn `gallery <https://seaborn.pydata.org/examples/index.html>`_ or `tutorials <https://seaborn.pydata.org/tutorial.html#>`_ 
      to get inspired about the cool plots you can make!
+
+Once you can successfully run a Jupyter notebook in a Git repo, you're ready to analyze data. If you're eager for a head start, 
+check out the ``example_training`` repo `here <https://github.com/GallowayLabMIT/example-training.git>`_, which describes common analysis workflows for flow cytometry, qPCR, ddPCR, etc. 
+Barring any bugs, you should be able to run these notebooks (and begin playing around with the data) if you have Smithsonian locally synced.
