@@ -23,8 +23,8 @@ Lab-specific safety training
 After completing all other safety trainings online, meet with the lab EHS rep to learn the relevant safety features of our lab (e.g., 
 location of eyewash stations, processes for chemical waste disposal). To confirm that you understand these procedures, you must submit a 
 Google form to be checked off by the lab EHS rep. This safety information is :doc:`documented here <../../general/lab_safety>`, and key 
-points are highlighted in the 
-`IAP 2025 lab-specific training slides <https://mitprod.sharepoint.com/:p:/s/GallowayLab/EffS_fJNCA1KgtfpJG7O6DgBQFc9nWfK2uXpOLrbIo9-lg?e=HzM0Cq>`_.
+points are highlighted in the lab-specific training slides 
+(`IAP 2025 <https://mitprod.sharepoint.com/:p:/s/GallowayLab/EffS_fJNCA1KgtfpJG7O6DgBQFc9nWfK2uXpOLrbIo9-lg?e=HzM0Cq>`_).
 
 For grad students and postdocs, an in-person training is also required for access to the room containing the autoclave, dishwasher, and ice 
 machine (room 56-415). Once you have completed the `Autoclave Safety Training <http://web.mit.edu/training/course.html?course=EHS00254w&sys=PS1>`_ 
@@ -36,11 +36,11 @@ Lab citizenship
 
 It is essential for lab members to display common courtesy and follow established procedures to ensure the lab runs smoothly. Professor Galloway 
 expects all lab members to contribute to the lab mission and uphold lab values, as described on the 
-`lab website <https://gallowaylab.mit.edu/bts/>`_ and internally 
-`here <https://mitprod.sharepoint.com/:p:/s/GallowayLab/IQD9zyPd_-dBS5MBPrYZXVD7AabiBQJH33UpdkmKmh_5X9s?e=4uMhI5>`_ (IAP 2026). 
+`lab website <https://gallowaylab.mit.edu/bts/>`_ and internally in a lab meeting
+(`IAP 2026 <https://mitprod.sharepoint.com/:p:/s/GallowayLab/IQD9zyPd_-dBS5MBPrYZXVD7AabiBQJH33UpdkmKmh_5X9s?e=4uMhI5>`__). 
 On your first day in lab, a current lab member will walk you through the lab space and describe our digital organization. 
-`This presentation <https://mitprod.sharepoint.com/:p:/r/sites/GallowayLab/_layouts/15/Doc.aspx?sourcedoc=%7B34FBAE9F-CA9A-40E5-B0BA-5EADE917E203%7D>`_ 
-(IAP 2026) contains a good list of things to know.
+This presentation 
+(`IAP 2026 <https://mitprod.sharepoint.com/:p:/r/sites/GallowayLab/_layouts/15/Doc.aspx?sourcedoc=%7B34FBAE9F-CA9A-40E5-B0BA-5EADE917E203%7D>`_) contains a good list of things to know.
 
 Maps for lab organization:
 

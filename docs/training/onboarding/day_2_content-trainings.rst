@@ -11,12 +11,12 @@ Core lab techniques
 
 The following are core topics/techniques used in our lab. Many are linked to the slides for related training sessions.
 
-- **Molecular cloning:** general introduction (`IAP 2026 <https://mitprod.sharepoint.com/:p:/s/GallowayLab/IQA3vVP3JP5qRbN9GfGuHvU5AQucMAOWycOwvut-UR7X58Y?e=wP9pvO>`_),
-  modular Golden Gate assembly (`IAP 2026 <https://mitprod.sharepoint.com/:p:/s/GallowayLab/IQBd38tXyVq9Rbq7-FEZiAfFAejpTyzna_HolRxvQikgSnM?e=Oz6IFk>`_)
-- **Mammalian tissue culture:** best practices (`IAP 2026 <https://mitprod.sharepoint.com/:p:/s/GallowayLab/IQAgKhXRx0uiRbabjPYw7oGoAbbs8CY8hp8k0VUlzglbLoY?e=ibijp5>`_),
-  cellular reprogramming (`IAP 2025 <https://mitprod.sharepoint.com/:p:/s/GallowayLab/IQBaCEYrFtGLQ6yJTPeuPLW7Ac96vWqtTrysJUB5ZVYJj7s?e=isklZ4>`_)
-- **Analytical methods:** flow cytometry (`IAP 2026 <https://mitprod.sharepoint.com/:p:/s/GallowayLab/IQDJKQU0ACzMRJkckaxWEIYqAU5IKlwLuSKH4XubMdEIawY?e=mFVYsc>`_),
-  staining and microscopy (`IAP 2026 <https://mitprod.sharepoint.com/:p:/s/GallowayLab/IQCEeRxo0KawS41umxU04aSwAZSE4VzFF9gE_rbtAbGVuWE?e=0EGHPg>`_),
+- **Molecular cloning:** general introduction (`IAP 2026 <https://mitprod.sharepoint.com/:p:/s/GallowayLab/IQA3vVP3JP5qRbN9GfGuHvU5AQucMAOWycOwvut-UR7X58Y?e=wP9pvO>`__),
+  modular Golden Gate assembly (`IAP 2026 <https://mitprod.sharepoint.com/:p:/s/GallowayLab/IQBd38tXyVq9Rbq7-FEZiAfFAejpTyzna_HolRxvQikgSnM?e=Oz6IFk>`__)
+- **Mammalian tissue culture:** best practices (`IAP 2026 <https://mitprod.sharepoint.com/:p:/s/GallowayLab/IQAgKhXRx0uiRbabjPYw7oGoAbbs8CY8hp8k0VUlzglbLoY?e=ibijp5>`__),
+  cellular reprogramming (`IAP 2025 <https://mitprod.sharepoint.com/:p:/s/GallowayLab/IQBaCEYrFtGLQ6yJTPeuPLW7Ac96vWqtTrysJUB5ZVYJj7s?e=isklZ4>`__)
+- **Analytical methods:** flow cytometry (`IAP 2026 <https://mitprod.sharepoint.com/:p:/s/GallowayLab/IQDJKQU0ACzMRJkckaxWEIYqAU5IKlwLuSKH4XubMdEIawY?e=mFVYsc>`__),
+  staining and microscopy (`IAP 2026 <https://mitprod.sharepoint.com/:p:/s/GallowayLab/IQCEeRxo0KawS41umxU04aSwAZSE4VzFF9gE_rbtAbGVuWE?e=0EGHPg>`__),
   genomics (:doc:`overview page </protocols/biochem_and_analytics/genomics_sequencing/index>`)
 
 
@@ -44,10 +44,10 @@ and refer back to as needed:
 Data Analysis & Modeling
 ************************
 
-- Data analysis tips & common approaches: see example Jupyter notebooks in the ``example-training`` repo (`link <https://github.com/GallowayLabMIT/example-training>`_),
-  user guide for ``rushd`` Python package (`link <https://gallowaylabmit.github.io/rushd/en/main/index.html>`_)
+- Data analysis tips & common approaches: see example Jupyter notebooks in the ``example-training`` repo (`link <https://github.com/GallowayLabMIT/example-training>`__),
+  user guide for ``rushd`` Python package (`link <https://gallowaylabmit.github.io/rushd/en/main/index.html>`__)
 - Introduction to gene expression modeling: set of undergrad trainings (:doc:`Summer 2021 </training/ode_training/index>`)
-- High-performance computing: tutorial for the MIT Engaging cluster (`MIT ORCD <https://orcd-docs.mit.edu/getting-started/>`_)
+- High-performance computing: tutorial for the MIT Engaging cluster (`MIT ORCD <https://orcd-docs.mit.edu/getting-started/>`__)
 
 
 Research reading and writing
@@ -64,7 +64,7 @@ To get started, check out the following:
   - :ref:`Section on Illustrator <graphics>` in the Onboarding Day 0 page for instructions on setting up the software
   - `YouTube video <https://www.youtube.com/watch?v=3IuoK07YDds>`_ for a basic tutorial on many features relevant for scientific graphics
   - Illustrator `keyboard shortcuts list <https://mitprod.sharepoint.com/:w:/s/GallowayLab/IQAtam1dK9LiQqfk-UDpyb2bAS8J5FQOKeUqJ94R-dkRs9g?e=VHPmpM>`_ from Graphics & Illustrator training 
-    (`IAP 2026 <https://mitprod.sharepoint.com/:f:/s/GallowayLab/IgBqnHBMeeqlTpF_21nT0mweAc7Il02msz5xrXOR2L_5pYA?e=dMaudu>`_)
+    (`IAP 2026 <https://mitprod.sharepoint.com/:f:/s/GallowayLab/IgBqnHBMeeqlTpF_21nT0mweAc7Il02msz5xrXOR2L_5pYA?e=dMaudu>`__)
 
 **Journal clubs** are another essential piece of reading and evaluating primary literature. Past lab journal club presentations are located 
 in `this folder <https://mitprod.sharepoint.com/:f:/s/GallowayLab/Eugaj4o4lw5Egeyo9_lQmjIB8un7AnIkFoRDG5BQ0Btwaw?e=OQuJTU>`_. This includes
