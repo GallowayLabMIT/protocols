@@ -51,7 +51,7 @@ Initial environment check
       3. Select "Y" to confirm
    
       Now you should be able to run scripts. For more explanation, see
-      `here <https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7.5&viewFallbackFrom=powershell-7.2>`_.
+      `here <https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7.5&viewFallbackFrom=powershell-7.2>`__.
 
 2. In the ``environment-check`` repo, create and switch to another branch. Name the branch with something like your name (for example, ``cjohnsto``). See :ref:`this section <git-branches>` of the Git intro for instructions.
 3. Install ``rushd``, a package for sane data management, using ``pip install rushd``. Because you
@@ -160,5 +160,5 @@ have from this one.
      to get inspired about the cool plots you can make!
 
 Once you can successfully run a Jupyter notebook in a Git repo, you're ready to analyze data. If you're eager for a head start, 
-check out the ``example_training`` repo `here <https://github.com/GallowayLabMIT/example-training.git>`_, which describes common analysis workflows for flow cytometry, qPCR, ddPCR, etc. 
+check out the ``example_training`` repo `here <https://github.com/GallowayLabMIT/example-training.git>`__, which describes common analysis workflows for flow cytometry, qPCR, ddPCR, etc. 
 Barring any bugs, you should be able to run these notebooks (and begin playing around with the data) if you have Smithsonian locally synced.

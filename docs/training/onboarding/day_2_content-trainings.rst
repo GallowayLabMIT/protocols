@@ -3,33 +3,37 @@ Day 2+: Content-specific trainings
 
 In addition to the required basic orientations to lab safety and organization (see :doc:`Day 0 <day_0_setup>` and 
 :doc:`Day 1 <day_1_in-lab>`), the lab has put together trainings on topics directly related to our research. Many of these 
-trainings will be presented yearly during IAP/Summer, and resources will be posted here for reference.
+trainings are presented yearly during IAP/Summer, and resources from recent presentations are posted here for reference.
 
 
 Core lab techniques
 -------------------
 
-The following are core topics/techniques used in our lab. Many are linked to the slides for the related training session presented 
-during IAP 2024.
+The following are core topics/techniques used in our lab. Many are linked to the slides for related training sessions.
 
-- `Molecular cloning <https://mitprod.sharepoint.com/:p:/s/GallowayLab/Eehgciq7JzBFn5S0vGZUpCMBsDBGGA4oHPRlX-wvp0IvFw?e=Fde0ZN>`_
-- `Mammalian tissue culture <https://mitprod.sharepoint.com/:p:/s/GallowayLab/EZjhWeH-7NRMpHRy8ZdRkE0BvXQ-JOLNJrMfQPxkxwGtOQ?e=pIYlc9>`_
-- `Flow cytometry <https://mitprod.sharepoint.com/:p:/s/GallowayLab/Eb6G0dIX5KpLsG1VOLnO9LQB_0yeln_pMnWWWJosOLM5Cg?e=EAAegk>`_
-- `Staining and microscopy <https://mitprod.sharepoint.com/:p:/s/GallowayLab/EUmJn0mO1u5FtdCN8u__nBcBuIuvxQxImrUqLOyDxD1LuA?e=g6QD6w>`_
-- `Cellular reprogramming <https://mitprod.sharepoint.com/:p:/s/GallowayLab/EQKCUQmj0RNEgr4b1_AVcU4B7MuctnpcJjea-ydXGFGKyw?e=53qAnA>`_
-- Genomics
+- **Molecular cloning:** general introduction (`IAP 2026 <https://mitprod.sharepoint.com/:p:/s/GallowayLab/IQA3vVP3JP5qRbN9GfGuHvU5AQucMAOWycOwvut-UR7X58Y?e=wP9pvO>`_),
+  modular Golden Gate assembly (`IAP 2026 <https://mitprod.sharepoint.com/:p:/s/GallowayLab/IQBd38tXyVq9Rbq7-FEZiAfFAejpTyzna_HolRxvQikgSnM?e=Oz6IFk>`_)
+- **Mammalian tissue culture:** best practices (`IAP 2026 <https://mitprod.sharepoint.com/:p:/s/GallowayLab/IQAgKhXRx0uiRbabjPYw7oGoAbbs8CY8hp8k0VUlzglbLoY?e=ibijp5>`_),
+  cellular reprogramming (`IAP 2025 <https://mitprod.sharepoint.com/:p:/s/GallowayLab/IQBaCEYrFtGLQ6yJTPeuPLW7Ac96vWqtTrysJUB5ZVYJj7s?e=isklZ4>`_)
+- **Analytical methods:** flow cytometry (`IAP 2026 <https://mitprod.sharepoint.com/:p:/s/GallowayLab/IQDJKQU0ACzMRJkckaxWEIYqAU5IKlwLuSKH4XubMdEIawY?e=mFVYsc>`_),
+  staining and microscopy (`IAP 2026 <https://mitprod.sharepoint.com/:p:/s/GallowayLab/IQCEeRxo0KawS41umxU04aSwAZSE4VzFF9gE_rbtAbGVuWE?e=0EGHPg>`_),
+  genomics (:doc:`overview page </protocols/biochem_and_analytics/genomics_sequencing/index>`)
 
 
 Computational skills
 --------------------
 
-**General**
+General
+*******
 
 - Install :doc:`required software <day_0_setup>` and extensions
 - :doc:`General software tips and tricks <software_tips_and_tricks>`
 - Basics of the :doc:`command line <the_shell>`
 
-**Github:** All lab code is stored on Github for version control and sharing. Check out the following protocols to learn the basics 
+Github
+******
+
+All lab code is stored on Github for version control and sharing. Check out the following protocols to learn the basics 
 and refer back to as needed:
 
 - :doc:`Introduction to Git <git_intro>`
@@ -37,31 +41,32 @@ and refer back to as needed:
 - :doc:`Computational environment check <environment_check>` to confirm that you can edit Git repos
 - :doc:`Contributor guide <../../contributor_guide>` for editing this protocol site
 
-**Data Analysis & Modeling**
+Data Analysis & Modeling
+************************
 
-- Data analysis tips & common approaches 
-  (`example Jupyter notebook <https://mitprod.sharepoint.com/:u:/s/GallowayLab/Eb7vePShSf1LnHSx13u437YBVE3lMgArRT_wQbcYaDyiPg?e=Ci0kyM>`_ 
-  from IAP 2024)
-- Introduction to gene expression modeling (:doc:`set of undergrad trainings <../ode_training/index>` from Summer 2021)
-- Using the MIT Supercloud (high-performance computing cluster, `tutorial <https://learn.llx.edly.io/course/practical-hpc/>`_)
+- Data analysis tips & common approaches: see example Jupyter notebooks in the ``example-training`` repo (`link <https://github.com/GallowayLabMIT/example-training>`_),
+  user guide for ``rushd`` Python package (`link <https://gallowaylabmit.github.io/rushd/en/main/index.html>`_)
+- Introduction to gene expression modeling: set of undergrad trainings (:doc:`Summer 2021 </training/ode_training/index>`)
+- High-performance computing: tutorial for the MIT Engaging cluster (`MIT ORCD <https://orcd-docs.mit.edu/getting-started/>`_)
 
 
 Research reading and writing
 ----------------------------
 
 Reading literature, communicating your findings, and composing compelling visuals are key research skills to master. The lab has put together 
-several trainings on these topics. The :doc:`"How to" training series </training/how-to/index>` was presented in Summer 2021 and Summer 2023 to undergraduates 
+several trainings on these **science communication** topics. The :doc:`"How to" training series </training/how-to/index>` was presented in Summer 2021 and Summer 2023 to undergraduates 
 (and other interested lab members). Additionally, Katie has put together a :doc:`Writing Guide <../../writing_guide/index>` relevant for academic 
 writing at all levels (papers, proposals, etc.). 
 
-To produce high-quality, informative graphics, the lab mainly uses Adobe Illustrator. The best way to learn how to use Illustrator is by making graphics of your own!
+To produce high-quality, informative **graphics**, the lab mainly uses Adobe Illustrator. The best way to learn how to use Illustrator is by making graphics of your own!
 To get started, check out the following:
 
   - :ref:`Section on Illustrator <graphics>` in the Onboarding Day 0 page for instructions on setting up the software
-  - `YouTube video <https://www.youtube.com/watch?v=3IuoK07YDds>`_ for a basic tutorial to many of the features relevant for scientific graphics
-  - Illustrator `keyboard shortcuts list <https://mitprod.sharepoint.com/:w:/s/GallowayLab/IQAtam1dK9LiQqfk-UDpyb2bAS8J5FQOKeUqJ94R-dkRs9g?e=VHPmpM>`_ from Graphics & Illustrator training (IAP 2026)
+  - `YouTube video <https://www.youtube.com/watch?v=3IuoK07YDds>`_ for a basic tutorial on many features relevant for scientific graphics
+  - Illustrator `keyboard shortcuts list <https://mitprod.sharepoint.com/:w:/s/GallowayLab/IQAtam1dK9LiQqfk-UDpyb2bAS8J5FQOKeUqJ94R-dkRs9g?e=VHPmpM>`_ from Graphics & Illustrator training 
+    (`IAP 2026 <https://mitprod.sharepoint.com/:f:/s/GallowayLab/IgBqnHBMeeqlTpF_21nT0mweAc7Il02msz5xrXOR2L_5pYA?e=dMaudu>`_)
 
-Journal clubs are another essential piece of reading and evaluating primary literature. Past lab journal club presentations are located 
-in `this folder <https://mitprod.sharepoint.com/:f:/s/GallowayLab/Eugaj4o4lw5Egeyo9_lQmjIB8un7AnIkFoRDG5BQ0Btwaw?e=OQuJTU>`_. This includes a 
-series of journal clubs on some of the lab's papers and review articles (IAP 2024). For a complete list of lab papers, see the `lab website <https://gallowaylab.mit.edu/publications/>`_ 
+**Journal clubs** are another essential piece of reading and evaluating primary literature. Past lab journal club presentations are located 
+in `this folder <https://mitprod.sharepoint.com/:f:/s/GallowayLab/Eugaj4o4lw5Egeyo9_lQmjIB8un7AnIkFoRDG5BQ0Btwaw?e=OQuJTU>`_. This includes
+several journal clubs on some of the lab's papers and review articles (IAP 2024). For a complete list of papers from the lab, see the `lab website <https://gallowaylab.mit.edu/publications/>`_ 
 or Katie's `Google Scholar profile <https://scholar.google.com/citations?user=boemvUgAAAAJ&hl=en>`_. 
