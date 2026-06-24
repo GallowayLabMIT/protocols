@@ -335,9 +335,10 @@ Because you've scaled down the volume, the concentration of purified product fro
 low. If reactions at multiple Ta's produce strong bands on the gel, you can combine these in downstream purification
 steps. Otherwise, set up a new 25-µL (or 50-µL, if the band is still faint) reaction with the optimal Ta.
 
+.. _overlap_ext_pcr:
 
-Overlap PCR
-***********
+Overlap extension PCR
+*********************
 
 It is possible to combine two overlapping fragments into a single larger fragment via PCR. This is useful for reducing 
 the number of fragments added to a Gibson assembly. To do so, perform a PCR with the following parameters:

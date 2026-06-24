@@ -46,8 +46,7 @@ Designing Gibson assemblies
   This reduces background colonies.
 - When generating fragments that do not contain an antibiotic resistance cassette (i.e., most fragments that are not the vector backbone), try to choose 
   templates that have a different antibiotic resistance from your final plasmid product. This reduces background colonies.
-- Gibson assemblies with >4 fragments will likely be inefficient. To reduce the number of fragments, perform an overlap PCR: in a single reaction, 
-  include each PCR fragment as templates, the forward primer from the 5' fragment, and the reverse primer from the 3' fragment. 
+- Gibson assemblies with >4 fragments will likely be inefficient. To reduce the number of fragments, perform an :ref:`overlap extension PCR <overlap_ext_pcr>`.
   This will generate a single fragment from two shorter ones.
 - Avoid assembling a single fragment into a plasmid. Instead, generate two fragments to improve efficiency (and probably reduce PCR times!).
   
