@@ -5,42 +5,56 @@ Ligation assembly
 .. time:: At least 1 hour, or overnight for best efficiency
 
 
-`Ligation <https://en.wikipedia.org/wiki/Ligation_(molecular_biology)>`_ assembly is used to assemble DNA fragments by creating phosphodiester bonds between different fragments to generate a larger linear fragment or plasmid.
+`Ligation <https://en.wikipedia.org/wiki/Ligation_(molecular_biology)>`_ creates phosphodiester bonds between different DNA fragments to generate a larger linear fragment or plasmid.
 Ligation reactions can be performed with :doc:`restriction digest </protocols/cloning/digest>` products and/or :doc:`oligos </protocols/cloning/oligo_annealing>` that contain compatible sticky ends.
 
 Protocol
 =========
-1. **Design the assembly** such that each fragment has compatible sticky ends, ~4 bp sequences of single-stranded DNA.  Sticky ends allow for DNA fragments to bind each other for efficient ligation. Built-in tools such as those in SnapGene are helpful for designing this.
+1. **Design the assembly** such that each fragment has compatible sticky ends (~4 bp sequences of single-stranded DNA at the 5' and 3' ends).
+   Sticky ends allow for DNA fragments to bind each other for efficient ligation. Built-in tools in SnapGene are helpful for designing these.
 
-2. **Generate the fragments** for ligation. Perform a :doc:`restriction digest </protocols/cloning/digest>` of the recipient vector plus any desired inserts to generate sticky ends. If ligating using oligos, :doc:`anneal and phosphorylate <oligo_annealing>` oligos prior to assembly, as 5' phosphorylation is required for proper ligation. 
+2. **Generate the fragments** for ligation. Perform a :doc:`restriction digest </protocols/cloning/digest>` of the recipient vector 
+   as well as of any desired inserts to create fragments with sticky ends. If ligating using oligos, :doc:`anneal and phosphorylate <oligo_annealing>` oligos prior to assembly, as 5' phosphorylation is required for proper ligation. 
 
 .. tip::
-	Performing the vector digest with rSAP to dephosphorylate the backbone has sometimes led to reduced background colonies and greater efficiency when assembling using oligos.
+	Performing the vector digest with rSAP to dephosphorylate the backbone can reduce background colonies and increase efficiency when assembling using oligos.
+	
 	Similarly, gel extraction of digests can also be useful to decrease background ligation products.
 
-1. Setting up the reaction mix is dependent on whether you choose to ligate digestion products only or ligate with oligos. 
+3. Mix the reaction.
 
-	**Ligation with general digest products:** Mix 150 ng of digested vector and 1:3 molar ratios of desired inserts.
+	**Ligation with general digest products:** Mix 150 ng of digested vector backbone and desired inserts in a 1:3 molar ratio (backbone : insert).
 	`NEBioCalculator <https://nebiocalculator.neb.com/#!/ligation>`_ is very useful for calculating required masses for ligation reactions based on vector and insert lengths (a spreadsheet can also be helpful for quickly calculating the required masses and volumes for multiple fragments).
-	Add 2 µL of T4 ligase buffer, 1 µL of T4 ligase enzyme, and water to bring the total volume of reaction mix to 20 µL.
+	
+	======================================= ===========================
+	Reagent                   		 		Amount (µL)
+	======================================= ===========================
+	Vector digest (150 ng)           		X
+	Insert(s) (1:3 molar ratio) 			Y
+	T4 ligase buffer          		 		1
+	T4 ligase enzyme          		 		0.5
+	Water                     		 		to 10
+	======================================= ===========================
 
-	**Ligation with oligos only:** Mix the reagents as follows if performing ligation assembly using one set of annealed oligos:
+
+	**Ligation with oligos only:** Use 1 µL of oligos that were separately phosphorylated and annealed, or 1 µL of a 1:10
+	dilution of oligos where these steps were performed simultaneously.
+	Additionally, multiple annealed oligo fragments with compatible sticky ends can be assembled to create longer fragments for insertion.
+	Add 1 µL of each set of oligos.
 
 	======================================= ===========================
 	Reagent                   		 		Amount (µL)
 	======================================= ===========================
 	Vector digest (150 ng)           		X
-	Oligos (annealed and phosphorlyated) 	1
+	Oligos (annealed and phosphorlyated) 	1 each set
 	T4 ligase buffer          		 		1
 	T4 ligase enzyme          		 		0.5
-	Water                     		 		10 - X
+	Water                     		 		to 10
 	======================================= ===========================
 
-	Multiple oligos with compatible sticky ends can be assembled to create longer fragments for insertion. In this case, add 1 µL of each set of oligos while maintaining the total volume of 10 µL.
-
-2. Incubate at 16ºC for one hour or at room temperature overnight for best efficiency.
-3. :doc:`Transform competent cells <transformation>` with at least 5 µL of the ligation product.
-4. Store unused ligation products at -20°C.
+4. Incubate at 16ºC for one hour or at room temperature overnight for best efficiency.
+5. :doc:`Transform competent cells <transformation>` with at least 5 µL of the ligation product.
+6. Store unused ligation products at -20°C.
 
 Example
 -------

@@ -3,7 +3,7 @@ Glycerol Stocking
 ====================
 
 After successfully sequencing a bacterial plasmid, we stock it for long-term storage.
-Bacterial plates keep well for ~1-2 months at 4ºC, but may dry out or be contaminated if stored for longer.
+Bacterial plates keep well for ~1 month at 4ºC, but may dry out or be contaminated if stored for longer.
 
 .. note:: 
     This protocol describes how to stock plasmids in the lab's shared pKG database.
@@ -12,15 +12,20 @@ Bacterial plates keep well for ~1-2 months at 4ºC, but may dry out or be contam
 
 1. Add the plasmid to the database in Quartzy. See instructions on :doc:`this page <../../general/plasmid_database>`. 
 
-.. important:: 
+   .. important:: 
     Add plasmids to the database before stocking! That way, you don't run into issues with overlapping numbering if someone else
     is also stocking around the same time.
 
-1. Culture 4 mL of the bacteria clone with the plasmid in LB Broth with the correct antibiotic. Shake at 30ºC overnight.
-2. The next day, add 2 mL of 60% glycerol to the 4 mL of culture. Mix well. 
-3. Aliquot 1.5 mL per vial of the resulting mixture to three cryovials. 
+2. Aliquot 4 mL of LB media with the correct antibiotic into a culture tube.
+3. Using a toothpick or pipette tip, pick the bacterial clone to stock from an agar plate into the liquid culture.
+4. Shake at 30ºC overnight.
+5. The next day, label three cryovials per stock with the pKG#, the date, your initials, and a short description of the plasmid. 
+   Labels can be printed using the LabBot "Print Labels" app on Slack. 
+   (If it doesn't show up, type "/labels" in the Slack search bar.) You must be connected to the MIT wifi for this app to work. 
+6. Add 2 mL of 60% glycerol to the 4 mL of culture. Mix well by pipetting.
+7. Aliquot 1.5 mL per vial of the resulting mixture into the three labeled cryovials. 
 
-.. note:: Avoid overfilling the cryovials, as this makes them hard to open. The maximum capacity is 1.8 mL to allow room for expansion upon freezing.
+   .. note:: 
+        Avoid overfilling the cryovials, as this makes them hard to open. The maximum capacity is 1.8 mL to allow room for expansion upon freezing.
 
-4. Label each cryovial with pKG#, date, initials, and description of the construct. Labels can be printed using the LabBot app on slack "Print Labels". (If it does not show up begin to type "/labels" in the Slack search bar to find it.) You must be connected to MIT Wifi for this app to work.
-5. Store cyrovials in the designated boxes at -80ºC. Put one cryovial per box. 
+8. Store the cyrovials in the designated pKG boxes at -80ºC. Put one cryovial per box. 

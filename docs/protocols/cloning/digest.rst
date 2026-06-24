@@ -14,9 +14,9 @@ for details.
     =================== =========== =========
     DNA                 ~1 µg 
     rCutSmart buffer     5 µL 
-    Enzyme(s)           1 µL each 
-    rSAP (optional)     1 µL        Dephosphorylates 5\' DNA ends to prevent re-ligation of digested product
-    Elga water          X µL        Add Elga water to reach total volume
+    Enzyme(s)            1 µL each 
+    rSAP (*optional*)    1 µL        Dephosphorylates 5\' DNA ends to prevent re-ligation of digested product
+    Elga water           X µL        Add Elga water to reach total volume
     **Total**           **50 µL**
     =================== =========== =========
 

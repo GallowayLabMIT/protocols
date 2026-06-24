@@ -23,15 +23,12 @@ Protocol
 
    - It is usually convenient to choose two primers in the plasmid backbone, amplifying the entire new insert. For entry vectors
      or ``pShip`` plasmids, ``oSEQ043`` and ``oSEQ044`` work well.
-   - Amplified regions (amplicons) can be large; at least 4 kb regions amplify sufficiently. This allows the entire insert to be amplified; 
-     however, one con is that it takes much longer for the reaction to run.
+   - Amplified regions (amplicons) can be large; regions up to 4 kb or more can amplify sufficiently. This allows the entire insert to be amplified, 
+     which helps verify that all fragments are present. However, the reaction takes much longer to run for large amplicons.
    - For small inserts, or for inserts that vary only slightly in size from the original backbone vector, primer pairs should 
-     instead be chosen to amplify as short a region as possible (that still captures the expected differences). This helps make small 
-     size differences more readily apparent when analyzing the results.
-   - Be sure to choose a primer pair with compatible annealing temperatures. To determine annealing temperatures, you can use the 
-     `NEB Tm Calculator <https://tmcalculator.neb.com/#!/main>`_, specifying "Taq DNA polymerase" as the "Product Group" and selecting 
-     "Taq 2X Master Mix" as the "Polymerase/Kit".
-
+     instead be chosen to amplify *as short a region as possible* that still captures the expected differences. This helps make small 
+     size differences more apparent when analyzing the results.
+   - Be sure to choose a primer pair with compatible annealing temperatures. Avoid primers with Tm's that differ by more than 5ºC.
 
 2. **Label colonies** to screen on your agar plate (e.g., circle, point an arrow) and number each colony.
    
@@ -46,59 +43,45 @@ Protocol
    PCR strip tubes, 15 µL per tube and one tube per colony.
 
    ========== ============== =======
-   Reagent     1X (1 colony)  8X
+   Reagent     1x (1 colony)  8x
    ========== ============== =======
    Elga water  6              48
    Primer 1    0.75           6
    Primer 2    0.75           6
    Taq 2X MM   7.5            60
-   **Total**   15 µL          120 µL
+   **Total**   **15 µL**      **120 µL**
    ========== ============== =======
 
    .. note::
 
       The reaction will run well with slightly more or less than 15 µL per colony. Therefore, rather than making extra mix to account for 
-      pipetting loss, you can instead pipet 14-14.5 µL per tube.
+      pipetting loss when screening many colonies, you can instead pipet 14-14.5 µL per tube.
 
 5. **Pick colonies** one at a time under a flame: Touch the end of a sterile toothpick (or pipette tip) to the colony, swirl the toothpick 
-   in the reaction mix of one of the PCR strip tubes, then streak the wet toothpick on the corresponding region of the prepared fresh agar 
+   in the reaction mix of one of the PCR strip tubes, then streak the wet toothpick onto the corresponding region of the prepared fresh agar 
    plate. Discard the toothpick and close the tube.
 
-6. **Run the PCR reaction** by placing the tubes in a thermocycler. Set the correct annealing temperature (from the 
-   `NEB Tm Calculator <https://tmcalculator.neb.com/#!/main>`_) and extension time (**1 min/kb** of amplified sequence). Run 30 cycles 
-   to ensure sufficient amplification.
+6. **Run the PCR reaction** by placing the tubes in a thermocycler, using the program from the :ref:`PCR protocol <pcr_taq>`.
+   Be sure to set the proper extension time (1 minute/kb).
 
-   +----------------------+--------------------+------------+
-   | Step                 | Temperature (ºC)   |  Time      |
-   +======================+====================+============+
-   | Initial denaturation |  95                | 30 s       |
-   +----------------------+--------------------+------------+
-   | | Each cycle         | | 95               | | 15 s     |
-   | |  x 30 cycles       | | {annealing temp} | | 15 s     |
-   | |                    | | 68               | | 1 min/kb |
-   +----------------------+--------------------+------------+
-   | Final extension      |  68                | 5 min      |
-   +----------------------+--------------------+------------+
+7. **Visualize the amplicons** via :doc:`gel electrophoresis </protocols/cloning/gel_electrophoresis>`, using the parameters below.
+   Note colonies with the correct amplicon band size.
 
-7. **Run the PCR products on an agarose gel** to assess the results. Note colonies with the correct amplicon band size.
-
-   - **For amplicons >500 bp:** Use a 1% gel (100 mg agarose per 10 mL 1xTAE buffer) and run at 100V for 25 min.
-   - **For amplicons <500 bp:** Use a 2% gel and run at 90V for 30 min.
+   - **For amplicons >500 bp:** Use a 1% gel (100 mg agarose per 10 mL 1xTAE buffer) and run at 100 V for 25 min.
+   - **For amplicons <500 bp:** Use a 2% gel and run at 90 V for 30-40 min.
    - Load 5 µL of reaction mix. Note that the reaction mix already contains loading dye, so no additional dye needs to be added.
 
-8. **Incubate the streaked plate** overnight at 30ºC. To start cultures from the streaked plate on the same day, instead grow for ~6 hours 
-   at 37ºC. Once visible bacteria is growing for each colony, the plate can be used to inoculate cultures for plasmid preps and 
-   :doc:`glycerol stocks <glycerol_stocking>`.
-   At this point, or after incubating overnight, wrap the plate in parafilm and store at 4ºC for up to ~4 weeks.
+8. **Incubate the streaked plate** overnight at 30ºC. The plate can be used to inoculate cultures for :doc:`plasmid preps </protocols/cloning/plasmidprepping>` and 
+   :doc:`glycerol stocks <glycerol_stocking>`. To start cultures from the streaked plate on the same day, instead grow for ~6 hours 
+   at 37ºC (bacterial growth doesn't need to be visible yet). Once the plate has visible growth, wrap it in parafilm and store at 4ºC for up to ~4 weeks.
 
-For hard to amplify templates
+For hard-to-amplify templates
 ------------------------------
 
-If your desired colony PCR region is GC rich or contains hard to amplify sequences, the following reaction mix has improved
-the PCR reaction.
+If your desired amplicon is GC-rich or contains hard-to-amplify sequences, try adding GC Enhancer (10% of final volume) to the reaction.
 
 =========== ===================== ==================
-Reagent      1× (per colony, µL)   8× (µL)
+Reagent      1 (per colony, µL)   8× (µL)
 =========== ===================== ==================
 Elga water   3.75                  30
 GC Enhancer  1.25                  10

@@ -14,33 +14,8 @@ in the reaction determines the speed and fidelity of product generation. In lab,
 - **KOD Xtreme**: also good for difficult-to-amplify sequences
 
 Protocols for each polymerase are below. After running the reaction, :ref:`confirm and purify <pcr_confirm_purify>` the product.
+See also the :ref:`Determining annealing temperatures <pcr_Ta>` and :ref:`Troubleshooting <pcr_tips>` sections.
 
-
-Calculating annealing temperatures
-----------------------------------
-
-To run the PCR, you'll need an annealing temperature (Ta) specific to your primers.
-The `NEB Tm Calculator <https://tmcalculator.neb.com/#!/main>`_ provides one estimate, but **calculating the annealing temperature from the melting temperatures 
-provided by SnapGene is better**.
-
-1. Find the melting temperature (Tm) calculated by SnapGene for your forward primer.
-
-    .. figure:: cloning_images/snapgene_tm.png
-        :width: 80%
-        :align: center
-        
-        The SnapGene Tm estimate is on the right side of the primer window.
-        Click the boxed number for more information on SnapGene's calculations.
-
-2. Adjust this value based on the polymerase type. For Taq, subtract 0-5ºC. For Q5 and others, add ~10ºC.
-
-    *"When PCR is performed using a traditional polymerase such as Taq, the optimal annealing temperature for the PCR reaction is about 0–5°C 
-    below the primer Tm values."*
-
-    *"We recommend that when a polymerase with a dsDNA-binding domain is used, the annealing temperature for the PCR reaction should be 
-    about 6–12°C (for Phusion or Phire or Q5 polymerase) ... above the primer Tm values calculated by our software."*
-
-3. Calculate the adjusted Tm for the reverse primer. Choose the *lower* of these values as the Ta for the reaction.
 
 Q5
 ----
@@ -139,6 +114,14 @@ You can also use the two-step reaction for enhanced specificity (less off-target
 
 Source: `Takara PrimeSTAR® Max DNA Polymerase Ver.2 <https://www.takarabio.com/documents/User%20Manual/R047S/R047S_R047A_DS.pdf>`_
 
+.. tip::
+    You can scale down the reaction volume to 10 µL and increase the cycle number to 60 to increase the total amount 
+    of DNA. At smaller scales, PrimeSTAR can be cheaper than other polymerases!
+
+.. tip::
+    In a pinch, you can use a glycerol stock as template for a PrimeSTAR reaction. This has worked well for DSP.
+
+.. _pcr_taq:
 
 Taq
 ----
@@ -178,9 +161,9 @@ Source: `Apex Taq RED DNA Polymerase Master Mix Kit <https://geneseesci.asset.ak
 KOD Xtreme
 -------------
 
-We use KOD Xtreme Hot Start DNA Polymerase (Sigma Aldrich 71975-3)
-
+We use KOD Xtreme Hot Start DNA Polymerase (`Sigma Aldrich 71975-3 <https://www.sigmaaldrich.com/US/en/product/mm/71975m>`_).
 This polymerase is very good for amplifying difficult templates (e.g., CAG promoter, transcription factor coding sequences, GC-rich sequences).
+However, it is relatively expensive, so you might want to attempt a PCR with a different polymerase first.
 
 Reaction mix:
 
@@ -265,3 +248,119 @@ with the following parameters:
 Sometimes, PCR reactions will result in off-target amplification, which will likely cause problems in downstream cloning steps.
 If this is the case, you can run the *entire volume* of the PCR product on a gel and cut out the band of the correct size. See the 
 :ref:`gel extraction protocol <gel_extract>` for details. 
+
+
+.. _pcr_Ta:
+
+Determining annealing temperatures
+----------------------------------
+
+Calculating an initial Ta
+*************************
+
+To run the PCR, you'll need an annealing temperature (Ta) specific to your primers.
+The `NEB Tm Calculator <https://tmcalculator.neb.com/#!/main>`_ provides one estimate, but **calculating the annealing temperature from the melting temperatures 
+provided by SnapGene is better**.
+
+1. Find the melting temperature (Tm) calculated by SnapGene for your forward primer.
+
+    .. figure:: cloning_images/snapgene_tm.png
+        :width: 80%
+        :align: center
+        
+        The SnapGene Tm estimate is on the right side of the primer window.
+        Click the boxed number for more information on SnapGene's calculations.
+
+2. Adjust this value based on the polymerase type. For Taq, subtract 0-5ºC. For Q5 and others, add ~10ºC.
+
+    *"When PCR is performed using a traditional polymerase such as Taq, the optimal annealing temperature for the PCR reaction is about 0–5°C 
+    below the primer Tm values."*
+
+    *"We recommend that when a polymerase with a dsDNA-binding domain is used, the annealing temperature for the PCR reaction should be 
+    about 6–12°C (for Phusion or Phire or Q5 polymerase) ... above the primer Tm values calculated by our software."*
+
+3. Calculate the adjusted Tm for the reverse primer. Choose the *lower* of these values as the Ta for the reaction.
+
+.. tip::
+    The easiest way to troubleshoot a PCR is to change the annealing temperature: If you obtained no product (no band on the gel),
+    try decreasing the Ta by a few degrees. This increases the amplification while reducing specificity. 
+
+Touchdown PCR
+*************
+
+One method to PCR a difficult product is to start at a high annealing temperature (Ta) and "touchdown" 
+by progressively decreasing the Ta. This way, the most specific product is amplified first, followed by less specific
+(but more efficient) ones.
+
+Annealing temperature at each cycle:
+
+=============================== ===========================
+Cycle #                          Ta
+=============================== ===========================
+1                                72°C
+2                                71°C
+3                                70°C
+4                                69°C
+...                              ...
+n                                Predicted Ta
+Repeat last cycle (30-n) times   Predicted Ta
+=============================== ===========================
+
+.. note:: 
+    You could go even lower than the predicted Ta (we've gone down to 57°C as a robust protocol).
+
+Source: https://www.nature.com/articles/nprot.2008.133
+
+
+Two-phase PCR
+*************
+
+When using primers with long overhangs, the Tm when the primer initially binds to the template DNA (at the 5' end only) 
+will be much lower than the Tm when the entire primer binds to newly synthesized DNA in subsequent cycles.
+To enable initial amplification but retain specificity overall, you can perform a two-phase PCR. 
+
+1. In the first phase (cycles 1-5), use the Ta calculated from the Tm of the primer sequence that binds to the template 
+   (without the overhang, i.e., the 5' end complementary to the template DNA).
+2. In the second phase (cycles 6-30), increase the Ta to the value calculated for the entire primer, as most amplification
+   at this point will occur by binding to newly synthesized DNA.
+
+
+Temperature gradient PCR
+************************
+
+When no amplification occurs, a common troubleshooting tip is to reduce the Ta by a few degrees.
+However, if this fails, or if it causes significant off-target bands, a more efficient way to identify 
+the optimal Ta is by running a temperature gradient.
+
+To do so, mix a 50-µL reaction (2x volumes above) and split it into 4 tubes of 12.5 µL each. 
+Using the large thermocyclers, set the temperature at the annealing step to be a gradient across the 
+sample plate. Each column will have a different temperature. Then, place your 4 tubes in different columns 
+to simultaneously run reactions at 4 Ta's. 
+
+Because you've scaled down the volume, the concentration of purified product from one of these PCRs will be
+low. If reactions at multiple Ta's produce strong bands on the gel, you can combine these in downstream purification
+steps. Otherwise, set up a new 25-µL (or 50-µL, if the band is still faint) reaction with the optimal Ta.
+
+
+.. _pcr_tips:
+
+Troubleshooting
+---------------
+
+**No product (no band on the gel)**
+
+- Re-dilute your template and/or primers 
+- Optimize the annealing temperature, using one or more of the strategies above
+- Increase the extension time by 5-10 seconds
+- Add GC enhancer to the reaction
+- For long amplicons, split the reaction into two (don't forget to include overlap as needed)
+- If nothing works, try the KOD Xtreme polymerase—very expensive but very effective! 
+
+**Off-target bands or smear on the gel**
+
+- Increase the annealing temperature
+- Decrease the extension time (especially relevant if you were running a longer PCR simultaneously)
+- Remove GC enhancer from the reaction
+- Use a different template—look for one without known off-target binding sites or other potentially similar sequences
+- Scale up the reaction to 50 µL and :ref:`gel extract <gel_extract>` the correct band
+- If the concentration is very low after gel extracting, use that product as the template in a new reaction
