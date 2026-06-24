@@ -1,8 +1,8 @@
 ======================================
-Oligo annealing for ligation cloning
+Oligo phosphorylation and annealing
 ======================================
 
-This protocol describes how to anneal and phosphorylate oligos to add short sequences to plasmids via ligation cloning. 
+This protocol describes how to anneal and phosphorylate oligos (short single-stranded DNA sequences), usually to add short sequences to plasmids via ligation cloning. 
 This could be useful to make new microRNA target sites or CRISPR guide RNAs, for instance.
 
 Oligo phosphorylation

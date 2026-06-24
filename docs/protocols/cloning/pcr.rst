@@ -224,26 +224,19 @@ To check that your PCR reaction was successful, visualize the product(s) using g
 The gel can help you confirm that you have the correct number of products (usually just one) of the correct length.
 This can be performed in parallel with a DpnI digestion (above).
 
-Follow the steps in the gel electrophoresis :doc:`protocol </protocols/cloning/gel_electrophoresis>`, with the following parameters:
+Follow the steps in the :doc:`gel electrophoresis protocol </protocols/cloning/gel_electrophoresis>`, with the following parameters:
 
 - Combine ~2 µL of your PCR product with 0.5-1 µL of 6X Loading Dye. This can be done in a small droplet on a piece of parafilm.
-- Use a small comb to create lanes in the gel.
+- Use a comb with small wells.
 - **For amplicons >500 bp:** Use a 1% gel (100 mg agarose per 10 mL 1xTAE buffer) and run at 100 V for 25 minutes.
-- **For amplicons <500 bp:** Use a 2% gel and run at 90 V for 30-40 minutes.
+- **For amplicons <500 bp:** Use a 2-3% gel and run at 90 V for 30-40 minutes.
 
 
 Purify
 ******
 
-We use the NEB Monarch® Spin PCR & DNA Cleanup Kit (`NEB T1130 <https://www.neb.com/en-us/products/t1130-monarch-spin-pcr-and-dna-cleanup-kit-5-ug>`_) to purify PCR products.
 If the gel shows a single band at the size you expect for your PCR product, you can purify the remaining product directly.
-
-Follow the steps in the DNA cleanup `protocol <https://www.neb.com/en-us/protocols/2024/07/16/standard-cleanup-protocol-using-the-monarch-spin-pcr-and-dna-cleanup-kit-and-centrifugation>`_,
-with the following parameters:
-
-- **For amplicons <2 kb:** Use a 5:1 ratio of binding buffer to sample. For a 25 µL PCR reaction (where you ran a portion on a gel), you should use ~100 µL binding buffer.
-- **For amplicons >2 kb:** Use a 2:1 ratio of binding buffer to sample. For a 25 µL PCR reaction (where you ran a portion on a gel), you should use ~40 µL binding buffer.
-- In the final step, elute in 15-20 µL of pre-warmed Elga water.
+Follow the steps in the :doc:`DNA cleanup protocol </protocols/cloning/dna_cleanup>`.
 
 Sometimes, PCR reactions will result in off-target amplification, which will likely cause problems in downstream cloning steps.
 If this is the case, you can run the *entire volume* of the PCR product on a gel and cut out the band of the correct size. See the 
@@ -252,11 +245,8 @@ If this is the case, you can run the *entire volume* of the PCR product on a gel
 
 .. _pcr_Ta:
 
-Determining annealing temperatures
+Calculating annealing temperatures
 ----------------------------------
-
-Calculating an initial Ta
-*************************
 
 To run the PCR, you'll need an annealing temperature (Ta) specific to your primers.
 The `NEB Tm Calculator <https://tmcalculator.neb.com/#!/main>`_ provides one estimate, but **calculating the annealing temperature from the melting temperatures 
@@ -284,6 +274,10 @@ provided by SnapGene is better**.
 .. tip::
     The easiest way to troubleshoot a PCR is to change the annealing temperature: If you obtained no product (no band on the gel),
     try decreasing the Ta by a few degrees. This increases the amplification while reducing specificity. 
+
+
+PCR variations
+--------------
 
 Touchdown PCR
 *************
@@ -320,7 +314,7 @@ will be much lower than the Tm when the entire primer binds to newly synthesized
 To enable initial amplification but retain specificity overall, you can perform a two-phase PCR. 
 
 1. In the first phase (cycles 1-5), use the Ta calculated from the Tm of the primer sequence that binds to the template 
-   (without the overhang, i.e., the 5' end complementary to the template DNA).
+   (without the overhang, i.e., the 3' end complementary to the template DNA).
 2. In the second phase (cycles 6-30), increase the Ta to the value calculated for the entire primer, as most amplification
    at this point will occur by binding to newly synthesized DNA.
 
@@ -342,21 +336,40 @@ low. If reactions at multiple Ta's produce strong bands on the gel, you can comb
 steps. Otherwise, set up a new 25-µL (or 50-µL, if the band is still faint) reaction with the optimal Ta.
 
 
+Overlap PCR
+***********
+
+It is possible to combine two overlapping fragments into a single larger fragment via PCR. This is useful for reducing 
+the number of fragments added to a Gibson assembly. To do so, perform a PCR with the following parameters:
+
+- Template: add 5 ng of each fragment
+- Forward primer: use a forward primer that binds to the 5' end of the 5' fragment (i.e., the forward primer used in the initial PCR for a first PCR fragment)
+- Reverse primer: use a reverse primer that binds to the 5' end of the 3' fragment (i.e., the reverse primer used in the initial PCR for a second PCR fragment)
+- Polymerase: if applicable, the polymerase used to amplify the initial fragments
+- Ta: determined as usual for the primer pair; if the Tm's of the primers are quite different, you may need to optimize the Ta using the strategies above
+
+This works because the initial fragments will bind to each other in their overlapping region during the first annealing step.
+Then, each fragment can be extended by the polymerase, using the other fragment as a template. This generates full-length 
+product in the first few cycles of the reaction. The added primers amplify this product in later cycles.
+
+
 .. _pcr_tips:
 
 Troubleshooting
 ---------------
 
-**No product (no band on the gel)**
+No product (no band on the gel)
+*******************************
 
 - Re-dilute your template and/or primers 
 - Optimize the annealing temperature, using one or more of the strategies above
 - Increase the extension time by 5-10 seconds
 - Add GC enhancer to the reaction
-- For long amplicons, split the reaction into two (don't forget to include overlap as needed)
+- For long amplicons, split the reaction into two (don't forget to include overlap in these fragments as needed)
 - If nothing works, try the KOD Xtreme polymerase—very expensive but very effective! 
 
-**Off-target bands or smear on the gel**
+Off-target bands or smear on the gel
+************************************
 
 - Increase the annealing temperature
 - Decrease the extension time (especially relevant if you were running a longer PCR simultaneously)

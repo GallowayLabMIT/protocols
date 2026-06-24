@@ -2,30 +2,52 @@
 Cloning tips, tricks, and troubleshooting 
 =========================================
 
-PCR 
-====
+Help! I got no colonies
+=======================
 
-- In a pinch? You can use glycerol stock as template! Has worked well for Deon when using PrimeStar  
-- You can PCR off of a prior PCR’ed fragment to add in more sequences to the overhangs 
+Troubleshooting assemblies
+--------------------------
 
+- Are you sure you added all components to the assembly reaction? When in doubt, set up a new reaction.
+- Check out tips on the protocols for each type of assembly to increase reaction efficiency.
+- You can PCR amplify the assembly to determine whether any correct product formed. Choose primers that span fragment junctions.
 
-Gibson
-=======
-- High background (Gibson assemblies): design your fragments such that no one fragment contains both the ori and antibiotic marker 
+Troubleshooting transformations
+-------------------------------
 
-- If possible choose templates to amplify from that have a different anitbiotic resistance than your product. 
-
-Golden Gate
-=============
-
-- Digest your fragments before the Golden Gate (dephosphorylate the vector as well) and gel extract. (If you have to DpnI digest a PCR’ed backbone, throw in the GoldenGate enzyme as well during that step) 
-
-- Set up a ligation reaction at the end of the Golden Gate. 
-
-- gel extract digested or PCR’ed fragments (especially important for PCR’ed fragment to remove the primers) 
+- Double check that the antibiotic in the agar plate you used matches the antibiotic resistance of your plasmid product.
+- Be sure to outgrow plasmids containing kanamycin or chloramphenicol resistance before plating. Outgrow in SOC for 1 hour, but not much longer (1.7-mL tubes are not aerated, so the bacteria will eventually die).
+- For plasmids containing ccdB (usually alongside chloramphenicol resistance), be sure to transform ccdB resistant bacteria (not NEB Stable cells).
+  This usually applies to destination vectors, Harbor plasmids, and Janus / Multi Janus vectors (but not Gateway or Golden Gate assemblies that use these as inputs).
+- Try some of the other tips in the :doc:`transformation protocol </protocols/cloning/transformation>` to increase efficiency.
 
 
-Generally difficult assemblies
-==============================
+Designing cloning
+=================
 
-- You can PCR your GoldenGate or Gibson assembly reaction to test if there was correct assembly before transformation to save some time 
+Adding short sequences
+----------------------
+
+- To make point mutations, order primers with the mutations in the middle of the sequence (flanked by ~8 bp on either side). Typically,
+  it works well to order the forward and reverse primers with complementary sequences and use them with another pair of primers to generate 
+  two PCR fragments (forward with mutation + other reverse, reverse with mutation + other forward). These fragments can then be assembled via a Gibson reaction.
+- To insert very short sequences (<20 bp), add the sequence to the primer when amplifying a fragment with PCR, then use Gibson assembly. 
+  You can also PCR these fragments with new primers to add longer sequences.
+- To insert short sequences (<100 bp), try ligation with annealed oligos. Note that you can PCR the backbone to add restriction sites (also add
+  ~6 bp between the RE binding site and the end of the fragment for efficient digestion). For sequences up to ~60-100 bp, you can use two sets of annealed oligos.
+  (More than two likely will be too inefficient to work.)
+- To insert sequences 100-200 bp, your best bet is probably Golden Gate cloning from PCR fragments with custom connector sequences. This 
+  size of fragment is too long for annealed oligos but too short for Gibson assembly. 
+
+Designing Gibson assemblies
+---------------------------
+
+- Choose fragments such that no one fragment contains both the origin of replication and the antibiotic resistance cassette. 
+  This reduces background colonies.
+- When generating fragments that do not contain an antibiotic resistance cassette (i.e., most fragments that are not the vector backbone), try to choose 
+  templates that have a different antibiotic resistance from your final plasmid product. This reduces background colonies.
+- Gibson assemblies with >4 fragments will likely be inefficient. To reduce the number of fragments, perform an overlap PCR: in a single reaction, 
+  include each PCR fragment as templates, the forward primer from the 5' fragment, and the reverse primer from the 3' fragment. 
+  This will generate a single fragment from two shorter ones.
+- Avoid assembling a single fragment into a plasmid. Instead, generate two fragments to improve efficiency (and probably reduce PCR times!).
+  

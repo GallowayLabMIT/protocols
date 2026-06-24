@@ -1,5 +1,5 @@
 ====================
-Glycerol Stocking 
+Glycerol stocking 
 ====================
 
 After successfully sequencing a bacterial plasmid, we stock it for long-term storage.
