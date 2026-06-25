@@ -5,6 +5,8 @@ Plasmid prepping
 To obtain plasmids for cloning steps or use in tissue culture, we amplify them in bacteria and purify the resulting plasmid DNA.
 We can prep at several scales (mini, midi, or maxi, even larger versions also exist) depending on the culture volume.
 
+.. _miniprep:
+
 Miniprep
 ---------
 This protocol is adapted from instructions for the NEB Monarch® Spin Plasmid Miniprep Kit (`NEB T1110L <https://www.neb.com/en-us/products/t1110-monarch-spin-plasmid-miniprep-kit>`_). 
@@ -15,22 +17,22 @@ When receiving a new kit: store RNase A in Anna -20ºC in the dedicated box, and
 
 When opening a new bottle of buffer:
 
-- Buffer B1: add RNase A (1 vial per bottle, stored in Anna -20ºC in a dedicated box), then store at 4ºC 
-- Buffer BZ: add 18 mL isopropanol
-- Buffer WZ: add 104 mL ethanol
+    - Buffer B1: add RNase A (1 vial per bottle, stored in Anna -20ºC in a dedicated box), then store at 4ºC 
+    - Buffer BZ: add 18 mL isopropanol
+    - Buffer WZ: add 104 mL ethanol
 
 1. Under a flame, aliquot 3-5 mL of LB media with antibiotic matching the plasmid antibiotic resistance.
    Use 14-mL culture tubes, placing the cap on securely but not airtight (the bacteria need aeration to grow).
 2. Pick a single colony or dab a glycerol stock with a toothpick or pipette tip. Place the toothpick or pipette tip in the liquid culture.
 3. Let the bacteria grow in the shaker overnight, ideally 12-16 hours and no longer than 24 hours.
 
-    .. note::
+   .. note::
         Grow viral plasmids in 30ºC to reduce the chance of recombination. Non-viral plasmids may be grown at 37ºC for better yield.
 
 4. Spin the liquid cultures at 4800xg (max speed in bucket rotors) for 5 minutes, using the large centrifuge by shakers.
 5. Pour or aspirate the supernatant into a cells/media waste flask.
 
-    .. warning::
+   .. warning::
         Do not add media/cells into the miniprep waste or vice versa! If this occurs, talk to the EHS rep.
         Add bleach to the affected flask in the fume hood and allow fumes to disperse. 
         A black precipitate may form; dispose of the solids in the biowaste and drain the liquid in the sink. 
@@ -39,7 +41,7 @@ When opening a new bottle of buffer:
 7. Add 200 uL Buffer B2 and gently invert 5-6 times to lyse the cells. Incubate at room temp for 1 minute.
 8. Add 400 uL Buffer B3 and invert until uniformly yellow (no pink). Incubate for 2 minutes at room temp.
 
-    .. note::
+   .. note::
         MC adds 250 uL of B2 and immediately after addition starts a time for 90 seconds, inverts for 30 seconds, and adds 500 uL of B3 at 90 seconds.
 
 9. Spin down on a benchtop centrifuge at max speed (16,000xg) for 5 minutes.
@@ -83,23 +85,23 @@ endotoxins (bacterial outer membrane components that induce an immune response i
 
 When opening a new bottle of buffer:
 
-- Buffer P1: add RNase A and LyseBlue reagent (1 vial each per bottle), then store at 4ºC 
-- Buffer PE: add 40 mL ethanol (confirm volume on bottle)
+    - Buffer P1: add RNase A and LyseBlue reagent (1 vial each per bottle), then store at 4ºC 
+    - Buffer PE: add 40 mL ethanol (confirm volume on bottle)
 
 1. Under a flame, aliquot 40-50 mL of LB media with antibiotic matching the plasmid antibiotic resistance.
    Use a 250-mL flask for optimal aeration of the culture (125-mL flasks can be used in a pinch).
 2. Pick a single colony or dab a glycerol stock with a toothpick or pipette tip. Place the toothpick or pipette tip in the liquid culture.
 3. Let the bacteria grow in the shaker overnight, typically ~24 hours.
 
-    .. note::
+   .. note::
         Grow viral plasmids in 30ºC to reduce the chance of recombination. Non-viral plasmids may be grown at 37ºC for better yield.
         
 4. Transfer the culture to a 50-mL conical and spin at 4800xg (max speed in bucket rotors) for 10-15 minutes, using the large centrifuge by shakers.
 
-    .. note::
+   .. note::
        The midiprep protocol recommends spinning at 6000xg and 4ºC for 15 minutes, but KL has had successful preps with the parameters written above.
 
-    .. important::
+   .. important::
        If spinning at 6000xg, the fixed rotor is required (stored in the cabinet below the centrifuge). 
        To avoid spilling culture into the rotor, fill the 50-mL conical with **up to 40 mL** of culture.
 
@@ -108,7 +110,7 @@ When opening a new bottle of buffer:
    To the remaining empty flasks, add enough 10% bleach to cover the surfaces, swirl, and wait 20 minutes. 
    Then, thoroughly rinse the disinfected flasks and place them next to the Elga machine to be dishwashed.
 
-    .. note::
+   .. note::
         Collecting the supernatant (cells/media) waste in flasks and bleaching it yourself keeps the aspirator waste from filling up quickly!
 
         While waiting for the flasks to disinfect, keep them at your bench rather than in the sink, if possible. This keeps the sinks clear for others to use.
@@ -149,9 +151,9 @@ When opening a new bottle of buffer:
 21. Spin at max speed for 1 minute to elute the DNA.
 22. To quantify yield, measure 1.5-2 uL of sample on the Nanodrop.
 
-    - Concentrations <200 ng/uL indicate a poor midiprep, but the DNA is still fine to use.
-    - The A260/280 ratio should be 1.80-2.00. Lower values indicate protein contamination.
-    - The A260/230 ratio should be >2.00 (>1.80 is okay). Lower values indicate salt contamination from the buffers used in the kit.
+     - Concentrations <200 ng/uL indicate a poor midiprep, but the DNA is still fine to use.
+     - The A260/280 ratio should be 1.80-2.00. Lower values indicate protein contamination.
+     - The A260/230 ratio should be >2.00 (>1.80 is okay). Lower values indicate salt contamination from the buffers used in the kit.
   
 23. Store midiprepped plasmids at -20ºC for best long-term stability.
 
@@ -166,23 +168,23 @@ the likelihood of recombination.
 
 When opening a new bottle of buffer:
 
-- Buffer P1: add RNase A and LyseBlue reagent (1 vial each per bottle), then store at 4ºC 
-- Buffer PE: add 24 mL ethanol (confirm volume on bottle)
+    - Buffer P1: add RNase A and LyseBlue reagent (1 vial each per bottle), then store at 4ºC 
+    - Buffer PE: add 24 mL ethanol (confirm volume on bottle)
 
 1. Under a flame, aliquot 100 mL of LB media with antibiotic matching the plasmid antibiotic resistance.
    Use a 500-mL flask for optimal aeration of the culture.
 2. Pick a single colony or dab a glycerol stock with a toothpick or pipette tip. Place the toothpick or pipette tip in the liquid culture.
 3. Let the bacteria grow in the shaker overnight, typically ~24 hours.
 
-    .. note::
+   .. note::
         Grow viral plasmids in 30ºC to reduce the chance of recombination.
 
 4. Transfer the culture to several 50-mL conicals and spin at 4800xg (max speed in bucket rotors) for 10-15 minutes, using the large centrifuge by shakers.
 
-    .. note::
+   .. note::
        The midiprep protocol recommends spinning at 6000xg and 4ºC for 15 minutes, but KL has had successful preps with the parameters written above.
 
-    .. important::
+   .. important::
        If spinning at 6000xg, the fixed rotor is required (stored in the cabinet below the centrifuge). 
        To avoid spilling culture into the rotor, fill the 50-mL conical with **up to 40 mL** of culture.
 
@@ -191,7 +193,7 @@ When opening a new bottle of buffer:
    To the remaining empty flasks, add enough 10% bleach to cover the surfaces, swirl, and wait 20 minutes. 
    Then, thoroughly rinse the disinfected flasks and place them next to the Elga machine to be dishwashed.
 
-    .. note::
+   .. note::
         Collecting the supernatant (cells/media) waste in flasks and bleaching it yourself keeps the aspirator waste from filling up quickly!
 
         While waiting for the flasks to disinfect, keep them at your bench rather than in the sink, if possible. This keeps the sinks clear for others to use.
@@ -231,9 +233,9 @@ When opening a new bottle of buffer:
 21. Spin at max speed for 1 minute to elute the DNA.
 22. To quantify yield, measure 1.5-2 uL of sample on the Nanodrop.
 
-    - Concentrations <200 ng/uL indicate a poor midiprep, but the DNA is still fine to use.
-    - The A260/280 ratio should be 1.80-2.00. Lower values indicate protein contamination.
-    - The A260/230 ratio should be >2.00 (>1.80 is okay). Lower values indicate salt contamination from the buffers used in the kit.
+     - Concentrations <200 ng/uL indicate a poor midiprep, but the DNA is still fine to use.
+     - The A260/280 ratio should be 1.80-2.00. Lower values indicate protein contamination.
+     - The A260/230 ratio should be >2.00 (>1.80 is okay). Lower values indicate salt contamination from the buffers used in the kit.
   
 23. If prepping common stocks of viral packaging and envelope plasmids, dilute the plasmids to 500 ng/uL and aliquot 500 uL each in fresh 1.7-mL tubes.
     Send each prep for whole plasmid sequencing to confirm the plasmids have not recombined/mutated.

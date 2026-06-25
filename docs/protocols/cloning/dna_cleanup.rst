@@ -11,7 +11,7 @@ Actually, we source the components separately:
     - **Buffer BZ** (`NEB T1115 <https://www.neb.com/en-us/products/t1114-monarch-buffer-bz>`_): Binding buffer, add 72 mL isopropanol (or volume indicated on bottle) 
       when first opened; not required when using agarose dissolving buffer
     - **Spin S1A columns** (`NEB T2037L <https://www.neb.com/en-us/products/t2037-monarch-spin-columns-s1a-and-tubes>`_): 5-µg binding capacity, not the same as the columns for the miniprep kit
-    - **DNA wash buffer**: made in-house, dilute from 10x stock as needed (:doc:`recipe </recipes/bacteria/dna_wash>`)
+    - **DNA wash buffer**: made in-house, mix from stock as needed (:doc:`recipe </recipes/bacteria/dna_wash>`)
 
 
 1. Add the appropriate volume of Buffer BZ to your sample and pipet to mix. 
