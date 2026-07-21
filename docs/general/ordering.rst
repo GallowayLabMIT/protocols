@@ -6,7 +6,7 @@ Ordering
     Check with Katie which cost object to use if you are unsure. Too many charges can trigger an audit unnecessarily. 
 
 There are several ways to order/request new lab reagents. For all lab reagents, materials, etc., be sure to enter the information in Quartzy so that inventory can be tracked.
-(This excludes oligos, Addgene plasmids, and most Amazon items for the office.)
+(This excludes oligos and Addgene plasmids, everything else including Amazon orders should be tracked.)
 See the :doc:`receiving instructions </general/receiving>` for proper tracking and storage of delivered items.
 
 For a more comprehensive introduction to ordering in Coupa (buy-to-pay, or B2P), see `this training series <https://vpf.mit.edu/buy-to-pay-b2p-training-series>`_ from MIT Office of the Vice President for Finance.
@@ -20,39 +20,74 @@ on the right that are available for "punchout", i.e. you can just add to cart an
 
 On the Coupa checkout screen, fill out the following information:
 
-- **Address**: Under the \'Ship To\' tab, click the magnifying glass. Search for Building 66 by typing \'66\' and select the standard delivery option. This is 32 Vassar St, the main receiving area for MIT deliveries.
+Address
+~~~~~~~
 
-    .. image:: ../img/ordering-address.png
+Under the \'Ship To\' tab, click the magnifying glass. Search for Building 66 by typing \'66\' and select the standard delivery option. This is 32 Vassar St, the main receiving area for MIT deliveries.
 
-- In the \'Attention\' box, add lab address and your name, i.e., \'66-219 – Your Name\'.
+.. image:: ../img/ordering-address.png
+    :width: 90%
+    :align: center
 
-   .. important::
-        Be sure to write the lab address first! Occasionally, Amazon deliveries will truncate this field.
+|
+
+In the \'Attention\' box, add lab address and your name, i.e., \'66-219 – Your Name\'.
+
+.. important::
+    Be sure to write the lab address first! Occasionally, Amazon deliveries will truncate this field.
 
 .. figure:: /img/ordering-review-cart.png
     :align: center
-    :figwidth: 85%
+    :figwidth: 90%
 
-- **Billing**: For each item, choose the correct item type (e.g., General Lab Supplies) and click the magnifying glass to choose the PO to charge.
+Billing
+~~~~~~~
 
-    .. image:: ../img/ordering-account-1.png
+For each item, choose the correct item type (e.g., General Lab Supplies) and click the magnifying glass to choose the PO to charge.
 
-    .. tip::
-        Almost all materials should be categorized as \'Laboratory Supplies\', including office supplies (pens, notebooks, etc. --- do NOT use the 'Office Supplies' category)
+.. image:: /img/ordering-account-1.png
+    :width: 90%
+    :align: center
 
-- The PO can be found by searching \'Galloway\' and selecting an option from the list (e.g., \'Start-Up Funds\').
+.. tip::
+    Almost all materials should be categorized as \'Laboratory Supplies\', including office supplies (pens, notebooks, etc. --- do NOT use the 'Office Supplies' category)
 
-    .. image:: ../img/ordering-account-2.png
+The PO can be found by searching \'Galloway\' and selecting an option from the list (e.g., \'Start-Up Funds\').
 
-    .. important::
-        Be sure to double-check with Katie if you don't know which account to use.
+.. image:: ../img/ordering-account-2.png
+    :width: 90%
+    :align: center
 
+|
 
-- Double check that the Approver workflow is accurate (i.e., through ChemE) and submit the order.
+.. important::
+    Be sure to double-check with Katie if you don't know which account to use.
 
-    .. image:: ../img/ordering-approvers.png
+To apply the same cost object to multiple items:
 
-After placing the order through Coupa, be sure to add the items to Quartzy (see below). This helps organize the lab inventory and facilitates re-ordering.
+    a. Select all using the checkbox in the upper left, or select relevant items individually
+    b. Click the 'Edit Selected' button
+    c. Choose 'Account' as the field from the dropdown menu
+    d. Choose the correct cost object, as described below
+    e. Click 'Apply' on the right to save the changes
+
+.. image:: /img/ordering-account-multiple.png
+    :width: 90%
+    :align: center
+
+|
+
+Approver
+~~~~~~~~
+
+At the bottom of the page, double check that the Approver workflow is accurate (i.e., through ChemE) and submit the order.
+
+.. image:: ../img/ordering-approvers.png
+    :width: 90%
+    :align: center
+
+After placing the order through Coupa, be sure to add the items to Quartzy (see below). 
+This helps organize the lab inventory and facilitates re-ordering.
 
 
 Attaching a quote to a Coupa order
@@ -64,11 +99,18 @@ Attaching a quote to a Coupa order
 4. Add a buyer note to ``Notes to buyer``: "Please use attached quote"
 
 .. image:: ../img/ordering-attach-quote.png
+    :width: 90%
+    :align: center
+
+|
 
 5. Manually add the item into the cart. Scroll down, click ``Add line``, put in the info for your item and save
 
 .. image:: ../img/ordering-addquote-line.png
-    
+    :width: 90%
+    :align: center
+
+|
 
 Requests through Quartzy
 ------------------------
@@ -78,23 +120,30 @@ There are three scenarios for adding requests to Quartzy: re-ordering an item in
 .. tip::
     To check the current item price, search for the item from the relevant supplier in Coupa. Be sure to log in to see the discounted MIT prices!
 
-**Re-Ordering**
+Re-Ordering
+~~~~~~~~~~~
 
 To request an item already in the inventory, select the item and click on the \'Request\' button. Double check that the catalog number, price, and quantity are correct, then click \'Request\' to submit the request for Tseganesh to order.
 
     .. image:: ../img/ordering-reordering.png
+    
+    |
 
-**New Requests**
+New Requests
+~~~~~~~~~~~~
 
 To request a new item, select the \'Requests\' tab and click the \'Request\' button in the top left corner of the page. Search for the item by Manufacturer and Catalog Number, and enter the correct price and quantity.
 There are two suppliers to choose from: the \'Quartzy Shop\', in which Quartzy fulfills the order (can be cheaper but may experience delays), or the manufacturer directly. Then click \'Request\' to submit the request for Tseganesh to order.
 
     .. image:: ../img/ordering-new.png
 
+    |
+
     .. important:: 
         In most cases, we order materials directly from manufacturers/suppliers, NOT through the Quartzy Shop.
 
-**Adding Ordered Items**
+Adding Ordered Items
+~~~~~~~~~~~~~~~~~~~~
 
 To add an item ordered directly through Coupa, follow the same process as for a new request. The item will appear in the \'New\' section under the \'Requests\' tab. Then, select the \'Mark Ordered\' button to move the item to the \'Ordered\' tab.
 
