@@ -6,4 +6,6 @@ Training
    :maxdepth: 2
    :glob:
    
+   onboarding/index.rst
+
    */index

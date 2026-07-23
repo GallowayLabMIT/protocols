@@ -62,7 +62,9 @@ EHS system and add all necessary trainings to your profile.
 
 6. (*Grad students and postdocs only*) Also add and complete the following:
 
-  - `Autoclave Safety Training <http://web.mit.edu/training/course.html?course=EHS00254w&sys=PS1>`_ (required for access to the autoclave/ice room)
+  - `Autoclave Safety Training <http://web.mit.edu/training/course.html?course=EHS00254w&sys=PS1>`__, required for access to the autoclave/ice room.
+  - `Shipping Training <https://us.list-manage.com/x50viiGiYi6?e=3aa52f1b11&c2id=e3a0eacb0edf1dd8510d3cfd3e0194a2>`__ (*new as of June 2026*), required 
+    for shipping any materials on behalf of MIT.
   - If you are going to be helping with mouse work, in the "My Profile" tab under "Training Groups" click "Join Another Group" and add the **68N: Mouse** training group.
     Complete the additional trainings. Note that some of these require in-person trainings in the mouse facilities, which can be completed over the next few months.
 
@@ -137,6 +139,7 @@ After being given access:
    to sync into (the default location is usually fine). After several minutes, it will show "OneDrive is up to date", and all files
    should be accessible.
 
+.. _smithsonian_intro:
   
 (2) Smithsonian
 ***************
@@ -387,8 +390,8 @@ Experimental software
   `here <http://downloads.mit.edu/released/snapgene/group-name_registration-code.txt>`__
   (MIT login required for both links).
 * **FlowJo:** We have a single license on lab computers for analyzing flow cytometry data; we can show you how it works in-lab.
-* **FIJI:** For simple image analysis, Fiji (ImageJ) gives a nice GUI interface. Download it from https://fiji.sc
-* **CellProfiler:** CellProfiler is an excellent tool for doing image cytometry (analyzing cell-by-cell in image data).
+* *(Optional)* **FIJI:** For simple image analysis, Fiji (ImageJ) gives a nice GUI interface. Download it from https://fiji.sc
+* *(Optional)* **CellProfiler:** CellProfiler is an excellent tool for doing image cytometry (analyzing cell-by-cell in image data).
   In contrast to the GUI-only tools built into the Keyence software, CellProfiler enables repeatable, pipelinable analyses.
   Download it from https://cellprofiler.org/
 
@@ -423,7 +426,13 @@ Other
     these plugins through Firefox, you will need to explicitly right click -> "download target"; left-clicking on download
     links will attempt to install the Zotero plugin as a Firefox plugin, which will fail.
 
-* **Better Quartzy:** While Quartzy is great for inventory purposes and the interface for the plasmid 
+* **Better Quartzy:** 
+  
+  .. admonition:: TODO
+    
+    Unfortunately, the Quartzy interface updated, so our userscript to customize the appearance is broken. :(
+
+  While Quartzy is great for inventory purposes and the interface for the plasmid 
   database isn't too bad, the web interface leaves a lot to be desired. By default,
   you can't really read the plasmid names even after you move the "CAS #"" field to the second position:
 
@@ -481,8 +490,10 @@ Other
   ("Create and open swatch libraries") or the `Inkscape documentation <https://inkscape-manuals.readthedocs.io/en/latest/palette.html>`__.
 
 * **Fonts:** *Helvetica Neue* is a good sans-serif font that is based on everyone's favorite font, Helvetica. 
-  Download it `here </docs/_static/iap_files/HelveticaNeue.zip>`__ (macOS, Linux) or `here </docs/_static/iap_files/WinNeue.zip>`__ (Windows).
   While not required, many people in lab use this font, so their files (e.g., PowerPoint, Illustrator) won't render well if you don't have it installed.
+  First, download it `here </_static/iap_files/HelveticaNeue.zip>`__ (macOS, Linux) or `here </_static/iap_files/WinNeue.zip>`__ (Windows).
+  Then, unzip the folder, select all the ``.tff`` files, and double click to open, which should prompt installation. Alternatively, 
+  right click and select "Install font".
 
   For a good monospaced/code/terminal font, *Fira Code* is excellent (download `here <https://github.com/tonsky/FiraCode/releases>`__).
   Besides looking nice, Fira Code has something called **font ligatures**. These are originally defined for special

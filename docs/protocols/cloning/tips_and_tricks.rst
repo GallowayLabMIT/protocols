@@ -11,6 +11,7 @@ Troubleshooting assemblies
 - Are you sure you added all components to the assembly reaction? When in doubt, set up a new reaction.
 - Check out tips on the protocols for each type of assembly to increase reaction efficiency.
 - You can PCR amplify the assembly to determine whether any correct product formed. Choose primers that span fragment junctions.
+  (Note that simply running the assembly on a gel will not work, as there is not enough DNA to see bands.)
 
 Troubleshooting transformations
 -------------------------------
@@ -18,8 +19,14 @@ Troubleshooting transformations
 - Double check that the antibiotic in the agar plate you used matches the antibiotic resistance of your plasmid product.
 - Be sure to outgrow plasmids containing kanamycin or chloramphenicol resistance before plating. Outgrow in SOC for 1 hour, but not much longer (1.7-mL tubes are not aerated, so the bacteria will eventually die).
 - For plasmids containing ccdB (usually alongside chloramphenicol resistance), be sure to transform ccdB resistant bacteria (not NEB Stable cells).
-  This usually applies to destination vectors, Harbor plasmids, and Janus / Multi Janus vectors (but not Gateway or Golden Gate assemblies that use these as inputs).
+  This usually applies to destination vectors, Harbor plasmids, and Janus/Multi-Janus vectors (but *not* to Gateway or Golden Gate assemblies that use these as inputs).
 - Try some of the other tips in the :doc:`transformation protocol </protocols/cloning/transformation>` to increase efficiency.
+- For plasmids prone to recombination, such as those with the lentiviral backbone (the LTRs, which have very similar sequences, recombine 
+  to form backbone-only products) use the following strategies:
+
+  - Perform a short transformation, incubating on ice only the recommended 20 minutes and not longer.
+  - Do not include an outgrowth step (this is not required for plasmids with ampicillin resistance).
+  - Always grow plates and cultures at 30ºC rather than 37ºC.
 
 
 Designing cloning

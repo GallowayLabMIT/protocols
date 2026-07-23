@@ -106,6 +106,25 @@ Assembly protocol with additional ligation
    To further increase efficiency, incubate the transformation on ice for 1 hour instead of 10 minutes.
 
 
+"Diluted" PaqCI reaction
+************************
+
+The glycerol in the PaqCI enzyme solution can interfere with the reaction. If you are getting few colonies in PaqCI Golden Gate assemblies,
+try a "diluted" reaction: increase the total reaction volume (with water and buffer) while keeping the amounts of the other reactants
+the same.
+
+================================= ===========
+  Component                       Amount (µL)
+================================= ===========
+75 ng/fragment                     X           
+10X T4 DNA ligase buffer           **2**
+T4 DNA ligase (400 U/µL)           1.25     
+PaqCI                              0.5      
+Water                              to **20** 
+================================= ===========
+
+
+
 .. _pPV-scheme:
 
 In-house Golden Gate assembly scheme

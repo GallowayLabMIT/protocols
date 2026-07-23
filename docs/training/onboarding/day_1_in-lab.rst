@@ -54,6 +54,7 @@ Selected lab protocols to be familiar with:
 - :doc:`Lab safety </general/lab_safety>`
 - :doc:`Ordering materials and reagents </general/ordering>`
 - :doc:`Receiving orders </general/receiving>`
+- :doc:`Shipping </general/shipping>`
 - :doc:`Recycling </general/recycling>`
 - :doc:`Cleaning and autoclaving </general/clean_autoclave_guideline>`
 - :doc:`Plasmid database </general/plasmid_database>`
