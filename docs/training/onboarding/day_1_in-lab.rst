@@ -7,9 +7,10 @@ Before your first day in lab, be sure to complete required trainings and downloa
 Onboarding form 
 ---------------
 
-Complete the tasks on the most recent lab Onboarding Form in 
-`this folder <https://mitprod.sharepoint.com/:f:/s/GallowayLab/IgDFT2QaHvFyRK8T-mimny_OAWjTpmM18Te5DVKyJORWO10?e=KXd2iO>`_ 
-(note that there are separate forms for grad students/postdocs and undergrads/visiting students). 
+Complete the tasks on the **lab Onboarding Form** (download the one for `grad students/postdocs </_static/iap_files/2026.07.27_onboarding-form_grad-postdoc.pdf>`_ 
+or `undergrads/visiting students </_static/iap_files/2026.07.27_onboarding-form_undergrad-visiting-student.pdf>`_).
+The most recent forms are also located in `this folder <https://mitprod.sharepoint.com/:f:/s/GallowayLab/IgDFT2QaHvFyRK8T-mimny_OAWjTpmM18Te5DVKyJORWO10?e=KXd2iO>`_ 
+in the lab SharePoint.
 Check off each task as you complete it. This list includes:
 
 1. Setting up webservices (you should've done this in :ref:`Day 0 <software>`)

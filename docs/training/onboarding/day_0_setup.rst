@@ -7,9 +7,10 @@ Before beginning work in the lab, you must complete all required Environment, He
 New grad students and postdocs should also install or set up accounts for everything listed here; others should ask
 their mentor which are essential. 
 
-Check off each task as you complete it on the **lab Onboarding Form**. Look for the most recent form in 
-`this folder <https://mitprod.sharepoint.com/:f:/s/GallowayLab/IgDFT2QaHvFyRK8T-mimny_OAWjTpmM18Te5DVKyJORWO10?e=0HpMdd>`__
-(note that there are separate forms for grad students/postdocs and undergrads/visiting students).
+Check off each task as you complete it on the **lab Onboarding Form** (download the one for `grad students/postdocs </_static/iap_files/2026.07.27_onboarding-form_grad-postdoc.pdf>`_ 
+or `undergrads/visiting students </_static/iap_files/2026.07.27_onboarding-form_undergrad-visiting-student.pdf>`_).
+The most recent forms are also located in `this folder <https://mitprod.sharepoint.com/:f:/s/GallowayLab/IgDFT2QaHvFyRK8T-mimny_OAWjTpmM18Te5DVKyJORWO10?e=KXd2iO>`_ 
+in the lab SharePoint.
 
 .. important:: 
   Most of the software and webservices **require an MIT ID/email**. You should prioritize getting this set up. However, if
