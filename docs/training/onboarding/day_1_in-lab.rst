@@ -8,14 +8,18 @@ Onboarding form
 ---------------
 
 Complete the tasks on the most recent lab Onboarding Form in 
-`this folder <https://mitprod.sharepoint.com/:f:/s/GallowayLab/IgDFT2QaHvFyRK8T-mimny_OAWjTpmM18Te5DVKyJORWO10?e=KXd2iO>`_. 
-Have your mentor (or another lab member) check off each one. This list includes:
+`this folder <https://mitprod.sharepoint.com/:f:/s/GallowayLab/IgDFT2QaHvFyRK8T-mimny_OAWjTpmM18Te5DVKyJORWO10?e=KXd2iO>`_ 
+(note that there are separate forms for grad students/postdocs and undergrads/visiting students). 
+Check off each task as you complete it. This list includes:
 
-- Given access to lab software accounts (you should've requested access to these in :ref:`Day 0 <software>`)
-- Added the lab printer (``stephenie``)
-- Have appropriate card and key access to the lab 
-- Acquired a lab notebook
-- Participated in the two in-lab trainings described in the following sections
+1. Setting up webservices (you should've done this in :ref:`Day 0 <software>`)
+2. Obtaining access to webservices (you should've requested this in :ref:`Day 0 <software>`)
+3. Getting the appropriate physical lab setup (lab notebook, bench, etc.)
+4. Performing the required EHS trainings (online trainings in :ref:`Day 0 <ehs>`, in-person described below)
+5. Performing a walkthrough of the lab to familiarize yourself with its organization (see also the Lab Citizenship section below)
+6. Adding a photo of yourself for the lab website to `this folder <https://mitprod.sharepoint.com/:f:/s/GallowayLab/IgCB3AedU6JORrIMlIWW9UdQAVcKnwOU69Rr4hlMbVRB5TI?e=KmmG2E>`__ 
+   in the SharePoint
+
 
 Lab-specific safety training
 ----------------------------

@@ -7,11 +7,17 @@ Before beginning work in the lab, you must complete all required Environment, He
 New grad students and postdocs should also install or set up accounts for everything listed here; others should ask
 their mentor which are essential. 
 
+Check off each task as you complete it on the **lab Onboarding Form**. Look for the most recent form in 
+`this folder <https://mitprod.sharepoint.com/:f:/s/GallowayLab/IgDFT2QaHvFyRK8T-mimny_OAWjTpmM18Te5DVKyJORWO10?e=0HpMdd>`__
+(note that there are separate forms for grad students/postdocs and undergrads/visiting students).
+
 .. important:: 
   Most of the software and webservices **require an MIT ID/email**. You should prioritize getting this set up. However, if
   you are waiting on paperwork, you can download most of the software (even if you won't be able to log in yet). After that,
   you may wish to read through the :doc:`Day 1 </training/onboarding/day_1_in-lab>`, :doc:`Day 2 </training/onboarding/day_2_content-trainings>`,
   and linked pages on the protocols site.
+
+.. _ehs:
 
 EHS setup and trainings
 =======================
@@ -85,18 +91,17 @@ Core webservices
   recommended for permanence reasons.
 * Create an `ORCID <https://orcid.org/register>`_. Adding all of your active emails is recommended.
 * Request an `MIT Google Workspace <https://ist.mit.edu/g-suite/request>`_ account. 
-  This provides access to Google services like Drive, Docs, Calendar, etc. Alternatively, you may use
-  a personal Google Account for access to a lab calendar.
+  This provides access to Google services like Drive, Docs, Calendar, etc. Note that it may take 24 hours to activate.
+  Alternatively, you can use a personal Google Account for access to a lab calendar.
 * (*New grad students and postdocs only*) Create a `Quartzy account <https://www.quartzy.com/>`_. Using your MIT email is recommended.
 
-After creating these accounts, message the following to the ``#iap`` slack channel (if you are joining in January), or to your mentor
-or point of contact in the lab: your **Kerberos ID (MIT email)**, your **Github username**, your **Zotero username**,
-the email you'd like added to the lab **Google Calendar**, and the email associated with your **Quartzy** account. We'll get you added to all of the above. 
-You will have to:
+After creating these accounts, request access to the lab's group on the relevant webservices. Most of these are 
+managed by one or two lab members; see the onboarding form for who to contact. Message them with the following information:
+your **Kerberos ID (MIT email)**, your **Github username**, your **Zotero username**,
+the email you'd like added to the lab **Google Calendar**, and the email associated with your **Quartzy** account.
 
-* Accept the Github invitation to the `gallowaylabmit organization <https://github.com/gallowaylabmit>`_.
-* Accept the Zotero invitation to the ``gallowaylab`` group,
-  checking that it appears in your `group list <https://www.zotero.org/groups/>`_.
+Then, you must accept the Github invitation to the `GallowayLabMIT organization <https://github.com/gallowaylabmit>`_
+and the Zotero invitation to the ``gallowaylab`` group, checking that it appears in your `group list <https://www.zotero.org/groups/>`_.
 
 
 .. _OneDrive syncing:
@@ -232,6 +237,9 @@ Coding and collaboration
   .. |vsc_snakemake| image:: img/vsc_snakemake.png
     :width: 200px
 
+  .. |vsc_esbonio| image:: img/vsc_esbonio.png
+    :width: 200px
+
   .. list-table:: Recommended VS Code extensions
     :header-rows: 1
     :width: 100%
@@ -239,19 +247,26 @@ Coding and collaboration
     *  - Name
        - Image
        - Description
-    *  - Python
-       - |vsc_python|
-       - Enables Python debugging, running, and IntelliSense (in-line help while typing).
+    *  - Code Spell Checker
+       - |vsc_spellcheck|
+       - Inline spell checker that is intelligent enough to not flag specific language-specific words, but still can
+         spell check comments and variable names.
+    *  - Esbonio
+       - |vsc_esbonio|
+       - Support for editing Sphinx projects, e.g., this protocols site. The live preview function is super helpful!
+    *  - Jupyter
+       - |vsc_jupyter|
+       - Inline Jupyter notebook support. No more need to launch Jupyter in a web browser, just do it inside VS Code!
     *  - Pylance
        - |vsc_pylance|
        - Faster 'language server' for Python, which means the IntelliSense is faster and more accurate.
-    *  - Snakemake Language
-       - |vsc_snakemake|
-       - Snakemake syntax highlighting for editing computational pipelines.
-    *  - R
+    *  - Python
+       - |vsc_python|
+       - Enables Python debugging, running, and IntelliSense (in-line help while typing).
+    *  - R (*optional*)
        - |vsc_r|
        - Base language support for R.
-    *  - R LSP Client
+    *  - R LSP Client (*optional*)
        - |vsc_rlsp|
        - The VS Code side of the R language server. Before installing this, run ``install.packages("languageserver")``
          inside an R prompt.
@@ -261,13 +276,10 @@ Coding and collaboration
     *  - reStructuredText Syntax highlighting
        - |vsc_rst_syntax|
        - Enables syntax highlighting for reStructuredText.
-    *  - Jupyter
-       - |vsc_jupyter|
-       - Inline Jupyter notebook support. No more need to launch Jupyter in a web browser, just do it inside VS Code!
-    *  - Code Spell Checker
-       - |vsc_spellcheck|
-       - Inline spell checker that is intelligent enough to not flag specific language-specific words, but still can
-         spell check comments and variable names.
+    *  - Snakemake Language
+       - |vsc_snakemake|
+       - Snakemake syntax highlighting for editing computational pipelines.
+    
 
 * **Git:** For any code/code-like files (LaTeX, other plain-text files), Git is the standard way to share
   and collaborate with others and to track version history.
@@ -296,7 +308,7 @@ Coding and collaboration
   For a comprehensive introduction to Git, check out our intro :doc:`here </training/onboarding/git_intro>` or `this tutorial <https://git-scm.com/book/en/v2>`_
   from Git.
 
-* **Github Desktop:** This program is a good basic GUI Git tool, in case the command line interface or built-in editor interfaces
+* *(Optional)* **Github Desktop:** This program is a good basic GUI Git tool, in case the command line interface or built-in editor interfaces
   aren't for you. Download it `here <https://desktop.github.com/>`__.
   
 * **Python:** Python is an excellent "Jack of all trades" language; we use it extensively. If you are on macOS, you may have
@@ -463,7 +475,7 @@ Other
   
 .. _graphics:
 
-* **Adobe Creative Cloud:**  MIT has a site license for students and staff. After installing the
+* **Adobe Creative Cloud:**  MIT has a site license for students and staff (but unfortunately, not for affiliates). After installing the
   `Creative Cloud application <https://www.adobe.com/creativecloud/desktop-app.html>`__, select "Work/School account" and
   login with your MIT credentials. You may have to wait 24 hours for activation after your first login. You should
   install **Acrobat** (for viewing PDFs) and **Illustrator** (for drawing graphics).

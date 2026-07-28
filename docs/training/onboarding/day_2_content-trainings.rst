@@ -44,29 +44,33 @@ and refer back to as needed:
 Data Analysis & Modeling
 ************************
 
-- Data analysis tips & common approaches: see example Jupyter notebooks in the ``example-training`` repo (`link <https://github.com/GallowayLabMIT/example-training>`__),
-  user guide for ``rushd`` Python package (`link <https://gallowaylabmit.github.io/rushd/en/main/index.html>`__)
-- Introduction to gene expression modeling: set of undergrad trainings (:doc:`Summer 2021 </training/ode_training/index>`)
-- High-performance computing: tutorial for the MIT Engaging cluster (`MIT ORCD <https://orcd-docs.mit.edu/getting-started/>`__)
+- **Data analysis tips & common approaches:** see the :doc:`Data Analysis </training/data_analysis/index>` protocols pages, 
+  example Jupyter notebooks in the ``example-training`` repo (`link <https://github.com/GallowayLabMIT/example-training>`__),
+  and the user guide for the ``rushd`` Python package (`link <https://gallowaylabmit.github.io/rushd/en/main/index.html>`__)
+- **Introduction to gene expression modeling:** set of undergrad trainings (:doc:`Summer 2021 </training/ode_training/index>`)
+- **High-performance computing:** tutorial for the MIT Engaging cluster (`MIT ORCD <https://orcd-docs.mit.edu/getting-started/>`__)
 
 
 Research reading and writing
 ----------------------------
 
 Reading literature, communicating your findings, and composing compelling visuals are key research skills to master. The lab has put together 
-several trainings on these **science communication** topics. The :doc:`"How to" training series </training/how-to/index>` was presented in Summer 2021 and Summer 2023 to undergraduates 
-(and other interested lab members). Additionally, Katie has put together a :doc:`Writing Guide <../../writing_guide/index>` relevant for academic 
-writing at all levels (papers, proposals, etc.). 
+several trainings on these **science communication** topics. A :doc:`"How to" training series </training/how-to/index>` was presented in Summer 2021
+(as well as `Summer 2023 <https://mitprod.sharepoint.com/:f:/s/GallowayLab/IgCabz3F-8ZcRYFgF9DnyesTAV1B3twaBrkUFYim1lpEET4?e=aBCbSF>`__ 
+and `Summer 2026 <https://mitprod.sharepoint.com/:f:/s/GallowayLab/IgAyMVRnhvKLRoctjrUNiy3YAQfkMzEhhvXRH1zB3gEcWes?e=DAtb9g>`__), 
+to undergraduates and other interested lab members. Additionally, Katie has put together a 
+:doc:`Writing Guide <../../writing_guide/index>` relevant for academic writing in diverse forms (papers, proposals, etc.). 
 
 To produce high-quality, informative **graphics**, the lab mainly uses Adobe Illustrator. The best way to learn how to use Illustrator is by making graphics of your own!
 To get started, check out the following:
 
   - :ref:`Section on Illustrator <graphics>` in the Onboarding Day 0 page for instructions on setting up the software
-  - `YouTube video <https://www.youtube.com/watch?v=3IuoK07YDds>`_ for a basic tutorial on many features relevant for scientific graphics
   - Illustrator `keyboard shortcuts list <https://mitprod.sharepoint.com/:w:/s/GallowayLab/IQAtam1dK9LiQqfk-UDpyb2bAS8J5FQOKeUqJ94R-dkRs9g?e=VHPmpM>`_ from Graphics & Illustrator training 
     (`IAP 2026 <https://mitprod.sharepoint.com/:f:/s/GallowayLab/IgBqnHBMeeqlTpF_21nT0mweAc7Il02msz5xrXOR2L_5pYA?e=dMaudu>`__)
+  - A lab Illustrator tutorial, including slides and video demo (`Summer 2026 <https://mitprod.sharepoint.com/:f:/s/GallowayLab/IgACQyVA1uUKTrsu-DDLHkpfAa-AE8Xvjp6YwBt-zAGldEw?e=cMPzDC>`__)
+  - `YouTube video <https://www.youtube.com/watch?v=3IuoK07YDds>`_ for a basic tutorial on many features relevant for scientific graphics
 
-**Journal clubs** are another essential piece of reading and evaluating primary literature. Past lab journal club presentations are located 
+**Journal clubs** are an important component of reading and evaluating primary literature. Past lab journal club presentations are located 
 in `this folder <https://mitprod.sharepoint.com/:f:/s/GallowayLab/Eugaj4o4lw5Egeyo9_lQmjIB8un7AnIkFoRDG5BQ0Btwaw?e=OQuJTU>`_. This includes
 several journal clubs on some of the lab's papers and review articles (IAP 2024). For a complete list of papers from the lab, see the `lab website <https://gallowaylab.mit.edu/publications/>`_ 
 or Katie's `Google Scholar profile <https://scholar.google.com/citations?user=boemvUgAAAAJ&hl=en>`_. 
