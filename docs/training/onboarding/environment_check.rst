@@ -126,6 +126,7 @@ Instead, to start, it's good to check that you can edit one of the files.
    - Derin Gumustop (2025-01-09)
    - Rachel Lee (2026-01-22)
    - Paulina Naydenkov (2026-01-29)
+   - Adrian Shenvi (2026-07-28)
 
 
 The next frontier
