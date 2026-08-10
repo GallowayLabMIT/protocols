@@ -72,3 +72,21 @@ machine (switch is labeled with a 2).
 
 **Explanation:** The autosampler should be turned on first so that the main machine is able
 to sense that it is connected and initiate the correct settings.
+
+
+Spill detected by bottles
+--------------------------
+
+If a spill occurs when refilling focusing fluid or emptying waste, the attune will detect this and report an error message.
+
+First, wipe up any visible spills. If the error has still not cleared, it is likely that the spill sensor still has liquid.
+The sensor is directly underneath the focusing fluid bottle on the exterior of the attune (see below).
+
+1. Elevate the attune with pipette tip boxes.
+2. Using a 5/64 long arm wrench, unscrew the sensor. 
+3. Dab the top of the sensor with a Kimwipe to remove any liquid.
+4. Rescrew the sensor and lower the attune back down.
+
+.. figure:: img/attune_spill_sensor.jpg
+        :align: center
+        :height: 5cm
