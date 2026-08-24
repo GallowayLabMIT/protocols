@@ -127,7 +127,8 @@ Instead, to start, it's good to check that you can edit one of the files.
    - Rachel Lee (2026-01-22)
    - Paulina Naydenkov (2026-01-29)
    - Adrian Shenvi (2026-07-28)
-
+   - Rohan Thakur (2026-08-18)
+   - Joey Huang (2026-08-19)
 
 The next frontier
 -----------------

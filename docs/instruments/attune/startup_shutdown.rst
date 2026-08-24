@@ -7,7 +7,7 @@ Quick startup checklist
 ------------------------------
 
 1. Make sure fluid bottles are full except for waste bottles. If necessary, empty waste bottle and refill with 10% bleach
-   (100 mL for Attune, 200 mL for Cytkick)
+   (100 mL for Attune, 200 mL for Cytkick). Be sure to wipe off bottles with any exterior liquid.
 2. Fluid lines are all plugged in correctly (especially Cytkick autosampler waste!! should hear double click)
 3. Log in and run start up procedure
 
@@ -19,7 +19,7 @@ Quick startup checklist
 
     a. Make sure optical filter config is correct (no red-stripes, order is correct)
     b. Verify bead lot number
-    c. Put 3 drops of performance beads in 2 mL of focusing fluids (should be ~100 ev/s at first)
+    c. Put 3 drops of performance beads in 2 mL of focusing fluids and mix (should be ~100 ev/s at first)
     d. If Delta PMT is high (>10-20), check `Attune maintenance guide <../../_static/files/attune_maintenance_guide.pdf>`__ pg. 41
 
 5. Run SIP sanitize to wash beads out
@@ -35,8 +35,12 @@ Quick shutdown checklist
 5. Run the following depending on how quickly the next user will be using it:
 
    a. (**DEFAULT**) If next user will be using it > 2 hr, run Shutdown - standard (40 min)
-   b. If next user will be using it < 2 hr, run Deep Clean - quick (10 min)
-   c. If last user of the day, run SIP sanitize with Hellmanex, then run Shutdown - thorough (60 min)
+   b. If next user will be using it < 2 hr, run Deep Clean - quick (20 min)
+   c. If last user of the day:
+      i. if there is a user scheduled for the next morning, start a SIP sanitize with Hellmanex. 3.	Once the script is running, please pay attention to the volume in the tube. 
+      The volume will go down and then up 3X as the fluid is being aspirated into the flowcell. Once you see the volume in the tube decrease the third time, power off the
+      Attune from the back (both main machine and autosampler).
+      ii. If there is no user scheduled for the next morning, run SIP sanitize with Hellmanex, then run Shutdown - thorough (60 min)
 
 6. Log out of the software but do **not** close the software or log out of the INSTR-ADMIN Windows user or shutdown will fail.
 
