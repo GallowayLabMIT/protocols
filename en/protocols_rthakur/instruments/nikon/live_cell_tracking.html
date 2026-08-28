@@ -1,0 +1,992 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta property="article:modified_time" content="2026-03-13T11:29:56-04:00" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Live Cell Tracking &mdash; Galloway Lab Protocols  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../../_static/plot_directive.css" />
+      <link rel="stylesheet" type="text/css" href="../../_static/css/custom.css?v=c1d585c6" />
+
+  
+      <script src="../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Koch Flow Core FACS Training" href="../core_facilities/Koch_flow.html" />
+    <link rel="prev" title="Simple single image acquisition" href="single_image_acquisition.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search"  style="background: #2c6854" >
+
+          
+          
+          <a href="../../index.html" class="icon icon-home">
+            Galloway Lab Protocols
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../general/index.html">General Lab Maintenance</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../general/centrifuge_motor_mount_replacement.html">Replacing microcentrifuge motor mounts</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../general/centrifuge_motor_mount_replacement.html#required-materials">Required materials</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../general/centrifuge_motor_mount_replacement.html#procedure">Procedure</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../general/clean_autoclave_guideline.html">Cleaning and autoclaving guidelines</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../general/clean_autoclave_guideline.html#washing-glassware-and-tools">Washing glassware and tools</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../general/clean_autoclave_guideline.html#operating-the-dishwasher">Operating the dishwasher</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../general/clean_autoclave_guideline.html#washing-glassware-by-hand">Washing glassware by hand</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../general/clean_autoclave_guideline.html#autoclaving">Autoclaving</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../general/clean_autoclave_guideline.html#operating-the-autoclave">Operating the autoclave</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../general/clean_bsc.html">Cleaning BSCs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../general/cleaning_microcentrifuges.html">Cleaning microcentrifuges</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../general/computer_clean_up.html">Regular computer maintenance</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../general/computer_clean_up.html#installing-attune-software-updates">Installing Attune software updates</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../general/data_backup_check.html">Checking data backups</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../general/data_backup_check.html#onedrive-backups">Onedrive backups</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../general/data_backup_check.html#once-a-year-checks">Once a year checks</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../general/data_backup_check.html#ngs-backups">NGS backups</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../general/data_backup_check.html#adding-a-new-ngs-dataset">Adding a new NGS dataset</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../general/data_backup_check.html#once-a-year-checklist">Once a year checklist</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../general/incubator_decon.html">Incubator decontamination</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../general/incubator_decon.html#moana-and-maui-main-tc">Moana and Maui (Main TC)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../general/incubator_decon.html#hei-hei-and-pua-main-tc">Hei Hei and Pua (Main TC)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../general/incubator_decon.html#te-ka-quarantine-and-te-fiti-66-219">Te Kā (Quarantine) and Te Fiti (66-219)</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../general/lab_safety.html">Lab Safety Information</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../general/lab_safety.html#general-information">General Information</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../general/lab_safety.html#room-specific-information">Room-Specific Information</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../general/onedrive_debugging.html">OneDrive sync problems and replacing the logged-in user</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../general/onedrive_debugging.html#onedrive-sync-problem-debugging">OneDrive sync problem debugging</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../general/onedrive_debugging.html#it-still-doesn-t-work">It still doesn’t work!</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../general/onedrive_debugging.html#unable-to-pin-onedrive-folders-to-the-quick-access">Unable to pin OneDrive folders to the quick access</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../general/onedrive_debugging.html#user-replacement">User replacement</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../general/ordering.html">Ordering</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../general/ordering.html#direct-ordering-through-coupa">Direct ordering through Coupa</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../general/ordering.html#address">Address</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../general/ordering.html#billing">Billing</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../general/ordering.html#approver">Approver</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../general/ordering.html#attaching-a-quote-to-a-coupa-order">Attaching a quote to a Coupa order</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../general/ordering.html#requests-through-quartzy">Requests through Quartzy</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../general/ordering.html#re-ordering">Re-Ordering</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../general/ordering.html#new-requests">New Requests</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../general/ordering.html#adding-ordered-items">Adding Ordered Items</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../general/ordering.html#bulk-plastics-order">Bulk Plastics Order</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../general/plasmid_database.html">Plasmid Database</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../general/plasmid_database.html#quartzy">Quartzy</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../general/plasmid_database.html#plasmid-website">Plasmid website</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../general/receiving.html">Receiving packages</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../general/receiving.html#receiving-orders-in-coupa">Receiving orders in Coupa</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../general/recycling.html">Recycling</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../general/remote_desktop_timelapse.html">Remote desktop for lab computers</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../general/remote_desktop_timelapse.html#enabling-remote-desktop">Enabling remote desktop</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../general/remote_desktop_timelapse.html#remoting-in-to-lab-computers">Remoting in to lab computers</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../general/remote_desktop_timelapse.html#windows">Windows</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../general/remote_desktop_timelapse.html#macos">MacOS</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../general/remote_desktop_timelapse.html#linux">Linux</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../general/repairing_deli_fridge.html">Deli fridge starter replacement</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../general/repairing_deli_fridge.html#background">Background</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../general/repairing_deli_fridge.html#disassembly">Disassembly</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../general/repairing_deli_fridge.html#debugging">Debugging</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../general/repairing_deli_fridge.html#assembly">Assembly</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../general/repairing_deli_fridge.html#replacements">Replacements:</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../general/shake_incubator_maintenance.html">Replacing shake incubator drive belts</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../general/shake_incubator_maintenance.html#required-mcmaster-parts">Required McMaster parts</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../general/shake_incubator_maintenance.html#procedure">Procedure</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../general/shipping.html">Shipping</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Instrument Use and Core Facility Access</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../attune/index.html">Attune operation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../attune/startup_shutdown.html">Attune startup and shutdown</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../attune/startup_shutdown.html#quick-startup-checklist">Quick startup checklist</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../attune/startup_shutdown.html#quick-shutdown-checklist">Quick shutdown checklist</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../attune/startup_shutdown.html#initial-inspection-and-startup">Initial inspection and startup</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../attune/startup_shutdown.html#performance-test">Performance test</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../attune/startup_shutdown.html#shutdown">Shutdown</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../attune/attune_operation.html">Attune operation</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../attune/attune_operation.html#procedure-descriptions">Procedure descriptions</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../attune/attune_operation.html#weekly-system-cleaning">Weekly system cleaning</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../attune/attune_operation.html#every-3-6-month-system-decontamination">Every ~3-6 month system decontamination</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../attune/attune_operation.html#focusing-fluid-refill">Focusing fluid refill</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../attune/attune_operation.html#full-attune-guides">Full Attune guides</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../attune/attune_software.html">Attune software</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../attune/attune_software.html#common-processes">Common processes</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../attune/attune_software.html#creating-an-experiment">Creating an experiment</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../attune/attune_software.html#customizing-the-workspace">Customizing the workspace</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../attune/attune_software.html#exporting-data">Exporting data</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../attune/user_replacements.html">User-replaceable parts</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../attune/user_replacements.html#main-syringe">Main syringe</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../attune/user_replacements.html#sample-injection-probe-sip">Sample Injection Probe (SIP)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../attune/user_replacements.html#focusing-fluid-filters">Focusing fluid filters</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../attune/empirical_troubleshooting.html">Attune troubleshooting</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../attune/empirical_troubleshooting.html#delay-before-events-start-running">Delay before events start running</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../attune/empirical_troubleshooting.html#fluid-leak-from-the-autosampler-sip-onto-a-running-plate">Fluid leak from the autosampler SIP onto a running plate</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../attune/empirical_troubleshooting.html#wells-skipping-and-the-autosampler-fails-to-draw-focusing-fluid">Wells skipping and the autosampler fails to draw focusing fluid</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../attune/empirical_troubleshooting.html#power-cycling-the-attune">Power cycling the Attune</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../attune/empirical_troubleshooting.html#spill-detected-by-bottles">Spill detected by bottles</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">Nikon operation</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="microscope_components.html">Microscope Components</a></li>
+<li class="toctree-l3"><a class="reference internal" href="startup_shutdown.html">Startup/Shutdown</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="startup_shutdown.html#turning-the-power-on">Turning the power on</a></li>
+<li class="toctree-l4"><a class="reference internal" href="startup_shutdown.html#turning-the-power-off-last-user-of-the-day">Turning the power off (last user of the day)</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="single_image_acquisition.html">Simple single image acquisition</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="single_image_acquisition.html#sample-setup">Sample setup</a></li>
+<li class="toctree-l4"><a class="reference internal" href="single_image_acquisition.html#basic-microscope-controls">Basic microscope controls</a></li>
+<li class="toctree-l4"><a class="reference internal" href="single_image_acquisition.html#simple-image-acquisition-and-exporting">Simple image acquisition and exporting</a></li>
+<li class="toctree-l4"><a class="reference internal" href="single_image_acquisition.html#cleaning-up">Cleaning up</a></li>
+</ul>
+</li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Live Cell Tracking</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../core_facilities/Koch_flow.html">Koch Flow Core FACS Training</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../core_facilities/Koch_flow.html#sorting-machines">Sorting Machines</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../core_facilities/Koch_flow.html#training">Training</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../core_facilities/Koch_flow.html#sony-ma-900">Sony MA-900</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../core_facilities/alignment_supercloud.html">Running Genomic pre-analysis using SnakePipes in Supercloud</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../core_facilities/animal_facility.html">Animal Facility</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../core_facilities/animal_facility.html#mouse-colony-manager-lab-job">Mouse Colony Manager Lab Job</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../core_facilities/animal_facility.html#how-to-submit-a-cac-amendment">How to submit a CAC amendment</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../core_facilities/animal_facility.html#ordering-a-new-mouse-strain">Ordering a new mouse strain</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../core_facilities/animal_facility.html#recovering-a-cryopreserved-embryo">Recovering a cryopreserved embryo</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../core_facilities/animal_facility.html#timed-matings-for-embryo-isolation">Timed matings for embryo isolation</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../core_facilities/cluster_computing.html">Cluster Computing</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../core_facilities/cluster_computing.html#creating-and-setting-up-an-account">Creating and setting up an account</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../core_facilities/cluster_computing.html#first-time-setup">First-time setup</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../core_facilities/cluster_computing.html#per-project-setup">Per-project setup</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../core_facilities/cluster_computing.html#run-pipeline">Run pipeline</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../core_facilities/cluster_computing.html#troubleshooting">Troubleshooting</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../core_facilities/keck.html">Keck Microscopy Facility</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../core_facilities/myco_testing.html">Myco Testing</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../core_facilities/myco_testing.html#getting-access">Getting Access</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../core_facilities/myco_testing.html#submitting-testing-request-in-ilab">Submitting Testing Request in iLab</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../core_facilities/myco_testing.html#submitting-samples-for-testing">Submitting Samples for Testing</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../core_facilities/myco_testing.html#results">Results</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../core_facilities/seqdata_transfer.html">Data Transfer of Sequenced files from BioMicro Center to Supercloud</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../core_facilities/supercloud.html">MIT SuperCloud Access</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../keyence/keyence_use.html">Keyence beginner’s user guide</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../keyence/keyence_use.html#basic-operation">Basic Operation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../keyence/keyence_use.html#default-image-settings">Default image settings</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../keyence/keyence_use.html#x-magnification">60X Magnification</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../keyence/keyence_use.html#tips-for-cleaning">Tips for cleaning</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../keyence/keyence_use.html#how-to-use-the-60x-lens">How to use the 60X lens</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../keyence/keyence_use.html#multi-point-capture">Multi-point capture</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../keyence/keyence_use.html#z-stack">Z-stack</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../keyence/keyence_use.html#stitching">Stitching</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../keyence/timelapse.html">Keyence Time Lapse Imaging</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../keyence/timelapse.html#setting-up-the-incubation-chamber">Setting up the incubation chamber</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../keyence/timelapse.html#using-the-keyence-software">Using the Keyence Software</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../keyence/timelapse.html#tips-and-tricks">Tips and Tricks</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../protocols/index.html">Protocols</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../protocols/biochem_and_analytics/index.html">Biochemical and analytical protocols</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../protocols/biochem_and_analytics/genomics_sequencing/index.html">Genomics and sequencing methods</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/biochem_and_analytics/genomics_sequencing/cut_and_tag.html">CUT&amp;Tag</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/biochem_and_analytics/genomics_sequencing/gap_run.html">GapRUN</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/biochem_and_analytics/genomics_sequencing/RCMC.html">Region Capture Micro-C</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/biochem_and_analytics/genomics_sequencing/sci_ATAC_seq.html">sci-ATAC-seq</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/biochem_and_analytics/genomics_sequencing/nonpolyA_sequencing.html">Non-pA and pA transcript sequencing</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/biochem_and_analytics/genomics_sequencing/RNAseq_plasmidsaurus.html">Bulk RNAseq with Plasmidsaurus</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/biochem_and_analytics/genomics_sequencing/single_shot_rna_isolation_and_rt.html">SingleShot RNA isolation and Reverse Transcription</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/biochem_and_analytics/genomics_sequencing/test_pcrs.html">Test PCRs</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/biochem_and_analytics/genomics_sequencing/HIVE.html">HIVE scRNA-seq</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/biochem_and_analytics/genomics_sequencing/tn5_titration.html">Titration of Tn5 transposition in MEFs</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/biochem_and_analytics/genomics_sequencing/nuclei_isolation_genomics.html">Nuclei Isolation for Downstream Genomics Applications</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/biochem_and_analytics/genomics_sequencing/atac_see.html">ATAC-see</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/biochem_and_analytics/genomics_sequencing/magnetic_bead.html">Magnetic bead clean-up for genomics libraries</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/biochem_and_analytics/genomics_sequencing/index.html#recipes">Recipes</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/biochem_and_analytics/genomics_sequencing/index.html#sequencing-technologies">Sequencing technologies</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../protocols/biochem_and_analytics/staining_labeling/index.html">Staining and labeling</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/biochem_and_analytics/staining_labeling/EU.html">Homemade EU click</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/biochem_and_analytics/staining_labeling/antibody_staining.html">Immunofluorescent Staining</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/biochem_and_analytics/staining_labeling/ap_staining.html">Alkaline Phosphatase Staining</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/biochem_and_analytics/staining_labeling/cfse_labeling.html">CellTrace Dye Labeling</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/biochem_and_analytics/staining_labeling/halo_labeling.html">Halo-tag Labeling</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/biochem_and_analytics/staining_labeling/hoechst_staining.html">Live nuclear staining using Hoechst</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/biochem_and_analytics/staining_labeling/snap_labeling.html">Snap-tag Labeling</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../protocols/biochem_and_analytics/imaging_analysis/index.html">Imaging and analysis</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/biochem_and_analytics/imaging_analysis/cellbaum.html">CellBaum User’s Guide</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/biochem_and_analytics/imaging_analysis/confocal.html">Sample Prep and Confocal Imaging at the Koch Microscopy core</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/biochem_and_analytics/imaging_analysis/image_segmentation.html">Image segmentation and particle analysis in ImageJ</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/biochem_and_analytics/imaging_analysis/ki_image_analysis.html">Image analysis using the KI workstation - Nemo</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../protocols/biochem_and_analytics/other/index.html">Other biochemical and analytical protocols</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/biochem_and_analytics/other/ddPCR.html">Droplet Digital PCR (ddPCR)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/biochem_and_analytics/other/hcr_dna_fish.html">HCR DNA-FISH</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/biochem_and_analytics/other/hcr_rna_fish.html">HCR RNA-FISH</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/biochem_and_analytics/other/kapa_sybr_fast_qpcr.html">KAPA SYBR® FAST qPCR</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/biochem_and_analytics/other/psoralen_qpcr.html">Psoralen-qPCR supercoiling assay</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/biochem_and_analytics/other/single_cell_qpcr.html">Single cell qPCR</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/biochem_and_analytics/other/western_blot.html">Western Blot</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../protocols/cloning/index.html">Cloning protocols</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../protocols/cloning/_overview.html">Cloning Workflow Overview</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/cloning/_overview.html#step-1-generate-dna-fragments">Step 1: Generate DNA fragments</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/cloning/_overview.html#step-2-assemble-plasmids">Step 2: Assemble plasmids</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/cloning/_overview.html#step-3-transform-bacteria">Step 3: Transform bacteria</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/cloning/_overview.html#step-4-screen-colonies">Step 4: Screen colonies</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/cloning/_overview.html#step-5-purify-plasmid-dna">Step 5: Purify plasmid DNA</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/cloning/_overview.html#step-6-sequence">Step 6: Sequence</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/cloning/_overview.html#step-7-glycerol-stock">Step 7: Glycerol stock</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/cloning/_overview.html#starting-with-an-assembled-plasmid">Starting with an assembled plasmid</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/cloning/_overview.html#cloning-workflow-timeline">Cloning Workflow Timeline</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../protocols/cloning/colony_pcr.html">Colony PCR</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/cloning/colony_pcr.html#materials">Materials</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/cloning/colony_pcr.html#protocol">Protocol</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/cloning/colony_pcr.html#for-hard-to-amplify-templates">For hard-to-amplify templates</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../protocols/cloning/digest.html">Restriction digest</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../protocols/cloning/dna_cleanup.html">DNA cleanup</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../protocols/cloning/gel_electrophoresis.html">Gel electrophoresis and extraction of DNA</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/cloning/gel_electrophoresis.html#gel-electrophoresis">Gel electrophoresis</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/cloning/gel_electrophoresis.html#gel-extraction">Gel extraction</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../protocols/cloning/gibson.html">Gibson assembly</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/cloning/gibson.html#protocol">Protocol</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../protocols/cloning/glycerol_stocking.html">Glycerol stocking</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../protocols/cloning/golden_gate.html">Golden Gate assembly</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/cloning/golden_gate.html#protocol">Protocol</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/cloning/golden_gate.html#for-difficult-assemblies">For difficult assemblies</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/cloning/golden_gate.html#in-house-golden-gate-assembly-scheme">In-house Golden Gate assembly scheme</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../protocols/cloning/ligation_assembly.html">Ligation assembly</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/cloning/ligation_assembly.html#protocol">Protocol</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../protocols/cloning/lr_cloning.html">LR cloning</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/cloning/lr_cloning.html#protocol">Protocol</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/cloning/lr_cloning.html#expected-results">Expected results</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../protocols/cloning/oligo_annealing.html">Oligo phosphorylation and annealing</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/cloning/oligo_annealing.html#oligo-phosphorylation">Oligo phosphorylation</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/cloning/oligo_annealing.html#oligo-annealing">Oligo annealing</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/cloning/oligo_annealing.html#combined-oligo-phosphorylation-and-annealing">Combined oligo phosphorylation and annealing</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../protocols/cloning/pcr.html">Polymerase chain reaction (PCR)</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/cloning/pcr.html#q5">Q5</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/cloning/pcr.html#primestar">PrimeSTAR</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/cloning/pcr.html#taq">Taq</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/cloning/pcr.html#kod-xtreme">KOD Xtreme</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/cloning/pcr.html#confirm-and-purify">Confirm and purify</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/cloning/pcr.html#calculating-annealing-temperatures">Calculating annealing temperatures</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/cloning/pcr.html#pcr-variations">PCR variations</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/cloning/pcr.html#troubleshooting">Troubleshooting</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../protocols/cloning/plasmidprepping.html">Plasmid prepping</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/cloning/plasmidprepping.html#miniprep">Miniprep</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/cloning/plasmidprepping.html#midiprep">Midiprep</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/cloning/plasmidprepping.html#maxiprep">Maxiprep</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../protocols/cloning/tips_and_tricks.html">Cloning tips, tricks, and troubleshooting</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/cloning/tips_and_tricks.html#help-i-got-no-colonies">Help! I got no colonies</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/cloning/tips_and_tricks.html#designing-cloning">Designing cloning</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../protocols/cloning/transformation.html">Bacterial transformation</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/cloning/transformation.html#cloning-summary">Cloning summary</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/cloning/transformation.html#transformation-of-chemically-competent-bacteria">Transformation of chemically competent bacteria</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../protocols/in_vitro_transcription/index.html">in vitro transcription</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../protocols/in_vitro_transcription/DNA_template_design.html">Design and preparation of DNA IVT template</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/in_vitro_transcription/DNA_template_design.html#creating-a-new-ivt-template-plasmid">Creating a new IVT template plasmid</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/in_vitro_transcription/DNA_template_design.html#generating-ivt-linear-dna-template-from-an-ivt-template-plasmid">Generating IVT linear DNA template from an IVT template plasmid</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/in_vitro_transcription/DNA_template_design.html#pcr-amplified-template">PCR-amplified template</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/in_vitro_transcription/DNA_template_design.html#mlui-digested-template">MluI digested template</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../protocols/in_vitro_transcription/circRNA_synthesis.html">circRNA synthesis</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/in_vitro_transcription/circRNA_synthesis.html#generating-ivt-linear-dna-template-from-plasmid">Generating IVT linear DNA template from plasmid</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/in_vitro_transcription/circRNA_synthesis.html#ivt-reaction-for-circrna">IVT reaction for circRNA</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../protocols/in_vitro_transcription/mRNA_synthesis.html">modRNA synthesis</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/in_vitro_transcription/mRNA_synthesis.html#ivt-reaction">IVT reaction</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/in_vitro_transcription/mRNA_synthesis.html#ivt-using-mlui-digested-pkg3198-polya-encoded-on-plasmid">IVT using MluI-digested pKG3198 (polyA encoded on plasmid)</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../protocols/in_vitro_transcription/mRNA_transfection.html">mRNA transfection</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/in_vitro_transcription/mRNA_transfection.html#messengermax-transfection-protocol">MessengerMax transfection protocol</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/in_vitro_transcription/mRNA_transfection.html#stemmacs-transfection-protocol">StemMACS transfection protocol</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../protocols/protein_production/index.html">Protein production</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../protocols/protein_production/bis_tris_protein_gels.html">Protein gel casting</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/protein_production/bis_tris_protein_gels.html#required-stock-solutions">Required stock solutions</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/protein_production/bis_tris_protein_gels.html#casting-protocol">Casting protocol</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/protein_production/bis_tris_protein_gels.html#gel-casting-setup">Gel casting setup</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../protocols/protein_production/chitin_protein_purification.html">Chitin-binding protein purification</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/protein_production/chitin_protein_purification.html#required-solutions">Required solutions</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/protein_production/chitin_protein_purification.html#protocol">Protocol</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/protein_production/chitin_protein_purification.html#dialysis-and-concentration-protocol">Dialysis and concentration protocol</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/protein_production/chitin_protein_purification.html#regeneration-protocol">Regeneration Protocol</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../protocols/protein_production/denaturing_protein_gel.html">Denaturing protein gel run and staining</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/protein_production/denaturing_protein_gel.html#solutions-required">Solutions required</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/protein_production/denaturing_protein_gel.html#running-procedure">Running procedure</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/protein_production/denaturing_protein_gel.html#staining-coomassie">Staining (Coomassie)</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../protocols/protein_production/gaprun_protein_production.html">Nanobody-MNase production for GapRUN</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/protein_production/gaprun_protein_production.html#required-materials">Required materials</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/protein_production/gaprun_protein_production.html#stock-buffer-preparation">Stock buffer preparation</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/protein_production/gaprun_protein_production.html#day-n">Day -n</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/protein_production/gaprun_protein_production.html#day-0">Day 0</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/protein_production/gaprun_protein_production.html#day-1">Day 1</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/protein_production/gaprun_protein_production.html#day-2">Day 2</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/protein_production/gaprun_protein_production.html#day-3">Day 3</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../protocols/protein_production/protein_expression.html">Protein expression</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/protein_production/protein_expression.html#protocol">Protocol</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../protocols/protein_production/protein_purification.html">His-tag protein purification</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/protein_production/protein_purification.html#source">Source</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/protein_production/protein_purification.html#required-solutions">Required solutions</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/protein_production/protein_purification.html#protocol">Protocol</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../protocols/tc/index.html">TC protocols</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../protocols/tc/iPSCs/index.html">Induced pluripotent stem cells (iPSCs)</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/tc/iPSCs/SI_Landing_pads.html">STRAIGHT-IN Landing Pad Creation</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/tc/iPSCs/SI_line_procedure.html">STRAIGHT-IN Line Procedure</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/tc/iPSCs/ipsc_culture.html">Culturing Human iPSCs</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/tc/iPSCs/ipsc_transfection.html">Transient Transfection of iPSCs</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../protocols/tc/other/index.html">Other TC Protocols</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/tc/other/MEF_isolation.html">MEF Isolation Protocol</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/tc/other/Rogi1_and_Rogi2_LPs.html">293T Rogi2 single LP V4 (cKG087)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/tc/other/SNAP_circuit.html">SNAP circuit</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/tc/other/cell_line_creation.html">Cell Line Creation</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/tc/other/cell_line_creation.html#rogi1-and-rogi2-lps">Rogi1 and Rogi2 LPs</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/tc/other/electroporation_of_plasmids_into_MEFs.html">Electroporation of plasmids into MEFs</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/tc/other/murine_bone_marrow.html">Murine Bone Marrow Isolation</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/tc/other/splenocyte.html">Murine Splenocyte Isolation</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/tc/other/transgene_expression_via_ribozyme_switch.html">Transgene expression control through ribozyme switch (96-well plate version)</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../protocols/tc/reprogramming/index.html">Reprogramming</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/tc/reprogramming/MEF_to_iPSC_reprogramming.html">MEF-to-iPSC Reprogramming</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/tc/reprogramming/human_reprogramming.html">Human Fibroblast to iMN Reprogramming</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/tc/reprogramming/laminin_coating_reprogram.html">Laminin coating for human reprogramming</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/tc/reprogramming/neuron_coating_reprogram.html">Specialized coatings for neurons</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/tc/reprogramming/neuron_coating_reprogram.html#x-borate-buffer-for-tc">1X Borate Buffer for TC</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/tc/reprogramming/neuron_coating_reprogram.html#pei-coating-for-neurons">PEI coating for neurons</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/tc/reprogramming/neuron_coating_reprogram.html#plo-coating-for-neurons">PLO coating for neurons</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/tc/reprogramming/platE_MEF_reprogramming.html">MEF-to-iMN Reprogramming</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/tc/reprogramming/sort_Hb9GFPiMNs.html">Hb9::GFP iMN sort</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../protocols/tc/tc-basics/index.html">TC Basics</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/tc/tc-basics/TC_basics.html">TC Best Practices</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/tc/tc-basics/adherent_cell_culture.html">Adherent Cell Culture</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/tc/tc-basics/cryopreservation_and_thawing.html">Freezing and thawing cells</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/tc/tc-basics/flow_cytometry.html">Flow Cytometry</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/tc/tc-basics/glass_slide.html">Glass slide cell culture</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/tc/tc-basics/jurkat_cell_culture.html">Culturing Jurkat Cells</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/tc/tc-basics/transient_transfection.html">Transient HEK293T Transfection</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../protocols/tc/virus/index.html">Virus</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/tc/virus/virus_safety.html">Virus safety</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/tc/virus/virus_production.html">Virus production in HEK293T cells</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/tc/virus/virus_infection.html">Viral transduction</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/tc/virus/platE_prod.html">Plat-E Retroviral Production</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/tc/virus/VSV_production.html">VSV production</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/tc/virus/AAV_production.html">AAV production in HEK293T</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../protocols/tc/virus/viral_titer.html">Measuring viral titer</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../recipes/index.html">Recipes</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../recipes/bacteria/index.html">Bacterial recipes</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../recipes/bacteria/LBmedia.html">LB selection plates</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../recipes/bacteria/antibiotic_stock.html">Antibiotic Stock Recipes</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../recipes/bacteria/antibiotic_stock.html#x-ampicillin-amp">1000X Ampicillin (Amp)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../recipes/bacteria/antibiotic_stock.html#x-kanamycin-kan">1000X Kanamycin (Kan)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../recipes/bacteria/antibiotic_stock.html#x-chloramphenicol-chlor">1000X Chloramphenicol (Chlor)</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../recipes/bacteria/competent_cells.html">Competent cells (NEB stable)</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../recipes/bacteria/competent_cells.html#day-1-start-an-overnight-culture">Day 1. Start an overnight culture</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../recipes/bacteria/competent_cells.html#day-2-prepare-competent-cells">Day 2. Prepare competent cells</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../recipes/bacteria/competent_cells.html#day-4-check-for-cell-growth">Day 4. Check for cell growth</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../recipes/bacteria/dna_wash.html">DNA wash buffer</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../recipes/bacteria/dna_wash.html#dna-wash-stock-solution-5x">DNA wash stock solution (5x)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../recipes/bacteria/dna_wash.html#id1">DNA wash buffer</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../recipes/bacteria/media.html">Bacterial media recipes</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../recipes/bacteria/media.html#tb-terrific-broth">TB (Terrific Broth)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../recipes/bacteria/media.html#x-tb-salts">10x TB salts</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../recipes/bacteria/media.html#soc-media">SOC Media</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../recipes/bacteria/media.html#lb-media">LB Media</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../recipes/bacteria/othersolutions.html">Other Solutions</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../recipes/bacteria/othersolutions.html#glycerol-60">Glycerol (60%)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../recipes/bacteria/othersolutions.html#xtae-buffer">1xTAE buffer</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../recipes/biochem_and_analytics/index.html">Recipes for biochemical and analytical protocols</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../recipes/biochem_and_analytics/fish_buffers.html">FISH buffers</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../recipes/biochem_and_analytics/fish_buffers.html#probe-hybridization-buffer">Probe Hybridization Buffer</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../recipes/biochem_and_analytics/fish_buffers.html#probe-wash-buffer">Probe Wash Buffer</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../recipes/biochem_and_analytics/fish_buffers.html#probe-amplification-buffer">Probe Amplification Buffer</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../recipes/biochem_and_analytics/fish_buffers.html#x-ssct">5X SSCT</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../recipes/biochem_and_analytics/shared_genomics_buffers.html">Shared genomics buffers</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../recipes/tc/index.html">TC recipes</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../recipes/tc/DNase_papain.html">DNase (2X) and papain (2X)</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../recipes/tc/DNase_papain.html#dnase-and-papain-from-2x">DNase and papain from 2X</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../recipes/tc/DNase_papain.html#l-cysteine-50-mm">L-Cysteine (50 mM)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../recipes/tc/DNase_papain.html#papain-2x-1mm-edta-2mm-l-cysteine-40-u-papain-ml">Papain (2X: 1mM EDTA, 2mM L-cysteine, 40 U papain/mL)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../recipes/tc/DNase_papain.html#dnase-2x-4-000-u-ml-solution">DNase (2X: 4,000 U/mL solution)</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../recipes/tc/FBS_heatinact.html">FBS heat inactivation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../recipes/tc/common_TC_aliquots.html">Common aliquot sizes for TC</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../recipes/tc/common_TC_aliquots.html#neurotrophic-factor-stocks-10kx-and-1kx">Neurotrophic factor stocks (10kx and 1kx)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../recipes/tc/common_TC_aliquots.html#repsox-1kx">RepSox (1kx)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../recipes/tc/common_TC_aliquots.html#fetal-bovine-serum-fbs-aliquots-50-ml">Fetal Bovine Serum (FBS) Aliquots (50 mL)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../recipes/tc/common_TC_aliquots.html#pen-strep-aliquots-100x-5-ml">Pen-strep aliquots (100X, 5 mL)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../recipes/tc/common_TC_aliquots.html#x-geltrex-aliquots">50X Geltrex aliquots</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../recipes/tc/media.html">TC media recipes</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../recipes/tc/media.html#n3-media">N3 media</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../recipes/tc/media.html#mef-media">MEF media</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../recipes/tc/media.html#breast-cancer-1-media">Breast cancer 1 media</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../recipes/tc/media.html#breast-cancer-2-media">Breast cancer 2 media</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../recipes/tc/media.html#breast-cancer-3-media">Breast cancer 3 media</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../recipes/tc/media.html#breast-cancer-4-media">Breast cancer 4 media</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../recipes/tc/media.html#epithelial-cell-1-media">Epithelial cell 1 media</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../recipes/tc/media.html#epithelial-cell-2-media">Epithelial cell 2 media</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../recipes/tc/media.html#glia-media">Glia media</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../recipes/tc/media.html#sorting-collection-media">Sorting/Collection media</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../recipes/tc/media.html#motor-neuron-dissociation-media">Motor neuron dissociation media</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../recipes/tc/media.html#freezing-media">Freezing media</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../recipes/tc/media.html#hepes-buffered-dmem">HEPES-buffered DMEM</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../recipes/tc/media.html#ipsc-reprogramming-media">iPSC Reprogramming Media</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../recipes/tc/other-tc-solutions.html">Other TC Solutions</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../recipes/tc/other-tc-solutions.html#phosphate-buffered-saline-pbs">Phosphate buffered saline (PBS)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../recipes/tc/other-tc-solutions.html#gelatin">0.1% Gelatin</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../recipes/tc/other-tc-solutions.html#edta-0-5m-ph-8-0">EDTA (0.5M, pH=8.0)</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../recipes/tc/pei.html">PEI Stocks</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../recipes/tc/pei.html#materials">Materials</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../recipes/tc/pei.html#dissolve-and-aliquot-pei">Dissolve and Aliquot PEI</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../recipes/tc/pei.html#test-pei-ratio">Test PEI Ratio</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../recipes/tc/pei.html#reference">Reference</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../recipes/tc/small_mol_stocks.html">Small molecule stocks for TC</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../recipes/tc/small_mol_stocks.html#antibiotic-concentrations">Antibiotic concentrations</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../recipes/tc/small_mol_stocks.html#other-stock-and-working-concentrations">Other stock and working concentrations</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../recipes/tc/small_mol_stocks.html#indole-3-acetic-acid-auxin-iaa">Indole-3-acetic acid (Auxin, IAA)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../recipes/tc/small_mol_stocks.html#indole-3-acetamide-auxin-precursor-iam">Indole-3-acetamide (Auxin precursor, IAM)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../recipes/tc/small_mol_stocks.html#mm-o6-benzylguanine-o6bg">50mM O6-Benzylguanine (O6BG)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../recipes/tc/small_mol_stocks.html#mm-guanine">25mM Guanine</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../recipes/tc/small_mol_stocks.html#m-ap1903-rimiducid-1000x-stock-old-dsp">50 μM AP1903/Rimiducid (1000x stock - old DSP)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../recipes/tc/small_mol_stocks.html#mm-or-100-m-ap1903-rimiducid-100kx-or-10kx-stock-current-nbw">1 mM or 100 µM AP1903/Rimiducid (100kx or 10kx stock - current NBW)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../recipes/tc/small_mol_stocks.html#puromycin-1-mg-ml-1-000x-stock">Puromycin, 1 mg / mL (1,000x stock)</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../plot_gallery/index.html">Plot Gallery</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../plot_gallery/exporting_high_quality_figures.html">High-quality PDF figure export</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../plot_gallery/exporting_high_quality_figures.html#intro">Intro</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../plot_gallery/exporting_high_quality_figures.html#problematic-features">Problematic features</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../plot_gallery/exporting_high_quality_figures.html#transparency-opacity">Transparency/opacity</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../plot_gallery/exporting_high_quality_figures.html#gradients-blurs">Gradients/blurs</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../plot_gallery/exporting_high_quality_figures.html#final-figure-export">Final figure export</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../plot_gallery/exporting_high_quality_figures.html#illustrator">Illustrator</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../plot_gallery/exporting_high_quality_figures.html#matplotlib-python">Matplotlib/Python</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../plot_gallery/exporting_high_quality_figures.html#preflight">Preflight</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../plot_gallery/flow_with_adjunct_hist.html">Flow plots with adjunct histograms</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../plot_gallery/histograms.html">Histograms</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../plot_gallery/histograms.html#function-to-make-subplots-for-several-variables">Function to make subplots for several variables</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../plot_gallery/mixed_distribution_mean_plots.html">Mixed distribution + mean plots</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../plot_gallery/mixed_distribution_mean_plots.html#gating-plot">Gating plot</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../plot_gallery/mixed_distribution_mean_plots.html#box-plot-with-well-means">Box plot with well means</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../plot_gallery/mixed_distribution_mean_plots.html#violin-plot-with-well-means">Violin plot with well means</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../plot_gallery/multi_axes_plots.html">Multiple-axes plots</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../plot_gallery/test.html">Testing matplotlib directives</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../plot_gallery/test.html#subheading">Subheading</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../plot_gallery/index.html#notes-on-reproducing-examples">Notes on reproducing examples</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../writing_guide/index.html">Writing Guide</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../writing_guide/Additional_resources.html">Additional resources</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../writing_guide/Additional_resources.html#big-picture-resources">Big picture resources</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../writing_guide/Additional_resources.html#getting-into-the-finer-details">Getting into the finer details</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../writing_guide/PointsOfStyle.html">Points of style</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../writing_guide/PointsOfStyle.html#specific-and-nonspecific-subjects">Specific and nonspecific subjects</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../writing_guide/PointsOfStyle.html#hyphenation">Hyphenation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../writing_guide/PointsOfStyle.html#numbers-in-text">Numbers in text</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../writing_guide/PointsOfStyle.html#how-to-write-gene-and-protein-names">How to write gene and protein names?</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../writing_guide/PointsOfStyle.html#references">References</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../writing_guide/guiding_principles.html">Guiding principles</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../writing_guide/guiding_principles.html#tips">Tips</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../writing_guide/guiding_principles.html#outline">Outline</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../writing_guide/guiding_principles.html#active-voice">Active Voice</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../writing_guide/guiding_principles.html#editing-and-revising">Editing and revising</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../writing_guide/index.html#what-is-a-paper">What is a paper?</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../training/index.html">Training</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../training/onboarding/index.html">Onboarding</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../training/onboarding/day_0_setup.html">Day 0: Software and training setup</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../training/onboarding/day_0_setup.html#ehs-setup-and-trainings">EHS setup and trainings</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../training/onboarding/day_0_setup.html#software-and-webservices">Software and webservices</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../training/onboarding/day_1_in-lab.html">Day 1: First day in lab</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../training/onboarding/day_1_in-lab.html#onboarding-form">Onboarding form</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../training/onboarding/day_1_in-lab.html#lab-specific-safety-training">Lab-specific safety training</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../training/onboarding/day_1_in-lab.html#lab-citizenship">Lab citizenship</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../training/onboarding/day_1_in-lab.html#core-facility-access">Core facility access</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../training/onboarding/day_2_content-trainings.html">Day 2+: Content-specific trainings</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../training/onboarding/day_2_content-trainings.html#core-lab-techniques">Core lab techniques</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../training/onboarding/day_2_content-trainings.html#computational-skills">Computational skills</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../training/onboarding/day_2_content-trainings.html#research-reading-and-writing">Research reading and writing</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../training/onboarding/environment_check.html">Computational environment check</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../training/onboarding/environment_check.html#before-you-begin">Before you begin</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../training/onboarding/environment_check.html#initial-environment-check">Initial environment check</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../training/onboarding/environment_check.html#protocols-check">Protocols check</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../training/onboarding/environment_check.html#the-next-frontier">The next frontier</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../training/onboarding/git_intro.html">An introduction to Git</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../training/onboarding/git_intro.html#acknowledgements">Acknowledgements</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../training/onboarding/git_intro.html#motivation">Motivation</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../training/onboarding/git_intro.html#git-by-example">Git by example</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../training/onboarding/git_intro.html#basic-git-terms">Basic Git terms</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../training/onboarding/git_intro.html#downloading-or-starting-a-repository">Downloading or starting a repository</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../training/onboarding/git_intro.html#basic-history-terms-and-git-status-what-s-happening">Basic history terms and git status: What’s happening?</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../training/onboarding/git_intro.html#branching-out-adding-and-checking-out-files">Branching out, adding, and checking out files</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../training/onboarding/git_intro.html#snapshotting-your-work">Snapshotting your work</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../training/onboarding/git_intro.html#ignoring-files">Ignoring files</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../training/onboarding/git_intro.html#recovering-history-reverting-commits-and-file-level-checkouts">Recovering history: reverting commits and file-level checkouts</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../training/onboarding/git_intro.html#working-with-others-remotes-and-inevitable-merge-conflicts">Working with others: remotes and inevitable merge conflicts</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../training/onboarding/git_intro.html#conclusion">Conclusion</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../training/onboarding/software_tips_and_tricks.html">Software tips and tricks</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../training/onboarding/software_tips_and_tricks.html#naming-and-one-date-format-to-rule-them-all">Naming, and one date format to rule them all</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../training/onboarding/software_tips_and_tricks.html#paper-rss-feeds">Paper RSS feeds</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../training/onboarding/software_tips_and_tricks.html#creating-feeds-from-searches">Creating feeds from searches</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../training/onboarding/software_tips_and_tricks.html#zotero">Zotero</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../training/onboarding/software_tips_and_tricks.html#regex">Regex</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../training/onboarding/software_tips_and_tricks.html#yaml-files">YAML files</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../training/onboarding/software_tips_and_tricks.html#activate-snapgene-remotely">Activate SnapGene remotely</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../training/onboarding/startup_checklist.html">Startup checklist when working with repositories</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../training/onboarding/startup_checklist.html#new-repository-python">New repository (Python)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../training/onboarding/startup_checklist.html#new-repository-julia">New repository (Julia)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../training/onboarding/startup_checklist.html#new-repository-r">New repository (R)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../training/onboarding/startup_checklist.html#existing-repository-python">Existing repository (Python)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../training/onboarding/startup_checklist.html#existing-repository-julia">Existing repository (Julia)</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../training/onboarding/the_shell.html">On terminals and shells</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../training/onboarding/the_shell.html#motivation">Motivation</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../training/onboarding/the_shell.html#the-basics">The basics</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../training/onboarding/the_shell.html#interface-basics">Interface basics</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../training/onboarding/the_shell.html#starting-off-at-home">Starting off at home</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../training/onboarding/the_shell.html#moving-away-from-home">Moving away from home</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../training/onboarding/the_shell.html#relative-and-absolute-paths">Relative and absolute paths</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../training/onboarding/the_shell.html#file-operations">File operations</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../training/onboarding/the_shell.html#editing-and-viewing-files">Editing and viewing files</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../training/onboarding/the_shell.html#finding-things-in-documents">Finding things in documents</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../training/onboarding/the_shell.html#exercise">Exercise</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../training/onboarding/the_shell.html#extras">Extras</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../training/data_analysis/index.html">Data analysis tutorials</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../training/data_analysis/flowjo-gating.html">Gating cells in FlowJo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../training/data_analysis/flow-data-analysis.html">Loading flow cytometry data</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../training/data_analysis/flow-data-analysis.html#step-0-set-up-your-computational-environment">Step 0: Set up your computational environment</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../training/data_analysis/flow-data-analysis.html#step-1-specify-experimental-metadata">Step 1: Specify experimental metadata</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../training/data_analysis/flow-data-analysis.html#step-2-load-data-with-metadata-in-python">Step 2: Load data with metadata in Python</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../training/how-to/index.html">“How to” training series</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../training/how-to/tutorial1.html">Tutorial 1: How to Write a Proposal</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../training/how-to/tutorial2.html">Tutorial 2: How to Read a Paper</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../training/how-to/tutorial3.html">Tutorial 3: How to Review a Paper</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../training/how-to/tutorial4.html">Tutorial 4: Graphic Figure Design</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../training/how-to/tutorial5.html">Tutorial 5: How to Compose Figures</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../training/ode_training/index.html">Gene expression modeling with ODEs</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../training/ode_training/ode_tutorial1.html">Tutorial 1: Modeling gene expression with differential equations</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../training/ode_training/ode_tutorial2.html">Tutorial 2: Examining parameters affecting our models</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../training/ode_training/ode_tutorial3.html">Tutorial 3: Michaelis-Menten Kinetics</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../training/ode_training/ode_tutorial4.html">Tutorial 4: Modeling repressors</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../training/ode_training/ode_tutorial5.html">Tutorial 5: Hill functions</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../tech/index.html">Tech documentation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../tech/ci_builder_config.html">Builder config and update</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../tech/ci_builder_config.html#current-ci-jobs">Current CI jobs</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../tech/ci_builder_config.html#updating-the-ci-job">Updating the CI job</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../tech/frequent_problems.html">Possible build/install errors</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../tech/frequent_problems.html#virtual-environment-install-errors">Virtual environment install errors</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../tech/frequent_problems.html#no-pdf-is-generated-when-i-push">No PDF is generated when I push</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../tech/frequent_problems.html#my-screenshots-aren-t-visible">My screenshots aren’t visible</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../tech/labbot.html">Slack bot (labbot)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../tech/labbot.html#accessing-the-labbot-server">Accessing the labbot server</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../tech/labbot.html#updating-labbot">Updating labbot</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../tech/labbot.html#normal-updates">Normal updates</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../tech/labbot.html#unusual-updates">Unusual updates</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../tech/labbot.html#label-printing">Label printing</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../tech/nas_data_storage.html">Self-hosted data storage</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../tech/nas_data_storage.html#nas-setup">NAS setup</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../tech/nas_data_storage.html#nextcloud-setup">Nextcloud setup</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../tech/nas_data_storage.html#network-setup">Network setup</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../tech/nas_data_storage.html#touchstone-setup">Touchstone setup</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../tech/nas_data_storage.html#backup-setup">Backup setup</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../contributor_guide.html">Contributor guide</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../contributor_guide.html#local-environment-setup">Local environment setup</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../contributor_guide.html#text-editor">Text editor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../contributor_guide.html#git">git</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../contributor_guide.html#python-sphinx-setup">Python/Sphinx setup</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../contributor_guide.html#standard-workflow">Standard workflow</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../contributor_guide.html#local-building">Local building</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../contributor_guide.html#local-previewing">Local previewing</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../contributor_guide.html#in-case-of-build-errors">In case of build errors</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../contributor_guide.html#online-editing-through-github">Online editing through Github</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../contributor_guide.html#repository-layout">Repository layout</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../contributor_guide.html#basics-of-restructuredtext">Basics of reStructuredText</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../contributor_guide.html#simple-markup">Simple markup</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../contributor_guide.html#explicit-markup">Explicit markup</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../contributor_guide.html#admonitions">Admonitions</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../contributor_guide.html#code">Code</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../contributor_guide.html#tables">Tables</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../contributor_guide.html#references-and-links">References and links</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../contributor_guide.html#images">Images</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../contributor_guide.html#math">Math</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu"  style="background: #2c6854" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">Galloway Lab Protocols</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../index.html">Instrument Use and Core Facility Access</a></li>
+          <li class="breadcrumb-item"><a href="index.html">Nikon operation</a></li>
+      <li class="breadcrumb-item active">Live Cell Tracking</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../_sources/instruments/nikon/live_cell_tracking.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="live-cell-tracking">
+<h1>Live Cell Tracking<a class="headerlink" href="#live-cell-tracking" title="Link to this heading"></a></h1>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>Take images in as few fields of view as possible, with as few conditions as possible. Live tracking generates large quantities of data.</p>
+</div>
+<ol class="arabic simple">
+<li><p>At least 1 hour before imaging, turn on CO2 tank. Turn top knob to be completely open, and open valve so that it is inline with the tubing. Left gauge should read ~15-20 psi, right should read over 600 psi.</p></li>
+<li><p>Also at this time, turn on the Okolab controller display (E) so that it can start getting up to temp.</p></li>
+<li><p>Follow directions for <a class="reference internal" href="startup_shutdown.html#nikon-start"><span class="std std-ref">startup</span></a>.</p></li>
+<li><p>Ensure water tank is full to max line. Refill with sterile water and a serological.</p></li>
+<li><p>Replace stage with incubator stage (completely enclosed) if necessary.</p></li>
+<li><p>Turn on stage sensing (often the empty plates by the computer are better for sensing).</p></li>
+<li><p>Use the experiment suitable to your fluorescent needs (under the Fluorescence tab on the right panel).</p></li>
+<li><p>Find PFS offset (under PFS tab in rightmost panel).</p></li>
+<li><p>Click on Job Wizard (in the bottom left corner).</p></li>
+<li><p>If using an experiment from a previous run, double click to continue editing. If you click run and edited anything, you must save it under a new name.</p></li>
+<li><p>Turn on autofocus on brightfield (or whatever channel is constant between all conditions).</p></li>
+<li><p>Autofocus on one point.</p></li>
+<li><p>Turn on use autofocus when PFS fails.</p></li>
+<li><p>Do a test run (even if using a previous template, you must click on each module before it will let you proceed).</p></li>
+<li><p>Let the plate sit for ~20 min before starting image collection.</p></li>
+<li><p>To do media changes, hit the pause button in the corner (hit resume when plate is back in place).</p></li>
+<li><p>When live track is completed, follow directions for <a class="reference internal" href="startup_shutdown.html#nikon-start"><span class="std std-ref">shutdown</span></a>.</p></li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>MC has noticed the glass bottom plates get external gunk more easily than the plastic.
+If you’re noticing this in your BF, clean off all surfaces with a kim wipe and EtOH.</p>
+</div>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2026, Galloway Lab. Shared under the Creative Commons 4.0 Attribution International license.
+      <span class="lastupdated">Last updated on Mar 13, 2026.
+      </span></p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  
+
+  <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      <span class="fa fa-book"> Downloads and versions</span>
+      v: protocols_rthakur
+      <span class="fa fa-caret-down"></span>
+    </span>
+    <div class="rst-other-versions">
+      
+      
+      <dl>
+        <dt>Versions</dt>
+        
+          
+          <dd><a href="/protocols/en/latest/">latest</a></dd>
+          
+        
+           <strong> 
+          <dd><a href="/protocols/en/protocols_rthakur/">protocols_rthakur</a></dd>
+           </strong> 
+        
+          
+          <dd><a href="/protocols/en//"></a></dd>
+          
+        
+      </dl>
+      
+      
+      <dl>
+        <dt>Downloads</dt>
+        
+          <dd><a href="/protocols/en/protocols_rthakur/galloway_lab_protocols.pdf">pdf</a></dd>
+        
+      </dl>
+      
+      
+      <hr/>
+      Hosted with <span class="fa fa-heart"></span> on GitHub Pages.
+
+    </div>
+  </div>
+<script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
