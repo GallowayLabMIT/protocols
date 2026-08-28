@@ -66,6 +66,15 @@ antibodies each, you'd have 32 reactions (aka samples).
 Preparation (N days before)
 ============================
 - Order the CUT&Tag-IT Express and CUT&Tag Spike-in Control kits linked above. These typically ship within a few days of ordering.
+  Store the reagents at the proper temperature:
+
+   - **Room temperature** (open bottles inside genomics hood): DNA Purification Binding Buffer, DNA Purification Wash Buffer, DNA Purification Elution Buffer
+   - **Room temperature** (cabinet under genomics hood): Tn5 Release Solution, extras of above buffers
+   - **4ºC** (Sven drawer): 1X Binding Buffer, Dig-Wash Buffer, Dig-300 Buffer, Antibody Buffer, Tagmentation Buffer, ConA beads (tube), silica beads (tube), SPRI beads
+   - **–20ºC** (Sven Active Motif box): Protease Inhibitor Cocktail (PIC), 5% Digitonin, secondary antibodies (alpaca anti-rabbit, rabbit anti-mouse), pA-Tn5 Transposomes, Glycogen, Proteinase K, i5 and i7 index primers
+   - **–20ºC** (Sven CUT&Tag antibodies sleeve): primary antibodies, Spike-in control antibody
+   - **–80ºC** (Queen Iduna red bin): Spike-in nuclei
+
 - Check the Concanavalin A (ConA) beads for aggregation. To do so, pipet thoroughly to 
   resuspend the beads, then dilute 1 µL of beads in 9 µL of 0.1x TE (or water). Transfer
   the 10 µL to the hemocytometer (there's one by the microscope in 66-219) and look under the microscope.
@@ -125,10 +134,10 @@ Activate ConA beads
    The original protocol suggests you do this before preparing the cells, but does not order the
    protocol in this way.
 
-6. Resuspend the ConA beads via trituration and aliquot 10 µL per sample in low-binding 1.7-mL tubes. Batch up to 80 µL (for 8 samples) per tube.
-7. Place tubes on the magnet. Once clear, remove the supernatant.
-8. Remove tubes from the magnet and resuspend in 100 µL of activation / binding buffer (Active Motif 1X Binding Buffer) per sample. This should be 10x the original bead volume. Incubate at room temperature for 10-15 minutes.
-9. Place tubes on the magnet and discard the supernatant once clear.
+1. Resuspend the ConA beads via trituration and aliquot 10 µL per sample in low-binding 1.7-mL tubes. Batch up to 80 µL (for 8 samples) per tube.
+2. Place tubes on the magnet. Once clear, remove the supernatant.
+3. Remove tubes from the magnet and resuspend in 100 µL of activation / binding buffer (Active Motif 1X Binding Buffer) per sample. This should be 10x the original bead volume. Incubate at room temperature for 10-15 minutes.
+4. Place tubes on the magnet and discard the supernatant once clear.
 
 c. If using the Cell Signaling Technology ConA beads, repeat the 100 µL wash step, as CST provides enough reagents
    for two washes.
@@ -338,7 +347,8 @@ Extact DNA
     .. note::
 
       It is typical for the beads to form a large clump during the incubation. Do your best to mix
-      here and in the next few steps; it will be difficult to fully homogenize the solution.
+      here and in the next few steps; it will be difficult to fully homogenize the solution. This requires
+      **several minutes** of pipetting per sample at this step.
 
 40. Incubate the reaction for 1 hour at 55°C in a thermocycler, with the heated lid set to 65°C.
 
@@ -351,14 +361,17 @@ l. If the extraction buffers are new, follow the instructions on the bottles: ad
 
 41. Add 40 µL of DEPC-treated water to each sample and mix well via pipetting. Place back at 55°C for 5 minutes.
 
-m. Pipet well until the bead/cell clump is broken up. Add 100 µL of DNA Purification Binding Buffer (60% IPA)
-   to each sample to help with homogenization. Pipet with the volume set below 180 µL to avoid air bubbles.
-   Place the samples on the magnet and ensure the beads pellet well.
+   .. note::
+      This is the ``C&T/release`` thermocycler protocol.
 
-44. Vortex the silica beads for at least 30 seconds.
+44. While the samples are incubating, prepare the silica beads. Begin by vortexing the silica beads for at least 30 seconds.
 45. Pipet 25 µL of silica beads per sample into fresh PCR tubes. Place tubes on a magnet.
 
-n. Discard the supernatant from the beads, then take the beads off the magnet. Add 35 µL of DNA Purification Binding Buffer.
+m. Discard the supernatant from the silica beads, then take the beads off the magnet. Add 35 µL of DNA Purification Binding Buffer.
+
+n. When the samples are done incubating, pipet well until the bead/cell clump is broken up. Add 100 µL of DNA Purification Binding Buffer (60% IPA)
+   to each sample to help with homogenization. Pipet with the volume set below 180 µL to avoid air bubbles.
+   Place the samples on the magnet and ensure the beads pellet well.
 
 48. Remove ~180 µL total supernatant from the samples while still on the magnet, adding it to the silica bead tubes.
     Pipet well to mix and incubate at room temperature for 5 minutes.
@@ -381,18 +394,27 @@ n. Discard the supernatant from the beads, then take the beads off the magnet. A
 Day 3+
 ======
 
+.. time::
+   Total: ~9 hours
+      - Test PCR ~2.5 hours
+      - "Real" PCR and cleanup ~2.5 hours 
+      - Library QC ~2.5 hours
+      - Library pooling ~1 hour
+
 PCR amplify
 -----------
 
 o. Follow the :doc:`Test PCR protocol </protocols/biochem_and_analytics/genomics_sequencing/test_pcrs>` with the following parameters:
 
-  - Use 3 µL of the 23 µL elution for test PCR purposes. 20 µL will be used in the real PCR, so :math:`\log_2(15/ 0.7) = 4.84` delta cycles.
-  - Use the ``tagmentation_fwd`` and ``tagmentation_rev`` primers.
-  - Target 100 ng. Perform 16/19/22 test cycles.
-  - The final cycle count should be around 12 cycles.
+  - Use 3 µL of the 23 µL elution for the test PCR; 20 µL will be used in the "real" PCR
+  - Use the ``tagmentation_fwd`` and ``tagmentation_rev`` primers
+  - Perform the test PCR with cycle counts 16, 19, 22
+  - For the "real" PCR, target 100 ng of the final amplified libraries; this should require ~12 cycles
 
-56. Using the optimal cycle counts from the test PCR, setup indexed PCR reactions:
-    
+56. Set up the "real" PCR with indexed primers.
+    Choose a unique set of indexed primers for each library. For instance, use a different i7 primer for each cell condition and 
+    a different i5 primer for each antibody. Use the primers that come with the CUT&Tag kit (Sven –20ºC kit box). For the master mix,
+    use the NEBNext reagent (`NEB E7645 <https://www.neb.com/en-us/products/e7645-nebnext-ultra-ii-dna-library-prep-kit-for-illumina>`__, Sven –20ºC "Library prep reagents" box) instead of the one that comes with the kit.
     
     =======================================  ======
     Component                                Volume
@@ -401,35 +423,46 @@ o. Follow the :doc:`Test PCR protocol </protocols/biochem_and_analytics/genomics
     i5 indexed primer (Nextera compatible)   1 µL
     i7 indexed primer (Nextera compatible)   1 µL
     Water                                    3 µL
-    Tagmented DNA sample                     20 µL
+    Pre-amplification library                20 µL
     =======================================  ======
 
-57. Perform PCRs with the following program:
+57. Using the optimal cycle counts from the test PCR, run the "real" PCR with the following program (``lib_prep/pcr``):
 
      ==========  =============  ==============================================
      Temp (°C)   Time (MM:SS)   Description
      ==========  =============  ==============================================
      72          5:00           Polymerase activation
      98          0:30           Initial denaturation
-     --          --             Optimal number of cycles
+     --          --             *Optimal number of cycles of:*
      98          0:10           Denaturation
      65          1:15           Extension
-     --          --             cycle end
+     --          --             *[end cycle]*
      4           Hold           Final hold
      ==========  =============  ==============================================
 
+     It is possible that the cycle counts will differ across samples. If that is the case, use the ``lib_prep/test_pcr`` thermocycler protocol, removing samples
+     at the hold steps as needed.
+
 p. Vortex SPRI beads well, at least 30 seconds. Prepare fresh 80% ethanol for the bead wash steps, 400 µL per sample.
 
-58. Perform a double-sided SPRI bead clean-up. Add 25 µL SPRI (0.5x) to each sample, pipette to mix, and incubate at room temperature for 5 minutes.
+58. Perform a double-sided SPRI bead clean-up. Add 25 µL SPRI (0.5x) to each sample, pipet to mix, and incubate at room temperature for 5 minutes.
 59. Place tubes on the magnet and move the supernatant to new PCR tubes. Discard the beads.
-60. Add 35 µL of SPRI beads to the sample (0.7x sample volume, for a 1.2X final ratio), mix well via pipetting, and incubate at room temperature for 5 minutes.
-61. Place tubes on the magnet, remove and discard the supernatant. Wash the beads twice with 200 µL of 80% ethanol, without disturbing the beads
-    or removing the beads from the magnet.
-62. Allow the beads to dry until the shiny-to-matte transition happens, not longer than 5 minutes. Add 22 µL of DNA Purification Elution buffer, pipette to mix,
-    let sit at room temperature for 1 minute.
-63. Place the tubes back on the magnet, and transfer the 22 µL to a fresh low-binding 1.7-mL tube. The libraries can be stored at -20°C.
+60. Add 35 µL of SPRI beads to the sample (0.7x sample volume, for a 1.2x final ratio), mix well via pipetting, and incubate at room temperature for 5 minutes.
+61. Place tubes on the magnet and discard the supernatant. Wash the beads twice with 200 µL of 80% ethanol, without disturbing the beads
+    or removing the beads from the magnet (i.e., do not resuspend).
+62. Allow the beads to dry until they transition from shiny to matte in appearance, not longer than 5 minutes. Add 22 µL of DNA Purification Elution buffer, pipet to mix,
+    and incubate at room temperature for 1 minute.
+63. Place the tubes back on the magnet, and transfer the 22 µL to a fresh low-binding 1.7-mL tube, one tube per library. Since these are the final libraries, 
+    label the tubes well: include the date, genomics technique (e.g., "C&T lib"), and sample identification on a sticker on the cap. Store at –20°C. 
+    
 
 Perform in-house QC
 -------------------
 
-q. Quantify the resulting libraries both with the `NEB Library Quant kit </_static/files/neb_library_quant_kit_manual.pdf>`__ and by submitting a sample to the Fragment Analyzer in the BMC.
+q. Quantify the resulting libraries with the `NEB Library Quant kit </_static/files/neb_library_quant_kit_manual.pdf>`__ (protocol TODO).
+r. Run a sample of each library on the Fragment Analyzer in the BMC (protocol TODO).
+
+Pool libraries for sequencing
+-----------------------------
+
+s. TODO
