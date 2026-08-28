@@ -68,8 +68,7 @@ Preparation (N days before)
 - Order the CUT&Tag-IT Express and CUT&Tag Spike-in Control kits linked above. These typically ship within a few days of ordering.
   Store the reagents at the proper temperature:
 
-   - **Room temperature** (open bottles inside genomics hood): DNA Purification Binding Buffer, DNA Purification Wash Buffer, DNA Purification Elution Buffer
-   - **Room temperature** (cabinet under genomics hood): Tn5 Release Solution, extras of above buffers
+   - **Room temperature** (open bottles inside genomics hood, extras in cabinet): Tn5 Release Solution, DNA Purification Binding Buffer, DNA Purification Wash Buffer, DNA Purification Elution Buffer
    - **4ºC** (Sven drawer): 1X Binding Buffer, Dig-Wash Buffer, Dig-300 Buffer, Antibody Buffer, Tagmentation Buffer, ConA beads (tube), silica beads (tube), SPRI beads
    - **–20ºC** (Sven Active Motif box): Protease Inhibitor Cocktail (PIC), 5% Digitonin, secondary antibodies (alpaca anti-rabbit, rabbit anti-mouse), pA-Tn5 Transposomes, Glycogen, Proteinase K, i5 and i7 index primers
    - **–20ºC** (Sven CUT&Tag antibodies sleeve): primary antibodies, Spike-in control antibody
@@ -105,27 +104,33 @@ Prepare buffers
    These steps are not numbered in the original protocol. We use letters for steps
    that do not appear in the original protocol.
 
+.. note:: 
+   For all the solutions listed, make extra to account for pipetting loss across multiple samples.
+   A good rule of thumb is to make **10% extra** for all the recipes listed. For the Transposomes Master Mix, 
+   make a bit less than this, since the kit does not provide much extra of these reagents.
+   
+
 a. Defrost Protease Inhibitor Cocktail (PIC) on ice and 5% Digitonin at room temperature.
 b. Prepare Complete Antibody Buffer and Dig-Wash + PIC. Make extra of each of these!
    
    **Complete Antibody Buffer (51 µL / reaction)**
 
-   ============================= ====== =======================
-   Component                     Volume  36x (for 32 reactions)
-   ============================= ====== =======================
-   Antibody Buffer                50 µL  1800 µL
-   Protease Inhibitor Cocktail   0.5 µL    18 µL
-   5% Digitonin                  0.5 µL    18 µL
-   ============================= ====== =======================
+   ============================= ======
+   Component                     Volume
+   ============================= ====== 
+   Antibody Buffer                50 µL
+   Protease Inhibitor Cocktail   0.5 µL
+   5% Digitonin                  0.5 µL
+   ============================= ======
 
    **Dig-Wash + PIC (101 µL / reaction)**
 
-   ============================  ======= =======================
-   Component                     Volume   36x (for 32 reactions)
-   ============================  ======= =======================
-   Dig-Wash Buffer               100 µL   3.6 mL
-   Protease Inhibitor Cocktail   1 µL     36 µL
-   ============================  ======= =======================
+   ============================  =======
+   Component                     Volume 
+   ============================  =======
+   Dig-Wash Buffer               100 µL 
+   Protease Inhibitor Cocktail   1 µL  
+   ============================  =======
 
 Activate ConA beads
 -----------------------------
@@ -134,10 +139,10 @@ Activate ConA beads
    The original protocol suggests you do this before preparing the cells, but does not order the
    protocol in this way.
 
-1. Resuspend the ConA beads via trituration and aliquot 10 µL per sample in low-binding 1.7-mL tubes. Batch up to 80 µL (for 8 samples) per tube.
-2. Place tubes on the magnet. Once clear, remove the supernatant.
-3. Remove tubes from the magnet and resuspend in 100 µL of activation / binding buffer (Active Motif 1X Binding Buffer) per sample. This should be 10x the original bead volume. Incubate at room temperature for 10-15 minutes.
-4. Place tubes on the magnet and discard the supernatant once clear.
+6. Resuspend the ConA beads via trituration and aliquot 10 µL per sample in low-binding 1.7-mL tubes. Batch up to 80 µL (for 8 samples) per tube.
+7. Place tubes on the magnet. Once clear, remove the supernatant.
+8. Remove tubes from the magnet and resuspend in 100 µL of activation / binding buffer (Active Motif 1X Binding Buffer) per sample. This should be 10x the original bead volume. Incubate at room temperature for 10-15 minutes.
+9. Place tubes on the magnet and discard the supernatant once clear.
 
 c. If using the Cell Signaling Technology ConA beads, repeat the 100 µL wash step, as CST provides enough reagents
    for two washes.
@@ -221,16 +226,17 @@ Day 2
 =====
 
 .. time::
-   For 32 samples and one person: ~5 hours through tagmentation, ~4 hours for DNA extraction; **total ~9 hours**
+   - For 32 samples and one person: ~5 hours through tagmentation, ~4 hours for DNA extraction; **total ~9 hours**
+   - For 5 and 2 samples: 7 hours and 5.5 hours total, respectively
 
 Prepare buffers
 ------------------
 
 .. note::
 
-   The proposed volume in the Active Motif documentation is greatly in excess! The volumes
-   listed here are exactly the volumes you need, so you should make some excess, but not to the
-   extent that the official protocol does.
+   The proposed volumes in the Active Motif documentation are greatly in excess! As described above, a good rule of thumb 
+   is to make **10% extra** for all the recipes listed. For the Transposomes Master Mix, make a bit less, since 
+   the kit doesn't provide much extra of this reagent.
 
 h. Defrost Protease Inhibitor Cocktail (PIC) on ice and 5% Digitonin at room temperature.
 i. Prepare Complete Tagmentation Buffer, Complete Dig-300 Buffer, and Complete Dig-Wash buffer per condition. Make some excess.
@@ -241,51 +247,52 @@ i. Prepare Complete Tagmentation Buffer, Complete Dig-300 Buffer, and Complete D
    
    **Complete Tagmentation Buffer (40 µL / reaction)**
 
-   ============================= ======== ===========================
-   Component                     Volume     36x (for 32 reactions)
-   ============================= ======== ===========================
-   Tagmentation Buffer            40 µL     1440 µL
-   Protease Inhibitor Cocktail   0.4 µL     14.4 µL
-   5% Digitonin                  0.08 µL    2.88 µL
-   ============================= ======== ===========================
+   ============================= ======== 
+   Component                     Volume   
+   ============================= ======== 
+   Tagmentation Buffer            40 µL 
+   Protease Inhibitor Cocktail   0.4 µL 
+   5% Digitonin                  0.08 µL 
+   ============================= ======== 
 
    **Complete Dig-300 Buffer (500 µL / reaction)**
 
-   ============================  ====== ===========================
-   Component                     Volume  36x (for 32 reactions)
-   ============================  ====== ===========================
-   Dig-300 Buffer                500 µL  18 mL
-   Protease Inhibitor Cocktail     5 µL  180 µL
-   5% Digitonin                    1 µL  36 µL
-   ============================  ====== ===========================
+   ============================  ====== 
+   Component                     Volume
+   ============================  ====== 
+   Dig-300 Buffer                500 µL
+   Protease Inhibitor Cocktail     5 µL 
+   5% Digitonin                    1 µL
+   ============================  ======
 
    **Complete Dig-Wash Buffer (700 µL / reaction)**
 
-   ============================= ====== ===========================
-   Component                     Volume  36x (for 32 reactions)
-   ============================= ====== ===========================
-   Dig-wash Buffer               700 µL  25.2 mL
-   Protease Inhibitor Cocktail     7 µL  252 µL
-   5% Digitonin                    7 µL  252 µL
-   ============================= ====== ===========================
+   ============================= ====== 
+   Component                     Volume 
+   ============================= ====== 
+   Dig-wash Buffer               700 µL
+   Protease Inhibitor Cocktail     7 µL
+   5% Digitonin                    7 µL 
+   ============================= ====== 
 
 Bind secondary antibody
 -----------------------
 
-16.  Remove tubes from the Nutator and briefly spin to collect solution at the bottom. Place on the magnet and remove the supernatant.
-17.  Wash the beads by resuspending in 200 µL of Complete Dig-Wash Buffer. Transfer the solution to fresh PCR tubes and place the tubes back on the magnet.
+16. Remove tubes from the Nutator and briefly spin to collect solution at the bottom. Place on the magnet and remove the supernatant.
+17. Wash the beads by resuspending in 200 µL of Complete Dig-Wash Buffer. Transfer the solution to fresh PCR tubes and place the tubes back on the magnet.
 18. Prepare a secondary antibody master mix:
 
     **Secondary Master Mix (100 µL / reaction)**
 
-    ============================ ====== ===========================
-    Component                    Volume 34x (for 32 reactions)
-    ============================ ====== ===========================
-    Complete Dig-Wash Buffer     100 µL  3.4 mL
-    Secondary antibody             1 µL  34 µL
-    ============================ ====== ===========================
+    ============================ ====== 
+    Component                    Volume
+    ============================ ====== 
+    Complete Dig-Wash Buffer     100 µL 
+    Secondary antibody             1 µL
+    ============================ ====== 
 
     Remove the supernatant from the beads. Resuspend each sample in 100 µL of Secondary Master Mix.
+
 19. Place the tubes on a Nutator at room temperature for 15 minutes.
 20. Pipet gently to resuspend beads, then place back on the Nutator for another 15 minutes.
 21. Remove tubes from the Nutator and briefly spin to collect solution at the bottom.
@@ -299,12 +306,12 @@ Bind CUT&Tag-IT Assembled pA-Tn5 Transposomes
     
     **Transposomes Master Mix (101 µL / reaction)**
 
-    ==============================  ====== ===========================
-    Component                       Volume  34x (for 32 reactions)
-    ==============================  ====== ===========================
-    Complete Dig-300 Buffer         100 µL  3.4 mL
-    Assembled pA-Tn5 Transposomes   1 µL    34 µL
-    ==============================  ====== ===========================
+    ==============================  ====== 
+    Component                       Volume
+    ==============================  ======
+    Complete Dig-300 Buffer         100 µL
+    Assembled pA-Tn5 Transposomes   1 µL  
+    ==============================  ======
 
 26. Discard the supernatant.
 27. Add 100 µL of Transposomes Master Mix and pipet to resuspend the beads.
@@ -329,13 +336,13 @@ k. Prepare Complete Tn5 Release solution on ice. Vortex the Tn5 Release Solution
    
    **Complete Tn5 Release Solution (40 µL / reaction)**
 
-   ======================  ======= ===========================
-   Component               Volume   34x (for 32 reactions)
-   ======================  ======= ===========================
-   Tn5 Release Solution    40 µL    1360 µL
-   Glycogen                0.8 µL   27.2 µL
-   Proteinase K            0.8 µL   27.2 µL
-   ======================  ======= ===========================
+   ======================  =======
+   Component               Volume 
+   ======================  ======= 
+   Tn5 Release Solution    40 µL  
+   Glycogen                0.8 µL 
+   Proteinase K            0.8 µL 
+   ======================  =======
 
 Extact DNA 
 --------------
@@ -348,7 +355,7 @@ Extact DNA
 
       It is typical for the beads to form a large clump during the incubation. Do your best to mix
       here and in the next few steps; it will be difficult to fully homogenize the solution. This requires
-      **several minutes** of pipetting per sample at this step.
+      **at least 1 minute** of pipetting per sample at this step.
 
 40. Incubate the reaction for 1 hour at 55°C in a thermocycler, with the heated lid set to 65°C.
 
@@ -367,7 +374,7 @@ l. If the extraction buffers are new, follow the instructions on the bottles: ad
 44. While the samples are incubating, prepare the silica beads. Begin by vortexing the silica beads for at least 30 seconds.
 45. Pipet 25 µL of silica beads per sample into fresh PCR tubes. Place tubes on a magnet.
 
-m. Discard the supernatant from the silica beads, then take the beads off the magnet. Add 35 µL of DNA Purification Binding Buffer.
+m. Discard the supernatant from the silica beads, then take the beads off the magnet. Add 35 µL of DNA Purification Binding Buffer (yellow solution).
 
 n. When the samples are done incubating, pipet well until the bead/cell clump is broken up. Add 100 µL of DNA Purification Binding Buffer (60% IPA)
    to each sample to help with homogenization. Pipet with the volume set below 180 µL to avoid air bubbles.
@@ -395,11 +402,11 @@ Day 3+
 ======
 
 .. time::
-   Total: ~9 hours
+   Total: ~8 hours
       - Test PCR ~2.5 hours
-      - "Real" PCR and cleanup ~2.5 hours 
+      - "Real" PCR and cleanup ~2 hours 
       - Library QC ~2.5 hours
-      - Library pooling ~1 hour
+      - Library pooling <1 hour
 
 PCR amplify
 -----------

@@ -102,25 +102,23 @@ Protocol
      at the second hold.
 
 9. When the gel has finished running, image it on both on our imager and the ChemiDoc in the Niles lab for better quantification.
-10. While waiting on the gel to run, clean up the fourth set of subsamples (without loading dye) using SPRI beads.
-    Follow the instructions for general :doc:`magnetic bead cleanup for genomics </protocols/biochem_and_analytics/genomics_sequencing/magnetic_bead>`, with these parameters:
-   
-      - Use 0.9x volume of beads (6.3 µL beads into the 7-µL subsample)
-      - Elute in 20 µL of 0.1x TE
-    
+10. While waiting on the gel to run, clean up the final set of subsamples (without loading dye) using SPRI beads.
+
     .. note:: 
       You can alternatively use Ampure beads instead of SPRI beads if you plan to use these to clean up your final amplified libraries.
       Allow the Ampure beads to equilibrate to room temperature beforehand.
 
-   ..   a. Vortex the Ampure beads well.
-   ..   b. Add 0.9x (6.3 µL) of Ampure beads to each 7 µL Qubit sample, mix well via pipetting.
-   ..   c. Incubate at room temperature for 15 minutes.
-   ..   d. Place tubes on the magnetic rack. Remove the supernatant, and wash twice with 200 µL of freshly-prepared 80% EtOH
-   ..      without disturbing the beads (e.g. keep the tubes on the magnet).
-   ..   e. After the last wash step, remove residual EtOH using a P10.
-   ..   f. Air-dry the beads until the shiny-to-matte transition happens, not longer than 5 minutes.
-   ..   g. Add 20 µL of 0.1x TE to elute. Mix well via pipetting and incubate off-magnet for 2 minutes at room temperature.
-   ..   h. Place the tubes back on the magnet and transfer the supernatant to new PCR tubes.
+   a. Vortex the beads well.
+   b. Add 0.9x (6.3 µL) of beads to each 7-µL Qubit subsample and mix well via pipetting.
+   c. Incubate at room temperature for 15 minutes.
+   d. While waiting, prepare fresh 80% ethanol in water, enough for 400 µL per sample. Use the ethanol bottle labeled "genomics" in the flammables cabinet.
+   e. Place tubes on the magnetic rack and discard the supernatant.
+   f. Wash twice with 200 µL of 80% ethanol without disturbing the beads: keep the tubes on the magnet and do not pipet to resuspend.
+   g. Discard the second wash and start at 5-minute timer. Remove residual ethanol from the bottom and sides of the tube using a P10 pipet.
+   h. Air-dry the beads (i.e., with the tube caps open) until they transition from shiny to matte in appearance, not longer than the 5-minute timer.
+      An over-dried bead pellet will look cracked rather than smooth.
+   i. Add 20 µL of 0.1x TE to the tubes to elute the DNA. Mix well via pipetting and incubate off-magnet for 2 minutes at room temperature.
+   j. Place the tubes back on the magnet and transfer the supernatant to new PCR tubes.
 
 11. Quantify the cleaned-up samples on the Qubit in the BMC. Follow the Qubit protocol (TODO).
 
