@@ -66,6 +66,8 @@ sc-RNA-seq                             Droplet                 Low (core submiss
    :caption: Shared protocols
 
    test_pcrs
+   qubit
+   qpcr_lib_quant
 
 .. toctree::
    :maxdepth: 1

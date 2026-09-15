@@ -466,7 +466,7 @@ p. Vortex SPRI beads well, at least 30 seconds. Prepare fresh 80% ethanol for th
 Perform in-house QC
 -------------------
 
-q. Quantify the resulting libraries with the `NEB Library Quant kit </_static/files/neb_library_quant_kit_manual.pdf>`__ (protocol TODO).
+q. Quantify the resulting libraries via :doc:`qPCR with the NEBNext Library Quant Kit</protocols/biochem_and_analytics/genomics_sequencing/qpcr_lib_quant>`.
 r. Run a sample of each library on the Fragment Analyzer in the BMC (protocol TODO).
 
 Pool libraries for sequencing

@@ -90,25 +90,33 @@ Protocol
    .. note::
      We use Orange Loading Dye rather than Purple because the dye overlaps less with the DNA fragments we expect from the PCR. 
      This makes it easier to visualize bands in the imager. Orange Loading Dye is stored at room temperature in or next to the genomics hood.
+     **Pipet carefully**, as the dye sticks to the pipette tips.
 
-6. When the hold step is reached, do not hit enter to continue. Instead, pause the run, press the "Lid open" button, and
+6. When the hold step is reached, **do not hit enter to continue**. Instead, press "Stop" then "Lid open", and
    briefly take the tubes out. Use the multi-channel P10 to take a 7-µL subsample, combining it with the pre-prepared 3 µL of Orange Loading Dye for the gel.
-   For the Qubit subsamples, place the 7-µL sample into empty tubes.
-7. Place the tubes back in the thermocycler, close the lid, press "Lid close", press "Resume", then hit enter to continue past the hold. Repeat the subsampling at the next hold and at the end of the protocol.
+   For the Qubit subsamples, pipet the solution into empty tubes.
+
+   .. note:: 
+      Promptly take the subsamples to avoid leaving the thermocycler sitting at the hold step.
+
+7. Place the tubes back in the thermocycler and close the lid. Press "Lid close", then "Resume", and finally "Enter" to continue past the hold. Repeat the subsampling at the next hold and at the end of the protocol.
 8. Once the test PCR is complete, run the three subsamples per reaction on the prepared DNA gel. It is convenient to group the three subsamples per condition together, rather than grouping by cycle count.
 
-   .. note::
-     After removing the first subsamples, you can start loading the gel. Just don't forget to return to remove the next subsample 
-     at the second hold.
+    - After removing the first subsamples, you can start loading the gel (if you have many samples). Just don't forget to return to remove the next subsample 
+      at the second hold!
+    - Load the entire sample into the gel, pipetting carefully to ensure the solution stays in the well.
+    - Use 1.8 µL of Apex DNA Ladder II (`Genesee Scientific 42-431 <https://www.geneseesci.com/product/apex-quantitative-dna-ladders-i-ii-iii/?sku=42-431>`__) 
+      or NEB 1 kb Plus DNA Ladder (`NEB N3200 <https://www.geneseesci.com/product/apex-quantitative-dna-ladders-i-ii-iii/?sku=42-431>`__),  
+      since the expected bands are <1 kb. 
 
 9. When the gel has finished running, image it on both on our imager and the ChemiDoc in the Niles lab for better quantification.
-10. While waiting on the gel to run, clean up the final set of subsamples (without loading dye) using SPRI beads.
+10. While waiting on the gel to run, clean up the final set of subsamples (without loading dye) using SPRI beads (stored in a bottle at room temperature in the genomics hood).
 
     .. note:: 
       You can alternatively use Ampure beads instead of SPRI beads if you plan to use these to clean up your final amplified libraries.
       Allow the Ampure beads to equilibrate to room temperature beforehand.
 
-   a. Vortex the beads well.
+   a. Vortex the beads well, at least 30 seconds. Aliquot the total amount of beads needed into a 1.7-mL Eppendorf.
    b. Add 0.9x (6.3 µL) of beads to each 7-µL Qubit subsample and mix well via pipetting.
    c. Incubate at room temperature for 15 minutes.
    d. While waiting, prepare fresh 80% ethanol in water, enough for 400 µL per sample. Use the ethanol bottle labeled "genomics" in the flammables cabinet.
@@ -120,7 +128,7 @@ Protocol
    i. Add 20 µL of 0.1x TE to the tubes to elute the DNA. Mix well via pipetting and incubate off-magnet for 2 minutes at room temperature.
    j. Place the tubes back on the magnet and transfer the supernatant to new PCR tubes.
 
-11. Quantify the cleaned-up samples on the Qubit in the BMC. Follow the Qubit protocol (TODO).
+11. Quantify the cleaned-up samples on the Qubit in the BMC. Follow the :doc:`Qubit protocol </protocols/biochem_and_analytics/genomics_sequencing/qubit>`.
 
 .. If you are unsure about the concentration, prepare both a 1 µL samples and a 10 µL sample.
 
