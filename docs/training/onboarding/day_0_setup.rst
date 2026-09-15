@@ -7,8 +7,8 @@ Before beginning work in the lab, you must complete all required Environment, He
 New grad students and postdocs should also install or set up accounts for everything listed here; others should ask
 their mentor which are essential. 
 
-Check off each task as you complete it on the **lab Onboarding Form** (download the one for `grad students/postdocs </_static/iap_files/2026.07.27_onboarding-form_grad-postdoc.pdf>`_ 
-or `undergrads/visiting students </_static/iap_files/2026.07.27_onboarding-form_undergrad-visiting-student.pdf>`_).
+Check off each task as you complete it on the **lab Onboarding Form** (download the one for :download:`grad students/postdocs </_static/iap_files/2026.07.27_onboarding-form_grad-postdoc.pdf>` 
+or :download:`undergrads/visiting students </_static/iap_files/2026.07.27_onboarding-form_undergrad-visiting-student.pdf>`).
 The most recent forms are also located in `this folder <https://mitprod.sharepoint.com/:f:/s/GallowayLab/IgDFT2QaHvFyRK8T-mimny_OAWjTpmM18Te5DVKyJORWO10?e=KXd2iO>`_ 
 in the lab SharePoint.
 
@@ -490,8 +490,8 @@ Other
 * **Color palettes:** Having nice color-blind friendly, distinct colors is helpful when you begin creating graphics.
   Palettes help unify figures and convey consistent information via color.
 
-  You can download pre-created palettes for both `Illustrator <../../_static/iap_files/cat20_colors.ase>`__
-  and `Inkscape <../../_static/iap_files/cat20_colors.gpl>`__
+  You can download pre-created palettes for both :download:`Illustrator </_static/iap_files/cat20_colors.ase>`
+  and :download:`Inkscape </_static/iap_files/cat20_colors.gpl>`
   for the well-known Category20/20b color set, which is color-blind friendly (and becoming the default in more and more
   software packages):
 
@@ -504,7 +504,7 @@ Other
 
 * **Fonts:** *Helvetica Neue* is a good sans-serif font that is based on everyone's favorite font, Helvetica. 
   While not required, many people in lab use this font, so their files (e.g., PowerPoint, Illustrator) won't render well if you don't have it installed.
-  First, download it `here </_static/iap_files/HelveticaNeue.zip>`__ (macOS, Linux) or `here </_static/iap_files/WinNeue.zip>`__ (Windows).
+  First, download it :download:`here </_static/iap_files/HelveticaNeue.zip>` (macOS, Linux) or :download:`here </_static/iap_files/WinNeue.zip>` (Windows).
   Then, unzip the folder, select all the ``.tff`` files, and double click to open, which should prompt installation. Alternatively, 
   right click and select "Install font".
 
