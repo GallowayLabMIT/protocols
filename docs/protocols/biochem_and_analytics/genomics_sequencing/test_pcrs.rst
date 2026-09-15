@@ -128,15 +128,8 @@ Protocol
    i. Add 20 µL of 0.1x TE to the tubes to elute the DNA. Mix well via pipetting and incubate off-magnet for 2 minutes at room temperature.
    j. Place the tubes back on the magnet and transfer the supernatant to new PCR tubes.
 
-11. Quantify the cleaned-up samples on the Qubit in the BMC. Follow the :doc:`Qubit protocol </protocols/biochem_and_analytics/genomics_sequencing/qubit>`.
+11. Quantify the cleaned-up samples on the Qubit in the BMC. Follow the :doc:`Qubit protocol </instruments/core_facilities/qubit>`.
 
-.. If you are unsure about the concentration, prepare both a 1 µL samples and a 10 µL sample.
-
-..         a. Dilute the Qubit light-sensitive reagent 1:200 in Qubit dilution buffer to make working buffer. For 8 samples + 2 standards, this is 10 µL reagent + 1.990 dilution buffer.
-..         b. In Qubit tubes, dilute 10 µL of Standard 1 and Standard 2 with 190 µL of working buffer.
-..         c. In Qubit tubes, dilute 1 / 10 µL of each sample with 199 / 190 µL of working buffer.
-..         d. Vortex all tubes to mix well.
-..         e. Measure at the BMC. Multiply the given concentration by the dilution factor (20x or 200x).
 
 Determine the optimal cycle counts
 ----------------------------------
